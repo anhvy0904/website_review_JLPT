@@ -12,3 +12,4 @@ Vui lòng lưu các file ảnh WebP hoặc PNG tương ứng với các trang:
 - source-page-23.webp (Passage r-geopark: 読解 6 - 世界ジオパーク)
 - source-page-25.webp (Passage r-meiji: 読解 7 - 明治神宮の森)
 - source-page-28.webp (Passage r-notice: 読解 8 - 北東大学からのお知らせ)
+

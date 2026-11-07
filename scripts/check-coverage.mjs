@@ -25,3 +25,4 @@ for (const file of examFiles) {
 
 console.log("Missing kanji count:", missingKanji.size);
 console.log("Missing kanji:", Array.from(missingKanji).join(" "));
+

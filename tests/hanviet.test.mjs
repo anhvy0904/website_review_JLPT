@@ -123,3 +123,4 @@ describe("Tra Cứu Âm Hán Việt & Phân Tích Kanji (lib/hanviet.ts)", () =>
     assert.strictEqual(target.breakdown[1].hanViet, "THÀNH");
   });
 });
+
