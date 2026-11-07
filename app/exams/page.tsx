@@ -171,16 +171,18 @@ export default function ExamsPage() {
             >
               Chính thức ({exams.filter((e) => e.status === "published").length})
             </button>
-            <button
-              onClick={() => setSelectedStatus("draft")}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
-                selectedStatus === "draft"
-                  ? "bg-amber-500 text-white shadow-xs"
-                  : "text-slate-500 hover:text-slate-800"
-              }`}
-            >
-              Bản nháp ({exams.filter((e) => e.status === "draft").length})
-            </button>
+            {exams.some((e) => e.status === "draft") && (
+              <button
+                onClick={() => setSelectedStatus("draft")}
+                className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
+                  selectedStatus === "draft"
+                    ? "bg-amber-500 text-white shadow-xs"
+                    : "text-slate-500 hover:text-slate-800"
+                }`}
+              >
+                Bản nháp ({exams.filter((e) => e.status === "draft").length})
+              </button>
+            )}
           </div>
         </div>
       </div>
@@ -204,11 +206,7 @@ export default function ExamsPage() {
             return (
               <div
                 key={exam.id}
-                className={`bg-white rounded-3xl border p-6 shadow-xs hover:shadow-md transition-all flex flex-col justify-between ${
-                  exam.status === "draft"
-                    ? "border-amber-300 hover:border-amber-400"
-                    : "border-[#A5D6A7]/80 hover:border-[#66BB6A]"
-                }`}
+                className="bg-white rounded-3xl border border-[#A5D6A7]/80 hover:border-[#66BB6A] p-6 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
               >
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
@@ -216,11 +214,6 @@ export default function ExamsPage() {
                       <span className="text-xs font-bold px-2.5 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
                         {exam.level}
                       </span>
-                      {exam.status === "draft" && (
-                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 border border-amber-300">
-                          Bản nháp • Cần rà soát
-                        </span>
-                      )}
                     </div>
                     <span className={`text-[11px] font-semibold px-2.5 py-0.5 rounded-full border ${userStatus.color}`}>
                       {userStatus.label}

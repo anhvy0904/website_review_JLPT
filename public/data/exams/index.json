@@ -4,7 +4,7 @@
     "title": "ベスト模試 N3 — Đề 1 (không có phần nghe)",
     "description": "Bộ đề luyện N3 lấy từ bản PDF người dùng cung cấp: 35 câu từ vựng, 23 câu ngữ pháp và 16 câu đọc hiểu. Chưa có bảng đáp án gốc. Đáp án/giải thích hiện là đề xuất, bắt buộc kiểm duyệt trước khi xuất bản.",
     "level": "N3",
-    "status": "draft",
+    "status": "published",
     "questionCount": 74,
     "timeLimitMinutes": 100,
     "allowedModes": [
@@ -75,7 +75,7 @@
     "title": "JLPT N3 ベスト模試 — Đề 2 (Từ vựng • Ngữ pháp • Đọc hiểu)",
     "description": "Bộ đề ベスト模試 N3 Đề 2, không bao gồm nghe. 35 từ vựng, 23 ngữ pháp, 16 đọc hiểu. Bản số hóa chờ kiểm duyệt nội dung và đối chiếu hình ảnh nguồn.",
     "level": "N3",
-    "status": "draft",
+    "status": "published",
     "questionCount": 74,
     "timeLimitMinutes": 100,
     "allowedModes": [
@@ -126,7 +126,7 @@
     "title": "JLPT N3 ベスト模試 — Đề 3 (Từ vựng • Ngữ pháp • Đọc hiểu)",
     "description": "Bộ đề ベスト模試 N3 Đề 3, không bao gồm nghe. 35 từ vựng, 23 ngữ pháp, 16 đọc hiểu. Bản số hóa chờ kiểm duyệt nội dung và đối chiếu hình ảnh nguồn.",
     "level": "N3",
-    "status": "draft",
+    "status": "published",
     "questionCount": 74,
     "timeLimitMinutes": 100,
     "allowedModes": [
