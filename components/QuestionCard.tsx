@@ -13,6 +13,8 @@ interface QuestionCardProps {
   isFlagged: boolean;
   isChecked?: boolean; // Practice mode
   mode: "practice" | "exam";
+  examId?: string;
+  examTitle?: string;
   onSelectOption: (optionId: string) => void;
   onToggleFlag: () => void;
   onCheckAnswer?: () => void; // Practice mode
@@ -51,6 +53,8 @@ export function QuestionCard({
   isFlagged,
   isChecked = false,
   mode,
+  examId,
+  examTitle,
   onSelectOption,
   onToggleFlag,
   onCheckAnswer,
@@ -319,6 +323,8 @@ export function QuestionCard({
         <AnswerExplanation
           question={question}
           selectedOptionId={selectedOptionId}
+          examId={examId}
+          examTitle={examTitle}
         />
       )}
     </div>

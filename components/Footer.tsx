@@ -50,7 +50,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/flashcards" className="hover:text-[#1B5E20] transition-colors">
-                  200 Flashcard N3
+                  Flashcard Từ Vựng N3
                 </Link>
               </li>
               <li>

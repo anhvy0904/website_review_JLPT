@@ -109,7 +109,7 @@ export default function HomePage() {
                   className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-white border border-[#A5D6A7] text-[#1B5E20] font-semibold shadow-sm hover:bg-[#E8F5E9] active:scale-95 transition-all text-sm sm:text-base"
                 >
                   <Sparkles className="w-5 h-5 text-[#66BB6A]" />
-                  <span>200 Flashcard N3</span>
+                  <span>Flashcard Từ Vựng N3</span>
                 </Link>
               </div>
             </div>

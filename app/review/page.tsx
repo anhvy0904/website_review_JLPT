@@ -311,6 +311,8 @@ export default function ReviewPage() {
                     <AnswerExplanation
                       question={question}
                       selectedOptionId={selectedOpt || item.userAnswer}
+                      examId={item.examId}
+                      examTitle={item.examTitle}
                     />
                   </div>
                 )}

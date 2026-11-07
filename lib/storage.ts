@@ -4,6 +4,21 @@ const ATTEMPTS_KEY = "jlptn3:v1:attempts";
 const SURVEYS_KEY = "jlptn3:v1:surveys";
 const BOOKMARKS_KEY = "jlptn3:v1:bookmarks";
 const REPORTS_KEY = "jlptn3:v1:question_reports";
+const FLASHCARDS_LIST_KEY = "jlptn3:v1:flashcards_list";
+const FLASHCARDS_PROGRESS_KEY = "jlptn3:v1:flashcards_progress";
+
+export interface FlashcardItem {
+  id: string;
+  word: string;
+  reading: string;
+  meaning: string;
+  sinoVietnamese?: string;
+  example?: string;
+  examId?: string;
+  examTitle: string;
+  questionId?: string;
+  addedAt: string;
+}
 
 function isLocalStorageAvailable(): boolean {
   if (typeof window === "undefined") return false;
@@ -161,6 +176,124 @@ export function saveQuestionReport(report: QuestionReport): void {
   }
 }
 
+// FLASHCARDS STORAGE
+export function getAllFlashcards(): FlashcardItem[] {
+  if (!isLocalStorageAvailable()) return [];
+  try {
+    const raw = window.localStorage.getItem(FLASHCARDS_LIST_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (err) {
+    console.error("Lỗi đọc flashcards:", err);
+    return [];
+  }
+}
+
+export function isFlashcardSaved(word: string, examId?: string): boolean {
+  const cards = getAllFlashcards();
+  if (examId) {
+    return cards.some((c) => c.word === word && c.examId === examId);
+  }
+  return cards.some((c) => c.word === word);
+}
+
+export function saveFlashcard(card: Omit<FlashcardItem, "id" | "addedAt">): FlashcardItem {
+  const cards = getAllFlashcards();
+  const existingIndex = cards.findIndex(
+    (c) => c.word === card.word && (card.examId ? c.examId === card.examId : true)
+  );
+
+  const newCard: FlashcardItem = {
+    ...card,
+    id: `${card.examId || "general"}_${card.word}_${Date.now()}`,
+    addedAt: new Date().toISOString(),
+  };
+
+  if (existingIndex >= 0) {
+    cards[existingIndex] = { ...cards[existingIndex], ...newCard };
+  } else {
+    cards.unshift(newCard);
+  }
+
+  if (isLocalStorageAvailable()) {
+    window.localStorage.setItem(FLASHCARDS_LIST_KEY, JSON.stringify(cards));
+  }
+
+  return newCard;
+}
+
+export function removeFlashcard(word: string, examId?: string): void {
+  if (!isLocalStorageAvailable()) return;
+  const cards = getAllFlashcards().filter(
+    (c) => !(c.word === word && (examId ? c.examId === examId : true))
+  );
+  window.localStorage.setItem(FLASHCARDS_LIST_KEY, JSON.stringify(cards));
+}
+
+export function toggleFlashcard(card: Omit<FlashcardItem, "id" | "addedAt">): boolean {
+  if (isFlashcardSaved(card.word, card.examId)) {
+    removeFlashcard(card.word, card.examId);
+    return false;
+  } else {
+    saveFlashcard(card);
+    return true;
+  }
+}
+
+export function clearAllFlashcards(): void {
+  if (!isLocalStorageAvailable()) return;
+  window.localStorage.removeItem(FLASHCARDS_LIST_KEY);
+  window.localStorage.removeItem(FLASHCARDS_PROGRESS_KEY);
+}
+
+export function clearFlashcardsByExam(examId: string): void {
+  if (!isLocalStorageAvailable()) return;
+  const cards = getAllFlashcards().filter((c) => c.examId !== examId);
+  window.localStorage.setItem(FLASHCARDS_LIST_KEY, JSON.stringify(cards));
+}
+
+export function getFlashcardFolders(): { examId: string; examTitle: string; count: number }[] {
+  const cards = getAllFlashcards();
+  const folderMap = new Map<string, { examId: string; examTitle: string; count: number }>();
+
+  for (const card of cards) {
+    const key = card.examId || "general";
+    const existing = folderMap.get(key);
+    if (existing) {
+      existing.count += 1;
+    } else {
+      folderMap.set(key, {
+        examId: key,
+        examTitle: card.examTitle || "Từ vựng chung",
+        count: 1,
+      });
+    }
+  }
+
+  return Array.from(folderMap.values());
+}
+
+export function getFlashcardsProgress(): { starred: string[]; mastered: string[] } {
+  if (!isLocalStorageAvailable()) return { starred: [], mastered: [] };
+  try {
+    const raw = window.localStorage.getItem(FLASHCARDS_PROGRESS_KEY);
+    if (!raw) return { starred: [], mastered: [] };
+    const parsed = JSON.parse(raw);
+    return {
+      starred: Array.isArray(parsed.starred) ? parsed.starred : [],
+      mastered: Array.isArray(parsed.mastered) ? parsed.mastered : [],
+    };
+  } catch {
+    return { starred: [], mastered: [] };
+  }
+}
+
+export function saveFlashcardsProgress(progress: { starred: string[]; mastered: string[] }): void {
+  if (!isLocalStorageAvailable()) return;
+  window.localStorage.setItem(FLASHCARDS_PROGRESS_KEY, JSON.stringify(progress));
+}
+
 // BACKUP & RESTORE
 export interface BackupData {
   version: "1.0.0";
@@ -169,6 +302,8 @@ export interface BackupData {
   surveys: ExamSurvey[];
   bookmarks: string[];
   reports?: (QuestionReport & { createdAt: string })[];
+  flashcards?: FlashcardItem[];
+  flashcardsProgress?: { starred: string[]; mastered: string[] };
 }
 
 export function exportUserData(): string {
@@ -179,6 +314,8 @@ export function exportUserData(): string {
     surveys: getAllSurveys(),
     bookmarks: getBookmarkedQuestions(),
     reports: getAllQuestionReports(),
+    flashcards: getAllFlashcards(),
+    flashcardsProgress: getFlashcardsProgress(),
   };
   return JSON.stringify(backup, null, 2);
 }
@@ -203,10 +340,16 @@ export function importUserData(jsonString: string): { success: boolean; message:
     if (Array.isArray(parsed.reports)) {
       window.localStorage.setItem(REPORTS_KEY, JSON.stringify(parsed.reports));
     }
+    if (Array.isArray(parsed.flashcards)) {
+      window.localStorage.setItem(FLASHCARDS_LIST_KEY, JSON.stringify(parsed.flashcards));
+    }
+    if (parsed.flashcardsProgress) {
+      window.localStorage.setItem(FLASHCARDS_PROGRESS_KEY, JSON.stringify(parsed.flashcardsProgress));
+    }
 
     return {
       success: true,
-      message: `Đã khôi phục thành công ${parsed.attempts.length} lượt làm bài, ${parsed.surveys?.length || 0} khảo sát và ${parsed.bookmarks?.length || 0} câu đã ghim!`,
+      message: `Đã khôi phục thành công ${parsed.attempts.length} lượt làm bài, ${parsed.surveys?.length || 0} khảo sát, ${parsed.bookmarks?.length || 0} câu đã ghim và ${parsed.flashcards?.length || 0} thẻ flashcard!`,
       count: parsed.attempts.length,
     };
   } catch (err: any) {

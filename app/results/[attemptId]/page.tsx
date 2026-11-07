@@ -349,6 +349,8 @@ export default function ResultsPage() {
                   <AnswerExplanation
                     question={q}
                     selectedOptionId={qr.selectedOptionId}
+                    examId={exam.id}
+                    examTitle={exam.title}
                   />
                 </div>
               );

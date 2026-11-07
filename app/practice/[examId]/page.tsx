@@ -390,6 +390,8 @@ function PracticeContent() {
               isFlagged={flaggedQuestionIds.includes(currentQuestion.id)}
               isChecked={checkedQuestionIds.includes(currentQuestion.id)}
               mode={mode}
+              examId={exam.id}
+              examTitle={exam.title}
               onSelectOption={handleSelectOption}
               onToggleFlag={handleToggleFlag}
               onCheckAnswer={handleCheckAnswer}

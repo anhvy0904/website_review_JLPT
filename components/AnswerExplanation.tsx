@@ -1,13 +1,18 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { ExamQuestion } from "@/lib/types";
 import { FuriganaRuby } from "./FuriganaRuby";
 import { AITutorChat } from "./AITutorChat";
 import { AnnotatedTextWithHanViet } from "./AnnotatedTextWithHanViet";
 import { getHanViet, getQuestionKanjiTarget } from "@/lib/hanviet";
-import { saveQuestionReport } from "@/lib/storage";
+import {
+  saveQuestionReport,
+  isFlashcardSaved,
+  saveFlashcard,
+  removeFlashcard,
+} from "@/lib/storage";
 import {
   CheckCircle2,
   XCircle,
@@ -20,17 +25,23 @@ import {
   Send,
   Check,
   ArrowRight,
+  Plus,
+  Trash2,
 } from "lucide-react";
 
 interface AnswerExplanationProps {
   question: ExamQuestion;
   selectedOptionId?: string;
+  examId?: string;
+  examTitle?: string;
   className?: string;
 }
 
 export function AnswerExplanation({
   question,
   selectedOptionId,
+  examId,
+  examTitle,
   className = "",
 }: AnswerExplanationProps) {
   const isCorrect = selectedOptionId === question.correctOptionId;
@@ -60,6 +71,73 @@ export function AnswerExplanation({
   const selectedOption = question.options.find((o) => o.id === selectedOptionId);
   const correctOption = question.options.find((o) => o.id === question.correctOptionId);
   const kanjiTarget = getQuestionKanjiTarget(question);
+
+  // Determine examId & examTitle (explicit or inferred from questionId)
+  const inferExamMeta = (qid: string) => {
+    if (qid.startsWith("n3-best-moshi-01")) {
+      return { id: "n3-best-moshi-01", title: "ベスト模試 N3 — Đề 1" };
+    }
+    if (qid.startsWith("n3-kanji-reading-50")) {
+      return { id: "n3-kanji-reading-50", title: "Đề Thi Thực Chiến Chữ Hán - 50 Câu Đọc Kanji" };
+    }
+    if (qid.startsWith("n3-kanji-writing-46")) {
+      return { id: "n3-kanji-writing-46", title: "Đề Thi Thực Chiến Chữ Hán - 46 Câu Viết Kanji" };
+    }
+    return { id: "general", title: "Kho Đề Thi JLPT N3" };
+  };
+
+  const inferred = inferExamMeta(question.id);
+  const resolvedExamId = examId || inferred.id;
+  const resolvedExamTitle = examTitle || inferred.title;
+
+  const [savedVocab, setSavedVocab] = useState<Record<string, boolean>>({});
+
+  useEffect(() => {
+    if (explanation.vocabulary && explanation.vocabulary.length > 0) {
+      const map: Record<string, boolean> = {};
+      for (const v of explanation.vocabulary) {
+        map[v.word] = isFlashcardSaved(v.word, resolvedExamId);
+      }
+      setSavedVocab(map);
+    }
+  }, [explanation.vocabulary, resolvedExamId]);
+
+  const handleToggleFlashcard = (v: { word: string; hiragana: string; meaningVi: string }) => {
+    const isSaved = !!savedVocab[v.word];
+    if (isSaved) {
+      removeFlashcard(v.word, resolvedExamId);
+      setSavedVocab((prev) => ({ ...prev, [v.word]: false }));
+    } else {
+      saveFlashcard({
+        word: v.word,
+        reading: v.hiragana,
+        meaning: v.meaningVi,
+        sinoVietnamese: getHanViet(v.word),
+        examId: resolvedExamId,
+        examTitle: resolvedExamTitle,
+        questionId: question.id,
+      });
+      setSavedVocab((prev) => ({ ...prev, [v.word]: true }));
+    }
+  };
+
+  const handleAddAllVocabToFlashcard = () => {
+    if (!explanation.vocabulary) return;
+    const newMap = { ...savedVocab };
+    for (const v of explanation.vocabulary) {
+      saveFlashcard({
+        word: v.word,
+        reading: v.hiragana,
+        meaning: v.meaningVi,
+        sinoVietnamese: getHanViet(v.word),
+        examId: resolvedExamId,
+        examTitle: resolvedExamTitle,
+        questionId: question.id,
+      });
+      newMap[v.word] = true;
+    }
+    setSavedVocab(newMap);
+  };
 
   // Detect related learning module per PRD Addendum Section A3
   const getRelatedTopicLink = () => {
@@ -291,39 +369,87 @@ export function AnswerExplanation({
           </div>
         )}
 
-        {/* Từ vựng quan trọng (với Furigana & Âm Hán Việt) */}
+        {/* Từ vựng quan trọng (với Furigana, Âm Hán Việt & Nút Flashcard) */}
         {explanation.vocabulary && explanation.vocabulary.length > 0 && (
-          <div className="space-y-2.5">
-            <div className="flex items-center gap-2 text-slate-900 font-semibold text-sm">
-              <BookA className="w-4 h-4 text-indigo-600" />
-              <span>Từ vựng trọng tâm N3</span>
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <div className="flex items-center gap-2 text-slate-900 font-semibold text-sm">
+                <BookA className="w-4 h-4 text-[#1B5E20]" />
+                <span>Từ vựng trọng tâm N3 ({explanation.vocabulary.length} từ)</span>
+              </div>
+              <button
+                type="button"
+                onClick={handleAddAllVocabToFlashcard}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#E8F5E9] hover:bg-[#A5D6A7]/40 text-[#1B5E20] border border-[#A5D6A7] text-xs font-bold transition-all shadow-2xs active:scale-95 cursor-pointer"
+                title="Lưu tất cả từ vựng này vào Flashcard"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-[#2E7D32]" />
+                <span>+ Lưu cả bộ vào Flashcard</span>
+              </button>
             </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
               {explanation.vocabulary.map((v, i) => {
                 const vHanViet = getHanViet(v.word);
+                const isSaved = !!savedVocab[v.word];
+
                 return (
                   <div
                     key={i}
-                    className="flex items-center justify-between p-3 rounded-xl bg-white border border-slate-200 hover:border-[#A5D6A7] transition-all text-sm"
+                    className={`flex flex-col justify-between p-3.5 rounded-2xl border transition-all text-sm gap-2 ${
+                      isSaved
+                        ? "bg-[#E8F5E9]/50 border-[#A5D6A7] shadow-xs"
+                        : "bg-white border-slate-200 hover:border-[#A5D6A7]"
+                    }`}
                   >
-                    <div className="space-y-1">
-                      <FuriganaRuby
-                        word={v.word}
-                        hiragana={v.hiragana}
-                        className="text-base font-bold text-slate-900"
-                      />
-                      {vHanViet && (
-                        <div className="text-[11px] font-bold text-[#1B5E20] flex items-center gap-1">
-                          <span className="text-slate-400 font-normal">Hán Việt:</span>
-                          <span className="px-1.5 py-0.2 rounded bg-[#E8F5E9] border border-[#A5D6A7]/70">
-                            {vHanViet}
-                          </span>
-                        </div>
-                      )}
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="space-y-1">
+                        <FuriganaRuby
+                          word={v.word}
+                          hiragana={v.hiragana}
+                          className="text-base font-bold text-slate-900"
+                        />
+                        {vHanViet && (
+                          <div className="text-[11px] font-bold text-[#1B5E20] flex items-center gap-1">
+                            <span className="text-slate-400 font-normal">Hán Việt:</span>
+                            <span className="px-1.5 py-0.2 rounded bg-white border border-[#A5D6A7]/70">
+                              {vHanViet}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Nút bấm Thêm vào Flashcard */}
+                      <button
+                        type="button"
+                        onClick={() => handleToggleFlashcard(v)}
+                        className={`inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 shadow-2xs active:scale-95 cursor-pointer ${
+                          isSaved
+                            ? "bg-[#1B5E20] text-white hover:bg-rose-600 border border-[#1B5E20]"
+                            : "bg-[#E8F5E9] text-[#1B5E20] hover:bg-[#A5D6A7]/60 border border-[#A5D6A7]"
+                        }`}
+                        title={isSaved ? "Nhấn để xóa khỏi Flashcard" : "Lưu vào Flashcard để học"}
+                      >
+                        {isSaved ? (
+                          <>
+                            <Check className="w-3.5 h-3.5" />
+                            <span>Đã lưu</span>
+                          </>
+                        ) : (
+                          <>
+                            <Plus className="w-3.5 h-3.5" />
+                            <span>+ Flashcard</span>
+                          </>
+                        )}
+                      </button>
                     </div>
-                    <span className="text-xs text-slate-600 font-medium text-right ml-2">
-                      {v.meaningVi}
-                    </span>
+
+                    <div className="pt-2 border-t border-slate-100/80 flex items-center justify-between text-xs gap-2">
+                      <span className="text-slate-600 font-medium">{v.meaningVi}</span>
+                      <span className="text-[10px] text-slate-400 truncate max-w-[130px]" title={resolvedExamTitle}>
+                        📁 {resolvedExamTitle}
+                      </span>
+                    </div>
                   </div>
                 );
               })}
