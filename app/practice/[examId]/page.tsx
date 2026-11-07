@@ -231,6 +231,13 @@ function PracticeContent() {
       ...prev,
       [currentQuestion.id]: optionId,
     }));
+
+    // In practice mode: Immediately reveal right/wrong and show explanation without waiting for Check Answer button
+    if (mode === "practice") {
+      setCheckedQuestionIds((prev) =>
+        prev.includes(currentQuestion.id) ? prev : [...prev, currentQuestion.id]
+      );
+    }
   };
 
   const handleToggleFlag = () => {

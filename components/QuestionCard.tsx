@@ -112,13 +112,7 @@ export function QuestionCard({
       // Enter key
       if (e.key === "Enter") {
         e.preventDefault();
-        if (mode === "practice") {
-          if (!isChecked && onCheckAnswer && selectedOptionId) {
-            onCheckAnswer();
-          } else if (isChecked) {
-            onNext();
-          }
-        }
+        onNext();
       }
 
       // Arrow keys
@@ -137,7 +131,6 @@ export function QuestionCard({
       question.options,
       onSelectOption,
       onToggleFlag,
-      onCheckAnswer,
       selectedOptionId,
       onNext,
       onPrev,
@@ -283,23 +276,11 @@ export function QuestionCard({
           </button>
 
           <div className="flex items-center gap-2">
-            {/* Practice Mode: Check Answer Button */}
-            {mode === "practice" && !isChecked && (
-              <button
-                onClick={onCheckAnswer}
-                disabled={!selectedOptionId}
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-indigo-600 text-white text-sm font-semibold shadow-sm hover:bg-indigo-700 active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed transition-all"
-              >
-                <CheckCircle2 className="w-4 h-4" />
-                <span>Kiểm tra đáp án</span>
-              </button>
-            )}
-
             {/* Next Button or Submit Button */}
             {mode === "exam" && isLastQuestion ? (
               <button
                 onClick={onSubmitExam}
-                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-emerald-600 text-white text-sm font-bold shadow-md hover:bg-emerald-700 active:scale-95 transition-all"
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-emerald-600 text-white text-sm font-bold shadow-md hover:bg-emerald-700 active:scale-95 transition-all cursor-pointer"
               >
                 <span>Nộp bài thi</span>
                 <CheckCircle2 className="w-4 h-4" />
@@ -307,10 +288,9 @@ export function QuestionCard({
             ) : (
               <button
                 onClick={onNext}
-                disabled={isLastQuestion && mode === "practice" && !isChecked}
-                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-slate-900 text-white text-sm font-semibold hover:bg-slate-800 active:scale-95 transition-all disabled:opacity-40"
+                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-slate-900 text-white text-sm font-semibold hover:bg-slate-800 active:scale-95 transition-all cursor-pointer"
               >
-                <span>{isLastQuestion ? "Hoàn thành" : "Câu tiếp theo"}</span>
+                <span>{isLastQuestion ? (mode === "practice" ? "Xem kết quả & nộp bài" : "Hoàn thành") : "Câu tiếp theo"}</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             )}
