@@ -882,3 +882,4 @@ const examData = {
 
 fs.writeFileSync(examOutPath, JSON.stringify(examData, null, 2), "utf8");
 console.log(`✅ Đã tạo thành công file đề thi: ${examOutPath} với 25 câu hỏi chuẩn Schema 1.0.0!`);
+

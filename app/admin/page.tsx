@@ -81,11 +81,11 @@ export default function AdminPage() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="space-y-1">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-xs font-semibold">
-            <ShieldCheck className="w-3.5 h-3.5" />
-            <span>Khu vực Quản trị (Admin Portal)</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8F5E9] border border-[#A5D6A7] text-[#1B5E20] text-xs font-semibold">
+            <ShieldCheck className="w-3.5 h-3.5 text-[#2E7D32]" />
+            <span>Khu vực Quản trị (Admin Portal) • VuyAnh 🌸</span>
           </div>
-          <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+          <h1 className="text-3xl font-extrabold text-[#1B5E20] tracking-tight">
             Quản Lý & Kiểm Duyệt Đề Thi
           </h1>
           <p className="text-sm text-slate-600">
@@ -95,9 +95,9 @@ export default function AdminPage() {
 
         <Link
           href="/admin/exams/import"
-          className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-indigo-600 text-white text-sm font-bold shadow-md shadow-indigo-100 hover:bg-indigo-700 transition-all shrink-0"
+          className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-[#1B5E20] hover:bg-[#2E7D32] border border-[#66BB6A]/40 text-white text-sm font-bold shadow-md transition-all shrink-0"
         >
-          <Plus className="w-5 h-5" />
+          <Plus className="w-5 h-5 text-[#A5D6A7]" />
           <span>Thẩm định & Nhập đề mới AI</span>
         </Link>
       </div>

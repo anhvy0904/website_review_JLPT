@@ -169,11 +169,11 @@ Nguyên tắc KHÔNG ĐƯỢC VI PHẠM:
             <span>Quay lại Admin Portal</span>
           </Link>
           <div className="flex items-center gap-2">
-            <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+            <h1 className="text-3xl font-extrabold text-[#1B5E20] tracking-tight">
               AI Exam Importer & Kiểm Duyệt Đề
             </h1>
-            <span className="text-xs font-bold px-2.5 py-0.5 rounded-full bg-purple-100 text-purple-800 border border-purple-200">
-              Google Gemini Powered
+            <span className="text-xs font-bold px-2.5 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
+              Claude & Gemini AI Powered
             </span>
           </div>
           <p className="text-sm text-slate-600 mt-1">
@@ -313,17 +313,17 @@ Nguyên tắc KHÔNG ĐƯỢC VI PHẠM:
                 type="button"
                 disabled={!uploadedFile || isExtracting}
                 onClick={handleStartAIExtraction}
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 active:scale-95 text-white font-bold text-sm shadow-md shadow-purple-100 flex items-center justify-center gap-2.5 disabled:opacity-50 transition-all"
+                className="w-full py-4 rounded-2xl bg-[#1B5E20] hover:bg-[#2E7D32] border border-[#66BB6A]/40 active:scale-95 text-white font-bold text-sm shadow-md flex items-center justify-center gap-2.5 disabled:opacity-50 transition-all"
               >
                 {isExtracting ? (
                   <>
-                    <Loader2 className="w-5 h-5 animate-spin" />
-                    <span>Gemini AI đang phân tích tài liệu và cấu trúc hóa đề thi...</span>
+                    <Loader2 className="w-5 h-5 animate-spin text-[#A5D6A7]" />
+                    <span>AI đang phân tích tài liệu và cấu trúc hóa đề thi...</span>
                   </>
                 ) : (
                   <>
-                    <Sparkles className="w-5 h-5 text-purple-200" />
-                    <span>Bắt đầu phân tích & Trích xuất bằng Gemini AI</span>
+                    <Sparkles className="w-5 h-5 text-[#A5D6A7]" />
+                    <span>Bắt đầu phân tích & Trích xuất bằng AI (Claude / Gemini)</span>
                   </>
                 )}
               </button>

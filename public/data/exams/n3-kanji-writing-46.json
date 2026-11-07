@@ -1,0 +1,2516 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "n3-kanji-writing-46",
+  "title": "Đề Thi Thực Chiến Chữ Hán N3 - Phần 2: Cách Viết Kanji (46 Câu)",
+  "level": "N3",
+  "status": "published",
+  "description": "Bộ đề trắc nghiệm chuẩn hoá 46 câu hỏi Mondai 2 (Chọn chữ Hán thích hợp) trích xuất trực tiếp từ giáo trình thực chiến JLPT N3 Kosei Nihongo. Phân tích bộ thủ, âm Hán Việt và giải thích cặn kẽ từng bẫy chữ Hán.",
+  "settings": {
+    "timeLimitMinutes": 35,
+    "passingScorePercent": 60,
+    "allowPracticeMode": true,
+    "allowExamMode": true
+  },
+  "sectionCounts": {
+    "vocabulary": 46,
+    "grammar": 0,
+    "reading": 0
+  },
+  "questionCount": 46,
+  "tags": [
+    "chữ hán",
+    "cách viết kanji",
+    "mondai 2",
+    "thực chiến n3",
+    "kosei"
+  ],
+  "createdAt": "2026-11-07T05:07:46.014Z",
+  "updatedAt": "2026-11-07T05:07:46.014Z",
+  "questions": [
+    {
+      "id": "kw_01",
+      "number": 1,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "あの自転車、【かして】いただけませんか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "貝して"
+        },
+        {
+          "id": "2",
+          "text": "科して"
+        },
+        {
+          "id": "3",
+          "text": "借して"
+        },
+        {
+          "id": "4",
+          "text": "貸して"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "かして là thể て của 貸す (THẢI: cho mượn), viết chữ Hán là 貸して.",
+        "correctReasonVi": "貸す (cho mượn) viết là 貸. Phân biệt với 借りる (mượn - TÁ 借).",
+        "optionReasonsVi": {
+          "1": "Sai. 貝 là con sò.",
+          "2": "Sai. 科 là khoa.",
+          "3": "Sai. 借 là TÁ (かりる - đi mượn của người khác).",
+          "4": "Đúng. 貸して (THẢI: cho người khác mượn)."
+        },
+        "translationVi": "Bạn có thể cho tôi mượn chiếc xe đạp đó được không?",
+        "vocabulary": [
+          {
+            "word": "貸す",
+            "hiragana": "かす",
+            "meaningVi": "cho mượn"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified",
+        "notes": "Từ ảnh gốc Kosei trang 22"
+      }
+    },
+    {
+      "id": "kw_02",
+      "number": 2,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "父親は子どもを【すくおう】として川に飛びこんだ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "泳おう"
+        },
+        {
+          "id": "2",
+          "text": "助おう"
+        },
+        {
+          "id": "3",
+          "text": "救おう"
+        },
+        {
+          "id": "4",
+          "text": "守おう"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 3,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "すくおう là thể ý chí của 救う (CỨU: cứu giúp), viết là 救おう.",
+        "correctReasonVi": "救う (すくう): cứu vớt khỏi tai nạn, nguy hiểm.",
+        "optionReasonsVi": {
+          "1": "Sai. 泳 là VỊNH (泳ぐ - およぐ).",
+          "2": "Sai. 助 là TRỢ (助ける - たすける).",
+          "3": "Đúng. 救おう (CỨU - すくおう): định cứu vớt.",
+          "4": "Sai. 守 là THỦ (守る - まもる)."
+        },
+        "translationVi": "Người cha định cứu đứa con nên đã nhảy lao xuống dòng sông.",
+        "vocabulary": [
+          {
+            "word": "救う",
+            "hiragana": "すくう",
+            "meaningVi": "cứu vớt"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_03",
+      "number": 3,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "できるだけ食べ物を【のこさない】ようにしている。",
+      "options": [
+        {
+          "id": "1",
+          "text": "残さない"
+        },
+        {
+          "id": "2",
+          "text": "別さない"
+        },
+        {
+          "id": "3",
+          "text": "余さない"
+        },
+        {
+          "id": "4",
+          "text": "費さない"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "のこさない là dạng phủ định của 残す (TÀN: để lại, bỏ thừa), viết là 残さない.",
+        "correctReasonVi": "残す (のこす): để thừa lại đồ ăn.",
+        "optionReasonsVi": {
+          "1": "Đúng. 残さない: không bỏ thừa đồ ăn.",
+          "2": "Sai. 別 là BIỆT (別れる).",
+          "3": "Sai. 余 là DƯ (余る - あまる).",
+          "4": "Sai. 費 là PHÍ (費用)."
+        },
+        "translationVi": "Tôi luôn cố gắng không để thừa lại thức ăn hết mức có thể.",
+        "vocabulary": [
+          {
+            "word": "残す",
+            "hiragana": "のこす",
+            "meaningVi": "để lại, bỏ thừa"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_04",
+      "number": 4,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "かぜは三日で【なおった】。",
+      "options": [
+        {
+          "id": "1",
+          "text": "直った"
+        },
+        {
+          "id": "2",
+          "text": "治った"
+        },
+        {
+          "id": "3",
+          "text": "拾った"
+        },
+        {
+          "id": "4",
+          "text": "置った"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "なおった trong ngữ cảnh 'khỏi bệnh cảm' viết là 治った (TRỊ).",
+        "correctReasonVi": "治る (Trị): khỏi ốm, khỏi bệnh. Phân biệt với 直る (Trực): đồ vật hỏng được sửa xong.",
+        "optionReasonsVi": {
+          "1": "Sai. 直った dùng cho máy móc, thói quen được sửa chữa.",
+          "2": "Đúng. 治った: khỏi bệnh.",
+          "3": "Sai. 拾った là nhặt được (拾う).",
+          "4": "Sai. 置った là đặt để (置く)."
+        },
+        "translationVi": "Cơn cảm cúm đã khỏi sau ba ngày.",
+        "vocabulary": [
+          {
+            "word": "治る",
+            "hiragana": "なおる",
+            "meaningVi": "khỏi bệnh"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_05",
+      "number": 5,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "休みの日に、パンやケーキを【やいたり】します。",
+      "options": [
+        {
+          "id": "1",
+          "text": "灯いた"
+        },
+        {
+          "id": "2",
+          "text": "熱いた"
+        },
+        {
+          "id": "3",
+          "text": "焼いた"
+        },
+        {
+          "id": "4",
+          "text": "照いた"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "やいたり là thể たり của 焼く (THIÊU: nướng bánh), viết chữ Hán là 焼いた.",
+        "correctReasonVi": "焼く (やく): nướng bánh mì, nướng thịt.",
+        "optionReasonsVi": {
+          "1": "Sai. 灯 là ĐĂNG (bóng đèn).",
+          "2": "Sai. 熱 là NHIỆT (nóng).",
+          "3": "Đúng. 焼いた (THIÊU): nướng.",
+          "4": "Sai. 照 là CHIẾU (chiếu sáng)."
+        },
+        "translationVi": "Vào ngày nghỉ, tôi thường nướng bánh mì hoặc làm bánh ngọt.",
+        "vocabulary": [
+          {
+            "word": "焼く",
+            "hiragana": "やく",
+            "meaningVi": "nướng"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_06",
+      "number": 6,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "銀行はその角を右に【まがると】左にあります。",
+      "options": [
+        {
+          "id": "1",
+          "text": "皿がる"
+        },
+        {
+          "id": "2",
+          "text": "直がる"
+        },
+        {
+          "id": "3",
+          "text": "囲がる"
+        },
+        {
+          "id": "4",
+          "text": "曲がる"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "まがると viết chữ Hán là 曲がると (KHÚC: rẽ, quẹo).",
+        "correctReasonVi": "曲がる (まがる): rẽ phải, rẽ trái ở góc phố.",
+        "optionReasonsVi": {
+          "1": "Sai. 皿 là MÃNH (cái đĩa).",
+          "2": "Sai. 直 là TRỰC (thẳng).",
+          "3": "Sai. 囲 là VI (bao quanh).",
+          "4": "Đúng. 曲がる (KHÚC): rẽ."
+        },
+        "translationVi": "Ngân hàng nằm ở bên tay trái khi bạn rẽ phải ở góc đường đó.",
+        "vocabulary": [
+          {
+            "word": "曲がる",
+            "hiragana": "まがる",
+            "meaningVi": "rẽ, quẹo"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_07",
+      "number": 7,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "部屋を出るとき、電気を【けした】。",
+      "options": [
+        {
+          "id": "1",
+          "text": "停した"
+        },
+        {
+          "id": "2",
+          "text": "消した"
+        },
+        {
+          "id": "3",
+          "text": "閉した"
+        },
+        {
+          "id": "4",
+          "text": "止した"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "けした là thể quá khứ của 消す (TIÊU: tắt đèn), viết là 消した.",
+        "correctReasonVi": "消す (けす): tắt điện, dập lửa, xóa đi.",
+        "optionReasonsVi": {
+          "1": "Sai. 停 là ĐÌNH.",
+          "2": "Đúng. 消した (TIÊU): đã tắt đèn.",
+          "3": "Sai. 閉 là BẾ (đóng cửa).",
+          "4": "Sai. 止 là CHỈ (dừng lại)."
+        },
+        "translationVi": "Khi ra khỏi phòng, tôi đã tắt điện.",
+        "vocabulary": [
+          {
+            "word": "消す",
+            "hiragana": "けす",
+            "meaningVi": "tắt, xóa"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_08",
+      "number": 8,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "旅行の【ひよう】は3万円です。",
+      "options": [
+        {
+          "id": "1",
+          "text": "費要"
+        },
+        {
+          "id": "2",
+          "text": "貝用"
+        },
+        {
+          "id": "3",
+          "text": "費用"
+        },
+        {
+          "id": "4",
+          "text": "貝要"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "Từ ひよう viết chữ Hán đúng là 費用 (PHÍ DỤNG: chi phí).",
+        "correctReasonVi": "費 (PHÍ: chi tiêu) + 用 (DỤNG) = 費用 (ひよう).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 要.",
+          "2": "Sai chữ 貝.",
+          "3": "Đúng. 費用 (ひよう): chi phí chuyến đi.",
+          "4": "Sai cả 2 chữ."
+        },
+        "translationVi": "Chi phí của chuyến du lịch là 3 vạn yên.",
+        "vocabulary": [
+          {
+            "word": "費用",
+            "hiragana": "ひよう",
+            "meaningVi": "chi phí"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_09",
+      "number": 9,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "江戸時代まで、横浜は小さい【みなと】だった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "港"
+        },
+        {
+          "id": "2",
+          "text": "渡"
+        },
+        {
+          "id": "3",
+          "text": "漁"
+        },
+        {
+          "id": "4",
+          "text": "海"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "みなと viết chữ Hán là 港 (CẢNG - bến cảng).",
+        "correctReasonVi": "港 (みなと): bến cảng, cảng biển.",
+        "optionReasonsVi": {
+          "1": "Đúng. 港 (CẢNG): bến cảng.",
+          "2": "Sai. 渡 là ĐỘ (渡る - わたる: băng qua).",
+          "3": "Sai. 漁 là NGƯ (漁業: nghề cá).",
+          "4": "Sai. 海 là HẢI (うみ: biển)."
+        },
+        "translationVi": "Cho đến thời kỳ Edo, Yokohama chỉ là một bến cảng nhỏ.",
+        "vocabulary": [
+          {
+            "word": "港",
+            "hiragana": "みなと",
+            "meaningVi": "bến cảng"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_10",
+      "number": 10,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "この漢字は教科書の5【か】で勉強した。",
+      "options": [
+        {
+          "id": "1",
+          "text": "化"
+        },
+        {
+          "id": "2",
+          "text": "科"
+        },
+        {
+          "id": "3",
+          "text": "加"
+        },
+        {
+          "id": "4",
+          "text": "課"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "か trong 'bài số 5' của sách giáo khoa là chữ 課 (KHÓA).",
+        "correctReasonVi": "5課 (ごか): bài học số 5 trong sách.",
+        "optionReasonsVi": {
+          "1": "Sai. 化 là HÓA (thay đổi).",
+          "2": "Sai. 科 là KHOA (khoa học).",
+          "3": "Sai. 加 là GIA (thêm vào).",
+          "4": "Đúng. 課 (KHÓA): bài học."
+        },
+        "translationVi": "Chữ Hán này tôi đã học ở Bài số 5 trong sách giáo khoa.",
+        "vocabulary": [
+          {
+            "word": "課",
+            "hiragana": "か",
+            "meaningVi": "bài học"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_11",
+      "number": 11,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "国から友だちが来たので、京都を【あんない】した。",
+      "options": [
+        {
+          "id": "1",
+          "text": "案肉"
+        },
+        {
+          "id": "2",
+          "text": "安内"
+        },
+        {
+          "id": "3",
+          "text": "案内"
+        },
+        {
+          "id": "4",
+          "text": "安肉"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "あんない viết chữ Hán đúng là 案内 (ÁN NỘI: hướng dẫn, dẫn đường).",
+        "correctReasonVi": "案 (ÁN) + 内 (NỘI) = 案内 (あんない).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 肉.",
+          "2": "Sai chữ 安.",
+          "3": "Đúng. 案内 (あんない): hướng dẫn du lịch.",
+          "4": "Sai cả 2 chữ."
+        },
+        "translationVi": "Vì bạn ở quê lên chơi nên tôi đã dẫn bạn đi tham quan Kyoto.",
+        "vocabulary": [
+          {
+            "word": "案内",
+            "hiragana": "あんない",
+            "meaningVi": "hướng dẫn, chỉ dẫn"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_12",
+      "number": 12,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "休みの日に【ろくが】したビデオを見るつもりだ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "縁絵"
+        },
+        {
+          "id": "2",
+          "text": "録絵"
+        },
+        {
+          "id": "3",
+          "text": "録画"
+        },
+        {
+          "id": "4",
+          "text": "縁画"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "ろくが viết chữ Hán đúng là 録画 (LỤC HỌA: ghi hình video).",
+        "correctReasonVi": "録 (LỤC: ghi lại) + 画 (HỌA: hình ảnh) = 録画 (ろくが).",
+        "optionReasonsVi": {
+          "1": "Sai cả 2 chữ.",
+          "2": "Sai chữ 絵.",
+          "3": "Đúng. 録画 (ろくが): ghi hình, thu video.",
+          "4": "Sai chữ 縁."
+        },
+        "translationVi": "Tôi dự định sẽ xem video đã ghi hình lại vào ngày nghỉ.",
+        "vocabulary": [
+          {
+            "word": "録画",
+            "hiragana": "ろくが",
+            "meaningVi": "ghi hình video"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_13",
+      "number": 13,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "私の国と日本との【かんけい】は悪くないと思います。",
+      "options": [
+        {
+          "id": "1",
+          "text": "関係"
+        },
+        {
+          "id": "2",
+          "text": "関形"
+        },
+        {
+          "id": "3",
+          "text": "間係"
+        },
+        {
+          "id": "4",
+          "text": "間形"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "かんけい viết chữ Hán đúng là 関係 (QUAN HỆ).",
+        "correctReasonVi": "関 (QUAN) + 係 (HỆ) = 関係 (かんけい: mối quan hệ).",
+        "optionReasonsVi": {
+          "1": "Đúng. 関係 (かんけい): mối quan hệ.",
+          "2": "Sai chữ 形 (HÌNH).",
+          "3": "Sai chữ 間 (GIAN).",
+          "4": "Sai cả 2 chữ."
+        },
+        "translationVi": "Tôi nghĩ mối quan hệ giữa nước tôi và Nhật Bản không hề xấu.",
+        "vocabulary": [
+          {
+            "word": "関係",
+            "hiragana": "かんけい",
+            "meaningVi": "mối quan hệ"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_14",
+      "number": 14,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "今まで、富士山に行く【きかい】がなかった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "機会"
+        },
+        {
+          "id": "2",
+          "text": "希会"
+        },
+        {
+          "id": "3",
+          "text": "期会"
+        },
+        {
+          "id": "4",
+          "text": "季会"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "きかい trong nghĩa 'cơ hội, dịp' viết là 機会 (CƠ HỘI).",
+        "correctReasonVi": "機 (CƠ) + 会 (HỘI) = 機会 (きかい).",
+        "optionReasonsVi": {
+          "1": "Đúng. 機会 (きかい): cơ hội, dịp.",
+          "2": "Sai chữ 希.",
+          "3": "Sai chữ 期.",
+          "4": "Sai chữ 季."
+        },
+        "translationVi": "Cho đến nay, tôi vẫn chưa có cơ hội được đến núi Phú Sĩ.",
+        "vocabulary": [
+          {
+            "word": "機会",
+            "hiragana": "きかい",
+            "meaningVi": "cơ hội, dịp"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_15",
+      "number": 15,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "病気になって、【けんこう】の大切さに気づいた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "建康"
+        },
+        {
+          "id": "2",
+          "text": "健候"
+        },
+        {
+          "id": "3",
+          "text": "健康"
+        },
+        {
+          "id": "4",
+          "text": "建候"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "けんこう viết chữ Hán đúng là 健康 (KIỆN KHANG: sức khỏe).",
+        "correctReasonVi": "健 (KIỆN: có bộ Nhân đứng 亻) + 康 (KHANG) = 健康 (けんこう).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 建 (KIẾN trong xây dựng).",
+          "2": "Sai chữ 候 (HẬU trong khí hậu).",
+          "3": "Đúng. 健康 (けんこう): sức khỏe.",
+          "4": "Sai cả 2 chữ."
+        },
+        "translationVi": "Sau khi bị ốm, tôi mới nhận ra tầm quan trọng của sức khỏe.",
+        "vocabulary": [
+          {
+            "word": "健康",
+            "hiragana": "けんこう",
+            "meaningVi": "sức khỏe"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_16",
+      "number": 16,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "子どもたちが【こうえん】で遊んでいる。",
+      "options": [
+        {
+          "id": "1",
+          "text": "交園"
+        },
+        {
+          "id": "2",
+          "text": "公園"
+        },
+        {
+          "id": "3",
+          "text": "向園"
+        },
+        {
+          "id": "4",
+          "text": "広園"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 1,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "こうえん viết chữ Hán đúng là 公園 (CÔNG VIÊN).",
+        "correctReasonVi": "公 (CÔNG) + 園 (VIÊN) = 公園 (こうえん).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 交.",
+          "2": "Đúng. 公園 (こうえん): công viên.",
+          "3": "Sai chữ 向.",
+          "4": "Sai chữ 広."
+        },
+        "translationVi": "Lũ trẻ đang vui chơi trong công viên.",
+        "vocabulary": [
+          {
+            "word": "公園",
+            "hiragana": "こうえん",
+            "meaningVi": "công viên"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_17",
+      "number": 17,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "友だちと【きょうりょく】して部屋をかたづけた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "強力"
+        },
+        {
+          "id": "2",
+          "text": "共力"
+        },
+        {
+          "id": "3",
+          "text": "協力"
+        },
+        {
+          "id": "4",
+          "text": "競力"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "きょうりょく trong nghĩa 'hợp tác, chung sức' viết là 協力 (HIỆP LỰC).",
+        "correctReasonVi": "協 (HIỆP - 3 chữ lực 力 hợp lại) + 力 (LỰC) = 協力 (きょうりょく).",
+        "optionReasonsVi": {
+          "1": "Sai. 強力 (きょうりょく): lực mạnh, uy lực.",
+          "2": "Sai. 共力 không tồn tại.",
+          "3": "Đúng. 協力 (きょうりょく): chung sức hợp tác.",
+          "4": "Sai. 競 là CẠNH (cạnh tranh)."
+        },
+        "translationVi": "Tôi đã cùng bạn bè chung sức dọn dẹp lại căn phòng.",
+        "vocabulary": [
+          {
+            "word": "協力",
+            "hiragana": "きょうりょく",
+            "meaningVi": "hợp tác, chung sức"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_18",
+      "number": 18,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "彼は【さいこう】の友だちだ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "星幸"
+        },
+        {
+          "id": "2",
+          "text": "最幸"
+        },
+        {
+          "id": "3",
+          "text": "星高"
+        },
+        {
+          "id": "4",
+          "text": "最高"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "さいこう trong nghĩa 'tuyệt nhất, đỉnh nhất' viết là 最高 (TỐI CAO).",
+        "correctReasonVi": "最 (TỐI: nhất) + 高 (CAO) = 最高 (さいこう).",
+        "optionReasonsVi": {
+          "1": "Sai.",
+          "2": "Sai chữ 幸.",
+          "3": "Sai chữ 星.",
+          "4": "Đúng. 最高 (さいこう): tuyệt vời nhất."
+        },
+        "translationVi": "Cậu ấy là người bạn tuyệt vời nhất của tôi.",
+        "vocabulary": [
+          {
+            "word": "最高",
+            "hiragana": "さいこう",
+            "meaningVi": "tuyệt vời nhất"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_19",
+      "number": 19,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "スピーチ大会のテーマは「友だち」に【きまった】。",
+      "options": [
+        {
+          "id": "1",
+          "text": "次まった"
+        },
+        {
+          "id": "2",
+          "text": "失まった"
+        },
+        {
+          "id": "3",
+          "text": "決まった"
+        },
+        {
+          "id": "4",
+          "text": "夫まった"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "きまった là quá khứ của 決まる (QUYẾT: được quyết định), viết là 決まった.",
+        "correctReasonVi": "決まる (きまる): được ấn định, quyết định.",
+        "optionReasonsVi": {
+          "1": "Sai. 次 là THỨ (tiếp theo).",
+          "2": "Sai. 失 là THẤT (mất mát).",
+          "3": "Đúng. 決まった (QUYẾT): đã được quyết định.",
+          "4": "Sai. 夫 là PHU (chồng)."
+        },
+        "translationVi": "Chủ đề của đại hội hùng biện đã được quyết định là 'Tình bạn'.",
+        "vocabulary": [
+          {
+            "word": "決まる",
+            "hiragana": "きまる",
+            "meaningVi": "được quyết định"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_20",
+      "number": 20,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "食事のあと、【さら】を洗ってください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "田"
+        },
+        {
+          "id": "2",
+          "text": "血"
+        },
+        {
+          "id": "3",
+          "text": "囲"
+        },
+        {
+          "id": "4",
+          "text": "皿"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 1,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "さら viết chữ Hán là 皿 (MÃNH: cái đĩa).",
+        "correctReasonVi": "皿 (さら): cái đĩa đựng thức ăn.",
+        "optionReasonsVi": {
+          "1": "Sai. 田 là ruộng.",
+          "2": "Sai. 血 là máu (ち).",
+          "3": "Sai. 囲 là bao quanh.",
+          "4": "Đúng. 皿 (MÃNH): cái đĩa."
+        },
+        "translationVi": "Sau bữa ăn, xin vui lòng rửa bát đĩa giúp.",
+        "vocabulary": [
+          {
+            "word": "皿",
+            "hiragana": "さら",
+            "meaningVi": "cái đĩa"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_21",
+      "number": 21,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "【にもつ】は、いすの下に置いてください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "何物"
+        },
+        {
+          "id": "2",
+          "text": "荷物"
+        },
+        {
+          "id": "3",
+          "text": "荷持"
+        },
+        {
+          "id": "4",
+          "text": "何持"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "にもつ viết chữ Hán đúng là 荷物 (HÀ VẬT: hành lý, đồ đạc).",
+        "correctReasonVi": "荷 (HÀ: gánh đồ) + 物 (VẬT) = 荷物 (にもつ).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 何.",
+          "2": "Đúng. 荷物 (にもつ): hành lý, đồ đạc.",
+          "3": "Sai chữ 持.",
+          "4": "Sai cả 2 chữ."
+        },
+        "translationVi": "Xin vui lòng để hành lý dưới gầm ghế.",
+        "vocabulary": [
+          {
+            "word": "荷物",
+            "hiragana": "にもつ",
+            "meaningVi": "hành lý"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_22",
+      "number": 22,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "【ねんし】の休みに国へ帰ろうと思っている。",
+      "options": [
+        {
+          "id": "1",
+          "text": "年始"
+        },
+        {
+          "id": "2",
+          "text": "年初"
+        },
+        {
+          "id": "3",
+          "text": "年祭"
+        },
+        {
+          "id": "4",
+          "text": "年祝"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 3,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "ねんし viết chữ Hán đúng là 年始 (NIÊN THỦY: đầu năm mới).",
+        "correctReasonVi": "年 (NIÊN) + 始 (THỦY) = 年始 (ねんし: dịp đầu năm mới, như 年末年始).",
+        "optionReasonsVi": {
+          "1": "Đúng. 年始 (ねんし): dịp đầu năm mới.",
+          "2": "Sai. 年初 đọc là ねんしょ.",
+          "3": "Sai chữ 祭.",
+          "4": "Sai chữ 祝."
+        },
+        "translationVi": "Tôi dự định sẽ về nước vào kỳ nghỉ đầu năm mới.",
+        "vocabulary": [
+          {
+            "word": "年始",
+            "hiragana": "ねんし",
+            "meaningVi": "đầu năm mới"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_23",
+      "number": 23,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "花の【しゅるい】をいくつぐらい知っていますか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "主類"
+        },
+        {
+          "id": "2",
+          "text": "首類"
+        },
+        {
+          "id": "3",
+          "text": "種類"
+        },
+        {
+          "id": "4",
+          "text": "取類"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "しゅるい viết chữ Hán đúng là 種類 (CHỦNG LOẠI).",
+        "correctReasonVi": "種 (CHỦNG: giống loài) + 類 (LOẠI) = 種類 (しゅるい).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 主.",
+          "2": "Sai chữ 首.",
+          "3": "Đúng. 種類 (しゅるい): chủng loại.",
+          "4": "Sai chữ 取."
+        },
+        "translationVi": "Bạn biết khoảng bao nhiêu loài hoa?",
+        "vocabulary": [
+          {
+            "word": "種類",
+            "hiragana": "しゅるい",
+            "meaningVi": "chủng loại"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_24",
+      "number": 24,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "帰国するので、アルバイトを【やめた】。",
+      "options": [
+        {
+          "id": "1",
+          "text": "止めた"
+        },
+        {
+          "id": "2",
+          "text": "辞めた"
+        },
+        {
+          "id": "3",
+          "text": "辛めた"
+        },
+        {
+          "id": "4",
+          "text": "停めた"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 3,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "やめた trong nghĩa 'nghỉ việc, thôi việc' viết là 辞めた (TỪ).",
+        "correctReasonVi": "辞める (やめる): từ chức, thôi việc, nghỉ học. Phân biệt với 止める (dừng một hành động lại).",
+        "optionReasonsVi": {
+          "1": "Sai. 止めた dùng cho dừng hành động (hút thuốc, cãi nhau).",
+          "2": "Đúng. 辞めた (TỪ): nghỉ việc làm thêm.",
+          "3": "Sai. 辛 là cay.",
+          "4": "Sai. 停めた là đỗ xe."
+        },
+        "translationVi": "Vì sắp về nước nên tôi đã nghỉ công việc làm thêm.",
+        "vocabulary": [
+          {
+            "word": "辞める",
+            "hiragana": "やめる",
+            "meaningVi": "nghỉ việc"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_25",
+      "number": 25,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "男性も【いくじ】をするべきだと思う。",
+      "options": [
+        {
+          "id": "1",
+          "text": "育児"
+        },
+        {
+          "id": "2",
+          "text": "胃児"
+        },
+        {
+          "id": "3",
+          "text": "胃子"
+        },
+        {
+          "id": "4",
+          "text": "育子"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 3,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "いくじ viết chữ Hán đúng là 育児 (DỤC NHI: nuôi dạy con cái).",
+        "correctReasonVi": "育 (DỤC: nuôi nấng) + 児 (NHI: trẻ nhỏ) = 育児 (いくじ).",
+        "optionReasonsVi": {
+          "1": "Đúng. 育児 (いくじ): nuôi dạy con cái.",
+          "2": "Sai chữ 胃 (dạ dày).",
+          "3": "Sai cả 2 chữ.",
+          "4": "Sai chữ 子."
+        },
+        "translationVi": "Tôi nghĩ nam giới cũng nên tham gia vào việc chăm sóc con nhỏ.",
+        "vocabulary": [
+          {
+            "word": "育児",
+            "hiragana": "いくじ",
+            "meaningVi": "chăm sóc con cái"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_26",
+      "number": 26,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "この川は水がきれいだから、【そこ】が見える。",
+      "options": [
+        {
+          "id": "1",
+          "text": "落"
+        },
+        {
+          "id": "2",
+          "text": "表"
+        },
+        {
+          "id": "3",
+          "text": "底"
+        },
+        {
+          "id": "4",
+          "text": "面"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "そこ trong nghĩa 'đáy sông' viết là 底 (ĐỂ: đáy).",
+        "correctReasonVi": "底 (そこ): đáy sông, đáy hồ.",
+        "optionReasonsVi": {
+          "1": "Sai. 落 là LẠC (rơi).",
+          "2": "Sai. 表 là BIỂU (mặt ngoài).",
+          "3": "Đúng. 底 (ĐỂ): đáy sông.",
+          "4": "Sai. 面 là DIỆN (bề mặt)."
+        },
+        "translationVi": "Dòng sông này nước rất trong nên có thể nhìn thấy tận đáy.",
+        "vocabulary": [
+          {
+            "word": "底",
+            "hiragana": "そこ",
+            "meaningVi": "đáy"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_27",
+      "number": 27,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "毎日、2時間ぐらい【ざんぎょう】します。",
+      "options": [
+        {
+          "id": "1",
+          "text": "残業"
+        },
+        {
+          "id": "2",
+          "text": "浅業"
+        },
+        {
+          "id": "3",
+          "text": "残行"
+        },
+        {
+          "id": "4",
+          "text": "浅行"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "ざんぎょう viết chữ Hán đúng là 残業 (TÀN NGHIỆP: làm thêm giờ).",
+        "correctReasonVi": "残 (TÀN) + 業 (NGHIỆP) = 残業 (ざんぎょう).",
+        "optionReasonsVi": {
+          "1": "Đúng. 残業 (ざんぎょう): tăng ca, làm thêm giờ.",
+          "2": "Sai chữ 浅 (nông).",
+          "3": "Sai chữ 行.",
+          "4": "Sai cả 2 chữ."
+        },
+        "translationVi": "Mỗi ngày tôi làm thêm giờ khoảng 2 tiếng.",
+        "vocabulary": [
+          {
+            "word": "残業",
+            "hiragana": "ざんぎょう",
+            "meaningVi": "làm thêm giờ"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_28",
+      "number": 28,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "日本の【きこう】は、すごしやすいです。",
+      "options": [
+        {
+          "id": "1",
+          "text": "気考"
+        },
+        {
+          "id": "2",
+          "text": "気向"
+        },
+        {
+          "id": "3",
+          "text": "気康"
+        },
+        {
+          "id": "4",
+          "text": "気候"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "きこう viết chữ Hán đúng là 気候 (KHÍ HẬU).",
+        "correctReasonVi": "気 (KHÍ) + 候 (HẬU) = 気候 (きこう).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 考.",
+          "2": "Sai chữ 向.",
+          "3": "Sai chữ 康.",
+          "4": "Đúng. 気候 (きこう): khí hậu."
+        },
+        "translationVi": "Khí hậu của Nhật Bản rất dễ chịu và thoải mái.",
+        "vocabulary": [
+          {
+            "word": "気候",
+            "hiragana": "きこう",
+            "meaningVi": "khí hậu"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_29",
+      "number": 29,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "試合の結果を【よそう】するのは、むずかしい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "予料"
+        },
+        {
+          "id": "2",
+          "text": "予想"
+        },
+        {
+          "id": "3",
+          "text": "預料"
+        },
+        {
+          "id": "4",
+          "text": "預想"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "よそう viết chữ Hán đúng là 予想 (DỰ TƯỞNG: dự đoán).",
+        "correctReasonVi": "予 (DỰ: trước) + 想 (TƯỞNG) = 予想 (よそう).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 料.",
+          "2": "Đúng. 予想 (よそう): dự đoán trước.",
+          "3": "Sai chữ 預 và 料.",
+          "4": "Sai chữ 預 (gửi đồ)."
+        },
+        "translationVi": "Rất khó để có thể dự đoán trước được kết quả của trận đấu.",
+        "vocabulary": [
+          {
+            "word": "予想",
+            "hiragana": "よそう",
+            "meaningVi": "dự đoán"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_30",
+      "number": 30,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "本棚を【せいり】してください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "正利"
+        },
+        {
+          "id": "2",
+          "text": "整利"
+        },
+        {
+          "id": "3",
+          "text": "正理"
+        },
+        {
+          "id": "4",
+          "text": "整理"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "せいり viết chữ Hán đúng là 整理 (CHỈNH LÝ: sắp xếp, dọn dẹp).",
+        "correctReasonVi": "整 (CHỈNH: ngay ngắn) + 理 (LÝ) = 整理 (せいり).",
+        "optionReasonsVi": {
+          "1": "Sai cả 2 chữ.",
+          "2": "Sai chữ 利.",
+          "3": "Sai chữ 正.",
+          "4": "Đúng. 整理 (せいり): thu xếp, dọn dẹp."
+        },
+        "translationVi": "Xin vui lòng sắp xếp lại giá sách cho ngăn nắp.",
+        "vocabulary": [
+          {
+            "word": "整理",
+            "hiragana": "せいり",
+            "meaningVi": "sắp xếp, chỉnh lý"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_31",
+      "number": 31,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "あの人とは子どものころから【なか】がいい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "係"
+        },
+        {
+          "id": "2",
+          "text": "健"
+        },
+        {
+          "id": "3",
+          "text": "仲"
+        },
+        {
+          "id": "4",
+          "text": "他"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "なか trong cụm 仲がいい (thân thiết) viết là 仲 (TRỌNG).",
+        "correctReasonVi": "仲がいい (なかがいい): mối quan hệ bạn bè thân thiết.",
+        "optionReasonsVi": {
+          "1": "Sai. 係 (người phụ trách).",
+          "2": "Sai. 健 (khỏe mạnh).",
+          "3": "Đúng. 仲 (TRỌNG): mối quan hệ thân thiết.",
+          "4": "Sai. 他 (người khác)."
+        },
+        "translationVi": "Tôi và người đó chơi rất thân với nhau từ thời thơ ấu.",
+        "vocabulary": [
+          {
+            "word": "仲",
+            "hiragana": "なか",
+            "meaningVi": "mối quan hệ"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_32",
+      "number": 32,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "みなさん、【せき】についてください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "席"
+        },
+        {
+          "id": "2",
+          "text": "府"
+        },
+        {
+          "id": "3",
+          "text": "岸"
+        },
+        {
+          "id": "4",
+          "text": "庫"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "せき trong nghĩa 'chỗ ngồi' viết là 席 (TỊCH).",
+        "correctReasonVi": "席につく (せきにつく): ngồi vào chỗ của mình.",
+        "optionReasonsVi": {
+          "1": "Đúng. 席 (TỊCH): chỗ ngồi.",
+          "2": "Sai. 府 là PHỦ (Osaka-fu).",
+          "3": "Sai. 岸 là NGẠN (bờ sông).",
+          "4": "Sai. 庫 là KHỐ (kho hàng)."
+        },
+        "translationVi": "Xin mời mọi người hãy ổn định vào chỗ ngồi.",
+        "vocabulary": [
+          {
+            "word": "席",
+            "hiragana": "せき",
+            "meaningVi": "chỗ ngồi"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_33",
+      "number": 33,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "手紙には【きせつ】のあいさつを書く。",
+      "options": [
+        {
+          "id": "1",
+          "text": "季即"
+        },
+        {
+          "id": "2",
+          "text": "季節"
+        },
+        {
+          "id": "3",
+          "text": "委即"
+        },
+        {
+          "id": "4",
+          "text": "委節"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "きせつ viết chữ Hán đúng là 季節 (QUÝ TIẾT: mùa).",
+        "correctReasonVi": "季 (QUÝ) + 節 (TIẾT) = 季節 (きせつ: mùa, thời tiết).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 即.",
+          "2": "Đúng. 季節 (きせつ): mùa trong năm.",
+          "3": "Sai cả 2 chữ.",
+          "4": "Sai chữ 委."
+        },
+        "translationVi": "Trong thư thường viết lời thăm hỏi thời tiết theo mùa.",
+        "vocabulary": [
+          {
+            "word": "季節",
+            "hiragana": "きせつ",
+            "meaningVi": "mùa"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_34",
+      "number": 34,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "来年大学を【そつぎょう】する。",
+      "options": [
+        {
+          "id": "1",
+          "text": "率行"
+        },
+        {
+          "id": "2",
+          "text": "率業"
+        },
+        {
+          "id": "3",
+          "text": "卒行"
+        },
+        {
+          "id": "4",
+          "text": "卒業"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "そつぎょう viết chữ Hán đúng là 卒業 (TỐT NGHIỆP).",
+        "correctReasonVi": "卒 (TỐT: hoàn thành) + 業 (NGHIỆP) = 卒業 (そつぎょう).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 率 và 行.",
+          "2": "Sai chữ 率.",
+          "3": "Sai chữ 行.",
+          "4": "Đúng. 卒業 (そつぎょう): tốt nghiệp."
+        },
+        "translationVi": "Năm tới tôi sẽ tốt nghiệp đại học.",
+        "vocabulary": [
+          {
+            "word": "卒業",
+            "hiragana": "そつぎょう",
+            "meaningVi": "tốt nghiệp"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_35",
+      "number": 35,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "こんな【せいせき】では大学に合格できない。",
+      "options": [
+        {
+          "id": "1",
+          "text": "生責"
+        },
+        {
+          "id": "2",
+          "text": "正績"
+        },
+        {
+          "id": "3",
+          "text": "成績"
+        },
+        {
+          "id": "4",
+          "text": "制関"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "せいせき viết chữ Hán đúng là 成績 (THÀNH TÍCH: kết quả học tập).",
+        "correctReasonVi": "成 (THÀNH) + 績 (TÍCH) = 成績 (せいせき).",
+        "optionReasonsVi": {
+          "1": "Sai cả 2 chữ.",
+          "2": "Sai chữ 正.",
+          "3": "Đúng. 成績 (せいせき): thành tích, bảng điểm.",
+          "4": "Sai cả 2 chữ."
+        },
+        "translationVi": "Với thành tích điểm số thế này thì không thể đỗ đại học được.",
+        "vocabulary": [
+          {
+            "word": "成績",
+            "hiragana": "せいせき",
+            "meaningVi": "thành tích điểm số"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_36",
+      "number": 36,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "【せんそう】で多くのものをなくした。",
+      "options": [
+        {
+          "id": "1",
+          "text": "戦事"
+        },
+        {
+          "id": "2",
+          "text": "戦争"
+        },
+        {
+          "id": "3",
+          "text": "浅争"
+        },
+        {
+          "id": "4",
+          "text": "浅事"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "せんそう viết chữ Hán đúng là 戦争 (CHIẾN TRANH).",
+        "correctReasonVi": "戦 (CHIẾN) + 争 (TRANH) = 戦争 (せんそう).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 事.",
+          "2": "Đúng. 戦争 (せんそう): chiến tranh.",
+          "3": "Sai chữ 浅.",
+          "4": "Sai cả 2 chữ."
+        },
+        "translationVi": "Vì chiến tranh mà người ta đã đánh mất đi rất nhiều thứ.",
+        "vocabulary": [
+          {
+            "word": "戦争",
+            "hiragana": "せんそう",
+            "meaningVi": "chiến tranh"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_37",
+      "number": 37,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "みなさんはこちら【がわ】にすわってください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "偶"
+        },
+        {
+          "id": "2",
+          "text": "側"
+        },
+        {
+          "id": "3",
+          "text": "則"
+        },
+        {
+          "id": "4",
+          "text": "貝"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "がわ trong nghĩa 'phía, bên' viết là 側 (TRẮC: bên cạnh, phía).",
+        "correctReasonVi": "こちら側 (こちらがわ): phía bên này.",
+        "optionReasonsVi": {
+          "1": "Sai. 偶 (ngẫu nhiên).",
+          "2": "Đúng. 側 (TRẮC): phía, bên.",
+          "3": "Sai. 則 (quy tắc).",
+          "4": "Sai. 貝 (con sò)."
+        },
+        "translationVi": "Mọi người xin vui lòng ngồi về phía bên này.",
+        "vocabulary": [
+          {
+            "word": "側",
+            "hiragana": "がわ",
+            "meaningVi": "phía, bên"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_38",
+      "number": 38,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "すべって足のほねを【おった】。",
+      "options": [
+        {
+          "id": "1",
+          "text": "打った"
+        },
+        {
+          "id": "2",
+          "text": "特った"
+        },
+        {
+          "id": "3",
+          "text": "折った"
+        },
+        {
+          "id": "4",
+          "text": "所った"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "おった là thể quá khứ của 折る (CHIẾT: làm gãy, bẻ gãy), viết là 折った.",
+        "correctReasonVi": "骨を折る (ほねをおる): làm gãy xương.",
+        "optionReasonsVi": {
+          "1": "Sai. 打った (đánh).",
+          "2": "Sai.",
+          "3": "Đúng. 折った (CHIẾT): làm gãy xương.",
+          "4": "Sai. 所."
+        },
+        "translationVi": "Tôi bị trượt chân và đã làm gãy xương chân.",
+        "vocabulary": [
+          {
+            "word": "折る",
+            "hiragana": "おる",
+            "meaningVi": "làm gãy, bẻ gãy"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_39",
+      "number": 39,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "山田さんは【はな】が高いですね。",
+      "options": [
+        {
+          "id": "1",
+          "text": "胃"
+        },
+        {
+          "id": "2",
+          "text": "鼻"
+        },
+        {
+          "id": "3",
+          "text": "果"
+        },
+        {
+          "id": "4",
+          "text": "景"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "はな trong cụm 鼻が高い (mũi cao, tự hào) viết là 鼻 (TỴ: cái mũi).",
+        "correctReasonVi": "鼻 (はな): cái mũi.",
+        "optionReasonsVi": {
+          "1": "Sai. 胃 (dạ dày).",
+          "2": "Đúng. 鼻 (TỴ): cái mũi.",
+          "3": "Sai. 果 (quả).",
+          "4": "Sai. 景 (cảnh)."
+        },
+        "translationVi": "Anh Yamada có sống mũi cao nhỉ (hoặc rất tự hào).",
+        "vocabulary": [
+          {
+            "word": "鼻",
+            "hiragana": "はな",
+            "meaningVi": "cái mũi"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_40",
+      "number": 40,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "何か【ひつような】ものはありませんか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "心要"
+        },
+        {
+          "id": "2",
+          "text": "心用"
+        },
+        {
+          "id": "3",
+          "text": "必用"
+        },
+        {
+          "id": "4",
+          "text": "必要"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "ひつよう viết chữ Hán đúng là 必要 (TẤT YẾU: cần thiết).",
+        "correctReasonVi": "必 (TẤT) + 要 (YẾU) = 必要 (ひつよう).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 心.",
+          "2": "Sai cả 2 chữ.",
+          "3": "Sai chữ 用.",
+          "4": "Đúng. 必要 (ひつよう): cần thiết."
+        },
+        "translationVi": "Có thứ gì cần thiết mà bạn muốn lấy không?",
+        "vocabulary": [
+          {
+            "word": "必要",
+            "hiragana": "ひつよう",
+            "meaningVi": "cần thiết"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_41",
+      "number": 41,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "学校に行くときは、バスを【りよう】しています。",
+      "options": [
+        {
+          "id": "1",
+          "text": "理用"
+        },
+        {
+          "id": "2",
+          "text": "利用"
+        },
+        {
+          "id": "3",
+          "text": "流用"
+        },
+        {
+          "id": "4",
+          "text": "量用"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "りよう viết chữ Hán đúng là 利用 (LỢI DỤNG: sử dụng phương tiện).",
+        "correctReasonVi": "利 (LỢI: tiện lợi) + 用 (DỤNG) = 利用 (りよう).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 理.",
+          "2": "Đúng. 利用 (りよう): sử dụng xe buýt.",
+          "3": "Sai chữ 流.",
+          "4": "Sai chữ 量."
+        },
+        "translationVi": "Khi đi đến trường học, tôi thường sử dụng xe buýt.",
+        "vocabulary": [
+          {
+            "word": "利用",
+            "hiragana": "りよう",
+            "meaningVi": "sử dụng, tận dụng"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_42",
+      "number": 42,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "このコンサートは【むりょう】です。",
+      "options": [
+        {
+          "id": "1",
+          "text": "未料"
+        },
+        {
+          "id": "2",
+          "text": "未粉"
+        },
+        {
+          "id": "3",
+          "text": "無料"
+        },
+        {
+          "id": "4",
+          "text": "無粉"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 1,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "むりょう viết chữ Hán đúng là 無料 (VÔ LIỆU: miễn phí).",
+        "correctReasonVi": "無 (VÔ: không có) + 料 (LIỆU: chi phí) = 無料 (むりょう).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 未.",
+          "2": "Sai cả 2 chữ.",
+          "3": "Đúng. 無料 (むりょう): miễn phí.",
+          "4": "Sai chữ 粉."
+        },
+        "translationVi": "Buổi hòa nhạc này hoàn toàn miễn phí.",
+        "vocabulary": [
+          {
+            "word": "無料",
+            "hiragana": "むりょう",
+            "meaningVi": "miễn phí"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_43",
+      "number": 43,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "どうか私を【しんよう】してください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "進用"
+        },
+        {
+          "id": "2",
+          "text": "新用"
+        },
+        {
+          "id": "3",
+          "text": "信用"
+        },
+        {
+          "id": "4",
+          "text": "親用"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "しんよう viết chữ Hán đúng là 信用 (TÍN DỤNG: tin tưởng, tín nhiệm).",
+        "correctReasonVi": "信 (TÍN: tin) + 用 (DỤNG) = 信用 (しんよう).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 進.",
+          "2": "Sai chữ 新.",
+          "3": "Đúng. 信用 (しんよう): tin tưởng.",
+          "4": "Sai chữ 親."
+        },
+        "translationVi": "Xin hãy tin tưởng ở tôi.",
+        "vocabulary": [
+          {
+            "word": "信用",
+            "hiragana": "しんよう",
+            "meaningVi": "tin tưởng"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_44",
+      "number": 44,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "子どもの成長の【きろく】をとる。",
+      "options": [
+        {
+          "id": "1",
+          "text": "期緑"
+        },
+        {
+          "id": "2",
+          "text": "記録"
+        },
+        {
+          "id": "3",
+          "text": "記緑"
+        },
+        {
+          "id": "4",
+          "text": "期録"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "きろく viết chữ Hán đúng là 記録 (KÝ LỤC: ghi chép lại).",
+        "correctReasonVi": "記 (KÝ: ghi nhớ) + 録 (LỤC: bộ Kim 金) = 記録 (きろく).",
+        "optionReasonsVi": {
+          "1": "Sai cả 2 chữ.",
+          "2": "Đúng. 記録 (きろく): ghi chép lại quá trình.",
+          "3": "Sai chữ 緑 (màu xanh lá).",
+          "4": "Sai chữ 期."
+        },
+        "translationVi": "Ghi chép lại quá trình trưởng thành của con cái.",
+        "vocabulary": [
+          {
+            "word": "記録",
+            "hiragana": "きろく",
+            "meaningVi": "ghi chép lại"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_45",
+      "number": 45,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "【はこの】中にはケーキが入っていた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "箱"
+        },
+        {
+          "id": "2",
+          "text": "落"
+        },
+        {
+          "id": "3",
+          "text": "等"
+        },
+        {
+          "id": "4",
+          "text": "黄"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "はこ viết chữ Hán là 箱 (TƯƠNG: cái hộp, chiếc hộp).",
+        "correctReasonVi": "箱 (はこ): cái hộp có nắp đậy.",
+        "optionReasonsVi": {
+          "1": "Đúng. 箱 (TƯƠNG): cái hộp.",
+          "2": "Sai. 落 là rơi.",
+          "3": "Sai. 等 là đẳng (vân vân).",
+          "4": "Sai. 黄 là hoàng (màu vàng)."
+        },
+        "translationVi": "Bên trong chiếc hộp có đựng một chiếc bánh kem.",
+        "vocabulary": [
+          {
+            "word": "箱",
+            "hiragana": "はこ",
+            "meaningVi": "cái hộp"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "kw_46",
+      "number": 46,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "私は英語が【とくい】だ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "特意"
+        },
+        {
+          "id": "2",
+          "text": "特息"
+        },
+        {
+          "id": "3",
+          "text": "得息"
+        },
+        {
+          "id": "4",
+          "text": "得意"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "chữ hán",
+        "cách viết",
+        "kosei",
+        "n3"
+      ],
+      "explanation": {
+        "summaryVi": "とくい trong nghĩa 'giỏi, sở trường' viết là 得意 (ĐẮC Ý).",
+        "correctReasonVi": "得 (ĐẮC: đạt được) + 意 (Ý) = 得意 (とくい: giỏi giang, sở trường).",
+        "optionReasonsVi": {
+          "1": "Sai chữ 特.",
+          "2": "Sai cả 2 chữ.",
+          "3": "Sai chữ 息.",
+          "4": "Đúng. 得意 (とくい): sở trường, giỏi."
+        },
+        "translationVi": "Tôi rất giỏi môn tiếng Anh.",
+        "vocabulary": [
+          {
+            "word": "得意",
+            "hiragana": "とくい",
+            "meaningVi": "giỏi, sở trường"
+          }
+        ]
+      },
+      "review": {
+        "status": "verified"
+      }
+    }
+  ]
+}
