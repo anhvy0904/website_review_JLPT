@@ -224,9 +224,25 @@ export function AnswerExplanation({
       <div className="space-y-6 pt-5">
         {/* Tóm tắt & Lý do đúng */}
         <div className="space-y-3">
-          <div className="flex items-center gap-2 text-indigo-900 font-bold text-base">
-            <Lightbulb className="w-5 h-5 text-amber-500" />
-            <span>Phân tích đáp án</span>
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div className="flex items-center gap-2 text-indigo-900 font-bold text-base">
+              <Lightbulb className="w-5 h-5 text-amber-500" />
+              <span>Phân tích đáp án</span>
+            </div>
+            {(question.mondai || question.weight) && (
+              <div className="flex items-center gap-1.5 text-xs">
+                {question.mondai && (
+                  <span className="font-bold text-[#1B5E20] bg-[#E8F5E9] px-2 py-0.5 rounded border border-[#A5D6A7]">
+                    {question.mondai}
+                  </span>
+                )}
+                {question.weight && (
+                  <span className="font-semibold text-amber-800 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
+                    Trọng số: {question.weight}đ
+                  </span>
+                )}
+              </div>
+            )}
           </div>
 
           {/* Khối Âm Hán Việt nổi bật của câu hỏi */}

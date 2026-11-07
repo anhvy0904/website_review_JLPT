@@ -31,34 +31,41 @@ const sectionLabels: Record<string, { label: string; color: string }> = {
 };
 
 const subtypeLabels: Record<string, string> = {
-  kanji_reading: "Cách đọc Kanji",
-  kanji_writing: "Cách viết Kanji",
-  kanji_spelling: "Cách viết Kanji",
-  contextual_use: "Điền từ ngữ cảnh",
-  context_word: "Điền từ ngữ cảnh",
-  context_fill: "Điền từ ngữ cảnh",
-  paraphrase: "Từ đồng nghĩa",
-  synonym: "Từ đồng nghĩa",
-  usage: "Cách dùng từ",
-  word_usage: "Cách dùng từ",
-  sentence_grammar: "Ngữ pháp câu",
-  grammar_fill: "Ngữ pháp câu",
-  sentence_composition: "Ghép câu dấu sao (★)",
-  sentence_order: "Ghép câu dấu sao (★)",
-  text_grammar: "Ngữ pháp đoạn văn",
-  passage_cloze: "Ngữ pháp đoạn văn",
-  reading_short: "Đọc hiểu đoạn ngắn",
-  short_reading: "Đọc hiểu đoạn ngắn",
+  kanji_reading: "Cách đọc Kanji (Mondai 1)",
+  orthography: "Cách viết Kanji (Mondai 2)",
+  kanji_writing: "Cách viết Kanji (Mondai 2)",
+  kanji_spelling: "Cách viết Kanji (Mondai 2)",
+  context_meaning: "Hoàn thành câu/Ngữ cảnh (Mondai 3)",
+  contextual_use: "Điền từ ngữ cảnh (Mondai 3)",
+  context_word: "Điền từ ngữ cảnh (Mondai 3)",
+  context_fill: "Điền từ ngữ cảnh (Mondai 3)",
+  paraphrase: "Từ đồng nghĩa (Mondai 4)",
+  synonym: "Từ đồng nghĩa (Mondai 4)",
+  usage: "Cách dùng từ (Mondai 5)",
+  word_usage: "Cách dùng từ (Mondai 5)",
+  sentence_grammar: "Ngữ pháp câu (Mondai 1)",
+  grammar_fill: "Ngữ pháp câu (Mondai 1)",
+  star_arrangement: "Ghép câu dấu sao ★ (Mondai 2)",
+  sentence_composition: "Ghép câu dấu sao ★ (Mondai 2)",
+  sentence_order: "Ghép câu dấu sao ★ (Mondai 2)",
+  text_grammar: "Ngữ pháp đoạn văn (Mondai 3)",
+  passage_cloze: "Ngữ pháp đoạn văn (Mondai 3)",
+  short_passage: "Đoạn văn ngắn (Mondai 4)",
+  reading_short: "Đoạn văn ngắn (Mondai 4)",
+  short_reading: "Đoạn văn ngắn (Mondai 4)",
+  medium_passage: "Đoạn văn trung (Mondai 5)",
+  reading_medium: "Đoạn văn trung (Mondai 5)",
+  medium_reading: "Đoạn văn trung (Mondai 5)",
+  long_passage: "Đoạn văn dài (Mondai 6)",
+  reading_long: "Đoạn văn dài (Mondai 6)",
+  long_reading: "Đoạn văn dài (Mondai 6)",
+  information_retrieval: "Tìm kiếm thông tin (Mondai 7)",
+  info_retrieval: "Tìm kiếm thông tin (Mondai 7)",
+  information_lookup: "Tìm kiếm thông tin (Mondai 7)",
   reading_detail: "Đọc hiểu chi tiết",
   reading_inference: "Đọc hiểu suy luận",
   reading_comparison: "Đọc hiểu so sánh",
-  reading_medium: "Đọc hiểu trung văn",
-  medium_reading: "Đọc hiểu trung văn",
-  reading_long: "Đọc hiểu trường văn",
-  long_reading: "Đọc hiểu trường văn",
   reading_condition: "Tìm kiếm thông tin",
-  info_retrieval: "Tìm kiếm thông tin",
-  information_lookup: "Tìm kiếm thông tin",
 };
 
 export function QuestionCard({
@@ -181,9 +188,21 @@ export function QuestionCard({
               {secInfo.label}
             </span>
 
+            {question.mondai && (
+              <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
+                {question.mondai}
+              </span>
+            )}
+
             <span className="text-xs font-medium px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 hidden sm:inline-block">
               {subtypeLabel}
             </span>
+
+            {question.weight && (
+              <span className="text-[11px] font-semibold px-2 py-0.5 rounded-md bg-amber-50 text-amber-700 border border-amber-200 hidden md:inline-block">
+                Trọng số: {question.weight}đ
+              </span>
+            )}
           </div>
 
           <div className="flex items-center gap-3">

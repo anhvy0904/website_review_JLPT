@@ -29,7 +29,22 @@ Nguyên tắc KHÔNG ĐƯỢC VI PHẠM:
 6. Mỗi câu cần explanation tiếng Việt: summaryVi, correctReasonVi, optionReasonsVi cho từng lựa chọn, translationVi, vocabulary[] gồm word, reading, meaningVi, grammarPoints[] nếu có, readingEvidenceJa nếu là đọc hiểu, studyTipVi.
 7. Giải thích vì sao đáp án đúng và vì sao từng phương án còn lại sai. Nếu chưa có đủ thông tin để giải thích chắc chắn, ghi rõ trong review.notes, không bịa lập luận.
 8. Ở từ vựng lời giải, ghi cách đọc hiragana; KHÔNG chèn furigana khiến phần đề kiểm tra cách đọc Kanji bị lộ đáp án.
-9. Gán id đề và câu duy nhất và ổn định: n3-<bo-de>-q001, q002, ...; section chỉ thuộc vocabulary, grammar, reading; subtype theo dạng thực tế.
+9. Gán id đề và câu duy nhất và ổn định: n3-<bo-de>-q001, q002, ...; Chuẩn hóa phân loại `section`, `mondai`, `subtype` và trọng số `weight` chuẩn JLPT N3:
+   - `vocabulary` (Thang 30đ):
+     + Mondai 1 (Cách đọc Kanji - `kanji_reading`): weight = 1
+     + Mondai 2 (Cách viết Kanji - `orthography`): weight = 1
+     + Mondai 3 (Hoàn thành câu/Ngữ cảnh - `context_meaning`): weight = 1
+     + Mondai 4 (Từ đồng nghĩa/Gần nghĩa - `paraphrase`): weight = 1.5
+     + Mondai 5 (Cách dùng từ - `usage`): weight = 1.5
+   - `grammar` (Thang 30đ):
+     + Mondai 1 (Ngữ pháp câu - `sentence_grammar`): weight = 1.5
+     + Mondai 2 (Sắp xếp dấu sao ★ - `star_arrangement`): weight = 1.5
+     + Mondai 3 (Ngữ pháp đoạn văn - `text_grammar`): weight = 2
+   - `reading` (Thang 60đ):
+     + Mondai 4 (Đoạn văn ngắn ~200 chữ - `short_passage`): weight = 3
+     + Mondai 5 (Đoạn văn trung bình ~400 chữ - `medium_passage`): weight = 4
+     + Mondai 6 (Đoạn văn dài ~550 chữ - `long_passage`): weight = 5
+     + Mondai 7 (Tìm kiếm thông tin/Tờ rơi - `information_retrieval`): weight = 4
 10. Mặc định xuất status = "draft", source.reviewedByHuman = false và review.status = "needs_review" cho đến khi tôi duyệt. Không tự đổi sang published.
 11. Đảm bảo questionCount khớp questions.length; mọi option.id là duy nhất trong câu; correctOptionId (nếu không null) phải trùng một option.
 12. Không chèn Markdown code fence vào nội dung file JSON. Giữ schema giống exam-template.json; giữ null thực sự (không phải chuỗi "null").

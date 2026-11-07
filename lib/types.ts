@@ -4,18 +4,25 @@ export type ExamMode = "practice" | "exam";
 export type SectionType = "vocabulary" | "grammar" | "reading";
 
 export type Subtype =
-  | "kanji_reading"       // Cách đọc Kanji (Mondai 1)
-  | "kanji_writing"       // Cách viết Kanji (Mondai 2)
-  | "contextual_use"     // Tìm từ phù hợp ngữ cảnh (Mondai 3)
-  | "paraphrase"          // Từ đồng nghĩa / diễn đạt tương đương (Mondai 4)
-  | "usage"               // Cách dùng từ đúng (Mondai 5)
-  | "sentence_grammar"    // Ngữ pháp câu (Mondai 1)
-  | "sentence_composition"// Dấu sao ghép câu (Mondai 2)
-  | "text_grammar"        // Ngữ pháp đoạn văn (Mondai 3)
-  | "reading_short"       // Đoạn văn ngắn (Mondai 4)
-  | "reading_medium"      // Đoạn văn trung (Mondai 5)
-  | "reading_long"        // Đoạn văn dài (Mondai 6)
-  | "info_retrieval";     // Tìm kiếm thông tin (Mondai 7)
+  | "kanji_reading"          // Cách đọc Kanji (Mondai 1)
+  | "orthography"            // Cách viết Kanji (Mondai 2)
+  | "kanji_writing"          // Alias cho orthography
+  | "context_meaning"        // Hoàn thành câu/Ngữ cảnh (Mondai 3)
+  | "contextual_use"         // Alias cho context_meaning
+  | "paraphrase"             // Từ đồng nghĩa / diễn đạt tương đương (Mondai 4)
+  | "usage"                  // Cách dùng từ đúng (Mondai 5)
+  | "sentence_grammar"       // Ngữ pháp câu (Mondai 1)
+  | "star_arrangement"      // Sắp xếp dấu sao ★ (Mondai 2)
+  | "sentence_composition"   // Alias cho star_arrangement
+  | "text_grammar"           // Ngữ pháp đoạn văn (Mondai 3)
+  | "short_passage"          // Đoạn văn ngắn ~200 chữ (Mondai 4)
+  | "reading_short"          // Alias cho short_passage
+  | "medium_passage"         // Đoạn văn trung bình ~400 chữ (Mondai 5)
+  | "reading_medium"         // Alias cho medium_passage
+  | "long_passage"           // Đoạn văn dài ~550 chữ (Mondai 6)
+  | "reading_long"           // Alias cho long_passage
+  | "information_retrieval"  // Tìm kiếm thông tin/Tờ rơi (Mondai 7)
+  | "info_retrieval";        // Alias cho information_retrieval
 
 export interface ExamOption {
   id: string; // "1", "2", "3", "4"

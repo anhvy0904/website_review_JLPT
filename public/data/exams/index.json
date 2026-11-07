@@ -18,17 +18,17 @@
     },
     "subtypes": [
       "kanji_reading",
-      "kanji_spelling",
-      "context_word",
-      "synonym",
-      "word_usage",
-      "grammar_fill",
-      "sentence_order",
-      "passage_cloze",
-      "reading_detail",
-      "reading_inference",
-      "reading_comparison",
-      "reading_condition"
+      "orthography",
+      "context_meaning",
+      "paraphrase",
+      "usage",
+      "sentence_grammar",
+      "star_arrangement",
+      "text_grammar",
+      "short_passage",
+      "medium_passage",
+      "long_passage",
+      "information_retrieval"
     ],
     "tags": [
       "色彩",
@@ -89,17 +89,17 @@
     },
     "subtypes": [
       "kanji_reading",
-      "kanji_writing",
-      "context_fill",
-      "synonym",
+      "orthography",
+      "context_meaning",
+      "paraphrase",
       "usage",
-      "grammar_fill",
-      "sentence_order",
-      "passage_cloze",
-      "short_reading",
-      "medium_reading",
-      "long_reading",
-      "information_lookup"
+      "sentence_grammar",
+      "star_arrangement",
+      "text_grammar",
+      "short_passage",
+      "medium_passage",
+      "long_passage",
+      "information_retrieval"
     ],
     "tags": [
       "JLPT N3",
@@ -140,17 +140,17 @@
     },
     "subtypes": [
       "kanji_reading",
-      "kanji_writing",
-      "context_fill",
-      "synonym",
+      "orthography",
+      "context_meaning",
+      "paraphrase",
       "usage",
-      "grammar_fill",
-      "sentence_order",
-      "passage_cloze",
-      "short_reading",
-      "medium_reading",
-      "long_reading",
-      "information_lookup"
+      "sentence_grammar",
+      "star_arrangement",
+      "text_grammar",
+      "short_passage",
+      "medium_passage",
+      "long_passage",
+      "information_retrieval"
     ],
     "tags": [
       "JLPT N3",
@@ -219,7 +219,7 @@
       "reading": 0
     },
     "subtypes": [
-      "kanji_writing"
+      "orthography"
     ],
     "tags": [
       "chữ hán",

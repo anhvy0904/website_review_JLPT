@@ -502,4 +502,42 @@ describe("Logic Chấm Điểm (lib/scoring.ts) & Hệ Thống Điểm Chuẩn J
     assert.equal(res.jlptScore.totalScaledScore, 0);
     assert.equal(res.jlptScore.isOverallPassed, false);
   });
+
+  test("8. Kiểm tra toàn bộ 5 bộ đề thực tế có section, subtype, weight, mondai chuẩn JLPT N3", async () => {
+    const fs = await import("fs");
+    const examFiles = [
+      "n3-best-moshi-01.json",
+      "n3-best-moshi-02.json",
+      "n3-best-moshi-03.json",
+      "n3-kanji-reading-50.json",
+      "n3-kanji-writing-46.json",
+    ];
+
+    const expectedWeights = {
+      kanji_reading: 1,
+      orthography: 1,
+      context_meaning: 1,
+      paraphrase: 1.5,
+      usage: 1.5,
+      sentence_grammar: 1.5,
+      star_arrangement: 1.5,
+      text_grammar: 2,
+      short_passage: 3,
+      medium_passage: 4,
+      long_passage: 5,
+      information_retrieval: 4,
+    };
+
+    for (const file of examFiles) {
+      const data = JSON.parse(fs.readFileSync(`public/data/exams/${file}`, "utf8"));
+      assert.ok(data.questions.length > 0, `${file} phải có câu hỏi`);
+
+      for (const q of data.questions) {
+        assert.ok(["vocabulary", "grammar", "reading"].includes(q.section), `${file} ${q.id} section hợp lệ`);
+        assert.ok(expectedWeights[q.subtype] !== undefined, `${file} ${q.id} có subtype chuẩn: ${q.subtype}`);
+        assert.equal(q.weight, expectedWeights[q.subtype], `${file} ${q.id} có weight đúng với subtype`);
+        assert.ok(typeof q.mondai === "string" && q.mondai.startsWith("Mondai"), `${file} ${q.id} có mondai: ${q.mondai}`);
+      }
+    }
+  });
 });

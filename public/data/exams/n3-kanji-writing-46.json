@@ -31,7 +31,7 @@
       "id": "kw_01",
       "number": 1,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "あの自転車、【かして】いただけませんか。",
       "options": [
         {
@@ -80,13 +80,15 @@
       "review": {
         "status": "verified",
         "notes": "Từ ảnh gốc Kosei trang 22"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_02",
       "number": 2,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "父親は子どもを【すくおう】として川に飛びこんだ。",
       "options": [
         {
@@ -134,13 +136,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_03",
       "number": 3,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "できるだけ食べ物を【のこさない】ようにしている。",
       "options": [
         {
@@ -188,13 +192,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_04",
       "number": 4,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "かぜは三日で【なおった】。",
       "options": [
         {
@@ -242,13 +248,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_05",
       "number": 5,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "休みの日に、パンやケーキを【やいたり】します。",
       "options": [
         {
@@ -296,13 +304,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_06",
       "number": 6,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "銀行はその角を右に【まがると】左にあります。",
       "options": [
         {
@@ -350,13 +360,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_07",
       "number": 7,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "部屋を出るとき、電気を【けした】。",
       "options": [
         {
@@ -404,13 +416,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_08",
       "number": 8,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "旅行の【ひよう】は3万円です。",
       "options": [
         {
@@ -458,13 +472,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_09",
       "number": 9,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "江戸時代まで、横浜は小さい【みなと】だった。",
       "options": [
         {
@@ -512,13 +528,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_10",
       "number": 10,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "この漢字は教科書の5【か】で勉強した。",
       "options": [
         {
@@ -566,13 +584,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_11",
       "number": 11,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "国から友だちが来たので、京都を【あんない】した。",
       "options": [
         {
@@ -620,13 +640,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_12",
       "number": 12,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "休みの日に【ろくが】したビデオを見るつもりだ。",
       "options": [
         {
@@ -674,13 +696,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_13",
       "number": 13,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "私の国と日本との【かんけい】は悪くないと思います。",
       "options": [
         {
@@ -728,13 +752,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_14",
       "number": 14,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "今まで、富士山に行く【きかい】がなかった。",
       "options": [
         {
@@ -782,13 +808,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_15",
       "number": 15,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "病気になって、【けんこう】の大切さに気づいた。",
       "options": [
         {
@@ -836,13 +864,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_16",
       "number": 16,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "子どもたちが【こうえん】で遊んでいる。",
       "options": [
         {
@@ -890,13 +920,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_17",
       "number": 17,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "友だちと【きょうりょく】して部屋をかたづけた。",
       "options": [
         {
@@ -944,13 +976,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_18",
       "number": 18,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "彼は【さいこう】の友だちだ。",
       "options": [
         {
@@ -998,13 +1032,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_19",
       "number": 19,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "スピーチ大会のテーマは「友だち」に【きまった】。",
       "options": [
         {
@@ -1052,13 +1088,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_20",
       "number": 20,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "食事のあと、【さら】を洗ってください。",
       "options": [
         {
@@ -1106,13 +1144,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_21",
       "number": 21,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "【にもつ】は、いすの下に置いてください。",
       "options": [
         {
@@ -1160,13 +1200,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_22",
       "number": 22,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "【ねんし】の休みに国へ帰ろうと思っている。",
       "options": [
         {
@@ -1214,13 +1256,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_23",
       "number": 23,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "花の【しゅるい】をいくつぐらい知っていますか。",
       "options": [
         {
@@ -1268,13 +1312,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_24",
       "number": 24,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "帰国するので、アルバイトを【やめた】。",
       "options": [
         {
@@ -1322,13 +1368,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_25",
       "number": 25,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "男性も【いくじ】をするべきだと思う。",
       "options": [
         {
@@ -1376,13 +1424,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_26",
       "number": 26,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "この川は水がきれいだから、【そこ】が見える。",
       "options": [
         {
@@ -1430,13 +1480,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_27",
       "number": 27,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "毎日、2時間ぐらい【ざんぎょう】します。",
       "options": [
         {
@@ -1484,13 +1536,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_28",
       "number": 28,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "日本の【きこう】は、すごしやすいです。",
       "options": [
         {
@@ -1538,13 +1592,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_29",
       "number": 29,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "試合の結果を【よそう】するのは、むずかしい。",
       "options": [
         {
@@ -1592,13 +1648,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_30",
       "number": 30,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "本棚を【せいり】してください。",
       "options": [
         {
@@ -1646,13 +1704,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_31",
       "number": 31,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "あの人とは子どものころから【なか】がいい。",
       "options": [
         {
@@ -1700,13 +1760,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_32",
       "number": 32,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "みなさん、【せき】についてください。",
       "options": [
         {
@@ -1754,13 +1816,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_33",
       "number": 33,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "手紙には【きせつ】のあいさつを書く。",
       "options": [
         {
@@ -1808,13 +1872,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_34",
       "number": 34,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "来年大学を【そつぎょう】する。",
       "options": [
         {
@@ -1862,13 +1928,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_35",
       "number": 35,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "こんな【せいせき】では大学に合格できない。",
       "options": [
         {
@@ -1916,13 +1984,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_36",
       "number": 36,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "【せんそう】で多くのものをなくした。",
       "options": [
         {
@@ -1970,13 +2040,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_37",
       "number": 37,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "みなさんはこちら【がわ】にすわってください。",
       "options": [
         {
@@ -2024,13 +2096,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_38",
       "number": 38,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "すべって足のほねを【おった】。",
       "options": [
         {
@@ -2078,13 +2152,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_39",
       "number": 39,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "山田さんは【はな】が高いですね。",
       "options": [
         {
@@ -2132,13 +2208,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_40",
       "number": 40,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "何か【ひつような】ものはありませんか。",
       "options": [
         {
@@ -2186,13 +2264,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_41",
       "number": 41,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "学校に行くときは、バスを【りよう】しています。",
       "options": [
         {
@@ -2240,13 +2320,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_42",
       "number": 42,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "このコンサートは【むりょう】です。",
       "options": [
         {
@@ -2294,13 +2376,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_43",
       "number": 43,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "どうか私を【しんよう】してください。",
       "options": [
         {
@@ -2348,13 +2432,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_44",
       "number": 44,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "子どもの成長の【きろく】をとる。",
       "options": [
         {
@@ -2402,13 +2488,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_45",
       "number": 45,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "【はこの】中にはケーキが入っていた。",
       "options": [
         {
@@ -2456,13 +2544,15 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "kw_46",
       "number": 46,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "questionText": "私は英語が【とくい】だ。",
       "options": [
         {
@@ -2510,7 +2600,9 @@
       },
       "review": {
         "status": "verified"
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     }
   ]
 }

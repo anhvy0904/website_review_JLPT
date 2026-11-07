@@ -28,7 +28,9 @@
       "id": "n3-sample-q001",
       "number": 1,
       "section": "vocabulary",
+      "mondai": "Mondai 1",
       "subtype": "kanji_reading",
+      "weight": 1,
       "questionText": "この書類を__提出__してください。",
       "options": [
         { "id": "1", "text": "ていしゅつ" },

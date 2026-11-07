@@ -131,7 +131,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-voc-002",
@@ -189,7 +191,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-voc-003",
@@ -247,7 +251,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-voc-004",
@@ -305,7 +311,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-voc-005",
@@ -363,7 +371,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-voc-006",
@@ -421,7 +431,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-voc-007",
@@ -479,7 +491,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-voc-008",
@@ -537,13 +551,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-voc-009",
       "number": 9,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "passageId": null,
       "questionText": "遠くに大きな__はしら__が見える。",
       "options": [
@@ -595,13 +611,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-voc-010",
       "number": 10,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "passageId": null,
       "questionText": "このテストはとても__やさしい__。",
       "options": [
@@ -653,13 +671,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-voc-011",
       "number": 11,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "passageId": null,
       "questionText": "問題をできるだけ早く__かいけつ__しよう。",
       "options": [
@@ -711,13 +731,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-voc-012",
       "number": 12,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "passageId": null,
       "questionText": "雪が__つもって__いる。",
       "options": [
@@ -769,13 +791,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-voc-013",
       "number": 13,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "passageId": null,
       "questionText": "台所はいつも__せいけつ__にしている。",
       "options": [
@@ -827,13 +851,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-voc-014",
       "number": 14,
       "section": "vocabulary",
-      "subtype": "kanji_writing",
+      "subtype": "orthography",
       "passageId": null,
       "questionText": "友達の大学合格を__みんなでいわった__。",
       "options": [
@@ -885,13 +911,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-voc-015",
       "number": 15,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "私は、一日（　）して10時間ぐらい仕事している。",
       "options": [
@@ -943,13 +971,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-016",
       "number": 16,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "会議で出た意見を（　）、報告書をつくる。",
       "options": [
@@ -1001,13 +1031,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-017",
       "number": 17,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "きちんと仕事に（　）、自分の力で生活しよう。",
       "options": [
@@ -1059,13 +1091,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-018",
       "number": 18,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "父のトランクには、子どもたちへの土産が（　）入っていた。",
       "options": [
@@ -1117,13 +1151,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-019",
       "number": 19,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "（　）のある話し方をする先生の授業は、おもしろい。",
       "options": [
@@ -1175,13 +1211,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-020",
       "number": 20,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "この腕の傷は、子どものときにけがをした（　）です。",
       "options": [
@@ -1233,13 +1271,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-021",
       "number": 21,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "英語が話せるといっても、日常会話ができる（　）です。",
       "options": [
@@ -1291,13 +1331,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-022",
       "number": 22,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "相手の言葉がわからなかったら、（　）もらうといいですよ。",
       "options": [
@@ -1349,13 +1391,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-023",
       "number": 23,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "家族と離れていても、心が（　）いると思えば大丈夫です。",
       "options": [
@@ -1407,13 +1451,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-024",
       "number": 24,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "生徒の親たちは、教室にエアコンが必要だと（　）している。",
       "options": [
@@ -1465,13 +1511,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-025",
       "number": 25,
       "section": "vocabulary",
-      "subtype": "context_fill",
+      "subtype": "context_meaning",
       "passageId": null,
       "questionText": "そうじをしていなくて汚い部屋を友達に見られて、（　）思った。",
       "options": [
@@ -1523,13 +1571,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-voc-026",
       "number": 26,
       "section": "vocabulary",
-      "subtype": "synonym",
+      "subtype": "paraphrase",
       "passageId": null,
       "questionText": "今の時代、漢字を勉強するのは、__むだな__ことなのではないだろうか。",
       "options": [
@@ -1581,13 +1631,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 4"
     },
     {
       "id": "n3-best-moshi-02-voc-027",
       "number": 27,
       "section": "vocabulary",
-      "subtype": "synonym",
+      "subtype": "paraphrase",
       "passageId": null,
       "questionText": "__いくつかの__サイトを参考にして、論文を書いた。",
       "options": [
@@ -1639,13 +1691,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 4"
     },
     {
       "id": "n3-best-moshi-02-voc-028",
       "number": 28,
       "section": "vocabulary",
-      "subtype": "synonym",
+      "subtype": "paraphrase",
       "passageId": null,
       "questionText": "新しいプロジェクトのメンバーが__そろった__。",
       "options": [
@@ -1697,13 +1751,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 4"
     },
     {
       "id": "n3-best-moshi-02-voc-029",
       "number": 29,
       "section": "vocabulary",
-      "subtype": "synonym",
+      "subtype": "paraphrase",
       "passageId": null,
       "questionText": "田中さんに、お客さまから__伝言__です。",
       "options": [
@@ -1755,13 +1811,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 4"
     },
     {
       "id": "n3-best-moshi-02-voc-030",
       "number": 30,
       "section": "vocabulary",
-      "subtype": "synonym",
+      "subtype": "paraphrase",
       "passageId": null,
       "questionText": "明日は、__雨天中止__です。",
       "options": [
@@ -1813,7 +1871,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 4"
     },
     {
       "id": "n3-best-moshi-02-voc-031",
@@ -1871,7 +1931,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-voc-032",
@@ -1929,7 +1991,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-voc-033",
@@ -1987,7 +2051,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-voc-034",
@@ -2045,7 +2111,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-voc-035",
@@ -2103,13 +2171,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-gr-001",
       "number": 1,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "空が暗い。午後は（　）雨になるようだ。",
       "options": [
@@ -2162,13 +2232,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-002",
       "number": 2,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "仕事を決めるとき重要なことは、自分が何が得意かを考える（　）。",
       "options": [
@@ -2221,13 +2293,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-003",
       "number": 3,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "家を出る前に電気を消したと思っていたが、帰ってきたら（　）。なぜか消し忘れたようだ。",
       "options": [
@@ -2280,13 +2354,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-004",
       "number": 4,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "社会はどんどん国際化している。私ももしかすると将来海外に（　）から、外国語が話せるようにしておこう。",
       "options": [
@@ -2339,13 +2415,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-005",
       "number": 5,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "まさ子「私たちは子どもの時、外で（　）けど、今はそうじゃないみたいね。」 ゆう子「そうよね。今の子どもは、どちらかと言えば自分の部屋でゲームをしたい、って思ってるよね。」",
       "options": [
@@ -2398,13 +2476,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-006",
       "number": 6,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "佐藤（　）名前が日本人に一番多く、次は鈴木です。",
       "options": [
@@ -2457,13 +2537,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-007",
       "number": 7,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "（大学で）学生「先生、ちょっとわからないことがあるんですが、（　）いいでしょうか。」教授「いいですよ、何ですか。」",
       "options": [
@@ -2516,13 +2598,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-008",
       "number": 8,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "（旅行会社のカウンターで）客「秋の団体旅行について何か資料はありますか。」係「はい、こちらのパンフレットです。どうぞご自由に（　）。」",
       "options": [
@@ -2575,13 +2659,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-009",
       "number": 9,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "以前大きな地震にあったときに水道が止まった。スーパーでも売り切れてしまい、水が（　）大変だったから、水のボトルはいつも多めに買っている。",
       "options": [
@@ -2634,13 +2720,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-010",
       "number": 10,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "入院が必要と言われていたのでそのつもりでいたが、くわしい検査の結果、入院は（　）。",
       "options": [
@@ -2693,13 +2781,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-011",
       "number": 11,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "（家で）妻「このサラダ、昭雄は（　）から、食べてしまってくれる？」夫「しょうがないなあ、野菜をもっと食べろって、昭雄に後で言っとくよ。」",
       "options": [
@@ -2752,13 +2842,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-012",
       "number": 12,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "（就職説明会で）学生A「会社の雰囲気が知りたいんだけど、どうすればわかるんだろうね。」学生B「うーん、会社の内部の人にしかわからないことだからねぇ。」学生A「やっぱり、就職した先輩に（　）ね。」",
       "options": [
@@ -2811,13 +2903,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-013",
       "number": 13,
       "section": "grammar",
-      "subtype": "grammar_fill",
+      "subtype": "sentence_grammar",
       "passageId": null,
       "questionText": "林さんは、高校を卒業したら仕事をすると言っている。どんなに勧めても、大学に進学（　）。",
       "options": [
@@ -2870,13 +2964,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 1"
     },
     {
       "id": "n3-best-moshi-02-gr-014",
       "number": 14,
       "section": "grammar",
-      "subtype": "sentence_order",
+      "subtype": "star_arrangement",
       "passageId": null,
       "questionText": "「私にはできない」ではなくて、____ ____ ★ ____ 。",
       "options": [
@@ -2929,13 +3025,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-gr-015",
       "number": 15,
       "section": "grammar",
-      "subtype": "sentence_order",
+      "subtype": "star_arrangement",
       "passageId": null,
       "questionText": "心から分かり合える ____ ____ ★ ____ である。",
       "options": [
@@ -2988,13 +3086,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-gr-016",
       "number": 16,
       "section": "grammar",
-      "subtype": "sentence_order",
+      "subtype": "star_arrangement",
       "passageId": null,
       "questionText": "少しくらい高くても ____ ____ ★ ____ から、結局は安いと思う。",
       "options": [
@@ -3047,13 +3147,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-gr-017",
       "number": 17,
       "section": "grammar",
-      "subtype": "sentence_order",
+      "subtype": "star_arrangement",
       "passageId": null,
       "questionText": "私は、日本ほど ____ ★ ____ ____ ないと思っている。",
       "options": [
@@ -3106,13 +3208,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-gr-018",
       "number": 18,
       "section": "grammar",
-      "subtype": "sentence_order",
+      "subtype": "star_arrangement",
       "passageId": null,
       "questionText": "母「よう子、そんなことしちゃダメでしょう。」よう子「え？しなさいと ____ ____ ★ ____ のかわからないよ。」",
       "options": [
@@ -3165,13 +3269,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 1.5,
+      "mondai": "Mondai 2"
     },
     {
       "id": "n3-best-moshi-02-gr-019",
       "number": 19,
       "section": "grammar",
-      "subtype": "passage_cloze",
+      "subtype": "text_grammar",
       "passageId": "p-g19",
       "questionText": "[文章内19] 私は、日本語の小説やエッセイを読むのが好きです。最近読んだのは、小さい女の子（19）家をはなれてしんせきの家に何か月も泊まりに行くという話でした。",
       "options": [
@@ -3224,13 +3330,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 2,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-gr-020",
       "number": 20,
       "section": "grammar",
-      "subtype": "passage_cloze",
+      "subtype": "text_grammar",
       "passageId": "p-g19",
       "questionText": "[文章内20] 私はその物語が（20）、自分でもやってみようと思いました。",
       "options": [
@@ -3283,13 +3391,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 2,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-gr-021",
       "number": 21,
       "section": "grammar",
-      "subtype": "passage_cloze",
+      "subtype": "text_grammar",
       "passageId": "p-g19",
       "questionText": "[文章内21] その代わりに大きいマルだけが一つある、ちょっと変なメールです。（21）両親には意味を伝えていません。",
       "options": [
@@ -3342,13 +3452,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 2,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-gr-022",
       "number": 22,
       "section": "grammar",
-      "subtype": "passage_cloze",
+      "subtype": "text_grammar",
       "passageId": "p-g19",
       "questionText": "[文章内22] 出した後、お父さんとお母さんはどう思うだろう、意味がわからないって言って電話がかかってくる（22）、などといろいろ考えていました。",
       "options": [
@@ -3401,13 +3513,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 2,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-gr-023",
       "number": 23,
       "section": "grammar",
-      "subtype": "passage_cloze",
+      "subtype": "text_grammar",
       "passageId": "p-g19",
       "questionText": "[文章内23] その返事はまだ出していませんが、三重マルにしようかと今考えている（23）。",
       "options": [
@@ -3460,13 +3574,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 2,
+      "mondai": "Mondai 3"
     },
     {
       "id": "n3-best-moshi-02-rd-024",
       "number": 24,
       "section": "reading",
-      "subtype": "short_reading",
+      "subtype": "short_passage",
       "passageId": "p-r24",
       "questionText": "このメールを読んで、しなければならないことは何か。",
       "options": [
@@ -3512,13 +3628,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 3,
+      "mondai": "Mondai 4"
     },
     {
       "id": "n3-best-moshi-02-rd-025",
       "number": 25,
       "section": "reading",
-      "subtype": "short_reading",
+      "subtype": "short_passage",
       "passageId": "p-r25",
       "questionText": "このコンテストは、人々に何を伝えるためのものか。",
       "options": [
@@ -3564,13 +3682,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 3,
+      "mondai": "Mondai 4"
     },
     {
       "id": "n3-best-moshi-02-rd-026",
       "number": 26,
       "section": "reading",
-      "subtype": "short_reading",
+      "subtype": "short_passage",
       "passageId": "p-r26",
       "questionText": "そういう見方とは、この場合どんなことか。",
       "options": [
@@ -3616,13 +3736,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 3,
+      "mondai": "Mondai 4"
     },
     {
       "id": "n3-best-moshi-02-rd-027",
       "number": 27,
       "section": "reading",
-      "subtype": "short_reading",
+      "subtype": "short_passage",
       "passageId": "p-r27",
       "questionText": "このメモを読んで、チャンさんがしなければならないことは何か。",
       "options": [
@@ -3668,13 +3790,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 3,
+      "mondai": "Mondai 4"
     },
     {
       "id": "n3-best-moshi-02-rd-028",
       "number": 28,
       "section": "reading",
-      "subtype": "medium_reading",
+      "subtype": "medium_passage",
       "passageId": "p-r28",
       "questionText": "①「体重は増えていません」というのは、どうしてか。",
       "options": [
@@ -3720,13 +3844,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 4,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-rd-029",
       "number": 29,
       "section": "reading",
-      "subtype": "medium_reading",
+      "subtype": "medium_passage",
       "passageId": "p-r28",
       "questionText": "②「正確でない」というのは、どうしてか。",
       "options": [
@@ -3772,13 +3898,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 4,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-rd-030",
       "number": 30,
       "section": "reading",
-      "subtype": "medium_reading",
+      "subtype": "medium_passage",
       "passageId": "p-r28",
       "questionText": "この文章を書いた人が言いたいことは何か。",
       "options": [
@@ -3824,13 +3952,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 4,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-rd-031",
       "number": 31,
       "section": "reading",
-      "subtype": "medium_reading",
+      "subtype": "medium_passage",
       "passageId": "p-r31",
       "questionText": "この調査によると、日本では学校についてどう考えている学生が多いか。",
       "options": [
@@ -3876,13 +4006,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 4,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-rd-032",
       "number": 32,
       "section": "reading",
-      "subtype": "medium_reading",
+      "subtype": "medium_passage",
       "passageId": "p-r31",
       "questionText": "この調査結果について、本文と合っているものはどれか。",
       "options": [
@@ -3928,13 +4060,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 4,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-rd-033",
       "number": 33,
       "section": "reading",
-      "subtype": "medium_reading",
+      "subtype": "medium_passage",
       "passageId": "p-r31",
       "questionText": "この文章について、正しいものはどれか。",
       "options": [
@@ -3980,13 +4114,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 4,
+      "mondai": "Mondai 5"
     },
     {
       "id": "n3-best-moshi-02-rd-034",
       "number": 34,
       "section": "reading",
-      "subtype": "long_reading",
+      "subtype": "long_passage",
       "passageId": "p-r34",
       "questionText": "映画に対して、この文章を書いた人はどう考えているか。",
       "options": [
@@ -4032,13 +4168,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 5,
+      "mondai": "Mondai 6"
     },
     {
       "id": "n3-best-moshi-02-rd-035",
       "number": 35,
       "section": "reading",
-      "subtype": "long_reading",
+      "subtype": "long_passage",
       "passageId": "p-r34",
       "questionText": "①「今度もまた負けた」について、この文章を書いた人はどう言っているか。",
       "options": [
@@ -4084,13 +4222,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 5,
+      "mondai": "Mondai 6"
     },
     {
       "id": "n3-best-moshi-02-rd-036",
       "number": 36,
       "section": "reading",
-      "subtype": "long_reading",
+      "subtype": "long_passage",
       "passageId": "p-r34",
       "questionText": "どうして②「ハリウッドで作られた映画だったら、と考えてみよう」と言っているのか。",
       "options": [
@@ -4136,13 +4276,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 5,
+      "mondai": "Mondai 6"
     },
     {
       "id": "n3-best-moshi-02-rd-037",
       "number": 37,
       "section": "reading",
-      "subtype": "long_reading",
+      "subtype": "long_passage",
       "passageId": "p-r34",
       "questionText": "③「だからこそ」というのは、どういうことか。",
       "options": [
@@ -4188,13 +4330,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 5,
+      "mondai": "Mondai 6"
     },
     {
       "id": "n3-best-moshi-02-rd-038",
       "number": 38,
       "section": "reading",
-      "subtype": "information_lookup",
+      "subtype": "information_retrieval",
       "passageId": "p-r38",
       "questionText": "マットさんは木曜日の午後9時半に家に帰り、配達メモがあるのに気が付いた。帰宅はいつもこの時間になる。荷物は配達してもらってもいいし、受け取りに行ってもいい。受け取りに行けるのは明日以降で、毎日午後8時以降だ。マットさんが一番早く荷物を受け取れる方法は、どれか。",
       "options": [
@@ -4240,13 +4384,15 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 4,
+      "mondai": "Mondai 7"
     },
     {
       "id": "n3-best-moshi-02-rd-039",
       "number": 39,
       "section": "reading",
-      "subtype": "information_lookup",
+      "subtype": "information_retrieval",
       "passageId": "p-r38",
       "questionText": "ロウさんは、12月5日午後5時に配達メモを見た。今からオンラインで再配達を頼みたい。希望は、次の日の午後7時ごろだ。ロウさんは日にちと時間をどのように入力するか。今年は2020年である。",
       "options": [
@@ -4292,7 +4438,9 @@
       "review": {
         "status": "verified",
         "notes": "Đã đối chiếu bảng đáp án chuẩn."
-      }
+      },
+      "weight": 4,
+      "mondai": "Mondai 7"
     }
   ],
   "questionCount": 74
