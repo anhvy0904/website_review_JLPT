@@ -1,7 +1,21 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import { ExamQuestion } from "@/lib/types";
 import { FuriganaRuby } from "./FuriganaRuby";
-import { CheckCircle2, XCircle, Lightbulb, BookA, Sparkles, Quote, HelpCircle } from "lucide-react";
+import { saveQuestionReport } from "@/lib/storage";
+import {
+  CheckCircle2,
+  XCircle,
+  Lightbulb,
+  BookA,
+  Sparkles,
+  Quote,
+  HelpCircle,
+  AlertTriangle,
+  Send,
+  Check,
+} from "lucide-react";
 
 interface AnswerExplanationProps {
   question: ExamQuestion;
@@ -17,6 +31,26 @@ export function AnswerExplanation({
   const isCorrect = selectedOptionId === question.correctOptionId;
   const isSkipped = !selectedOptionId;
   const { explanation } = question;
+
+  const [showReportForm, setShowReportForm] = useState(false);
+  const [issueType, setIssueType] = useState<"wrong_answer" | "unclear_explanation" | "typo" | "other">("wrong_answer");
+  const [reportComment, setReportComment] = useState("");
+  const [reportSuccess, setReportSuccess] = useState(false);
+
+  const handleSendReport = (e: React.FormEvent) => {
+    e.preventDefault();
+    saveQuestionReport({
+      questionId: question.id,
+      issueType,
+      comment: reportComment.trim() || undefined,
+    });
+    setReportSuccess(true);
+    setTimeout(() => {
+      setShowReportForm(false);
+      setReportSuccess(false);
+      setReportComment("");
+    }, 1500);
+  };
 
   const selectedOption = question.options.find((o) => o.id === selectedOptionId);
   const correctOption = question.options.find((o) => o.id === question.correctOptionId);
@@ -243,6 +277,97 @@ export function AnswerExplanation({
             </div>
           </div>
         )}
+
+        {/* Báo lỗi câu hỏi (Report Question) */}
+        <div className="pt-3 border-t border-slate-200/60">
+          {!showReportForm ? (
+            <button
+              type="button"
+              onClick={() => setShowReportForm(true)}
+              className="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-slate-600 transition-colors"
+            >
+              <AlertTriangle className="w-3.5 h-3.5" />
+              <span>Báo lỗi câu hỏi này</span>
+            </button>
+          ) : (
+            <form onSubmit={handleSendReport} className="p-4 rounded-xl bg-white border border-slate-200 space-y-3 text-xs">
+              <div className="flex items-center justify-between">
+                <span className="font-bold text-slate-800 flex items-center gap-1.5">
+                  <AlertTriangle className="w-3.5 h-3.5 text-amber-500" />
+                  Báo lỗi câu hỏi (ID: {question.id})
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setShowReportForm(false)}
+                  className="text-slate-400 hover:text-slate-600"
+                >
+                  Đóng
+                </button>
+              </div>
+
+              {reportSuccess ? (
+                <div className="py-2 text-emerald-600 font-semibold flex items-center gap-1.5">
+                  <Check className="w-4 h-4" />
+                  Đã ghi nhận báo lỗi! Cảm ơn bạn.
+                </div>
+              ) : (
+                <>
+                  <div className="grid grid-cols-2 gap-2">
+                    {[
+                      { id: "wrong_answer", label: "Đáp án không đúng" },
+                      { id: "unclear_explanation", label: "Lời giải khó hiểu" },
+                      { id: "typo", label: "Lỗi chính tả" },
+                      { id: "other", label: "Lỗi khác" },
+                    ].map((item) => (
+                      <label
+                        key={item.id}
+                        className={`p-2 rounded-lg border cursor-pointer flex items-center gap-2 transition-colors ${
+                          issueType === item.id
+                            ? "border-indigo-600 bg-indigo-50 text-indigo-900 font-semibold"
+                            : "border-slate-200 text-slate-600 hover:bg-slate-50"
+                        }`}
+                      >
+                        <input
+                          type="radio"
+                          name="issueType"
+                          checked={issueType === item.id}
+                          onChange={() => setIssueType(item.id as any)}
+                          className="w-3 h-3 text-indigo-600"
+                        />
+                        <span>{item.label}</span>
+                      </label>
+                    ))}
+                  </div>
+
+                  <textarea
+                    value={reportComment}
+                    onChange={(e) => setReportComment(e.target.value)}
+                    rows={2}
+                    placeholder="Mô tả cụ thể vấn đề (tùy chọn)..."
+                    className="w-full p-2.5 rounded-lg border border-slate-200 text-xs text-slate-800 focus:outline-none focus:border-indigo-500"
+                  />
+
+                  <div className="flex justify-end gap-2">
+                    <button
+                      type="button"
+                      onClick={() => setShowReportForm(false)}
+                      className="px-3 py-1.5 rounded-lg text-slate-600 hover:bg-slate-100"
+                    >
+                      Hủy
+                    </button>
+                    <button
+                      type="submit"
+                      className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700"
+                    >
+                      <Send className="w-3 h-3" />
+                      Gửi báo lỗi
+                    </button>
+                  </div>
+                </>
+              )}
+            </form>
+          )}
+        </div>
       </div>
     </div>
   );

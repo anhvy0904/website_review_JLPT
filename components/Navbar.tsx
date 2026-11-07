@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { BookOpen, Compass, BarChart3, RotateCcw, Menu, X, Sparkles } from "lucide-react";
+import { BookOpen, Compass, BarChart3, RotateCcw, Menu, X, Sparkles, HelpCircle } from "lucide-react";
 
 export function Navbar() {
   const pathname = usePathname();
@@ -13,6 +13,7 @@ export function Navbar() {
     { href: "/exams", label: "Kho đề thi", icon: Compass },
     { href: "/dashboard", label: "Tiến độ học tập", icon: BarChart3 },
     { href: "/review", label: "Ôn câu sai", icon: RotateCcw },
+    { href: "/guide", label: "Hướng dẫn", icon: HelpCircle },
   ];
 
   return (

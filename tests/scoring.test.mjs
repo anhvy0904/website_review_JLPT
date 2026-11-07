@@ -206,3 +206,4 @@ describe("Logic Chấm Điểm (lib/scoring.ts)", () => {
     assert.equal(res.subtypeStats.reading_short.percent, 50);
   });
 });
+

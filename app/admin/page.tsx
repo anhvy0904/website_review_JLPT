@@ -2,8 +2,8 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { ExamIndexItem, ExamSurvey } from "@/lib/types";
-import { getAllSurveys, exportUserData, importUserData } from "@/lib/storage";
+import { ExamIndexItem, ExamSurvey, QuestionReport } from "@/lib/types";
+import { getAllSurveys, getAllQuestionReports, exportUserData, importUserData } from "@/lib/storage";
 import {
   ShieldCheck,
   Plus,
@@ -22,6 +22,7 @@ import {
 export default function AdminPage() {
   const [exams, setExams] = useState<ExamIndexItem[]>([]);
   const [surveys, setSurveys] = useState<ExamSurvey[]>([]);
+  const [reports, setReports] = useState<(QuestionReport & { createdAt: string })[]>([]);
   const [loading, setLoading] = useState(true);
   const [importStatus, setImportStatus] = useState<{ success?: boolean; message?: string } | null>(null);
 
@@ -33,6 +34,7 @@ export default function AdminPage() {
       .finally(() => setLoading(false));
 
     setSurveys(getAllSurveys());
+    setReports(getAllQuestionReports());
   }, []);
 
   const totalQuestions = exams.reduce((acc, e) => acc + (e.questionCount || 0), 0);
@@ -238,6 +240,66 @@ export default function AdminPage() {
         )}
       </section>
 
+      {/* Báo lỗi câu hỏi từ học viên */}
+      <section className="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-sm space-y-5">
+        <div className="flex items-center justify-between pb-3 border-b border-slate-100">
+          <div className="flex items-center gap-2">
+            <AlertCircle className="w-5 h-5 text-rose-500" />
+            <h2 className="text-lg font-bold text-slate-900">Câu hỏi bị học viên báo lỗi</h2>
+          </div>
+          <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-200">
+            {reports.length} báo lỗi
+          </span>
+        </div>
+
+        {reports.length === 0 ? (
+          <p className="text-xs text-slate-400 py-8 text-center">
+            Tuyệt vời! Chưa có câu hỏi nào bị báo lỗi từ phía người học.
+          </p>
+        ) : (
+          <div className="overflow-x-auto">
+            <table className="w-full text-left text-xs text-slate-600">
+              <thead className="bg-slate-50 text-slate-700 font-semibold border-b border-slate-200">
+                <tr>
+                  <th className="py-3 px-4">Thời gian</th>
+                  <th className="py-3 px-4">Mã câu hỏi (ID)</th>
+                  <th className="py-3 px-4">Phân loại lỗi</th>
+                  <th className="py-3 px-4">Ghi chú của học viên</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {reports.map((r, i) => {
+                  const issueLabels: Record<string, string> = {
+                    wrong_answer: "Đáp án không đúng",
+                    unclear_explanation: "Lời giải khó hiểu",
+                    typo: "Lỗi chính tả",
+                    other: "Lỗi khác",
+                  };
+                  return (
+                    <tr key={i} className="hover:bg-slate-50/60">
+                      <td className="py-3 px-4 text-slate-500">
+                        {r.createdAt ? r.createdAt.split("T")[0] : ""}
+                      </td>
+                      <td className="py-3 px-4 font-mono font-semibold text-slate-900">
+                        {r.questionId}
+                      </td>
+                      <td className="py-3 px-4">
+                        <span className="px-2 py-0.5 rounded-full text-[11px] font-semibold bg-rose-50 text-rose-700 border border-rose-200">
+                          {issueLabels[r.issueType] || r.issueType}
+                        </span>
+                      </td>
+                      <td className="py-3 px-4 text-slate-600">
+                        {r.comment || "(Không kèm lời nhắn)"}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </section>
+
       {/* Sao lưu & Phục hồi dữ liệu */}
       <section className="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-sm space-y-5">
         <div className="flex items-center gap-2 pb-3 border-b border-slate-100">
@@ -291,3 +353,4 @@ export default function AdminPage() {
     </div>
   );
 }
+

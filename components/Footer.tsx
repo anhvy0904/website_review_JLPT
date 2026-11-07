@@ -48,6 +48,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/guide" className="hover:text-indigo-600 transition-colors">
+                  Hướng dẫn ôn thi
+                </Link>
+              </li>
+              <li>
                 <Link href="/admin" className="hover:text-indigo-600 transition-colors text-slate-400">
                   Quản trị & Nhập đề (Admin)
                 </Link>

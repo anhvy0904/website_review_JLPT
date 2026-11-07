@@ -1,8 +1,9 @@
-import { ExamAttempt, ExamSurvey } from "./types";
+import { ExamAttempt, ExamSurvey, QuestionReport } from "./types";
 
 const ATTEMPTS_KEY = "jlptn3:v1:attempts";
 const SURVEYS_KEY = "jlptn3:v1:surveys";
 const BOOKMARKS_KEY = "jlptn3:v1:bookmarks";
+const REPORTS_KEY = "jlptn3:v1:question_reports";
 
 function isLocalStorageAvailable(): boolean {
   if (typeof window === "undefined") return false;
@@ -133,6 +134,33 @@ export function toggleBookmarkQuestion(questionId: string): boolean {
   }
 }
 
+// QUESTION REPORTS
+export function getAllQuestionReports(): (QuestionReport & { createdAt: string })[] {
+  if (!isLocalStorageAvailable()) return [];
+  try {
+    const raw = window.localStorage.getItem(REPORTS_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+export function saveQuestionReport(report: QuestionReport): void {
+  if (!isLocalStorageAvailable()) return;
+  try {
+    const reports = getAllQuestionReports();
+    reports.unshift({
+      ...report,
+      createdAt: new Date().toISOString(),
+    });
+    window.localStorage.setItem(REPORTS_KEY, JSON.stringify(reports));
+  } catch (err) {
+    console.error("Lỗi khi lưu report:", err);
+  }
+}
+
 // BACKUP & RESTORE
 export interface BackupData {
   version: "1.0.0";
@@ -140,6 +168,7 @@ export interface BackupData {
   attempts: ExamAttempt[];
   surveys: ExamSurvey[];
   bookmarks: string[];
+  reports?: (QuestionReport & { createdAt: string })[];
 }
 
 export function exportUserData(): string {
@@ -149,6 +178,7 @@ export function exportUserData(): string {
     attempts: getAllAttempts(),
     surveys: getAllSurveys(),
     bookmarks: getBookmarkedQuestions(),
+    reports: getAllQuestionReports(),
   };
   return JSON.stringify(backup, null, 2);
 }
@@ -169,6 +199,9 @@ export function importUserData(jsonString: string): { success: boolean; message:
     }
     if (Array.isArray(parsed.bookmarks)) {
       window.localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(parsed.bookmarks));
+    }
+    if (Array.isArray(parsed.reports)) {
+      window.localStorage.setItem(REPORTS_KEY, JSON.stringify(parsed.reports));
     }
 
     return {
