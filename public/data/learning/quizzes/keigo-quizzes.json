@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q-keigo-001",
+    "topicId": "sonkeigo",
+    "promptJa": "お客様、お荷物は私が＿＿＿。",
+    "promptVi": "Kính thưa quý khách, hành lý để tôi xin phép cầm giúp ạ.",
+    "options": [
+      {
+        "id": "1",
+        "text": "お持ちになります"
+      },
+      {
+        "id": "2",
+        "text": "お持ちします"
+      },
+      {
+        "id": "3",
+        "text": "持たれます"
+      },
+      {
+        "id": "4",
+        "text": "お持ちなさいます"
+      }
+    ],
+    "correctOptionId": "2",
+    "explanationVi": "Chủ ngữ là 私 (tôi). Hành động xách hành lý là của bản thân hướng tới phục vụ khách hàng, do đó BẮT BUỘC dùng KHIÊM NHƯỜNG NGỮ: お + Vます (bỏ ます) + します → お持ちします.",
+    "distractorReasonsVi": {
+      "1": "SAI: お〜になる là TÔN KÍNH NGỮ, không được dùng cho hành động của chính mình.",
+      "2": "ĐÚNG: Khiêm nhường ngữ I (hạ mình để nâng khách).",
+      "3": "SAI: Thể bị động tôn kính, không dùng cho hành vi của bản thân.",
+      "4": "SAI: Mẫu tôn kính ngữ, chỉ dùng khi khách tự cầm."
+    }
+  },
+  {
+    "id": "q-keigo-002",
+    "topicId": "uchisoto",
+    "promptJa": "(Khách hàng gọi điện hỏi gặp Trưởng phòng Yamada công ty bạn) Bạn trả lời: 'あいにく山田は今、席を＿＿＿。'",
+    "promptVi": "Thật không may, anh Yamada hiện tại đang rời khỏi chỗ ngồi ạ.",
+    "options": [
+      {
+        "id": "1",
+        "text": "外していらっしゃいます"
+      },
+      {
+        "id": "2",
+        "text": "外しております"
+      },
+      {
+        "id": "3",
+        "text": "外されております"
+      },
+      {
+        "id": "4",
+        "text": "お外しになります"
+      }
+    ],
+    "correctOptionId": "2",
+    "explanationVi": "NGUYÊN TẮC TRONG - NGOÀI (内・外): Khi nói chuyện với khách hàng bên ngoài (外), thì sếp công ty mình (Trưởng phòng Yamada) thuộc phe TRONG (内). Bắt buộc gọi trống không '山田' (không thêm 部長 hay 様) và dùng KHIÊM NHƯỜNG NGỮ '外しております' (ngoài ra おる là khiêm nhường của いる).",
+    "distractorReasonsVi": {
+      "1": "SAI: いらっしゃる là Tôn kính ngữ, không được dùng nâng hành động của người cùng công ty trước mặt khách hàng.",
+      "2": "ĐÚNG: Khiêm nhường ngữ chuẩn mực trong giao dịch công sở Nhật Bản.",
+      "3": "SAI: Lẫn lộn bị động tôn kính và khiêm nhường.",
+      "4": "SAI: Mẫu tôn kính ngữ お〜になる."
+    }
+  },
+  {
+    "id": "q-keigo-003",
+    "topicId": "kenjougo",
+    "promptJa": "先生、昨日メールでお送りくださった資料を＿＿＿。",
+    "promptVi": "Thưa thầy, em đã xem tài liệu thầy gửi qua email hôm qua rồi ạ.",
+    "options": [
+      {
+        "id": "1",
+        "text": "ご覧になりました"
+      },
+      {
+        "id": "2",
+        "text": "拝見いたしました"
+      },
+      {
+        "id": "3",
+        "text": "見られました"
+      },
+      {
+        "id": "4",
+        "text": "お見せになりました"
+      }
+    ],
+    "correctOptionId": "2",
+    "explanationVi": "Hành động xem tài liệu là của học sinh (em xem tài liệu của thầy), do đó phải dùng KHIÊM NHƯỜNG NGỮ của 見る là 拝見する (hoặc 拝見いたしました).",
+    "distractorReasonsVi": {
+      "1": "SAI: ご覧になる là Tôn kính ngữ, chỉ dùng khi thầy xem.",
+      "2": "ĐÚNG: 拝見する là khiêm nhường ngữ đặc biệt của 見る.",
+      "3": "SAI: Thể bị động tôn kính, không dùng cho hành vi của bản thân.",
+      "4": "SAI: お見せになる có nghĩa là 'thầy cho ai xem'."
+    }
+  },
+  {
+    "id": "q-keigo-004",
+    "topicId": "sonkeigo",
+    "promptJa": "社長、本日の会議の資料はもう＿＿＿か。",
+    "promptVi": "Thưa Giám đốc, ngài đã xem qua tài liệu cuộc họp hôm nay chưa ạ?",
+    "options": [
+      {
+        "id": "1",
+        "text": "ご覧になりました"
+      },
+      {
+        "id": "2",
+        "text": "拝見しました"
+      },
+      {
+        "id": "3",
+        "text": "見ました"
+      },
+      {
+        "id": "4",
+        "text": "拝見なさいました"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationVi": "Hành động xem là của 社長 (Giám đốc). Với sếp, phải dùng TÔN KÍNH NGỮ đặc biệt của 見る là ご覧になる → ご覧になりましたか.",
+    "distractorReasonsVi": {
+      "1": "ĐÚNG: Tôn kính ngữ đặc biệt của 見る.",
+      "2": "SAI: 拝見する là Khiêm nhường ngữ, không được dùng cho hành động của sếp.",
+      "3": "SAI: 見ました là lịch sự thường, chưa đủ mức độ tôn kính với Giám đốc.",
+      "4": "SAI: Ghép sai ngữ pháp giữa khiêm nhường ngữ 拝見 và tôn kính なさる."
+    }
+  },
+  {
+    "id": "q-keigo-005",
+    "topicId": "special-verbs",
+    "promptJa": "「明日、先生のお宅に＿＿＿つもりです。」",
+    "promptVi": "'Ngày mai, tôi dự định sẽ đến thăm nhà của thầy giáo.'",
+    "options": [
+      {
+        "id": "1",
+        "text": "いらっしゃる"
+      },
+      {
+        "id": "2",
+        "text": "伺う (うかがう)"
+      },
+      {
+        "id": "3",
+        "text": "おいでになる"
+      },
+      {
+        "id": "4",
+        "text": "お参りする"
+      }
+    ],
+    "correctOptionId": "2",
+    "explanationVi": "Hành động đi đến nơi của đối phương được tôn kính (nhà thầy giáo) do chính người nói thực hiện, do đó dùng KHIÊM NHƯỜNG NGỮ 伺う (うかがう).",
+    "distractorReasonsVi": {
+      "1": "SAI: いらっしゃる là Tôn kính ngữ.",
+      "2": "ĐÚNG: 伺う dùng khi mình đến nơi của người trên hoặc người được tôn trọng.",
+      "3": "SAI: おいでになる là Tôn kính ngữ.",
+      "4": "SAI: お参りする dùng cho đi lễ đền chùa."
+    }
+  }
+]

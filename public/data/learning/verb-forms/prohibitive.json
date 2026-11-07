@@ -1,0 +1,90 @@
+{
+  "id": "prohibitive",
+  "formId": "prohibitive",
+  "titleJa": "禁止形",
+  "reading": "きんしけい",
+  "titleVi": "Thể cấm đoán",
+  "conceptVi": "Thể cấm đoán dùng để nghiêm cấm hành vi một cách nghiêm khắc và mạnh mẽ nhất.",
+  "whenToUseVi": "Dùng để: (1) Biển báo cấm (Không được vào, Không được chụp ảnh); (2) Tình huống nguy cấp; (3) Tường thuật lời cấm đoán trong trích dẫn gián tiếp.",
+  "nuanceVi": "Cực kỳ nghiêm khắc. Lời cấm lịch sự trong đời sống phải dùng 〜ないでください hoặc 〜てはいけません.",
+  "rulesByGroup": {
+    "godan": "Thể từ điển (辞書形) + な (Ví dụ: 書くな, 話すな, 買うな, 行くな).",
+    "ichidan": "Thể từ điển (辞書形) + な (Ví dụ: 食べるな, 見るな).",
+    "irregular": "• する → するな\n• 来る (くる) → 来るな (くるな)"
+  },
+  "soundChanges": [],
+  "exceptions": [],
+  "verbExamples": [
+    {
+      "kanji": "書く",
+      "reading": "かく",
+      "group": "Nhóm I",
+      "result": "書くな",
+      "resultReading": "かくな",
+      "meaningVi": "viết → Cấm viết!"
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べるな",
+      "resultReading": "たべるな",
+      "meaningVi": "ăn → Cấm ăn!"
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "するな",
+      "resultReading": "するな",
+      "meaningVi": "làm → Cấm làm!"
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来るな",
+      "resultReading": "くるな",
+      "meaningVi": "đến → Cấm lại gần!"
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "ここに車を止めるな。",
+      "furigana": [
+        {
+          "text": "車",
+          "ruby": "くるま"
+        },
+        {
+          "text": "止",
+          "ruby": "と"
+        }
+      ],
+      "vi": "Cấm đỗ xe ở đây."
+    },
+    {
+      "ja": "諦めるな！最後まで頑張れ！",
+      "furigana": [
+        {
+          "text": "諦",
+          "ruby": "あきら"
+        },
+        {
+          "text": "最後",
+          "ruby": "さいご"
+        },
+        {
+          "text": "頑",
+          "ruby": "がん"
+        },
+        {
+          "text": "張",
+          "ruby": "ば"
+        }
+      ],
+      "vi": "Đừng bỏ cuộc! Hãy cố gắng tới cùng!"
+    }
+  ],
+  "commonMistakesVi": "Nhầm thể cấm đoán (Từ điển + な) với thể rủ rê/khuyên nhủ nhẹ nhàng của nữ giới (Vます bỏ ます + な)."
+}

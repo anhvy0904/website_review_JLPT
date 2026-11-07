@@ -1,0 +1,91 @@
+{
+  "id": "special-verbs",
+  "titleJa": "特別敬語動詞一覧表",
+  "titleVi": "Bảng Động Từ Kính Ngữ Bất Quy Tắc Cốt Lõi",
+  "verbs": [
+    {
+      "base": "行く (いく)",
+      "meaningVi": "đi",
+      "sonkeigo": "いらっしゃる ／ おいでになる",
+      "kenjougo": "伺う (うかがう - đến chỗ ngài) ／ 参る (まいる)",
+      "teineigo": "行きます"
+    },
+    {
+      "base": "来る (くる)",
+      "meaningVi": "đến",
+      "sonkeigo": "いらっしゃる ／ おいでになる",
+      "kenjougo": "参る (まいる)",
+      "teineigo": "来ます (きます)"
+    },
+    {
+      "base": "いる",
+      "meaningVi": "ở, có mặt",
+      "sonkeigo": "いらっしゃる",
+      "kenjougo": "おる",
+      "teineigo": "います"
+    },
+    {
+      "base": "言う (いう)",
+      "meaningVi": "nói",
+      "sonkeigo": "おっしゃる",
+      "kenjougo": "申す (もうす) ／ 申し上げる (もうしあげる)",
+      "teineigo": "言います"
+    },
+    {
+      "base": "見る (みる)",
+      "meaningVi": "xem, nhìn",
+      "sonkeigo": "ご覧になる (ごらんになる)",
+      "kenjougo": "拝見する (はいけんする)",
+      "teineigo": "見ます"
+    },
+    {
+      "base": "食べる・飲む",
+      "meaningVi": "ăn / uống",
+      "sonkeigo": "召し上がる (めしあがる)",
+      "kenjougo": "いただく",
+      "teineigo": "食べます ／ 飲みます"
+    },
+    {
+      "base": "する",
+      "meaningVi": "làm",
+      "sonkeigo": "なさる",
+      "kenjougo": "いたす",
+      "teineigo": "します"
+    },
+    {
+      "base": "聞く (きく)",
+      "meaningVi": "nghe, hỏi",
+      "sonkeigo": "お聞きになる (おききになる)",
+      "kenjougo": "伺う (うかがう) ／ 拝聴する (はいちょうする)",
+      "teineigo": "聞きます"
+    },
+    {
+      "base": "会う (あう)",
+      "meaningVi": "gặp gỡ",
+      "sonkeigo": "お会いになる",
+      "kenjougo": "お目にかかる (おめにかかる)",
+      "teineigo": "会います"
+    },
+    {
+      "base": "知っている",
+      "meaningVi": "biết",
+      "sonkeigo": "ご存じです (ごぞんじです)",
+      "kenjougo": "存じております ／ 存じ上げております",
+      "teineigo": "知っています"
+    },
+    {
+      "base": "もらう",
+      "meaningVi": "nhận được",
+      "sonkeigo": "— (đối phương cho mình: くださる)",
+      "kenjougo": "いただく",
+      "teineigo": "もらいます"
+    },
+    {
+      "base": "あげる",
+      "meaningVi": "cho, tặng",
+      "sonkeigo": "—",
+      "kenjougo": "差し上げる (さしあげる)",
+      "teineigo": "あげます"
+    }
+  ]
+}

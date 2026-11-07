@@ -1,0 +1,124 @@
+{
+  "id": "volitional",
+  "formId": "volitional",
+  "titleJa": "意向形",
+  "reading": "いこうけい",
+  "titleVi": "Thể ý chí",
+  "conceptVi": "Thể ý chí là dạng ngắn thân mật của 〜ましょう, biểu đạt ý chí, quyết tâm của người nói hoặc lời rủ rê bạn bè cùng làm gì đó.",
+  "whenToUseVi": "Dùng để: (1) Rủ rê bạn bè thân thiết 'Cùng làm... nhé!'; (2) Biểu đạt dự định ấp ủ 〜ようと思っている; (3) Tự nhủ quyết tâm làm điều gì.",
+  "nuanceVi": "Văn phong thân mật giữa bạn bè, người dưới hoặc tự nhủ. Trong giao tiếp trang trọng với cấp trên phải dùng 〜ましょう.",
+  "rulesByGroup": {
+    "godan": "Chuyển đuôi hàng [u] sang hàng [o] tương ứng và kéo dài âm bằng う (Ví dụ: 書く → 書こう, 話す → 話そう, 買う → 買おう).",
+    "ichidan": "Bỏ る + よう (Ví dụ: 食べる → 食べよう, 見る → 見よう).",
+    "irregular": "• する → しよう\n• 来る (くる) → 来よう (こよう - phát âm là koyou)"
+  },
+  "soundChanges": [
+    {
+      "ending": "う → おう",
+      "result": "おう",
+      "examples": "買う → 買おう"
+    },
+    {
+      "ending": "く → こう",
+      "result": "こう",
+      "examples": "書く → 書こう, 行く → 行こう"
+    },
+    {
+      "ending": "す → そう",
+      "result": "そう",
+      "examples": "話す → 話そう"
+    },
+    {
+      "ending": "む → もう",
+      "result": "もう",
+      "examples": "読む → 読もう"
+    },
+    {
+      "ending": "る → ろう",
+      "result": "ろう",
+      "examples": "取る → 取ろう"
+    }
+  ],
+  "exceptions": [],
+  "verbExamples": [
+    {
+      "kanji": "書く",
+      "reading": "かく",
+      "group": "Nhóm I",
+      "result": "書こう",
+      "resultReading": "かこう",
+      "meaningVi": "viết → cùng viết nào / định viết"
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べよう",
+      "resultReading": "たべよう",
+      "meaningVi": "ăn → cùng ăn nhé"
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "しよう",
+      "resultReading": "しよう",
+      "meaningVi": "làm → cùng làm nhé"
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来よう",
+      "resultReading": "こよう",
+      "meaningVi": "đến → định đến"
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "週末、一緒に映画を見に行こう！",
+      "furigana": [
+        {
+          "text": "週末",
+          "ruby": "しゅうまつ"
+        },
+        {
+          "text": "一緒",
+          "ruby": "いっしょ"
+        },
+        {
+          "text": "映画",
+          "ruby": "えいが"
+        },
+        {
+          "text": "見",
+          "ruby": "み"
+        },
+        {
+          "text": "行",
+          "ruby": "い"
+        }
+      ],
+      "vi": "Cuối tuần cùng đi xem phim nhé!"
+    },
+    {
+      "ja": "来年、JLPT N2を受験しようと思っています。",
+      "furigana": [
+        {
+          "text": "来年",
+          "ruby": "らいねん"
+        },
+        {
+          "text": "受験",
+          "ruby": "じゅけん"
+        },
+        {
+          "text": "思",
+          "ruby": "おも"
+        }
+      ],
+      "vi": "Tôi đang định năm sau sẽ thi JLPT N2."
+    }
+  ],
+  "commonMistakesVi": "Quên thêm [う] kéo dài âm ở Nhóm I (ví dụ viết nhầm thành かこ thay vì かこう). Dùng thể ý chí trực tiếp rủ cấp trên/khách hàng."
+}

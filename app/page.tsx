@@ -15,6 +15,8 @@ import {
   Zap,
   HelpCircle,
   Play,
+  Layers,
+  Crown,
 } from "lucide-react";
 import { getAllAttempts, getBookmarkedQuestions } from "@/lib/storage";
 import { ExamAttempt, ExamIndexItem } from "@/lib/types";
@@ -196,6 +198,102 @@ export default function HomePage() {
                 {bookmarkedCount}
               </div>
               <p className="text-xs text-slate-400">câu cần ôn lại</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Học theo chuyên đề trọng tâm (PRD Addendum M1 & M2) */}
+        <section className="space-y-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 font-semibold text-xs mb-1">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Chuyên Đề Ngữ Pháp N3</span>
+              </div>
+              <h2 className="text-2xl font-extrabold text-slate-900">Học theo chuyên đề</h2>
+              <p className="text-xs text-slate-500 mt-0.5">
+                Hai chủ đề nền tảng bắt buộc để đạt điểm cao trong phần Kiến thức ngôn ngữ & Đọc hiểu
+              </p>
+            </div>
+
+            <Link
+              href="/learn"
+              className="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center gap-1"
+            >
+              <span>Xem tất cả chuyên đề</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Card 1: 12 Thể Động Từ */}
+            <div className="bg-gradient-to-br from-sky-50/70 via-white to-blue-50/30 p-7 rounded-3xl border border-sky-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between space-y-4 group">
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="w-10 h-10 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center">
+                    <Layers className="w-5 h-5" />
+                  </div>
+                  <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800">
+                    12 Thể Động Từ
+                  </span>
+                </div>
+
+                <div className="pt-1">
+                  <span className="text-xs font-bold text-blue-600 font-japanese block">
+                    動詞の活用
+                  </span>
+                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-blue-900 transition-colors">
+                    Chia Các Thể Động Từ
+                  </h3>
+                </div>
+
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  Làm chủ 12 thể (て, た, ない, ば, ý chí, mệnh lệnh, cấm đoán, khả năng, bị động, sai khiến, bị động sai khiến...) kèm công cụ tra bảng chia tự động.
+                </p>
+              </div>
+
+              <Link
+                href="/learn/verb-forms"
+                className="w-full py-3 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-sm flex items-center justify-center gap-1.5 transition-all"
+              >
+                <span>Bắt đầu học 12 Thể</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+
+            {/* Card 2: Kính ngữ & Khiêm nhường ngữ */}
+            <div className="bg-gradient-to-br from-emerald-50/70 via-white to-teal-50/30 p-7 rounded-3xl border border-emerald-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between space-y-4 group">
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="w-10 h-10 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center">
+                    <Crown className="w-5 h-5" />
+                  </div>
+                  <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
+                    Giao Tiếp Công Sở
+                  </span>
+                </div>
+
+                <div className="pt-1">
+                  <span className="text-xs font-bold text-emerald-600 font-japanese block">
+                    敬語・謙譲語
+                  </span>
+                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-emerald-900 transition-colors">
+                    Kính Ngữ & Khiêm Nhường Ngữ
+                  </h3>
+                </div>
+
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  Phân biệt rạch ròi 尊敬語, 謙譲語, 丁寧語 và nguyên tắc Trong - Ngoài (内・外) đối với sếp, khách hàng và đối tác trong bài thi N3.
+                </p>
+              </div>
+
+              <Link
+                href="/learn/keigo"
+                className="w-full py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-sm flex items-center justify-center gap-1.5 transition-all"
+              >
+                <span>Bắt đầu học Kính Ngữ</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
             </div>
           </div>
         </section>

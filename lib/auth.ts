@@ -73,3 +73,4 @@ export function redactSecrets(text: string): string {
   // Mask Gemini/Google API keys (thường bắt đầu bằng AIzaSy...)
   return text.replace(/AIzaSy[A-Za-z0-9_-]{33}/g, "AIzaSy[REDACTED_API_KEY]");
 }
+

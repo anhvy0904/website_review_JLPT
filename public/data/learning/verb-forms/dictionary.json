@@ -1,0 +1,98 @@
+{
+  "id": "dictionary",
+  "formId": "dictionary",
+  "titleJa": "辞書形",
+  "reading": "じしょけい",
+  "titleVi": "Thể từ điển",
+  "conceptVi": "Thể từ điển (nguyên mẫu) là hình thức cơ bản nhất của động từ, xuất hiện trong từ điển, tất cả động từ tiếng Nhật đều kết thúc bằng nguyên âm hàng [u].",
+  "whenToUseVi": "Dùng để: (1) Nói khẳng định hiện tại/tương lai ở văn phong thông thường; (2) Khả năng 〜ことができる; (3) Sở thích 〜ことです; (4) Trước khi làm gì 〜前に; (5) Bổ nghĩa cho danh từ đứng sau.",
+  "nuanceVi": "Văn phong thân mật, tự nhiên. Lưu ý: Không dùng ký hiệu 'Vる' làm công thức chung vì động từ Nhóm I có thể kết thúc bằng く, す, つ, む, v.v.",
+  "rulesByGroup": {
+    "godan": "Kết thúc bằng một trong 9 âm hàng [u]: う, く, ぐ, す, つ, ぬ, ぶ, む, る.",
+    "ichidan": "Luôn kết thúc bằng [る], trước [る] là nguyên âm hàng [i] hoặc [e].",
+    "irregular": "• する\n• 来る (くる)"
+  },
+  "soundChanges": [],
+  "exceptions": [],
+  "verbExamples": [
+    {
+      "kanji": "書く",
+      "reading": "かく",
+      "group": "Nhóm I",
+      "result": "書く",
+      "resultReading": "かく",
+      "meaningVi": "viết"
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べる",
+      "resultReading": "たべる",
+      "meaningVi": "ăn"
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "する",
+      "resultReading": "する",
+      "meaningVi": "làm"
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来る",
+      "resultReading": "くる",
+      "meaningVi": "đến"
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "私の趣味は本を読むことです。",
+      "furigana": [
+        {
+          "text": "私",
+          "ruby": "わたし"
+        },
+        {
+          "text": "趣味",
+          "ruby": "しゅみ"
+        },
+        {
+          "text": "本",
+          "ruby": "ほん"
+        },
+        {
+          "text": "読",
+          "ruby": "よ"
+        }
+      ],
+      "vi": "Sở thích của tôi là đọc sách."
+    },
+    {
+      "ja": "寝る前に、日記を書きます。",
+      "furigana": [
+        {
+          "text": "寝",
+          "ruby": "ね"
+        },
+        {
+          "text": "前",
+          "ruby": "まえ"
+        },
+        {
+          "text": "日記",
+          "ruby": "にっき"
+        },
+        {
+          "text": "書",
+          "ruby": "か"
+        }
+      ],
+      "vi": "Trước khi đi ngủ, tôi viết nhật ký."
+    }
+  ],
+  "commonMistakesVi": "Nhầm tưởng mọi động từ kết thúc bằng [る] đều thuộc Nhóm II (ví dụ 帰る, 走る, 知る, 切る là Nhóm I)."
+}

@@ -1,0 +1,24 @@
+{
+  "modules": [
+    {
+      "id": "verb-forms",
+      "titleJa": "動詞の活用",
+      "titleVi": "Chia các thể động từ",
+      "description": "Làm chủ 12 thể động từ tiếng Nhật từ cơ bản đến nâng cao (て, た, ない, ば, khả năng, bị động, sai khiến, bị động sai khiến...).",
+      "totalTopics": 12,
+      "badge": "12 Thể động từ",
+      "color": "blue",
+      "route": "/learn/verb-forms"
+    },
+    {
+      "id": "keigo",
+      "titleJa": "敬語・謙譲語",
+      "titleVi": "Kính ngữ & Khiêm nhường ngữ",
+      "description": "Phân biệt rạch ròi 尊敬語, 謙譲語, 丁寧語 và nguyên tắc quan hệ trong/ngoài (内・外) trong hội thoại đời sống & công sở Nhật Bản.",
+      "totalTopics": 5,
+      "badge": "Giao tiếp công sở N3",
+      "color": "emerald",
+      "route": "/learn/keigo"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "te",
+  "formId": "te",
+  "titleJa": "て形",
+  "reading": "てけい",
+  "titleVi": "Thể て",
+  "conceptVi": "Thể て là một trong những thể căn bản và quan trọng nhất trong tiếng Nhật, đóng vai trò như liên từ nối các vế câu hoặc làm nền tảng kết hợp với các trợ động từ.",
+  "whenToUseVi": "Dùng để: (1) Nối các hành động xảy ra theo trình tự thời gian; (2) Kết hợp 〜ている (đang diễn ra hoặc duy trì trạng thái); (3) Yêu cầu lịch sự 〜てください; (4) Xin phép 〜てもいいですか; (5) Cấm đoán 〜てはいけません.",
+  "nuanceVi": "Khi dùng đứng một mình ở cuối câu giao tiếp thân mật, thể て biểu thị lời yêu cầu nhẹ nhàng hoặc hỏi lý do.",
+  "rulesByGroup": {
+    "godan": "Chia theo đuôi chữ Hán:\n• う, つ, る → って\n• む, ぶ, ぬ → んで\n• く → いて (Ngoại lệ: 行く → 行って)\n• ぐ → いで\n• す → して",
+    "ichidan": "Bỏ đuôi る, thêm て (Ví dụ: 食べる → 食べて, 見る → 見て)",
+    "irregular": "• する → して\n• 来る (くる) → 来て (きて)"
+  },
+  "soundChanges": [
+    {
+      "ending": "う / つ / る",
+      "result": "って",
+      "examples": "買う→買って, 待つ→待って, 取る→取って"
+    },
+    {
+      "ending": "む / ぶ / ぬ",
+      "result": "んで",
+      "examples": "読む→読んで, 遊ぶ→遊んで, 死ぬ→死んで"
+    },
+    {
+      "ending": "く",
+      "result": "いて",
+      "examples": "書く→書いて, 聞く→聞いて"
+    },
+    {
+      "ending": "ぐ",
+      "result": "いで",
+      "examples": "泳ぐ→泳いで, 急ぐ→急いで"
+    },
+    {
+      "ending": "す",
+      "result": "して",
+      "examples": "話す→話して, 出す→出して"
+    }
+  ],
+  "exceptions": [
+    {
+      "base": "行く",
+      "reading": "いく",
+      "result": "行って",
+      "resultReading": "いって",
+      "note": "Đuôi [く] thông thường đổi thành [いて], nhưng riêng 行く phải biến âm thành [行って]."
+    }
+  ],
+  "verbExamples": [
+    {
+      "kanji": "書く",
+      "reading": "かく",
+      "group": "Nhóm I",
+      "result": "書いて",
+      "resultReading": "かいて",
+      "meaningVi": "viết → viết và..."
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べて",
+      "resultReading": "たべて",
+      "meaningVi": "ăn → ăn rồi..."
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "して",
+      "resultReading": "して",
+      "meaningVi": "làm → làm rồi..."
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来て",
+      "resultReading": "きて",
+      "meaningVi": "đến → đến và..."
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "朝起きて、顔を洗って、朝ご飯を食べました。",
+      "furigana": [
+        {
+          "text": "朝",
+          "ruby": "あさ"
+        },
+        {
+          "text": "起",
+          "ruby": "お"
+        },
+        {
+          "text": "顔",
+          "ruby": "かお"
+        },
+        {
+          "text": "洗",
+          "ruby": "あら"
+        },
+        {
+          "text": "朝",
+          "ruby": "あさ"
+        },
+        {
+          "text": "飯",
+          "ruby": "はん"
+        },
+        {
+          "text": "食",
+          "ruby": "た"
+        }
+      ],
+      "vi": "Sáng nay tôi thức dậy, rửa mặt rồi ăn bữa sáng."
+    },
+    {
+      "ja": "今、日本語の文法を勉強しています。",
+      "furigana": [
+        {
+          "text": "今",
+          "ruby": "いま"
+        },
+        {
+          "text": "日本",
+          "ruby": "にほん"
+        },
+        {
+          "text": "語",
+          "ruby": "ご"
+        },
+        {
+          "text": "文法",
+          "ruby": "ぶんぽう"
+        },
+        {
+          "text": "勉強",
+          "ruby": "べんきょう"
+        }
+      ],
+      "vi": "Bây giờ tôi đang học ngữ pháp tiếng Nhật."
+    }
+  ],
+  "commonMistakesVi": "Nhầm lẫn giữa đuôi [ぐ → いで] và [く → いて]. Quên ngoại lệ 行く (nhiều người viết sai thành 行いて). Nhầm các động từ Nhóm I kết thúc bằng [る] như 帰る (phải là 帰って, không phải 帰て)."
+}

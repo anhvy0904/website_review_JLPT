@@ -1,0 +1,114 @@
+{
+  "id": "causative",
+  "formId": "causative",
+  "titleJa": "使役形",
+  "reading": "しえきけい",
+  "titleVi": "Thể sai khiến",
+  "conceptVi": "Thể sai khiến diễn đạt ý bắt buộc ai làm gì (bắt làm) hoặc cho phép/để cho ai làm gì (cho phép).",
+  "whenToUseVi": "Dùng để: (1) Bắt người dưới/con cái làm việc (mẹ bắt con học); (2) Cho phép làm việc (cho con đi chơi); (3) Gây ra cảm xúc cho người khác (làm mẹ lo lắng); (4) Xin phép một cách lịch sự 〜させてください.",
+  "nuanceVi": "Khi dùng với người trên hoặc muốn xin phép nhã nhặn, cấu trúc '使役 + ていただけませんか' là mẫu câu N3 kinh điển.",
+  "rulesByGroup": {
+    "godan": "Chuyển đuôi hàng [u] sang hàng [a] tương ứng + せる (Ví dụ: 書く → 書かせる, 読む → 読ませる, 買う → 買わせる).",
+    "ichidan": "Bỏ る + させる (Ví dụ: 食べる → 食べさせる, 見る → 見させる).",
+    "irregular": "• する → させる\n• 来る (くる) → 来させる (こさせる)"
+  },
+  "soundChanges": [
+    {
+      "ending": "う → わせる",
+      "result": "わせる",
+      "examples": "買う → 買わせる"
+    },
+    {
+      "ending": "く → かせる",
+      "result": "かける",
+      "examples": "書く → 書かせる, 行く → 行かせる"
+    },
+    {
+      "ending": "す → させる",
+      "result": "させる",
+      "examples": "話す → 話させる"
+    }
+  ],
+  "exceptions": [],
+  "verbExamples": [
+    {
+      "kanji": "書く",
+      "reading": "かく",
+      "group": "Nhóm I",
+      "result": "書かせる",
+      "resultReading": "かかせる",
+      "meaningVi": "viết → bắt/cho viết"
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べさせる",
+      "resultReading": "たべさせる",
+      "meaningVi": "ăn → bắt/cho ăn"
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "させる",
+      "resultReading": "させる",
+      "meaningVi": "làm → bắt/cho làm"
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来させる",
+      "resultReading": "こさせる",
+      "meaningVi": "đến → bắt/bảo đến"
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "母は弟に野菜を食べさせました。",
+      "furigana": [
+        {
+          "text": "母",
+          "ruby": "はは"
+        },
+        {
+          "text": "弟",
+          "ruby": "おとうと"
+        },
+        {
+          "text": "野菜",
+          "ruby": "やさい"
+        },
+        {
+          "text": "食",
+          "ruby": "た"
+        }
+      ],
+      "vi": "Mẹ bắt em trai tôi ăn rau."
+    },
+    {
+      "ja": "すみません、体調が悪いので少し休ませてください。",
+      "furigana": [
+        {
+          "text": "体調",
+          "ruby": "たいちょう"
+        },
+        {
+          "text": "悪",
+          "ruby": "わる"
+        },
+        {
+          "text": "少",
+          "ruby": "すこ"
+        },
+        {
+          "text": "休",
+          "ruby": "やす"
+        }
+      ],
+      "vi": "Xin lỗi, vì sức khỏe không tốt nên xin phép cho tôi được nghỉ một lát ạ."
+    }
+  ],
+  "commonMistakesVi": "Nhầm lẫn giữa trợ từ に và を cho đối tượng bị sai khiến: Nội động từ thường dùng を (子どもを走らせる), Ngoại động từ dùng に (子どもに本を読ませる)."
+}

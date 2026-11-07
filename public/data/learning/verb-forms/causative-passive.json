@@ -1,0 +1,126 @@
+{
+  "id": "causative-passive",
+  "formId": "causative-passive",
+  "titleJa": "使役受身形",
+  "reading": "しえきうけみけい",
+  "titleVi": "Thể bị động sai khiến",
+  "conceptVi": "Thể bị động sai khiến kết hợp cả sai khiến và bị động, diễn đạt ý 'bị người khác ép buộc, bắt phải làm điều gì đó mà bản thân không hề muốn'.",
+  "whenToUseVi": "Dùng để: Thể hiện sự miễn cưỡng, khổ sở hoặc áp lực từ người khác (Bị ép uống rượu, Bị bắt dọn dẹp phòng, Bị ép làm thêm giờ).",
+  "nuanceVi": "Luôn mang sắc thái tâm lý tiêu cực, bất đắc dĩ, cảm giác khó chịu của người bị bắt làm.",
+  "rulesByGroup": {
+    "godan": "• Dạng đầy đủ: Đổi sang hàng [a] + せられる\n• Dạng rút gọn (phổ biến hơn): Đổi sang hàng [a] + される.\nLƯU Ý CỰC KỲ QUAN TRỌNG: Động từ đuôi [す] KHÔNG ĐƯỢC rút gọn (Chỉ dùng 話させられる, KHÔNG dùng 話さされる).",
+    "ichidan": "Bỏ る + させられる (Ví dụ: 食べる → 食べさせられる, 見る → 見させられる). Không có dạng rút gọn.",
+    "irregular": "• する → させられる\n• 来る (くる) → 来させられる (こさせられる)"
+  },
+  "soundChanges": [
+    {
+      "ending": "く → かされる",
+      "result": "かされる",
+      "examples": "書く → 書かされる (viết tắt của 書かせられる)"
+    },
+    {
+      "ending": "む → まされる",
+      "result": "まされる",
+      "examples": "飲む → 飲まされる (viết tắt của 飲ませられる)"
+    },
+    {
+      "ending": "す → させられる",
+      "result": "させられる",
+      "examples": "話す → 話させられる (BẮT BUỘC dạng đầy đủ)"
+    }
+  ],
+  "exceptions": [
+    {
+      "base": "話す",
+      "reading": "はなす",
+      "result": "話させられる",
+      "resultReading": "はなさせられる",
+      "note": "Các động từ kết thúc bằng đuôi [す] tuyệt đối không rút gọn thành さされる để tránh trùng âm."
+    }
+  ],
+  "verbExamples": [
+    {
+      "kanji": "書く",
+      "reading": "かく",
+      "group": "Nhóm I",
+      "result": "書かされる",
+      "resultReading": "かかされる",
+      "meaningVi": "viết → bị bắt phải viết"
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べさせられる",
+      "resultReading": "たべさせられる",
+      "meaningVi": "ăn → bị ép phải ăn"
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "させられる",
+      "resultReading": "させられる",
+      "meaningVi": "làm → bị bắt phải làm"
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来させられる",
+      "resultReading": "こさせられる",
+      "meaningVi": "đến → bị bắt phải đến"
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "昨日の飲み会で、無理にお酒を飲まされました。",
+      "furigana": [
+        {
+          "text": "昨日",
+          "ruby": "きのう"
+        },
+        {
+          "text": "飲",
+          "ruby": "の"
+        },
+        {
+          "text": "会",
+          "ruby": "かい"
+        },
+        {
+          "text": "無理",
+          "ruby": "むり"
+        },
+        {
+          "text": "酒",
+          "ruby": "さけ"
+        }
+      ],
+      "vi": "Trong buổi liên hoan hôm qua, tôi đã bị ép uống rượu."
+    },
+    {
+      "ja": "子どもの頃、嫌いなピーマンを食べさせられました。",
+      "furigana": [
+        {
+          "text": "子",
+          "ruby": "こ"
+        },
+        {
+          "text": "頃",
+          "ruby": "ころ"
+        },
+        {
+          "text": "嫌",
+          "ruby": "きら"
+        },
+        {
+          "text": "食",
+          "ruby": "た"
+        }
+      ],
+      "vi": "Hồi còn nhỏ, tôi từng bị bắt phải ăn ớt chuông mà tôi ghét cay ghét đắng."
+    }
+  ],
+  "commonMistakesVi": "Rút gọn sai với động từ đuôi す (nói 話さされる là sai ngữ pháp). Nhầm với thể sai khiến thuần túy (sai khiến là 'cho/bắt người khác', bị động sai khiến là 'chính mình bị người khác ép')."
+}

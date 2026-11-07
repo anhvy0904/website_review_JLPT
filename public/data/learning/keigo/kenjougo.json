@@ -1,0 +1,119 @@
+{
+  "id": "kenjougo",
+  "titleJa": "謙譲語（けんじょうご）",
+  "titleVi": "Khiêm Nhường Ngữ",
+  "conceptVi": "Khiêm nhường ngữ dùng để hạ thấp hành động của BẢN THÂN hoặc NGƯỜI THUỘC NHÓM MÌNH (người trong gia đình, đồng nghiệp công ty mình) khi hành động đó hướng tới người có vị thế cao hơn, qua đó gián tiếp thể hiện sự tôn kính đối phương.",
+  "formulaRules": [
+    {
+      "nameVi": "Mẫu Khiêm nhường I: お + Vます (bỏ ます) + する / いたす",
+      "usageVi": "Hành động của mình hướng tới người nghe hoặc người được kính trọng.",
+      "formula": "お ＋ V(bỏ ます) ＋ します / いたします",
+      "examples": [
+        {
+          "base": "持つ (もつ)",
+          "result": "お持ちします (おもちします)",
+          "meaningVi": "Tôi xin phép xách/mang giúp ngài"
+        },
+        {
+          "base": "案内する",
+          "result": "ご案内いたします (ごあんないいたします)",
+          "meaningVi": "Tôi xin phép hướng dẫn quý khách"
+        },
+        {
+          "base": "連絡する",
+          "result": "ご連絡いたします (ごれんらくいたします)",
+          "meaningVi": "Tôi sẽ liên lạc lại với ngài sau ạ"
+        }
+      ]
+    },
+    {
+      "nameVi": "Mẫu Khiêm nhường II (Đinh trọng ngữ): Hành động của mình không trực tiếp hướng tới ai",
+      "usageVi": "Hạ thấp lời nói của mình để thể hiện sự khiêm nhã, khiêm tốn trước người nghe.",
+      "formula": "申す, 参る, おる, いたす",
+      "examples": [
+        {
+          "base": "名前は〜と言う",
+          "result": "田中と申します (たなかともうします)",
+          "meaningVi": "Tôi tên là Tanaka"
+        },
+        {
+          "base": "行く / 来る",
+          "result": "ただいま参りました (参る)",
+          "meaningVi": "Tôi vừa mới đến nơi ạ"
+        },
+        {
+          "base": "いる",
+          "result": "事務所におります (おる)",
+          "meaningVi": "Tôi đang ở văn phòng"
+        }
+      ]
+    }
+  ],
+  "specialVerbs": [
+    {
+      "base": "行く・来る",
+      "kenjougo": "伺う (うかがう: đến chỗ ngài) / 参る (まいる)",
+      "meaningVi": "đi / đến"
+    },
+    {
+      "base": "いる",
+      "kenjougo": "おる",
+      "meaningVi": "ở, có mặt"
+    },
+    {
+      "base": "言う",
+      "kenjougo": "申す (もうす) / 申し上げる (もうしあげる)",
+      "meaningVi": "nói"
+    },
+    {
+      "base": "見る",
+      "kenjougo": "拝見する (はいけんする)",
+      "meaningVi": "xem, đọc (thư/tài liệu)"
+    },
+    {
+      "base": "食べる・飲む・もらう",
+      "kenjougo": "いただく",
+      "meaningVi": "ăn / uống / nhận từ ngài"
+    },
+    {
+      "base": "する",
+      "kenjougo": "いたす",
+      "meaningVi": "làm"
+    },
+    {
+      "base": "聞く・訪問する",
+      "kenjougo": "伺う (うかがう)",
+      "meaningVi": "hỏi ngài / đến thăm ngài"
+    },
+    {
+      "base": "会う",
+      "kenjougo": "お目にかかる (おめにかかる)",
+      "meaningVi": "gặp ngài"
+    },
+    {
+      "base": "知っている",
+      "kenjougo": "存じております / 存じ上げております",
+      "meaningVi": "tôi biết"
+    },
+    {
+      "base": "あげる",
+      "kenjougo": "差し上げる (さしあげる)",
+      "meaningVi": "tặng, đưa cho ngài"
+    }
+  ],
+  "situationsVi": [
+    {
+      "title": "Xem tài liệu của khách gửi",
+      "context": "Email gửi đối tác",
+      "correctJa": "送っていただいた資料を拝見いたしました。",
+      "explanationVi": "Hành động xem là của chính mình (tôi xem tài liệu của ngài gửi) nên dùng 拝見する."
+    },
+    {
+      "title": "Tự giới thiệu bản thân trong phỏng vấn",
+      "context": "Ứng viên nói với nhà tuyển dụng",
+      "correctJa": "グエンと申します。ベトナムから参りました。",
+      "explanationVi": "Hạ mình trước người nghe dùng 申す (nói tên) và 参る (đến từ)."
+    }
+  ],
+  "commonMistakesVi": "1. Dùng khiêm nhường ngữ cho khách hàng (Ví dụ: お客様が申されました - SAI, khách hàng nói phải là おっしゃいました).\n2. Nhầm 伺う (đến nơi đối phương để học hỏi/hỏi chuyện) với 参る (chỉ đi/đến đơn thuần)."
+}

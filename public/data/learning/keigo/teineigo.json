@@ -1,0 +1,68 @@
+{
+  "id": "teineigo",
+  "titleJa": "丁寧語（ていねいご）",
+  "titleVi": "Lịch Sự Ngữ",
+  "conceptVi": "Lịch sự ngữ là cách nói lịch sự, tôn trọng người nghe bất kể vai vế, tạo nên phong thái trang nhã và chuẩn mực trong xã hội Nhật Bản.",
+  "formulaRules": [
+    {
+      "nameVi": "Đuôi câu です / ます",
+      "usageVi": "Dùng ở cuối câu khẳng định, phủ định, câu hỏi.",
+      "formula": "Danh từ / Tính từ + です | Động từ + ます",
+      "examples": [
+        {
+          "base": "行く",
+          "result": "行きます / 行きません / 行きました",
+          "meaningVi": "Đi / Không đi / Đã đi"
+        },
+        {
+          "base": "学生",
+          "result": "学生です / 学生ではありません",
+          "meaningVi": "Là học sinh"
+        }
+      ]
+    },
+    {
+      "nameVi": "Thể lịch sự cao cấp: でございます / ございます",
+      "usageVi": "Thay thế cho です và あります trong bối cảnh phục vụ khách hàng, thông báo lễ tân.",
+      "formula": "〜でございます (thay です) | 〜ございます (thay あります)",
+      "examples": [
+        {
+          "base": "トイレはあちらです",
+          "result": "お手洗いはあちらでございます",
+          "meaningVi": "Nhà vệ sinh ở đằng kia ạ"
+        },
+        {
+          "base": "質問があります",
+          "result": "ご質問はございますか",
+          "meaningVi": "Quý khách có câu hỏi nào không ạ?"
+        }
+      ]
+    },
+    {
+      "nameVi": "Mỹ từ ngữ (美化語): Thêm お hoặc ご",
+      "usageVi": "Làm nhã nhặn từ ngữ:",
+      "formula": "お + từ thuần Nhật (和語) | ご + từ Hán (漢語)",
+      "examples": [
+        {
+          "base": "水, 茶, 酒, 金",
+          "result": "お水, お茶, お酒, お金",
+          "meaningVi": "Nước, trà, rượu, tiền"
+        },
+        {
+          "base": "家族, 住所, 連絡",
+          "result": "ご家族, ご住所, ご連絡",
+          "meaningVi": "Gia đình, địa chỉ, liên lạc"
+        }
+      ]
+    }
+  ],
+  "situationsVi": [
+    {
+      "title": "Lễ tân chào đón khách",
+      "context": "Khách sạn hoặc nhà hàng",
+      "correctJa": "いらっしゃいませ。本日のお席はこちらでございます。",
+      "explanationVi": "Dùng でございます thay cho です để tạo phong thái phục vụ cao cấp."
+    }
+  ],
+  "commonMistakesVi": "Gắn [お/ご] bừa bãi vào các từ vay mượn tiếng Anh Katakana (Không nói おビール, おトイレ; ngoại lệ hiếm hoi: おビール đôi khi dùng trong quán ăn nhưng không phải chuẩn)."
+}

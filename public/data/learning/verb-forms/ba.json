@@ -1,0 +1,112 @@
+{
+  "id": "ba",
+  "formId": "ba",
+  "titleJa": "ば形",
+  "reading": "ばけい",
+  "titleVi": "Thể điều kiện ば",
+  "conceptVi": "Thể điều kiện ば diễn đạt giả định 'Nếu điều kiện A xảy ra thì kết quả B sẽ xảy ra'.",
+  "whenToUseVi": "Dùng để: (1) Đưa ra giả định thuận lợi hoặc điều kiện tất yếu; (2) Mẫu so sánh tiến triển 'Càng... càng...' 〜ば〜ほど; (3) Đưa ra lời khuyên hoặc gợi ý 〜ばいいですか.",
+  "nuanceVi": "Mang sắc thái khách quan, giả thuyết logic hơn so với たら (たら thiên về hành động cụ thể trong quá khứ/tương lai).",
+  "rulesByGroup": {
+    "godan": "Chuyển đuôi hàng [u] sang hàng [e] tương ứng + ば (Ví dụ: 書く → 書けば, 買う → 買えば, 話す → 話せば).",
+    "ichidan": "Bỏ る + れば (Ví dụ: 食べる → 食べれば, 見る → 見れば).",
+    "irregular": "• する → すれば\n• 来る (くる) → 来れば (くれば - phát âm là kureba)"
+  },
+  "soundChanges": [
+    {
+      "ending": "う → えば",
+      "result": "えば",
+      "examples": "買う → 買えば"
+    },
+    {
+      "ending": "く → けば",
+      "result": "けば",
+      "examples": "書く → 書けば, 行く → 行けば"
+    },
+    {
+      "ending": "す → せば",
+      "result": "せば",
+      "examples": "話す → 話せば"
+    },
+    {
+      "ending": "つ → てば",
+      "result": "てば",
+      "examples": "待つ → 待てば"
+    },
+    {
+      "ending": "む → めば",
+      "result": "めば",
+      "examples": "読む → 読めば"
+    }
+  ],
+  "exceptions": [],
+  "verbExamples": [
+    {
+      "kanji": "書く",
+      "reading": "かく",
+      "group": "Nhóm I",
+      "result": "書けば",
+      "resultReading": "かけば",
+      "meaningVi": "viết → nếu viết"
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べれば",
+      "resultReading": "たべれば",
+      "meaningVi": "ăn → nếu ăn"
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "すれば",
+      "resultReading": "すれば",
+      "meaningVi": "làm → nếu làm"
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来れば",
+      "resultReading": "くれば",
+      "meaningVi": "đến → nếu đến"
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "安ければ、たくさん買います。",
+      "furigana": [
+        {
+          "text": "安",
+          "ruby": "やす"
+        },
+        {
+          "text": "買",
+          "ruby": "か"
+        }
+      ],
+      "vi": "Nếu rẻ thì tôi sẽ mua nhiều."
+    },
+    {
+      "ja": "日本語は練習すればするほど上手になります。",
+      "furigana": [
+        {
+          "text": "日本語",
+          "ruby": "にほんご"
+        },
+        {
+          "text": "練習",
+          "ruby": "れんしゅう"
+        },
+        {
+          "text": "上手",
+          "ruby": "じょうず"
+        }
+      ],
+      "vi": "Tiếng Nhật càng luyện tập thì sẽ càng giỏi."
+    }
+  ],
+  "commonMistakesVi": "Dùng thể ば cho vế sau thể hiện mệnh lệnh, ý chí khi cả hai vế cùng một chủ ngữ (khi đó nên dùng たら)."
+}

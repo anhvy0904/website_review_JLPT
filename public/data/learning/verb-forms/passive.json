@@ -1,0 +1,110 @@
+{
+  "id": "passive",
+  "formId": "passive",
+  "titleJa": "受身形",
+  "reading": "うけみけい",
+  "titleVi": "Thể bị động",
+  "conceptVi": "Thể bị động diễn đạt việc chủ ngữ chịu tác động từ một hành động của đối tượng khác (bị/được). Trong tiếng Nhật còn có 'bị động gián tiếp / bị động phiền toái' (迷惑受身).",
+  "whenToUseVi": "Dùng để: (1) Bị động trực tiếp (Tôi được khen, Tôi bị mắng); (2) Bị động phiền toái (Tôi bị trời mưa làm ướt, Tôi bị em khóc quấy); (3) Khi sự vật/hiện tượng được công chúng biết đến rộng rãi mà không cần nêu chủ thể.",
+  "nuanceVi": "Bị động phiền toái thường mang sắc thái tiêu cực, phiền toái cho người nói dù động từ gốc là tự động từ (ví dụ: 雨に降られた).",
+  "rulesByGroup": {
+    "godan": "Chuyển đuôi hàng [u] sang hàng [a] tương ứng + れる.\nĐặc biệt: Đuôi [う] đổi thành [わ] (Ví dụ: 買う → 買われる, 叱る → 叱られる).",
+    "ichidan": "Bỏ る + られる (Trùng dạng với thể khả năng, phân biệt qua ngữ cảnh và trợ từ).",
+    "irregular": "• する → される\n• 来る (くる) → 来られる (こられる)"
+  },
+  "soundChanges": [
+    {
+      "ending": "う → われる",
+      "result": "われる",
+      "examples": "買う → 買われる, 笑う → 笑われる"
+    },
+    {
+      "ending": "く → かれる",
+      "result": "かれる",
+      "examples": "書く → 書かれる, 叱る → 叱られる"
+    },
+    {
+      "ending": "す → される",
+      "result": "される",
+      "examples": "話す → 話される, 頼む → 頼まれる"
+    }
+  ],
+  "exceptions": [],
+  "verbExamples": [
+    {
+      "kanji": "書く",
+      "reading": "かく",
+      "group": "Nhóm I",
+      "result": "書かれる",
+      "resultReading": "かかれる",
+      "meaningVi": "viết → được/bị viết"
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べられる",
+      "resultReading": "たべられる",
+      "meaningVi": "ăn → bị ăn mất"
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "される",
+      "resultReading": "される",
+      "meaningVi": "làm → bị/được làm"
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来られる",
+      "resultReading": "こられる",
+      "meaningVi": "đến → bị (ai đó) đến làm phiền"
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "先生に褒められて、とても嬉しかったです。",
+      "furigana": [
+        {
+          "text": "先生",
+          "ruby": "せんせい"
+        },
+        {
+          "text": "褒",
+          "ruby": "ほ"
+        },
+        {
+          "text": "嬉",
+          "ruby": "うれ"
+        }
+      ],
+      "vi": "Được thầy giáo khen, tôi đã rất vui."
+    },
+    {
+      "ja": "雨に降られて、服が濡れてしまいました。",
+      "furigana": [
+        {
+          "text": "雨",
+          "ruby": "あめ"
+        },
+        {
+          "text": "降",
+          "ruby": "ふ"
+        },
+        {
+          "text": "服",
+          "ruby": "ふく"
+        },
+        {
+          "text": "濡",
+          "ruby": "ぬ"
+        }
+      ],
+      "vi": "Bị dính mưa nên quần áo tôi ướt sũng mất rồi."
+    }
+  ],
+  "commonMistakesVi": "Nhầm lẫn giữa thể Khả năng và Bị động ở Nhóm II vì cùng có đuôi られる. Nhầm trợ từ tác nhân (người thực hiện hành động thường đi với trợ từ に: 先生に褒められる)."
+}

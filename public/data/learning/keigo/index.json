@@ -1,0 +1,57 @@
+{
+  "heroTitleJa": "敬語（けいご）を学ぼう",
+  "heroTitleVi": "Học Kính Ngữ & Khiêm Nhường Ngữ Tiếng Nhật",
+  "heroSubtitleVi": "Bí quyết làm chủ 3 hệ thống kính ngữ và nguyên tắc Trong - Ngoài (内・外) trong đề thi JLPT N3 và giao tiếp công sở Nhật Bản.",
+  "categories": [
+    {
+      "id": "sonkeigo",
+      "titleJa": "尊敬語",
+      "reading": "そんけいご",
+      "titleVi": "Tôn kính ngữ",
+      "summaryVi": "Nâng hành động của đối phương hoặc người có vị thế cao (khách hàng, cấp trên, thầy cô).",
+      "actionSubject": "Người khác / Đối phương (khách, sếp)",
+      "badgeColor": "emerald",
+      "icon": "Crown"
+    },
+    {
+      "id": "kenjougo",
+      "titleJa": "謙譲語",
+      "reading": "けんじょうご",
+      "titleVi": "Khiêm nhường ngữ",
+      "summaryVi": "Hạ thấp hành vi của bản thân hoặc người thuộc nhóm mình (công ty mình) để gián tiếp tôn kính đối phương.",
+      "actionSubject": "Bản thân / Người phe mình (nhân viên, công ty tôi)",
+      "badgeColor": "indigo",
+      "icon": "UserCheck"
+    },
+    {
+      "id": "teineigo",
+      "titleJa": "丁寧語",
+      "reading": "ていねいご",
+      "titleVi": "Lịch sự ngữ",
+      "summaryVi": "Cách diễn đạt lịch sự, trang nhã hướng tới người nghe (です, ます, でございます).",
+      "actionSubject": "Người nói thể hiện sự tôn trọng chung",
+      "badgeColor": "blue",
+      "icon": "Sparkles"
+    },
+    {
+      "id": "uchisoto",
+      "titleJa": "内・外の法則",
+      "reading": "うち・そとのほうそく",
+      "titleVi": "Nguyên tắc Trong - Ngoài",
+      "summaryVi": "Kim chỉ nam quan hệ công sở Nhật: Nói với khách hàng thì sếp công ty mình cũng là phe Trong (hạ mình).",
+      "actionSubject": "Ma trận quan hệ vị thế công sở",
+      "badgeColor": "purple",
+      "icon": "Compass"
+    },
+    {
+      "id": "special-verbs",
+      "titleJa": "特別敬語動詞",
+      "reading": "とくべつけいごどうし",
+      "titleVi": "Bảng động từ kính ngữ đặc biệt",
+      "summaryVi": "Bảng tra cứu các động từ biến đổi bất quy tắc cốt lõi thường xuất hiện trong đề thi JLPT N3.",
+      "actionSubject": "Bảng tra cứu nhanh",
+      "badgeColor": "amber",
+      "icon": "Table"
+    }
+  ]
+}

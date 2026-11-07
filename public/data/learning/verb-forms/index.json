@@ -1,0 +1,110 @@
+[
+  {
+    "id": "te",
+    "titleJa": "て形",
+    "reading": "てけい",
+    "titleVi": "Thể て",
+    "subtitle": "Nối câu, đang làm (〜ている), xin phép (〜てもいい)",
+    "groupIllustration": "〜て / 〜で",
+    "order": 1
+  },
+  {
+    "id": "ta",
+    "titleJa": "た形",
+    "reading": "たけい",
+    "titleVi": "Thể た",
+    "subtitle": "Quá khứ ngắn, kinh nghiệm (〜たことがある), sau khi (〜た後で)",
+    "groupIllustration": "〜た / 〜だ",
+    "order": 2
+  },
+  {
+    "id": "nai",
+    "titleJa": "ない形",
+    "reading": "ないけい",
+    "titleVi": "Thể phủ định ない",
+    "subtitle": "Phủ định ngắn, xin đừng (〜ないでください), phải làm (〜なければならない)",
+    "groupIllustration": "〜ない",
+    "order": 3
+  },
+  {
+    "id": "dictionary",
+    "titleJa": "辞書形",
+    "reading": "じしょけい",
+    "titleVi": "Thể từ điển",
+    "subtitle": "Nguyên mẫu tra từ điển, trước khi (〜前に), có thể (〜ことができる)",
+    "groupIllustration": "Hàng u (〜う, 〜く, 〜る...)",
+    "order": 4
+  },
+  {
+    "id": "ba",
+    "titleJa": "ば形",
+    "reading": "ばけい",
+    "titleVi": "Thể điều kiện ば",
+    "subtitle": "Điều kiện giả định 'Nếu... thì...', càng... càng... (〜ば〜ほど)",
+    "groupIllustration": "〜えば / 〜れば",
+    "order": 5
+  },
+  {
+    "id": "volitional",
+    "titleJa": "意向形",
+    "reading": "いこうけい",
+    "titleVi": "Thể ý chí",
+    "subtitle": "Rủ rê thân mật, dự định làm gì đó (〜ようと思う)",
+    "groupIllustration": "〜おう / 〜よう",
+    "order": 6
+  },
+  {
+    "id": "imperative",
+    "titleJa": "命令形",
+    "reading": "めいれいけい",
+    "titleVi": "Thể mệnh lệnh",
+    "subtitle": "Ra lệnh trực tiếp dứt khoát, khẩu hiệu cổ vũ, báo hiệu khẩn cấp",
+    "groupIllustration": "〜え / 〜ろ",
+    "order": 7
+  },
+  {
+    "id": "prohibitive",
+    "titleJa": "禁止形",
+    "reading": "きんしけい",
+    "titleVi": "Thể cấm đoán",
+    "subtitle": "Cấm chỉ hành động tuyệt đối 'Không được làm!', biển báo cấm",
+    "groupIllustration": "Từ điển + な",
+    "order": 8
+  },
+  {
+    "id": "potential",
+    "titleJa": "可能形",
+    "reading": "かのうけい",
+    "titleVi": "Thể khả năng",
+    "subtitle": "Có thể làm gì, khả năng năng lực hoặc hoàn cảnh cho phép",
+    "groupIllustration": "〜える / 〜られる",
+    "order": 9
+  },
+  {
+    "id": "passive",
+    "titleJa": "受身形",
+    "reading": "うけみけい",
+    "titleVi": "Thể bị động",
+    "subtitle": "Bị hoặc được người khác tác động, bị động phiền toái (迷惑受身)",
+    "groupIllustration": "〜あれる / 〜られる",
+    "order": 10
+  },
+  {
+    "id": "causative",
+    "titleJa": "使役形",
+    "reading": "しえきけい",
+    "titleVi": "Thể sai khiến",
+    "subtitle": "Bắt ai làm gì hoặc cho phép ai làm gì (〜させてください)",
+    "groupIllustration": "〜あせる / 〜させる",
+    "order": 11
+  },
+  {
+    "id": "causative-passive",
+    "titleJa": "使役受身形",
+    "reading": "しえきうけみけい",
+    "titleVi": "Thể bị động sai khiến",
+    "subtitle": "Bị bắt buộc phải làm việc bản thân không muốn, biểu đạt miễn cưỡng",
+    "groupIllustration": "〜あされる / 〜させられる",
+    "order": 12
+  }
+]

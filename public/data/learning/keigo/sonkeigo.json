@@ -1,0 +1,138 @@
+{
+  "id": "sonkeigo",
+  "titleJa": "尊敬語（そんけいご）",
+  "titleVi": "Tôn Kính Ngữ",
+  "conceptVi": "Tôn kính ngữ dùng để bày tỏ sự kính trọng đối với NGƯỜI ĐƯỢC TÔN KÍNH (người nghe hoặc nhân vật thứ ba có địa vị cao hơn). Chủ thể thực hiện hành động LUÔN LÀ NGƯỜI ĐÓ, tuyệt đối không bao giờ là bản thân.",
+  "formulaRules": [
+    {
+      "nameVi": "Mẫu chuẩn 1: お + Vます (bỏ ます) + になる",
+      "usageVi": "Áp dụng cho động từ thuần Nhật (Nhóm I và Nhóm II).",
+      "formula": "お ＋ V(bỏ ます) ＋ になる",
+      "examples": [
+        {
+          "base": "読む (よむ)",
+          "result": "お読みになる (およみになる)",
+          "meaningVi": "đọc → ngài/thầy đọc"
+        },
+        {
+          "base": "帰る (かえる)",
+          "result": "お帰りになる (おかえりになる)",
+          "meaningVi": "về → ngài/sếp về"
+        },
+        {
+          "base": "待つ (まつ)",
+          "result": "お待ちになる (おまちになる)",
+          "meaningVi": "đợi → quý khách đợi"
+        }
+      ]
+    },
+    {
+      "nameVi": "Mẫu chuẩn 2: ご + Danh động từ (gốc Hán) + になる / なさる",
+      "usageVi": "Áp dụng cho các danh động từ gốc Hán (Suru-verb).",
+      "formula": "ご ＋ Noun(Hán tự) ＋ になる / なさる",
+      "examples": [
+        {
+          "base": "利用する",
+          "result": "ご利用になる (ごりようになる)",
+          "meaningVi": "sử dụng → quý khách sử dụng"
+        },
+        {
+          "base": "連絡する",
+          "result": "ご連絡になる / ご連絡なさる",
+          "meaningVi": "liên lạc → sếp liên lạc"
+        },
+        {
+          "base": "出席する",
+          "result": "ご出席になる (ごしゅっせきになる)",
+          "meaningVi": "tham dự → ngài tham dự"
+        }
+      ]
+    },
+    {
+      "nameVi": "Mẫu nhờ vả lịch sự: お / ご ＋ V(bỏ ます) ＋ ください",
+      "usageVi": "Yêu cầu hoặc mời đối phương làm gì đó một cách tôn trọng.",
+      "formula": "お / ご ＋ V ＋ ください",
+      "examples": [
+        {
+          "base": "座る (すわる)",
+          "result": "お座りください (おすわりください)",
+          "meaningVi": "Mời ngài ngồi ạ"
+        },
+        {
+          "base": "確認する",
+          "result": "ご確認ください (ごかくにんください)",
+          "meaningVi": "Xin quý khách vui lòng xác nhận"
+        }
+      ]
+    },
+    {
+      "nameVi": "Mẫu chia dạng Bị động (受身形): 〜れる / 〜られる",
+      "usageVi": "Mức độ tôn kính nhẹ nhàng, tự nhiên trong giao tiếp thường ngày.",
+      "formula": "V受身形",
+      "examples": [
+        {
+          "base": "書く (かく)",
+          "result": "書かれる (かかれる)",
+          "meaningVi": "thầy viết"
+        },
+        {
+          "base": "来る (くる)",
+          "result": "来られる (こられる)",
+          "meaningVi": "trưởng phòng đến"
+        }
+      ]
+    }
+  ],
+  "specialVerbs": [
+    {
+      "base": "行く・来る・いる",
+      "sonkeigo": "いらっしゃる / おいでになる",
+      "meaningVi": "đi / đến / ở"
+    },
+    {
+      "base": "食べる・飲む",
+      "sonkeigo": "召し上がる (めしあがる)",
+      "meaningVi": "ăn / uống"
+    },
+    {
+      "base": "言う",
+      "sonkeigo": "おっしゃる",
+      "meaningVi": "nói"
+    },
+    {
+      "base": "見る",
+      "sonkeigo": "ご覧になる (ごらんになる)",
+      "meaningVi": "xem, nhìn"
+    },
+    {
+      "base": "する",
+      "sonkeigo": "なさる",
+      "meaningVi": "làm"
+    },
+    {
+      "base": "知っている",
+      "sonkeigo": "ご存じです (ごぞんじです)",
+      "meaningVi": "biết"
+    },
+    {
+      "base": "くれる",
+      "sonkeigo": "くださる",
+      "meaningVi": "cho (tôi)"
+    }
+  ],
+  "situationsVi": [
+    {
+      "title": "Hỏi sếp đã đọc báo cáo chưa",
+      "context": "Nhân viên hỏi Trưởng phòng",
+      "correctJa": "部長、先ほどの企画書はお読みになりましたか。",
+      "explanationVi": "Chủ ngữ là 部長 (sếp), hành động đọc là của sếp nên dùng tôn kính ngữ お読みになりましたか."
+    },
+    {
+      "title": "Mời khách uống cà phê",
+      "context": "Tiếp đón khách hàng đối tác",
+      "correctJa": "どうぞ、温かいうちに召し上がってください。",
+      "explanationVi": "Khách là người uống, dùng 召し上がる thay cho 飲む."
+    }
+  ],
+  "commonMistakesVi": "1. Dùng tôn kính ngữ cho chính mình (Ví dụ nói: 私は召し上がりました - SAI nghiêm trọng).\n2. Kính ngữ kép (二重敬語): Đã dùng động từ đặc biệt lại thêm bị động (Ví dụ: おっしゃられた - SAI, chỉ dùng おっしゃいました)."
+}

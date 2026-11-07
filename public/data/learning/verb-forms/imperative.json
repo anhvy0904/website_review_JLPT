@@ -1,0 +1,102 @@
+{
+  "id": "imperative",
+  "formId": "imperative",
+  "titleJa": "命令形",
+  "reading": "めいれいけい",
+  "titleVi": "Thể mệnh lệnh",
+  "conceptVi": "Thể mệnh lệnh là hình thức ra lệnh dứt khoát, mang tính ép buộc cao nhất trong hệ thống động từ tiếng Nhật.",
+  "whenToUseVi": "Dùng trong: (1) Tình huống khẩn cấp (Chạy đi! Tránh ra!); (2) Nam giới nói với người thân thiết; (3) Huấn luyện viên thể thao hoặc cổ vũ (Cố lên!); (4) Biển báo giao thông; (5) Tường thuật gián tiếp câu ra lệnh.",
+  "nuanceVi": "Mang sắc thái rất mạnh, thô lỗ nếu dùng bừa bãi trong giao tiếp thường nhật. Không bao giờ dùng với người lạ hoặc người trên.",
+  "rulesByGroup": {
+    "godan": "Chuyển đuôi hàng [u] sang hàng [e] tương ứng (Ví dụ: 書く → 書け, 話す → 話せ, 買う → 買え, 待つ → 待て).",
+    "ichidan": "Bỏ る + ろ (hoặc よ trong văn viết) (Ví dụ: 食べる → 食べろ, 見る → 見ろ).",
+    "irregular": "• する → しろ (hoặc せよ)\n• 来る (くる) → 来い (こい - phát âm là koi)"
+  },
+  "soundChanges": [],
+  "exceptions": [],
+  "verbExamples": [
+    {
+      "kanji": "書く",
+      "reading": "かく",
+      "group": "Nhóm I",
+      "result": "書け",
+      "resultReading": "かけ",
+      "meaningVi": "viết → Viết mau!"
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べろ",
+      "resultReading": "たべろ",
+      "meaningVi": "ăn → Ăn đi!"
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "しろ",
+      "resultReading": "しろ",
+      "meaningVi": "làm → Làm ngay!"
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来い",
+      "resultReading": "こい",
+      "meaningVi": "đến → Lại đây mau!"
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "危ない！早く逃げろ！",
+      "furigana": [
+        {
+          "text": "危",
+          "ruby": "あぶ"
+        },
+        {
+          "text": "早",
+          "ruby": "はや"
+        },
+        {
+          "text": "逃",
+          "ruby": "に"
+        }
+      ],
+      "vi": "Nguy hiểm! Mau chạy đi!"
+    },
+    {
+      "ja": "部長は彼に『明日までに報告書を出せ』と言いました。",
+      "furigana": [
+        {
+          "text": "部長",
+          "ruby": "ぶちょう"
+        },
+        {
+          "text": "彼",
+          "ruby": "かれ"
+        },
+        {
+          "text": "明日",
+          "ruby": "あした"
+        },
+        {
+          "text": "報告書",
+          "ruby": "ほうこくしょ"
+        },
+        {
+          "text": "出",
+          "ruby": "だ"
+        },
+        {
+          "text": "言",
+          "ruby": "い"
+        }
+      ],
+      "vi": "Trưởng phòng nói với anh ấy rằng: 'Trước ngày mai hãy nộp báo cáo!'."
+    }
+  ],
+  "commonMistakesVi": "Gán nhãn chung là 'Vろ' cho tất cả động từ (sai, vì Nhóm I đổi sang hàng [e] như 書け, không phải 書くろ)."
+}

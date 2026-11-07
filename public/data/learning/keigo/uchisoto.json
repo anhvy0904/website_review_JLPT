@@ -1,0 +1,34 @@
+{
+  "id": "uchisoto",
+  "titleJa": "内・外の法則（うち・そとのほうそく）",
+  "titleVi": "Nguyên Tắc 'Trong' & 'Ngoài' Trong Công Sở",
+  "conceptVi": "Đây là nguyên tắc then chốt nhất của kính ngữ Nhật Bản: Mối quan hệ thân sơ quyết định cách dùng từ, chứ không chỉ dựa vào tuổi tác hay chức vị đơn thuần.",
+  "matrix": [
+    {
+      "group": "Phe TRONG (内 - Uchi)",
+      "members": "Bản thân, gia đình mình, đồng nghiệp cùng công ty, cấp dưới, và CẢ GIÁM ĐỐC CÔNG TY MÌNH khi giao tiếp với người ngoài.",
+      "rule": "LUÔN DÙNG KHIÊM NHƯỜNG NGỮ (hoặc cách gọi không kính ngữ) khi nói về họ trước mặt người ngoài."
+    },
+    {
+      "group": "Phe NGOÀI (外 - Soto)",
+      "members": "Khách hàng, đối tác công ty bạn, người ngoài xã hội, người không thuộc nhóm mình.",
+      "rule": "LUÔN DÙNG TÔN KÍNH NGỮ khi nói về hành động của họ."
+    }
+  ],
+  "goldenRuleVi": "KHI NÓI CHUYỆN VỚI NGƯỜI NGOÀI (KHÁCH HÀNG / ĐỐI TÁC): Mọi người trong công ty mình (kể cả Giám đốc, Trưởng phòng) đều trở thành phe TRONG (内). Vì vậy:\n1. BỎ toàn bộ chức danh và đuôi 様/さん (gọi là 'Tanaka', không gọi 'Tanaka Shachou').\n2. Dùng KHIÊM NHƯỜNG NGỮ cho hành động của sếp mình!",
+  "situationsVi": [
+    {
+      "title": "Khách hàng gọi điện hỏi gặp Giám đốc công ty mình",
+      "context": "Nhân viên trả lời điện thoại của khách",
+      "wrongJa": "社長の田中様は外出していらっしゃいます。(SAI)",
+      "correctJa": "社長の田中は外出しております。(ĐÚNG)",
+      "explanationVi": "Đối với khách hàng ngoài công ty, Giám đốc Tanaka là người phe mình (内), phải bỏ đuôi kính ngữ và dùng khiêm nhường ngữ (外出しております)."
+    },
+    {
+      "title": "Báo cáo với khách hàng về tài liệu đồng nghiệp đã gửi",
+      "context": "Email gửi khách",
+      "correctJa": "弊社の担当の山田より、資料をお送りいたしました。",
+      "explanationVi": "Đồng nghiệp Yamada là phe Trong, dùng 弊社 (công ty chúng tôi) và お送りいたしました (khiêm nhường)."
+    }
+  ]
+}

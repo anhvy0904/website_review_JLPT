@@ -1,0 +1,132 @@
+{
+  "id": "nai",
+  "formId": "nai",
+  "titleJa": "ない形",
+  "reading": "ないけい",
+  "titleVi": "Thể phủ định ない",
+  "conceptVi": "Thể ない là dạng phủ định ngắn (thông thường) của động từ trong hiện tại và tương lai.",
+  "whenToUseVi": "Dùng để: (1) Phủ định thân mật thay cho 〜ません; (2) Yêu cầu đừng làm gì 〜ないでください; (3) Bắt buộc phải làm 〜なければならない; (4) Không cần phải làm 〜なくてもいい; (5) Giữ nguyên trạng thái 〜ないで.",
+  "nuanceVi": "Thể hiện sự phủ định trực tiếp trong giao tiếp hàng ngày; là nền tảng cho nhiều cấu trúc ngữ pháp điều kiện và nghĩa vụ trong N3.",
+  "rulesByGroup": {
+    "godan": "Chuyển âm cuối hàng [u] sang hàng [a] tương ứng rồi thêm ない.\nĐặc biệt: Đuôi [う] chuyển thành [わ] (Ví dụ: 買う → 買わない).",
+    "ichidan": "Bỏ đuôi る, thêm ない (Ví dụ: 食べる → 食べない, 見る → 見ない)",
+    "irregular": "• する → しない\n• 来る (くる) → 来ない (こない - lưu ý đổi cách đọc Kanji thành 'ko')\n• Ngoại lệ từ vựng: ある → ない (không phải あらない)"
+  },
+  "soundChanges": [
+    {
+      "ending": "う",
+      "result": "わない",
+      "examples": "買う → 買わない, 会う → 会わない"
+    },
+    {
+      "ending": "く / ぐ",
+      "result": "かない / がない",
+      "examples": "書く → 書かない, 泳ぐ → 泳がない"
+    },
+    {
+      "ending": "す",
+      "result": "さない",
+      "examples": "話す → 話さない, 出す → 出さない"
+    },
+    {
+      "ending": "つ",
+      "result": "たない",
+      "examples": "待つ → 待たない"
+    },
+    {
+      "ending": "ぬ / ぶ / む",
+      "result": "なない / ばない / まない",
+      "examples": "死ぬ → 死なない, 呼ぶ → 呼ばない, 読む → 読まない"
+    },
+    {
+      "ending": "る",
+      "result": "らない",
+      "examples": "取る → 取らない, 帰る → 帰らない"
+    }
+  ],
+  "exceptions": [
+    {
+      "base": "ある",
+      "reading": "ある",
+      "result": "ない",
+      "resultReading": "ない",
+      "note": "Động từ ある có dạng phủ định là ない, không bao giờ dùng あらない."
+    },
+    {
+      "base": "来る",
+      "reading": "くる",
+      "result": "来ない",
+      "resultReading": "こない",
+      "note": "Cách đọc chữ Hán đổi từ [く] sang [こ]."
+    }
+  ],
+  "verbExamples": [
+    {
+      "kanji": "買う",
+      "reading": "かう",
+      "group": "Nhóm I",
+      "result": "買わない",
+      "resultReading": "かわない",
+      "meaningVi": "mua → không mua"
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べない",
+      "resultReading": "たべない",
+      "meaningVi": "ăn → không ăn"
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "しない",
+      "resultReading": "しない",
+      "meaningVi": "làm → không làm"
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来ない",
+      "resultReading": "こない",
+      "meaningVi": "đến → không đến"
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "ここで写真を撮らないでください。",
+      "furigana": [
+        {
+          "text": "写真",
+          "ruby": "しゃしん"
+        },
+        {
+          "text": "撮",
+          "ruby": "と"
+        }
+      ],
+      "vi": "Xin vui lòng không chụp ảnh ở đây."
+    },
+    {
+      "ja": "明日は早く起きなければなりません。",
+      "furigana": [
+        {
+          "text": "明日",
+          "ruby": "あした"
+        },
+        {
+          "text": "早",
+          "ruby": "はや"
+        },
+        {
+          "text": "起",
+          "ruby": "お"
+        }
+      ],
+      "vi": "Ngày mai tôi phải dậy sớm."
+    }
+  ],
+  "commonMistakesVi": "Đổi đuôi [う] thành [あない] thay vì [わない] (sai: かあない, đúng: かわない). Đọc sai chữ 来 trong 来ない thành くない thay vì こない."
+}

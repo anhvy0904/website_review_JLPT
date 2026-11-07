@@ -1,0 +1,116 @@
+{
+  "id": "ta",
+  "formId": "ta",
+  "titleJa": "た形",
+  "reading": "たけい",
+  "titleVi": "Thể た",
+  "conceptVi": "Thể た là thể quá khứ dạng ngắn (thông thường) của động từ, có quy tắc biến âm hoàn toàn tương ứng với thể て.",
+  "whenToUseVi": "Dùng để: (1) Nói về hành động đã hoàn tất trong quá khứ ở văn phong thân mật; (2) Biểu đạt kinh nghiệm 〜たことがある; (3) Liệt kê hành động tiêu biểu 〜たり〜たりする; (4) Sau khi làm việc gì 〜た後で; (5) Đưa ra lời khuyên 〜たほうがいい.",
+  "nuanceVi": "Trong văn thân mật, thể た thay thế cho 〜ました. Khi nói với chính mình (tự nhủ), thể た thể hiện sự nhận ra hoặc nhớ ra điều gì đó (あった！ - Có đây rồi!).",
+  "rulesByGroup": {
+    "godan": "Quy tắc tương tự thể て nhưng thay [て/で] bằng [た/だ]:\n• う, つ, る → った\n• む, ぶ, ぬ → んだ\n• く → いた (Ngoại lệ: 行く → 行った)\n• ぐ → いだ\n• す → した",
+    "ichidan": "Bỏ đuôi る, thêm た (Ví dụ: 食べる → 食べた, 見る → 見た)",
+    "irregular": "• する → した\n• 来る (くる) → 来た (きた)"
+  },
+  "soundChanges": [
+    {
+      "ending": "う / つ / る",
+      "result": "った",
+      "examples": "買った, 待った, 取った"
+    },
+    {
+      "ending": "む / ぶ / ぬ",
+      "result": "んだ",
+      "examples": "読んだ, 遊んだ, 死んだ"
+    },
+    {
+      "ending": "く",
+      "result": "いた",
+      "examples": "書いた, 聞いた"
+    },
+    {
+      "ending": "ぐ",
+      "result": "いだ",
+      "examples": "泳いだ, 急いだ"
+    },
+    {
+      "ending": "す",
+      "result": "した",
+      "examples": "話した, 出した"
+    }
+  ],
+  "exceptions": [
+    {
+      "base": "行く",
+      "reading": "いく",
+      "result": "行った",
+      "resultReading": "いった",
+      "note": "Ngoại lệ: 行く biến âm thành 行った."
+    }
+  ],
+  "verbExamples": [
+    {
+      "kanji": "書く",
+      "reading": "かく",
+      "group": "Nhóm I",
+      "result": "書いた",
+      "resultReading": "かいた",
+      "meaningVi": "viết → đã viết"
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "group": "Nhóm II",
+      "result": "食べた",
+      "resultReading": "たべた",
+      "meaningVi": "ăn → đã ăn"
+    },
+    {
+      "kanji": "する",
+      "reading": "する",
+      "group": "Nhóm III",
+      "result": "した",
+      "resultReading": "した",
+      "meaningVi": "làm → đã làm"
+    },
+    {
+      "kanji": "来る",
+      "reading": "くる",
+      "group": "Nhóm III",
+      "result": "来た",
+      "resultReading": "きた",
+      "meaningVi": "đến → đã đến"
+    }
+  ],
+  "sentenceExamples": [
+    {
+      "ja": "日本へ行ったことがありますか。",
+      "furigana": [
+        {
+          "text": "日本",
+          "ruby": "にほん"
+        },
+        {
+          "text": "行",
+          "ruby": "い"
+        }
+      ],
+      "vi": "Bạn đã từng đi Nhật Bản lần nào chưa?"
+    },
+    {
+      "ja": "薬を飲んだほうがいいですよ。",
+      "furigana": [
+        {
+          "text": "薬",
+          "ruby": "くすり"
+        },
+        {
+          "text": "飲",
+          "ruby": "の"
+        }
+      ],
+      "vi": "Bạn nên uống thuốc đi nhé."
+    }
+  ],
+  "commonMistakesVi": "Nhầm đuôi đục [んだ, いだ] với đuôi thanh [った, いた]. Viết sai dạng kinh nghiệm thành thể từ điển (phải là 〜たことがある, không phải 〜ることがある)."
+}

@@ -1,0 +1,1402 @@
+[
+  {
+    "word": "自転車",
+    "meaning": "xe đạp",
+    "reading": "じてんしゃ",
+    "sinoVietnamese": "TỰ CHUYỂN XA",
+    "example": "駅まで自転車で行きます。 (Xe đạp.)"
+  },
+  {
+    "word": "貸す",
+    "meaning": "cho mượn",
+    "reading": "かす",
+    "sinoVietnamese": "THẢI",
+    "example": "友だちに本を貸しました。 (Cho mượn.)"
+  },
+  {
+    "word": "借りる",
+    "meaning": "mượn",
+    "reading": "かりる",
+    "sinoVietnamese": "TÁ",
+    "example": "図書館で本を借りました。 (Mượn.)"
+  },
+  {
+    "word": "見る",
+    "meaning": "nhìn, xem",
+    "reading": "みる",
+    "sinoVietnamese": "KIẾN",
+    "example": "映画を見ました。 (Nhìn, xem.)"
+  },
+  {
+    "word": "父親",
+    "meaning": "người cha",
+    "reading": "ちちおや",
+    "sinoVietnamese": "PHỤ THÂN",
+    "example": "父親について勉強しました。 (Tôi đã học về người cha.)"
+  },
+  {
+    "word": "子ども",
+    "meaning": "trẻ em, con cái",
+    "reading": "こども",
+    "sinoVietnamese": "TỬ",
+    "example": "子どもについて勉強しました。 (Tôi đã học về trẻ em, con cái.)"
+  },
+  {
+    "word": "救う",
+    "meaning": "cứu giúp",
+    "reading": "すくう",
+    "sinoVietnamese": "CỨU",
+    "example": "子どもを救いました。 (Cứu giúp.)"
+  },
+  {
+    "word": "泳ぐ",
+    "meaning": "bơi",
+    "reading": "およぐ",
+    "sinoVietnamese": "VỊNH",
+    "example": "川で泳ぎました。 (Bơi.)"
+  },
+  {
+    "word": "助ける",
+    "meaning": "giúp đỡ, cứu",
+    "reading": "たすける",
+    "sinoVietnamese": "TRỢ",
+    "example": "友だちを助けました。 (Giúp đỡ, cứu.)"
+  },
+  {
+    "word": "守る",
+    "meaning": "bảo vệ, tuân thủ",
+    "reading": "まもる",
+    "sinoVietnamese": "THỦ",
+    "example": "約束を守ります。 (Bảo vệ, tuân thủ.)"
+  },
+  {
+    "word": "川",
+    "meaning": "sông",
+    "reading": "かわ",
+    "sinoVietnamese": "XUYÊN",
+    "example": "川について勉強しました。 (Tôi đã học về sông.)"
+  },
+  {
+    "word": "飛び込む",
+    "meaning": "nhảy vào, lao vào",
+    "reading": "とびこむ",
+    "sinoVietnamese": "PHI NHẬP",
+    "example": "川に飛び込みました。 (Nhảy vào, lao vào.)"
+  },
+  {
+    "word": "できるだけ",
+    "meaning": "hết sức có thể",
+    "reading": "できるだけ",
+    "sinoVietnamese": "—",
+    "example": "できるだけについて勉強しました。 (Tôi đã học về hết sức có thể.)"
+  },
+  {
+    "word": "食べ物",
+    "meaning": "đồ ăn",
+    "reading": "たべもの",
+    "sinoVietnamese": "THỰC VẬT",
+    "example": "食べ物を残さないでください。 (Đồ ăn.)"
+  },
+  {
+    "word": "残す",
+    "meaning": "để lại, để thừa",
+    "reading": "のこす",
+    "sinoVietnamese": "TÀN",
+    "example": "ご飯を残しました。 (Để lại, để thừa.)"
+  },
+  {
+    "word": "別れる",
+    "meaning": "chia tay",
+    "reading": "わかれる",
+    "sinoVietnamese": "BIỆT",
+    "example": "駅で友だちと別れました。 (Chia tay.)"
+  },
+  {
+    "word": "余す",
+    "meaning": "để dư, để thừa",
+    "reading": "あます",
+    "sinoVietnamese": "DƯ",
+    "example": "食べ物を余さず食べました。 (Để dư, để thừa.)"
+  },
+  {
+    "word": "費やす",
+    "meaning": "tiêu tốn",
+    "reading": "ついやす",
+    "sinoVietnamese": "PHÍ",
+    "example": "勉強に時間を費やしました。 (Tiêu tốn.)"
+  },
+  {
+    "word": "風邪",
+    "meaning": "cảm lạnh",
+    "reading": "かぜ",
+    "sinoVietnamese": "PHONG TÀ",
+    "example": "風邪をひいて学校を休みました。 (Cảm lạnh.)"
+  },
+  {
+    "word": "三日",
+    "meaning": "ba ngày",
+    "reading": "みっか",
+    "sinoVietnamese": "TAM NHẬT",
+    "example": "三日について勉強しました。 (Tôi đã học về ba ngày.)"
+  },
+  {
+    "word": "直る",
+    "meaning": "được sửa, trở lại bình thường",
+    "reading": "なおる",
+    "sinoVietnamese": "TRỰC",
+    "example": "時計が直りました。 (Được sửa, trở lại bình thường.)"
+  },
+  {
+    "word": "治る",
+    "meaning": "khỏi bệnh",
+    "reading": "なおる",
+    "sinoVietnamese": "TRỊ",
+    "example": "病気が治りました。 (Khỏi bệnh.)"
+  },
+  {
+    "word": "拾う",
+    "meaning": "nhặt",
+    "reading": "ひろう",
+    "sinoVietnamese": "THẬP",
+    "example": "道で財布を拾いました。 (Nhặt.)"
+  },
+  {
+    "word": "置く",
+    "meaning": "đặt, để",
+    "reading": "おく",
+    "sinoVietnamese": "TRÍ",
+    "example": "荷物をここに置きます。 (Đặt, để.)"
+  },
+  {
+    "word": "休み",
+    "meaning": "ngày nghỉ",
+    "reading": "やすみ",
+    "sinoVietnamese": "HƯU",
+    "example": "休みについて勉強しました。 (Tôi đã học về ngày nghỉ.)"
+  },
+  {
+    "word": "パン",
+    "meaning": "bánh mì",
+    "reading": "パン",
+    "sinoVietnamese": "—",
+    "example": "パンが好きです。 (Tôi thích bánh mì.)"
+  },
+  {
+    "word": "ケーキ",
+    "meaning": "bánh ngọt",
+    "reading": "ケーキ",
+    "sinoVietnamese": "—",
+    "example": "ケーキが好きです。 (Tôi thích bánh ngọt.)"
+  },
+  {
+    "word": "焼く",
+    "meaning": "nướng, rán",
+    "reading": "やく",
+    "sinoVietnamese": "THIÊU",
+    "example": "パンを焼きました。 (Nướng, rán.)"
+  },
+  {
+    "word": "灯す",
+    "meaning": "thắp sáng",
+    "reading": "ともす",
+    "sinoVietnamese": "ĐĂNG",
+    "example": "ろうそくに火を灯しました。 (Thắp sáng.)"
+  },
+  {
+    "word": "熱い",
+    "meaning": "nóng",
+    "reading": "あつい",
+    "sinoVietnamese": "NHIỆT",
+    "example": "今日は熱い日です。 (Nóng.)"
+  },
+  {
+    "word": "照らす",
+    "meaning": "chiếu sáng",
+    "reading": "てらす",
+    "sinoVietnamese": "CHIẾU",
+    "example": "月が道を照らしています。 (Chiếu sáng.)"
+  },
+  {
+    "word": "銀行",
+    "meaning": "ngân hàng",
+    "reading": "ぎんこう",
+    "sinoVietnamese": "NGÂN HÀNH",
+    "example": "銀行について勉強しました。 (Tôi đã học về ngân hàng.)"
+  },
+  {
+    "word": "角",
+    "meaning": "góc đường, góc",
+    "reading": "かど",
+    "sinoVietnamese": "GIÁC",
+    "example": "次の角を右に曲がってください。 (Góc đường, góc.)"
+  },
+  {
+    "word": "右",
+    "meaning": "bên phải",
+    "reading": "みぎ",
+    "sinoVietnamese": "HỮU",
+    "example": "右について勉強しました。 (Tôi đã học về bên phải.)"
+  },
+  {
+    "word": "左",
+    "meaning": "bên trái",
+    "reading": "ひだり",
+    "sinoVietnamese": "TẢ",
+    "example": "左について勉強しました。 (Tôi đã học về bên trái.)"
+  },
+  {
+    "word": "曲がる",
+    "meaning": "rẽ, cong",
+    "reading": "まがる",
+    "sinoVietnamese": "KHÚC",
+    "example": "角を右に曲がります。 (Rẽ, cong.)"
+  },
+  {
+    "word": "皿",
+    "meaning": "đĩa",
+    "reading": "さら",
+    "sinoVietnamese": "MÃNH",
+    "example": "皿について勉強しました。 (Tôi đã học về đĩa.)"
+  },
+  {
+    "word": "囲む",
+    "meaning": "bao quanh",
+    "reading": "かこむ",
+    "sinoVietnamese": "VI",
+    "example": "みんなでテーブルを囲みました。 (Bao quanh.)"
+  },
+  {
+    "word": "部屋",
+    "meaning": "căn phòng",
+    "reading": "へや",
+    "sinoVietnamese": "BỘ ỐC",
+    "example": "部屋について勉強しました。 (Tôi đã học về căn phòng.)"
+  },
+  {
+    "word": "出る",
+    "meaning": "ra ngoài",
+    "reading": "でる",
+    "sinoVietnamese": "XUẤT",
+    "example": "部屋を出ました。 (Ra ngoài.)"
+  },
+  {
+    "word": "電気",
+    "meaning": "điện, đèn",
+    "reading": "でんき",
+    "sinoVietnamese": "ĐIỆN KHÍ",
+    "example": "電気について勉強しました。 (Tôi đã học về điện, đèn.)"
+  },
+  {
+    "word": "消す",
+    "meaning": "tắt, xóa",
+    "reading": "けす",
+    "sinoVietnamese": "TIÊU",
+    "example": "電気を消してください。 (Tắt, xóa.)"
+  },
+  {
+    "word": "止める",
+    "meaning": "dừng, ngăn lại",
+    "reading": "とめる",
+    "sinoVietnamese": "CHỈ",
+    "example": "車を止めました。 (Dừng, ngăn lại.)"
+  },
+  {
+    "word": "閉じる",
+    "meaning": "đóng",
+    "reading": "とじる",
+    "sinoVietnamese": "BẾ",
+    "example": "ドアを閉じました。 (Đóng.)"
+  },
+  {
+    "word": "旅行",
+    "meaning": "du lịch",
+    "reading": "りょこう",
+    "sinoVietnamese": "LỮ HÀNH",
+    "example": "旅行について勉強しました。 (Tôi đã học về du lịch.)"
+  },
+  {
+    "word": "費用",
+    "meaning": "chi phí",
+    "reading": "ひよう",
+    "sinoVietnamese": "PHÍ DỤNG",
+    "example": "旅行の費用は三万円です。 (Chi phí.)"
+  },
+  {
+    "word": "旅費",
+    "meaning": "chi phí đi lại",
+    "reading": "りょひ",
+    "sinoVietnamese": "LỮ PHÍ",
+    "example": "会社が旅費を払います。 (Chi phí đi lại.)"
+  },
+  {
+    "word": "江戸時代",
+    "meaning": "thời Edo",
+    "reading": "えどじだい",
+    "sinoVietnamese": "GIANG HỘ THỜI ĐẠI",
+    "example": "江戸時代について勉強しました。 (Tôi đã học về thời Edo.)"
+  },
+  {
+    "word": "横浜",
+    "meaning": "Yokohama",
+    "reading": "よこはま",
+    "sinoVietnamese": "HOÀNH TÂN",
+    "example": "横浜に住んでいます。 (Yokohama.)"
+  },
+  {
+    "word": "港",
+    "meaning": "cảng",
+    "reading": "みなと",
+    "sinoVietnamese": "CẢNG",
+    "example": "港について勉強しました。 (Tôi đã học về cảng.)"
+  },
+  {
+    "word": "波",
+    "meaning": "sóng",
+    "reading": "なみ",
+    "sinoVietnamese": "BA",
+    "example": "波について勉強しました。 (Tôi đã học về sóng.)"
+  },
+  {
+    "word": "海",
+    "meaning": "biển",
+    "reading": "うみ",
+    "sinoVietnamese": "HẢI",
+    "example": "海について勉強しました。 (Tôi đã học về biển.)"
+  },
+  {
+    "word": "漢字",
+    "meaning": "chữ Hán",
+    "reading": "かんじ",
+    "sinoVietnamese": "HÁN TỰ",
+    "example": "漢字について勉強しました。 (Tôi đã học về chữ Hán.)"
+  },
+  {
+    "word": "教科書",
+    "meaning": "sách giáo khoa",
+    "reading": "きょうかしょ",
+    "sinoVietnamese": "GIÁO KHOA THƯ",
+    "example": "教科書について勉強しました。 (Tôi đã học về sách giáo khoa.)"
+  },
+  {
+    "word": "課",
+    "meaning": "bài học, khoa",
+    "reading": "か",
+    "sinoVietnamese": "KHÓA",
+    "example": "課について勉強しました。 (Tôi đã học về bài học, khoa.)"
+  },
+  {
+    "word": "国",
+    "meaning": "đất nước, quê nhà",
+    "reading": "くに",
+    "sinoVietnamese": "QUỐC",
+    "example": "国について勉強しました。 (Tôi đã học về đất nước, quê nhà.)"
+  },
+  {
+    "word": "友だち",
+    "meaning": "bạn bè",
+    "reading": "ともだち",
+    "sinoVietnamese": "HỮU",
+    "example": "友だちについて勉強しました。 (Tôi đã học về bạn bè.)"
+  },
+  {
+    "word": "京都",
+    "meaning": "Kyoto",
+    "reading": "きょうと",
+    "sinoVietnamese": "KINH ĐÔ",
+    "example": "京都を案内しました。 (Kyoto.)"
+  },
+  {
+    "word": "案内",
+    "meaning": "hướng dẫn, dẫn đường",
+    "reading": "あんない",
+    "sinoVietnamese": "ÁN NỘI",
+    "example": "案内について勉強しました。 (Tôi đã học về hướng dẫn, dẫn đường.)"
+  },
+  {
+    "word": "休みの日",
+    "meaning": "ngày nghỉ",
+    "reading": "やすみのひ",
+    "sinoVietnamese": "HƯU NHẬT",
+    "example": "休みの日について勉強しました。 (Tôi đã học về ngày nghỉ.)"
+  },
+  {
+    "word": "ビデオ",
+    "meaning": "video",
+    "reading": "ビデオ",
+    "sinoVietnamese": "—",
+    "example": "ビデオが好きです。 (Tôi thích video.)"
+  },
+  {
+    "word": "録画",
+    "meaning": "ghi hình",
+    "reading": "ろくが",
+    "sinoVietnamese": "LỤC HỌA",
+    "example": "テレビ番組を録画しました。 (Ghi hình.)"
+  },
+  {
+    "word": "録音",
+    "meaning": "ghi âm",
+    "reading": "ろくおん",
+    "sinoVietnamese": "LỤC ÂM",
+    "example": "音声を録音しました。 (Ghi âm.)"
+  },
+  {
+    "word": "日本",
+    "meaning": "Nhật Bản",
+    "reading": "にほん",
+    "sinoVietnamese": "NHẬT BẢN",
+    "example": "日本について勉強しました。 (Tôi đã học về Nhật Bản.)"
+  },
+  {
+    "word": "関係",
+    "meaning": "mối quan hệ",
+    "reading": "かんけい",
+    "sinoVietnamese": "QUAN HỆ",
+    "example": "二人の関係は良好です。 (Mối quan hệ.)"
+  },
+  {
+    "word": "富士山",
+    "meaning": "núi Phú Sĩ",
+    "reading": "ふじさん",
+    "sinoVietnamese": "PHÚ SĨ SƠN",
+    "example": "富士山について勉強しました。 (Tôi đã học về núi Phú Sĩ.)"
+  },
+  {
+    "word": "機会",
+    "meaning": "cơ hội",
+    "reading": "きかい",
+    "sinoVietnamese": "CƠ HỘI",
+    "example": "日本に行く機会がありました。 (Cơ hội.)"
+  },
+  {
+    "word": "機械",
+    "meaning": "máy móc",
+    "reading": "きかい",
+    "sinoVietnamese": "CƠ GIỚI",
+    "example": "この機械は便利です。 (Máy móc.)"
+  },
+  {
+    "word": "希望",
+    "meaning": "hy vọng",
+    "reading": "きぼう",
+    "sinoVietnamese": "HI VỌNG",
+    "example": "希望について勉強しました。 (Tôi đã học về hy vọng.)"
+  },
+  {
+    "word": "病気",
+    "meaning": "bệnh tật",
+    "reading": "びょうき",
+    "sinoVietnamese": "BỆNH KHÍ",
+    "example": "病気について勉強しました。 (Tôi đã học về bệnh tật.)"
+  },
+  {
+    "word": "健康",
+    "meaning": "sức khỏe",
+    "reading": "けんこう",
+    "sinoVietnamese": "KIỆN KHANG",
+    "example": "健康に気をつけています。 (Sức khỏe.)"
+  },
+  {
+    "word": "大切さ",
+    "meaning": "tầm quan trọng",
+    "reading": "たいせつさ",
+    "sinoVietnamese": "ĐẠI THIẾT",
+    "example": "大切さについて勉強しました。 (Tôi đã học về tầm quan trọng.)"
+  },
+  {
+    "word": "気づく",
+    "meaning": "nhận ra",
+    "reading": "きづく",
+    "sinoVietnamese": "KHÍ",
+    "example": "間違いに気づきました。 (Nhận ra.)"
+  },
+  {
+    "word": "健やか",
+    "meaning": "khỏe mạnh",
+    "reading": "すこやか",
+    "sinoVietnamese": "KIỆN",
+    "example": "健やかについて勉強しました。 (Tôi đã học về khỏe mạnh.)"
+  },
+  {
+    "word": "公園",
+    "meaning": "công viên",
+    "reading": "こうえん",
+    "sinoVietnamese": "CÔNG VIÊN",
+    "example": "公園について勉強しました。 (Tôi đã học về công viên.)"
+  },
+  {
+    "word": "広場",
+    "meaning": "quảng trường",
+    "reading": "ひろば",
+    "sinoVietnamese": "QUẢNG TRƯỜNG",
+    "example": "広場について勉強しました。 (Tôi đã học về quảng trường.)"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "vui chơi",
+    "reading": "あそぶ",
+    "sinoVietnamese": "DU",
+    "example": "公園で遊びます。 (Vui chơi.)"
+  },
+  {
+    "word": "協力",
+    "meaning": "hợp tác",
+    "reading": "きょうりょく",
+    "sinoVietnamese": "HIỆP LỰC",
+    "example": "友だちと協力します。 (Hợp tác.)"
+  },
+  {
+    "word": "強力",
+    "meaning": "mạnh mẽ, cường lực",
+    "reading": "きょうりょく",
+    "sinoVietnamese": "CƯỜNG LỰC",
+    "example": "強力な風が吹いています。 (Mạnh mẽ, cường lực.)"
+  },
+  {
+    "word": "片付ける",
+    "meaning": "dọn dẹp",
+    "reading": "かたづける",
+    "sinoVietnamese": "PHIẾN PHÓ",
+    "example": "部屋を片付けました。 (Dọn dẹp.)"
+  },
+  {
+    "word": "最高",
+    "meaning": "tốt nhất, tuyệt vời nhất",
+    "reading": "さいこう",
+    "sinoVietnamese": "TỐI CAO",
+    "example": "今日は最高の一日です。 (Tốt nhất, tuyệt vời nhất.)"
+  },
+  {
+    "word": "星",
+    "meaning": "ngôi sao",
+    "reading": "ほし",
+    "sinoVietnamese": "TINH",
+    "example": "星について勉強しました。 (Tôi đã học về ngôi sao.)"
+  },
+  {
+    "word": "スピーチ",
+    "meaning": "bài phát biểu",
+    "reading": "スピーチ",
+    "sinoVietnamese": "—",
+    "example": "スピーチが好きです。 (Tôi thích bài phát biểu.)"
+  },
+  {
+    "word": "大会",
+    "meaning": "cuộc thi, đại hội",
+    "reading": "たいかい",
+    "sinoVietnamese": "ĐẠI HỘI",
+    "example": "大会について勉強しました。 (Tôi đã học về cuộc thi, đại hội.)"
+  },
+  {
+    "word": "テーマ",
+    "meaning": "chủ đề",
+    "reading": "テーマ",
+    "sinoVietnamese": "—",
+    "example": "テーマが好きです。 (Tôi thích chủ đề.)"
+  },
+  {
+    "word": "決まる",
+    "meaning": "được quyết định",
+    "reading": "きまる",
+    "sinoVietnamese": "QUYẾT",
+    "example": "予定が決まりました。 (Được quyết định.)"
+  },
+  {
+    "word": "決める",
+    "meaning": "quyết định",
+    "reading": "きめる",
+    "sinoVietnamese": "QUYẾT",
+    "example": "予定を決めました。 (Quyết định.)"
+  },
+  {
+    "word": "食事",
+    "meaning": "bữa ăn",
+    "reading": "しょくじ",
+    "sinoVietnamese": "THỰC SỰ",
+    "example": "食事について勉強しました。 (Tôi đã học về bữa ăn.)"
+  },
+  {
+    "word": "洗う",
+    "meaning": "rửa, giặt",
+    "reading": "あらう",
+    "sinoVietnamese": "TẨY",
+    "example": "皿を洗いました。 (Rửa, giặt.)"
+  },
+  {
+    "word": "荷物",
+    "meaning": "hành lý, đồ đạc",
+    "reading": "にもつ",
+    "sinoVietnamese": "HÀ VẬT",
+    "example": "荷物について勉強しました。 (Tôi đã học về hành lý, đồ đạc.)"
+  },
+  {
+    "word": "いす",
+    "meaning": "ghế",
+    "reading": "いす",
+    "sinoVietnamese": "—",
+    "example": "いすが好きです。 (Tôi thích ghế.)"
+  },
+  {
+    "word": "下",
+    "meaning": "bên dưới",
+    "reading": "した",
+    "sinoVietnamese": "HẠ",
+    "example": "下について勉強しました。 (Tôi đã học về bên dưới.)"
+  },
+  {
+    "word": "年始",
+    "meaning": "đầu năm",
+    "reading": "ねんし",
+    "sinoVietnamese": "NIÊN THỦY",
+    "example": "年始に帰国します。 (Đầu năm.)"
+  },
+  {
+    "word": "年初",
+    "meaning": "đầu năm",
+    "reading": "ねんしょ",
+    "sinoVietnamese": "NIÊN SƠ",
+    "example": "年初に目標を立てます。 (Đầu năm.)"
+  },
+  {
+    "word": "年末",
+    "meaning": "cuối năm",
+    "reading": "ねんまつ",
+    "sinoVietnamese": "NIÊN MẠT",
+    "example": "年末は忙しいです。 (Cuối năm.)"
+  },
+  {
+    "word": "帰る",
+    "meaning": "trở về",
+    "reading": "かえる",
+    "sinoVietnamese": "QUY",
+    "example": "家に帰ります。 (Trở về.)"
+  },
+  {
+    "word": "花",
+    "meaning": "hoa",
+    "reading": "はな",
+    "sinoVietnamese": "HOA",
+    "example": "花について勉強しました。 (Tôi đã học về hoa.)"
+  },
+  {
+    "word": "種類",
+    "meaning": "chủng loại",
+    "reading": "しゅるい",
+    "sinoVietnamese": "CHỦNG LOẠI",
+    "example": "種類について勉強しました。 (Tôi đã học về chủng loại.)"
+  },
+  {
+    "word": "帰国",
+    "meaning": "về nước",
+    "reading": "きこく",
+    "sinoVietnamese": "QUY QUỐC",
+    "example": "来月帰国します。 (Về nước.)"
+  },
+  {
+    "word": "アルバイト",
+    "meaning": "việc làm thêm",
+    "reading": "アルバイト",
+    "sinoVietnamese": "—",
+    "example": "アルバイトが好きです。 (Tôi thích việc làm thêm.)"
+  },
+  {
+    "word": "辞める",
+    "meaning": "nghỉ việc, từ chức",
+    "reading": "やめる",
+    "sinoVietnamese": "TỪ",
+    "example": "仕事を辞めました。 (Nghỉ việc, từ chức.)"
+  },
+  {
+    "word": "止める",
+    "meaning": "ngừng, thôi làm",
+    "reading": "やめる",
+    "sinoVietnamese": "CHỈ",
+    "example": "仕事を止めました。 (Tôi đã ngừng công việc.)"
+  },
+  {
+    "word": "卒業",
+    "meaning": "tốt nghiệp",
+    "reading": "そつぎょう",
+    "sinoVietnamese": "TỐT NGHIỆP",
+    "example": "大学を卒業します。 (Tốt nghiệp.)"
+  },
+  {
+    "word": "男性",
+    "meaning": "nam giới",
+    "reading": "だんせい",
+    "sinoVietnamese": "NAM TÍNH",
+    "example": "男性について勉強しました。 (Tôi đã học về nam giới.)"
+  },
+  {
+    "word": "育児",
+    "meaning": "chăm sóc nuôi dạy trẻ",
+    "reading": "いくじ",
+    "sinoVietnamese": "DỤC NHI",
+    "example": "育児は大変です。 (Chăm sóc nuôi dạy trẻ.)"
+  },
+  {
+    "word": "育つ",
+    "meaning": "lớn lên",
+    "reading": "そだつ",
+    "sinoVietnamese": "DỤC",
+    "example": "子どもが元気に育っています。 (Lớn lên.)"
+  },
+  {
+    "word": "水",
+    "meaning": "nước",
+    "reading": "みず",
+    "sinoVietnamese": "THỦY",
+    "example": "水について勉強しました。 (Tôi đã học về nước.)"
+  },
+  {
+    "word": "底",
+    "meaning": "đáy",
+    "reading": "そこ",
+    "sinoVietnamese": "ĐỂ",
+    "example": "底について勉強しました。 (Tôi đã học về đáy.)"
+  },
+  {
+    "word": "表",
+    "meaning": "bề mặt, phía trước",
+    "reading": "おもて",
+    "sinoVietnamese": "BIỂU",
+    "example": "表について勉強しました。 (Tôi đã học về bề mặt, phía trước.)"
+  },
+  {
+    "word": "面",
+    "meaning": "mặt, bề mặt",
+    "reading": "めん",
+    "sinoVietnamese": "DIỆN",
+    "example": "面について勉強しました。 (Tôi đã học về mặt, bề mặt.)"
+  },
+  {
+    "word": "毎日",
+    "meaning": "mỗi ngày",
+    "reading": "まいにち",
+    "sinoVietnamese": "MỖI NHẬT",
+    "example": "毎日について勉強しました。 (Tôi đã học về mỗi ngày.)"
+  },
+  {
+    "word": "時間",
+    "meaning": "thời gian, giờ",
+    "reading": "じかん",
+    "sinoVietnamese": "THỜI GIAN",
+    "example": "時間について勉強しました。 (Tôi đã học về thời gian, giờ.)"
+  },
+  {
+    "word": "残業",
+    "meaning": "làm thêm giờ",
+    "reading": "ざんぎょう",
+    "sinoVietnamese": "TÀN NGHIỆP",
+    "example": "残業について勉強しました。 (Tôi đã học về làm thêm giờ.)"
+  },
+  {
+    "word": "気候",
+    "meaning": "khí hậu",
+    "reading": "きこう",
+    "sinoVietnamese": "KHÍ HẬU",
+    "example": "日本の気候は地域によって違います。 (Khí hậu.)"
+  },
+  {
+    "word": "気温",
+    "meaning": "nhiệt độ không khí",
+    "reading": "きおん",
+    "sinoVietnamese": "KHÍ ÔN",
+    "example": "今日は気温が高いです。 (Nhiệt độ không khí.)"
+  },
+  {
+    "word": "気象",
+    "meaning": "khí tượng",
+    "reading": "きしょう",
+    "sinoVietnamese": "KHÍ TƯỢNG",
+    "example": "気象情報を確認します。 (Khí tượng.)"
+  },
+  {
+    "word": "過ごしやすい",
+    "meaning": "dễ chịu, dễ sinh sống",
+    "reading": "すごしやすい",
+    "sinoVietnamese": "QUÁ",
+    "example": "春は過ごしやすい季節です。 (Dễ chịu, dễ sinh sống.)"
+  },
+  {
+    "word": "試合",
+    "meaning": "trận đấu",
+    "reading": "しあい",
+    "sinoVietnamese": "THÍ HỢP",
+    "example": "試合について勉強しました。 (Tôi đã học về trận đấu.)"
+  },
+  {
+    "word": "結果",
+    "meaning": "kết quả",
+    "reading": "けっか",
+    "sinoVietnamese": "KẾT QUẢ",
+    "example": "結果について勉強しました。 (Tôi đã học về kết quả.)"
+  },
+  {
+    "word": "予想",
+    "meaning": "dự đoán",
+    "reading": "よそう",
+    "sinoVietnamese": "DỰ TƯỞNG",
+    "example": "結果を予想しました。 (Dự đoán.)"
+  },
+  {
+    "word": "予報",
+    "meaning": "dự báo",
+    "reading": "よほう",
+    "sinoVietnamese": "DỰ BÁO",
+    "example": "天気予報を見ました。 (Dự báo.)"
+  },
+  {
+    "word": "難しい",
+    "meaning": "khó",
+    "reading": "むずかしい",
+    "sinoVietnamese": "NAN",
+    "example": "この問題は難しいです。 (Khó.)"
+  },
+  {
+    "word": "本棚",
+    "meaning": "giá sách",
+    "reading": "ほんだな",
+    "sinoVietnamese": "BẢN BẰNG",
+    "example": "本棚について勉強しました。 (Tôi đã học về giá sách.)"
+  },
+  {
+    "word": "整理",
+    "meaning": "sắp xếp, chỉnh lý",
+    "reading": "せいり",
+    "sinoVietnamese": "CHỈNH LÝ",
+    "example": "机を整理しました。 (Sắp xếp, chỉnh lý.)"
+  },
+  {
+    "word": "仲",
+    "meaning": "mối quan hệ, sự hòa thuận",
+    "reading": "なか",
+    "sinoVietnamese": "TRỌNG",
+    "example": "彼とは仲がいいです。 (Mối quan hệ, sự hòa thuận.)"
+  },
+  {
+    "word": "子どものころ",
+    "meaning": "hồi còn nhỏ",
+    "reading": "こどものころ",
+    "sinoVietnamese": "TỬ",
+    "example": "子どものころについて勉強しました。 (Tôi đã học về hồi còn nhỏ.)"
+  },
+  {
+    "word": "席",
+    "meaning": "chỗ ngồi",
+    "reading": "せき",
+    "sinoVietnamese": "TỊCH",
+    "example": "席についてください。 (Chỗ ngồi.)"
+  },
+  {
+    "word": "岸",
+    "meaning": "bờ",
+    "reading": "きし",
+    "sinoVietnamese": "NGẠN",
+    "example": "岸について勉強しました。 (Tôi đã học về bờ.)"
+  },
+  {
+    "word": "手紙",
+    "meaning": "thư",
+    "reading": "てがみ",
+    "sinoVietnamese": "THỦ CHỈ",
+    "example": "手紙について勉強しました。 (Tôi đã học về thư.)"
+  },
+  {
+    "word": "季節",
+    "meaning": "mùa",
+    "reading": "きせつ",
+    "sinoVietnamese": "QUÝ TIẾT",
+    "example": "好きな季節は春です。 (Mùa.)"
+  },
+  {
+    "word": "来年",
+    "meaning": "năm sau",
+    "reading": "らいねん",
+    "sinoVietnamese": "LAI NIÊN",
+    "example": "来年について勉強しました。 (Tôi đã học về năm sau.)"
+  },
+  {
+    "word": "大学",
+    "meaning": "đại học",
+    "reading": "だいがく",
+    "sinoVietnamese": "ĐẠI HỌC",
+    "example": "大学について勉強しました。 (Tôi đã học về đại học.)"
+  },
+  {
+    "word": "成績",
+    "meaning": "thành tích học tập",
+    "reading": "せいせき",
+    "sinoVietnamese": "THÀNH TÍCH",
+    "example": "成績がよくなりました。 (Thành tích học tập.)"
+  },
+  {
+    "word": "合格",
+    "meaning": "thi đỗ, trúng tuyển",
+    "reading": "ごうかく",
+    "sinoVietnamese": "HỢP CÁCH",
+    "example": "試験に合格しました。 (Thi đỗ, trúng tuyển.)"
+  },
+  {
+    "word": "戦争",
+    "meaning": "chiến tranh",
+    "reading": "せんそう",
+    "sinoVietnamese": "CHIẾN TRANH",
+    "example": "戦争で多くのものを失いました。 (Chiến tranh.)"
+  },
+  {
+    "word": "側",
+    "meaning": "phía, bên",
+    "reading": "がわ",
+    "sinoVietnamese": "TRẮC",
+    "example": "こちら側に座ってください。 (Phía, bên.)"
+  },
+  {
+    "word": "反対側",
+    "meaning": "phía đối diện",
+    "reading": "はんたいがわ",
+    "sinoVietnamese": "PHẢN ĐỐI TRẮC",
+    "example": "反対側について勉強しました。 (Tôi đã học về phía đối diện.)"
+  },
+  {
+    "word": "座る",
+    "meaning": "ngồi",
+    "reading": "すわる",
+    "sinoVietnamese": "TỌA",
+    "example": "いすに座ってください。 (Ngồi.)"
+  },
+  {
+    "word": "滑る",
+    "meaning": "trượt, trượt ngã",
+    "reading": "すべる",
+    "sinoVietnamese": "HOẠT",
+    "example": "雪道で滑りました。 (Trượt, trượt ngã.)"
+  },
+  {
+    "word": "足",
+    "meaning": "chân",
+    "reading": "あし",
+    "sinoVietnamese": "TÚC",
+    "example": "足について勉強しました。 (Tôi đã học về chân.)"
+  },
+  {
+    "word": "骨",
+    "meaning": "xương",
+    "reading": "ほね",
+    "sinoVietnamese": "CỐT",
+    "example": "足の骨を折りました。 (Xương.)"
+  },
+  {
+    "word": "折る",
+    "meaning": "bẻ, làm gãy",
+    "reading": "おる",
+    "sinoVietnamese": "CHIẾT",
+    "example": "足の骨を折りました。 (Bẻ, làm gãy.)"
+  },
+  {
+    "word": "打つ",
+    "meaning": "đánh, gõ",
+    "reading": "うつ",
+    "sinoVietnamese": "ĐẢ",
+    "example": "ボールを打ちました。 (Đánh, gõ.)"
+  },
+  {
+    "word": "持つ",
+    "meaning": "cầm, mang",
+    "reading": "もつ",
+    "sinoVietnamese": "TRÌ",
+    "example": "かばんを持っています。 (Cầm, mang.)"
+  },
+  {
+    "word": "山田",
+    "meaning": "họ Yamada",
+    "reading": "やまだ",
+    "sinoVietnamese": "SƠN ĐIỀN",
+    "example": "山田について勉強しました。 (Tôi đã học về họ Yamada.)"
+  },
+  {
+    "word": "鼻",
+    "meaning": "mũi",
+    "reading": "はな",
+    "sinoVietnamese": "TỴ",
+    "example": "鼻について勉強しました。 (Tôi đã học về mũi.)"
+  },
+  {
+    "word": "景色",
+    "meaning": "phong cảnh",
+    "reading": "けしき",
+    "sinoVietnamese": "CẢNH SẮC",
+    "example": "景色について勉強しました。 (Tôi đã học về phong cảnh.)"
+  },
+  {
+    "word": "必要",
+    "meaning": "cần thiết",
+    "reading": "ひつよう",
+    "sinoVietnamese": "TẤT YẾU",
+    "example": "必要なものを買いました。 (Cần thiết.)"
+  },
+  {
+    "word": "学校",
+    "meaning": "trường học",
+    "reading": "がっこう",
+    "sinoVietnamese": "HỌC HIỆU",
+    "example": "学校について勉強しました。 (Tôi đã học về trường học.)"
+  },
+  {
+    "word": "バス",
+    "meaning": "xe buýt",
+    "reading": "バス",
+    "sinoVietnamese": "—",
+    "example": "バスが好きです。 (Tôi thích xe buýt.)"
+  },
+  {
+    "word": "利用",
+    "meaning": "sử dụng, tận dụng",
+    "reading": "りよう",
+    "sinoVietnamese": "LỢI DỤNG",
+    "example": "バスを利用します。 (Sử dụng, tận dụng.)"
+  },
+  {
+    "word": "流用",
+    "meaning": "dùng cho mục đích khác",
+    "reading": "りゅうよう",
+    "sinoVietnamese": "LƯU DỤNG",
+    "example": "予算を別の目的に流用しました。 (Dùng cho mục đích khác.)"
+  },
+  {
+    "word": "コンサート",
+    "meaning": "buổi hòa nhạc",
+    "reading": "コンサート",
+    "sinoVietnamese": "—",
+    "example": "コンサートが好きです。 (Tôi thích buổi hòa nhạc.)"
+  },
+  {
+    "word": "無料",
+    "meaning": "miễn phí",
+    "reading": "むりょう",
+    "sinoVietnamese": "VÔ LIỆU",
+    "example": "このコンサートは無料です。 (Miễn phí.)"
+  },
+  {
+    "word": "有料",
+    "meaning": "có tính phí",
+    "reading": "ゆうりょう",
+    "sinoVietnamese": "HỮU LIỆU",
+    "example": "このサービスは有料です。 (Có tính phí.)"
+  },
+  {
+    "word": "信用",
+    "meaning": "tin tưởng, tín nhiệm",
+    "reading": "しんよう",
+    "sinoVietnamese": "TÍN DỤNG",
+    "example": "彼を信用しています。 (Tin tưởng, tín nhiệm.)"
+  },
+  {
+    "word": "信頼",
+    "meaning": "tin cậy",
+    "reading": "しんらい",
+    "sinoVietnamese": "TÍN LẠI",
+    "example": "彼を信頼しています。 (Tin cậy.)"
+  },
+  {
+    "word": "親友",
+    "meaning": "bạn thân",
+    "reading": "しんゆう",
+    "sinoVietnamese": "THÂN HỮU",
+    "example": "親友について勉強しました。 (Tôi đã học về bạn thân.)"
+  },
+  {
+    "word": "成長",
+    "meaning": "trưởng thành, phát triển",
+    "reading": "せいちょう",
+    "sinoVietnamese": "THÀNH TRƯỞNG",
+    "example": "成長について勉強しました。 (Tôi đã học về trưởng thành, phát triển.)"
+  },
+  {
+    "word": "記録",
+    "meaning": "ghi chép, kỷ lục",
+    "reading": "きろく",
+    "sinoVietnamese": "KÝ LỤC",
+    "example": "成長の記録をとります。 (Ghi chép, kỷ lục.)"
+  },
+  {
+    "word": "記憶",
+    "meaning": "ký ức, ghi nhớ",
+    "reading": "きおく",
+    "sinoVietnamese": "KÝ ỨC",
+    "example": "子どものころの記憶があります。 (Ký ức, ghi nhớ.)"
+  },
+  {
+    "word": "箱",
+    "meaning": "hộp, thùng",
+    "reading": "はこ",
+    "sinoVietnamese": "TƯƠNG",
+    "example": "箱の中にケーキがあります。 (Hộp, thùng.)"
+  },
+  {
+    "word": "得意",
+    "meaning": "giỏi, sở trường",
+    "reading": "とくい",
+    "sinoVietnamese": "ĐẮC Ý",
+    "example": "私は英語が得意です。 (Giỏi, sở trường.)"
+  },
+  {
+    "word": "苦手",
+    "meaning": "yếu, không giỏi",
+    "reading": "にがて",
+    "sinoVietnamese": "KHỔ THỦ",
+    "example": "私は数学が苦手です。 (Yếu, không giỏi.)"
+  },
+  {
+    "word": "英語",
+    "meaning": "tiếng Anh",
+    "reading": "えいご",
+    "sinoVietnamese": "ANH NGỮ",
+    "example": "英語について勉強しました。 (Tôi đã học về tiếng Anh.)"
+  },
+  {
+    "word": "彼女",
+    "meaning": "cô ấy, bạn gái",
+    "reading": "かのじょ",
+    "sinoVietnamese": "BỈ NỮ",
+    "example": "彼女について勉強しました。 (Tôi đã học về cô ấy, bạn gái.)"
+  },
+  {
+    "word": "電話",
+    "meaning": "điện thoại",
+    "reading": "でんわ",
+    "sinoVietnamese": "ĐIỆN THOẠI",
+    "example": "電話について勉強しました。 (Tôi đã học về điện thoại.)"
+  },
+  {
+    "word": "伝える",
+    "meaning": "truyền đạt, nhắn lại",
+    "reading": "つたえる",
+    "sinoVietnamese": "TRUYỀN",
+    "example": "友だちに伝えました。 (Truyền đạt, nhắn lại.)"
+  },
+  {
+    "word": "かばん",
+    "meaning": "cặp, túi xách",
+    "reading": "かばん",
+    "sinoVietnamese": "—",
+    "example": "かばんが好きです。 (Tôi thích cặp, túi xách.)"
+  },
+  {
+    "word": "自分",
+    "meaning": "bản thân",
+    "reading": "じぶん",
+    "sinoVietnamese": "TỰ PHÂN",
+    "example": "自分について勉強しました。 (Tôi đã học về bản thân.)"
+  },
+  {
+    "word": "嘘をつく",
+    "meaning": "nói dối",
+    "reading": "うそをつく",
+    "sinoVietnamese": "HƯ",
+    "example": "嘘をつくについて勉強しました。 (Tôi đã học về nói dối.)"
+  },
+  {
+    "word": "反省",
+    "meaning": "tự kiểm điểm",
+    "reading": "はんせい",
+    "sinoVietnamese": "PHẢN TỈNH",
+    "example": "自分の行動を反省しました。 (Tự kiểm điểm.)"
+  },
+  {
+    "word": "半生",
+    "meaning": "nửa đời người",
+    "reading": "はんせい",
+    "sinoVietnamese": "BÁN SINH",
+    "example": "彼は自分の半生を語りました。 (Nửa đời người.)"
+  },
+  {
+    "word": "なんとなく",
+    "meaning": "không rõ vì sao, tự nhiên",
+    "reading": "なんとなく",
+    "sinoVietnamese": "—",
+    "example": "なんとなく元気が出ません。 (Không rõ vì sao, tự nhiên.)"
+  },
+  {
+    "word": "元気",
+    "meaning": "sức khỏe, tinh thần",
+    "reading": "げんき",
+    "sinoVietnamese": "NGUYÊN KHÍ",
+    "example": "元気について勉強しました。 (Tôi đã học về sức khỏe, tinh thần.)"
+  },
+  {
+    "word": "熱",
+    "meaning": "cơn sốt, nhiệt",
+    "reading": "ねつ",
+    "sinoVietnamese": "NHIỆT",
+    "example": "昨日から熱があります。 (Cơn sốt, nhiệt.)"
+  },
+  {
+    "word": "湯",
+    "meaning": "nước nóng",
+    "reading": "ゆ",
+    "sinoVietnamese": "THANG",
+    "example": "お湯を沸かしてください。 (Nước nóng.)"
+  },
+  {
+    "word": "望み",
+    "meaning": "hy vọng, mong muốn",
+    "reading": "のぞみ",
+    "sinoVietnamese": "VỌNG",
+    "example": "まだ望みがあります。 (Hy vọng, mong muốn.)"
+  },
+  {
+    "word": "つもり",
+    "meaning": "dự định",
+    "reading": "つもり",
+    "sinoVietnamese": "—",
+    "example": "つもりについて勉強しました。 (Tôi đã học về dự định.)"
+  },
+  {
+    "word": "～べきだ",
+    "meaning": "nên, cần phải",
+    "reading": "べきだ",
+    "sinoVietnamese": "—",
+    "example": "約束は守るべきです。 (Nên giữ lời hứa.)"
+  },
+  {
+    "word": "～ようにする",
+    "meaning": "cố gắng làm sao để",
+    "reading": "ようにする",
+    "sinoVietnamese": "—",
+    "example": "毎日運動するようにしています。 (Tôi cố gắng tập thể dục mỗi ngày.)"
+  },
+  {
+    "word": "～ようとする",
+    "meaning": "định, cố gắng làm",
+    "reading": "ようとする",
+    "sinoVietnamese": "—",
+    "example": "川に飛び込もうとしました。 (Đã định nhảy xuống sông.)"
+  },
+  {
+    "word": "～と思う",
+    "meaning": "nghĩ rằng",
+    "reading": "とおもう",
+    "sinoVietnamese": "TƯ",
+    "example": "明日は晴れると思います。 (Tôi nghĩ ngày mai trời nắng.)"
+  },
+  {
+    "word": "～たりする",
+    "meaning": "làm những việc như",
+    "reading": "たりする",
+    "sinoVietnamese": "—",
+    "example": "休みの日は本を読んだりします。 (Ngày nghỉ tôi làm những việc như đọc sách.)"
+  },
+  {
+    "word": "～ていただけませんか",
+    "meaning": "có thể vui lòng làm giúp không",
+    "reading": "ていただけませんか",
+    "sinoVietnamese": "—",
+    "example": "少し待っていただけませんか。 (Bạn có thể vui lòng đợi một chút không?)"
+  },
+  {
+    "word": "～てください",
+    "meaning": "xin hãy làm",
+    "reading": "てください",
+    "sinoVietnamese": "—",
+    "example": "ここに名前を書いてください。 (Hãy viết tên vào đây.)"
+  },
+  {
+    "word": "～に気づく",
+    "meaning": "nhận ra điều gì",
+    "reading": "にきづく",
+    "sinoVietnamese": "KHÍ",
+    "example": "間違いに気づきました。 (Tôi đã nhận ra lỗi sai.)"
+  },
+  {
+    "word": "～に合格する",
+    "meaning": "thi đỗ vào",
+    "reading": "にごうかくする",
+    "sinoVietnamese": "HỢP CÁCH",
+    "example": "大学に合格しました。 (Tôi đã đỗ đại học.)"
+  },
+  {
+    "word": "～やすい",
+    "meaning": "dễ làm gì",
+    "reading": "やすい",
+    "sinoVietnamese": "—",
+    "example": "この本は読みやすいです。 (Cuốn sách này dễ đọc.)"
+  },
+  {
+    "word": "仲がいい",
+    "meaning": "thân thiết, hòa thuận",
+    "reading": "なかがいい",
+    "sinoVietnamese": "TRỌNG",
+    "example": "これは仲がいいです。 (Thân thiết, hòa thuận.)"
+  },
+  {
+    "word": "席につく",
+    "meaning": "ngồi vào chỗ",
+    "reading": "せきにつく",
+    "sinoVietnamese": "TỊCH",
+    "example": "席につくについて勉強しました。 (Tôi đã học về ngồi vào chỗ.)"
+  },
+  {
+    "word": "骨を折る",
+    "meaning": "gãy xương; bỏ công sức",
+    "reading": "ほねをおる",
+    "sinoVietnamese": "CỐT CHIẾT",
+    "example": "骨を折るについて勉強しました。 (Tôi đã học về gãy xương; bỏ công sức.)"
+  },
+  {
+    "word": "鼻が高い",
+    "meaning": "mũi cao; tự hào",
+    "reading": "はながたかい",
+    "sinoVietnamese": "TỴ CAO",
+    "example": "これは鼻が高いです。 (Mũi cao; tự hào.)"
+  },
+  {
+    "word": "記録をとる",
+    "meaning": "ghi lại",
+    "reading": "きろくをとる",
+    "sinoVietnamese": "KÝ LỤC",
+    "example": "記録をとるについて勉強しました。 (Tôi đã học về ghi lại.)"
+  },
+  {
+    "word": "熱がある",
+    "meaning": "bị sốt",
+    "reading": "ねつがある",
+    "sinoVietnamese": "NHIỆT",
+    "example": "熱があるについて勉強しました。 (Tôi đã học về bị sốt.)"
+  },
+  {
+    "word": "元気が出ない",
+    "meaning": "không có sức sống, không khỏe",
+    "reading": "げんきがでない",
+    "sinoVietnamese": "NGUYÊN KHÍ",
+    "example": "これは元気が出ないです。 (Không có sức sống, không khỏe.)"
+  },
+  {
+    "word": "皿を洗う",
+    "meaning": "rửa bát đĩa",
+    "reading": "さらをあらう",
+    "sinoVietnamese": "MÃNH TẨY",
+    "example": "皿を洗うについて勉強しました。 (Tôi đã học về rửa bát đĩa.)"
+  },
+  {
+    "word": "角を曲がる",
+    "meaning": "rẽ ở góc đường",
+    "reading": "かどをまがる",
+    "sinoVietnamese": "GIÁC KHÚC",
+    "example": "角を曲がるについて勉強しました。 (Tôi đã học về rẽ ở góc đường.)"
+  },
+  {
+    "word": "気をつける",
+    "meaning": "chú ý, cẩn thận",
+    "reading": "きをつける",
+    "sinoVietnamese": "KHÍ",
+    "example": "気をつけるについて勉強しました。 (Tôi đã học về chú ý, cẩn thận.)"
+  },
+  {
+    "word": "年末年始",
+    "meaning": "dịp cuối năm và đầu năm",
+    "reading": "ねんまつねんし",
+    "sinoVietnamese": "NIÊN MẠT NIÊN THỦY",
+    "example": "年末年始について勉強しました。 (Tôi đã học về dịp cuối năm và đầu năm.)"
+  }
+]
