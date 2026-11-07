@@ -132,11 +132,11 @@ export default function ReviewPage() {
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
       {/* Header */}
       <div className="space-y-3">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-semibold">
-          <RotateCcw className="w-3.5 h-3.5" />
-          <span>Sổ tay ôn tập câu sai & câu ghim</span>
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8F5E9] border border-[#A5D6A7] text-[#1B5E20] text-xs font-semibold">
+          <RotateCcw className="w-3.5 h-3.5 text-[#2E7D32]" />
+          <span>Sổ tay ôn tập câu sai & câu ghim • Cùng VuyAnh 🌸</span>
         </div>
-        <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+        <h1 className="text-3xl font-extrabold text-[#1B5E20] tracking-tight">
           Ôn Tập Câu Sai & Đã Ghim
         </h1>
         <p className="text-sm text-slate-600 max-w-2xl">

@@ -4,9 +4,13 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "JLPT N3 Practice Hub — Luyện Đề Thi Trắc Nghiệm Thông Minh",
+  title: "Học tiếng Nhật cùng VuyAnh 🌸 — Luyện Đề JLPT N3 Thân Thương",
   description:
-    "Website luyện đề JLPT N3 dành cho người Việt: Từ vựng, Chữ Hán, Ngữ pháp, Đọc hiểu với lời giải chi tiết, dịch nghĩa chuẩn xác và phân tích điểm yếu.",
+    "Chào ngừi iu! Góc nhỏ VuyAnh tự tay chuẩn bị để cùng ngừi iu chinh phục kỳ thi JLPT N3 (tập trung trọn vẹn vào Từ vựng, Chữ Hán, Ngữ pháp và Đọc hiểu) với lời giải chi tiết 100% tiếng Việt.",
+  icons: {
+    icon: "/images/mascot-frog.jpg",
+    apple: "/images/mascot-frog.jpg",
+  },
 };
 
 export default function RootLayout({
@@ -23,8 +27,9 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" href="/images/mascot-frog.jpg" />
       </head>
-      <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased selection:bg-indigo-100 selection:text-indigo-900">
+      <body className="min-h-screen flex flex-col bg-[#fbfdfb] text-slate-800 antialiased selection:bg-[#A5D6A7]/50 selection:text-[#1B5E20]">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
@@ -32,4 +37,3 @@ export default function RootLayout({
     </html>
   );
 }
-

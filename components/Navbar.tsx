@@ -4,14 +4,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import {
-  BookOpen,
   Compass,
   BarChart3,
   RotateCcw,
   Menu,
   X,
   Sparkles,
-  HelpCircle,
   Layers,
 } from "lucide-react";
 
@@ -28,21 +26,29 @@ export function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-slate-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
+    <header className="sticky top-0 z-40 w-full border-b border-[#A5D6A7]/50 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/85">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand */}
-        <Link href="/" className="flex items-center gap-2.5 group">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-blue-600 to-indigo-700 flex items-center justify-center text-white shadow-md shadow-indigo-100 group-hover:scale-105 transition-transform">
-            <BookOpen className="w-5 h-5" />
+        <Link href="/" className="flex items-center gap-3 group">
+          <div className="w-10 h-10 rounded-xl bg-[#E8F5E9] border-2 border-[#A5D6A7] overflow-hidden shadow-sm group-hover:scale-105 transition-transform flex items-center justify-center shrink-0">
+            <img
+              src="/images/mascot-frog.jpg"
+              alt="Mascot Ếch VuyAnh"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div>
             <div className="flex items-center gap-1.5">
-              <span className="font-bold text-lg text-slate-900 tracking-tight">JLPT N3</span>
-              <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200/60">
-                Practice Hub
+              <span className="font-extrabold text-base sm:text-lg text-[#1B5E20] tracking-tight flex items-center gap-1">
+                Học tiếng Nhật cùng VuyAnh <span className="text-sm">🌸</span>
+              </span>
+              <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
+                N3
               </span>
             </div>
-            <p className="text-[11px] text-slate-500 hidden sm:block">Luyện đề trắc nghiệm thông minh</p>
+            <p className="text-[11px] text-emerald-800/80 hidden sm:block">
+              Góc nhỏ luyện đề thân thương cho ngừi iu
+            </p>
           </div>
         </Link>
 
@@ -55,13 +61,13 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-sm font-medium transition-colors ${
+                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-sm font-medium transition-colors ${
                   isActive
-                    ? "bg-indigo-50 text-indigo-700"
-                    : "text-slate-600 hover:text-slate-900 hover:bg-slate-50"
+                    ? "bg-[#E8F5E9] text-[#1B5E20] font-semibold border border-[#A5D6A7]/70"
+                    : "text-slate-600 hover:text-[#1B5E20] hover:bg-[#E8F5E9]/60"
                 }`}
               >
-                <Icon className={`w-4 h-4 ${isActive ? "text-indigo-600" : "text-slate-400"}`} />
+                <Icon className={`w-4 h-4 ${isActive ? "text-[#2E7D32]" : "text-slate-400"}`} />
                 {link.label}
               </Link>
             );
@@ -69,9 +75,9 @@ export function Navbar() {
 
           <Link
             href="/exams"
-            className="ml-3 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-indigo-600 text-white text-sm font-medium shadow-sm hover:bg-indigo-700 active:scale-95 transition-all"
+            className="ml-3 inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#1B5E20] text-white text-sm font-semibold shadow-sm hover:bg-[#2E7D32] border border-[#66BB6A]/40 active:scale-95 transition-all"
           >
-            <Sparkles className="w-4 h-4" />
+            <Sparkles className="w-4 h-4 text-[#A5D6A7]" />
             Luyện đề ngay
           </Link>
         </nav>
@@ -80,7 +86,7 @@ export function Navbar() {
         <div className="flex md:hidden items-center">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="p-2 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+            className="p-2 rounded-lg text-slate-600 hover:text-[#1B5E20] hover:bg-[#E8F5E9]"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -90,7 +96,7 @@ export function Navbar() {
 
       {/* Mobile dropdown */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-b border-slate-200 bg-white px-4 pt-2 pb-4 space-y-1">
+        <div className="md:hidden border-b border-[#A5D6A7]/50 bg-white px-4 pt-2 pb-4 space-y-1">
           {navLinks.map((link) => {
             const Icon = link.icon;
             const isActive = pathname === link.href;
@@ -99,24 +105,25 @@ export function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-base font-medium ${
+                className={`flex items-center gap-2 px-3.5 py-2.5 rounded-xl text-sm font-medium ${
                   isActive
-                    ? "bg-indigo-50 text-indigo-700"
-                    : "text-slate-600 hover:bg-slate-50"
+                    ? "bg-[#E8F5E9] text-[#1B5E20] font-semibold"
+                    : "text-slate-600 hover:text-[#1B5E20] hover:bg-[#E8F5E9]/50"
                 }`}
               >
-                <Icon className="w-5 h-5 text-indigo-500" />
+                <Icon className="w-4 h-4" />
                 {link.label}
               </Link>
             );
           })}
+
           <div className="pt-2">
             <Link
               href="/exams"
               onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-lg bg-indigo-600 text-white text-sm font-semibold shadow-sm"
+              className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-[#1B5E20] text-white text-sm font-semibold shadow-sm"
             >
-              <Sparkles className="w-4 h-4" />
+              <Sparkles className="w-4 h-4 text-[#A5D6A7]" />
               Luyện đề ngay
             </Link>
           </div>
@@ -125,4 +132,3 @@ export function Navbar() {
     </header>
   );
 }
-

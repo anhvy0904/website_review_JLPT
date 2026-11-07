@@ -83,15 +83,15 @@ export default function ExamsPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
       {/* Header */}
       <div className="space-y-3">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-xs font-semibold">
-          <BookOpen className="w-3.5 h-3.5" />
-          <span>Thư viện đề trắc nghiệm JLPT N3</span>
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8F5E9] border border-[#A5D6A7] text-[#1B5E20] text-xs font-semibold">
+          <BookOpen className="w-3.5 h-3.5 text-[#2E7D32]" />
+          <span>Thư viện đề thi chuẩn JLPT N3 • Cùng VuyAnh 🌸</span>
         </div>
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-          Kho Đề Luyện Thi
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-[#1B5E20] tracking-tight">
+          Kho Đề Luyện Thi N3
         </h1>
         <p className="text-sm sm:text-base text-slate-600 max-w-2xl">
-          Luyện tập theo từng kỹ năng hoặc làm bài thi thử tổng hợp với đầy đủ đồng hồ bấm giờ và lời giải chi tiết.
+          Luyện tập theo từng kỹ năng hoặc làm bài thi thử tổng hợp với đầy đủ đồng hồ bấm giờ và lời giải chi tiết 100% tiếng Việt cho từng lựa chọn.
         </p>
       </div>
 

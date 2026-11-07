@@ -94,43 +94,47 @@ export function AITutorChat({
         <button
           type="button"
           onClick={() => setIsOpen(true)}
-          className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 active:scale-95 text-white text-xs font-bold shadow-sm transition-all"
+          className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-[#1B5E20] hover:bg-[#2E7D32] border border-[#66BB6A]/40 active:scale-95 text-white text-xs font-bold shadow-sm transition-all"
         >
-          <Sparkles className="w-4 h-4 text-purple-200" />
-          <span>Hỏi Sensei AI về câu này</span>
+          <Sparkles className="w-4 h-4 text-[#A5D6A7]" />
+          <span>Hỏi Sensei Ếch AI về câu này</span>
           <span className="text-[10px] bg-white/20 px-1.5 py-0.5 rounded-full font-mono">
             {quotaRemaining} lượt
           </span>
         </button>
       ) : (
-        <div className="rounded-3xl border border-purple-200 bg-white p-5 shadow-lg space-y-4 animate-fade-in">
+        <div className="rounded-3xl border-2 border-[#A5D6A7] bg-white p-5 shadow-lg space-y-4 animate-fade-in">
           {/* Header */}
-          <div className="flex items-center justify-between pb-3 border-b border-purple-100">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center">
-                <Bot className="w-4 h-4" />
+          <div className="flex items-center justify-between pb-3 border-b border-[#A5D6A7]/40">
+            <div className="flex items-center gap-2.5">
+              <div className="w-9 h-9 rounded-xl overflow-hidden border border-[#A5D6A7] bg-[#E8F5E9] shadow-sm">
+                <img
+                  src="/images/mascot-frog.jpg"
+                  alt="Sensei Ếch VuyAnh"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
-                <h4 className="font-bold text-slate-900 text-sm flex items-center gap-1.5">
-                  <span>Sensei AI Gia Sư JLPT N3</span>
-                  <span className="text-[10px] text-purple-700 font-normal bg-purple-50 px-2 py-0.5 rounded-full border border-purple-200">
-                    Gemini N3 Tutor
+                <h4 className="font-bold text-[#1B5E20] text-sm flex items-center gap-1.5">
+                  <span>Sensei Ếch AI Gia Sư JLPT N3</span>
+                  <span className="text-[10px] text-[#1B5E20] font-semibold bg-[#E8F5E9] px-2 py-0.5 rounded-full border border-[#A5D6A7]">
+                    VuyAnh AI 🌸
                   </span>
                 </h4>
                 <p className="text-[11px] text-slate-500">
-                  Giải thích chuyên sâu ngữ pháp, từ vựng và chỉ rõ bẫy sai
+                  Giải thích cặn kẽ ngữ pháp, từ vựng và chỉ rõ bẫy sai cho ngừi iu
                 </p>
               </div>
             </div>
 
             <div className="flex items-center gap-2">
-              <span className="text-[11px] font-mono text-slate-400">
-                Còn <strong className="text-purple-600">{quotaRemaining}</strong>/{MAX_QUESTIONS_PER_SESSION} lượt
+              <span className="text-[11px] font-mono text-slate-500">
+                Còn <strong className="text-[#2E7D32]">{quotaRemaining}</strong>/{MAX_QUESTIONS_PER_SESSION} lượt
               </span>
               <button
                 type="button"
                 onClick={() => setIsOpen(false)}
-                className="p-1 rounded-lg text-slate-400 hover:text-slate-600 hover:bg-slate-100"
+                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 hover:bg-[#E8F5E9]"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -167,13 +171,21 @@ export function AITutorChat({
                   }`}
                 >
                   <div
-                    className={`w-6 h-6 rounded-lg flex items-center justify-center shrink-0 text-xs font-bold ${
+                    className={`w-7 h-7 rounded-lg overflow-hidden flex items-center justify-center shrink-0 text-xs font-bold ${
                       m.role === "user"
-                        ? "bg-slate-900 text-white"
-                        : "bg-purple-600 text-white"
+                        ? "bg-[#1B5E20] text-white"
+                        : "border border-[#A5D6A7] bg-[#E8F5E9]"
                     }`}
                   >
-                    {m.role === "user" ? <User className="w-3.5 h-3.5" /> : <Bot className="w-3.5 h-3.5" />}
+                    {m.role === "user" ? (
+                      <User className="w-3.5 h-3.5" />
+                    ) : (
+                      <img
+                        src="/images/mascot-frog.jpg"
+                        alt="Sensei Ếch"
+                        className="w-full h-full object-cover"
+                      />
+                    )}
                   </div>
 
                   <div

@@ -221,11 +221,11 @@ export default function DashboardPage() {
       {/* Page Title & Navigation Tabs */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="space-y-1">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-xs font-semibold">
-            <TrendingUp className="w-3.5 h-3.5" />
-            <span>Báo cáo tiến độ học tập N3</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8F5E9] border border-[#A5D6A7] text-[#1B5E20] text-xs font-semibold">
+            <TrendingUp className="w-3.5 h-3.5 text-[#2E7D32]" />
+            <span>Báo cáo tiến độ học tập N3 • Cùng VuyAnh 🌸</span>
           </div>
-          <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+          <h1 className="text-3xl font-extrabold text-[#1B5E20] tracking-tight">
             Thống Kê Tiến Độ Cá Nhân
           </h1>
         </div>

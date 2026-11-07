@@ -233,3 +233,4 @@ fs.writeFileSync(path.join(targetDir, "verb-forms-quizzes.json"), JSON.stringify
 fs.writeFileSync(path.join(targetDir, "keigo-quizzes.json"), JSON.stringify(KEIGO_QUIZZES, null, 2), "utf8");
 
 console.log("Đã tạo thành công 2 bộ câu hỏi trắc nghiệm tương tác tại " + targetDir);
+

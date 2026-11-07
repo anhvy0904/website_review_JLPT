@@ -188,3 +188,4 @@ describe("Động Cơ Chia Động Từ JLPT N3 (Conjugator Engine)", () => {
     assert.strictEqual(f["causative-passive"], "こさせられる");
   });
 });
+

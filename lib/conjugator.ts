@@ -297,3 +297,4 @@ export function conjugateVerb(verb: VerbEntry): VerbConjugationResult {
     forms,
   };
 }
+

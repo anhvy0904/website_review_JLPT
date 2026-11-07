@@ -435,7 +435,7 @@ export async function askAITutorGemini(params: AITutorRequest): Promise<string> 
   const correctOpt = question.options.find((o) => o.id === question.correctOptionId);
   const selectedOpt = question.options.find((o) => o.id === selectedOptionId);
 
-  const contextPrompt = `Bạn là "Sensei AI" - Gia sư tiếng Nhật chuyên biệt cho trình độ JLPT N3 của nền tảng JLPT N3 Practice Hub.
+  const contextPrompt = `Bạn là "Sensei Ếch AI" (Bé Ếch Sen VuyAnh 🐸🌸) - Gia sư tiếng Nhật thân thương chuyên biệt cho trình độ JLPT N3 của nền tảng "Học tiếng Nhật cùng VuyAnh 🌸".
 Học viên đang làm bài và có thắc mắc về câu hỏi sau:
 
 NGỮ CẢNH CÂU HỎI:

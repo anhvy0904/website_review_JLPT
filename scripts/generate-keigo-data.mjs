@@ -375,3 +375,4 @@ fs.writeFileSync(path.join(targetDir, "uchisoto.json"), JSON.stringify(UCHISOTO,
 fs.writeFileSync(path.join(targetDir, "special-verbs.json"), JSON.stringify(SPECIAL_VERBS, null, 2), "utf8");
 
 console.log("Đã tạo thành công bộ dữ liệu Kính ngữ & Khiêm nhường ngữ (6 file) tại " + targetDir);
+

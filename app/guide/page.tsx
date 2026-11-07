@@ -19,15 +19,15 @@ export default function GuidePage() {
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
       {/* Header */}
       <div className="space-y-3">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-xs font-semibold">
-          <BookOpen className="w-3.5 h-3.5" />
-          <span>Sổ tay học viên & Hướng dẫn sử dụng</span>
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8F5E9] border border-[#A5D6A7] text-[#1B5E20] text-xs font-semibold">
+          <BookOpen className="w-3.5 h-3.5 text-[#2E7D32]" />
+          <span>Sổ tay học viên & Hướng dẫn sử dụng • Cùng VuyAnh 🌸</span>
         </div>
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-[#1B5E20] tracking-tight">
           Hướng Dẫn Ôn Thi & Sử Dụng Nền Tảng
         </h1>
         <p className="text-sm sm:text-base text-slate-600 max-w-2xl leading-relaxed">
-          Tìm hiểu cấu trúc đề thi JLPT N3, cách phân bổ thời gian hợp lý và tận dụng tối đa các công cụ phân tích của JLPT N3 Practice Hub.
+          Tìm hiểu cấu trúc đề thi JLPT N3, cách phân bổ thời gian hợp lý và tận dụng tối đa các công cụ phân tích của Học tiếng Nhật cùng VuyAnh 🌸.
         </p>
       </div>
 
@@ -78,7 +78,7 @@ export default function GuidePage() {
         <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-xs flex items-start gap-3">
           <AlertCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
           <div className="leading-relaxed">
-            <strong>Lưu ý về phạm vi của website:</strong> JLPT N3 Practice Hub tập trung chuyên sâu vào các kỹ năng trắc nghiệm Từ vựng, Ngữ pháp và Đọc hiểu. Hệ thống <strong>không tích hợp phần thi Nghe hiểu</strong>. Điểm số bài làm được tính là <strong>Tỷ lệ % câu đúng thô (raw percent)</strong>, không quy đổi thành điểm scaled score 0–180 của kỳ thi chính thức.
+            <strong>Lưu ý về phạm vi của website:</strong> Học tiếng Nhật cùng VuyAnh 🌸 tập trung chuyên sâu vào các kỹ năng trắc nghiệm Từ vựng, Ngữ pháp và Đọc hiểu. Hệ thống <strong>không tích hợp phần thi Nghe hiểu</strong>. Điểm số bài làm được tính là <strong>Tỷ lệ % câu đúng thô (raw percent)</strong>, không quy đổi thành điểm scaled score 0–180 của kỳ thi chính thức.
           </div>
         </div>
       </section>

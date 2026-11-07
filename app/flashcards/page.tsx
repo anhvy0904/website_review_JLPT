@@ -204,11 +204,11 @@ export default function FlashcardsPage() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="space-y-1">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200/70 text-indigo-700 text-xs font-semibold">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>200 Từ Vựng Cốt Lõi JLPT N3</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8F5E9] border border-[#A5D6A7] text-[#1B5E20] text-xs font-semibold">
+            <Sparkles className="w-3.5 h-3.5 text-[#2E7D32]" />
+            <span>200 Từ Vựng Cốt Lõi JLPT N3 • Cùng VuyAnh 🌸</span>
           </div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-[#1B5E20] tracking-tight">
             Flashcard Từ Vựng N3
           </h1>
           <p className="text-xs sm:text-sm text-slate-600">
@@ -228,9 +228,9 @@ export default function FlashcardsPage() {
           </button>
           <Link
             href="/exams"
-            className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-indigo-600 text-white text-xs font-bold hover:bg-indigo-700 shadow-sm transition-all"
+            className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#1B5E20] text-white text-xs font-bold hover:bg-[#2E7D32] border border-[#66BB6A]/40 shadow-sm transition-all"
           >
-            <BookOpen className="w-3.5 h-3.5" />
+            <BookOpen className="w-3.5 h-3.5 text-[#A5D6A7]" />
             <span>Luyện đề thi</span>
           </Link>
         </div>
@@ -618,3 +618,4 @@ export default function FlashcardsPage() {
     </div>
   );
 }
+

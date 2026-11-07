@@ -11,15 +11,52 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // Custom palette requested by user:
+        // #E8F5E9 (light matcha), #A5D6A7 (soft pastel border), #66BB6A (vibrant green), #1B5E20 (deep forest green)
+        brand: {
+          50: "#E8F5E9",
+          100: "#dcedc8",
+          200: "#A5D6A7",
+          300: "#81C784",
+          400: "#66BB6A",
+          500: "#4CAF50",
+          600: "#388E3C",
+          700: "#2E7D32",
+          800: "#226B28",
+          900: "#1B5E20",
+          light: "#E8F5E9",
+          pastel: "#A5D6A7",
+          vibrant: "#66BB6A",
+          dark: "#1B5E20",
+        },
+        vuyanh: {
+          light: "#E8F5E9",
+          pastel: "#A5D6A7",
+          vibrant: "#66BB6A",
+          dark: "#1B5E20",
+        },
+        // Harmonize indigo to map to the new fresh green theme so existing components blend seamlessly
+        indigo: {
+          50: "#E8F5E9",
+          100: "#dcedc8",
+          200: "#A5D6A7",
+          300: "#81C784",
+          400: "#66BB6A",
+          500: "#4CAF50",
+          600: "#2E7D32",
+          700: "#1B5E20",
+          800: "#154c19",
+          900: "#0c300f",
+        },
         jlpt: {
-          blue: "#2563EB",
-          "blue-dark": "#1D4ED8",
-          indigo: "#4F46E5",
-          teal: "#0D9488",
-          emerald: "#10B981",
-          rose: "#F43F5E",
+          blue: "#2E7D32",
+          "blue-dark": "#1B5E20",
+          indigo: "#1B5E20",
+          teal: "#00796B",
+          emerald: "#2E7D32",
+          rose: "#E53935",
           amber: "#F59E0B",
-          slate: "#0F172A",
+          slate: "#1B5E20",
         },
       },
       fontFamily: {
@@ -31,4 +68,3 @@ const config: Config = {
   plugins: [],
 };
 export default config;
-

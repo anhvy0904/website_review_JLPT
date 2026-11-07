@@ -35,3 +35,4 @@ export function FuriganaToggle({ visible, onToggle, className = "" }: Props) {
     </button>
   );
 }
+
