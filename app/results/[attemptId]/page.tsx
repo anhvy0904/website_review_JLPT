@@ -85,13 +85,13 @@ export default function ResultsPage() {
     return scoreAttempt(exam, attempt);
   }, [exam, attempt]);
 
-  // Fire confetti on high score
+  // Fire confetti on pass or high score
   useEffect(() => {
-    if (scoring && scoring.scorePercent >= 70) {
+    if (scoring && (scoring.jlptScore?.isOverallPassed || scoring.scorePercent >= 70)) {
       try {
         confetti({
-          particleCount: 80,
-          spread: 70,
+          particleCount: 90,
+          spread: 75,
           origin: { y: 0.6 },
         });
       } catch {}
@@ -172,7 +172,353 @@ export default function ResultsPage() {
         </p>
       </div>
 
-      {/* Score Summary Card */}
+      {/* ========================================================================= */}
+      {/* BẢNG ĐIỂM CHUẨN JLPT N3 (ESTIMATED SCALED SCORE REPORT CARD) */}
+      {/* ========================================================================= */}
+      <div className="bg-white rounded-3xl border-2 border-[#A5D6A7] p-6 sm:p-8 shadow-sm space-y-7 relative overflow-hidden">
+        {/* Decorative corner accent */}
+        <div className="absolute top-0 right-0 w-36 h-36 bg-gradient-to-bl from-emerald-100/60 to-transparent rounded-bl-full pointer-events-none" />
+
+        {/* Header & Mascot */}
+        <div className="flex flex-wrap items-center justify-between gap-4 border-b border-emerald-100/80 pb-5">
+          <div className="flex items-center gap-3">
+            <span className="text-3xl select-none" role="img" aria-label="mascot">
+              🐸🌸
+            </span>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-bold uppercase tracking-wider text-[#1B5E20] bg-[#E8F5E9] px-2.5 py-0.5 rounded-full border border-[#A5D6A7]">
+                  Mô phỏng Thang điểm JLPT
+                </span>
+                <span className="text-xs text-slate-400">•</span>
+                <span className="text-xs text-slate-500 font-medium">Quy đổi trọng số chuẩn</span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight mt-1">
+                Bảng Điểm Chuẩn JLPT N3
+              </h2>
+            </div>
+          </div>
+
+          {/* Pass/Fail Main Badge */}
+          <div className="flex items-center">
+            {scoring.jlptScore.isOverallPassed ? (
+              <div className="flex items-center gap-2.5 px-4 py-2 rounded-2xl bg-emerald-500 text-white font-extrabold text-sm sm:text-base shadow-sm ring-4 ring-emerald-100">
+                <CheckCircle2 className="w-5 h-5" />
+                <span>ĐẠT (合格)</span>
+              </div>
+            ) : (
+              <div className="flex items-center gap-2.5 px-4 py-2 rounded-2xl bg-rose-500 text-white font-extrabold text-sm sm:text-base shadow-sm ring-4 ring-rose-100">
+                <XCircle className="w-5 h-5" />
+                <span>CHƯA ĐẠT (不合格)</span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Main Score Hero Card */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+          {/* Left: Total Scaled Score */}
+          <div
+            className={`lg:col-span-5 rounded-2xl p-6 flex flex-col justify-between border ${
+              scoring.jlptScore.isOverallPassed
+                ? "bg-gradient-to-br from-[#E8F5E9] via-emerald-50/50 to-white border-[#A5D6A7]"
+                : "bg-gradient-to-br from-rose-50/50 via-slate-50 to-white border-rose-200"
+            }`}
+          >
+            <div>
+              <div className="text-xs font-bold uppercase tracking-wider text-slate-500">
+                Tổng điểm ước tính
+              </div>
+              <div className="mt-2 flex items-baseline gap-2">
+                <span
+                  className={`text-5xl sm:text-6xl font-black tracking-tight ${
+                    scoring.jlptScore.isOverallPassed ? "text-[#1B5E20]" : "text-rose-700"
+                  }`}
+                >
+                  {scoring.jlptScore.totalScaledScore}
+                </span>
+                <span className="text-lg sm:text-xl font-bold text-slate-400">
+                  / {scoring.jlptScore.maxTotalScore} điểm
+                </span>
+              </div>
+            </div>
+
+            <div className="mt-4 pt-4 border-t border-slate-200/70 text-xs leading-relaxed space-y-1.5">
+              {scoring.jlptScore.isOverallPassed ? (
+                <p className="text-emerald-800 font-medium">
+                  🎉 <strong>Xuất sắc!</strong> Bạn đã vượt ngưỡng điểm chuẩn (
+                  {scoring.jlptScore.maxTotalScore === 120 ? ">= 67/120 điểm" : ">= 60%"}) và an toàn qua tất cả các mốc điểm liệt.
+                </p>
+              ) : (
+                <div className="text-rose-800 font-medium space-y-1">
+                  <p>
+                    ⚠️ <strong>Chưa đạt yêu cầu:</strong>
+                  </p>
+                  <ul className="list-disc list-inside text-[11px] space-y-0.5 text-rose-700 font-normal">
+                    {scoring.jlptScore.totalScaledScore <
+                      Math.round(
+                        scoring.jlptScore.maxTotalScore *
+                          (scoring.jlptScore.maxTotalScore === 120 ? 67 / 120 : 0.6)
+                      ) && (
+                      <li>
+                        Tổng điểm {scoring.jlptScore.totalScaledScore}đ chưa đạt ngưỡng sàn (
+                        {scoring.jlptScore.maxTotalScore === 120 ? "67/120 điểm" : ">= 60%"}).
+                      </li>
+                    )}
+                    {scoring.jlptScore.hasVocabulary &&
+                      scoring.jlptScore.hasGrammar &&
+                      !scoring.jlptScore.isLanguageKnowledgePassed && (
+                        <li>
+                          Kiến thức ngôn ngữ ({scoring.jlptScore.languageKnowledgeScore}/60đ) bị dưới điểm liệt 19đ.
+                        </li>
+                      )}
+                    {scoring.jlptScore.hasReading && !scoring.jlptScore.isReadingPassed && (
+                      <li>
+                        Đọc hiểu ({scoring.jlptScore.readingScore}/60đ) bị dưới điểm liệt 19đ.
+                      </li>
+                    )}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Right: Language Knowledge & Reading Benchmarks with Red Line */}
+          <div className="lg:col-span-7 flex flex-col justify-around gap-4 bg-slate-50/70 p-5 rounded-2xl border border-slate-200">
+            {/* Combined Language Knowledge Benchmark */}
+            {scoring.jlptScore.hasVocabulary && scoring.jlptScore.hasGrammar && (
+              <div className="space-y-2">
+                <div className="flex items-center justify-between text-xs">
+                  <div className="flex items-center gap-2">
+                    <span className="font-bold text-slate-800">
+                      Kiến thức ngôn ngữ (Từ vựng + Ngữ pháp)
+                    </span>
+                    <span
+                      className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                        scoring.jlptScore.isLanguageKnowledgePassed
+                          ? "bg-emerald-100 text-emerald-800"
+                          : "bg-rose-100 text-rose-800"
+                      }`}
+                    >
+                      {scoring.jlptScore.isLanguageKnowledgePassed ? "✓ An toàn (>= 19đ)" : "⚠️ Liệt (< 19đ)"}
+                    </span>
+                  </div>
+                  <span className="font-black text-slate-900 text-sm">
+                    {scoring.jlptScore.languageKnowledgeScore} / 60 điểm
+                  </span>
+                </div>
+
+                {/* Progress Bar with 19-pt red mark */}
+                <div className="relative w-full bg-slate-200 h-3 rounded-full overflow-hidden">
+                  <div
+                    className={`h-full rounded-full transition-all ${
+                      scoring.jlptScore.isLanguageKnowledgePassed ? "bg-[#1B5E20]" : "bg-rose-500"
+                    }`}
+                    style={{
+                      width: `${Math.min(
+                        100,
+                        Math.max(0, (scoring.jlptScore.languageKnowledgeScore / 60) * 100)
+                      )}%`,
+                    }}
+                  />
+                  {/* Red line benchmark at 19/60 (31.67%) */}
+                  <div
+                    className="absolute top-0 bottom-0 w-0.5 bg-rose-600 shadow-sm z-10"
+                    style={{ left: "31.67%" }}
+                    title="Mốc điểm liệt JLPT: 19 điểm"
+                  />
+                </div>
+                <div className="flex justify-between text-[10px] text-slate-400">
+                  <span>0đ</span>
+                  <span className="text-rose-600 font-bold -ml-4">▲ 19đ (Điểm liệt)</span>
+                  <span>60đ</span>
+                </div>
+              </div>
+            )}
+
+            {/* Reading Benchmark (if exam has reading) */}
+            {scoring.jlptScore.hasReading && (
+              <div className="space-y-2">
+                <div className="flex items-center justify-between text-xs">
+                  <div className="flex items-center gap-2">
+                    <span className="font-bold text-slate-800">Đọc hiểu (読解)</span>
+                    <span
+                      className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                        scoring.jlptScore.isReadingPassed
+                          ? "bg-emerald-100 text-emerald-800"
+                          : "bg-rose-100 text-rose-800"
+                      }`}
+                    >
+                      {scoring.jlptScore.isReadingPassed ? "✓ An toàn (>= 19đ)" : "⚠️ Liệt (< 19đ)"}
+                    </span>
+                  </div>
+                  <span className="font-black text-slate-900 text-sm">
+                    {scoring.jlptScore.readingScore} / 60 điểm
+                  </span>
+                </div>
+
+                {/* Progress Bar with 19-pt red mark */}
+                <div className="relative w-full bg-slate-200 h-3 rounded-full overflow-hidden">
+                  <div
+                    className={`h-full rounded-full transition-all ${
+                      scoring.jlptScore.isReadingPassed ? "bg-indigo-600" : "bg-rose-500"
+                    }`}
+                    style={{
+                      width: `${Math.min(
+                        100,
+                        Math.max(0, (scoring.jlptScore.readingScore / 60) * 100)
+                      )}%`,
+                    }}
+                  />
+                  {/* Red line benchmark at 19/60 (31.67%) */}
+                  <div
+                    className="absolute top-0 bottom-0 w-0.5 bg-rose-600 shadow-sm z-10"
+                    style={{ left: "31.67%" }}
+                    title="Mốc điểm liệt JLPT: 19 điểm"
+                  />
+                </div>
+                <div className="flex justify-between text-[10px] text-slate-400">
+                  <span>0đ</span>
+                  <span className="text-rose-600 font-bold -ml-4">▲ 19đ (Điểm liệt)</span>
+                  <span>60đ</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* 3 Detailed Section Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+          {/* 1. Từ vựng */}
+          <div
+            className={`p-4 rounded-2xl border transition-all ${
+              scoring.jlptScore.hasVocabulary
+                ? "bg-white border-slate-200"
+                : "bg-slate-50 border-dashed border-slate-200 opacity-60"
+            }`}
+          >
+            <div className="flex items-center justify-between text-xs font-semibold text-slate-600">
+              <span className="font-japanese font-bold text-slate-800">1. Từ vựng (文字・語彙)</span>
+              <span className="text-[11px] font-bold text-[#1B5E20] bg-[#E8F5E9] px-2 py-0.5 rounded">
+                Thang 30đ
+              </span>
+            </div>
+            <div className="mt-3 flex items-baseline gap-2">
+              <span className="text-2xl font-black text-slate-900">
+                {scoring.jlptScore.hasVocabulary ? scoring.jlptScore.vocabularyScore : 0}
+              </span>
+              <span className="text-xs text-slate-400 font-medium">/ 30 điểm</span>
+            </div>
+            {scoring.jlptScore.hasVocabulary ? (
+              <div className="mt-2 text-[11px] text-slate-500 space-y-1">
+                <div className="flex justify-between">
+                  <span>
+                    Đúng {scoring.sectionStats.vocabulary.correct} / {scoring.sectionStats.vocabulary.total} câu
+                  </span>
+                  <span className="font-bold text-slate-700">
+                    {scoring.sectionStats.vocabulary.percent}%
+                  </span>
+                </div>
+                <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
+                  <div
+                    className="bg-[#1B5E20] h-full rounded-full"
+                    style={{ width: `${scoring.sectionStats.vocabulary.percent}%` }}
+                  />
+                </div>
+              </div>
+            ) : (
+              <p className="mt-2 text-[11px] text-slate-400 italic">Không có trong đề này</p>
+            )}
+          </div>
+
+          {/* 2. Ngữ pháp */}
+          <div
+            className={`p-4 rounded-2xl border transition-all ${
+              scoring.jlptScore.hasGrammar
+                ? "bg-white border-slate-200"
+                : "bg-slate-50 border-dashed border-slate-200 opacity-60"
+            }`}
+          >
+            <div className="flex items-center justify-between text-xs font-semibold text-slate-600">
+              <span className="font-japanese font-bold text-slate-800">2. Ngữ pháp (文法)</span>
+              <span className="text-[11px] font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded">
+                Thang 30đ
+              </span>
+            </div>
+            <div className="mt-3 flex items-baseline gap-2">
+              <span className="text-2xl font-black text-slate-900">
+                {scoring.jlptScore.hasGrammar ? scoring.jlptScore.grammarScore : 0}
+              </span>
+              <span className="text-xs text-slate-400 font-medium">/ 30 điểm</span>
+            </div>
+            {scoring.jlptScore.hasGrammar ? (
+              <div className="mt-2 text-[11px] text-slate-500 space-y-1">
+                <div className="flex justify-between">
+                  <span>
+                    Đúng {scoring.sectionStats.grammar.correct} / {scoring.sectionStats.grammar.total} câu
+                  </span>
+                  <span className="font-bold text-slate-700">{scoring.sectionStats.grammar.percent}%</span>
+                </div>
+                <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
+                  <div
+                    className="bg-indigo-600 h-full rounded-full"
+                    style={{ width: `${scoring.sectionStats.grammar.percent}%` }}
+                  />
+                </div>
+              </div>
+            ) : (
+              <p className="mt-2 text-[11px] text-slate-400 italic">Không có trong đề này</p>
+            )}
+          </div>
+
+          {/* 3. Đọc hiểu */}
+          <div
+            className={`p-4 rounded-2xl border transition-all ${
+              scoring.jlptScore.hasReading
+                ? "bg-white border-slate-200"
+                : "bg-slate-50 border-dashed border-slate-200 opacity-60"
+            }`}
+          >
+            <div className="flex items-center justify-between text-xs font-semibold text-slate-600">
+              <span className="font-japanese font-bold text-slate-800">3. Đọc hiểu (読解)</span>
+              <span className="text-[11px] font-bold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">
+                Thang 60đ
+              </span>
+            </div>
+            <div className="mt-3 flex items-baseline gap-2">
+              <span className="text-2xl font-black text-slate-900">
+                {scoring.jlptScore.hasReading ? scoring.jlptScore.readingScore : 0}
+              </span>
+              <span className="text-xs text-slate-400 font-medium">/ 60 điểm</span>
+              {scoring.jlptScore.hasReading && scoring.jlptScore.readingScore < 19 && (
+                <span className="text-[10px] font-bold text-rose-600 bg-rose-50 px-1.5 py-0.5 rounded border border-rose-200">
+                  Liệt &lt; 19đ
+                </span>
+              )}
+            </div>
+            {scoring.jlptScore.hasReading ? (
+              <div className="mt-2 text-[11px] text-slate-500 space-y-1">
+                <div className="flex justify-between">
+                  <span>
+                    Đúng {scoring.sectionStats.reading.correct} / {scoring.sectionStats.reading.total} câu
+                  </span>
+                  <span className="font-bold text-slate-700">{scoring.sectionStats.reading.percent}%</span>
+                </div>
+                <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
+                  <div
+                    className="bg-purple-600 h-full rounded-full"
+                    style={{ width: `${scoring.sectionStats.reading.percent}%` }}
+                  />
+                </div>
+              </div>
+            ) : (
+              <p className="mt-2 text-[11px] text-slate-400 italic">Không có trong đề này</p>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Score Summary Card (Raw Metrics & Detailed Counts) */}
       <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
           {/* Main Percentage Circle / Badge */}
@@ -211,7 +557,7 @@ export default function ResultsPage() {
             <div className="col-span-3 p-3 rounded-xl bg-amber-50/70 border border-amber-200 text-amber-900 text-xs flex items-center gap-2">
               <AlertCircle className="w-4 h-4 text-amber-600 shrink-0" />
               <span>
-                <strong>Lưu ý:</strong> Điểm số ở đây là tỷ lệ đúng thô (% raw score) nhằm mục đích tự đánh giá ôn tập, không tương đương điểm scaled score 0–180 của kỳ thi chính thức JLPT.
+                <strong>Đối chiếu thang điểm:</strong> Tỷ lệ đúng thô (% Raw Score) thể hiện tỷ lệ số câu đúng/tổng câu; trong khi <strong>Bảng Điểm Chuẩn JLPT N3</strong> phía trên đã quy đổi theo trọng số từng Mondai chuẩn kỳ thi thật.
               </span>
             </div>
           </div>
@@ -220,7 +566,7 @@ export default function ResultsPage() {
         {/* Section Stats Breakdown */}
         <div className="pt-4 border-t border-slate-100 space-y-3">
           <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500">
-            Thống kê theo kỹ năng
+            Thống kê tỷ lệ chính xác từng phần
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {[

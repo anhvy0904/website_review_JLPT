@@ -114,7 +114,7 @@
           "1": "SAI: 「となり」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 角（かど） là góc đường/góc phố; hỏi vị trí cửa hàng ở góc kia.",
           "2": "SAI: 「そば」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 角（かど） là góc đường/góc phố; hỏi vị trí cửa hàng ở góc kia.",
           "3": "SAI: 「さか」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 角（かど） là góc đường/góc phố; hỏi vị trí cửa hàng ở góc kia.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 角（かど） là góc đường/góc phố; hỏi vị trí cửa hàng ở góc kia."
+          "4": "ĐÚNG: 角（かど） là góc đường/góc phố; hỏi vị trí cửa hàng ở góc kia."
         },
         "translationVi": "Cửa hàng chúng ta sắp đến nằm ở góc kia.",
         "vocabulary": [
@@ -170,7 +170,7 @@
         "correctReasonVi": "後半（こうはん） là nửa sau; 今月の後半 nghĩa là nửa cuối tháng.",
         "optionReasonsVi": {
           "1": "SAI: 「ごはん」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 後半（こうはん） là nửa sau; 今月の後半 nghĩa là nửa cuối tháng.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 後半（こうはん） là nửa sau; 今月の後半 nghĩa là nửa cuối tháng.",
+          "2": "ĐÚNG: 後半（こうはん） là nửa sau; 今月の後半 nghĩa là nửa cuối tháng.",
           "3": "SAI: 「ごばん」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 後半（こうはん） là nửa sau; 今月の後半 nghĩa là nửa cuối tháng.",
           "4": "SAI: 「こうばん」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 後半（こうはん） là nửa sau; 今月の後半 nghĩa là nửa cuối tháng."
         },
@@ -227,7 +227,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "非常口（ひじょうぐち） là lối thoát hiểm; 非常 đọc ひじょう, 口 đọc ぐち.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 非常口（ひじょうぐち） là lối thoát hiểm; 非常 đọc ひじょう, 口 đọc ぐち.",
+          "1": "ĐÚNG: 非常口（ひじょうぐち） là lối thoát hiểm; 非常 đọc ひじょう, 口 đọc ぐち.",
           "2": "SAI: 「ひじょぐち」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 非常口（ひじょうぐち） là lối thoát hiểm; 非常 đọc ひじょう, 口 đọc ぐち.",
           "3": "SAI: 「びしょうぐち」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 非常口（ひじょうぐち） là lối thoát hiểm; 非常 đọc ひじょう, 口 đọc ぐち.",
           "4": "SAI: 「びじょうぐち」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 非常口（ひじょうぐち） là lối thoát hiểm; 非常 đọc ひじょう, 口 đọc ぐち."
@@ -287,7 +287,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「とまり」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 参る（まいる） là dạng khiêm nhường của 行く／来る trong một số cách dùng; 参ります.",
           "2": "SAI: 「かえり」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 参る（まいる） là dạng khiêm nhường của 行く／来る trong một số cách dùng; 参ります.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 参る（まいる） là dạng khiêm nhường của 行く／来る trong một số cách dùng; 参ります.",
+          "3": "ĐÚNG: 参る（まいる） là dạng khiêm nhường của 行く／来る trong một số cách dùng; 参ります.",
           "4": "SAI: 「あがり」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 参る（まいる） là dạng khiêm nhường của 行く／来る trong một số cách dùng; 参ります."
         },
         "translationVi": "Ngày kia tôi sẽ đến.",
@@ -343,7 +343,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "共通（きょうつう） nghĩa là chung, có ở cả hai phía: vấn đề chung của hai nước.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 共通（きょうつう） nghĩa là chung, có ở cả hai phía: vấn đề chung của hai nước.",
+          "1": "ĐÚNG: 共通（きょうつう） nghĩa là chung, có ở cả hai phía: vấn đề chung của hai nước.",
           "2": "SAI: 「きょうつ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 共通（きょうつう） nghĩa là chung, có ở cả hai phía: vấn đề chung của hai nước.",
           "3": "SAI: 「こうつう」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 共通（きょうつう） nghĩa là chung, có ở cả hai phía: vấn đề chung của hai nước.",
           "4": "SAI: 「こうつ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 共通（きょうつう） nghĩa là chung, có ở cả hai phía: vấn đề chung của hai nước."
@@ -403,7 +403,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「しゅいん」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 取引（とりひき） nghĩa là giao dịch, quan hệ làm ăn giữa các công ty.",
           "2": "SAI: 「しゅういん」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 取引（とりひき） nghĩa là giao dịch, quan hệ làm ăn giữa các công ty.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 取引（とりひき） nghĩa là giao dịch, quan hệ làm ăn giữa các công ty.",
+          "3": "ĐÚNG: 取引（とりひき） nghĩa là giao dịch, quan hệ làm ăn giữa các công ty.",
           "4": "SAI: 「とりびき」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 取引（とりひき） nghĩa là giao dịch, quan hệ làm ăn giữa các công ty."
         },
         "translationVi": "Công ty tôi có quan hệ giao dịch với công ty anh ấy.",
@@ -460,7 +460,7 @@
         "correctReasonVi": "予報（よほう） là dự báo thời tiết; よ chứ không phải よう.",
         "optionReasonsVi": {
           "1": "SAI: 「ようほう」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 予報（よほう） là dự báo thời tiết; よ chứ không phải よう.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 予報（よほう） là dự báo thời tiết; よ chứ không phải よう.",
+          "2": "ĐÚNG: 予報（よほう） là dự báo thời tiết; よ chứ không phải よう.",
           "3": "SAI: 「ようぼう」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 予報（よほう） là dự báo thời tiết; よ chứ không phải よう.",
           "4": "SAI: 「よぼう」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 予報（よほう） là dự báo thời tiết; よ chứ không phải よう."
         },
@@ -520,7 +520,7 @@
           "1": "SAI: 「ここっく」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 広告（こうこく） là quảng cáo; 広 đọc こう, 告 đọc こく.",
           "2": "SAI: 「こうこっく」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 広告（こうこく） là quảng cáo; 広 đọc こう, 告 đọc こく.",
           "3": "SAI: 「こうこ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 広告（こうこく） là quảng cáo; 広 đọc こう, 告 đọc こく.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 広告（こうこく） là quảng cáo; 広 đọc こう, 告 đọc こく."
+          "4": "ĐÚNG: 広告（こうこく） là quảng cáo; 広 đọc こう, 告 đọc こく."
         },
         "translationVi": "Tôi đã nhìn thấy quảng cáo sản phẩm mới trên tạp chí.",
         "vocabulary": [
@@ -576,7 +576,7 @@
         "correctReasonVi": "焼く（やく） là nướng/áp chảo; 肉を焼いて食べる.",
         "optionReasonsVi": {
           "1": "SAI: 「燃いて」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 焼く（やく） là nướng/áp chảo; 肉を焼いて食べる.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 焼く（やく） là nướng/áp chảo; 肉を焼いて食べる.",
+          "2": "ĐÚNG: 焼く（やく） là nướng/áp chảo; 肉を焼いて食べる.",
           "3": "SAI: 「炒いて」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 焼く（やく） là nướng/áp chảo; 肉を焼いて食べる.",
           "4": "SAI: 「炊いて」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 焼く（やく） là nướng/áp chảo; 肉を焼いて食べる."
         },
@@ -635,7 +635,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「押れて」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 折れる（おれる） nghĩa là gãy; 木の枝が折れる là cành cây bị gãy.",
           "2": "SAI: 「打れて」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 折れる（おれる） nghĩa là gãy; 木の枝が折れる là cành cây bị gãy.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 折れる（おれる） nghĩa là gãy; 木の枝が折れる là cành cây bị gãy.",
+          "3": "ĐÚNG: 折れる（おれる） nghĩa là gãy; 木の枝が折れる là cành cây bị gãy.",
           "4": "SAI: 「投れて」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 折れる（おれる） nghĩa là gãy; 木の枝が折れる là cành cây bị gãy."
         },
         "translationVi": "Cành cây đã bị gãy.",
@@ -694,7 +694,7 @@
           "1": "SAI: 「盲しく」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 忙しい（いそがしい） nghĩa là bận rộn; 仕事が忙しくなる.",
           "2": "SAI: 「亡しく」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 忙しい（いそがしい） nghĩa là bận rộn; 仕事が忙しくなる.",
           "3": "SAI: 「忘しく」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 忙しい（いそがしい） nghĩa là bận rộn; 仕事が忙しくなる.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 忙しい（いそがしい） nghĩa là bận rộn; 仕事が忙しくなる."
+          "4": "ĐÚNG: 忙しい（いそがしい） nghĩa là bận rộn; 仕事が忙しくなる."
         },
         "translationVi": "Công việc ngày càng trở nên bận rộn.",
         "vocabulary": [
@@ -749,7 +749,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "就職（しゅうしょく） là tìm/nhận việc; 就職活動 là hoạt động tìm việc.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 就職（しゅうしょく） là tìm/nhận việc; 就職活動 là hoạt động tìm việc.",
+          "1": "ĐÚNG: 就職（しゅうしょく） là tìm/nhận việc; 就職活動 là hoạt động tìm việc.",
           "2": "SAI: 「修職」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 就職（しゅうしょく） là tìm/nhận việc; 就職活動 là hoạt động tìm việc.",
           "3": "SAI: 「集職」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 就職（しゅうしょく） là tìm/nhận việc; 就職活動 là hoạt động tìm việc.",
           "4": "SAI: 「収職」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 就職（しゅうしょく） là tìm/nhận việc; 就職活動 là hoạt động tìm việc."
@@ -809,7 +809,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「他球」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 地球（ちきゅう） là Trái Đất; 地 là đất, 球 là quả cầu.",
           "2": "SAI: 「他救」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 地球（ちきゅう） là Trái Đất; 地 là đất, 球 là quả cầu.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 地球（ちきゅう） là Trái Đất; 地 là đất, 球 là quả cầu.",
+          "3": "ĐÚNG: 地球（ちきゅう） là Trái Đất; 地 là đất, 球 là quả cầu.",
           "4": "SAI: 「地求」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 地球（ちきゅう） là Trái Đất; 地 là đất, 球 là quả cầu."
         },
         "translationVi": "Bề mặt Trái Đất có 70% là biển.",
@@ -865,7 +865,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "席（せき） là chỗ ngồi. 少し遅れて行ったら席がなかった.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 席（せき） là chỗ ngồi. 少し遅れて行ったら席がなかった.",
+          "1": "ĐÚNG: 席（せき） là chỗ ngồi. 少し遅れて行ったら席がなかった.",
           "2": "SAI: 「度」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 席（せき） là chỗ ngồi. 少し遅れて行ったら席がなかった.",
           "3": "SAI: 「渡」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 席（せき） là chỗ ngồi. 少し遅れて行ったら席がなかった.",
           "4": "SAI: 「座」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 席（せき） là chỗ ngồi. 少し遅れて行ったら席がなかった."
@@ -925,7 +925,7 @@
         "optionReasonsVi": {
           "1": "SAI: Đặt 「あらった」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ふく nghĩa là lau/chùi. 汚れたところをティッシュでふいたら = lau chỗ bẩn bằng khăn giấy.",
           "2": "SAI: Đặt 「さわった」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ふく nghĩa là lau/chùi. 汚れたところをティッシュでふいたら = lau chỗ bẩn bằng khăn giấy.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ふく nghĩa là lau/chùi. 汚れたところをティッシュでふいたら = lau chỗ bẩn bằng khăn giấy.",
+          "3": "ĐÚNG: ふく nghĩa là lau/chùi. 汚れたところをティッシュでふいたら = lau chỗ bẩn bằng khăn giấy.",
           "4": "SAI: Đặt 「はいた」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ふく nghĩa là lau/chùi. 汚れたところをティッシュでふいたら = lau chỗ bẩn bằng khăn giấy."
         },
         "translationVi": "Sau khi lau chỗ bẩn bằng khăn giấy thì nó sạch hơn.",
@@ -982,7 +982,7 @@
         "correctReasonVi": "やっぱり thể hiện “đúng như dự đoán”: tưởng Yamada đi muộn và quả nhiên đến muộn.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「きっと」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. やっぱり thể hiện “đúng như dự đoán”: tưởng Yamada đi muộn và quả nhiên đến muộn.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): やっぱり thể hiện “đúng như dự đoán”: tưởng Yamada đi muộn và quả nhiên đến muộn.",
+          "2": "ĐÚNG: やっぱり thể hiện “đúng như dự đoán”: tưởng Yamada đi muộn và quả nhiên đến muộn.",
           "3": "SAI: Đặt 「いきなり」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. やっぱり thể hiện “đúng như dự đoán”: tưởng Yamada đi muộn và quả nhiên đến muộn.",
           "4": "SAI: Đặt 「とうとう」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. やっぱり thể hiện “đúng như dự đoán”: tưởng Yamada đi muộn và quả nhiên đến muộn."
         },
@@ -1039,7 +1039,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "退屈（たいくつ） là buồn chán; hôm nay không có gì làm nên rất chán.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 退屈（たいくつ） là buồn chán; hôm nay không có gì làm nên rất chán.",
+          "1": "ĐÚNG: 退屈（たいくつ） là buồn chán; hôm nay không có gì làm nên rất chán.",
           "2": "SAI: Đặt 「勤勉」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 退屈（たいくつ） là buồn chán; hôm nay không có gì làm nên rất chán.",
           "3": "SAI: Đặt 「単純」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 退屈（たいくつ） là buồn chán; hôm nay không có gì làm nên rất chán.",
           "4": "SAI: Đặt 「不便」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 退屈（たいくつ） là buồn chán; hôm nay không có gì làm nên rất chán."
@@ -1098,7 +1098,7 @@
         "correctReasonVi": "アナウンス là thông báo phát thanh; đi tàu bị chậm thì có thông báo trên tàu.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「チェック」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. アナウンス là thông báo phát thanh; đi tàu bị chậm thì có thông báo trên tàu.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): アナウンス là thông báo phát thanh; đi tàu bị chậm thì có thông báo trên tàu.",
+          "2": "ĐÚNG: アナウンス là thông báo phát thanh; đi tàu bị chậm thì có thông báo trên tàu.",
           "3": "SAI: Đặt 「レコード」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. アナウンス là thông báo phát thanh; đi tàu bị chậm thì có thông báo trên tàu.",
           "4": "SAI: Đặt 「アドバイス」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. アナウンス là thông báo phát thanh; đi tàu bị chậm thì có thông báo trên tàu."
         },
@@ -1158,7 +1158,7 @@
           "1": "SAI: Đặt 「すらすら」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. きらきら biểu thị ánh sáng lấp lánh; 星がきらきら輝く.",
           "2": "SAI: Đặt 「どきどき」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. きらきら biểu thị ánh sáng lấp lánh; 星がきらきら輝く.",
           "3": "SAI: Đặt 「ざあざあ」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. きらきら biểu thị ánh sáng lấp lánh; 星がきらきら輝く.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): きらきら biểu thị ánh sáng lấp lánh; 星がきらきら輝く."
+          "4": "ĐÚNG: きらきら biểu thị ánh sáng lấp lánh; 星がきらきら輝く."
         },
         "translationVi": "Các ngôi sao lấp lánh trên bầu trời đêm.",
         "vocabulary": [
@@ -1215,7 +1215,7 @@
         "optionReasonsVi": {
           "1": "SAI: Đặt 「改良」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 修理（しゅうり） là sửa thiết bị bị hỏng; TV không lên hình nên nhờ sửa.",
           "2": "SAI: Đặt 「回復」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 修理（しゅうり） là sửa thiết bị bị hỏng; TV không lên hình nên nhờ sửa.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 修理（しゅうり） là sửa thiết bị bị hỏng; TV không lên hình nên nhờ sửa.",
+          "3": "ĐÚNG: 修理（しゅうり） là sửa thiết bị bị hỏng; TV không lên hình nên nhờ sửa.",
           "4": "SAI: Đặt 「解決」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 修理（しゅうり） là sửa thiết bị bị hỏng; TV không lên hình nên nhờ sửa."
         },
         "translationVi": "TV không lên hình nên tôi nhờ sửa chữa.",
@@ -1274,7 +1274,7 @@
           "1": "SAI: Đặt 「必ず」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 絶対に～てはいけない nghĩa là tuyệt đối không được làm; đến phỏng vấn không thể đến muộn.",
           "2": "SAI: Đặt 「別に」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 絶対に～てはいけない nghĩa là tuyệt đối không được làm; đến phỏng vấn không thể đến muộn.",
           "3": "SAI: Đặt 「ずいぶん」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 絶対に～てはいけない nghĩa là tuyệt đối không được làm; đến phỏng vấn không thể đến muộn.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 絶対に～てはいけない nghĩa là tuyệt đối không được làm; đến phỏng vấn không thể đến muộn."
+          "4": "ĐÚNG: 絶対に～てはいけない nghĩa là tuyệt đối không được làm; đến phỏng vấn không thể đến muộn."
         },
         "translationVi": "Ngày mai có phỏng vấn nên tuyệt đối không được đến muộn.",
         "vocabulary": [
@@ -1331,7 +1331,7 @@
         "optionReasonsVi": {
           "1": "SAI: Đặt 「向き合い」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 知り合う nghĩa là làm quen, gặp gỡ và biết nhau; đã quen nhau tại câu lạc bộ đại học.",
           "2": "SAI: Đặt 「伝え合い」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 知り合う nghĩa là làm quen, gặp gỡ và biết nhau; đã quen nhau tại câu lạc bộ đại học.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 知り合う nghĩa là làm quen, gặp gỡ và biết nhau; đã quen nhau tại câu lạc bộ đại học.",
+          "3": "ĐÚNG: 知り合う nghĩa là làm quen, gặp gỡ và biết nhau; đã quen nhau tại câu lạc bộ đại học.",
           "4": "SAI: Đặt 「ゆずり合い」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 知り合う nghĩa là làm quen, gặp gỡ và biết nhau; đã quen nhau tại câu lạc bộ đại học."
         },
         "translationVi": "Tôi quen Tanaka trong câu lạc bộ đại học 10 năm trước, giờ vẫn là bạn thân.",
@@ -1388,7 +1388,7 @@
         "correctReasonVi": "味が薄い (うすい) nghĩa là vị nhạt; nếu nhạt thì thêm muối.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「少なかった」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 味が薄い (うすい) nghĩa là vị nhạt; nếu nhạt thì thêm muối.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 味が薄い (うすい) nghĩa là vị nhạt; nếu nhạt thì thêm muối.",
+          "2": "ĐÚNG: 味が薄い (うすい) nghĩa là vị nhạt; nếu nhạt thì thêm muối.",
           "3": "SAI: Đặt 「小さかった」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 味が薄い (うすい) nghĩa là vị nhạt; nếu nhạt thì thêm muối.",
           "4": "SAI: Đặt 「ほそかった」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 味が薄い (うすい) nghĩa là vị nhạt; nếu nhạt thì thêm muối."
         },
@@ -1445,7 +1445,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "乗り換える là đổi/chuyển sang tàu hoặc tuyến khác. 京都でローカル線に乗りかえた.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 乗り換える là đổi/chuyển sang tàu hoặc tuyến khác. 京都でローカル線に乗りかえた.",
+          "1": "ĐÚNG: 乗り換える là đổi/chuyển sang tàu hoặc tuyến khác. 京都でローカル線に乗りかえた.",
           "2": "SAI: Đặt 「乗り合わせ」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 乗り換える là đổi/chuyển sang tàu hoặc tuyến khác. 京都でローカル線に乗りかえた.",
           "3": "SAI: Đặt 「乗りこし」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 乗り換える là đổi/chuyển sang tàu hoặc tuyến khác. 京都でローカル線に乗りかえた.",
           "4": "SAI: Đặt 「乗り過ごし」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 乗り換える là đổi/chuyển sang tàu hoặc tuyến khác. 京都でローカル線に乗りかえた."
@@ -1503,7 +1503,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "夢中になる nghĩa là mải mê, say sưa làm gì; cậu bé say mê vẽ chó.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 夢中になる nghĩa là mải mê, say sưa làm gì; cậu bé say mê vẽ chó.",
+          "1": "ĐÚNG: 夢中になる nghĩa là mải mê, say sưa làm gì; cậu bé say mê vẽ chó.",
           "2": "SAI: Đặt 「興味」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 夢中になる nghĩa là mải mê, say sưa làm gì; cậu bé say mê vẽ chó.",
           "3": "SAI: Đặt 「関心」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 夢中になる nghĩa là mải mê, say sưa làm gì; cậu bé say mê vẽ chó.",
           "4": "SAI: Đặt 「情熱」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 夢中になる nghĩa là mải mê, say sưa làm gì; cậu bé say mê vẽ chó."
@@ -1564,7 +1564,7 @@
           "1": "SAI: 「おもしろい」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 危険（きけん） nghĩa là nguy hiểm; gần nghĩa あぶない.",
           "2": "SAI: 「難しい」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 危険（きけん） nghĩa là nguy hiểm; gần nghĩa あぶない.",
           "3": "SAI: 「うれしい」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 危険（きけん） nghĩa là nguy hiểm; gần nghĩa あぶない.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 危険（きけん） nghĩa là nguy hiểm; gần nghĩa あぶない."
+          "4": "ĐÚNG: 危険（きけん） nghĩa là nguy hiểm; gần nghĩa あぶない."
         },
         "translationVi": "Bơi ở đây rất nguy hiểm.",
         "vocabulary": [
@@ -1621,7 +1621,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「計算書」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. レポート gần nghĩa 報告書 (báo cáo). 計算書, 請求書, 申請書 là giấy tờ khác.",
           "2": "SAI: 「請求書」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. レポート gần nghĩa 報告書 (báo cáo). 計算書, 請求書, 申請書 là giấy tờ khác.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): レポート gần nghĩa 報告書 (báo cáo). 計算書, 請求書, 申請書 là giấy tờ khác.",
+          "3": "ĐÚNG: レポート gần nghĩa 報告書 (báo cáo). 計算書, 請求書, 申請書 là giấy tờ khác.",
           "4": "SAI: 「申請書」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. レポート gần nghĩa 報告書 (báo cáo). 計算書, 請求書, 申請書 là giấy tờ khác."
         },
         "translationVi": "Tôi phải viết bản báo cáo.",
@@ -1678,7 +1678,7 @@
         "correctReasonVi": "見直す (みなおす) nghĩa là xem xét/đánh giá lại; tương đương もう一度考える.",
         "optionReasonsVi": {
           "1": "SAI: 「すぐ実行した」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 見直す (みなおす) nghĩa là xem xét/đánh giá lại; tương đương もう一度考える.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 見直す (みなおす) nghĩa là xem xét/đánh giá lại; tương đương もう一度考える.",
+          "2": "ĐÚNG: 見直す (みなおす) nghĩa là xem xét/đánh giá lại; tương đương もう一度考える.",
           "3": "SAI: 「今はやらない」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 見直す (みなおす) nghĩa là xem xét/đánh giá lại; tương đương もう一度考える.",
           "4": "SAI: 「やめた」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 見直す (みなおす) nghĩa là xem xét/đánh giá lại; tương đương もう一度考える."
         },
@@ -1735,7 +1735,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "まもなく có nghĩa sắp, chẳng bao lâu nữa; tương đương もうすぐ.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): まもなく có nghĩa sắp, chẳng bao lâu nữa; tương đương もうすぐ.",
+          "1": "ĐÚNG: まもなく có nghĩa sắp, chẳng bao lâu nữa; tương đương もうすぐ.",
           "2": "SAI: 「少しおくれて」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. まもなく có nghĩa sắp, chẳng bao lâu nữa; tương đương もうすぐ.",
           "3": "SAI: 「しばらく」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. まもなく có nghĩa sắp, chẳng bao lâu nữa; tương đương もうすぐ.",
           "4": "SAI: 「時間どおりに」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. まもなく có nghĩa sắp, chẳng bao lâu nữa; tương đương もうすぐ."
@@ -1795,7 +1795,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「住んでいる所」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 出身（しゅっしん） hỏi nơi xuất thân/được sinh ra, gần nghĩa 生まれた所.",
           "2": "SAI: 「働いている所」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 出身（しゅっしん） hỏi nơi xuất thân/được sinh ra, gần nghĩa 生まれた所.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 出身（しゅっしん） hỏi nơi xuất thân/được sinh ra, gần nghĩa 生まれた所.",
+          "3": "ĐÚNG: 出身（しゅっしん） hỏi nơi xuất thân/được sinh ra, gần nghĩa 生まれた所.",
           "4": "SAI: 「行きたい所」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 出身（しゅっしん） hỏi nơi xuất thân/được sinh ra, gần nghĩa 生まれた所."
         },
         "translationVi": "Bạn xuất thân từ đâu?",
@@ -1852,7 +1852,7 @@
         "correctReasonVi": "追加 là bổ sung/thêm vào thứ còn thiếu: món ăn không đủ thì gọi thêm.",
         "optionReasonsVi": {
           "1": "SAI: Cách dùng ở câu 「飛行機が遅れて1時間も追加した。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 追加 là bổ sung/thêm vào thứ còn thiếu: món ăn không đủ thì gọi thêm.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 追加 là bổ sung/thêm vào thứ còn thiếu: món ăn không đủ thì gọi thêm.",
+          "2": "ĐÚNG: 追加 là bổ sung/thêm vào thứ còn thiếu: món ăn không đủ thì gọi thêm.",
           "3": "SAI: Cách dùng ở câu 「勉強不足だと言われたので、追加することにした。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 追加 là bổ sung/thêm vào thứ còn thiếu: món ăn không đủ thì gọi thêm.",
           "4": "SAI: Cách dùng ở câu 「宿題の期限を追加してもらうように先生に頼んだ。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 追加 là bổ sung/thêm vào thứ còn thiếu: món ăn không đủ thì gọi thêm."
         },
@@ -1911,7 +1911,7 @@
         "optionReasonsVi": {
           "1": "SAI: Cách dùng ở câu 「最近は高齢者の運転する車の事故がはやっているようだ。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. はやる nghĩa là thịnh hành hoặc lan truyền (như dịch cúm); インフルエンザがはやる là cách dùng đúng.",
           "2": "SAI: Cách dùng ở câu 「もうあまり時間がないので、できるだけはやってください。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. はやる nghĩa là thịnh hành hoặc lan truyền (như dịch cúm); インフルエンザがはやる là cách dùng đúng.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): はやる nghĩa là thịnh hành hoặc lan truyền (như dịch cúm); インフルエンザがはやる là cách dùng đúng.",
+          "3": "ĐÚNG: はやる nghĩa là thịnh hành hoặc lan truyền (như dịch cúm); インフルエンザがはやる là cách dùng đúng.",
           "4": "SAI: Cách dùng ở câu 「大山高校は勉強がとてもはやっていて、レベルが高い。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. はやる nghĩa là thịnh hành hoặc lan truyền (như dịch cúm); インフルエンザがはやる là cách dùng đúng."
         },
         "translationVi": "Hãy chọn cách dùng はやる đúng nhất.",
@@ -1967,7 +1967,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "専門 là chuyên môn/chuyên ngành; 専門の違う人たち là những người thuộc chuyên môn khác nhau.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 専門 là chuyên môn/chuyên ngành; 専門の違う人たち là những người thuộc chuyên môn khác nhau.",
+          "1": "ĐÚNG: 専門 là chuyên môn/chuyên ngành; 専門の違う人たち là những người thuộc chuyên môn khác nhau.",
           "2": "SAI: Cách dùng ở câu 「彼は遅刻が専門で、周りの人たちは困っている。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 専門 là chuyên môn/chuyên ngành; 専門の違う人たち là những người thuộc chuyên môn khác nhau.",
           "3": "SAI: Cách dùng ở câu 「日本には自転車のための専門の道路があまりない。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 専門 là chuyên môn/chuyên ngành; 専門の違う人たち là những người thuộc chuyên môn khác nhau.",
           "4": "SAI: Cách dùng ở câu 「父は退職してから一日中テレビの専門だ。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 専門 là chuyên môn/chuyên ngành; 専門の違う人たち là những người thuộc chuyên môn khác nhau."
@@ -2026,7 +2026,7 @@
         "correctReasonVi": "似合う dùng khi quần áo/màu sắc hợp với người: カジュアルな服装がよく似合う.",
         "optionReasonsVi": {
           "1": "SAI: Cách dùng ở câu 「私は姉ととてもよく似合っていて、時々まちがえられる。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 似合う dùng khi quần áo/màu sắc hợp với người: カジュアルな服装がよく似合う.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 似合う dùng khi quần áo/màu sắc hợp với người: カジュアルな服装がよく似合う.",
+          "2": "ĐÚNG: 似合う dùng khi quần áo/màu sắc hợp với người: カジュアルな服装がよく似合う.",
           "3": "SAI: Cách dùng ở câu 「自分に似合う仕事を見つけるのは、なかなか大変です。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 似合う dùng khi quần áo/màu sắc hợp với người: カジュアルな服装がよく似合う.",
           "4": "SAI: Cách dùng ở câu 「日本酒は日本料理だけじゃなく他国の料理にも似合うものもある。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 似合う dùng khi quần áo/màu sắc hợp với người: カジュアルな服装がよく似合う."
         },
@@ -2085,7 +2085,7 @@
         "optionReasonsVi": {
           "1": "SAI: Cách dùng ở câu 「家で個人的に食事をするのは、さびしい。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 個人的 nghĩa là thuộc chuyện cá nhân/riêng tư: 会社では個人的なことは話さない.",
           "2": "SAI: Cách dùng ở câu 「息子は親から独立して個人的にアパートに住んでいる。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 個人的 nghĩa là thuộc chuyện cá nhân/riêng tư: 会社では個人的なことは話さない.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 個人的 nghĩa là thuộc chuyện cá nhân/riêng tư: 会社では個人的なことは話さない.",
+          "3": "ĐÚNG: 個人的 nghĩa là thuộc chuyện cá nhân/riêng tư: 会社では個人的なことは話さない.",
           "4": "SAI: Cách dùng ở câu 「田中さんは個人的な性格で、ほかの人とは違う。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 個人的 nghĩa là thuộc chuyện cá nhân/riêng tư: 会社では個人的なことは話さない."
         },
         "translationVi": "Hãy chọn cách dùng 個人的 đúng nhất.",
@@ -2143,7 +2143,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「だと」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～でも trong 夏でも = ngay cả vào mùa hè; núi cao vẫn còn tuyết.",
           "2": "SAI: 「から」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～でも trong 夏でも = ngay cả vào mùa hè; núi cao vẫn còn tuyết.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～でも trong 夏でも = ngay cả vào mùa hè; núi cao vẫn còn tuyết.",
+          "3": "ĐÚNG: ～でも trong 夏でも = ngay cả vào mùa hè; núi cao vẫn còn tuyết.",
           "4": "SAI: 「しか」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～でも trong 夏でも = ngay cả vào mùa hè; núi cao vẫn còn tuyết."
         },
         "translationVi": "Vì núi Hakuba cao gần 3.000m nên ngay cả mùa hè trên cao vẫn có tuyết.",
@@ -2203,7 +2203,7 @@
           "1": "SAI: 「まったく」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. やっと = cuối cùng, sau nhiều công sức; phải xếp hàng hai giờ mới mua được vé.",
           "2": "SAI: 「なかなか」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. やっと = cuối cùng, sau nhiều công sức; phải xếp hàng hai giờ mới mua được vé.",
           "3": "SAI: 「つい」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. やっと = cuối cùng, sau nhiều công sức; phải xếp hàng hai giờ mới mua được vé.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): やっと = cuối cùng, sau nhiều công sức; phải xếp hàng hai giờ mới mua được vé."
+          "4": "ĐÚNG: やっと = cuối cùng, sau nhiều công sức; phải xếp hàng hai giờ mới mua được vé."
         },
         "translationVi": "Tôi đã xếp hàng hai tiếng và cuối cùng mua được vé hòa nhạc.",
         "vocabulary": [],
@@ -2260,7 +2260,7 @@
         "correctReasonVi": "～ないうちに = trước khi kịp làm gì; trước khi tôi ăn thì bánh đã bị các em ăn hết.",
         "optionReasonsVi": {
           "1": "SAI: 「食べている前に」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ないうちに = trước khi kịp làm gì; trước khi tôi ăn thì bánh đã bị các em ăn hết.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～ないうちに = trước khi kịp làm gì; trước khi tôi ăn thì bánh đã bị các em ăn hết.",
+          "2": "ĐÚNG: ～ないうちに = trước khi kịp làm gì; trước khi tôi ăn thì bánh đã bị các em ăn hết.",
           "3": "SAI: 「食べなければ」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ないうちに = trước khi kịp làm gì; trước khi tôi ăn thì bánh đã bị các em ăn hết.",
           "4": "SAI: 「食べさせなくて」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ないうちに = trước khi kịp làm gì; trước khi tôi ăn thì bánh đã bị các em ăn hết."
         },
@@ -2318,7 +2318,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "会えなかった diễn tả kết quả không gặp được vì hai người nhầm địa điểm hẹn.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 会えなかった diễn tả kết quả không gặp được vì hai người nhầm địa điểm hẹn.",
+          "1": "ĐÚNG: 会えなかった diễn tả kết quả không gặp được vì hai người nhầm địa điểm hẹn.",
           "2": "SAI: 「会いたくない」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 会えなかった diễn tả kết quả không gặp được vì hai người nhầm địa điểm hẹn.",
           "3": "SAI: 「会っていない」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 会えなかった diễn tả kết quả không gặp được vì hai người nhầm địa điểm hẹn.",
           "4": "SAI: 「会おうとしない」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 会えなかった diễn tả kết quả không gặp được vì hai người nhầm địa điểm hẹn."
@@ -2380,7 +2380,7 @@
           "1": "SAI: 「なろうと」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～たら diễn đạt khi điều kiện thời gian xảy ra: đến 7 giờ bố về, hãy chờ.",
           "2": "SAI: 「なるなら」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～たら diễn đạt khi điều kiện thời gian xảy ra: đến 7 giờ bố về, hãy chờ.",
           "3": "SAI: 「なっても」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～たら diễn đạt khi điều kiện thời gian xảy ra: đến 7 giờ bố về, hãy chờ.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～たら diễn đạt khi điều kiện thời gian xảy ra: đến 7 giờ bố về, hãy chờ."
+          "4": "ĐÚNG: ～たら diễn đạt khi điều kiện thời gian xảy ra: đến 7 giờ bố về, hãy chờ."
         },
         "translationVi": "Khi đến 7 giờ, bố về nên hãy đợi một chút.",
         "vocabulary": [],
@@ -2436,7 +2436,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "～ことになって thể hiện đã được quyết định/được chọn; bản thân được chọn làm người đại diện.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～ことになって thể hiện đã được quyết định/được chọn; bản thân được chọn làm người đại diện.",
+          "1": "ĐÚNG: ～ことになって thể hiện đã được quyết định/được chọn; bản thân được chọn làm người đại diện.",
           "2": "SAI: 「出ることにさせて」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ことになって thể hiện đã được quyết định/được chọn; bản thân được chọn làm người đại diện.",
           "3": "SAI: 「出られることにして」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ことになって thể hiện đã được quyết định/được chọn; bản thân được chọn làm người đại diện.",
           "4": "SAI: 「出ることにさせられて」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ことになって thể hiện đã được quyết định/được chọn; bản thân được chọn làm người đại diện."
@@ -2497,7 +2497,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「驚いて」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 驚かせよう là ý định sai khiến “làm bố mẹ ngạc nhiên”, vì vậy không báo trước.",
           "2": "SAI: 「驚こう」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 驚かせよう là ý định sai khiến “làm bố mẹ ngạc nhiên”, vì vậy không báo trước.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 驚かせよう là ý định sai khiến “làm bố mẹ ngạc nhiên”, vì vậy không báo trước.",
+          "3": "ĐÚNG: 驚かせよう là ý định sai khiến “làm bố mẹ ngạc nhiên”, vì vậy không báo trước.",
           "4": "SAI: 「驚かせる」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 驚かせよう là ý định sai khiến “làm bố mẹ ngạc nhiên”, vì vậy không báo trước."
         },
         "translationVi": "Tôi không báo trước để làm bố mẹ bất ngờ.",
@@ -2554,7 +2554,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "お電話をいただく là khiêm nhường ngữ thể hiện “đã nhận cuộc gọi” từ khách hàng.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): お電話をいただく là khiêm nhường ngữ thể hiện “đã nhận cuộc gọi” từ khách hàng.",
+          "1": "ĐÚNG: お電話をいただく là khiêm nhường ngữ thể hiện “đã nhận cuộc gọi” từ khách hàng.",
           "2": "SAI: 「くださった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. お電話をいただく là khiêm nhường ngữ thể hiện “đã nhận cuộc gọi” từ khách hàng.",
           "3": "SAI: 「さしあげた」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. お電話をいただく là khiêm nhường ngữ thể hiện “đã nhận cuộc gọi” từ khách hàng.",
           "4": "SAI: 「してもらった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. お電話をいただく là khiêm nhường ngữ thể hiện “đã nhận cuộc gọi” từ khách hàng."
@@ -2614,7 +2614,7 @@
         "correctReasonVi": "～するはずだった nghĩa là đáng lẽ dự định/chắc sẽ làm, nhưng đã bị bão hủy.",
         "optionReasonsVi": {
           "1": "SAI: 「したばかりだった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～するはずだった nghĩa là đáng lẽ dự định/chắc sẽ làm, nhưng đã bị bão hủy.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～するはずだった nghĩa là đáng lẽ dự định/chắc sẽ làm, nhưng đã bị bão hủy.",
+          "2": "ĐÚNG: ～するはずだった nghĩa là đáng lẽ dự định/chắc sẽ làm, nhưng đã bị bão hủy.",
           "3": "SAI: 「したものだった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～するはずだった nghĩa là đáng lẽ dự định/chắc sẽ làm, nhưng đã bị bão hủy.",
           "4": "SAI: 「しようとしなかった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～するはずだった nghĩa là đáng lẽ dự định/chắc sẽ làm, nhưng đã bị bão hủy."
         },
@@ -2674,7 +2674,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「食べるみたいに」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ように言う là dặn bảo ai làm gì: mẹ dặn phải ăn sáng.",
           "2": "SAI: 「食べたいと」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ように言う là dặn bảo ai làm gì: mẹ dặn phải ăn sáng.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～ように言う là dặn bảo ai làm gì: mẹ dặn phải ăn sáng.",
+          "3": "ĐÚNG: ～ように言う là dặn bảo ai làm gì: mẹ dặn phải ăn sáng.",
           "4": "SAI: 「食べるらしく」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ように言う là dặn bảo ai làm gì: mẹ dặn phải ăn sáng."
         },
         "translationVi": "Khi sang Nhật, mẹ dặn phải ăn sáng đầy đủ nhưng tôi không làm theo.",
@@ -2734,7 +2734,7 @@
           "1": "SAI: 「と」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ば～ほど = càng…càng…; càng học tiếng Nhật càng thấy khó.",
           "2": "SAI: 「なら」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ば～ほど = càng…càng…; càng học tiếng Nhật càng thấy khó.",
           "3": "SAI: 「くらい」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ば～ほど = càng…càng…; càng học tiếng Nhật càng thấy khó.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～ば～ほど = càng…càng…; càng học tiếng Nhật càng thấy khó."
+          "4": "ĐÚNG: ～ば～ほど = càng…càng…; càng học tiếng Nhật càng thấy khó."
         },
         "translationVi": "Càng học tiếng Nhật tôi càng thấy khó.",
         "vocabulary": [],
@@ -2791,7 +2791,7 @@
         "correctReasonVi": "お見せしたい là cách khiêm nhường nói muốn cho cấp trên xem một thứ; お見せになる không phải dạng đúng của người nói tự hạ.",
         "optionReasonsVi": {
           "1": "SAI: 「拝見したい」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. お見せしたい là cách khiêm nhường nói muốn cho cấp trên xem một thứ; お見せになる không phải dạng đúng của người nói tự hạ.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): お見せしたい là cách khiêm nhường nói muốn cho cấp trên xem một thứ; お見せになる không phải dạng đúng của người nói tự hạ.",
+          "2": "ĐÚNG: お見せしたい là cách khiêm nhường nói muốn cho cấp trên xem một thứ; お見せになる không phải dạng đúng của người nói tự hạ.",
           "3": "SAI: 「ご覧になりたい」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. お見せしたい là cách khiêm nhường nói muốn cho cấp trên xem một thứ; お見せになる không phải dạng đúng của người nói tự hạ.",
           "4": "SAI: 「お見せになりたい」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. お見せしたい là cách khiêm nhường nói muốn cho cấp trên xem một thứ; お見せになる không phải dạng đúng của người nói tự hạ."
         },
@@ -2852,7 +2852,7 @@
           "1": "SAI: 「だけなら」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～までには = cho đến lúc đạt được; trước khi tạo sản phẩm bán chạy đã phải rất vất vả.",
           "2": "SAI: 「ことから」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～までには = cho đến lúc đạt được; trước khi tạo sản phẩm bán chạy đã phải rất vất vả.",
           "3": "SAI: 「わけでは」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～までには = cho đến lúc đạt được; trước khi tạo sản phẩm bán chạy đã phải rất vất vả.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～までには = cho đến lúc đạt được; trước khi tạo sản phẩm bán chạy đã phải rất vất vả."
+          "4": "ĐÚNG: ～までには = cho đến lúc đạt được; trước khi tạo sản phẩm bán chạy đã phải rất vất vả."
         },
         "translationVi": "Chắc nhóm phát triển đã gặp nhiều khó khăn để tạo ra sản phẩm bán chạy.",
         "vocabulary": [],
@@ -2910,7 +2910,7 @@
         "optionReasonsVi": {
           "1": "SAI ở vị trí ★: 「パンを食べる」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: インスタントコーヒーが一般に飲まれるようになったことで朝食にパンを食べる人が増えた. Vị trí ★ là 朝食に.",
           "2": "SAI ở vị trí ★: 「こと」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: インスタントコーヒーが一般に飲まれるようになったことで朝食にパンを食べる人が増えた. Vị trí ★ là 朝食に.",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Sắp xếp: インスタントコーヒーが一般に飲まれるようになったことで朝食にパンを食べる人が増えた. Vị trí ★ là 朝食に.",
+          "3": "ĐÚNG: Sắp xếp: インスタントコーヒーが一般に飲まれるようになったことで朝食にパンを食べる人が増えた. Vị trí ★ là 朝食に.",
           "4": "SAI ở vị trí ★: 「で」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: インスタントコーヒーが一般に飲まれるようになったことで朝食にパンを食べる人が増えた. Vị trí ★ là 朝食に."
         },
         "translationVi": "Việc cà phê hòa tan trở nên phổ biến khiến số người ăn bánh mì vào bữa sáng tăng.",
@@ -2970,7 +2970,7 @@
           "1": "SAI ở vị trí ★: 「減らそう」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: まだ食べられるのに捨てられる食料を減らそうと、いろいろな方法が考えられている. Vị trí ★ là と.",
           "2": "SAI ở vị trí ★: 「食料を」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: まだ食べられるのに捨てられる食料を減らそうと、いろいろな方法が考えられている. Vị trí ★ là と.",
           "3": "SAI ở vị trí ★: 「捨てられる」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: まだ食べられるのに捨てられる食料を減らそうと、いろいろな方法が考えられている. Vị trí ★ là と.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Sắp xếp: まだ食べられるのに捨てられる食料を減らそうと、いろいろな方法が考えられている. Vị trí ★ là と."
+          "4": "ĐÚNG: Sắp xếp: まだ食べられるのに捨てられる食料を減らそうと、いろいろな方法が考えられている. Vị trí ★ là と."
         },
         "translationVi": "Người ta nghĩ ra nhiều cách giảm thực phẩm bị bỏ đi dù vẫn ăn được.",
         "vocabulary": [],
@@ -3029,7 +3029,7 @@
           "1": "SAI ở vị trí ★: 「便利な」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: 私は反対で田舎より便利な都会に住みたいと思う. Vị trí ★ là 田舎.",
           "2": "SAI ở vị trí ★: 「より」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: 私は反対で田舎より便利な都会に住みたいと思う. Vị trí ★ là 田舎.",
           "3": "SAI ở vị trí ★: 「都会」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: 私は反対で田舎より便利な都会に住みたいと思う. Vị trí ★ là 田舎.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Sắp xếp: 私は反対で田舎より便利な都会に住みたいと思う. Vị trí ★ là 田舎."
+          "4": "ĐÚNG: Sắp xếp: 私は反対で田舎より便利な都会に住みたいと思う. Vị trí ★ là 田舎."
         },
         "translationVi": "Tôi muốn sống ở đô thị thuận tiện hơn là miền quê.",
         "vocabulary": [],
@@ -3086,7 +3086,7 @@
         "correctReasonVi": "Sắp xếp: こんなにおいしいものは食べたことがないと思った. Vị trí ★ là 食べた.",
         "optionReasonsVi": {
           "1": "SAI ở vị trí ★: 「おいしい」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: こんなにおいしいものは食べたことがないと思った. Vị trí ★ là 食べた.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Sắp xếp: こんなにおいしいものは食べたことがないと思った. Vị trí ★ là 食べた.",
+          "2": "ĐÚNG: Sắp xếp: こんなにおいしいものは食べたことがないと思った. Vị trí ★ là 食べた.",
           "3": "SAI ở vị trí ★: 「ものは」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: こんなにおいしいものは食べたことがないと思った. Vị trí ★ là 食べた.",
           "4": "SAI ở vị trí ★: 「ことがない」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: こんなにおいしいものは食べたことがないと思った. Vị trí ★ là 食べた."
         },
@@ -3144,7 +3144,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "Sắp xếp: どうすれば覚えられるのかといろいろ考えた. Vị trí ★ là の.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Sắp xếp: どうすれば覚えられるのかといろいろ考えた. Vị trí ★ là の.",
+          "1": "ĐÚNG: Sắp xếp: どうすれば覚えられるのかといろいろ考えた. Vị trí ★ là の.",
           "2": "SAI ở vị trí ★: 「覚えられる」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: どうすれば覚えられるのかといろいろ考えた. Vị trí ★ là の.",
           "3": "SAI ở vị trí ★: 「か」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: どうすれば覚えられるのかといろいろ考えた. Vị trí ★ là の.",
           "4": "SAI ở vị trí ★: 「どうすれば」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: どうすれば覚えられるのかといろいろ考えた. Vị trí ★ là の."
@@ -3205,7 +3205,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「来ることにします」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ことにしました là đã quyết định chọn phương án học tập tại Nhật (quá khứ).",
           "2": "SAI: 「来たことにします」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ことにしました là đã quyết định chọn phương án học tập tại Nhật (quá khứ).",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～ことにしました là đã quyết định chọn phương án học tập tại Nhật (quá khứ).",
+          "3": "ĐÚNG: ～ことにしました là đã quyết định chọn phương án học tập tại Nhật (quá khứ).",
           "4": "SAI: 「来たことにしました」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ことにしました là đã quyết định chọn phương án học tập tại Nhật (quá khứ)."
         },
         "translationVi": "Tác giả đã quyết định sang Nhật du học.",
@@ -3262,7 +3262,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "～に対して diễn tả thái độ/hành vi đối với nhóm người có ngoại hình khác biệt.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～に対して diễn tả thái độ/hành vi đối với nhóm người có ngoại hình khác biệt.",
+          "1": "ĐÚNG: ～に対して diễn tả thái độ/hành vi đối với nhóm người có ngoại hình khác biệt.",
           "2": "SAI: 「にとって」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～に対して diễn tả thái độ/hành vi đối với nhóm người có ngoại hình khác biệt.",
           "3": "SAI: 「によると」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～に対して diễn tả thái độ/hành vi đối với nhóm người có ngoại hình khác biệt.",
           "4": "SAI: 「によって」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～に対して diễn tả thái độ/hành vi đối với nhóm người có ngoại hình khác biệt."
@@ -3324,7 +3324,7 @@
           "1": "SAI: 「だから」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. それなのに = vậy mà/dù thế, tạo tương phản giữa thực tế sống và học bằng tiếng Nhật với phản ứng ngạc nhiên của người khác.",
           "2": "SAI: 「というのは」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. それなのに = vậy mà/dù thế, tạo tương phản giữa thực tế sống và học bằng tiếng Nhật với phản ứng ngạc nhiên của người khác.",
           "3": "SAI: 「それと同時に」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. それなのに = vậy mà/dù thế, tạo tương phản giữa thực tế sống và học bằng tiếng Nhật với phản ứng ngạc nhiên của người khác.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): それなのに = vậy mà/dù thế, tạo tương phản giữa thực tế sống và học bằng tiếng Nhật với phản ứng ngạc nhiên của người khác."
+          "4": "ĐÚNG: それなのに = vậy mà/dù thế, tạo tương phản giữa thực tế sống và học bằng tiếng Nhật với phản ứng ngạc nhiên của người khác."
         },
         "translationVi": "Dù học và sinh hoạt tại Nhật bằng tiếng Nhật, tác giả vẫn bị người khác ngạc nhiên.",
         "vocabulary": [],
@@ -3381,7 +3381,7 @@
         "correctReasonVi": "思っていないようです = hình như họ không nghĩ tôi thuộc cùng nhóm với họ; ようです thể hiện suy đoán.",
         "optionReasonsVi": {
           "1": "SAI: 「思っていないつもりです」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 思っていないようです = hình như họ không nghĩ tôi thuộc cùng nhóm với họ; ようです thể hiện suy đoán.",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 思っていないようです = hình như họ không nghĩ tôi thuộc cùng nhóm với họ; ようです thể hiện suy đoán.",
+          "2": "ĐÚNG: 思っていないようです = hình như họ không nghĩ tôi thuộc cùng nhóm với họ; ようです thể hiện suy đoán.",
           "3": "SAI: 「思われていないかもしれません」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 思っていないようです = hình như họ không nghĩ tôi thuộc cùng nhóm với họ; ようです thể hiện suy đoán.",
           "4": "SAI: 「思われていないらしいです」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 思っていないようです = hình như họ không nghĩ tôi thuộc cùng nhóm với họ; ようです thể hiện suy đoán."
         },
@@ -3442,7 +3442,7 @@
           "1": "SAI: 「変わりたい」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 変わってほしくない là có nhiều điều ở Nhật mà tác giả không muốn thay đổi; tương phản với điều cần cải thiện.",
           "2": "SAI: 「変わりたくない」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 変わってほしくない là có nhiều điều ở Nhật mà tác giả không muốn thay đổi; tương phản với điều cần cải thiện.",
           "3": "SAI: 「変わってほしい」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 変わってほしくない là có nhiều điều ở Nhật mà tác giả không muốn thay đổi; tương phản với điều cần cải thiện.",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 変わってほしくない là có nhiều điều ở Nhật mà tác giả không muốn thay đổi; tương phản với điều cần cải thiện."
+          "4": "ĐÚNG: 変わってほしくない là có nhiều điều ở Nhật mà tác giả không muốn thay đổi; tương phản với điều cần cải thiện."
         },
         "translationVi": "Dù muốn Nhật Bản thay đổi một số điểm, tác giả vẫn có nhiều điều không muốn đất nước này thay đổi.",
         "vocabulary": [],
@@ -3500,7 +3500,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「先週会社を休んだ理由を総務部に知らせる。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 時間と金額を用紙に書きこんでほしい",
           "2": "SAI: 「他の社員の交通費について調べる。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 時間と金額を用紙に書きこんでほしい",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Ngày thứ Hai đi làm, Tam phải ghi phương tiện đi lại, thời gian và chi phí vào mẫu giấy điều tra.",
+          "3": "ĐÚNG: Ngày thứ Hai đi làm, Tam phải ghi phương tiện đi lại, thời gian và chi phí vào mẫu giấy điều tra.",
           "4": "SAI: 「会社に行く交通費について古川さんに連絡する。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 時間と金額を用紙に書きこんでほしい"
         },
         "translationVi": "Nếu đi làm vào thứ Hai, Tam phải làm điều gì?",
@@ -3551,7 +3551,7 @@
         "correctReasonVi": "Người kể thừa nhận ô đẹp khi nhìn nhưng thấy rất vướng víu lúc sử dụng, nhất là trên tàu.",
         "optionReasonsVi": {
           "1": "SAI: 「いろいろな種類があって美しく、見ていても使っていても楽しい。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 見ているだけなら美しい。しかし使っている時は、私にはじゃまだ",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Người kể thừa nhận ô đẹp khi nhìn nhưng thấy rất vướng víu lúc sử dụng, nhất là trên tàu.",
+          "2": "ĐÚNG: Người kể thừa nhận ô đẹp khi nhìn nhưng thấy rất vướng víu lúc sử dụng, nhất là trên tàu.",
           "3": "SAI: 「見ているときは特に何とも思わないが、使っていると楽しくなる。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 見ているだけなら美しい。しかし使っている時は、私にはじゃまだ",
           "4": "SAI: 「見ても特にきれいだと思わないし、使っている時はじゃまだと思う。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 見ているだけなら美しい。しかし使っている時は、私にはじゃまだ"
         },
@@ -3605,7 +3605,7 @@
           "1": "SAI: 「頭で考えるだけではなく、実際に行動すること」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 現地で採用する人たちの気持ちがとても大切",
           "2": "SAI: 「トップが現場の社員の考えや気持ちを理解すること」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 現地で採用する人たちの気持ちがとても大切",
           "3": "SAI: 「外国のお客さんの考えや気持ちを大事にすること」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 現地で採用する人たちの気持ちがとても大切",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Chìa khóa thành công ở nước ngoài là trân trọng và thấu hiểu suy nghĩ, tập quán của người lao động bản địa."
+          "4": "ĐÚNG: Chìa khóa thành công ở nước ngoài là trân trọng và thấu hiểu suy nghĩ, tập quán của người lao động bản địa."
         },
         "translationVi": "“Chìa khóa thành công” được nói đến là gì?",
         "vocabulary": [],
@@ -3654,7 +3654,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "Hiện tại vẫn được nuôi thú cưng, nhưng nếu không cải thiện trong hai tuần thì có thể bị cấm.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Hiện tại vẫn được nuôi thú cưng, nhưng nếu không cải thiện trong hai tuần thì có thể bị cấm.",
+          "1": "ĐÚNG: Hiện tại vẫn được nuôi thú cưng, nhưng nếu không cải thiện trong hai tuần thì có thể bị cấm.",
           "2": "SAI: 「今はペットが飼えるが、これから禁止されることになった。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 改善されない場合はペットは禁止になります",
           "3": "SAI: 「今はペットが飼えないが、これから飼えるようになる。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 改善されない場合はペットは禁止になります",
           "4": "SAI: 「以前から、ペットを飼うことは禁止されている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 改善されない場合はペットは禁止になります"
@@ -3706,7 +3706,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "それ chỉ ý tưởng mọi người trên thế giới nói chung một ngôn ngữ.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): それ chỉ ý tưởng mọi người trên thế giới nói chung một ngôn ngữ.",
+          "1": "ĐÚNG: それ chỉ ý tưởng mọi người trên thế giới nói chung một ngôn ngữ.",
           "2": "SAI: 「すべてのことがやりやすく、便利になること」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 世界中の人が一つの共通の言語を話せば",
           "3": "SAI: 「おおぜいの人が同じことを言っているということ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 世界中の人が一つの共通の言語を話せば",
           "4": "SAI: 「自分が考えている通りになるということ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 世界中の人が一つの共通の言語を話せば"
@@ -3761,7 +3761,7 @@
           "1": "SAI: 「どうして桜がすぐ散ってしまうのか日本人は知っているということ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 桜はすぐ散ってしまうからこそ美しい",
           "2": "SAI: 「どうして桜はきれいなのにすぐ散ってしまうのかということ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 桜はすぐ散ってしまうからこそ美しい",
           "3": "SAI: 「どうして日本人はつまらないものを楽しんでいるのかということ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 桜はすぐ散ってしまうからこそ美しい",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Người nước ngoài khó hiểu quan niệm của người Nhật rằng hoa anh đào đẹp chính vì chóng tàn."
+          "4": "ĐÚNG: Người nước ngoài khó hiểu quan niệm của người Nhật rằng hoa anh đào đẹp chính vì chóng tàn."
         },
         "translationVi": "Người nước ngoài khó hiểu điều gì về hoa anh đào?",
         "vocabulary": [],
@@ -3812,7 +3812,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「世界共通言語」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 本当の国際化とは、どの国の人も同じようになることではない",
           "2": "SAI: 「桜の美しさ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 本当の国際化とは、どの国の人も同じようになることではない",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Chủ đề là trở thành người quốc tế thực sự: tôn trọng và tìm hiểu các nền văn hóa khác biệt.",
+          "3": "ĐÚNG: Chủ đề là trở thành người quốc tế thực sự: tôn trọng và tìm hiểu các nền văn hóa khác biệt.",
           "4": "SAI: 「日本人の感性」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 本当の国際化とは、どの国の人も同じようになることではない"
         },
         "translationVi": "Chủ đề của bài văn này là gì?",
@@ -3863,7 +3863,7 @@
         "correctReasonVi": "Tỷ lệ doanh nghiệp đánh giá thiếu kỹ năng giao tiếp là 19,0% so với 8,0% của sinh viên.",
         "optionReasonsVi": {
           "1": "SAI: 「「語学力」不足だと感じている割合は、会社側のほうが多い。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: コミュニケーション力",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Tỷ lệ doanh nghiệp đánh giá thiếu kỹ năng giao tiếp là 19,0% so với 8,0% của sinh viên.",
+          "2": "ĐÚNG: Tỷ lệ doanh nghiệp đánh giá thiếu kỹ năng giao tiếp là 19,0% so với 8,0% của sinh viên.",
           "3": "SAI: 「「業界に対する専門知識」不足だと感じている割合は、会社側のほうが多い。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: コミュニケーション力",
           "4": "SAI: 「「主体性」不足だと感じている割合は、学生のほうが多い。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: コミュニケーション力"
         },
@@ -3914,7 +3914,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "Dù sinh viên lo thiếu kỹ năng chuyên môn, công ty không coi đây là yêu cầu quan trọng nhất đối với người mới.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Dù sinh viên lo thiếu kỹ năng chuyên môn, công ty không coi đây là yêu cầu quan trọng nhất đối với người mới.",
+          "1": "ĐÚNG: Dù sinh viên lo thiếu kỹ năng chuyên môn, công ty không coi đây là yêu cầu quan trọng nhất đối với người mới.",
           "2": "SAI: 「学生が仕事上のスキルや専門知識をもっていないというのは事実ではない。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 学生にそれを求めていない",
           "3": "SAI: 「会社側は学生がスキルや専門知識をもっていないことに不満を感じている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 学生にそれを求めていない",
           "4": "SAI: 「学生は自分がスキルや専門知識をもっていないことに不安を感じている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 学生にそれを求めていない"
@@ -3969,7 +3969,7 @@
           "1": "SAI: 「学生は、就職活動の前に、就職したい会社について十分調べなければならない。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 一人の人間としての力",
           "2": "SAI: 「語学力や業界に対する知識は、身につけておいたほうが就職に有利だ。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 一人の人間としての力",
           "3": "SAI: 「会社は、学生が人間としてどんな力を持っているか、チェックしたほうがいい。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 一人の人間としての力",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Bài nhấn mạnh năng lực con người: tính chủ động, giao tiếp, phối hợp và khả năng làm việc nhóm."
+          "4": "ĐÚNG: Bài nhấn mạnh năng lực con người: tính chủ động, giao tiếp, phối hợp và khả năng làm việc nhóm."
         },
         "translationVi": "Ý kiến nào phù hợp với suy nghĩ của tác giả?",
         "vocabulary": [],
@@ -4020,7 +4020,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「時間は進むのが速くなったり遅くなったりするから」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 長く感じることもあればとても短く感じることもある",
           "2": "SAI: 「小さい子どもの時間はとても速く過ぎるから」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 長く感じることもあればとても短く感じることもある",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Cùng một khoảng thời gian có lúc được cảm nhận là dài, có lúc lại rất ngắn, nên thời gian thật kỳ lạ.",
+          "3": "ĐÚNG: Cùng một khoảng thời gian có lúc được cảm nhận là dài, có lúc lại rất ngắn, nên thời gian thật kỳ lạ.",
           "4": "SAI: 「年を取ると時間が進むのが遅くなるから」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 長く感じることもあればとても短く感じることもある"
         },
         "translationVi": "Vì sao tác giả cho rằng thời gian là điều kỳ lạ?",
@@ -4071,7 +4071,7 @@
         "correctReasonVi": "Quy luật tỷ lệ tuổi tác của Janney chỉ giải thích một phần, còn nhiều tình huống không thể giải thích.",
         "optionReasonsVi": {
           "1": "SAI: 「ほとんどのことが説明できる。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: これでは説明ができないことがいろいろある",
-          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Quy luật tỷ lệ tuổi tác của Janney chỉ giải thích một phần, còn nhiều tình huống không thể giải thích.",
+          "2": "ĐÚNG: Quy luật tỷ lệ tuổi tác của Janney chỉ giải thích một phần, còn nhiều tình huống không thể giải thích.",
           "3": "SAI: 「だれもまったく納得できない。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: これでは説明ができないことがいろいろある",
           "4": "SAI: 「だれもが納得できる。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: これでは説明ができないことがいろいろある"
         },
@@ -4122,7 +4122,7 @@
         "summaryVi": "Đáp án chuẩn: .",
         "correctReasonVi": "Không thể nói người lớn tuổi cảm thấy thời gian nhanh chỉ vì vui; tác giả bác bỏ cách giải thích đơn giản đó.",
         "optionReasonsVi": {
-          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Không thể nói người lớn tuổi cảm thấy thời gian nhanh chỉ vì vui; tác giả bác bỏ cách giải thích đơn giản đó.",
+          "1": "ĐÚNG: Không thể nói người lớn tuổi cảm thấy thời gian nhanh chỉ vì vui; tác giả bác bỏ cách giải thích đơn giản đó.",
           "2": "SAI: 「つまらない時は時間が過ぎるのが遅く感じる」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: そういうわけでもないようです",
           "3": "SAI: 「楽しい時は時間が過ぎるのを速く感じる」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: そういうわけでもないようです",
           "4": "SAI: 「授業は楽しい時もつまらない時もある」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: そういうわけでもないようです"
@@ -4177,7 +4177,7 @@
           "1": "SAI: 「時間の長さの感じ方は年齢によって決まる。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: これも納得できるような気がしました",
           "2": "SAI: 「時間の長さの感じ方は年齢には関係ない。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: これも納得できるような気がしました",
           "3": "SAI: 「時間の長さの感じ方には法則がある。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: これも納得できるような気がしました",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Có nhiều lý do khác nhau khiến cảm nhận thời gian thay đổi: tuổi, niềm vui, sự mới lạ và trải nghiệm."
+          "4": "ĐÚNG: Có nhiều lý do khác nhau khiến cảm nhận thời gian thay đổi: tuổi, niềm vui, sự mới lạ và trải nghiệm."
         },
         "translationVi": "Ý kiến nào phù hợp nhất với bài văn?",
         "vocabulary": [],
@@ -4228,7 +4228,7 @@
         "optionReasonsVi": {
           "1": "SAI: 「5,400円」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 年間パスポート：大人3,700円、小学生2,000円、幼児1,100円；シルバー1,000円",
           "2": "SAI: 「6,800円」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 年間パスポート：大人3,700円、小学生2,000円、幼児1,100円；シルバー1,000円",
-          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Vé năm của người lớn 3.700, tiểu học 2.000, mẫu giáo 1.100; vé lẻ người từ 65 tuổi 1.000, tổng 7.800 yên.",
+          "3": "ĐÚNG: Vé năm của người lớn 3.700, tiểu học 2.000, mẫu giáo 1.100; vé lẻ người từ 65 tuổi 1.000, tổng 7.800 yên.",
           "4": "SAI: 「9,300円」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 年間パスポート：大人3,700円、小学生2,000円、幼児1,100円；シルバー1,000円"
         },
         "translationVi": "Gia đình Put cần chi tổng cộng bao nhiêu tiền vé?",
@@ -4281,7 +4281,7 @@
           "1": "SAI: 「全員の年齢を証明するもの」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 大人（高校生以上）の方以外は年齢を証明するもの",
           "2": "SAI: 「子どもたちの年齢を証明するもの」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 大人（高校生以上）の方以外は年齢を証明するもの",
           "3": "SAI: 「家族みんなの写真」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 大人（高校生以上）の方以外は年齢を証明するもの",
-          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Trẻ em và người cao tuổi phải có giấy tờ chứng minh độ tuổi; Put là người lớn không cần giấy đó."
+          "4": "ĐÚNG: Trẻ em và người cao tuổi phải có giấy tờ chứng minh độ tuổi; Put là người lớn không cần giấy đó."
         },
         "translationVi": "Gia đình Put lần này cần mang theo những giấy tờ gì?",
         "vocabulary": [],

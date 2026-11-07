@@ -57,6 +57,8 @@ export interface ExamQuestion {
   number: number;
   section: SectionType;
   subtype: Subtype | string;
+  mondai?: string;
+  weight?: number;
   passageId?: string;
   questionText: string;
   options: ExamOption[];
@@ -134,6 +136,25 @@ export interface ExamAttempt {
   status: "in_progress" | "completed";
 }
 
+export interface JLPTScoreResult {
+  vocabularyScore: number; // Thang 0 - 30 điểm
+  grammarScore: number; // Thang 0 - 30 điểm
+  languageKnowledgeScore: number; // vocabularyScore + grammarScore (Thang 0 - 60 điểm, điểm liệt < 19)
+  readingScore: number; // Thang 0 - 60 điểm, điểm liệt < 19
+  totalScaledScore: number; // languageKnowledgeScore + readingScore (Thang 0 - 120 điểm)
+  maxVocabularyScore: number; // Tối đa 30 nếu có, 0 nếu không có
+  maxGrammarScore: number; // Tối đa 30 nếu có, 0 nếu không có
+  maxLanguageKnowledgeScore: number; // Tối đa 60
+  maxReadingScore: number; // Tối đa 60 nếu có, 0 nếu không có
+  maxTotalScore: number; // Tối đa 120 (hoặc tổng max của các phần có trong đề)
+  hasVocabulary: boolean;
+  hasGrammar: boolean;
+  hasReading: boolean;
+  isLanguageKnowledgePassed: boolean; // >= 19 (hoặc >= 60% nếu đề đơn lẻ)
+  isReadingPassed: boolean; // >= 19 (hoặc true nếu không có reading)
+  isOverallPassed: boolean; // Tổng >= 67/120 VÀ không bị liệt môn nào; đề lẻ >= 60%
+}
+
 export interface AttemptScoringResult {
   attemptId: string;
   examId: string;
@@ -173,7 +194,9 @@ export interface AttemptScoringResult {
     isCorrect: boolean;
     isSkipped: boolean;
     isFlagged: boolean;
+    weight?: number;
   }>;
+  jlptScore: JLPTScoreResult;
 }
 
 export interface QuestionReport {

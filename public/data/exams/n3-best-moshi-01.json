@@ -107,7 +107,7 @@
         "漢字"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "緑 đọc là みどり, nghĩa là màu xanh lá cây. Các lựa chọn khác lần lượt là xanh dương, tím và trà/màu nâu.",
         "optionReasonsVi": {
           "1": "SAI: あお là xanh dương, không phải 緑.",
@@ -169,7 +169,7 @@
         "食生活"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "消費（しょうひ） nghĩa là tiêu thụ; 消費期限（しょうひきげん） là hạn dùng an toàn của thực phẩm. Các cách đọc khác sai âm dài hoặc âm cuối.",
         "optionReasonsVi": {
           "1": "SAI: Thiếu âm dài う trong しょう.",
@@ -230,7 +230,7 @@
         "人間関係"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "親しい đọc したしい: thân thiết. めずらしい là hiếm lạ, あたらしい là mới, やさしい là hiền/dễ.",
         "optionReasonsVi": {
           "1": "ĐÚNG: 親しい đọc したしい: thân thiết. めずらしい là hiếm lạ, あたらしい là mới, やさしい là hiền/dễ.",
@@ -286,7 +286,7 @@
         "IT"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "保存（ほぞん） là lưu trữ/bảo quản; chữ 保 đọc ほ, 存 trong từ này đọc ぞん.",
         "optionReasonsVi": {
           "1": "SAI: 保 không tạo trường âm ほう trong 保存.",
@@ -342,7 +342,7 @@
         "交通"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "通過（つうか） nghĩa là đi qua mà không dừng; 通 có trường âm つう, 過 đọc か.",
         "optionReasonsVi": {
           "1": "ĐÚNG: 通過（つうか） nghĩa là đi qua mà không dừng; 通 có trường âm つう, 過 đọc か.",
@@ -403,7 +403,7 @@
         "生活"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "身分（みぶん） là thân phận/tư cách; 身 đọc み, 分 đọc ぶん. しんぶん là cách đọc của 新聞, không phải 身分.",
         "optionReasonsVi": {
           "1": "SAI: 分 trong 身分 đọc ぶん chứ không phải ふん.",
@@ -464,7 +464,7 @@
         "学校"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "配る（くばる） là phát/phân phát; て形 là 配って. 送る: gửi, 預かる: giữ hộ, 拾う: nhặt.",
         "optionReasonsVi": {
           "1": "SAI: おくって là gửi/tiễn từ 送る.",
@@ -520,7 +520,7 @@
         "買い物"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "種類（しゅるい） là chủng loại; しゅ ngắn và るい. Các đáp án khác nhầm âm dài/りゅう.",
         "optionReasonsVi": {
           "1": "SAI: Không phải しゅうりゅう: sai nguyên âm cuối.",
@@ -576,7 +576,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "まど viết 窓 (cửa sổ). 空: bầu trời, 室: phòng, 宿: chỗ trọ.",
         "optionReasonsVi": {
           "1": "SAI: 空 đọc そら, không phải まど.",
@@ -632,7 +632,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "完成（かんせい） nghĩa là hoàn thành công trình. 完 = hoàn, 成 = thành.",
         "optionReasonsVi": {
           "1": "SAI: 官 và 生 không tạo từ 完成.",
@@ -688,7 +688,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "痛い（いたい） là đau; いたくて là dạng nối tính từ i. 病, 症, 疲 không viết được từ này.",
         "optionReasonsVi": {
           "1": "ĐÚNG: 痛い（いたい） là đau; いたくて là dạng nối tính từ i. 病, 症, 疲 không viết được từ này.",
@@ -744,7 +744,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "捨てる（すてる） là vứt bỏ; て形 = 捨てて. 拾う（ひろう） mang nghĩa ngược là nhặt.",
         "optionReasonsVi": {
           "1": "SAI: 払う nghĩa là trả/quét, không phải すてる.",
@@ -800,7 +800,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "結果（けっか） là kết quả; 結 + 果, không phải 決 hoặc 課.",
         "optionReasonsVi": {
           "1": "SAI: 決 quả không phải cách viết từ 結果.",
@@ -856,7 +856,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "郵便（ゆうびん） là bưu điện/bưu chính; kết hợp 郵便局（ゆうびんきょく）: bưu cục.",
         "optionReasonsVi": {
           "1": "SAI: 更 không phải 便 trong 郵便.",
@@ -912,7 +912,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "様子（ようす） diễn tả dáng vẻ/tình trạng; 楽しそうな様子 là vẻ vui vẻ của mọi người. 景色 là phong cảnh, 場合 là trường hợp, 感情 là cảm xúc nhưng không tự nhiên bằng 様子 ở đây.",
         "optionReasonsVi": {
           "1": "SAI: 景色 là cảnh quan, không mô tả vẻ vui của mọi người.",
@@ -968,7 +968,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "鉛筆を削る（けずる） nghĩa là gọt bút chì. Dùng bút chì kim thì không còn cần gọt nữa. Các lựa chọn khác là cắt, vắt và ấn.",
         "optionReasonsVi": {
           "1": "ĐÚNG: 鉛筆を削る（けずる） nghĩa là gọt bút chì. Dùng bút chì kim thì không còn cần gọt nữa. Các lựa chọn khác là cắt, vắt và ấn.",
@@ -1024,7 +1024,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "印象（いんしょう） là ấn tượng; 暗い印象 = ấn tượng u ám/khó gần. 状態: trạng thái, 情報: thông tin, 傾向: xu hướng.",
         "optionReasonsVi": {
           "1": "SAI: 状態 là trạng thái khách quan, không nói ấn tượng ban đầu về con người.",
@@ -1080,7 +1080,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "確認（かくにん） là xác nhận/kiểm tra. Khi kiểm tra đồ trước khi đi dùng 確認する, không dùng 復習 (ôn tập), 信用 (tin tưởng), 証明 (chứng minh).",
         "optionReasonsVi": {
           "1": "SAI: 復習 là ôn lại bài, không dùng để kiểm tra hành lý.",
@@ -1136,7 +1136,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "ぐっすり寝る nghĩa là ngủ say. はっきり: rõ ràng, そっくり: giống hệt, がっかり: thất vọng.",
         "optionReasonsVi": {
           "1": "SAI: はっきり là rõ ràng, không đi với 寝る theo nghĩa ngủ say.",
@@ -1186,7 +1186,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "いいアイディア là ý tưởng hay; câu hỏi cần đề xuất cách giúp khu phố sôi động trở lại. Các từ khác là câu đố, thay đổi, thành viên.",
         "optionReasonsVi": {
           "1": "ĐÚNG: いいアイディア là ý tưởng hay; câu hỏi cần đề xuất cách giúp khu phố sôi động trở lại. Các từ khác là câu đố, thay đổi, thành viên.",
@@ -1236,7 +1236,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "転ぶ（ころぶ） = ngã; 自転車で転んでけがをした. 回る: quay, 飛ぶ: bay, 散る: rụng/tản.",
         "optionReasonsVi": {
           "1": "SAI: 回る = quay vòng, không tự nói về ngã xe.",
@@ -1292,7 +1292,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "引き受ける（ひきうける） = nhận lời đảm nhiệm; 喜んで引き受けてくれた = vui vẻ nhận lời.",
         "optionReasonsVi": {
           "1": "SAI: 取り返す = lấy lại, không phải nhận lời.",
@@ -1348,7 +1348,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "電話がかかってくる là có cuộc điện thoại gọi đến. Cụm cố định: 電話がかかる.",
         "optionReasonsVi": {
           "1": "SAI: 聞こえる = nghe thấy; 電話が聞こえてくる không nói cuộc gọi đến.",
@@ -1404,7 +1404,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "服をたたむ = gấp quần áo. のばす: duỗi, おる: bẻ/gấp vật khác nhưng với quần áo tự nhiên hơn là たたむ, ちぢめる: làm co.",
         "optionReasonsVi": {
           "1": "SAI: 伸ばす = duỗi thẳng; không nói gấp áo.",
@@ -1454,7 +1454,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "無理に = một cách gượng ép/cố quá sức; 無理に食べなくてもいい = không cần ép mình ăn.",
         "optionReasonsVi": {
           "1": "ĐÚNG: 無理に = một cách gượng ép/cố quá sức; 無理に食べなくてもいい = không cần ép mình ăn.",
@@ -1510,7 +1510,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "あわてて = vội vã/cuống quýt, gần nhất với いそいで = vội vàng; không phải từ từ, miễn cưỡng hay vui vẻ.",
         "optionReasonsVi": {
           "1": "SAI: ゆっくり = chậm rãi, nghĩa ngược.",
@@ -1560,7 +1560,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "きつい khi nói về quần áo là chật; gần nhất với 小さくなった (trở nên nhỏ/chật).",
         "optionReasonsVi": {
           "1": "ĐÚNG: きつい khi nói về quần áo là chật; gần nhất với 小さくなった (trở nên nhỏ/chật).",
@@ -1610,7 +1610,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "騒ぐ（さわぐ） là gây ồn ào; tương đương うるさくする. Các lựa chọn khác: tức giận, đứng yên, cười.",
         "optionReasonsVi": {
           "1": "SAI: 怒る = giận dữ không nhất thiết làm ồn.",
@@ -1666,7 +1666,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "断る（ことわる） là từ chối. Nói rằng không thể đi tương ứng với việc từ chối lời rủ; không đồng nghĩa với cân nhắc hay im lặng.",
         "optionReasonsVi": {
           "1": "ĐÚNG: 断る（ことわる） là từ chối. Nói rằng không thể đi tương ứng với việc từ chối lời rủ; không đồng nghĩa với cân nhắc hay im lặng.",
@@ -1722,7 +1722,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "食べ放題（たべほうだい） là ăn không giới hạn số lượng, gần nghĩa いくら食べてもいいです. Không có nghĩa đồ ăn ngon/rẻ hay tự nấu.",
         "optionReasonsVi": {
           "1": "SAI: Ngon không có nghĩa ăn không giới hạn.",
@@ -1778,7 +1778,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "注目する = tập trung chú ý/được dư luận quan tâm. 「風力発電が注目されている」 là điện gió ngoài khơi đang được chú ý, cách dùng tự nhiên.",
         "optionReasonsVi": {
           "1": "SAI: Không tự nhiên: có quần áo ưng ý thì 気に入る, không phải 注目.",
@@ -1834,7 +1834,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "手を加える là chỉnh sửa/cải tiến một chút; 「作文に手を加える」 là sửa bài văn. Các câu còn lại cần 増やす/太る hoặc 重ね着する.",
         "optionReasonsVi": {
           "1": "SAI: Tăng lương theo giờ dùng 上げる/増やす, không dùng 加える.",
@@ -1890,7 +1890,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "町が発展する là thành phố phát triển về kinh tế/xã hội; phát triển thường dùng cho địa phương, kinh tế, công nghệ. Câu 1 cần 上達する, câu 3 dùng 進歩する/発達する tự nhiên hơn.",
         "optionReasonsVi": {
           "1": "SAI: Tiến bộ năng lực ngoại ngữ dùng 上達する hơn là 発展する.",
@@ -1946,7 +1946,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "気に入る = thấy ưng ý/thích một vật, người, nơi chốn; 「気に入ったもの」 là món đồ hợp ý. Không dùng để yêu cầu trực tiếp người khác phải thích.",
         "optionReasonsVi": {
           "1": "ĐÚNG: 気に入る = thấy ưng ý/thích một vật, người, nơi chốn; 「気に入ったもの」 là món đồ hợp ý. Không dùng để yêu cầu trực tiếp người khác phải thích.",
@@ -2002,7 +2002,7 @@
         "vocabulary"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "簡単に作れる diễn tả dễ làm/chế biến đơn giản. Các câu kia dùng 簡単に với phục hồi sức khỏe, ngủ hoặc kịp giờ không tự nhiên bằng ví dụ 4.",
         "optionReasonsVi": {
           "1": "SAI: Hồi phục sức khỏe nhờ thuốc thường không diễn đạt là 簡単に元気になる.",
@@ -2058,7 +2058,7 @@
         "grammar"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "Nにとって = đối với N, xét trên quan điểm/lợi ích của N; 日本にとって = đối với Nhật Bản. に対して: đối diện/đối với về hành động; について: về chủ đề; につれて: cùng với thay đổi.",
         "optionReasonsVi": {
           "1": "SAI: に対して nhấn hướng tác động/đối tượng, không diễn tả vấn đề có ý nghĩa đối với quốc gia.",
@@ -2121,7 +2121,7 @@
         "否定表現"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "決して～ない = tuyệt đối không/nhất định không; 決してご迷惑はおかけしません là tôi sẽ tuyệt đối không gây phiền phức. Các từ khác không kết hợp tự nhiên với lời cam đoan này.",
         "optionReasonsVi": {
           "1": "SAI: ちっとも thường đi với phủ định để nói hoàn toàn không, nhưng không mang lực cam kết như 決して trong câu này.",
@@ -2184,7 +2184,7 @@
         "grammar"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "Vないで + V diễn tả không làm V1 mà làm V2. カギをかけないで出かける = ra ngoài mà không khóa cửa, dẫn đến trộm đột nhập.",
         "optionReasonsVi": {
           "1": "ĐÚNG: Vないで + V diễn tả không làm V1 mà làm V2. カギをかけないで出かける = ra ngoài mà không khóa cửa, dẫn đến trộm đột nhập.",
@@ -2241,7 +2241,7 @@
         "grammar"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "～ないかなあ bộc lộ mong muốn/thầm tự hỏi: không biết có việc làm thêm tốt không nhỉ. Các phương án khác mang sắc thái suy đoán hoặc nghe nói.",
         "optionReasonsVi": {
           "1": "SAI: ないだろう = có lẽ không có, không mang nguyện vọng tự hỏi.",
@@ -2298,7 +2298,7 @@
         "敬語"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "お待たせして申し訳ありません là cách xin lỗi lịch sự vì đã để người kia phải chờ. お待ちして là tôi chờ (khiêm nhường), không diễn tả đã bắt khách chờ.",
         "optionReasonsVi": {
           "1": "SAI: 待たれて là bị chờ, sai quan hệ người gây phiền.",
@@ -2361,7 +2361,7 @@
         "てある・ておく"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "Vてある diễn tả trạng thái kết quả của hành động có chủ đích: ビールが冷やしてある = bia đã được làm lạnh sẵn. Vておいた dùng chủ thể thực hiện, không phù hợp với ビールが ở đây.",
         "optionReasonsVi": {
           "1": "SAI: 冷やしている nêu chủ thể đang làm lạnh; không hợp cách nói trạng thái hoàn tất với ビールが.",
@@ -2418,7 +2418,7 @@
         "限定表現"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "この地方だけでしかとれない = chỉ có thể đánh bắt ở vùng này. しか đi kèm phủ định とれない, hạn định địa điểm.",
         "optionReasonsVi": {
           "1": "ĐÚNG: この地方だけでしかとれない = chỉ có thể đánh bắt ở vùng này. しか đi kèm phủ định とれない, hạn định địa điểm.",
@@ -2475,7 +2475,7 @@
         "ところだ"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "Vているところ = ngay lúc này đang trong quá trình làm V; 向かっているところだ = đang trên đường tới.",
         "optionReasonsVi": {
           "1": "SAI: 向かってもいい = có thể được phép đi tới.",
@@ -2532,7 +2532,7 @@
         "意向形"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "V意向形＋とする = định/cố thực hiện V: 追い抜こうとして = trong lúc định vượt xe trước.",
         "optionReasonsVi": {
           "1": "SAI: 追い抜く dạng từ điển không trực tiếp tạo nghĩa ý định trước として trong câu.",
@@ -2589,7 +2589,7 @@
         "うちに"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "Vているうちに = trong khi còn có cơ hội/điều kiện; 日本にいるうちに = tranh thủ khi còn ở Nhật. あいだ cũng nói khoảng thời gian nhưng うちに thích hợp hơn với ý định làm khi còn cơ hội.",
         "optionReasonsVi": {
           "1": "SAI: あいだ chỉ khoảng kéo dài, うちに nhấn tranh thủ cơ hội trước khi hết thời gian.",
@@ -2646,7 +2646,7 @@
         "そうだ"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "なさそう = có vẻ không có; 興味がなさそうだった = dường như không quan tâm. Các mẫu ないこと/ないつもり/ないもの không phù hợp sau 興味が trong câu này.",
         "optionReasonsVi": {
           "1": "ĐÚNG: なさそう = có vẻ không có; 興味がなさそうだった = dường như không quan tâm. Các mẫu ないこと/ないつもり/ないもの không phù hợp sau 興味が trong câu này.",
@@ -2703,7 +2703,7 @@
         "敬語"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "ご存じだ = tôn kính ngữ của 知っている khi nói về người nghe; ご存じだと思います = tôi nghĩ mọi người đã biết. 存じる/存じ上げる là khiêm nhường ngữ dùng cho bản thân.",
         "optionReasonsVi": {
           "1": "ĐÚNG: ご存じだ = tôn kính ngữ của 知っている khi nói về người nghe; ご存じだと思います = tôi nghĩ mọi người đã biết. 存じる/存じ上げる là khiêm nhường ngữ dùng cho bản thân.",
@@ -2766,7 +2766,7 @@
         "ことになっている"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "～ことになっている biểu thị lịch trình/quy định đã được quyết định; 毎年春に運動会をすることになっています.",
         "optionReasonsVi": {
           "1": "SAI: するつもりでした = từng định làm; không biểu thị lệ thường hàng năm.",
@@ -2823,7 +2823,7 @@
         "並べ替え"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "Sắp đúng: 自分が人に【されたくない→ことを→してはいけない→と】よく母に注意された. Vị trí ★ là mảnh 2 (されたくない). Nghĩa: Mẹ thường dặn không được làm với người khác điều mình không muốn họ làm với mình.",
         "optionReasonsVi": {
           "1": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ của 4 mảnh: 2 → 1 → 3 → 4.",
@@ -2880,7 +2880,7 @@
         "並べ替え"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "Thứ tự: 話されている→国へ行けば→上手になる→か. Cụm 「外国語はその言葉が話されている国へ行けば上手になるかというと...」 diễn tả nêu giả định rồi phản biện. ★ là mảnh 3 (か).",
         "optionReasonsVi": {
           "1": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 4 → 1 → 3.",
@@ -2937,7 +2937,7 @@
         "並べ替え"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "Thứ tự: やりたい→ことを→仕事に→する. 「やりたいことを仕事にする」 biến điều muốn làm thành nghề nghiệp. ★ là mảnh 1 (仕事に).",
         "optionReasonsVi": {
           "1": "ĐÚNG: Thứ tự: やりたい→ことを→仕事に→する. 「やりたいことを仕事にする」 biến điều muốn làm thành nghề nghiệp. ★ là mảnh 1 (仕事に).",
@@ -2994,7 +2994,7 @@
         "並べ替え"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "Thứ tự: はなれて→旅行→などを→して. 「日常生活からはなれて旅行などをしてみる」 = thử rời xa sinh hoạt thường ngày để đi du lịch. ★ là mảnh 4.",
         "optionReasonsVi": {
           "1": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 1 → 4 → 3.",
@@ -3052,7 +3052,7 @@
         "使役"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "Thứ tự: したい→と言う→から→させた. 「留学したいと言うからさせたんですけど」 = vì con nói muốn du học nên tôi đã cho đi. ★ là mảnh 3 (から).",
         "optionReasonsVi": {
           "1": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 4 → 3 → 1.",
@@ -3109,7 +3109,7 @@
         "文章文法"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "「どうして～のでしょうか」 là cách nêu câu hỏi băn khoăn/lịch sự. Nội dung tác giả tự hỏi tại sao người Nhật hay dùng katakana.",
         "optionReasonsVi": {
           "1": "SAI: 使いますか là câu hỏi trực tiếp có thể dùng, nhưng trong văn nghị luận diễn tả thắc mắc suy ngẫm thì ～のでしょうか tự nhiên hơn.",
@@ -3172,7 +3172,7 @@
         "文章文法"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "最近までずっと + 思っていました thể hiện quan niệm kéo dài đến gần đây rồi được thay đổi sau khi biết kết quả khảo sát.",
         "optionReasonsVi": {
           "1": "SAI: 思います hiện tại, không phù hợp 最近までずっと trong thế đối chiếu với thông tin mới.",
@@ -3229,7 +3229,7 @@
         "文章文法"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "Nによると = theo N, dẫn nguồn khảo sát/thông tin; ある調査によると là theo một cuộc khảo sát.",
         "optionReasonsVi": {
           "1": "ĐÚNG: Nによると = theo N, dẫn nguồn khảo sát/thông tin; ある調査によると là theo một cuộc khảo sát.",
@@ -3343,7 +3343,7 @@
         "文章文法"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "なるべく = càng... càng tốt; なるべく日本語で表現してほしい = mong họ diễn đạt bằng tiếng Nhật càng nhiều càng tốt.",
         "optionReasonsVi": {
           "1": "SAI: たとえ cần đi kèm cấu trúc nhượng bộ ～ても/～でも.",
@@ -3400,7 +3400,7 @@
         "メール"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "Người gửi email viết 「私はいつでもかまいませんので、先生のご都合をお知らせいただければ幸いです」, muốn thầy cho biết ngày giờ có thể tham quan buổi seminar.",
         "optionReasonsVi": {
           "1": "SAI: Thông tin muốn được hướng dẫn là sự quan tâm trong thư, không phải yêu cầu trực tiếp cuối thư.",
@@ -3450,7 +3450,7 @@
         "男女平等"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "Bạn người kể đến từ nước bình đẳng giới, nhưng tại cửa hàng người ta cho rằng nam giới phải mang hành lý nặng vì phụ nữ yếu. Sự mâu thuẫn này khiến cô thấy kỳ lạ.",
         "optionReasonsVi": {
           "1": "SAI: Bài viết không nói phụ nữ được miễn trả tiền. Người phụ nữ đã tự dùng thẻ thanh toán.",
@@ -3500,7 +3500,7 @@
         "手紙"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "Thư ghi 「小野さんの牧場で実習ができたことは、私にとってとてもいい経験になりました」: Andy đã được thực tập ở trang trại nhà Ono.",
         "optionReasonsVi": {
           "1": "SAI: Andy đã được thực tập trong trang trại, nhưng không có thông tin rõ Ono trực tiếp dạy về ngành chăn nuôi.",
@@ -3550,7 +3550,7 @@
         "名前"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "Tác giả nêu 「今の子どもたちはきっとどんな名前であっても変などとは思わないでそのまま受け入れるのだろう」: trẻ hiện nay sẽ không thấy tên lạ là kỳ quặc.",
         "optionReasonsVi": {
           "1": "SAI: Tác giả thấy nhiều tên lạ nhưng không yêu cầu tuyệt đối cấm đặt.",
@@ -3600,7 +3600,7 @@
         "浮世絵"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "Đoạn văn giải thích 「版画、つまり印刷したものですから何枚も同じものがあり、一枚が今でいうと数百円で買えた」; vì là bản in nhiều tờ nên giá rẻ.",
         "optionReasonsVi": {
           "1": "SAI: Bài cho biết nghệ thuật gần gũi bình dân, nhưng giá rẻ được giải thích cụ thể bởi tính chất bản in.",
@@ -3650,7 +3650,7 @@
         "文化"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "Ở châu Âu nghệ thuật chủ yếu dành cho tầng lớp thượng lưu, còn Nhật thời Edo người dân bình thường có thể mua tranh và thưởng thức nghệ thuật.",
         "optionReasonsVi": {
           "1": "ĐÚNG: Ở châu Âu nghệ thuật chủ yếu dành cho tầng lớp thượng lưu, còn Nhật thời Edo người dân bình thường có thể mua tranh và thưởng thức nghệ thuật.",
@@ -3700,7 +3700,7 @@
         "浮世絵"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "Bài viết nói 「日本人はこの浮世絵に芸術的な価値があるとは思っていませんでした。その価値を教えてくれたのは…西洋人」.",
         "optionReasonsVi": {
           "1": "SAI: 町人 là thường dân, không có nhận định họ thuộc thượng lưu.",
@@ -3750,7 +3750,7 @@
         "環境"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "Thế giới di sản thiên nhiên hướng đến bảo tồn; geopark vừa bảo vệ, vừa sử dụng cho giáo dục/du lịch và phát triển địa phương. Phương án 2 thể hiện đúng điểm khác biệt.",
         "optionReasonsVi": {
           "1": "SAI: Mục tiêu của di sản thiên nhiên thế giới không được nêu là để nhiều người đến tham quan.",
@@ -3800,7 +3800,7 @@
         "防災教育"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "Đoạn văn nêu Nhật Bản giữ lại dấu tích núi lửa và động đất để phục vụ giáo dục phòng chống thiên tai; đây là điểm dẫn đầu thế giới.",
         "optionReasonsVi": {
           "1": "SAI: Bài không đánh giá Nhật đi đầu về kiến thức khoa học trái đất nói chung.",
@@ -3850,7 +3850,7 @@
         "地域活性化"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "Cuối bài ghi 「多くの地域で経済的なメリットにつなげる人材が不足していて、地域の活性化という点が今後の課題」.",
         "optionReasonsVi": {
           "1": "ĐÚNG: Cuối bài ghi 「多くの地域で経済的なメリットにつなげる人材が不足していて、地域の活性化という点が今後の課題」.",
@@ -3900,7 +3900,7 @@
         "森林"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "「高い所から東京を見渡すと、ところどころに緑のかたまりが見えます。それは木々がたくさん集まっている場所」: khối màu xanh là nơi nhiều cây tụ lại, như một khu rừng.",
         "optionReasonsVi": {
           "1": "SAI: 緑のかたまり không phải một cây lớn đơn lẻ.",
@@ -3950,7 +3950,7 @@
         "自然"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 3.",
         "correctReasonVi": "Trong bài: 「自然に近い森をつくるために、東京に大昔から自然に生えていた種類の木々を植えた」. Kế hoạch là tạo khu rừng gần với rừng tự nhiên.",
         "optionReasonsVi": {
           "1": "SAI: Trồng cây lớn không phải mục tiêu cốt lõi; rừng hình thành tự nhiên qua nhiều năm.",
@@ -4000,7 +4000,7 @@
         "森林"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "Bài viết nói cây tự cạnh tranh, cây yếu không phát triển, cây thắng cạnh tranh lớn lên; giống quy luật chọn lọc trong rừng tự nhiên.",
         "optionReasonsVi": {
           "1": "SAI: Bài không nói có cây lớn mọc được trên mọi đất cằn.",
@@ -4050,7 +4050,7 @@
         "管理"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 1.",
         "correctReasonVi": "Bài viết cho biết người quản lý chủ yếu để mặc tự nhiên, chỉ thu gom lá rụng và đưa trở lại gốc cây; không chăm sóc như rừng trồng thông thường.",
         "optionReasonsVi": {
           "1": "ĐÚNG: Bài viết cho biết người quản lý chủ yếu để mặc tự nhiên, chỉ thu gom lá rụng và đưa trở lại gốc cây; không chăm sóc như rừng trồng thông thường.",
@@ -4100,7 +4100,7 @@
         "お知らせ"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 2.",
         "correctReasonVi": "Điều kiện: sinh viên quốc tế ở Đại học Hokutō hoặc các đại học khác trong thành phố, hoặc cựu sinh viên Hokutō làm việc trong thành phố không quá 3 năm. Rin đang là du học sinh tại trường khác trong thành phố nên đủ điều kiện.",
         "optionReasonsVi": {
           "1": "SAI: Đã làm việc năm thứ tư, quá mốc 3 năm cho phép với cựu sinh viên Hokutō.",
@@ -4150,7 +4150,7 @@
         "お知らせ"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án chính xác: 4.",
         "correctReasonVi": "Thông báo ghi hạn đăng ký đến 9/30 lúc 17:00; người muốn hát phải ghi rõ trong email lúc đăng ký. Vì thế chọn phương án 4.",
         "optionReasonsVi": {
           "1": "SAI: Không cần hẹn trước giờ trao đổi về tiết mục; Ban tổ chức sẽ liên lạc sau.",

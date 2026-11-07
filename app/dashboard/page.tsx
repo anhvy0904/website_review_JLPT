@@ -5,7 +5,8 @@ import Link from "next/link";
 import { ExamAttempt, ExamDetail, ExamSurvey } from "@/lib/types";
 import { getAllAttempts, getAllSurveys, deleteAttempt } from "@/lib/storage";
 import { formatTime, formatDate } from "@/lib/utils";
-import { StatsCharts } from "@/components/StatsCharts";
+import { scoreAttempt } from "@/lib/scoring";
+import { StatsCharts, SectionStatItem } from "@/components/StatsCharts";
 import {
   Trophy,
   Target,
@@ -123,6 +124,34 @@ export default function DashboardPage() {
     };
   }, [completedAttempts, examMap]);
 
+  const jlptReadiness = useMemo(() => {
+    const sec = stats.sectionCounts;
+    const vocabScaled =
+      sec.vocabulary.total > 0 ? Math.round((sec.vocabulary.correct / sec.vocabulary.total) * 30) : 0;
+    const grammarScaled =
+      sec.grammar.total > 0 ? Math.round((sec.grammar.correct / sec.grammar.total) * 30) : 0;
+    const readingScaled =
+      sec.reading.total > 0 ? Math.round((sec.reading.correct / sec.reading.total) * 60) : 0;
+    const langScore = vocabScaled + grammarScaled;
+    const totalScore = langScore + readingScaled;
+
+    const isLangPass = langScore >= 19;
+    const isReadingPass = readingScaled >= 19;
+    const isOverallPass = totalScore >= 67 && isLangPass && isReadingPass;
+
+    return {
+      vocabScaled,
+      grammarScaled,
+      readingScaled,
+      langScore,
+      totalScore,
+      isLangPass,
+      isReadingPass,
+      isOverallPass,
+      hasData: stats.totalQuestionsPracticed > 0,
+    };
+  }, [stats]);
+
   // Prepare chart data
   const historyChartData = useMemo(() => {
     return completedAttempts
@@ -130,43 +159,66 @@ export default function DashboardPage() {
       .reverse()
       .map((att, idx) => {
         const exam = examMap[att.examId];
-        let correct = 0;
-        let total = exam ? exam.questions.length : 1;
+        let percent = 0;
+        let scaledScore: number | undefined;
+        let maxScaledScore: number | undefined;
+
         if (exam) {
-          exam.questions.forEach((q) => {
-            if (att.answers[q.id] === q.correctOptionId) correct++;
-          });
+          const res = scoreAttempt(exam, att);
+          percent = res.scorePercent;
+          scaledScore = res.jlptScore.totalScaledScore;
+          maxScaledScore = res.jlptScore.maxTotalScore;
         }
-        const percent = Math.round((correct / total) * 1000) / 10;
+
         return {
           attemptNumber: idx + 1,
           title: att.examTitle || att.examId,
           percent,
           date: att.submittedAt ? att.submittedAt.split("T")[0] : "",
+          scaledScore,
+          maxScaledScore,
         };
       });
   }, [completedAttempts, examMap]);
 
-  const sectionChartData = useMemo(() => {
+  const sectionChartData: SectionStatItem[] = useMemo(() => {
     const sec = stats.sectionCounts;
+    const vocabScaled =
+      sec.vocabulary.total > 0 ? Math.round((sec.vocabulary.correct / sec.vocabulary.total) * 30) : 0;
+    const grammarScaled =
+      sec.grammar.total > 0 ? Math.round((sec.grammar.correct / sec.grammar.total) * 30) : 0;
+    const readingScaled =
+      sec.reading.total > 0 ? Math.round((sec.reading.correct / sec.reading.total) * 60) : 0;
+
     return [
       {
         name: "Từ vựng",
-        percent: sec.vocabulary.total > 0 ? Math.round((sec.vocabulary.correct / sec.vocabulary.total) * 100) : 0,
+        percent:
+          sec.vocabulary.total > 0
+            ? Math.round((sec.vocabulary.correct / sec.vocabulary.total) * 100)
+            : 0,
         correct: sec.vocabulary.correct,
         total: sec.vocabulary.total,
+        scaledScore: vocabScaled,
+        maxScaledScore: 30,
       },
       {
         name: "Ngữ pháp",
-        percent: sec.grammar.total > 0 ? Math.round((sec.grammar.correct / sec.grammar.total) * 100) : 0,
+        percent:
+          sec.grammar.total > 0 ? Math.round((sec.grammar.correct / sec.grammar.total) * 100) : 0,
         correct: sec.grammar.correct,
         total: sec.grammar.total,
+        scaledScore: grammarScaled,
+        maxScaledScore: 30,
       },
       {
         name: "Đọc hiểu",
-        percent: sec.reading.total > 0 ? Math.round((sec.reading.correct / sec.reading.total) * 100) : 0,
+        percent:
+          sec.reading.total > 0 ? Math.round((sec.reading.correct / sec.reading.total) * 100) : 0,
         correct: sec.reading.correct,
         total: sec.reading.total,
+        scaledScore: readingScaled,
+        maxScaledScore: 60,
       },
     ];
   }, [stats]);
@@ -311,6 +363,64 @@ export default function DashboardPage() {
               <p className="text-xs text-slate-400">{keigoStats.percentCompleted}% hoàn thành</p>
             </div>
           </div>
+
+          {/* JLPT Readiness Banner */}
+          {jlptReadiness.hasData && (
+            <div className="p-6 rounded-3xl bg-gradient-to-r from-[#E8F5E9] via-white to-emerald-50/40 border-2 border-[#A5D6A7] shadow-xs space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-3">
+                <div className="flex items-center gap-2.5">
+                  <span className="text-2xl" role="img" aria-label="frog">
+                    🐸🌸
+                  </span>
+                  <div>
+                    <h3 className="font-extrabold text-slate-900 text-base">
+                      Ước Tính Năng Lực JLPT N3 Tích Lũy
+                    </h3>
+                    <p className="text-xs text-slate-500">
+                      Tính dựa trên toàn bộ các câu hỏi trắc nghiệm đã hoàn thành
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="text-3xl font-black text-[#1B5E20]">
+                    {jlptReadiness.totalScore}
+                  </span>
+                  <span className="text-xs font-bold text-slate-400">/ 120 điểm</span>
+                  {jlptReadiness.isOverallPass ? (
+                    <span className="ml-2 px-3 py-1 rounded-full text-xs font-bold bg-emerald-500 text-white shadow-xs">
+                      Đạt chuẩn JLPT
+                    </span>
+                  ) : (
+                    <span className="ml-2 px-3 py-1 rounded-full text-xs font-bold bg-rose-500 text-white shadow-xs">
+                      Cần rèn luyện thêm
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 border-t border-emerald-100">
+                <div className="p-3 rounded-xl bg-white/80 border border-[#A5D6A7]/50 text-xs">
+                  <div className="text-slate-500 font-medium">Từ vựng (文字・語彙)</div>
+                  <div className="text-lg font-bold text-slate-900 mt-0.5">
+                    {jlptReadiness.vocabScaled} <span className="text-xs text-slate-400 font-normal">/ 30đ</span>
+                  </div>
+                </div>
+                <div className="p-3 rounded-xl bg-white/80 border border-indigo-200/50 text-xs">
+                  <div className="text-slate-500 font-medium">Ngữ pháp (文法)</div>
+                  <div className="text-lg font-bold text-slate-900 mt-0.5">
+                    {jlptReadiness.grammarScaled} <span className="text-xs text-slate-400 font-normal">/ 30đ</span>
+                  </div>
+                </div>
+                <div className="p-3 rounded-xl bg-white/80 border border-purple-200/50 text-xs">
+                  <div className="text-slate-500 font-medium">Đọc hiểu (読解)</div>
+                  <div className="text-lg font-bold text-slate-900 mt-0.5">
+                    {jlptReadiness.readingScaled} <span className="text-xs text-slate-400 font-normal">/ 60đ</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Module Summary Banner Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -657,15 +767,18 @@ export default function DashboardPage() {
                   <th className="py-3 px-4">Thời điểm</th>
                   <th className="py-3 px-4">Bộ đề</th>
                   <th className="py-3 px-4">Chế độ</th>
-                  <th className="py-3 px-4">Đã làm</th>
+                  <th className="py-3 px-4">Điểm JLPT N3</th>
+                  <th className="py-3 px-4">Độ chính xác</th>
                   <th className="py-3 px-4">Thời gian</th>
-                  <th className="py-3 px-4">Trạng thái</th>
                   <th className="py-3 px-4 text-right">Thao tác</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {attempts.map((att) => {
+                  const exam = examMap[att.examId];
+                  const res = exam && att.status === "completed" ? scoreAttempt(exam, att) : null;
                   const answeredCount = Object.keys(att.answers || {}).length;
+
                   return (
                     <tr key={att.attemptId} className="hover:bg-slate-50/60 transition-colors">
                       <td className="py-3 px-4 whitespace-nowrap text-slate-500">
@@ -679,21 +792,30 @@ export default function DashboardPage() {
                           {att.mode === "practice" ? "Luyện tập" : "Thi thử"}
                         </span>
                       </td>
-                      <td className="py-3 px-4 font-semibold text-indigo-600">
-                        {answeredCount} câu
-                      </td>
-                      <td className="py-3 px-4 font-mono">{formatTime(att.elapsedSeconds)}</td>
-                      <td className="py-3 px-4">
-                        {att.status === "completed" ? (
-                          <span className="px-2 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-100 text-emerald-800">
-                            Đã nộp
-                          </span>
+                      <td className="py-3 px-4 whitespace-nowrap">
+                        {res ? (
+                          <div className="flex items-center gap-1.5">
+                            <span className="font-extrabold text-slate-900">
+                              {res.jlptScore.totalScaledScore}/{res.jlptScore.maxTotalScore}đ
+                            </span>
+                            {res.jlptScore.isOverallPassed ? (
+                              <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-800">
+                                Đạt
+                              </span>
+                            ) : (
+                              <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-rose-100 text-rose-800">
+                                Chưa đạt
+                              </span>
+                            )}
+                          </div>
                         ) : (
-                          <span className="px-2 py-0.5 rounded-full text-[11px] font-semibold bg-blue-100 text-blue-800">
-                            Đang làm dở
-                          </span>
+                          <span className="text-slate-400 italic">Đang làm dở</span>
                         )}
                       </td>
+                      <td className="py-3 px-4 font-semibold text-slate-700">
+                        {res ? `${res.scorePercent}% (${res.correctCount}/${res.totalQuestions})` : `${answeredCount} câu`}
+                      </td>
+                      <td className="py-3 px-4 font-mono">{formatTime(att.elapsedSeconds)}</td>
                       <td className="py-3 px-4 text-right space-x-2">
                         {att.status === "completed" ? (
                           <Link
