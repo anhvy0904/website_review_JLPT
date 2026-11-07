@@ -2,8 +2,106 @@ import { GoogleGenAI } from "@google/genai";
 import mammoth from "mammoth";
 import { examDetailSchema, ValidatedExamDetail } from "./validation";
 import { ExamDetail, ExamQuestion } from "./types";
+import { redactSecrets } from "./auth";
 
-const DEFAULT_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+export const DEFAULT_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+
+export interface GeminiErrorInfo {
+  code:
+    | "INVALID_API_KEY"
+    | "QUOTA_EXCEEDED"
+    | "MODEL_NOT_FOUND"
+    | "PERMISSION_DENIED"
+    | "NETWORK_ERROR"
+    | "MISSING_API_KEY"
+    | "UNKNOWN_ERROR";
+  message: string;
+  status: number;
+}
+
+export function parseGeminiError(err: any): GeminiErrorInfo {
+  const errMsg = String(err?.message || err || "");
+  const status = Number(err?.status || err?.statusCode || 500);
+
+  if (errMsg.includes("Chưa cấu hình GEMINI_API_KEY") || !errMsg) {
+    return {
+      code: "MISSING_API_KEY",
+      message: "Chưa cấu hình GEMINI_API_KEY trong file .env.local hoặc giao diện Quản trị viên.",
+      status: 400,
+    };
+  }
+
+  if (
+    status === 401 ||
+    errMsg.includes("API key not valid") ||
+    errMsg.includes("API_KEY_INVALID") ||
+    errMsg.includes("invalid api key") ||
+    errMsg.includes("API key expired")
+  ) {
+    return {
+      code: "INVALID_API_KEY",
+      message: "Google Gemini API Key không hợp lệ hoặc đã hết hạn. Vui lòng kiểm tra lại khóa API tại Google AI Studio.",
+      status: 401,
+    };
+  }
+
+  if (
+    status === 429 ||
+    errMsg.includes("RESOURCE_EXHAUSTED") ||
+    errMsg.includes("quota") ||
+    errMsg.includes("Rate limit exceeded")
+  ) {
+    return {
+      code: "QUOTA_EXCEEDED",
+      message: "Tài khoản đã vượt quá hạn mức sử dụng (Quota / Rate Limit) của Google Gemini API. Vui lòng nâng cấp gói hoặc thử lại sau vài phút.",
+      status: 429,
+    };
+  }
+
+  if (
+    status === 404 ||
+    errMsg.includes("NOT_FOUND") ||
+    errMsg.includes("is not found for API version") ||
+    errMsg.includes("is not supported")
+  ) {
+    return {
+      code: "MODEL_NOT_FOUND",
+      message: `Mô hình Gemini không tồn tại hoặc không được hỗ trợ trong phiên bản API này. Vui lòng kiểm tra biến GEMINI_MODEL (khuyến nghị: gemini-2.5-flash hoặc gemini-2.0-flash).`,
+      status: 404,
+    };
+  }
+
+  if (
+    status === 403 ||
+    errMsg.includes("PERMISSION_DENIED") ||
+    errMsg.includes("Caller does not have permission")
+  ) {
+    return {
+      code: "PERMISSION_DENIED",
+      message: "Tài khoản Google AI Studio chưa được cấp quyền truy cập mô hình này hoặc vị trí địa lý bị hạn chế.",
+      status: 403,
+    };
+  }
+
+  if (
+    errMsg.includes("fetch failed") ||
+    errMsg.includes("ENOTFOUND") ||
+    errMsg.includes("ETIMEDOUT") ||
+    errMsg.includes("ECONNREFUSED")
+  ) {
+    return {
+      code: "NETWORK_ERROR",
+      message: "Không thể kết nối tới máy chủ Google Gemini. Vui lòng kiểm tra kết nối mạng Internet hoặc thiết lập tường lửa/proxy.",
+      status: 503,
+    };
+  }
+
+  return {
+    code: "UNKNOWN_ERROR",
+    message: `Lỗi kết nối Gemini: ${redactSecrets(errMsg)}`,
+    status: status >= 400 && status < 600 ? status : 500,
+  };
+}
 
 export function getGeminiClient(customApiKey?: string): GoogleGenAI {
   const apiKey = customApiKey || process.env.GEMINI_API_KEY;
@@ -18,6 +116,80 @@ export function getGeminiClient(customApiKey?: string): GoogleGenAI {
 export function isGeminiConfigured(customApiKey?: string): boolean {
   const key = customApiKey || process.env.GEMINI_API_KEY;
   return Boolean(key && key.trim() !== "" && key !== "your_gemini_api_key_here");
+}
+
+export interface TestConnectionResult {
+  success: boolean;
+  model: string;
+  latencyMs: number;
+  message: string;
+  keySource: "env" | "custom";
+  errorInfo?: GeminiErrorInfo;
+}
+
+/**
+ * Kiểm tra kết nối tới Google Gemini API (Admin only).
+ * Thực hiện gọi nhẹ nhàng để đo độ trễ và kiểm tra quyền hạn của model.
+ */
+export async function testGeminiConnection(options?: {
+  customApiKey?: string;
+  model?: string;
+}): Promise<TestConnectionResult> {
+  const customKey = options?.customApiKey?.trim();
+  const envKey = process.env.GEMINI_API_KEY?.trim();
+  const apiKey = customKey || envKey;
+  const keySource: "env" | "custom" = customKey ? "custom" : "env";
+  const targetModel = options?.model || process.env.GEMINI_MODEL || "gemini-2.5-flash";
+
+  if (!apiKey || apiKey === "your_gemini_api_key_here") {
+    return {
+      success: false,
+      model: targetModel,
+      latencyMs: 0,
+      keySource,
+      message: "Chưa cấu hình GEMINI_API_KEY trong file .env.local hoặc giao diện Admin.",
+      errorInfo: {
+        code: "MISSING_API_KEY",
+        message: "Chưa cấu hình GEMINI_API_KEY trong file .env.local hoặc giao diện Admin.",
+        status: 400,
+      },
+    };
+  }
+
+  const startTime = Date.now();
+  try {
+    const ai = new GoogleGenAI({ apiKey });
+    const response = await ai.models.generateContent({
+      model: targetModel,
+      contents: "Phản hồi chính xác một từ duy nhất: PONG",
+      config: {
+        maxOutputTokens: 10,
+        temperature: 0,
+      },
+    });
+
+    const latencyMs = Date.now() - startTime;
+    const responseText = response.text?.trim() || "";
+
+    return {
+      success: true,
+      model: targetModel,
+      latencyMs,
+      keySource,
+      message: `Kết nối thành công tới mô hình ${targetModel}! Độ trễ: ${latencyMs}ms. (Phản hồi: ${responseText || "OK"})`,
+    };
+  } catch (err: any) {
+    const latencyMs = Date.now() - startTime;
+    const errorInfo = parseGeminiError(err);
+    return {
+      success: false,
+      model: targetModel,
+      latencyMs,
+      keySource,
+      message: errorInfo.message,
+      errorInfo,
+    };
+  }
 }
 
 function cleanJsonResponse(rawText: string): any {
@@ -313,3 +485,4 @@ NGUYÊN TẮC TRẢ LỜI CỦA SENSEI:
 
   return response.text || "Sensei chưa thể trả lời lúc này, vui lòng thử lại câu hỏi khác nhé!";
 }
+

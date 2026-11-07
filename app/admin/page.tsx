@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { ExamIndexItem, ExamSurvey, QuestionReport } from "@/lib/types";
 import { getAllSurveys, getAllQuestionReports, exportUserData, importUserData } from "@/lib/storage";
+import { GeminiConnectionChecker } from "@/components/GeminiConnectionChecker";
 import {
   ShieldCheck,
   Plus,
@@ -93,11 +94,11 @@ export default function AdminPage() {
         </div>
 
         <Link
-          href="/admin/import"
+          href="/admin/exams/import"
           className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-indigo-600 text-white text-sm font-bold shadow-md shadow-indigo-100 hover:bg-indigo-700 transition-all shrink-0"
         >
           <Plus className="w-5 h-5" />
-          <span>Thẩm định & Nhập đề mới</span>
+          <span>Thẩm định & Nhập đề mới AI</span>
         </Link>
       </div>
 
@@ -134,6 +135,9 @@ export default function AdminPage() {
         </div>
       </div>
 
+      {/* Trạng thái kết nối Google Gemini API */}
+      <GeminiConnectionChecker />
+
       {/* Danh mục đề thi hiện có */}
       <section className="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-sm space-y-5">
         <div className="flex items-center justify-between pb-3 border-b border-slate-100">
@@ -143,7 +147,7 @@ export default function AdminPage() {
           </div>
 
           <Link
-            href="/admin/import"
+            href="/admin/exams/import"
             className="text-xs font-semibold text-indigo-600 hover:text-indigo-800 flex items-center gap-1"
           >
             <span>Thêm đề mới</span>

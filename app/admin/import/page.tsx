@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { ExamDetail } from "@/lib/types";
 import { AdminReviewEditor } from "@/components/AdminReviewEditor";
+import { GeminiConnectionChecker } from "@/components/GeminiConnectionChecker";
 import {
   Upload,
   CheckCircle2,
@@ -72,8 +73,16 @@ export default function AdminImportPage() {
         formData.append("customApiKey", customApiKey.trim());
       }
 
+      const adminSecret =
+        typeof window !== "undefined"
+          ? localStorage.getItem("jlpt_admin_secret") || "admin123"
+          : "admin123";
+
       const res = await fetch("/api/admin/ai/import", {
         method: "POST",
+        headers: {
+          "x-admin-secret": adminSecret,
+        },
         body: formData,
       });
 
@@ -323,26 +332,11 @@ Nguyên tắc KHÔNG ĐƯỢC VI PHẠM:
 
           {/* Right: API Key Settings & Rules */}
           <div className="lg:col-span-4 space-y-5">
-            {/* API Key Box */}
-            <div className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3">
-              <div className="flex items-center gap-2 text-slate-900 font-bold text-sm">
-                <Key className="w-4 h-4 text-purple-600" />
-                <span>Google Gemini API Key</span>
-              </div>
-              <p className="text-xs text-slate-500 leading-relaxed">
-                Nhập API Key của bạn để backend gọi trực tiếp Google Gemini qua SDK <code>@google/genai</code>:
-              </p>
-              <input
-                type="password"
-                value={customApiKey}
-                onChange={(e) => handleSaveApiKey(e.target.value)}
-                placeholder="AIzaSy..."
-                className="w-full p-2.5 rounded-xl border border-slate-200 text-xs font-mono focus:outline-none focus:border-purple-500"
-              />
-              <span className="text-[11px] text-slate-400 block">
-                * Khóa được lưu an toàn tại trình duyệt hoặc file <code>.env.local</code>.
-              </span>
-            </div>
+            {/* Live Gemini Connection Health Checker */}
+            <GeminiConnectionChecker
+              customApiKey={customApiKey}
+              onApiKeyChange={handleSaveApiKey}
+            />
 
             {/* Principles Box */}
             <div className="bg-slate-50 p-6 rounded-3xl border border-slate-200/80 space-y-3 text-xs text-slate-600">

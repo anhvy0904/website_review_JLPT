@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { examDetailSchema } from "@/lib/validation";
+import { verifyAdminRequest } from "@/lib/auth";
 import fs from "fs";
 import path from "path";
 import { exec } from "child_process";
@@ -9,6 +10,14 @@ const execAsync = promisify(exec);
 
 export async function POST(req: NextRequest) {
   try {
+    const authResult = verifyAdminRequest(req);
+    if (!authResult.authorized) {
+      return NextResponse.json(
+        { success: false, error: authResult.error || "Không có quyền Quản trị viên" },
+        { status: 401 }
+      );
+    }
+
     const body = await req.json();
     const { exam } = body;
 
@@ -61,3 +70,4 @@ export async function POST(req: NextRequest) {
     );
   }
 }
+

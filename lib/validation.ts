@@ -192,3 +192,4 @@ export const examDetailSchema = z
   });
 
 export type ValidatedExamDetail = z.infer<typeof examDetailSchema>;
+

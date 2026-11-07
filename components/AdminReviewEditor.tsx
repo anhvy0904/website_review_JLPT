@@ -76,10 +76,16 @@ export function AdminReviewEditor({
     setIsGeneratingExplanations(true);
     setPublishMessage(null);
     try {
+      const adminSecret = typeof window !== "undefined" ? localStorage.getItem("jlpt_admin_secret") || "admin123" : "admin123";
+      const customApiKey = typeof window !== "undefined" ? localStorage.getItem("jlpt_gemini_api_key") || "" : "";
+
       const res = await fetch("/api/admin/ai/explain", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ exam }),
+        headers: {
+          "Content-Type": "application/json",
+          "x-admin-secret": adminSecret,
+        },
+        body: JSON.stringify({ exam, customApiKey: customApiKey || undefined }),
       });
 
       const data = await res.json();
@@ -127,9 +133,14 @@ export function AdminReviewEditor({
         })),
       };
 
+      const adminSecret = typeof window !== "undefined" ? localStorage.getItem("jlpt_admin_secret") || "admin123" : "admin123";
+
       const res = await fetch("/api/admin/exams/publish", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "x-admin-secret": adminSecret,
+        },
         body: JSON.stringify({ exam: verifiedExam }),
       });
 
@@ -537,3 +548,4 @@ export function AdminReviewEditor({
     </div>
   );
 }
+
