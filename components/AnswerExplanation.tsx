@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { ExamQuestion } from "@/lib/types";
 import { FuriganaRuby } from "./FuriganaRuby";
 import { AITutorChat } from "./AITutorChat";
@@ -16,6 +17,7 @@ import {
   AlertTriangle,
   Send,
   Check,
+  ArrowRight,
 } from "lucide-react";
 
 interface AnswerExplanationProps {
@@ -55,6 +57,40 @@ export function AnswerExplanation({
 
   const selectedOption = question.options.find((o) => o.id === selectedOptionId);
   const correctOption = question.options.find((o) => o.id === question.correctOptionId);
+
+  // Detect related learning module per PRD Addendum Section A3
+  const getRelatedTopicLink = () => {
+    const textToScan = `${question.subtype} ${(question.tags || []).join(" ")} ${question.questionText}`.toLowerCase();
+    
+    if (textToScan.includes("causative_passive") || textToScan.includes("使役受身") || textToScan.includes("bị động sai khiến")) {
+      return { href: "/learn/verb-forms/causative-passive", label: "Thể bị động sai khiến (使役受身形)" };
+    }
+    if (textToScan.includes("causative") || textToScan.includes("使役") || textToScan.includes("sai khiến")) {
+      return { href: "/learn/verb-forms/causative", label: "Thể sai khiến (使役形)" };
+    }
+    if (textToScan.includes("passive") || textToScan.includes("受身") || textToScan.includes("bị động")) {
+      return { href: "/learn/verb-forms/passive", label: "Thể bị động (受身形)" };
+    }
+    if (textToScan.includes("potential") || textToScan.includes("可能") || textToScan.includes("khả năng")) {
+      return { href: "/learn/verb-forms/potential", label: "Thể khả năng (可能形)" };
+    }
+    if (
+      textToScan.includes("keigo") ||
+      textToScan.includes("kính ngữ") ||
+      textToScan.includes("khiêm nhường") ||
+      textToScan.includes("敬語") ||
+      textToScan.includes("謙譲語") ||
+      textToScan.includes("尊敬語")
+    ) {
+      return { href: "/learn/keigo", label: "Kính ngữ & Khiêm nhường ngữ (敬語・謙譲語)" };
+    }
+    if (textToScan.includes("verb") || textToScan.includes("động từ") || textToScan.includes("thể")) {
+      return { href: "/learn/verb-forms", label: "12 Thể Động Từ JLPT N3" };
+    }
+    return null;
+  };
+
+  const relatedTopic = getRelatedTopicLink();
 
   return (
     <div
@@ -276,6 +312,26 @@ export function AnswerExplanation({
               <span className="font-bold">Mẹo nhận diện & Bẫy thường gặp: </span>
               <span className="leading-relaxed">{explanation.studyTipVi}</span>
             </div>
+          </div>
+        )}
+
+        {/* Chuyên đề liên quan (Cross-link to Learning Modules) */}
+        {relatedTopic && (
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 rounded-2xl bg-[#E8F5E9] border-2 border-[#A5D6A7] text-xs">
+            <div className="flex items-center gap-2.5 text-[#1B5E20]">
+              <span className="text-base">📚</span>
+              <div>
+                <span className="font-semibold block sm:inline">Ôn lại chuyên đề ngữ pháp liên quan: </span>
+                <strong className="text-[#2E7D32]">{relatedTopic.label}</strong>
+              </div>
+            </div>
+            <Link
+              href={relatedTopic.href}
+              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-[#1B5E20] hover:bg-[#2E7D32] text-white font-bold transition-all shrink-0 shadow-sm"
+            >
+              <span>Xem bài học</span>
+              <ArrowRight className="w-3.5 h-3.5 text-[#A5D6A7]" />
+            </Link>
           </div>
         )}
 

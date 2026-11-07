@@ -1,0 +1,1529 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "n3-vocab-master-001",
+  "title": "Đề Thi Thực Chiến Chữ Hán & Từ Vựng N3 (Chuẩn 25 Câu)",
+  "level": "N3",
+  "status": "published",
+  "description": "Bộ đề trắc nghiệm chuẩn hoá 25 câu hỏi Kiến thức Ngôn ngữ (Từ vựng & Chữ Hán) mô phỏng 100% định dạng JLPT N3: Mondai 1 Cách đọc Kanji, Mondai 2 Cách viết Kanji, Mondai 3 Điền từ ngữ cảnh, Mondai 4 Từ gần nghĩa. Kèm lời giải chi tiết 100% tiếng Việt cho từng lựa chọn.",
+  "settings": {
+    "timeLimitMinutes": 30,
+    "passingScorePercent": 60,
+    "allowPracticeMode": true,
+    "allowExamMode": true
+  },
+  "sectionCounts": {
+    "vocabulary": 25,
+    "grammar": 0,
+    "reading": 0
+  },
+  "questionCount": 25,
+  "tags": [
+    "chữ hán",
+    "từ vựng",
+    "mondai 1-4",
+    "thực chiến n3",
+    "đề chuẩn"
+  ],
+  "createdAt": "2026-11-07T04:54:48.843Z",
+  "updatedAt": "2026-11-07T04:54:48.844Z",
+  "questions": [
+    {
+      "id": "q_vm_01",
+      "number": 1,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "questionText": "川でおぼれそうになった子どもを【救った】。",
+      "options": [
+        {
+          "id": "A",
+          "text": "すくった"
+        },
+        {
+          "id": "B",
+          "text": "たすかった"
+        },
+        {
+          "id": "C",
+          "text": "まもった"
+        },
+        {
+          "id": "D",
+          "text": "いのった"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "kanji_reading",
+        "cuu_giup"
+      ],
+      "explanation": {
+        "summaryVi": "Chữ Hán 救 (CỨU) có âm Kunyomi là すく・う, thể quá khứ là すくった.",
+        "correctReasonVi": "救う (すくう): cứu giúp, cứu vớt. Cụ thể '子どもを救った' nghĩa là 'đã cứu đứa trẻ'.",
+        "optionReasonsVi": {
+          "A": "Đúng. 救う (すくう) -> 救った (すくった): đã cứu vớt.",
+          "B": "Sai. たすかった là thể quá khứ của 助かる (được cứu - tự động từ, Hán tự 助).",
+          "C": "Sai. まもった là thể quá khứ của 守る (bảo vệ, tuân thủ - Hán tự 守).",
+          "D": "Sai. いのった là thể quá khứ của 祈る (cầu nguyện - Hán tự 祈)."
+        },
+        "translationVi": "Tôi đã cứu đứa trẻ suýt bị đuối nước ở con sông.",
+        "vocabulary": [
+          {
+            "word": "救う",
+            "hiragana": "すくう",
+            "meaningVi": "cứu giúp, cứu vớt"
+          },
+          {
+            "word": "川",
+            "hiragana": "かわ",
+            "meaningVi": "con sông"
+          },
+          {
+            "word": "子ども",
+            "hiragana": "こども",
+            "meaningVi": "trẻ em"
+          }
+        ],
+        "studyTipVi": "Cần phân biệt tha động từ 救う (すくう - cứu ai) và tự động từ 助かる (たすかる - được cứu)."
+      },
+      "review": {
+        "status": "verified",
+        "notes": "Đề chuẩn N3 Chữ Hán Cứu"
+      }
+    },
+    {
+      "id": "q_vm_02",
+      "number": 2,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "questionText": "あの二人は【偶然】駅の前で出会った。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ぐぜん"
+        },
+        {
+          "id": "B",
+          "text": "ぐうぜん"
+        },
+        {
+          "id": "C",
+          "text": "こうぜん"
+        },
+        {
+          "id": "D",
+          "text": "きゅうぜん"
+        }
+      ],
+      "correctOptionId": "B",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "kanji_reading",
+        "ngau_nhien"
+      ],
+      "explanation": {
+        "summaryVi": "Chữ Hán 偶然 (NGẪU NHIÊN) đọc chuẩn xác là ぐうぜん (âm dài).",
+        "correctReasonVi": "偶 (NGẪU) có âm On là ぐう (trường âm), 然 (NHIÊN) đọc là ぜん. Kết hợp là ぐうぜん (tình cờ, ngẫu nhiên).",
+        "optionReasonsVi": {
+          "A": "Sai vì thiếu trường âm ぐう.",
+          "B": "Đúng. 偶然 (ぐうぜん): tình cờ, ngẫu nhiên.",
+          "C": "Sai vì đọc nhầm âm 偶 thành こう.",
+          "D": "Sai vì đọc nhầm âm 偶 thành きゅう."
+        },
+        "translationVi": "Hai người đó đã tình cờ gặp nhau ở trước nhà ga.",
+        "vocabulary": [
+          {
+            "word": "偶然",
+            "hiragana": "ぐうぜん",
+            "meaningVi": "tình cờ, ngẫu nhiên"
+          },
+          {
+            "word": "出会う",
+            "hiragana": "であう",
+            "meaningVi": "tình cờ gặp gỡ"
+          }
+        ],
+        "studyTipVi": "Các chữ có âm 'NGẪU' thường có trường âm On là ぐう (ví dụ: 偶数 - ぐうすう: số chẵn)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_03",
+      "number": 3,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "questionText": "毎月の【給料】を楽しみに待っている。",
+      "options": [
+        {
+          "id": "A",
+          "text": "きゅうりょう"
+        },
+        {
+          "id": "B",
+          "text": "きゅりょう"
+        },
+        {
+          "id": "C",
+          "text": "きょうりょう"
+        },
+        {
+          "id": "D",
+          "text": "ぎゅうりょう"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 2,
+      "tags": [
+        "n3_vocab",
+        "kanji_reading"
+      ],
+      "explanation": {
+        "summaryVi": "Chữ Hán 給料 (CẤP LIỆU) đọc là きゅうりょう.",
+        "correctReasonVi": "給 (CẤP) đọc là きゅう, 料 (LIỆU) đọc là りょう. Kết hợp thành きゅうりょう (tiền lương).",
+        "optionReasonsVi": {
+          "A": "Đúng. 給料 (きゅうりょう): tiền lương hàng tháng.",
+          "B": "Sai vì thiếu trường âm ゅう ở chữ 給.",
+          "C": "Sai vì nhầm âm きゅう thành きょう.",
+          "D": "Sai vì chữ 給 không có âm đục ぎゅう."
+        },
+        "translationVi": "Tôi đang háo hức mong chờ tiền lương mỗi tháng.",
+        "vocabulary": [
+          {
+            "word": "給料",
+            "hiragana": "きゅうりょう",
+            "meaningVi": "tiền lương"
+          },
+          {
+            "word": "毎月",
+            "hiragana": "まいつき",
+            "meaningVi": "mỗi tháng"
+          }
+        ],
+        "studyTipVi": "Phân biệt 給料 (きゅうりょう - lương chung) và 賃金 (ちんぎん - tiền công tính theo giờ/ngày)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_04",
+      "number": 4,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "questionText": "この地域の気候は農業に【適して】いる。",
+      "options": [
+        {
+          "id": "A",
+          "text": "てきして"
+        },
+        {
+          "id": "B",
+          "text": "てきして"
+        },
+        {
+          "id": "C",
+          "text": "てきして"
+        },
+        {
+          "id": "D",
+          "text": "てきして"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "kanji_reading"
+      ],
+      "explanation": {
+        "summaryVi": "Chữ Hán 適 (THÍCH) trong động từ 適する đọc là てきする.",
+        "correctReasonVi": "適する (てきする): thích hợp, phù hợp. Cụ thể '適している' đọc là てきしている.",
+        "optionReasonsVi": {
+          "A": "Đúng. 適する (てきする) -> てきしている: thích hợp.",
+          "B": "Sai nếu phát âm thành âm khác.",
+          "C": "Sai.",
+          "D": "Sai."
+        },
+        "translationVi": "Khí hậu của khu vực này thích hợp cho việc làm nông nghiệp.",
+        "vocabulary": [
+          {
+            "word": "適する",
+            "hiragana": "てきする",
+            "meaningVi": "thích hợp, phù hợp"
+          },
+          {
+            "word": "気候",
+            "hiragana": "きこう",
+            "meaningVi": "khí hậu"
+          },
+          {
+            "word": "農業",
+            "hiragana": "のうぎょう",
+            "meaningVi": "nông nghiệp"
+          }
+        ],
+        "studyTipVi": "Cụm cố định: 〜に適している (thích hợp với cái gì)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_05",
+      "number": 5,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "questionText": "会議で新しい企画を【提案】した。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ていあん"
+        },
+        {
+          "id": "B",
+          "text": "たいあん"
+        },
+        {
+          "id": "C",
+          "text": "ていかん"
+        },
+        {
+          "id": "D",
+          "text": "たいかん"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 2,
+      "tags": [
+        "n3_vocab",
+        "kanji_reading"
+      ],
+      "explanation": {
+        "summaryVi": "Chữ Hán 提案 (ĐỀ ÁN) đọc là ていあん.",
+        "correctReasonVi": "提 (ĐỀ) đọc là てい, 案 (ÁN) đọc là あん. Kết hợp: ていあん (đề xuất, kiến nghị).",
+        "optionReasonsVi": {
+          "A": "Đúng. 提案 (ていあん): đề xuất ý tưởng, phương án.",
+          "B": "Sai vì nhầm âm 提 thành たい.",
+          "C": "Sai vì nhầm âm 案 thành かん.",
+          "D": "Sai cả hai âm Hán tự."
+        },
+        "translationVi": "Tôi đã đề xuất một kế hoạch mới trong cuộc họp.",
+        "vocabulary": [
+          {
+            "word": "提案",
+            "hiragana": "ていあん",
+            "meaningVi": "đề xuất, kiến nghị"
+          },
+          {
+            "word": "会議",
+            "hiragana": "かいぎ",
+            "meaningVi": "cuộc họp"
+          }
+        ],
+        "studyTipVi": "Các từ ghép có chữ 提 (ĐỀ): 提出 (ていしゅつ: nộp), 提供 (ていきょう: cung cấp)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_06",
+      "number": 6,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "questionText": "彼は【正直】な性格なので、嘘をつかない。",
+      "options": [
+        {
+          "id": "A",
+          "text": "しょうじき"
+        },
+        {
+          "id": "B",
+          "text": "せいじき"
+        },
+        {
+          "id": "C",
+          "text": "しょうちく"
+        },
+        {
+          "id": "D",
+          "text": "せいちく"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "kanji_reading"
+      ],
+      "explanation": {
+        "summaryVi": "Chữ Hán 正直 (CHÍNH TRỰC) đọc là しょうじき.",
+        "correctReasonVi": "正 trong từ này lấy âm Go-on là しょう, 直 đọc là じき. Kết hợp thành しょうじき (thành thật, chính trực).",
+        "optionReasonsVi": {
+          "A": "Đúng. 正直 (しょうじき): thật thà, trung thực.",
+          "B": "Sai vì đọc nhầm 正 theo Kan-on là せい (ví dụ: 正確 - せいかく).",
+          "C": "Sai vì nhầm 直 thành ちく.",
+          "D": "Sai cả 2 chữ Hán."
+        },
+        "translationVi": "Anh ấy là người có tính cách thật thà nên không bao giờ nói dối.",
+        "vocabulary": [
+          {
+            "word": "正直",
+            "hiragana": "しょうじき",
+            "meaningVi": "thành thật, trung thực"
+          },
+          {
+            "word": "性格",
+            "hiragana": "せいかく",
+            "meaningVi": "tính cách"
+          },
+          {
+            "word": "嘘",
+            "hiragana": "うそ",
+            "meaningVi": "lời nói dối"
+          }
+        ],
+        "studyTipVi": "Cần lưu ý chữ 正 có 2 âm On phổ biến: せい (正解) và しょう (正直, 正午)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_07",
+      "number": 7,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "questionText": "この機械の【構造】はとても複雑だ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "こうぞう"
+        },
+        {
+          "id": "B",
+          "text": "こぞう"
+        },
+        {
+          "id": "C",
+          "text": "こうそう"
+        },
+        {
+          "id": "D",
+          "text": "ごうぞう"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "kanji_reading"
+      ],
+      "explanation": {
+        "summaryVi": "Chữ Hán 構造 (CẤU TẠO) đọc là こうぞう.",
+        "correctReasonVi": "構 (CẤU) đọc là こう, 造 (TẠO) đọc là ぞう (âm đục). Kết hợp thành こうぞう.",
+        "optionReasonsVi": {
+          "A": "Đúng. 構造 (こうぞう): cấu tạo, kết cấu.",
+          "B": "Sai vì thiếu trường âm こう.",
+          "C": "Sai vì thiếu âm đục ぞう.",
+          "D": "Sai vì chữ 構 không có âm đục ごう."
+        },
+        "translationVi": "Cấu tạo của cỗ máy này rất phức tạp.",
+        "vocabulary": [
+          {
+            "word": "構造",
+            "hiragana": "こうぞう",
+            "meaningVi": "cấu tạo, kết cấu"
+          },
+          {
+            "word": "複雑",
+            "hiragana": "ふくざつ",
+            "meaningVi": "phức tạp"
+          }
+        ],
+        "studyTipVi": "Chữ 造 trong âm On thường đọc đục là ぞう (như 構造, 木造 - もくぞう)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_08",
+      "number": 8,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "questionText": "図書館の利用規約をよく【確認】してください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "かくにん"
+        },
+        {
+          "id": "B",
+          "text": "がくにん"
+        },
+        {
+          "id": "C",
+          "text": "かんにん"
+        },
+        {
+          "id": "D",
+          "text": "かっにん"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 2,
+      "tags": [
+        "n3_vocab",
+        "kanji_reading"
+      ],
+      "explanation": {
+        "summaryVi": "Chữ Hán 確認 (XÁC NHẬN) đọc là かくにん.",
+        "correctReasonVi": "確 (XÁC) đọc là かく, 認 (NHẬN) đọc là にん. Kết hợp thành かくにん (kiểm tra, xác nhận lại).",
+        "optionReasonsVi": {
+          "A": "Đúng. 確認 (かくにん): xác nhận.",
+          "B": "Sai vì chữ 確 không có âm đục がく.",
+          "C": "Sai vì nhầm かく thành かん.",
+          "D": "Sai vì không biến thành âm ngắt っ."
+        },
+        "translationVi": "Xin vui lòng kiểm tra kỹ quy định sử dụng thư viện.",
+        "vocabulary": [
+          {
+            "word": "確認",
+            "hiragana": "かくにん",
+            "meaningVi": "xác nhận, kiểm tra"
+          },
+          {
+            "word": "規約",
+            "hiragana": "きやく",
+            "meaningVi": "quy ước, điều khoản"
+          }
+        ],
+        "studyTipVi": "Cụm thường gặp trong đề thi: 確認を取る (lấy xác nhận)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_09",
+      "number": 9,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "山田さんは友達に本を【かした】。",
+      "options": [
+        {
+          "id": "A",
+          "text": "貸した"
+        },
+        {
+          "id": "B",
+          "text": "借した"
+        },
+        {
+          "id": "C",
+          "text": "賃した"
+        },
+        {
+          "id": "D",
+          "text": "買した"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 2,
+      "tags": [
+        "n3_vocab",
+        "kanji_writing"
+      ],
+      "explanation": {
+        "summaryVi": "かした là quá khứ của 貸す (THẢI), viết chữ Hán là 貸した.",
+        "correctReasonVi": "貸す (かす) có chữ Hán là 貸, nghĩa là cho mượn. Phân biệt với 借りる (かりる - TÁ: đi mượn).",
+        "optionReasonsVi": {
+          "A": "Đúng. 貸す (THẢI: cho mượn) -> 貸した.",
+          "B": "Sai. 借 là chữ TÁ trong 借りる (かりる: mượn của ai).",
+          "C": "Sai. 賃 là chữ NHẪM (tiền thuê: 賃貸, 家賃).",
+          "D": "Sai. 買 là chữ MÃI (mua: 買う)."
+        },
+        "translationVi": "Anh Yamada đã cho bạn mượn sách.",
+        "vocabulary": [
+          {
+            "word": "貸す",
+            "hiragana": "かす",
+            "meaningVi": "cho mượn"
+          },
+          {
+            "word": "借りる",
+            "hiragana": "かりる",
+            "meaningVi": "đi mượn"
+          }
+        ],
+        "studyTipVi": "Mẹo nhớ: '貸' bên trên có chữ 代 (thay thế), dưới có bộ 貝 (tiền) -> cho người khác mượn."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_10",
+      "number": 10,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "新しい仕事の条件を【ひかく】して決めた。",
+      "options": [
+        {
+          "id": "A",
+          "text": "比較"
+        },
+        {
+          "id": "B",
+          "text": "比校"
+        },
+        {
+          "id": "C",
+          "text": "批較"
+        },
+        {
+          "id": "D",
+          "text": "批校"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "kanji_writing"
+      ],
+      "explanation": {
+        "summaryVi": "Từ ひかく viết chữ Hán đúng là 比較 (TỶ KHẢO - so sánh).",
+        "correctReasonVi": "比 (TỶ: 比べる) và 較 (KHẢO: so sánh có bộ Xa 車 bên trái).",
+        "optionReasonsVi": {
+          "A": "Đúng. 比較 (ひかく): so sánh đối chiếu.",
+          "B": "Sai vì chữ 校 là TRƯỜNG trong 学校.",
+          "C": "Sai vì chữ 批 là PHÊ trong 批判.",
+          "D": "Sai cả 2 chữ Hán."
+        },
+        "translationVi": "Tôi đã so sánh các điều kiện của công việc mới rồi mới đưa ra quyết định.",
+        "vocabulary": [
+          {
+            "word": "比較",
+            "hiragana": "ひかく",
+            "meaningVi": "so sánh"
+          },
+          {
+            "word": "条件",
+            "hiragana": "じょうけん",
+            "meaningVi": "điều kiện"
+          }
+        ],
+        "studyTipVi": "Cần chú ý bộ 車 trong chữ 較 để không nhầm với chữ 校 (bộ Mộc 木)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_11",
+      "number": 11,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "駅前のホテルをインターネットで【よやく】した。",
+      "options": [
+        {
+          "id": "A",
+          "text": "予約"
+        },
+        {
+          "id": "B",
+          "text": "予諾"
+        },
+        {
+          "id": "C",
+          "text": "預約"
+        },
+        {
+          "id": "D",
+          "text": "与約"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 2,
+      "tags": [
+        "n3_vocab",
+        "kanji_writing"
+      ],
+      "explanation": {
+        "summaryVi": "Từ よやく viết chữ Hán đúng là 予約 (DỰ ƯỚC).",
+        "correctReasonVi": "予 (DỰ - trước, sẵn) + 約 (ƯỚC - hẹn ước). Kết hợp là 予約 (đặt trước).",
+        "optionReasonsVi": {
+          "A": "Đúng. 予約 (よやく): đặt trước.",
+          "B": "Sai chữ 諾 (NẶC trong 承諾).",
+          "C": "Sai chữ 預 (DỰ trong 預ける: gửi tiền, gửi đồ).",
+          "D": "Sai chữ 与 (DỮ trong 与える: ban cho)."
+        },
+        "translationVi": "Tôi đã đặt trước khách sạn trước ga qua Internet.",
+        "vocabulary": [
+          {
+            "word": "予約",
+            "hiragana": "よやく",
+            "meaningVi": "đặt trước"
+          }
+        ],
+        "studyTipVi": "Phân biệt 予 (DỰ: trước) và 預 (DỰ: ký gửi, gửi tiền tiết kiệm 預金)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_12",
+      "number": 12,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "彼は周囲の意見をよく【きいて】から判断する。",
+      "options": [
+        {
+          "id": "A",
+          "text": "聞いて"
+        },
+        {
+          "id": "B",
+          "text": "利いて"
+        },
+        {
+          "id": "C",
+          "text": "効いて"
+        },
+        {
+          "id": "D",
+          "text": "効いて"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 2,
+      "tags": [
+        "n3_vocab",
+        "kanji_writing"
+      ],
+      "explanation": {
+        "summaryVi": "きいて trong ngữ cảnh 'lắng nghe ý kiến của mọi người' viết là 聞いて (VĂN).",
+        "correctReasonVi": "聞く (きく: nghe) -> 聞いて. Phân biệt với 効く/利く (có hiệu quả, phát huy tác dụng).",
+        "optionReasonsVi": {
+          "A": "Đúng. 聞いて: lắng nghe.",
+          "B": "Sai. 利く (có tác dụng, nhạy bén: 鼻が利く).",
+          "C": "Sai. 効く (thuốc có tác dụng: 薬が効く).",
+          "D": "Sai."
+        },
+        "translationVi": "Anh ấy luôn lắng nghe ý kiến của những người xung quanh rồi mới phán đoán.",
+        "vocabulary": [
+          {
+            "word": "周囲",
+            "hiragana": "しゅうい",
+            "meaningVi": "xung quanh"
+          },
+          {
+            "word": "意見",
+            "hiragana": "いけん",
+            "meaningVi": "ý kiến"
+          },
+          {
+            "word": "判断",
+            "hiragana": "はんだん",
+            "meaningVi": "phán đoán"
+          }
+        ],
+        "studyTipVi": "Tránh nhầm lẫn 3 chữ Hán cùng đọc là きく: 聞く (nghe, hỏi), 聴く (thưởng thức âm nhạc), 効く (có công hiệu)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_13",
+      "number": 13,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "この地域は水が【ゆたか】で、米作りが盛んだ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "豊か"
+        },
+        {
+          "id": "B",
+          "text": "登か"
+        },
+        {
+          "id": "C",
+          "text": "豆か"
+        },
+        {
+          "id": "D",
+          "text": "富か"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "kanji_writing"
+      ],
+      "explanation": {
+        "summaryVi": "Từ ゆたか viết chữ Hán đúng là 豊か (PHONG - phong phú, dồi dào).",
+        "correctReasonVi": "豊 (PHONG) có chữ Kunyomi là ゆた・か (phong phú, trù phú).",
+        "optionReasonsVi": {
+          "A": "Đúng. 豊か (ゆたか): dồi dào, phong phú.",
+          "B": "Sai chữ 登 (ĐĂNG trong 登る: leo núi).",
+          "C": "Sai chữ 豆 (ĐẬU trong đậu hạt).",
+          "D": "Sai chữ 富 (PHÚ trong 富む - とむ, hoặc 富士山 - ふじさん)."
+        },
+        "translationVi": "Khu vực này nguồn nước dồi dào nên nghề trồng lúa rất phát triển.",
+        "vocabulary": [
+          {
+            "word": "豊か",
+            "hiragana": "ゆたか",
+            "meaningVi": "dồi dào, phong phú"
+          },
+          {
+            "word": "米作り",
+            "hiragana": "こめづくり",
+            "meaningVi": "trồng lúa"
+          },
+          {
+            "word": "盛ん",
+            "hiragana": "さかん",
+            "meaningVi": "phát triển, thịnh hành"
+          }
+        ],
+        "studyTipVi": "Chữ 豊 (PHONG) bao gồm chữ 曲 ở trên và chữ 豆 ở dưới, nghĩa là mùa màng phong phú đựng đầy bát đĩa."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_14",
+      "number": 14,
+      "section": "vocabulary",
+      "subtype": "kanji_writing",
+      "questionText": "この小説は世界中の人々に【あいされて】いる。",
+      "options": [
+        {
+          "id": "A",
+          "text": "愛されて"
+        },
+        {
+          "id": "B",
+          "text": "受されて"
+        },
+        {
+          "id": "C",
+          "text": "妥されて"
+        },
+        {
+          "id": "D",
+          "text": "要されて"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 2,
+      "tags": [
+        "n3_vocab",
+        "kanji_writing"
+      ],
+      "explanation": {
+        "summaryVi": "あいされて là thể bị động của động từ 愛する (ÁI - yêu thương), viết chữ Hán là 愛されて.",
+        "correctReasonVi": "愛 (ÁI: yêu mến) -> 愛する -> 愛される -> 愛されて (được yêu mến).",
+        "optionReasonsVi": {
+          "A": "Đúng. 愛されて: được yêu mến, yêu quý.",
+          "B": "Sai chữ 受 (THỤ: nhận).",
+          "C": "Sai chữ 妥 (THỎA trong 妥協).",
+          "D": "Sai chữ 要 (YẾU trong 必要)."
+        },
+        "translationVi": "Cuốn tiểu thuyết này được mọi người trên khắp thế giới yêu mến.",
+        "vocabulary": [
+          {
+            "word": "愛する",
+            "hiragana": "あいする",
+            "meaningVi": "yêu mến, yêu thương"
+          },
+          {
+            "word": "小説",
+            "hiragana": "しょうせつ",
+            "meaningVi": "tiểu thuyết"
+          },
+          {
+            "word": "世界中",
+            "hiragana": "せかいじゅう",
+            "meaningVi": "khắp thế giới"
+          }
+        ],
+        "studyTipVi": "Động từ bất quy tắc nhóm III: 愛する -> 愛される (thể bị động)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_15",
+      "number": 15,
+      "section": "vocabulary",
+      "subtype": "contextual_meaning",
+      "questionText": "レポートの締め切りに間に合わないので、先生に締め切りの（　　）をお願いした。",
+      "options": [
+        {
+          "id": "A",
+          "text": "延期"
+        },
+        {
+          "id": "B",
+          "text": "中止"
+        },
+        {
+          "id": "C",
+          "text": "停止"
+        },
+        {
+          "id": "D",
+          "text": "退学"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "contextual_meaning"
+      ],
+      "explanation": {
+        "summaryVi": "Không kịp hạn nộp báo cáo nên cần xin thầy giáo gia hạn/hoãn lùi thời hạn, dùng 延期 (えんき).",
+        "correctReasonVi": "延期 (えんき): lùi ngày, hoãn lại sang ngày khác. Rất phù hợp với ngữ cảnh dời hạn chót.",
+        "optionReasonsVi": {
+          "A": "Đúng. 延期 (えんき): hoãn lại sang thời gian sau.",
+          "B": "Sai. 中止 (ちゅうし): hủy bỏ hoàn toàn việc đó.",
+          "C": "Sai. 停止 (ていし): đình chỉ, tạm dừng vận hành thiết bị/máy móc.",
+          "D": "Sai. 退学 (たいがく): thôi học, bỏ học."
+        },
+        "translationVi": "Vì không kịp hạn nộp báo cáo nên tôi đã xin thầy giáo cho hoãn thời hạn lại.",
+        "vocabulary": [
+          {
+            "word": "延期",
+            "hiragana": "えんき",
+            "meaningVi": "hoãn lại, dời ngày"
+          },
+          {
+            "word": "締め切り",
+            "hiragana": "しめきり",
+            "meaningVi": "hạn chót"
+          },
+          {
+            "word": "間に合う",
+            "hiragana": "まにあう",
+            "meaningVi": "kịp giờ"
+          }
+        ],
+        "studyTipVi": "Phân biệt 延期 (hoãn lại làm sau) và 中止 (hủy hẳn, không làm nữa)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_16",
+      "number": 16,
+      "section": "vocabulary",
+      "subtype": "contextual_meaning",
+      "questionText": "彼はいつも（　　）な態度で客と接するので、信頼されている。",
+      "options": [
+        {
+          "id": "A",
+          "text": "丁寧"
+        },
+        {
+          "id": "B",
+          "text": "退屈"
+        },
+        {
+          "id": "C",
+          "text": "厄介"
+        },
+        {
+          "id": "D",
+          "text": "乱暴"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 2,
+      "tags": [
+        "n3_vocab",
+        "contextual_meaning"
+      ],
+      "explanation": {
+        "summaryVi": "Được khách hàng tin cậy nhờ thái độ lịch sự, chu đáo: dùng tính từ 丁寧 (ていねい).",
+        "correctReasonVi": "丁寧な態度 (thái độ lịch thiệp, chu đáo, hòa nhã).",
+        "optionReasonsVi": {
+          "A": "Đúng. 丁寧 (ていねい): lịch sự, cẩn thận.",
+          "B": "Sai. 退屈 (たいくつ): buồn chán, tẻ nhạt.",
+          "C": "Sai. 厄介 (やっかい): phiền toái, rắc rối.",
+          "D": "Sai. 乱暴 (らんぼう): thô bạo, cục súc."
+        },
+        "translationVi": "Anh ấy luôn tiếp xúc với khách hàng bằng thái độ lịch sự nên rất được tin tưởng.",
+        "vocabulary": [
+          {
+            "word": "丁寧",
+            "hiragana": "ていねい",
+            "meaningVi": "lịch sự, chu đáo"
+          },
+          {
+            "word": "態度",
+            "hiragana": "たいど",
+            "meaningVi": "thái độ"
+          },
+          {
+            "word": "接する",
+            "hiragana": "せっする",
+            "meaningVi": "tiếp xúc"
+          },
+          {
+            "word": "信頼",
+            "hiragana": "しんらい",
+            "meaningVi": "tin tưởng"
+          }
+        ],
+        "studyTipVi": "丁寧 là một trong 3 nhánh lớn của Kính ngữ (丁寧語 - ていねいご)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_17",
+      "number": 17,
+      "section": "vocabulary",
+      "subtype": "contextual_meaning",
+      "questionText": "雨が降ってきたので、洗濯物を急いで（　　）。",
+      "options": [
+        {
+          "id": "A",
+          "text": "取り込んだ"
+        },
+        {
+          "id": "B",
+          "text": "払い戻した"
+        },
+        {
+          "id": "C",
+          "text": "引き受けた"
+        },
+        {
+          "id": "D",
+          "text": "差し引いた"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "contextual_meaning"
+      ],
+      "explanation": {
+        "summaryVi": "Trời mưa thì phải nhanh chóng thu quần áo phơi vào nhà, dùng cụm 洗濯物を取り込む.",
+        "correctReasonVi": "取り込む (とりこむ): thu vào, lấy vào bên trong (quần áo phơi ngoài sân).",
+        "optionReasonsVi": {
+          "A": "Đúng. 取り込む (とりこむ): thu quần áo vào nhà.",
+          "B": "Sai. 払い戻す (はらいもどす): hoàn tiền vé/tiền hàng.",
+          "C": "Sai. 引き受ける (ひきうける): đảm nhận công việc/trách nhiệm.",
+          "D": "Sai. 差し引く (さしひく): khấu trừ tiền."
+        },
+        "translationVi": "Vì trời đổ mưa nên tôi vội vàng thu quần áo phơi vào nhà.",
+        "vocabulary": [
+          {
+            "word": "取り込む",
+            "hiragana": "とりこむ",
+            "meaningVi": "thu vào, gom vào"
+          },
+          {
+            "word": "洗濯物",
+            "hiragana": "せんたくもの",
+            "meaningVi": "quần áo giặt"
+          }
+        ],
+        "studyTipVi": "Cụm từ ghép N3 bắt buộc nhớ: 洗濯物を取り込む (thu quần áo phơi)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_18",
+      "number": 18,
+      "section": "vocabulary",
+      "subtype": "contextual_meaning",
+      "questionText": "この靴はとても軽くて（　　）ので、毎日履いても疲れません。",
+      "options": [
+        {
+          "id": "A",
+          "text": "頑丈な"
+        },
+        {
+          "id": "B",
+          "text": "退屈な"
+        },
+        {
+          "id": "C",
+          "text": "邪魔な"
+        },
+        {
+          "id": "D",
+          "text": "器用な"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "contextual_meaning"
+      ],
+      "explanation": {
+        "summaryVi": "Giày nhẹ và bền chắc (顽丈) nên đi mỗi ngày không mệt.",
+        "correctReasonVi": "頑丈 (がんじょう): bền vững, chắc chắn, kiên cố.",
+        "optionReasonsVi": {
+          "A": "Đúng. 頑丈 (がんじょう): bền chắc, dẻo dai.",
+          "B": "Sai. 退屈 (たいくつ): nhàm chán.",
+          "C": "Sai. 邪魔 (じゃま): cản trở, vướng víu.",
+          "D": "Sai. 器用 (きよう): khéo léo tay chân."
+        },
+        "translationVi": "Đôi giày này vừa nhẹ lại vừa bền chắc nên đi hàng ngày cũng không thấy mệt.",
+        "vocabulary": [
+          {
+            "word": "頑丈",
+            "hiragana": "がんじょう",
+            "meaningVi": "bền chắc, kiên cố"
+          },
+          {
+            "word": "靴",
+            "hiragana": "くつ",
+            "meaningVi": "đôi giày"
+          },
+          {
+            "word": "履く",
+            "hiragana": "はく",
+            "meaningVi": "đi, xỏ (giày, quần)"
+          }
+        ],
+        "studyTipVi": "頑丈 (bền chắc về vật chất/thể lực), phân biệt với 慎重 (thận trọng về tính cách)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_19",
+      "number": 19,
+      "section": "vocabulary",
+      "subtype": "contextual_meaning",
+      "questionText": "バスが遅れた（　　）、約束の時間に間に合わなかった。",
+      "options": [
+        {
+          "id": "A",
+          "text": "せいで"
+        },
+        {
+          "id": "B",
+          "text": "おかげで"
+        },
+        {
+          "id": "C",
+          "text": "ついでに"
+        },
+        {
+          "id": "D",
+          "text": "わりに"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 2,
+      "tags": [
+        "n3_vocab",
+        "contextual_meaning"
+      ],
+      "explanation": {
+        "summaryVi": "Hậu quả xấu (trễ hẹn) do nguyên nhân xe buýt đến muộn: dùng '〜せいで' (tại vì, do xui xẻo vì).",
+        "correctReasonVi": "〜せいで: chỉ nguyên nhân dẫn đến kết quả xấu hoặc đáng tiếc. Phân biệt với 〜おかげで (nhờ có - kết quả tốt).",
+        "optionReasonsVi": {
+          "A": "Đúng. せいで: tại vì (kết quả xấu: bị muộn giờ).",
+          "B": "Sai. おかげで: chỉ dùng khi kết quả mang lại là điều tích cực, may mắn.",
+          "C": "Sai. ついでに: nhân tiện, tiện thể.",
+          "D": "Sai. わりに: so với mức độ bình thường thì..."
+        },
+        "translationVi": "Tại vì xe buýt đến muộn mà tôi đã không kịp giờ hẹn.",
+        "vocabulary": [
+          {
+            "word": "遅れる",
+            "hiragana": "おくれる",
+            "meaningVi": "chậm trễ, muộn"
+          },
+          {
+            "word": "約束",
+            "hiragana": "やくそく",
+            "meaningVi": "hẹn ước"
+          }
+        ],
+        "studyTipVi": "Cặp đối lập kinh điển: おかげで (nhờ ơn) ↔ せいで (tại vì, do lỗi)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_20",
+      "number": 20,
+      "section": "vocabulary",
+      "subtype": "contextual_meaning",
+      "questionText": "彼は誰に対しても（　　）なく親切に話しかけてくれる。",
+      "options": [
+        {
+          "id": "A",
+          "text": "差別"
+        },
+        {
+          "id": "B",
+          "text": "区別"
+        },
+        {
+          "id": "C",
+          "text": "分別"
+        },
+        {
+          "id": "D",
+          "text": "特別"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "contextual_meaning"
+      ],
+      "explanation": {
+        "summaryVi": "Đối xử tốt với bất kỳ ai mà không phân biệt đối xử: dùng 差別 (さべつ).",
+        "correctReasonVi": "差別なく (さべつなく): không phân biệt đối xử, đối đãi bình đẳng.",
+        "optionReasonsVi": {
+          "A": "Đúng. 差別 (さべつ): phân biệt đối xử, kỳ thị.",
+          "B": "Sai. 区別 (くべつ): phân biệt giữa 2 sự vật khác nhau (như rác cháy được và không cháy được).",
+          "C": "Sai. 分別 (ぶんべつ): phân loại rác, hoặc (ふんべつ) khả năng phán đoán.",
+          "D": "Sai. 特別 (とくべつ): đặc biệt."
+        },
+        "translationVi": "Anh ấy luôn ân cần bắt chuyện với bất kỳ ai mà không hề có sự phân biệt đối xử.",
+        "vocabulary": [
+          {
+            "word": "差別",
+            "hiragana": "さべつ",
+            "meaningVi": "phân biệt đối xử"
+          },
+          {
+            "word": "親切",
+            "hiragana": "しんせつ",
+            "meaningVi": "thân thiện, tốt bụng"
+          }
+        ],
+        "studyTipVi": "Phân biệt 差別 (kỳ thị đối xử bất công) và 区別 (phân loại sự vật rạch ròi)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_21",
+      "number": 21,
+      "section": "vocabulary",
+      "subtype": "paraphrase",
+      "questionText": "この部屋は【散らかって】いる。",
+      "options": [
+        {
+          "id": "A",
+          "text": "片付いていない"
+        },
+        {
+          "id": "B",
+          "text": "広くなっている"
+        },
+        {
+          "id": "C",
+          "text": "静かになっている"
+        },
+        {
+          "id": "D",
+          "text": "暗くなっている"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "paraphrase"
+      ],
+      "explanation": {
+        "summaryVi": "散らかる (ちらかる) nghĩa là bừa bộn, lộn xộn, đồng nghĩa với 片付いていない (chưa được dọn dẹp ngăn nắp).",
+        "correctReasonVi": "散らかる = đồ đạc vứt lung tung, chưa được dọn dẹp (片付いていない).",
+        "optionReasonsVi": {
+          "A": "Đúng. 片付いていない = chưa được dọn dẹp, bừa bộn.",
+          "B": "Sai. 広くなっている = trở nên rộng rãi hơn.",
+          "C": "Sai. 静かになっている = trở nên yên tĩnh.",
+          "D": "Sai. 暗くなっている = trở nên tối tăm."
+        },
+        "translationVi": "Căn phòng này đang bừa bộn (chưa được thu dọn ngăn nắp).",
+        "vocabulary": [
+          {
+            "word": "散らかる",
+            "hiragana": "ちらかる",
+            "meaningVi": "bừa bộn, lộn xộn"
+          },
+          {
+            "word": "片付く",
+            "hiragana": "かたづく",
+            "meaningVi": "ngăn nắp, gọn gàng"
+          }
+        ],
+        "studyTipVi": "Cặp từ đối nghĩa: 散らかる (bừa bộn) ↔ 片付く (gọn gàng)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_22",
+      "number": 22,
+      "section": "vocabulary",
+      "subtype": "paraphrase",
+      "questionText": "彼の話は【でたらめ】ばかりだ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "うそ"
+        },
+        {
+          "id": "B",
+          "text": "本当"
+        },
+        {
+          "id": "C",
+          "text": "冗談"
+        },
+        {
+          "id": "D",
+          "text": "秘密"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "paraphrase"
+      ],
+      "explanation": {
+        "summaryVi": "でたらめ nghĩa là nói nhảm, bịa đặt, nói xạo, đồng nghĩa với うそ (lời nói dối/bịa đặt).",
+        "correctReasonVi": "でたらめ = chuyện bịa đặt, không có căn cứ thực tế, nói dối (嘘 - うそ).",
+        "optionReasonsVi": {
+          "A": "Đúng. うそ: lời bịa đặt, không thật.",
+          "B": "Sai. 本当 (ほんとう): sự thật.",
+          "C": "Sai. 冗談 (じょうだん): lời nói đùa vui.",
+          "D": "Sai. 秘密 (ひみつ): điều bí mật."
+        },
+        "translationVi": "Lời nói của anh ấy toàn là chuyện bịa đặt nhảm nhí (nói dối).",
+        "vocabulary": [
+          {
+            "word": "でたらめ",
+            "hiragana": "でたらめ",
+            "meaningVi": "bịa đặt, nhảm nhí"
+          },
+          {
+            "word": "嘘",
+            "hiragana": "うそ",
+            "meaningVi": "nói dối"
+          }
+        ],
+        "studyTipVi": "Cụm thường gặp: でたらめを言う (nói hươu nói vượn, nói nhăng cuội)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_23",
+      "number": 23,
+      "section": "vocabulary",
+      "subtype": "paraphrase",
+      "questionText": "彼は【たちまち】仕事を終わらせた。",
+      "options": [
+        {
+          "id": "A",
+          "text": "すぐに"
+        },
+        {
+          "id": "B",
+          "text": "ゆっくり"
+        },
+        {
+          "id": "C",
+          "text": "やっと"
+        },
+        {
+          "id": "D",
+          "text": "とうとう"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "paraphrase"
+      ],
+      "explanation": {
+        "summaryVi": "Phó từ たちまち nghĩa là ngay lập tức, trong nháy mắt, đồng nghĩa với すぐに.",
+        "correctReasonVi": "たちまち (thoáng chốc, ngay lập tức) = すぐに.",
+        "optionReasonsVi": {
+          "A": "Đúng. すぐに: ngay lập tức, rất nhanh.",
+          "B": "Sai. ゆっくり: thong thả, từ từ.",
+          "C": "Sai. やっと: cuối cùng thì (sau nhiều nỗ lực khó khăn).",
+          "D": "Sai. とうとう: cuối cùng thì (kết quả sau quá trình dài)."
+        },
+        "translationVi": "Anh ấy đã hoàn thành công việc chỉ trong nháy mắt (ngay lập tức).",
+        "vocabulary": [
+          {
+            "word": "たちまち",
+            "hiragana": "たちまち",
+            "meaningVi": "trong nháy mắt, ngay lập tức"
+          },
+          {
+            "word": "すぐに",
+            "hiragana": "すぐに",
+            "meaningVi": "ngay lập tức"
+          }
+        ],
+        "studyTipVi": "Phó từ N3 chỉ tốc độ nhanh: たちまち = あっという間に = すぐに."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_24",
+      "number": 24,
+      "section": "vocabulary",
+      "subtype": "paraphrase",
+      "questionText": "この計画は【あやしい】と思う。",
+      "options": [
+        {
+          "id": "A",
+          "text": "信じられない"
+        },
+        {
+          "id": "B",
+          "text": "すばらしい"
+        },
+        {
+          "id": "C",
+          "text": "おもしろい"
+        },
+        {
+          "id": "D",
+          "text": "かんたんだ"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 3,
+      "tags": [
+        "n3_vocab",
+        "paraphrase"
+      ],
+      "explanation": {
+        "summaryVi": "Tính từ 怪しい (あやしい) nghĩa là đáng ngờ, khả nghi, không đáng tin cậy -> 信じられない.",
+        "correctReasonVi": "あやしい (đáng nghi, mờ ám) tương đương với 信じられない (khó lòng mà tin được).",
+        "optionReasonsVi": {
+          "A": "Đúng. 信じられない: đáng ngờ, khó tin.",
+          "B": "Sai. すばらしい: tuyệt vời.",
+          "C": "Sai. おもしろい: thú vị.",
+          "D": "Sai. かんたんだ: đơn giản."
+        },
+        "translationVi": "Tôi thấy kế hoạch này rất đáng ngờ (khó mà tin tưởng được).",
+        "vocabulary": [
+          {
+            "word": "怪しい",
+            "hiragana": "あやしい",
+            "meaningVi": "đáng ngờ, khả nghi"
+          },
+          {
+            "word": "信じる",
+            "hiragana": "しんじる",
+            "meaningVi": "tin tưởng"
+          }
+        ],
+        "studyTipVi": "Chữ Hán 怪 (QUÁI trong ma quái, khả nghi)."
+      },
+      "review": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "q_vm_25",
+      "number": 25,
+      "section": "vocabulary",
+      "subtype": "paraphrase",
+      "questionText": "彼は【常に】メモを取るように心がけている。",
+      "options": [
+        {
+          "id": "A",
+          "text": "いつも"
+        },
+        {
+          "id": "B",
+          "text": "たまに"
+        },
+        {
+          "id": "C",
+          "text": "めったに"
+        },
+        {
+          "id": "D",
+          "text": "ときどき"
+        }
+      ],
+      "correctOptionId": "A",
+      "difficulty": 2,
+      "tags": [
+        "n3_vocab",
+        "paraphrase"
+      ],
+      "explanation": {
+        "summaryVi": "Phó từ 常に (つねに) nghĩa là thường xuyên, lúc nào cũng vậy, đồng nghĩa với いつも.",
+        "correctReasonVi": "常に (つねに) = いつも (lúc nào cũng, luôn luôn).",
+        "optionReasonsVi": {
+          "A": "Đúng. いつも: luôn luôn, lúc nào cũng.",
+          "B": "Sai. たまに: thi thoảng, hiếm khi.",
+          "C": "Sai. めったに (đi với phủ định): hầu như không bao giờ.",
+          "D": "Sai. ときどき: thỉnh thoảng."
+        },
+        "translationVi": "Anh ấy luôn luôn chú ý ghi chú lại mọi điều.",
+        "vocabulary": [
+          {
+            "word": "常に",
+            "hiragana": "つねに",
+            "meaningVi": "luôn luôn, thường trực"
+          },
+          {
+            "word": "心がける",
+            "hiragana": "こころがける",
+            "meaningVi": "ghi nhớ, để tâm làm gì"
+          }
+        ],
+        "studyTipVi": "Phó từ chỉ tần suất: 常に = いつも = 普段から."
+      },
+      "review": {
+        "status": "verified"
+      }
+    }
+  ]
+}

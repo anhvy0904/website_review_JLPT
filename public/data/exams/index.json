@@ -100,5 +100,39 @@
       "Tìm kiếm thông tin"
     ],
     "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "n3-vocab-master-001",
+    "title": "Đề Thi Thực Chiến Chữ Hán & Từ Vựng N3 (Chuẩn 25 Câu)",
+    "description": "Bộ đề trắc nghiệm chuẩn hoá 25 câu hỏi Kiến thức Ngôn ngữ (Từ vựng & Chữ Hán) mô phỏng 100% định dạng JLPT N3: Mondai 1 Cách đọc Kanji, Mondai 2 Cách viết Kanji, Mondai 3 Điền từ ngữ cảnh, Mondai 4 Từ gần nghĩa. Kèm lời giải chi tiết 100% tiếng Việt cho từng lựa chọn.",
+    "level": "N3",
+    "status": "published",
+    "questionCount": 25,
+    "timeLimitMinutes": 30,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ],
+    "sectionCounts": {
+      "vocabulary": 25,
+      "grammar": 0,
+      "reading": 0
+    },
+    "subtypes": [
+      "kanji_reading",
+      "kanji_writing",
+      "contextual_meaning",
+      "paraphrase"
+    ],
+    "tags": [
+      "n3_vocab",
+      "kanji_reading",
+      "cuu_giup",
+      "ngau_nhien",
+      "kanji_writing",
+      "contextual_meaning",
+      "paraphrase"
+    ],
+    "lastUpdated": "2026-11-07"
   }
 ]

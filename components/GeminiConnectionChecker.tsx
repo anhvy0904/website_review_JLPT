@@ -119,15 +119,15 @@ export function GeminiConnectionChecker({
     <div className="bg-white p-6 rounded-3xl border border-slate-200/90 shadow-sm space-y-5">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2.5">
-          <div className="w-10 h-10 rounded-2xl bg-purple-100 text-purple-700 flex items-center justify-center shrink-0">
-            <Sparkles className="w-5 h-5" />
+          <div className="w-10 h-10 rounded-2xl bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7] flex items-center justify-center shrink-0">
+            <Sparkles className="w-5 h-5 text-[#2E7D32]" />
           </div>
           <div>
-            <h3 className="text-sm font-bold text-slate-900">
-              Kiểm Tra Kết Nối Google Gemini API
+            <h3 className="text-sm font-bold text-[#1B5E20]">
+              Kiểm Tra Kết Nối AI (Claude / Gemini API)
             </h3>
             <p className="text-[11px] text-slate-500">
-              Xác thực API Key, Model & Quyền Admin an toàn qua Backend
+              Xác thực API Key Claude (Anthropic) hoặc Gemini an toàn qua Backend
             </p>
           </div>
         </div>
@@ -162,10 +162,10 @@ export function GeminiConnectionChecker({
             <div className="flex items-center justify-between">
               <label className="font-semibold text-slate-700 flex items-center gap-1.5">
                 <KeyRound className="w-3.5 h-3.5 text-slate-400" />
-                <span>Gemini API Key (Tùy chọn ghi đè .env.local)</span>
+                <span>API Key Claude / Anthropic (hoặc Gemini)</span>
               </label>
               {customApiKey && (
-                <span className="text-[10px] text-emerald-600 font-bold bg-emerald-50 px-2 py-0.5 rounded-md">
+                <span className="text-[10px] text-emerald-700 font-bold bg-[#E8F5E9] border border-[#A5D6A7] px-2 py-0.5 rounded-md">
                   Đang dùng Custom Key
                 </span>
               )}
@@ -174,8 +174,8 @@ export function GeminiConnectionChecker({
               type="password"
               value={customApiKey}
               onChange={(e) => onApiKeyChange(e.target.value)}
-              placeholder="Để trống nếu đã khai báo GEMINI_API_KEY trong .env.local"
-              className="w-full p-2.5 rounded-xl border border-slate-200 text-xs font-mono focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-200 transition-all bg-slate-50/50"
+              placeholder="Dán Claude Key (sk-ant-...) hoặc để trống nếu đã cấu hình trong .env.local"
+              className="w-full p-2.5 rounded-xl border border-slate-200 text-xs font-mono focus:outline-none focus:border-[#66BB6A] focus:ring-1 focus:ring-[#A5D6A7] transition-all bg-slate-50/50"
             />
           </div>
         )}
@@ -217,17 +217,17 @@ export function GeminiConnectionChecker({
           type="button"
           disabled={isChecking}
           onClick={handleTestConnection}
-          className="w-full py-3 rounded-2xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 active:scale-[0.99] text-white font-bold text-xs shadow-sm flex items-center justify-center gap-2 disabled:opacity-60 transition-all"
+          className="w-full py-3 rounded-2xl bg-[#1B5E20] hover:bg-[#2E7D32] border border-[#66BB6A]/40 active:scale-[0.99] text-white font-bold text-xs shadow-sm flex items-center justify-center gap-2 disabled:opacity-60 transition-all"
         >
           {isChecking ? (
             <>
-              <Loader2 className="w-4 h-4 animate-spin" />
-              <span>Đang gửi tín hiệu kiểm tra tới Google Gemini...</span>
+              <Loader2 className="w-4 h-4 animate-spin text-[#A5D6A7]" />
+              <span>Đang gửi tín hiệu kiểm tra tới AI (Claude / Gemini)...</span>
             </>
           ) : (
             <>
-              <RefreshCw className="w-4 h-4" />
-              <span>Chạy Kiểm Tra Kết Nối Gemini (Admin Health Check)</span>
+              <RefreshCw className="w-4 h-4 text-[#A5D6A7]" />
+              <span>Chạy Kiểm Tra Kết Nối AI (Claude / Gemini)</span>
             </>
           )}
         </button>

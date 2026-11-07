@@ -1,10 +1,13 @@
 import { GoogleGenAI } from "@google/genai";
+import Anthropic from "@anthropic-ai/sdk";
 import mammoth from "mammoth";
 import { examDetailSchema, ValidatedExamDetail } from "./validation";
 import { ExamDetail, ExamQuestion } from "./types";
 import { redactSecrets } from "./auth";
 
-export const DEFAULT_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+export const DEFAULT_CLAUDE_MODEL = process.env.CLAUDE_MODEL || "claude-3-5-sonnet-20241022";
+export const DEFAULT_GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+export const DEFAULT_MODEL = process.env.CLAUDE_MODEL || process.env.GEMINI_MODEL || "claude-3-5-sonnet-20241022";
 
 export interface GeminiErrorInfo {
   code:
@@ -23,10 +26,10 @@ export function parseGeminiError(err: any): GeminiErrorInfo {
   const errMsg = String(err?.message || err || "");
   const status = Number(err?.status || err?.statusCode || 500);
 
-  if (errMsg.includes("Chưa cấu hình GEMINI_API_KEY") || !errMsg) {
+  if (errMsg.includes("Chưa cấu hình") || !errMsg) {
     return {
       code: "MISSING_API_KEY",
-      message: "Chưa cấu hình GEMINI_API_KEY trong file .env.local hoặc giao diện Quản trị viên.",
+      message: "Chưa cấu hình API Key trong file .env.local hoặc giao diện Quản trị viên.",
       status: 400,
     };
   }
@@ -36,11 +39,13 @@ export function parseGeminiError(err: any): GeminiErrorInfo {
     errMsg.includes("API key not valid") ||
     errMsg.includes("API_KEY_INVALID") ||
     errMsg.includes("invalid api key") ||
-    errMsg.includes("API key expired")
+    errMsg.includes("API key expired") ||
+    errMsg.includes("authentication_error") ||
+    errMsg.includes("invalid x-api-key")
   ) {
     return {
       code: "INVALID_API_KEY",
-      message: "Google Gemini API Key không hợp lệ hoặc đã hết hạn. Vui lòng kiểm tra lại khóa API tại Google AI Studio.",
+      message: "API Key không hợp lệ hoặc đã hết hạn. Vui lòng kiểm tra lại khóa API trong .env.local.",
       status: 401,
     };
   }
@@ -49,11 +54,12 @@ export function parseGeminiError(err: any): GeminiErrorInfo {
     status === 429 ||
     errMsg.includes("RESOURCE_EXHAUSTED") ||
     errMsg.includes("quota") ||
-    errMsg.includes("Rate limit exceeded")
+    errMsg.includes("Rate limit exceeded") ||
+    errMsg.includes("rate_limit_error")
   ) {
     return {
       code: "QUOTA_EXCEEDED",
-      message: "Tài khoản đã vượt quá hạn mức sử dụng (Quota / Rate Limit) của Google Gemini API. Vui lòng nâng cấp gói hoặc thử lại sau vài phút.",
+      message: "Tài khoản đã vượt quá hạn mức sử dụng (Quota / Rate Limit). Vui lòng nâng cấp gói hoặc thử lại sau.",
       status: 429,
     };
   }
@@ -61,12 +67,13 @@ export function parseGeminiError(err: any): GeminiErrorInfo {
   if (
     status === 404 ||
     errMsg.includes("NOT_FOUND") ||
+    errMsg.includes("not_found_error") ||
     errMsg.includes("is not found for API version") ||
     errMsg.includes("is not supported")
   ) {
     return {
       code: "MODEL_NOT_FOUND",
-      message: `Mô hình Gemini không tồn tại hoặc không được hỗ trợ trong phiên bản API này. Vui lòng kiểm tra biến GEMINI_MODEL (khuyến nghị: gemini-2.5-flash hoặc gemini-2.0-flash).`,
+      message: "Mô hình AI không tồn tại hoặc tài khoản chưa được cấp quyền truy cập.",
       status: 404,
     };
   }
@@ -78,7 +85,7 @@ export function parseGeminiError(err: any): GeminiErrorInfo {
   ) {
     return {
       code: "PERMISSION_DENIED",
-      message: "Tài khoản Google AI Studio chưa được cấp quyền truy cập mô hình này hoặc vị trí địa lý bị hạn chế.",
+      message: "Tài khoản chưa được cấp quyền truy cập mô hình này hoặc vị trí địa lý bị hạn chế.",
       status: 403,
     };
   }
@@ -91,15 +98,79 @@ export function parseGeminiError(err: any): GeminiErrorInfo {
   ) {
     return {
       code: "NETWORK_ERROR",
-      message: "Không thể kết nối tới máy chủ Google Gemini. Vui lòng kiểm tra kết nối mạng Internet hoặc thiết lập tường lửa/proxy.",
+      message: "Không thể kết nối tới máy chủ AI. Vui lòng kiểm tra kết nối mạng Internet hoặc thiết lập tường lửa/proxy.",
       status: 503,
     };
   }
 
   return {
     code: "UNKNOWN_ERROR",
-    message: `Lỗi kết nối Gemini: ${redactSecrets(errMsg)}`,
+    message: `Lỗi kết nối AI: ${redactSecrets(errMsg)}`,
     status: status >= 400 && status < 600 ? status : 500,
+  };
+}
+
+export function resolveApiKey(customApiKey?: string): {
+  key: string;
+  provider: "claude" | "gemini";
+  model: string;
+} {
+  const custom = customApiKey?.trim();
+  const claudeEnv = process.env.ANTHROPIC_API_KEY?.trim() || process.env.CLAUDE_API_KEY?.trim();
+  const geminiEnv = process.env.GEMINI_API_KEY?.trim();
+
+  // If custom key provided in header or form
+  if (custom && custom !== "your_claude_api_key_here" && custom !== "your_gemini_api_key_here") {
+    if (custom.startsWith("sk-ant-")) {
+      return {
+        key: custom,
+        provider: "claude",
+        model: process.env.CLAUDE_MODEL || DEFAULT_CLAUDE_MODEL,
+      };
+    }
+    if (custom.startsWith("AIzaSy")) {
+      return {
+        key: custom,
+        provider: "gemini",
+        model: process.env.GEMINI_MODEL || DEFAULT_GEMINI_MODEL,
+      };
+    }
+    // Default according to available env
+    if (claudeEnv && claudeEnv !== "your_claude_api_key_here") {
+      return {
+        key: custom,
+        provider: "claude",
+        model: process.env.CLAUDE_MODEL || DEFAULT_CLAUDE_MODEL,
+      };
+    }
+    return {
+      key: custom,
+      provider: "gemini",
+      model: process.env.GEMINI_MODEL || DEFAULT_GEMINI_MODEL,
+    };
+  }
+
+  // From environment: check Claude first (User requested Claude)
+  if (claudeEnv && claudeEnv !== "your_claude_api_key_here") {
+    return {
+      key: claudeEnv,
+      provider: "claude",
+      model: process.env.CLAUDE_MODEL || DEFAULT_CLAUDE_MODEL,
+    };
+  }
+
+  if (geminiEnv && geminiEnv !== "your_gemini_api_key_here") {
+    return {
+      key: geminiEnv,
+      provider: "gemini",
+      model: process.env.GEMINI_MODEL || DEFAULT_GEMINI_MODEL,
+    };
+  }
+
+  return {
+    key: "",
+    provider: "claude",
+    model: DEFAULT_CLAUDE_MODEL,
   };
 }
 
@@ -113,13 +184,24 @@ export function getGeminiClient(customApiKey?: string): GoogleGenAI {
   return new GoogleGenAI({ apiKey });
 }
 
+export function getAnthropicClient(customApiKey?: string): Anthropic {
+  const resolved = resolveApiKey(customApiKey);
+  if (!resolved.key) {
+    throw new Error(
+      "Chưa cấu hình ANTHROPIC_API_KEY hoặc CLAUDE_API_KEY trong file .env.local."
+    );
+  }
+  return new Anthropic({ apiKey: resolved.key });
+}
+
 export function isGeminiConfigured(customApiKey?: string): boolean {
-  const key = customApiKey || process.env.GEMINI_API_KEY;
-  return Boolean(key && key.trim() !== "" && key !== "your_gemini_api_key_here");
+  const res = resolveApiKey(customApiKey);
+  return Boolean(res.key && res.key !== "your_claude_api_key_here" && res.key !== "your_gemini_api_key_here");
 }
 
 export interface TestConnectionResult {
   success: boolean;
+  provider?: "claude" | "gemini";
   model: string;
   latencyMs: number;
   message: string;
@@ -128,29 +210,28 @@ export interface TestConnectionResult {
 }
 
 /**
- * Kiểm tra kết nối tới Google Gemini API (Admin only).
- * Thực hiện gọi nhẹ nhàng để đo độ trễ và kiểm tra quyền hạn của model.
+ * Kiểm tra kết nối tới AI (Claude hoặc Gemini API).
  */
 export async function testGeminiConnection(options?: {
   customApiKey?: string;
   model?: string;
 }): Promise<TestConnectionResult> {
   const customKey = options?.customApiKey?.trim();
-  const envKey = process.env.GEMINI_API_KEY?.trim();
-  const apiKey = customKey || envKey;
+  const resolved = resolveApiKey(customKey);
   const keySource: "env" | "custom" = customKey ? "custom" : "env";
-  const targetModel = options?.model || process.env.GEMINI_MODEL || "gemini-2.5-flash";
+  const targetModel = options?.model || resolved.model;
 
-  if (!apiKey || apiKey === "your_gemini_api_key_here") {
+  if (!resolved.key || resolved.key === "your_claude_api_key_here" || resolved.key === "your_gemini_api_key_here") {
     return {
       success: false,
+      provider: resolved.provider,
       model: targetModel,
       latencyMs: 0,
       keySource,
-      message: "Chưa cấu hình GEMINI_API_KEY trong file .env.local hoặc giao diện Admin.",
+      message: "Chưa cấu hình ANTHROPIC_API_KEY / CLAUDE_API_KEY (hoặc GEMINI_API_KEY) trong file .env.local.",
       errorInfo: {
         code: "MISSING_API_KEY",
-        message: "Chưa cấu hình GEMINI_API_KEY trong file .env.local hoặc giao diện Admin.",
+        message: "Chưa cấu hình API Key trong file .env.local hoặc giao diện Admin.",
         status: 400,
       },
     };
@@ -158,31 +239,47 @@ export async function testGeminiConnection(options?: {
 
   const startTime = Date.now();
   try {
-    const ai = new GoogleGenAI({ apiKey });
-    const response = await ai.models.generateContent({
-      model: targetModel,
-      contents: "Phản hồi chính xác một từ duy nhất: PONG",
-      config: {
-        maxOutputTokens: 10,
-        temperature: 0,
-      },
-    });
-
-    const latencyMs = Date.now() - startTime;
-    const responseText = response.text?.trim() || "";
-
-    return {
-      success: true,
-      model: targetModel,
-      latencyMs,
-      keySource,
-      message: `Kết nối thành công tới mô hình ${targetModel}! Độ trễ: ${latencyMs}ms. (Phản hồi: ${responseText || "OK"})`,
-    };
+    if (resolved.provider === "claude") {
+      const client = new Anthropic({ apiKey: resolved.key });
+      const response = await client.messages.create({
+        model: targetModel,
+        max_tokens: 20,
+        messages: [{ role: "user", content: "Phản hồi chính xác duy nhất từ: PONG" }],
+      });
+      const latencyMs = Date.now() - startTime;
+      const responseText = response.content[0]?.type === "text" ? response.content[0].text.trim() : "OK";
+      return {
+        success: true,
+        provider: "claude",
+        model: targetModel,
+        latencyMs,
+        keySource,
+        message: `Kết nối thành công tới Claude (${targetModel})! Độ trễ: ${latencyMs}ms. (Phản hồi: ${responseText})`,
+      };
+    } else {
+      const ai = new GoogleGenAI({ apiKey: resolved.key });
+      const response = await ai.models.generateContent({
+        model: targetModel,
+        contents: "Phản hồi chính xác một từ duy nhất: PONG",
+        config: { maxOutputTokens: 10, temperature: 0 },
+      });
+      const latencyMs = Date.now() - startTime;
+      const responseText = response.text?.trim() || "OK";
+      return {
+        success: true,
+        provider: "gemini",
+        model: targetModel,
+        latencyMs,
+        keySource,
+        message: `Kết nối thành công tới Gemini (${targetModel})! Độ trễ: ${latencyMs}ms. (Phản hồi: ${responseText})`,
+      };
+    }
   } catch (err: any) {
     const latencyMs = Date.now() - startTime;
     const errorInfo = parseGeminiError(err);
     return {
       success: false,
+      provider: resolved.provider,
       model: targetModel,
       latencyMs,
       keySource,
@@ -194,7 +291,6 @@ export async function testGeminiConnection(options?: {
 
 function cleanJsonResponse(rawText: string): any {
   let cleaned = rawText.trim();
-  // Strip markdown code fences if present
   if (cleaned.startsWith("```json")) {
     cleaned = cleaned.slice(7);
   } else if (cleaned.startsWith("```")) {
@@ -205,7 +301,6 @@ function cleanJsonResponse(rawText: string): any {
   }
   cleaned = cleaned.trim();
 
-  // Find first { and last }
   const firstBrace = cleaned.indexOf("{");
   const lastBrace = cleaned.lastIndexOf("}");
   if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
@@ -216,7 +311,7 @@ function cleanJsonResponse(rawText: string): any {
 }
 
 // ==============================================================================
-// MODULE 1: AI EXAM IMPORTER
+// MODULE 1: AI EXAM IMPORTER (Claude & Gemini Supported)
 // ==============================================================================
 export interface ExtractExamOptions {
   fileBuffer: Buffer;
@@ -230,44 +325,20 @@ export async function extractExamFromDocument(
   options: ExtractExamOptions
 ): Promise<{ exam: ValidatedExamDetail; rawTextPreview: string }> {
   const { fileBuffer, fileName, mimeType, answerKeyText, customApiKey } = options;
-  const ai = getGeminiClient(customApiKey);
+  const resolved = resolveApiKey(customApiKey);
 
-  let contents: any[] = [];
+  let docxText = "";
   let extractedTextPreview = "";
 
-  // 1. Process DOCX files with mammoth
   if (
     mimeType === "application/vnd.openxmlformats-officedocument.wordprocessingml.document" ||
     fileName.toLowerCase().endsWith(".docx")
   ) {
     const docxResult = await mammoth.extractRawText({ buffer: fileBuffer });
-    extractedTextPreview = docxResult.value;
-
-    contents = [
-      {
-        text: `Dưới đây là văn bản trích xuất từ tài liệu DOCX đề thi JLPT N3:\n\n${extractedTextPreview}`,
-      },
-    ];
+    docxText = docxResult.value;
+    extractedTextPreview = docxText;
   } else {
-    // 2. Process PDF, JPG, PNG as base64 inline media
-    const base64Data = fileBuffer.toString("base64");
-    extractedTextPreview = `[Tài liệu nhị phân ${fileName} (${mimeType}, dung lượng: ${Math.round(fileBuffer.length / 1024)} KB)]`;
-
-    contents = [
-      {
-        inlineData: {
-          mimeType,
-          data: base64Data,
-        },
-      },
-    ];
-  }
-
-  // Add answer key if provided
-  if (answerKeyText && answerKeyText.trim()) {
-    contents.push({
-      text: `Dưới đây là ĐÁP ÁN GỐC do người quản trị cung cấp:\n${answerKeyText.trim()}`,
-    });
+    extractedTextPreview = `[Tài liệu ${fileName} (${mimeType}, dung lượng: ${Math.round(fileBuffer.length / 1024)} KB)]`;
   }
 
   const systemPrompt = `Bạn là chuyên gia sư phạm tiếng Nhật JLPT N3 và kỹ sư chuẩn hóa dữ liệu giáo dục.
@@ -279,89 +350,94 @@ NGUYÊN TẮC BẮT BUỘC KHÔNG ĐƯỢC VI PHẠM:
 3. CHỈ xử lý trắc nghiệm vocabulary / grammar / reading. KHÔNG xử lý listening.
 4. Với bài đọc hiểu: tạo mục trong "passages" (id: "p001", "p002"...) và gắn "passageId" tương ứng cho câu hỏi. KHÔNG lặp lại bài đọc trong từng câu hỏi.
 5. ĐÁP ÁN GỐC & NGUYÊN TẮC TRUNG THỰC:
-   - Nếu trong tài liệu hoặc trong phần ĐÁP ÁN GỐC có ghi rõ đáp án: đối chiếu và điền "correctOptionId" (vd: "1", "2", "3", "4") và "review": { "status": "verified" }.
+   - Nếu trong tài liệu hoặc trong phần ĐÁP ÁN GỐC có ghi rõ đáp án: đối chiếu và điền "correctOptionId" (vd: "A", "B", "C", "D" hoặc "1", "2", "3", "4") và "review": { "status": "verified" }.
    - TUYỆT ĐỐI KHÔNG TỰ SUY ĐOÁN ĐÁP ÁN KHI KHÔNG CÓ ĐÁP ÁN GỐC. Nếu nguồn không có đáp án, hãy đặt "correctOptionId": null và "review": { "status": "needs_review", "notes": "Cần đối chiếu đáp án gốc" }.
 6. LỜI GIẢI BAN ĐẦU:
-   - Với mỗi câu, tạo cấu trúc "explanation": { "summaryVi": "...", "correctReasonVi": "...", "optionReasonsVi": { "1": "...", "2": "...", "3": "...", "4": "..." }, "translationVi": "..." }.
-7. Ghi nhận "sourcePage" (số trang trong tài liệu gốc) cho từng câu nếu phát hiện được.
+   - Với mỗi câu, tạo cấu trúc "explanation": { "summaryVi": "...", "correctReasonVi": "...", "optionReasonsVi": { ... }, "translationVi": "..." }.
+7. Ghi nhận "sourcePage" cho từng câu nếu phát hiện được.
 8. Đặt "status": "draft" cho đến khi quản trị viên duyệt.
-9. Đảm bảo "questionCount" khớp chính xác số phần tử trong "questions".
-10. CHỈ XUẤT RA DUY NHẤT ĐỊNH DẠNG JSON HỢP LỆ, không kèm văn bản mở đầu hay kết thúc.
+9. CHỈ XUẤT RA DUY NHẤT ĐỊNH DẠNG JSON HỢP LỆ, không kèm văn bản mở đầu hay kết thúc markdown.`;
 
-CẤU TRÚC JSON MẪU:
-{
-  "schemaVersion": "1.0.0",
-  "id": "n3-${Date.now().toString().slice(-6)}",
-  "title": "Tiêu đề đề thi được trích xuất từ tài liệu",
-  "description": "Mô tả về đề thi JLPT N3",
-  "level": "N3",
-  "status": "draft",
-  "source": {
-    "fileName": "${fileName}",
-    "type": "official_mock",
-    "notes": "Trích xuất tự động qua Google Gemini AI",
-    "reviewedByHuman": false
-  },
-  "settings": {
-    "timeLimitMinutes": 30,
-    "allowedModes": ["practice", "exam"]
-  },
-  "passages": [],
-  "questions": [
-    {
-      "id": "n3-q001",
-      "number": 1,
-      "section": "vocabulary",
-      "subtype": "kanji_reading",
-      "questionText": "この書類を__提出__してください。",
-      "options": [
-        { "id": "1", "text": "ていしゅつ" },
-        { "id": "2", "text": "たいしゅつ" },
-        { "id": "3", "text": "ていしゅっ" },
-        { "id": "4", "text": "だいしゅつ" }
-      ],
-      "correctOptionId": "1",
-      "difficulty": 2,
-      "tags": ["Từ vựng N3"],
-      "sourcePage": 1,
-      "explanation": {
-        "summaryVi": "Tóm tắt...",
-        "correctReasonVi": "Lý do đúng...",
-        "optionReasonsVi": {
-          "1": "Giải thích lựa chọn 1...",
-          "2": "Giải thích lựa chọn 2...",
-          "3": "Giải thích lựa chọn 3...",
-          "4": "Giải thích lựa chọn 4..."
+  let responseText = "";
+
+  if (resolved.provider === "claude") {
+    const client = new Anthropic({ apiKey: resolved.key });
+    const contentBlocks: any[] = [];
+
+    if (docxText) {
+      contentBlocks.push({
+        type: "text",
+        text: `Văn bản đề thi từ file DOCX:\n\n${docxText}`,
+      });
+    } else if (mimeType.startsWith("image/")) {
+      const base64 = fileBuffer.toString("base64");
+      contentBlocks.push({
+        type: "image",
+        source: {
+          type: "base64",
+          media_type: mimeType as any,
+          data: base64,
         },
-        "translationVi": "Bản dịch câu...",
-        "vocabulary": [],
-        "grammarPoints": [],
-        "studyTipVi": "Mẹo..."
-      },
-      "review": {
-        "status": "needs_review",
-        "notes": "Kiểm tra ban đầu"
-      }
+      });
+    } else if (mimeType === "application/pdf") {
+      const base64 = fileBuffer.toString("base64");
+      contentBlocks.push({
+        type: "document",
+        source: {
+          type: "base64",
+          media_type: "application/pdf",
+          data: base64,
+        },
+      });
     }
-  ],
-  "questionCount": 1
-}`;
 
-  contents.push({ text: systemPrompt });
+    if (answerKeyText && answerKeyText.trim()) {
+      contentBlocks.push({
+        type: "text",
+        text: `ĐÁP ÁN GỐC TỪ QUẢN TRỊ VIÊN:\n${answerKeyText.trim()}`,
+      });
+    }
 
-  const response = await ai.models.generateContent({
-    model: DEFAULT_MODEL,
-    contents,
-    config: {
-      responseMimeType: "application/json",
-      temperature: 0.1,
-    },
-  });
+    contentBlocks.push({
+      type: "text",
+      text: "Hãy trích xuất và trả về duy nhất chuỗi JSON hợp lệ theo Schema 1.0.0.",
+    });
 
-  const responseText = response.text || "";
+    const msg = await client.messages.create({
+      model: resolved.model,
+      max_tokens: 4096,
+      system: systemPrompt,
+      messages: [{ role: "user", content: contentBlocks }],
+    });
+
+    responseText = msg.content[0]?.type === "text" ? msg.content[0].text : "";
+  } else {
+    // Gemini
+    const ai = new GoogleGenAI({ apiKey: resolved.key });
+    const contents: any[] = [];
+
+    if (docxText) {
+      contents.push({ text: `Văn bản đề thi:\n\n${docxText}` });
+    } else {
+      const base64 = fileBuffer.toString("base64");
+      contents.push({ inlineData: { mimeType, data: base64 } });
+    }
+
+    if (answerKeyText && answerKeyText.trim()) {
+      contents.push({ text: `ĐÁP ÁN GỐC:\n${answerKeyText.trim()}` });
+    }
+
+    contents.push({ text: systemPrompt });
+
+    const resp = await ai.models.generateContent({
+      model: resolved.model,
+      contents,
+      config: { responseMimeType: "application/json", temperature: 0.1 },
+    });
+    responseText = resp.text || "";
+  }
+
   const parsed = cleanJsonResponse(responseText);
-
-  // Validate with Zod
   const validated = examDetailSchema.parse(parsed);
 
   return {
@@ -371,53 +447,58 @@ CẤU TRÚC JSON MẪU:
 }
 
 // ==============================================================================
-// MODULE 2: AI EXPLANATION GENERATOR
+// MODULE 2: AI EXPLANATION GENERATOR (Claude & Gemini Supported)
 // ==============================================================================
 export async function generateExplanationsWithGemini(
   examData: ExamDetail,
   customApiKey?: string
 ): Promise<ValidatedExamDetail> {
-  const ai = getGeminiClient(customApiKey);
+  const resolved = resolveApiKey(customApiKey);
 
-  const prompt = `Bạn là chuyên gia sư phạm tiếng Nhật JLPT N3.
-Tôi cung cấp dữ liệu JSON đề thi JLPT N3 sau đây. Một số câu đã có đáp án đúng "correctOptionId".
+  const prompt = `Bạn là chuyên gia sư phạm tiếng Nhật N3 xuất sắc.
+Dưới đây là một đề thi JLPT N3 đã được xác nhận đáp án chính thức.
+Nhiệm vụ của bạn: Tạo lời giải sư phạm chi tiết 100% bằng tiếng Việt cho TẤT CẢ các câu hỏi trong đề.
 
-NHIỆM VỤ CỦA BẠN:
-1. Giữ nguyên 100% các trường: id, number, section, subtype, passageId, questionText, options, correctOptionId của TẤT CẢ các câu hỏi. TUYỆT ĐỐI KHÔNG THAY ĐỔI ĐÁP ÁN GỐC.
-2. Với mỗi câu hỏi:
-   - "summaryVi": Tóm tắt ngắn gọn đáp án đúng bằng tiếng Việt.
-   - "correctReasonVi": Giải thích cặn kẽ tại sao đáp án đó là đúng (căn cứ ngữ pháp, âm On/Kun chữ Hán, ngữ cảnh).
-   - "optionReasonsVi": BẮT BUỘC giải thích chi tiết cho TẤT CẢ các phương án (cả đáp án đúng và tất cả các distractors sai, chỉ rõ lỗi sai hoặc bẫy).
-   - "translationVi": Bản dịch trọn vẹn câu hỏi và câu chứa chỗ trống sang tiếng Việt chuẩn, tự nhiên.
-   - "vocabulary": Mảng các từ vựng trọng tâm N3 trong câu gồm { "word": "漢字", "hiragana": "かんじ", "meaningVi": "nghĩa" }.
-   - "grammarPoints": Mảng các mẫu ngữ pháp N3 xuất hiện gồm { "pattern": "〜うちに", "meaningVi": "trong lúc...", "usageVi": "cách dùng...", "exampleJa": "...", "exampleVi": "..." }.
-   - "readingEvidenceJa": Nếu là câu đọc hiểu, trích dẫn chính xác câu văn trong bài đọc làm chứng cứ.
-   - "studyTipVi": Mẹo nhận diện, mẹo nhớ âm Hán Việt hoặc bẫy thường gặp.
-3. TUYỆT ĐỐI KHÔNG CHÈN FURIGANA LÊN TỪ CẦN KIỂM TRA ĐỌC TRONG CÂU HỎI KANJI để tránh lộ đáp án. Chỉ đặt furigana trong mục giải thích từ vựng.
-4. Xuất lại toàn bộ file JSON theo đúng cấu trúc ban đầu.
+YÊU CẦU ĐẶC BIỆT CHO LỜI GIẢI (explanation):
+1. summaryVi: Tóm tắt 1 câu ngắn gọn vì sao đáp án đúng là phương án chuẩn nhất.
+2. correctReasonVi: Phân tích cặn kẽ tại sao đáp án này đúng, dựa trên cấu trúc ngữ pháp, ngữ cảnh hoặc quy tắc Kanji N3.
+3. optionReasonsVi: Giải thích chi tiết LÝ DO SAI cho từng phương án còn lại (chỉ ra bẫy đề thi).
+4. translationVi: Dịch toàn bộ câu hỏi và ngữ cảnh sang tiếng Việt tự nhiên, chuẩn nghĩa.
+5. vocabulary: Liệt kê từ vựng quan trọng (word, hiragana, meaningVi).
+6. grammarPoints: Điểm ngữ pháp liên quan nếu có (pattern, meaningVi, usageVi).
+7. studyTipVi: Mẹo nhận diện bẫy nhanh cho học viên.
+8. KHÔNG THAY ĐỔI correctOptionId.
+9. Trả về toàn bộ file JSON cập nhật, định dạng JSON hợp lệ duy nhất.
 
-DỮ LIỆU ĐẦU VÀO:
+DỮ LIỆU ĐỀ THI:
 ${JSON.stringify(examData, null, 2)}`;
 
-  const response = await ai.models.generateContent({
-    model: DEFAULT_MODEL,
-    contents: [{ text: prompt }],
-    config: {
-      responseMimeType: "application/json",
-      temperature: 0.2,
-    },
-  });
+  let responseText = "";
 
-  const responseText = response.text || "";
+  if (resolved.provider === "claude") {
+    const client = new Anthropic({ apiKey: resolved.key });
+    const msg = await client.messages.create({
+      model: resolved.model,
+      max_tokens: 4096,
+      messages: [{ role: "user", content: prompt }],
+    });
+    responseText = msg.content[0]?.type === "text" ? msg.content[0].text : "";
+  } else {
+    const ai = new GoogleGenAI({ apiKey: resolved.key });
+    const response = await ai.models.generateContent({
+      model: resolved.model,
+      contents: prompt,
+      config: { responseMimeType: "application/json", temperature: 0.2 },
+    });
+    responseText = response.text || "";
+  }
+
   const parsed = cleanJsonResponse(responseText);
-
-  // Validate with Zod
-  const validated = examDetailSchema.parse(parsed);
-  return validated;
+  return examDetailSchema.parse(parsed);
 }
 
 // ==============================================================================
-// MODULE 4: AI TUTOR (HỎI AI GIA SƯ N3)
+// MODULE 4: AI TUTOR (Claude & Gemini Supported)
 // ==============================================================================
 export interface AITutorRequest {
   question: ExamQuestion;
@@ -430,7 +511,7 @@ export interface AITutorRequest {
 
 export async function askAITutorGemini(params: AITutorRequest): Promise<string> {
   const { question, selectedOptionId, passageText, userQuery, history = [], customApiKey } = params;
-  const ai = getGeminiClient(customApiKey);
+  const resolved = resolveApiKey(customApiKey);
 
   const correctOpt = question.options.find((o) => o.id === question.correctOptionId);
   const selectedOpt = question.options.find((o) => o.id === selectedOptionId);
@@ -458,31 +539,55 @@ NGUYÊN TẮC TRẢ LỜI CỦA SENSEI:
 4. Giải thích sâu vào thắc mắc cụ thể của học viên (tại sao phương án họ chọn lại sai, cách phân biệt từ dễ nhầm lẫn, ví dụ thực tế).
 5. Trả lời súc tích, trực diện vào câu hỏi.`;
 
-  const contents: any[] = [];
-  contents.push({ text: contextPrompt });
+  if (resolved.provider === "claude") {
+    const client = new Anthropic({ apiKey: resolved.key });
+    const messages: any[] = [];
 
-  // Add conversation history if any
-  for (const msg of history) {
-    contents.push({
-      role: msg.role === "user" ? "user" : "model",
-      text: msg.text,
+    // Add prior history
+    for (const h of history) {
+      messages.push({
+        role: h.role === "model" ? "assistant" : "user",
+        content: h.text,
+      });
+    }
+
+    // Add user question
+    messages.push({
+      role: "user",
+      content: userQuery,
     });
+
+    const response = await client.messages.create({
+      model: resolved.model,
+      max_tokens: 1024,
+      system: contextPrompt,
+      messages,
+    });
+
+    return response.content[0]?.type === "text" ? response.content[0].text.trim() : "Sensei đã ghi nhận câu hỏi.";
+  } else {
+    const ai = new GoogleGenAI({ apiKey: resolved.key });
+    const contents: any[] = [];
+    contents.push({ text: contextPrompt });
+
+    for (const msg of history) {
+      contents.push({
+        role: msg.role === "user" ? "user" : "model",
+        text: msg.text,
+      });
+    }
+
+    contents.push({
+      role: "user",
+      text: `Câu hỏi của học viên: "${userQuery}". Hãy trả lời học viên bằng tiếng Việt thân thiện và chính xác theo kiến thức JLPT N3.`,
+    });
+
+    const response = await ai.models.generateContent({
+      model: resolved.model,
+      contents,
+      config: { maxOutputTokens: 1024, temperature: 0.3 },
+    });
+
+    return response.text?.trim() || "Sensei đã ghi nhận câu hỏi.";
   }
-
-  // Add user query
-  contents.push({
-    role: "user",
-    text: userQuery,
-  });
-
-  const response = await ai.models.generateContent({
-    model: DEFAULT_MODEL,
-    contents,
-    config: {
-      temperature: 0.3,
-    },
-  });
-
-  return response.text || "Sensei chưa thể trả lời lúc này, vui lòng thử lại câu hỏi khác nhé!";
 }
-

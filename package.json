@@ -11,6 +11,7 @@
     "exams:sync": "node scripts/sync-exams.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
     "@google/genai": "^3.0.0",
     "canvas-confetti": "^1.9.3",
     "clsx": "^2.1.1",

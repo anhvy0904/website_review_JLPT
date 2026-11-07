@@ -70,7 +70,10 @@ export function checkRateLimit(
  */
 export function redactSecrets(text: string): string {
   if (!text) return text;
+  // Mask Claude/Anthropic keys (thường bắt đầu bằng sk-ant-...)
+  let redacted = text.replace(/sk-ant-[A-Za-z0-9_-]{20,}/g, "sk-ant-[REDACTED_API_KEY]");
   // Mask Gemini/Google API keys (thường bắt đầu bằng AIzaSy...)
-  return text.replace(/AIzaSy[A-Za-z0-9_-]{33}/g, "AIzaSy[REDACTED_API_KEY]");
+  redacted = redacted.replace(/AIzaSy[A-Za-z0-9_-]{33}/g, "AIzaSy[REDACTED_API_KEY]");
+  return redacted;
 }
 
