@@ -1054,7 +1054,7 @@ export function extractTestedTarget(questionText: string): string | null {
 export function getQuestionKanjiTarget(question: {
   questionText: string;
   options: Array<{ id: string; text: string }>;
-  correctOptionId: string;
+  correctOptionId?: string | null;
 }): { targetJa: string; hanViet: string; breakdown: Array<{ kanji: string; hanViet: string }> } | null {
   const extracted = extractTestedTarget(question.questionText);
   

@@ -105,3 +105,4 @@ if (kanjiWriting) newIndex.push(kanjiWriting);
 
 fs.writeFileSync(indexPath, JSON.stringify(newIndex, null, 2), "utf8");
 console.log("Updated index.json with", newIndex.length, "exams total!");
+

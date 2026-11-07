@@ -7,6 +7,9 @@ const REPORTS_KEY = "jlptn3:v1:question_reports";
 const FLASHCARDS_LIST_KEY = "jlptn3:v1:flashcards_list";
 const FLASHCARDS_PROGRESS_KEY = "jlptn3:v1:flashcards_progress";
 
+export type FlashcardRating = "again" | "hard" | "good" | "easy";
+export type FlashcardState = "new" | "learning" | "review" | "mastered";
+
 export interface FlashcardItem {
   id: string;
   word: string;
@@ -18,6 +21,13 @@ export interface FlashcardItem {
   examTitle: string;
   questionId?: string;
   addedAt: string;
+  // SRS Anki (SM-2) Fields:
+  interval: number; // Khoảng thời gian lặp lại tính bằng ngày (0 với thẻ mới)
+  repetitions: number; // Số lần ôn liên tiếp thành công
+  easeFactor: number; // Hệ số dễ SM-2 (mặc định 2.5, tối thiểu 1.3)
+  dueDate: string; // Ngày đến hạn ôn tiếp theo định dạng 'YYYY-MM-DD'
+  lastReviewed: string | null; // ISO string ngày giờ ôn gần nhất
+  state: FlashcardState; // "new" | "learning" | "review" | "mastered"
 }
 
 function isLocalStorageAvailable(): boolean {
@@ -176,14 +186,208 @@ export function saveQuestionReport(report: QuestionReport): void {
   }
 }
 
-// FLASHCARDS STORAGE
+// ==========================================
+// FLASHCARDS & ANKI-STYLE SRS (SM-2) STORAGE
+// ==========================================
+
+export function getTodayDateString(d: Date = new Date()): string {
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+export function addDaysToDate(dateStr: string, days: number): string {
+  try {
+    const parts = dateStr.split("-").map(Number);
+    const target = new Date(parts[0], parts[1] - 1, parts[2]);
+    target.setDate(target.getDate() + Math.max(1, days));
+    return getTodayDateString(target);
+  } catch {
+    const fallback = new Date();
+    fallback.setDate(fallback.getDate() + Math.max(1, days));
+    return getTodayDateString(fallback);
+  }
+}
+
+export function isCardDueToday(card: FlashcardItem, todayStr: string = getTodayDateString()): boolean {
+  if (!card.dueDate) return true;
+  return card.dueDate <= todayStr || card.state === "new";
+}
+
+export function normalizeFlashcardItem(card: Partial<FlashcardItem>): FlashcardItem {
+  const today = getTodayDateString();
+  const repetitions = typeof card.repetitions === "number" ? card.repetitions : 0;
+  const interval = typeof card.interval === "number" ? card.interval : 0;
+  const easeFactor = typeof card.easeFactor === "number" ? Math.max(1.3, card.easeFactor) : 2.5;
+
+  let state: FlashcardState = card.state || "new";
+  if (!card.state) {
+    if (interval >= 21) {
+      state = "mastered";
+    } else if (repetitions > 0) {
+      state = "review";
+    } else {
+      state = "new";
+    }
+  }
+
+  return {
+    id: card.id || `${card.examId || "general"}_${card.word || "item"}_${Date.now()}`,
+    word: card.word || "",
+    reading: card.reading || "",
+    meaning: card.meaning || "",
+    sinoVietnamese: card.sinoVietnamese,
+    example: card.example,
+    examId: card.examId,
+    examTitle: card.examTitle || "Từ vựng chung",
+    questionId: card.questionId,
+    addedAt: card.addedAt || new Date().toISOString(),
+    interval,
+    repetitions,
+    easeFactor,
+    dueDate: card.dueDate || today,
+    lastReviewed: card.lastReviewed || null,
+    state,
+  };
+}
+
+export interface ReviewCalculationResult {
+  interval: number;
+  repetitions: number;
+  easeFactor: number;
+  dueDate: string;
+  lastReviewed: string;
+  state: FlashcardState;
+}
+
+/**
+ * Thuật toán tính chu kỳ lặp lại ngắt quãng SM-2 chuẩn Anki:
+ * - "again" (Lại - 1): Quên / Nhớ sai. Reset rep về 0, interval = 1 ngày, giảm EF, state = learning.
+ * - "hard"  (Khó - 2): Nhớ vất vả. Rep += 1, interval tăng 1.2x (hoặc 1 ngày nếu mới), giảm nhẹ EF, state = review.
+ * - "good"  (Tốt - 3): Nhớ chuẩn. Rep += 1, Rep 1 = 1 ngày, Rep 2 = 3 ngày, Rep > 2 = interval * EF.
+ * - "easy"  (Dễ - 4): Nhớ ngay lập tức. Rep += 1, Rep 1 = 3 ngày, Rep 2 = 6 ngày, Rep > 2 = interval * EF * 1.3, tăng EF.
+ */
+export function calculateNextReview(
+  card: FlashcardItem,
+  rating: FlashcardRating,
+  baseDateStr: string = getTodayDateString()
+): ReviewCalculationResult {
+  const currentRepetitions = card.repetitions ?? 0;
+  const currentInterval = card.interval ?? 0;
+  const currentEF = Math.max(1.3, card.easeFactor ?? 2.5);
+
+  let nextInterval = 1;
+  let nextRepetitions = currentRepetitions;
+  let nextEF = currentEF;
+  let nextState: FlashcardState = "review";
+
+  switch (rating) {
+    case "again": {
+      nextRepetitions = 0;
+      nextInterval = 1;
+      nextEF = Math.max(1.3, Number((currentEF - 0.2).toFixed(2)));
+      nextState = "learning";
+      break;
+    }
+    case "hard": {
+      nextRepetitions = currentRepetitions + 1;
+      if (currentInterval <= 1) {
+        nextInterval = 1;
+      } else {
+        nextInterval = Math.max(2, Math.round(currentInterval * 1.2));
+      }
+      nextEF = Math.max(1.3, Number((currentEF - 0.15).toFixed(2)));
+      nextState = nextInterval >= 21 ? "mastered" : "review";
+      break;
+    }
+    case "good": {
+      nextRepetitions = currentRepetitions + 1;
+      if (nextRepetitions === 1) {
+        nextInterval = 1;
+      } else if (nextRepetitions === 2) {
+        nextInterval = 3;
+      } else {
+        nextInterval = Math.max(4, Math.round(currentInterval * currentEF));
+      }
+      nextState = nextInterval >= 21 ? "mastered" : "review";
+      break;
+    }
+    case "easy": {
+      nextRepetitions = currentRepetitions + 1;
+      if (nextRepetitions === 1) {
+        nextInterval = 3;
+      } else if (nextRepetitions === 2) {
+        nextInterval = 6;
+      } else {
+        nextInterval = Math.max(6, Math.round(currentInterval * currentEF * 1.3));
+      }
+      nextEF = Number((currentEF + 0.15).toFixed(2));
+      nextState = nextInterval >= 21 ? "mastered" : "review";
+      break;
+    }
+  }
+
+  const nextDueDate = addDaysToDate(baseDateStr, nextInterval);
+
+  return {
+    interval: nextInterval,
+    repetitions: nextRepetitions,
+    easeFactor: nextEF,
+    dueDate: nextDueDate,
+    lastReviewed: new Date().toISOString(),
+    state: nextState,
+  };
+}
+
+export function getReviewIntervalPreview(card: FlashcardItem, rating: FlashcardRating): number {
+  return calculateNextReview(card, rating).interval;
+}
+
+export function getFlashcardSRSStats(cards: FlashcardItem[]): {
+  total: number;
+  dueToday: number;
+  newCards: number;
+  learning: number;
+  mastered: number;
+} {
+  const today = getTodayDateString();
+  let dueToday = 0;
+  let newCards = 0;
+  let learning = 0;
+  let mastered = 0;
+
+  for (const c of cards) {
+    if (c.state === "mastered" || c.interval >= 21) {
+      mastered++;
+    } else if (c.state === "new" || c.repetitions === 0) {
+      newCards++;
+    } else {
+      learning++;
+    }
+
+    if (isCardDueToday(c, today)) {
+      dueToday++;
+    }
+  }
+
+  return {
+    total: cards.length,
+    dueToday,
+    newCards,
+    learning,
+    mastered,
+  };
+}
+
 export function getAllFlashcards(): FlashcardItem[] {
   if (!isLocalStorageAvailable()) return [];
   try {
     const raw = window.localStorage.getItem(FLASHCARDS_LIST_KEY);
     if (!raw) return [];
     const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
+    if (!Array.isArray(parsed)) return [];
+    return parsed.map((item) => normalizeFlashcardItem(item));
   } catch (err) {
     console.error("Lỗi đọc flashcards:", err);
     return [];
@@ -198,17 +402,27 @@ export function isFlashcardSaved(word: string, examId?: string): boolean {
   return cards.some((c) => c.word === word);
 }
 
-export function saveFlashcard(card: Omit<FlashcardItem, "id" | "addedAt">): FlashcardItem {
+export function saveFlashcard(
+  card: Omit<FlashcardItem, "id" | "addedAt" | "interval" | "repetitions" | "easeFactor" | "dueDate" | "lastReviewed" | "state"> &
+    Partial<FlashcardItem>
+): FlashcardItem {
   const cards = getAllFlashcards();
   const existingIndex = cards.findIndex(
     (c) => c.word === card.word && (card.examId ? c.examId === card.examId : true)
   );
 
-  const newCard: FlashcardItem = {
+  const today = getTodayDateString();
+  const newCard: FlashcardItem = normalizeFlashcardItem({
     ...card,
-    id: `${card.examId || "general"}_${card.word}_${Date.now()}`,
-    addedAt: new Date().toISOString(),
-  };
+    id: card.id || `${card.examId || "general"}_${card.word}_${Date.now()}`,
+    addedAt: card.addedAt || new Date().toISOString(),
+    interval: card.interval ?? 0,
+    repetitions: card.repetitions ?? 0,
+    easeFactor: card.easeFactor ?? 2.5,
+    dueDate: card.dueDate || today,
+    lastReviewed: card.lastReviewed || null,
+    state: card.state || "new",
+  });
 
   if (existingIndex >= 0) {
     cards[existingIndex] = { ...cards[existingIndex], ...newCard };
@@ -223,6 +437,31 @@ export function saveFlashcard(card: Omit<FlashcardItem, "id" | "addedAt">): Flas
   return newCard;
 }
 
+export function reviewFlashcard(
+  wordOrId: string,
+  rating: FlashcardRating,
+  examId?: string
+): FlashcardItem | null {
+  if (!isLocalStorageAvailable()) return null;
+  const cards = getAllFlashcards();
+  const index = cards.findIndex(
+    (c) => (c.id === wordOrId || c.word === wordOrId) && (examId ? c.examId === examId : true)
+  );
+
+  if (index === -1) return null;
+
+  const card = cards[index];
+  const srsResult = calculateNextReview(card, rating);
+  const updatedCard: FlashcardItem = {
+    ...card,
+    ...srsResult,
+  };
+
+  cards[index] = updatedCard;
+  window.localStorage.setItem(FLASHCARDS_LIST_KEY, JSON.stringify(cards));
+  return updatedCard;
+}
+
 export function removeFlashcard(word: string, examId?: string): void {
   if (!isLocalStorageAvailable()) return;
   const cards = getAllFlashcards().filter(
@@ -231,7 +470,10 @@ export function removeFlashcard(word: string, examId?: string): void {
   window.localStorage.setItem(FLASHCARDS_LIST_KEY, JSON.stringify(cards));
 }
 
-export function toggleFlashcard(card: Omit<FlashcardItem, "id" | "addedAt">): boolean {
+export function toggleFlashcard(
+  card: Omit<FlashcardItem, "id" | "addedAt" | "interval" | "repetitions" | "easeFactor" | "dueDate" | "lastReviewed" | "state"> &
+    Partial<FlashcardItem>
+): boolean {
   if (isFlashcardSaved(card.word, card.examId)) {
     removeFlashcard(card.word, card.examId);
     return false;

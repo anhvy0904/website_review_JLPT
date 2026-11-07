@@ -22,7 +22,11 @@ import {
   Check,
   Plus,
   ArrowRight,
-  ExternalLink,
+  Flame,
+  Calendar,
+  Clock,
+  Award,
+  Zap,
 } from "lucide-react";
 import {
   getAllFlashcards,
@@ -32,6 +36,12 @@ import {
   getFlashcardsProgress,
   saveFlashcardsProgress,
   FlashcardItem,
+  FlashcardRating,
+  reviewFlashcard,
+  getReviewIntervalPreview,
+  getFlashcardSRSStats,
+  isCardDueToday,
+  getTodayDateString,
 } from "@/lib/storage";
 
 export default function FlashcardsPage() {
@@ -39,10 +49,11 @@ export default function FlashcardsPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const [activeFilter, setActiveFilter] = useState<"all" | "learning" | "mastered" | "starred">("all");
+  const [activeFilter, setActiveFilter] = useState<"all" | "due" | "new" | "learning" | "mastered" | "starred">("due");
   const [selectedFolder, setSelectedFolder] = useState<string>("all");
   const [viewMode, setViewMode] = useState<"deck" | "list">("deck");
   const [autoSpeech, setAutoSpeech] = useState(true);
+  const [reviewToast, setReviewToast] = useState<{ message: string; rating: FlashcardRating } | null>(null);
 
   // User persistent progress: { starred: string[], mastered: string[] }
   const [starredWords, setStarredWords] = useState<string[]>([]);
@@ -87,7 +98,7 @@ export default function FlashcardsPage() {
     saveFlashcardsProgress({ starred: newStarred, mastered: newMastered });
   };
 
-  // Filter cards by folder, status, and search query
+  // Filter cards by folder
   const folderCards = useMemo(() => {
     if (selectedFolder === "all") return allCards;
     return allCards.filter(
@@ -95,7 +106,21 @@ export default function FlashcardsPage() {
     );
   }, [allCards, selectedFolder]);
 
+  // SRS statistics for the current folder
+  const srsStats = useMemo(() => {
+    return getFlashcardSRSStats(folderCards);
+  }, [folderCards]);
+
+  // Set default filter: if there are no cards due today, fallback to "all"
+  useEffect(() => {
+    if (folderCards.length > 0 && srsStats.dueToday === 0 && activeFilter === "due") {
+      setActiveFilter("all");
+    }
+  }, [folderCards.length, srsStats.dueToday, activeFilter]);
+
+  // Filter cards by folder, status, and search query
   const filteredCards = useMemo(() => {
+    const today = getTodayDateString();
     return folderCards.filter((card) => {
       // Query filter
       if (searchQuery.trim()) {
@@ -110,12 +135,14 @@ export default function FlashcardsPage() {
       }
 
       // Status filter
-      if (activeFilter === "mastered") return masteredWords.includes(card.word);
-      if (activeFilter === "learning") return !masteredWords.includes(card.word);
+      if (activeFilter === "due") return isCardDueToday(card, today);
+      if (activeFilter === "new") return card.state === "new" || card.repetitions === 0;
+      if (activeFilter === "learning") return card.repetitions > 0 && card.state !== "mastered";
+      if (activeFilter === "mastered") return card.state === "mastered" || card.interval >= 21;
       if (activeFilter === "starred") return starredWords.includes(card.word);
       return true;
     });
-  }, [folderCards, searchQuery, activeFilter, starredWords, masteredWords]);
+  }, [folderCards, searchQuery, activeFilter, starredWords]);
 
   // Current Card
   const currentCard = filteredCards[currentIndex] || null;
@@ -159,6 +186,37 @@ export default function FlashcardsPage() {
     });
   }, [autoSpeech, currentCard, speakText]);
 
+  // Review flashcard according to Anki SM-2 rating
+  const handleRateCard = useCallback(
+    (rating: FlashcardRating) => {
+      if (!currentCard) return;
+      const updated = reviewFlashcard(currentCard.id, rating, currentCard.examId);
+      if (updated) {
+        let label = "";
+        if (rating === "again") label = `Đã xếp lịch: Ôn lại ngày mai (1 ngày)`;
+        else if (rating === "hard") label = `Đã xếp lịch: Ôn sau ${updated.interval} ngày`;
+        else if (rating === "good") label = `Đã xếp lịch: Ôn sau ${updated.interval} ngày`;
+        else if (rating === "easy") label = `Xuất sắc! Ôn sau ${updated.interval} ngày`;
+
+        setReviewToast({ message: label, rating });
+        setTimeout(() => {
+          setReviewToast(null);
+        }, 2200);
+
+        reloadCards();
+        setIsFlipped(false);
+
+        // Advance to next card if more cards remain
+        if (filteredCards.length > 1) {
+          if (currentIndex >= filteredCards.length - 1) {
+            setCurrentIndex(0);
+          }
+        }
+      }
+    },
+    [currentCard, reloadCards, filteredCards.length, currentIndex]
+  );
+
   // Toggle Starred
   const toggleStar = useCallback(() => {
     if (!currentCard) return;
@@ -166,15 +224,6 @@ export default function FlashcardsPage() {
       ? starredWords.filter((w) => w !== currentCard.word)
       : [...starredWords, currentCard.word];
     updateProgress(next, masteredWords);
-  }, [currentCard, starredWords, masteredWords]);
-
-  // Toggle Mastered
-  const toggleMastered = useCallback(() => {
-    if (!currentCard) return;
-    const next = masteredWords.includes(currentCard.word)
-      ? masteredWords.filter((w) => w !== currentCard.word)
-      : [...masteredWords, currentCard.word];
-    updateProgress(starredWords, next);
   }, [currentCard, starredWords, masteredWords]);
 
   // Delete single card
@@ -215,15 +264,41 @@ export default function FlashcardsPage() {
     setIsFlipped(false);
   };
 
-  // Keyboard Shortcuts
+  // Keyboard Shortcuts: Space (Flip), 1/2/3/4 (Anki Ratings), Left/Right, S, V
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if ((e.target as HTMLElement).tagName === "INPUT") return;
 
-      if (e.code === "Space" || e.code === "Enter") {
+      if (e.code === "Space") {
         e.preventDefault();
         handleFlip();
-      } else if (e.code === "ArrowRight") {
+        return;
+      }
+
+      if (isFlipped) {
+        if (e.key === "1") {
+          e.preventDefault();
+          handleRateCard("again");
+          return;
+        }
+        if (e.key === "2") {
+          e.preventDefault();
+          handleRateCard("hard");
+          return;
+        }
+        if (e.key === "3") {
+          e.preventDefault();
+          handleRateCard("good");
+          return;
+        }
+        if (e.key === "4") {
+          e.preventDefault();
+          handleRateCard("easy");
+          return;
+        }
+      }
+
+      if (e.code === "ArrowRight") {
         e.preventDefault();
         handleNext();
       } else if (e.code === "ArrowLeft") {
@@ -232,9 +307,6 @@ export default function FlashcardsPage() {
       } else if (e.key.toLowerCase() === "s") {
         e.preventDefault();
         toggleStar();
-      } else if (e.key.toLowerCase() === "m") {
-        e.preventDefault();
-        toggleMastered();
       } else if (e.key.toLowerCase() === "v") {
         e.preventDefault();
         if (currentCard) speakText(currentCard.reading || currentCard.word);
@@ -243,26 +315,33 @@ export default function FlashcardsPage() {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [handleFlip, handleNext, handlePrev, toggleStar, toggleMastered, currentCard, speakText]);
+  }, [handleFlip, handleNext, handlePrev, toggleStar, handleRateCard, currentCard, speakText, isFlipped]);
 
   const isCurrentStarred = currentCard ? starredWords.includes(currentCard.word) : false;
-  const isCurrentMastered = currentCard ? masteredWords.includes(currentCard.word) : false;
   const currentFolderInfo = folders.find((f) => f.examId === selectedFolder);
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 space-y-6">
+      {/* Toast notification khi chọn đánh giá SRS */}
+      {reviewToast && (
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-slate-900/95 text-white text-xs font-semibold shadow-xl backdrop-blur-xs border border-white/10 animate-in fade-in slide-in-from-bottom-2 duration-200">
+          <Check className="w-4 h-4 text-emerald-400 shrink-0" />
+          <span>{reviewToast.message}</span>
+        </div>
+      )}
+
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="space-y-1">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8F5E9] border border-[#A5D6A7] text-[#1B5E20] text-xs font-semibold">
             <Sparkles className="w-3.5 h-3.5 text-[#2E7D32]" />
-            <span>Sổ Tay Flashcard JLPT N3 • Cùng VuyAnh 🌸</span>
+            <span>Sổ Tay Flashcard JLPT N3 • Lặp Lại Ngắt Quãng Anki (SRS) 🌸</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-extrabold text-[#1B5E20] tracking-tight">
-            Flashcard Từ Vựng Theo Đề Thi
+            Flashcard Từ Vựng & Chu Kỳ Ôn Tập Anki
           </h1>
           <p className="text-xs sm:text-sm text-slate-600">
-            Từ vựng do bạn lưu trực tiếp từ các đề làm, phân loại theo từng đề thi để ôn luyện sâu.
+            Tính toán ngày ôn lặp lại chuẩn thuật toán SM-2 của Anki, tự động nhắc nhở từ vựng đến hạn mỗi ngày.
           </p>
         </div>
 
@@ -300,6 +379,95 @@ export default function FlashcardsPage() {
           </Link>
         </div>
       </div>
+
+      {/* ANKI SRS STATS DASHBOARD BANNER */}
+      {allCards.length > 0 && (
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          {/* Cần ôn hôm nay */}
+          <div
+            onClick={() => setActiveFilter("due")}
+            className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-3 ${
+              activeFilter === "due"
+                ? "bg-orange-50 border-orange-400 ring-2 ring-orange-200 shadow-sm"
+                : "bg-white border-orange-200/80 hover:bg-orange-50/50"
+            }`}
+          >
+            <div className="w-9 h-9 rounded-xl bg-orange-500 text-white flex items-center justify-center shadow-xs shrink-0">
+              <Flame className="w-5 h-5" />
+            </div>
+            <div>
+              <span className="text-[11px] font-bold text-orange-800 uppercase block">Cần ôn hôm nay</span>
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-xl font-extrabold text-orange-950 font-mono">{srsStats.dueToday}</span>
+                <span className="text-[10px] text-orange-600 font-medium">từ</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Thẻ mới */}
+          <div
+            onClick={() => setActiveFilter("new")}
+            className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-3 ${
+              activeFilter === "new"
+                ? "bg-blue-50 border-blue-400 ring-2 ring-blue-200 shadow-sm"
+                : "bg-white border-blue-200/80 hover:bg-blue-50/50"
+            }`}
+          >
+            <div className="w-9 h-9 rounded-xl bg-blue-500 text-white flex items-center justify-center shadow-xs shrink-0">
+              <Sparkles className="w-5 h-5" />
+            </div>
+            <div>
+              <span className="text-[11px] font-bold text-blue-800 uppercase block">Thẻ mới</span>
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-xl font-extrabold text-blue-950 font-mono">{srsStats.newCards}</span>
+                <span className="text-[10px] text-blue-600 font-medium">chưa học</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Đang ghi nhớ */}
+          <div
+            onClick={() => setActiveFilter("learning")}
+            className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-3 ${
+              activeFilter === "learning"
+                ? "bg-purple-50 border-purple-400 ring-2 ring-purple-200 shadow-sm"
+                : "bg-white border-purple-200/80 hover:bg-purple-50/50"
+            }`}
+          >
+            <div className="w-9 h-9 rounded-xl bg-purple-500 text-white flex items-center justify-center shadow-xs shrink-0">
+              <BookOpen className="w-5 h-5" />
+            </div>
+            <div>
+              <span className="text-[11px] font-bold text-purple-800 uppercase block">Đang ghi nhớ</span>
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-xl font-extrabold text-purple-950 font-mono">{srsStats.learning}</span>
+                <span className="text-[10px] text-purple-600 font-medium">từ</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Đã nhớ vững */}
+          <div
+            onClick={() => setActiveFilter("mastered")}
+            className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-3 ${
+              activeFilter === "mastered"
+                ? "bg-emerald-50 border-[#66BB6A] ring-2 ring-[#A5D6A7] shadow-sm"
+                : "bg-white border-[#A5D6A7]/80 hover:bg-[#E8F5E9]/50"
+            }`}
+          >
+            <div className="w-9 h-9 rounded-xl bg-[#1B5E20] text-white flex items-center justify-center shadow-xs shrink-0">
+              <Award className="w-5 h-5 text-[#A5D6A7]" />
+            </div>
+            <div>
+              <span className="text-[11px] font-bold text-[#1B5E20] uppercase block">Đã nhớ vững</span>
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-xl font-extrabold text-[#1B5E20] font-mono">{srsStats.mastered}</span>
+                <span className="text-[10px] text-emerald-600 font-medium">≥21 ngày</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* FOLDERS SELECTOR (Phân chia Folder theo từng file đề) */}
       <div className="bg-white p-5 rounded-3xl border border-slate-200 shadow-xs space-y-3">
@@ -388,7 +556,7 @@ export default function FlashcardsPage() {
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
               Bạn chưa thêm từ vựng nào vào Flashcard. Khi luyện đề thi, mỗi câu hỏi đều có bảng{" "}
               <strong className="text-[#1B5E20]">Từ vựng trọng tâm N3</strong> kèm nút{" "}
-              <strong className="text-[#1B5E20]">+ Flashcard</strong> để bạn gom từ cần nhớ vào đây.
+              <strong className="text-[#1B5E20]">+ Flashcard</strong> để bạn gom từ cần nhớ vào đây và ôn tập theo chu kỳ Anki.
             </p>
           </div>
 
@@ -400,11 +568,11 @@ export default function FlashcardsPage() {
             </div>
             <div className="p-3.5 rounded-2xl bg-[#E8F5E9]/50 border border-[#A5D6A7] space-y-1">
               <span className="font-bold text-[#1B5E20] block">2. Bấm "+ Flashcard"</span>
-              <p className="text-slate-600 text-[11px]">Lưu từ vựng khó hoặc lưu cả bộ từ của câu hỏi.</p>
+              <p className="text-slate-600 text-[11px]">Lưu từ vựng khó kèm âm Hán Việt chuẩn xác.</p>
             </div>
             <div className="p-3.5 rounded-2xl bg-[#E8F5E9]/50 border border-[#A5D6A7] space-y-1">
-              <span className="font-bold text-[#1B5E20] block">3. Ôn theo Folder</span>
-              <p className="text-slate-600 text-[11px]">Từ vựng tự động chia theo từng đề để ôn tập.</p>
+              <span className="font-bold text-[#1B5E20] block">3. Ôn Anki hàng ngày</span>
+              <p className="text-slate-600 text-[11px]">Hệ thống tính ngày lặp lại ngắt quãng SM-2.</p>
             </div>
           </div>
 
@@ -438,9 +606,9 @@ export default function FlashcardsPage() {
                   )}
                 </span>
                 <span className="text-slate-500">
-                  Đã thuộc: <b className="text-emerald-600">{masteredWords.length}</b> / {allCards.length} (
-                  {allCards.length > 0
-                    ? Math.round((masteredWords.length / allCards.length) * 100)
+                  Đã nhớ vững: <b className="text-emerald-600">{srsStats.mastered}</b> / {folderCards.length} (
+                  {folderCards.length > 0
+                    ? Math.round((srsStats.mastered / folderCards.length) * 100)
                     : 0}
                   %)
                 </span>
@@ -461,8 +629,20 @@ export default function FlashcardsPage() {
 
             {/* View Mode & Search & Status Filter */}
             <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-2">
-              {/* Status Filter Tabs */}
+              {/* Status Filter Tabs (SRS Anki Filters) */}
               <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-2xl w-full sm:w-auto overflow-x-auto">
+                <button
+                  type="button"
+                  onClick={() => setActiveFilter("due")}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
+                    activeFilter === "due"
+                      ? "bg-orange-500 text-white shadow-xs"
+                      : "text-orange-700 hover:text-orange-900"
+                  }`}
+                >
+                  <Flame className="w-3.5 h-3.5" />
+                  <span>Hôm nay ({srsStats.dueToday})</span>
+                </button>
                 <button
                   type="button"
                   onClick={() => setActiveFilter("all")}
@@ -476,25 +656,36 @@ export default function FlashcardsPage() {
                 </button>
                 <button
                   type="button"
-                  onClick={() => setActiveFilter("learning")}
+                  onClick={() => setActiveFilter("new")}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
-                    activeFilter === "learning"
-                      ? "bg-white text-[#1B5E20] shadow-xs"
+                    activeFilter === "new"
+                      ? "bg-blue-600 text-white shadow-xs"
                       : "text-slate-600 hover:text-slate-900"
                   }`}
                 >
-                  Đang học ({folderCards.filter((c) => !masteredWords.includes(c.word)).length})
+                  Thẻ mới ({srsStats.newCards})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setActiveFilter("learning")}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
+                    activeFilter === "learning"
+                      ? "bg-purple-600 text-white shadow-xs"
+                      : "text-slate-600 hover:text-slate-900"
+                  }`}
+                >
+                  Đang học ({srsStats.learning})
                 </button>
                 <button
                   type="button"
                   onClick={() => setActiveFilter("mastered")}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
                     activeFilter === "mastered"
-                      ? "bg-white text-emerald-600 shadow-xs"
+                      ? "bg-emerald-600 text-white shadow-xs"
                       : "text-slate-600 hover:text-slate-900"
                   }`}
                 >
-                  Đã thuộc ({folderCards.filter((c) => masteredWords.includes(c.word)).length})
+                  Đã nhớ vững ({srsStats.mastered})
                 </button>
                 <button
                   type="button"
@@ -518,7 +709,7 @@ export default function FlashcardsPage() {
                     className={`p-1.5 rounded-lg text-xs font-semibold cursor-pointer ${
                       viewMode === "deck" ? "bg-white text-[#1B5E20] shadow-xs" : "text-slate-500"
                     }`}
-                    title="Chế độ lật thẻ"
+                    title="Chế độ lật thẻ 3D Anki"
                   >
                     <Layers className="w-4 h-4" />
                   </button>
@@ -528,7 +719,7 @@ export default function FlashcardsPage() {
                     className={`p-1.5 rounded-lg text-xs font-semibold cursor-pointer ${
                       viewMode === "list" ? "bg-white text-[#1B5E20] shadow-xs" : "text-slate-500"
                     }`}
-                    title="Chế độ danh sách"
+                    title="Chế độ danh sách & chu kỳ"
                   >
                     <List className="w-4 h-4" />
                   </button>
@@ -548,7 +739,7 @@ export default function FlashcardsPage() {
             </div>
           </div>
 
-          {/* CHẾ ĐỘ 1: DECK VIEW (LẬT THẺ) */}
+          {/* CHẾ ĐỘ 1: DECK VIEW (LẬT THẺ CHUẨN ANKI) */}
           {viewMode === "deck" && (
             <>
               {currentCard ? (
@@ -556,7 +747,7 @@ export default function FlashcardsPage() {
                   {/* Card Frame with Flip Perspective */}
                   <div
                     onClick={handleFlip}
-                    className="group relative w-full h-[350px] sm:h-[390px] cursor-pointer [perspective:1000px] select-none"
+                    className="group relative w-full min-h-[380px] sm:min-h-[420px] cursor-pointer [perspective:1000px] select-none"
                   >
                     <div
                       className={`w-full h-full duration-500 [transform-style:preserve-3d] transition-transform rounded-3xl shadow-md border border-slate-200/90 bg-white ${
@@ -564,7 +755,7 @@ export default function FlashcardsPage() {
                       }`}
                     >
                       {/* ================= FRONT SIDE ================= */}
-                      <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-white to-[#E8F5E9]/30 rounded-3xl">
+                      <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-white via-white to-[#E8F5E9]/30 rounded-3xl">
                         {/* Top bar on front */}
                         <div className="w-full flex items-center justify-between text-xs text-slate-400">
                           <span className="font-mono font-semibold">
@@ -572,14 +763,28 @@ export default function FlashcardsPage() {
                           </span>
 
                           <div className="flex items-center gap-2">
-                            <span className="px-2.5 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] font-semibold text-[11px] border border-[#A5D6A7]/60 truncate max-w-[180px]">
-                              📁 {currentCard.examTitle}
-                            </span>
-                            {currentCard.sinoVietnamese && (
-                              <span className="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 font-bold text-[11px]">
-                                Hán: {currentCard.sinoVietnamese}
+                            {/* SRS Badge */}
+                            {isCardDueToday(currentCard) ? (
+                              <span className="px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 font-bold text-[10px] border border-orange-200 flex items-center gap-1">
+                                <Flame className="w-3 h-3 text-orange-600" /> Cần ôn
+                              </span>
+                            ) : currentCard.state === "mastered" ? (
+                              <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold text-[10px] border border-emerald-200 flex items-center gap-1">
+                                <Award className="w-3 h-3 text-emerald-600" /> Nhớ vững
+                              </span>
+                            ) : currentCard.state === "learning" ? (
+                              <span className="px-2.5 py-0.5 rounded-full bg-purple-100 text-purple-800 font-bold text-[10px] border border-purple-200">
+                                Đang học ({currentCard.interval}d)
+                              </span>
+                            ) : (
+                              <span className="px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 font-bold text-[10px] border border-blue-200">
+                                Thẻ mới
                               </span>
                             )}
+
+                            <span className="px-2.5 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] font-semibold text-[11px] border border-[#A5D6A7]/60 truncate max-w-[160px]">
+                              📁 {currentCard.examTitle}
+                            </span>
                           </div>
                         </div>
 
@@ -588,8 +793,17 @@ export default function FlashcardsPage() {
                           <div className="text-5xl sm:text-6xl font-extrabold text-slate-900 tracking-wider font-japanese hover:scale-105 transition-transform">
                             {currentCard.word}
                           </div>
-                          <p className="text-xs text-slate-400">
-                            Nhấp vào thẻ hoặc bấm phím <b>Space</b> để xem cách đọc & nghĩa
+
+                          {currentCard.sinoVietnamese && (
+                            <div className="pt-1">
+                              <span className="inline-block px-3 py-1 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7] font-sans font-bold text-xs tracking-wider uppercase shadow-2xs">
+                                ÂM HÁN VIỆT: {currentCard.sinoVietnamese}
+                              </span>
+                            </div>
+                          )}
+
+                          <p className="text-xs text-slate-400 pt-2">
+                            Nhấp vào thẻ hoặc bấm phím <b>Space</b> để xem lời giải & chọn mức độ ghi nhớ Anki
                           </p>
                         </div>
 
@@ -601,7 +815,7 @@ export default function FlashcardsPage() {
                               e.stopPropagation();
                               speakText(currentCard.reading || currentCard.word);
                             }}
-                            className="p-3 rounded-2xl bg-[#E8F5E9] hover:bg-[#A5D6A7]/50 text-[#1B5E20] transition-colors shadow-2xs"
+                            className="p-3 rounded-2xl bg-[#E8F5E9] hover:bg-[#A5D6A7]/50 text-[#1B5E20] transition-colors shadow-2xs cursor-pointer"
                             title="Nghe phát âm từ vựng (phím V)"
                           >
                             <Volume2 className="w-5 h-5" />
@@ -610,28 +824,34 @@ export default function FlashcardsPage() {
                       </div>
 
                       {/* ================= BACK SIDE ================= */}
-                      <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden] p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-[#E8F5E9]/40 via-white to-emerald-50/30 rounded-3xl">
+                      <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden] p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-[#E8F5E9]/40 via-white to-emerald-50/30 rounded-3xl overflow-y-auto">
                         {/* Top bar on back */}
                         <div className="w-full flex items-center justify-between text-xs text-slate-400">
                           <span className="font-mono font-semibold">
                             #{currentIndex + 1} / {filteredCards.length}
                           </span>
-                          <span className="text-[11px] font-bold text-[#1B5E20] bg-[#E8F5E9] px-2.5 py-0.5 rounded-full border border-[#A5D6A7]">
-                            📁 {currentCard.examTitle}
-                          </span>
+
+                          <div className="flex items-center gap-2">
+                            <span className="text-[10px] font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">
+                              Hạn ôn: {currentCard.dueDate || "Hôm nay"}
+                            </span>
+                            <span className="text-[11px] font-bold text-[#1B5E20] bg-[#E8F5E9] px-2.5 py-0.5 rounded-full border border-[#A5D6A7] truncate max-w-[160px]">
+                              📁 {currentCard.examTitle}
+                            </span>
+                          </div>
                         </div>
 
                         {/* Middle Content */}
-                        <div className="space-y-4 my-auto max-w-lg">
+                        <div className="space-y-4 my-auto max-w-lg w-full">
                           <div>
-                            <span className="text-xl font-bold text-[#1B5E20] font-japanese block">
+                            <span className="text-xl sm:text-2xl font-bold text-[#1B5E20] font-japanese block">
                               {currentCard.reading}
                             </span>
                             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-japanese mt-0.5">
                               {currentCard.word}
                             </h2>
                             {currentCard.sinoVietnamese && (
-                              <span className="inline-block mt-1 text-xs font-black text-[#1B5E20] uppercase tracking-widest bg-[#E8F5E9] border border-[#A5D6A7] px-3 py-0.5 rounded-full shadow-2xs">
+                              <span className="inline-block mt-2 text-xs font-black text-[#1B5E20] uppercase tracking-widest bg-[#E8F5E9] border border-[#A5D6A7] px-3.5 py-1 rounded-full shadow-2xs">
                                 ÂM HÁN VIỆT: {currentCard.sinoVietnamese}
                               </span>
                             )}
@@ -646,6 +866,15 @@ export default function FlashcardsPage() {
                               {currentCard.meaning}
                             </div>
                           </div>
+
+                          {/* SRS State summary line */}
+                          <div className="flex items-center justify-center gap-4 text-[11px] text-slate-500 font-medium pt-1">
+                            <span>Chu kỳ hiện tại: <b className="text-slate-800">{currentCard.interval} ngày</b></span>
+                            <span>•</span>
+                            <span>Số lần ôn: <b className="text-slate-800">{currentCard.repetitions}</b></span>
+                            <span>•</span>
+                            <span>Hệ số dễ (EF): <b className="text-slate-800">{currentCard.easeFactor}</b></span>
+                          </div>
                         </div>
 
                         {/* Bottom sound button */}
@@ -656,8 +885,8 @@ export default function FlashcardsPage() {
                               e.stopPropagation();
                               speakText(currentCard.reading || currentCard.word);
                             }}
-                            className="p-3 rounded-2xl bg-[#1B5E20] text-white hover:bg-[#2E7D32] transition-colors shadow-sm"
-                            title="Nghe lại phát âm"
+                            className="p-3 rounded-2xl bg-[#1B5E20] text-white hover:bg-[#2E7D32] transition-colors shadow-sm cursor-pointer"
+                            title="Nghe lại phát âm (phím V)"
                           >
                             <Volume2 className="w-5 h-5" />
                           </button>
@@ -666,7 +895,83 @@ export default function FlashcardsPage() {
                     </div>
                   </div>
 
-                  {/* Bottom Action Controls */}
+                  {/* ANKI 4 RATING BUTTONS (Hiện rõ khi thẻ được lật) */}
+                  {isFlipped ? (
+                    <div className="space-y-2 pt-1 animate-in fade-in duration-200">
+                      <div className="flex items-center justify-between text-xs text-slate-500 px-1 font-medium">
+                        <span>Đánh giá mức độ nhớ từ (Bấm 1, 2, 3, 4 trên bàn phím):</span>
+                        <span className="text-slate-400">Chu kỳ lặp lại tiếp theo:</span>
+                      </div>
+
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                        {/* 1. Lại (Again) */}
+                        <button
+                          type="button"
+                          onClick={() => handleRateCard("again")}
+                          className="flex flex-col items-center justify-center py-3 px-3 rounded-2xl bg-rose-50 hover:bg-rose-100 text-rose-800 border-2 border-rose-200 hover:border-rose-300 transition-all active:scale-95 cursor-pointer shadow-xs"
+                        >
+                          <div className="flex items-center gap-1.5 font-bold text-xs sm:text-sm">
+                            <RotateCcw className="w-3.5 h-3.5 text-rose-600" />
+                            <span>Lại (Again)</span>
+                            <kbd className="hidden sm:inline-block px-1 rounded bg-rose-200/70 text-[10px] text-rose-800">1</kbd>
+                          </div>
+                          <span className="text-[11px] font-semibold text-rose-600 mt-0.5">
+                            1 ngày
+                          </span>
+                        </button>
+
+                        {/* 2. Khó (Hard) */}
+                        <button
+                          type="button"
+                          onClick={() => handleRateCard("hard")}
+                          className="flex flex-col items-center justify-center py-3 px-3 rounded-2xl bg-amber-50 hover:bg-amber-100 text-amber-900 border-2 border-amber-200 hover:border-amber-300 transition-all active:scale-95 cursor-pointer shadow-xs"
+                        >
+                          <div className="flex items-center gap-1.5 font-bold text-xs sm:text-sm">
+                            <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
+                            <span>Khó (Hard)</span>
+                            <kbd className="hidden sm:inline-block px-1 rounded bg-amber-200/70 text-[10px] text-amber-800">2</kbd>
+                          </div>
+                          <span className="text-[11px] font-semibold text-amber-700 mt-0.5">
+                            +{getReviewIntervalPreview(currentCard, "hard")} ngày
+                          </span>
+                        </button>
+
+                        {/* 3. Tốt (Good) */}
+                        <button
+                          type="button"
+                          onClick={() => handleRateCard("good")}
+                          className="flex flex-col items-center justify-center py-3 px-3 rounded-2xl bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border-2 border-emerald-300 hover:border-emerald-400 transition-all active:scale-95 cursor-pointer shadow-xs"
+                        >
+                          <div className="flex items-center gap-1.5 font-bold text-xs sm:text-sm">
+                            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                            <span>Tốt (Good)</span>
+                            <kbd className="hidden sm:inline-block px-1 rounded bg-emerald-200/70 text-[10px] text-emerald-800">3</kbd>
+                          </div>
+                          <span className="text-[11px] font-semibold text-emerald-700 mt-0.5">
+                            +{getReviewIntervalPreview(currentCard, "good")} ngày
+                          </span>
+                        </button>
+
+                        {/* 4. Dễ (Easy) */}
+                        <button
+                          type="button"
+                          onClick={() => handleRateCard("easy")}
+                          className="flex flex-col items-center justify-center py-3 px-3 rounded-2xl bg-blue-50 hover:bg-blue-100 text-blue-900 border-2 border-blue-300 hover:border-blue-400 transition-all active:scale-95 cursor-pointer shadow-xs"
+                        >
+                          <div className="flex items-center gap-1.5 font-bold text-xs sm:text-sm">
+                            <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+                            <span>Dễ (Easy)</span>
+                            <kbd className="hidden sm:inline-block px-1 rounded bg-blue-200/70 text-[10px] text-blue-800">4</kbd>
+                          </div>
+                          <span className="text-[11px] font-semibold text-blue-700 mt-0.5">
+                            +{getReviewIntervalPreview(currentCard, "easy")} ngày
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  ) : null}
+
+                  {/* Bottom Navigation & Star Controls */}
                   <div className="flex items-center justify-between gap-3 pt-1">
                     <button
                       type="button"
@@ -695,25 +1000,6 @@ export default function FlashcardsPage() {
                         </span>
                       </button>
 
-                      {/* Mastered Button */}
-                      <button
-                        type="button"
-                        onClick={toggleMastered}
-                        className={`p-3 sm:px-4 sm:py-3 rounded-2xl border text-xs font-bold flex items-center gap-2 transition-all active:scale-95 cursor-pointer ${
-                          isCurrentMastered
-                            ? "bg-emerald-50 border-emerald-300 text-emerald-700 shadow-xs"
-                            : "bg-white border-slate-200 text-slate-600 hover:bg-slate-50"
-                        }`}
-                        title="Đánh dấu đã thuộc (phím M)"
-                      >
-                        <CheckCircle2
-                          className={`w-4 h-4 ${isCurrentMastered ? "fill-emerald-500 text-white" : ""}`}
-                        />
-                        <span className="hidden sm:inline">
-                          {isCurrentMastered ? "Đã thuộc" : "Đánh dấu thuộc"}
-                        </span>
-                      </button>
-
                       {/* Flip Button */}
                       <button
                         type="button"
@@ -721,7 +1007,7 @@ export default function FlashcardsPage() {
                         className="px-5 py-3 rounded-2xl bg-[#1B5E20] hover:bg-[#2E7D32] text-white text-xs font-bold shadow-sm active:scale-95 transition-all flex items-center gap-1.5 cursor-pointer"
                       >
                         <RotateCcw className="w-3.5 h-3.5" />
-                        <span>Lật thẻ (Space)</span>
+                        <span>{isFlipped ? "Mặt trước (Space)" : "Lật thẻ (Space)"}</span>
                       </button>
 
                       {/* Delete Current Card Button */}
@@ -746,20 +1032,62 @@ export default function FlashcardsPage() {
                   </div>
                 </div>
               ) : (
-                <div className="bg-white p-12 rounded-3xl border border-slate-200 text-center space-y-3">
-                  <BookOpen className="w-12 h-12 text-slate-300 mx-auto" />
-                  <h3 className="text-base font-bold text-slate-700">
-                    Không tìm thấy từ vựng phù hợp
-                  </h3>
-                  <p className="text-xs text-slate-400">
-                    Hãy thử tìm kiếm từ khóa khác hoặc chuyển sang tab "Tất cả".
-                  </p>
+                /* Finished Due Cards or Empty Filter */
+                <div className="bg-white p-10 sm:p-14 rounded-3xl border border-slate-200 text-center space-y-4">
+                  {activeFilter === "due" ? (
+                    <div className="space-y-3 max-w-md mx-auto">
+                      <div className="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto text-3xl shadow-xs">
+                        🎉
+                      </div>
+                      <h3 className="text-xl font-extrabold text-slate-800">
+                        Đã hoàn thành mục tiêu ôn tập hôm nay!
+                      </h3>
+                      <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        Tuyệt vời ghê! Toàn bộ từ vựng đến hạn của ngày hôm nay đã được ôn luyện và lên lịch lặp lại ngắt quãng chuẩn thuật toán Anki.
+                      </p>
+                      <div className="pt-2 flex flex-wrap items-center justify-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => setActiveFilter("all")}
+                          className="px-4 py-2.5 rounded-xl bg-[#1B5E20] hover:bg-[#2E7D32] text-white text-xs font-bold transition-all shadow-xs"
+                        >
+                          Xem tất cả từ vựng ({folderCards.length})
+                        </button>
+                        <Link
+                          href="/exams"
+                          className="px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-all"
+                        >
+                          Luyện thêm đề thi mới
+                        </Link>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="space-y-2">
+                      <BookOpen className="w-12 h-12 text-slate-300 mx-auto" />
+                      <h3 className="text-base font-bold text-slate-700">
+                        Không tìm thấy từ vựng trong bộ lọc này
+                      </h3>
+                      <p className="text-xs text-slate-400">
+                        Hãy thử chuyển sang tab &quot;Tất cả&quot; hoặc tìm kiếm từ khóa khác.
+                      </p>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setActiveFilter("all");
+                          setSearchQuery("");
+                        }}
+                        className="mt-2 inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-slate-100 text-slate-700 text-xs font-bold hover:bg-slate-200 transition-all"
+                      >
+                        Về danh sách tất cả
+                      </button>
+                    </div>
+                  )}
                 </div>
               )}
             </>
           )}
 
-          {/* CHẾ ĐỘ 2: LIST VIEW (BẢNG DANH SÁCH TỪ THEO FOLDER) */}
+          {/* CHẾ ĐỘ 2: LIST VIEW (BẢNG DANH SÁCH TỪ KÈM CHU KỲ ANKI) */}
           {viewMode === "list" && (
             <div className="space-y-3">
               <div className="text-xs font-semibold text-slate-500">
@@ -768,13 +1096,14 @@ export default function FlashcardsPage() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {filteredCards.map((card, idx) => {
-                  const isMastered = masteredWords.includes(card.word);
                   const isStarred = starredWords.includes(card.word);
+                  const isDue = isCardDueToday(card);
+                  const isMastered = card.state === "mastered" || card.interval >= 21;
 
                   return (
                     <div
                       key={card.id || idx}
-                      className="p-4 rounded-2xl bg-white border border-slate-200 shadow-2xs hover:border-[#A5D6A7] transition-all space-y-2"
+                      className="p-4 rounded-2xl bg-white border border-slate-200 shadow-2xs hover:border-[#A5D6A7] transition-all space-y-2.5"
                     >
                       <div className="flex items-start justify-between gap-2">
                         <div className="space-y-0.5">
@@ -815,20 +1144,42 @@ export default function FlashcardsPage() {
                         {card.meaning}
                       </div>
 
-                      <div className="flex items-center justify-between text-[11px] text-slate-400 pt-1">
-                        <span className="truncate max-w-[200px]">📁 {card.examTitle}</span>
-                        <div className="flex items-center gap-2">
-                          {isMastered && (
-                            <span className="text-emerald-600 font-bold flex items-center gap-0.5">
-                              <Check className="w-3 h-3" /> Thuộc
+                      {/* SRS Info Badges */}
+                      <div className="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-slate-100/80 text-[11px]">
+                        <div className="flex items-center gap-1.5">
+                          {isDue ? (
+                            <span className="px-2 py-0.5 rounded-md bg-orange-100 text-orange-800 font-bold text-[10px] flex items-center gap-0.5">
+                              <Flame className="w-3 h-3 text-orange-600" /> Đến hạn hôm nay
+                            </span>
+                          ) : isMastered ? (
+                            <span className="px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-800 font-bold text-[10px] flex items-center gap-0.5">
+                              <Award className="w-3 h-3 text-emerald-600" /> Đã nhớ vững
+                            </span>
+                          ) : (
+                            <span className="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 font-medium text-[10px] flex items-center gap-0.5">
+                              <Calendar className="w-3 h-3 text-slate-400" /> Hạn: {card.dueDate}
                             </span>
                           )}
+
+                          <span className="text-slate-400 text-[10px]">
+                            • Chu kỳ: {card.interval} ngày
+                          </span>
+                        </div>
+
+                        <div className="flex items-center gap-2">
                           {isStarred && (
                             <span className="text-amber-500 font-bold flex items-center gap-0.5">
                               <Star className="w-3 h-3 fill-amber-400" /> Ghim
                             </span>
                           )}
+                          <span className="text-slate-400 text-[10px] font-mono">
+                            {card.repetitions} reps
+                          </span>
                         </div>
+                      </div>
+
+                      <div className="text-[10px] text-slate-400 truncate">
+                        📁 {card.examTitle}
                       </div>
                     </div>
                   );
@@ -841,7 +1192,7 @@ export default function FlashcardsPage() {
           <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200/80 flex flex-wrap items-center justify-between gap-3 text-[11px] text-slate-500">
             <div className="flex items-center gap-1.5">
               <HelpCircle className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-              <span>Phím tắt:</span>
+              <span>Phím tắt ôn tập Anki:</span>
             </div>
             <div className="flex flex-wrap items-center gap-3">
               <span>
@@ -849,6 +1200,16 @@ export default function FlashcardsPage() {
                   Space
                 </kbd>{" "}
                 Lật thẻ
+              </span>
+              <span>
+                <kbd className="px-1.5 py-0.5 rounded bg-white border border-slate-300 font-mono text-[10px]">
+                  1
+                </kbd>
+                {" - "}
+                <kbd className="px-1.5 py-0.5 rounded bg-white border border-slate-300 font-mono text-[10px]">
+                  4
+                </kbd>{" "}
+                Đánh giá Anki (Lại, Khó, Tốt, Dễ)
               </span>
               <span>
                 <kbd className="px-1.5 py-0.5 rounded bg-white border border-slate-300 font-mono text-[10px]">
@@ -864,19 +1225,13 @@ export default function FlashcardsPage() {
                 <kbd className="px-1.5 py-0.5 rounded bg-white border border-slate-300 font-mono text-[10px]">
                   V
                 </kbd>{" "}
-                Nghe phát âm
+                Phát âm
               </span>
               <span>
                 <kbd className="px-1.5 py-0.5 rounded bg-white border border-slate-300 font-mono text-[10px]">
                   S
                 </kbd>{" "}
                 Ghim từ
-              </span>
-              <span>
-                <kbd className="px-1.5 py-0.5 rounded bg-white border border-slate-300 font-mono text-[10px]">
-                  M
-                </kbd>{" "}
-                Đã thuộc
               </span>
             </div>
           </div>
