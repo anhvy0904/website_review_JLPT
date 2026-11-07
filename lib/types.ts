@@ -60,7 +60,7 @@ export interface ExamQuestion {
   passageId?: string;
   questionText: string;
   options: ExamOption[];
-  correctOptionId: string;
+  correctOptionId: string | null;
   difficulty: number; // 1 to 5
   tags?: string[];
   explanation: QuestionExplanation;
@@ -169,7 +169,7 @@ export interface AttemptScoringResult {
     section: SectionType;
     subtype: string;
     selectedOptionId?: string;
-    correctOptionId: string;
+    correctOptionId: string | null;
     isCorrect: boolean;
     isSkipped: boolean;
     isFlagged: boolean;

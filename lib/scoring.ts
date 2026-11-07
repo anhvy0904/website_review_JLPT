@@ -20,7 +20,7 @@ export function scoreAttempt(exam: ExamDetail, attempt: ExamAttempt): AttemptSco
   const questionResults = exam.questions.map((q) => {
     const selectedOptionId = attempt.answers[q.id];
     const isSkipped = !selectedOptionId || selectedOptionId.trim() === "";
-    const isCorrect = !isSkipped && String(selectedOptionId) === String(q.correctOptionId);
+    const isCorrect = !isSkipped && !!q.correctOptionId && String(selectedOptionId) === String(q.correctOptionId);
     const isFlagged = Array.isArray(attempt.flaggedQuestionIds) && attempt.flaggedQuestionIds.includes(q.id);
 
     // Section counting

@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { ExamQuestion } from "@/lib/types";
 import { FuriganaRuby } from "./FuriganaRuby";
+import { AITutorChat } from "./AITutorChat";
 import { saveQuestionReport } from "@/lib/storage";
 import {
   CheckCircle2,
@@ -277,6 +278,12 @@ export function AnswerExplanation({
             </div>
           </div>
         )}
+
+        {/* Module 4: Hỏi Sensei AI (AI Tutor) */}
+        <AITutorChat
+          question={question}
+          selectedOptionId={selectedOptionId}
+        />
 
         {/* Báo lỗi câu hỏi (Report Question) */}
         <div className="pt-3 border-t border-slate-200/60">
