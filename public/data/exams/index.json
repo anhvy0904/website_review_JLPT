@@ -1,39 +1,5 @@
 [
   {
-    "id": "n3-2026-set-001",
-    "title": "Đề Luyện Thi JLPT N3 - Bộ Đề Thực Chiến Số 02",
-    "description": "Luyện tập chuyên sâu các bẫy thường gặp trong ngữ pháp N3 (〜わけではない, 〜に違いない) và kỹ năng lọc thông tin đọc hiểu ngắn.",
-    "level": "N3",
-    "status": "published",
-    "questionCount": 4,
-    "timeLimitMinutes": 25,
-    "allowedModes": [
-      "practice",
-      "exam"
-    ],
-    "sectionCounts": {
-      "vocabulary": 2,
-      "grammar": 1,
-      "reading": 1
-    },
-    "subtypes": [
-      "kanji_reading",
-      "paraphrase",
-      "sentence_grammar",
-      "reading_short"
-    ],
-    "tags": [
-      "Từ vựng N3",
-      "Cách đọc Kanji",
-      "Từ đồng nghĩa",
-      "Ngữ pháp N3",
-      "Mẫu câu わけではない",
-      "Đọc hiểu N3",
-      "Tìm kiếm thông tin"
-    ],
-    "lastUpdated": "2026-11-07"
-  },
-  {
     "id": "n3-best-moshi-01",
     "title": "ベスト模試 N3 — Đề 1 (không có phần nghe)",
     "description": "Bộ đề luyện N3 lấy từ bản PDF người dùng cung cấp: 35 câu từ vựng, 23 câu ngữ pháp và 16 câu đọc hiểu. Chưa có bảng đáp án gốc. Đáp án/giải thích hiện là đề xuất, bắt buộc kiểm duyệt trước khi xuất bản.",
@@ -105,43 +71,6 @@
     "lastUpdated": "2026-11-07"
   },
   {
-    "id": "n3-demo-001",
-    "title": "Đề Luyện Thi Chuẩn JLPT N3 - Đề Số 01 (Tổng Hợp)",
-    "description": "Bộ đề chuẩn hóa cấu trúc JLPT N3 gồm Từ vựng - Chữ Hán, Ngữ pháp và Bài đọc hiểu có giải thích tiếng Việt chi tiết.",
-    "level": "N3",
-    "status": "published",
-    "questionCount": 5,
-    "timeLimitMinutes": 30,
-    "allowedModes": [
-      "practice",
-      "exam"
-    ],
-    "sectionCounts": {
-      "vocabulary": 2,
-      "grammar": 2,
-      "reading": 1
-    },
-    "subtypes": [
-      "kanji_reading",
-      "contextual_use",
-      "sentence_grammar",
-      "sentence_composition",
-      "reading_medium"
-    ],
-    "tags": [
-      "Từ vựng N3",
-      "Chữ Hán",
-      "Cách đọc",
-      "Ngữ cảnh",
-      "Ngữ pháp N3",
-      "Mẫu câu Vないうちに",
-      "Ghép câu sao",
-      "Đọc hiểu N3",
-      "Ý chính tác giả"
-    ],
-    "lastUpdated": "2026-11-07"
-  },
-  {
     "id": "n3-kanji-reading-50",
     "title": "Đề Thi Thực Chiến Chữ Hán N3 - Phần 1: Cách Đọc Kanji (50 Câu)",
     "description": "Bộ đề trắc nghiệm chuẩn hoá 50 câu hỏi Mondai 1 (Chọn cách đọc của chữ Hán) trích xuất trực tiếp từ giáo trình thực chiến JLPT N3 Kosei Nihongo. Phân tích cặn kẽ 100% tiếng Việt cho từng lựa chọn.",
@@ -195,37 +124,6 @@
       "cách viết",
       "kosei",
       "n3"
-    ],
-    "lastUpdated": "2026-11-07"
-  },
-  {
-    "id": "n3-reading-set-001",
-    "title": "Đề Luyện Thi Chuyên Sâu Đọc Hiểu & Lọc Thông Tin Biểu Mẫu",
-    "description": "Rèn luyện kỹ năng đọc hiểu biểu mẫu thông báo (Mondai 7) và phân biệt cách đọc Hán tự dễ nhầm lẫn.",
-    "level": "N3",
-    "status": "published",
-    "questionCount": 4,
-    "timeLimitMinutes": 20,
-    "allowedModes": [
-      "practice",
-      "exam"
-    ],
-    "sectionCounts": {
-      "vocabulary": 2,
-      "grammar": 0,
-      "reading": 2
-    },
-    "subtypes": [
-      "kanji_reading",
-      "contextual_use",
-      "info_retrieval"
-    ],
-    "tags": [
-      "Từ vựng N3",
-      "Cách đọc Kanji",
-      "Động từ ghép",
-      "Đọc hiểu N3",
-      "Tìm kiếm thông tin"
     ],
     "lastUpdated": "2026-11-07"
   }
