@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ExamQuestion } from "@/lib/types";
 import { FuriganaRuby } from "./FuriganaRuby";
 import { AITutorChat } from "./AITutorChat";
+import { AnnotatedTextWithHanViet } from "./AnnotatedTextWithHanViet";
+import { getHanViet, getQuestionKanjiTarget } from "@/lib/hanviet";
 import { saveQuestionReport } from "@/lib/storage";
 import {
   CheckCircle2,
@@ -57,6 +59,7 @@ export function AnswerExplanation({
 
   const selectedOption = question.options.find((o) => o.id === selectedOptionId);
   const correctOption = question.options.find((o) => o.id === question.correctOptionId);
+  const kanjiTarget = getQuestionKanjiTarget(question);
 
   // Detect related learning module per PRD Addendum Section A3
   const getRelatedTopicLink = () => {
@@ -142,17 +145,58 @@ export function AnswerExplanation({
 
       <div className="space-y-6 pt-5">
         {/* Tóm tắt & Lý do đúng */}
-        <div className="space-y-2">
+        <div className="space-y-3">
           <div className="flex items-center gap-2 text-indigo-900 font-bold text-base">
             <Lightbulb className="w-5 h-5 text-amber-500" />
             <span>Phân tích đáp án</span>
           </div>
-          <p className="text-slate-800 font-medium text-sm leading-relaxed">
-            {explanation.summaryVi}
-          </p>
-          <p className="text-slate-700 text-sm leading-relaxed bg-white/70 p-3.5 rounded-xl border border-slate-200/70">
-            {explanation.correctReasonVi}
-          </p>
+
+          {/* Khối Âm Hán Việt nổi bật của câu hỏi */}
+          {kanjiTarget && (
+            <div className="p-3.5 rounded-2xl bg-gradient-to-r from-[#E8F5E9] via-emerald-50/60 to-white border-2 border-[#A5D6A7] text-xs space-y-2.5 shadow-xs">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="flex items-center gap-2">
+                  <span className="w-6 h-6 rounded-lg bg-[#1B5E20] text-white text-xs flex items-center justify-center font-bold shadow-sm">
+                    漢
+                  </span>
+                  <span className="text-xs font-bold uppercase tracking-wider text-[#1B5E20]">
+                    Chữ Hán & Âm Hán Việt trọng tâm
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="font-japanese font-black text-slate-900 text-lg">
+                    {kanjiTarget.targetJa}
+                  </span>
+                  <span className="px-2.5 py-1 rounded-lg bg-[#1B5E20] text-white font-black text-xs tracking-wider uppercase shadow-xs">
+                    {kanjiTarget.hanViet}
+                  </span>
+                </div>
+              </div>
+
+              {kanjiTarget.breakdown && kanjiTarget.breakdown.length > 1 && (
+                <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-[#A5D6A7]/50 text-[11px]">
+                  <span className="text-slate-500 font-medium">Chi tiết từng chữ:</span>
+                  {kanjiTarget.breakdown.map((item) => (
+                    <span
+                      key={item.kanji}
+                      className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-lg bg-white border border-[#A5D6A7] text-slate-700 shadow-2xs"
+                    >
+                      <strong className="font-japanese text-[#1B5E20] text-xs font-bold">{item.kanji}</strong>
+                      <span className="text-slate-300">•</span>
+                      <span className="font-bold text-[#1B5E20]">{item.hanViet}</span>
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
+          <div className="text-slate-800 font-medium text-sm leading-relaxed">
+            <AnnotatedTextWithHanViet text={explanation.summaryVi} />
+          </div>
+          <div className="text-slate-700 text-sm leading-relaxed bg-white/70 p-3.5 rounded-xl border border-slate-200/70">
+            <AnnotatedTextWithHanViet text={explanation.correctReasonVi} />
+          </div>
         </div>
 
         {/* Giải thích chi tiết từng lựa chọn (Distractors) */}
@@ -166,6 +210,7 @@ export function AnswerExplanation({
                 const isThisCorrect = opt.id === question.correctOptionId;
                 const isThisSelected = opt.id === selectedOptionId;
                 const reason = explanation.optionReasonsVi[opt.id] || "Chưa có lời giải";
+                const optHanViet = getHanViet(opt.text);
 
                 return (
                   <div
@@ -190,21 +235,28 @@ export function AnswerExplanation({
                       >
                         {opt.id}
                       </span>
-                      <div className="space-y-1">
-                        <div className="font-japanese font-semibold">
-                          {opt.text}
+                      <div className="space-y-1 flex-1">
+                        <div className="font-japanese font-semibold flex flex-wrap items-center gap-1.5">
+                          <span>{opt.text}</span>
+                          {optHanViet && (
+                            <span className="font-sans text-[11px] font-bold text-[#1B5E20] bg-[#E8F5E9] px-2 py-0.5 rounded border border-[#A5D6A7]">
+                              Hán Việt: {optHanViet}
+                            </span>
+                          )}
                           {isThisCorrect && (
-                            <span className="ml-2 text-xs font-normal text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full">
+                            <span className="ml-1 text-xs font-normal text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full font-sans">
                               (Đáp án đúng)
                             </span>
                           )}
                           {isThisSelected && !isThisCorrect && (
-                            <span className="ml-2 text-xs font-normal text-rose-700 bg-rose-100 px-2 py-0.5 rounded-full">
+                            <span className="ml-1 text-xs font-normal text-rose-700 bg-rose-100 px-2 py-0.5 rounded-full font-sans">
                               (Lựa chọn của bạn)
                             </span>
                           )}
                         </div>
-                        <p className="text-xs leading-relaxed text-slate-600">{reason}</p>
+                        <div className="text-xs leading-relaxed text-slate-600">
+                          <AnnotatedTextWithHanViet text={reason} />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -239,7 +291,7 @@ export function AnswerExplanation({
           </div>
         )}
 
-        {/* Từ vựng quan trọng (với Furigana) */}
+        {/* Từ vựng quan trọng (với Furigana & Âm Hán Việt) */}
         {explanation.vocabulary && explanation.vocabulary.length > 0 && (
           <div className="space-y-2.5">
             <div className="flex items-center gap-2 text-slate-900 font-semibold text-sm">
@@ -247,23 +299,34 @@ export function AnswerExplanation({
               <span>Từ vựng trọng tâm N3</span>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-              {explanation.vocabulary.map((v, i) => (
-                <div
-                  key={i}
-                  className="flex items-center justify-between p-3 rounded-xl bg-white border border-slate-200 text-sm"
-                >
-                  <div className="space-y-0.5">
-                    <FuriganaRuby
-                      word={v.word}
-                      hiragana={v.hiragana}
-                      className="text-base font-bold text-slate-900"
-                    />
+              {explanation.vocabulary.map((v, i) => {
+                const vHanViet = getHanViet(v.word);
+                return (
+                  <div
+                    key={i}
+                    className="flex items-center justify-between p-3 rounded-xl bg-white border border-slate-200 hover:border-[#A5D6A7] transition-all text-sm"
+                  >
+                    <div className="space-y-1">
+                      <FuriganaRuby
+                        word={v.word}
+                        hiragana={v.hiragana}
+                        className="text-base font-bold text-slate-900"
+                      />
+                      {vHanViet && (
+                        <div className="text-[11px] font-bold text-[#1B5E20] flex items-center gap-1">
+                          <span className="text-slate-400 font-normal">Hán Việt:</span>
+                          <span className="px-1.5 py-0.2 rounded bg-[#E8F5E9] border border-[#A5D6A7]/70">
+                            {vHanViet}
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                    <span className="text-xs text-slate-600 font-medium text-right ml-2">
+                      {v.meaningVi}
+                    </span>
                   </div>
-                  <span className="text-xs text-slate-600 font-medium text-right ml-2">
-                    {v.meaningVi}
-                  </span>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         )}
@@ -310,7 +373,9 @@ export function AnswerExplanation({
             <Sparkles className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
             <div>
               <span className="font-bold">Mẹo nhận diện & Bẫy thường gặp: </span>
-              <span className="leading-relaxed">{explanation.studyTipVi}</span>
+              <span className="leading-relaxed">
+                <AnnotatedTextWithHanViet text={explanation.studyTipVi} />
+              </span>
             </div>
           </div>
         )}
