@@ -1,0 +1,4174 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "n3-best-moshi-01",
+  "title": "ベスト模試 N3 — Đề 1 (không có phần nghe)",
+  "description": "Bộ đề luyện N3 lấy từ bản PDF người dùng cung cấp: 35 câu từ vựng, 23 câu ngữ pháp và 16 câu đọc hiểu. Chưa có bảng đáp án gốc. Đáp án/giải thích hiện là đề xuất, bắt buộc kiểm duyệt trước khi xuất bản.",
+  "level": "N3",
+  "status": "draft",
+  "source": {
+    "fileName": "ベスト模試 N3 đề 1 THI full.pdf",
+    "type": "commercial_mock",
+    "notes": "Bản quét 44 trang; dùng trang 3–7 và 10–28, loại Listening trang 29–44. Không có đáp án chính thức trong file. Học liệu có thể thuộc bản quyền; xin phép trước khi công khai trên website. Các passages dài giữ bằng ảnh WebP do trích xuất văn bản từ bản quét chưa bảo đảm chính xác.",
+    "reviewedByHuman": false
+  },
+  "settings": {
+    "timeLimitMinutes": 100,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ]
+  },
+  "passages": [
+    {
+      "id": "g-cloze",
+      "title": "文章文法「ごはん？ ライス？」",
+      "text": "",
+      "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-15.webp"
+    },
+    {
+      "id": "r-email",
+      "title": "読解 (1) 大学院の先生へのメール",
+      "text": "",
+      "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-17.webp"
+    },
+    {
+      "id": "r-equality",
+      "title": "読解 (2) 男女平等と社会習慣",
+      "text": "",
+      "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-18.webp"
+    },
+    {
+      "id": "r-farm",
+      "title": "読解 (3) 牧場でのホームステイ",
+      "text": "",
+      "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-19.webp"
+    },
+    {
+      "id": "r-names",
+      "title": "読解 (4) 子どもの名前",
+      "text": "",
+      "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-20.webp"
+    },
+    {
+      "id": "r-ukiyoe",
+      "title": "読解 (5) 浮世絵と日本文化",
+      "text": "",
+      "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-21.webp"
+    },
+    {
+      "id": "r-geopark",
+      "title": "読解 (6) 世界ジオパーク",
+      "text": "",
+      "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-23.webp"
+    },
+    {
+      "id": "r-meiji",
+      "title": "読解 (7) 明治神宮の森",
+      "text": "",
+      "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-25.webp"
+    },
+    {
+      "id": "r-notice",
+      "title": "読解 (8) 北東大学からのお知らせ",
+      "text": "",
+      "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-28.webp"
+    }
+  ],
+  "questions": [
+    {
+      "id": "n3-best-moshi-01-voc-001",
+      "number": 1,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "passageId": null,
+      "questionText": "洋子さんは__緑__のワンピースを着ていました。",
+      "options": [
+        {
+          "id": "1",
+          "text": "あお"
+        },
+        {
+          "id": "2",
+          "text": "むらさき"
+        },
+        {
+          "id": "3",
+          "text": "みどり"
+        },
+        {
+          "id": "4",
+          "text": "ちゃ"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "色彩",
+        "漢字"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "緑 đọc là みどり, nghĩa là màu xanh lá cây. Các lựa chọn khác lần lượt là xanh dương, tím và trà/màu nâu.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): あお là xanh dương, không phải 緑.",
+          "2": "SAI (đề xuất): むらさき là màu tím.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 緑 đọc là みどり, nghĩa là màu xanh lá cây. Các lựa chọn khác lần lượt là xanh dương, tím và trà/màu nâu.",
+          "4": "SAI (đề xuất): ちゃ chỉ trà/màu nâu, không phải xanh lá."
+        },
+        "translationVi": "Yōko mặc chiếc váy liền màu xanh lá.",
+        "vocabulary": [
+          {
+            "word": "緑",
+            "hiragana": "みどり",
+            "meaningVi": "màu xanh lá"
+          },
+          {
+            "word": "着る",
+            "hiragana": "きる",
+            "meaningVi": "mặc"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-002",
+      "number": 2,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "passageId": null,
+      "questionText": "このお弁当は__消費__期限が近づいている。",
+      "options": [
+        {
+          "id": "1",
+          "text": "しょひ"
+        },
+        {
+          "id": "2",
+          "text": "しょうひ"
+        },
+        {
+          "id": "3",
+          "text": "しょび"
+        },
+        {
+          "id": "4",
+          "text": "しょうび"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "漢字",
+        "食生活"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "消費（しょうひ） nghĩa là tiêu thụ; 消費期限（しょうひきげん） là hạn dùng an toàn của thực phẩm. Các cách đọc khác sai âm dài hoặc âm cuối.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Thiếu âm dài う trong しょう.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 消費（しょうひ） nghĩa là tiêu thụ; 消費期限（しょうひきげん） là hạn dùng an toàn của thực phẩm. Các cách đọc khác sai âm dài hoặc âm cuối.",
+          "3": "SAI (đề xuất): Dùng âm び thay vì ひ, đồng thời thiếu trường âm.",
+          "4": "SAI (đề xuất): Sai âm び thay vì ひ."
+        },
+        "translationVi": "Hộp cơm này sắp đến hạn sử dụng.",
+        "vocabulary": [
+          {
+            "word": "消費期限",
+            "hiragana": "しょうひきげん",
+            "meaningVi": "hạn sử dụng"
+          },
+          {
+            "word": "近づく",
+            "hiragana": "ちかづく",
+            "meaningVi": "đến gần"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-003",
+      "number": 3,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "passageId": null,
+      "questionText": "__親しい__友達と旅行するつもりだ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "したしい"
+        },
+        {
+          "id": "2",
+          "text": "めずらしい"
+        },
+        {
+          "id": "3",
+          "text": "あたらしい"
+        },
+        {
+          "id": "4",
+          "text": "やさしい"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "人間関係"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "親しい đọc したしい: thân thiết. めずらしい là hiếm lạ, あたらしい là mới, やさしい là hiền/dễ.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 親しい đọc したしい: thân thiết. めずらしい là hiếm lạ, あたらしい là mới, やさしい là hiền/dễ.",
+          "2": "SAI (đề xuất): めずらしい nghĩa là lạ/hiếm, không phải thân thiết.",
+          "3": "SAI (đề xuất): あたらしい nghĩa là mới.",
+          "4": "SAI (đề xuất): やさしい nghĩa là hiền/dễ."
+        },
+        "translationVi": "Tôi định đi du lịch với người bạn thân.",
+        "vocabulary": [
+          {
+            "word": "親しい",
+            "hiragana": "したしい",
+            "meaningVi": "thân thiết"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-004",
+      "number": 4,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "passageId": null,
+      "questionText": "USBメモリーにデータを__保存__する。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ほうそん"
+        },
+        {
+          "id": "2",
+          "text": "ほそん"
+        },
+        {
+          "id": "3",
+          "text": "ほうぞん"
+        },
+        {
+          "id": "4",
+          "text": "ほぞん"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "IT"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "保存（ほぞん） là lưu trữ/bảo quản; chữ 保 đọc ほ, 存 trong từ này đọc ぞん.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 保 không tạo trường âm ほう trong 保存.",
+          "2": "SAI (đề xuất): 存 phải đọc ぞん (có dakuten), không phải そん.",
+          "3": "SAI (đề xuất): Âm ほう không đúng trong 保存.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 保存（ほぞん） là lưu trữ/bảo quản; chữ 保 đọc ほ, 存 trong từ này đọc ぞん."
+        },
+        "translationVi": "Lưu dữ liệu vào USB.",
+        "vocabulary": [
+          {
+            "word": "保存",
+            "hiragana": "ほぞん",
+            "meaningVi": "lưu trữ"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-005",
+      "number": 5,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "passageId": null,
+      "questionText": "急行は大川駅は__通過__します。",
+      "options": [
+        {
+          "id": "1",
+          "text": "つうか"
+        },
+        {
+          "id": "2",
+          "text": "つか"
+        },
+        {
+          "id": "3",
+          "text": "とうか"
+        },
+        {
+          "id": "4",
+          "text": "とか"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "交通"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "通過（つうか） nghĩa là đi qua mà không dừng; 通 có trường âm つう, 過 đọc か.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 通過（つうか） nghĩa là đi qua mà không dừng; 通 có trường âm つう, 過 đọc か.",
+          "2": "SAI (đề xuất): Thiếu âm dài う.",
+          "3": "SAI (đề xuất): 通 trong từ này không đọc とう.",
+          "4": "SAI (đề xuất): Vừa thiếu trường âm vừa dùng âm とう sai."
+        },
+        "translationVi": "Tàu tốc hành đi qua ga Ōkawa mà không dừng.",
+        "vocabulary": [
+          {
+            "word": "急行",
+            "hiragana": "きゅうこう",
+            "meaningVi": "tàu tốc hành"
+          },
+          {
+            "word": "通過",
+            "hiragana": "つうか",
+            "meaningVi": "đi qua không dừng"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-006",
+      "number": 6,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "passageId": null,
+      "questionText": "会員になるには、__身分__を証明するものが必要だ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "みふん"
+        },
+        {
+          "id": "2",
+          "text": "しんふん"
+        },
+        {
+          "id": "3",
+          "text": "みぶん"
+        },
+        {
+          "id": "4",
+          "text": "しんぶん"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "生活"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "身分（みぶん） là thân phận/tư cách; 身 đọc み, 分 đọc ぶん. しんぶん là cách đọc của 新聞, không phải 身分.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 分 trong 身分 đọc ぶん chứ không phải ふん.",
+          "2": "SAI (đề xuất): 身 trong 身分 không đọc しん; 分 cũng không đọc ふん.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 身分（みぶん） là thân phận/tư cách; 身 đọc み, 分 đọc ぶん. しんぶん là cách đọc của 新聞, không phải 身分.",
+          "4": "SAI (đề xuất): しんぶん là 新聞, không phải 身分."
+        },
+        "translationVi": "Để trở thành hội viên, cần giấy tờ chứng minh nhân thân.",
+        "vocabulary": [
+          {
+            "word": "身分",
+            "hiragana": "みぶん",
+            "meaningVi": "nhân thân, tư cách"
+          },
+          {
+            "word": "証明",
+            "hiragana": "しょうめい",
+            "meaningVi": "chứng minh"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-007",
+      "number": 7,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "passageId": null,
+      "questionText": "プリントを__配って__ください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "おくって"
+        },
+        {
+          "id": "2",
+          "text": "くばって"
+        },
+        {
+          "id": "3",
+          "text": "あずかって"
+        },
+        {
+          "id": "4",
+          "text": "ひろって"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "学校"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "配る（くばる） là phát/phân phát; て形 là 配って. 送る: gửi, 預かる: giữ hộ, 拾う: nhặt.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): おくって là gửi/tiễn từ 送る.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 配る（くばる） là phát/phân phát; て形 là 配って. 送る: gửi, 預かる: giữ hộ, 拾う: nhặt.",
+          "3": "SAI (đề xuất): あずかって là nhận giữ hộ.",
+          "4": "SAI (đề xuất): ひろって là nhặt từ 拾う."
+        },
+        "translationVi": "Hãy phát các tờ tài liệu.",
+        "vocabulary": [
+          {
+            "word": "配る",
+            "hiragana": "くばる",
+            "meaningVi": "phân phát"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-008",
+      "number": 8,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "passageId": null,
+      "questionText": "店にはたくさんの__種類__の野菜がならんでいる。",
+      "options": [
+        {
+          "id": "1",
+          "text": "しゅうりゅう"
+        },
+        {
+          "id": "2",
+          "text": "しゅりゅう"
+        },
+        {
+          "id": "3",
+          "text": "しゅうるい"
+        },
+        {
+          "id": "4",
+          "text": "しゅるい"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "買い物"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "種類（しゅるい） là chủng loại; しゅ ngắn và るい. Các đáp án khác nhầm âm dài/りゅう.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Không phải しゅうりゅう: sai nguyên âm cuối.",
+          "2": "SAI (đề xuất): Không phải しゅりゅう: âm sau là るい.",
+          "3": "SAI (đề xuất): Không kéo dài しゅ thành しゅう.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 種類（しゅるい） là chủng loại; しゅ ngắn và るい. Các đáp án khác nhầm âm dài/りゅう."
+        },
+        "translationVi": "Trong cửa hàng bày bán nhiều loại rau.",
+        "vocabulary": [
+          {
+            "word": "種類",
+            "hiragana": "しゅるい",
+            "meaningVi": "chủng loại"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-009",
+      "number": 9,
+      "section": "vocabulary",
+      "subtype": "kanji_spelling",
+      "passageId": null,
+      "questionText": "__まど__からきれいな山が見える。",
+      "options": [
+        {
+          "id": "1",
+          "text": "空"
+        },
+        {
+          "id": "2",
+          "text": "窓"
+        },
+        {
+          "id": "3",
+          "text": "室"
+        },
+        {
+          "id": "4",
+          "text": "宿"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "まど viết 窓 (cửa sổ). 空: bầu trời, 室: phòng, 宿: chỗ trọ.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 空 đọc そら, không phải まど.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): まど viết 窓 (cửa sổ). 空: bầu trời, 室: phòng, 宿: chỗ trọ.",
+          "3": "SAI (đề xuất): 室 đọc しつ, nghĩa là phòng.",
+          "4": "SAI (đề xuất): 宿 đọc やど/しゅく, nghĩa là chỗ trọ."
+        },
+        "translationVi": "Có thể nhìn thấy ngọn núi đẹp từ cửa sổ.",
+        "vocabulary": [
+          {
+            "word": "窓",
+            "hiragana": "まど",
+            "meaningVi": "cửa sổ"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-010",
+      "number": 10,
+      "section": "vocabulary",
+      "subtype": "kanji_spelling",
+      "passageId": null,
+      "questionText": "ビルはとうとう__かんせい__しました。",
+      "options": [
+        {
+          "id": "1",
+          "text": "官生"
+        },
+        {
+          "id": "2",
+          "text": "官成"
+        },
+        {
+          "id": "3",
+          "text": "完生"
+        },
+        {
+          "id": "4",
+          "text": "完成"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "完成（かんせい） nghĩa là hoàn thành công trình. 完 = hoàn, 成 = thành.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 官 và 生 không tạo từ 完成.",
+          "2": "SAI (đề xuất): 官 có nét khác 完; không đúng chữ cần chọn.",
+          "3": "SAI (đề xuất): Sai chữ thứ hai, 生 không phải 成.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 完成（かんせい） nghĩa là hoàn thành công trình. 完 = hoàn, 成 = thành."
+        },
+        "translationVi": "Cuối cùng tòa nhà đã hoàn thành.",
+        "vocabulary": [
+          {
+            "word": "完成",
+            "hiragana": "かんせい",
+            "meaningVi": "hoàn thành"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-011",
+      "number": 11,
+      "section": "vocabulary",
+      "subtype": "kanji_spelling",
+      "passageId": null,
+      "questionText": "頭が__いたくて__、学校を休んだ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "痛くて"
+        },
+        {
+          "id": "2",
+          "text": "病くて"
+        },
+        {
+          "id": "3",
+          "text": "症くて"
+        },
+        {
+          "id": "4",
+          "text": "疲くて"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "痛い（いたい） là đau; いたくて là dạng nối tính từ i. 病, 症, 疲 không viết được từ này.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 痛い（いたい） là đau; いたくて là dạng nối tính từ i. 病, 症, 疲 không viết được từ này.",
+          "2": "SAI (đề xuất): 病 không dùng để viết いたい.",
+          "3": "SAI (đề xuất): 症 không phải chữ Hán của いたい.",
+          "4": "SAI (đề xuất): 疲 là mệt mỏi, không phải đau."
+        },
+        "translationVi": "Vì đau đầu nên tôi nghỉ học.",
+        "vocabulary": [
+          {
+            "word": "痛い",
+            "hiragana": "いたい",
+            "meaningVi": "đau"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-012",
+      "number": 12,
+      "section": "vocabulary",
+      "subtype": "kanji_spelling",
+      "passageId": null,
+      "questionText": "いらないものは__すてて__ください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "払て"
+        },
+        {
+          "id": "2",
+          "text": "抜て"
+        },
+        {
+          "id": "3",
+          "text": "捨てて"
+        },
+        {
+          "id": "4",
+          "text": "拾て"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "捨てる（すてる） là vứt bỏ; て形 = 捨てて. 拾う（ひろう） mang nghĩa ngược là nhặt.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 払う nghĩa là trả/quét, không phải すてる.",
+          "2": "SAI (đề xuất): 抜く là nhổ/rút, không phải vứt bỏ.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 捨てる（すてる） là vứt bỏ; て形 = 捨てて. 拾う（ひろう） mang nghĩa ngược là nhặt.",
+          "4": "SAI (đề xuất): 拾う là nhặt, nghĩa ngược với bỏ đi."
+        },
+        "translationVi": "Hãy vứt bỏ những thứ không cần thiết.",
+        "vocabulary": [
+          {
+            "word": "捨てる",
+            "hiragana": "すてる",
+            "meaningVi": "vứt bỏ"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-013",
+      "number": 13,
+      "section": "vocabulary",
+      "subtype": "kanji_spelling",
+      "passageId": null,
+      "questionText": "テストの__けっか__は、来週わかります。",
+      "options": [
+        {
+          "id": "1",
+          "text": "決果"
+        },
+        {
+          "id": "2",
+          "text": "結果"
+        },
+        {
+          "id": "3",
+          "text": "決課"
+        },
+        {
+          "id": "4",
+          "text": "結課"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "結果（けっか） là kết quả; 結 + 果, không phải 決 hoặc 課.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 決 quả không phải cách viết từ 結果.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 結果（けっか） là kết quả; 結 + 果, không phải 決 hoặc 課.",
+          "3": "SAI (đề xuất): 決課 không phải từ kết quả.",
+          "4": "SAI (đề xuất): 結課 là ghép chữ sai, cần 果."
+        },
+        "translationVi": "Tuần sau sẽ biết kết quả bài kiểm tra.",
+        "vocabulary": [
+          {
+            "word": "結果",
+            "hiragana": "けっか",
+            "meaningVi": "kết quả"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-014",
+      "number": 14,
+      "section": "vocabulary",
+      "subtype": "kanji_spelling",
+      "passageId": null,
+      "questionText": "__ゆうびん__局で手紙を出した。",
+      "options": [
+        {
+          "id": "1",
+          "text": "郵更"
+        },
+        {
+          "id": "2",
+          "text": "睡更"
+        },
+        {
+          "id": "3",
+          "text": "郵便"
+        },
+        {
+          "id": "4",
+          "text": "睡便"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "郵便（ゆうびん） là bưu điện/bưu chính; kết hợp 郵便局（ゆうびんきょく）: bưu cục.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 更 không phải 便 trong 郵便.",
+          "2": "SAI (đề xuất): Hai chữ đều không đúng từ ゆうびん.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 郵便（ゆうびん） là bưu điện/bưu chính; kết hợp 郵便局（ゆうびんきょく）: bưu cục.",
+          "4": "SAI (đề xuất): 睡 không thể thay 郵 trong 郵便."
+        },
+        "translationVi": "Tôi gửi thư ở bưu điện.",
+        "vocabulary": [
+          {
+            "word": "郵便局",
+            "hiragana": "ゆうびんきょく",
+            "meaningVi": "bưu điện"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-015",
+      "number": 15,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "動画を見ると、皆さんの楽しそうな（　）がよくわかります。",
+      "options": [
+        {
+          "id": "1",
+          "text": "景色"
+        },
+        {
+          "id": "2",
+          "text": "場合"
+        },
+        {
+          "id": "3",
+          "text": "感情"
+        },
+        {
+          "id": "4",
+          "text": "様子"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "様子（ようす） diễn tả dáng vẻ/tình trạng; 楽しそうな様子 là vẻ vui vẻ của mọi người. 景色 là phong cảnh, 場合 là trường hợp, 感情 là cảm xúc nhưng không tự nhiên bằng 様子 ở đây.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 景色 là cảnh quan, không mô tả vẻ vui của mọi người.",
+          "2": "SAI (đề xuất): 場合 là trường hợp, không hợp với 楽しそうな.",
+          "3": "SAI (đề xuất): 感情 là cảm xúc, nhưng 「楽しそうな感情」 không phải cụm tự nhiên trong ngữ cảnh.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 様子（ようす） diễn tả dáng vẻ/tình trạng; 楽しそうな様子 là vẻ vui vẻ của mọi người. 景色 là phong cảnh, 場合 là trường hợp, 感情 là cảm xúc nhưng không tự nhiên bằng 様子 ở đây."
+        },
+        "translationVi": "Xem video là thấy rõ dáng vẻ vui vẻ của mọi người.",
+        "vocabulary": [
+          {
+            "word": "様子",
+            "hiragana": "ようす",
+            "meaningVi": "dáng vẻ, tình hình"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-016",
+      "number": 16,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "シャープペンを使うので、鉛筆を（　）必要がなくなった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "けずる"
+        },
+        {
+          "id": "2",
+          "text": "きる"
+        },
+        {
+          "id": "3",
+          "text": "しぼる"
+        },
+        {
+          "id": "4",
+          "text": "おす"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "鉛筆を削る（けずる） nghĩa là gọt bút chì. Dùng bút chì kim thì không còn cần gọt nữa. Các lựa chọn khác là cắt, vắt và ấn.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 鉛筆を削る（けずる） nghĩa là gọt bút chì. Dùng bút chì kim thì không còn cần gọt nữa. Các lựa chọn khác là cắt, vắt và ấn.",
+          "2": "SAI (đề xuất): 切る là cắt, khác hành động gọt đầu bút chì.",
+          "3": "SAI (đề xuất): 絞る là vắt, không dùng cho bút chì.",
+          "4": "SAI (đề xuất): 押す là ấn, không liên quan."
+        },
+        "translationVi": "Vì dùng bút chì kim nên không cần gọt bút chì nữa.",
+        "vocabulary": [
+          {
+            "word": "削る",
+            "hiragana": "けずる",
+            "meaningVi": "gọt"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-017",
+      "number": 17,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "石田さんははじめ、暗い（　）だったが、実際は明るい人だった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "状態"
+        },
+        {
+          "id": "2",
+          "text": "印象"
+        },
+        {
+          "id": "3",
+          "text": "情報"
+        },
+        {
+          "id": "4",
+          "text": "傾向"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "印象（いんしょう） là ấn tượng; 暗い印象 = ấn tượng u ám/khó gần. 状態: trạng thái, 情報: thông tin, 傾向: xu hướng.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 状態 là trạng thái khách quan, không nói ấn tượng ban đầu về con người.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 印象（いんしょう） là ấn tượng; 暗い印象 = ấn tượng u ám/khó gần. 状態: trạng thái, 情報: thông tin, 傾向: xu hướng.",
+          "3": "SAI (đề xuất): 情報 là thông tin, không hợp 暗い.",
+          "4": "SAI (đề xuất): 傾向 là xu hướng, không hợp ngữ cảnh ấn tượng ban đầu."
+        },
+        "translationVi": "Ban đầu tôi có ấn tượng Ishida trầm tính, nhưng thực ra anh ấy vui vẻ.",
+        "vocabulary": [
+          {
+            "word": "印象",
+            "hiragana": "いんしょう",
+            "meaningVi": "ấn tượng"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-018",
+      "number": 18,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "忘れ物がないか、出発前にちゃんと（　）してください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "復習"
+        },
+        {
+          "id": "2",
+          "text": "信用"
+        },
+        {
+          "id": "3",
+          "text": "確認"
+        },
+        {
+          "id": "4",
+          "text": "証明"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "確認（かくにん） là xác nhận/kiểm tra. Khi kiểm tra đồ trước khi đi dùng 確認する, không dùng 復習 (ôn tập), 信用 (tin tưởng), 証明 (chứng minh).",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 復習 là ôn lại bài, không dùng để kiểm tra hành lý.",
+          "2": "SAI (đề xuất): 信用 là tín nhiệm.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 確認（かくにん） là xác nhận/kiểm tra. Khi kiểm tra đồ trước khi đi dùng 確認する, không dùng 復習 (ôn tập), 信用 (tin tưởng), 証明 (chứng minh).",
+          "4": "SAI (đề xuất): 証明 là chứng minh, không phải kiểm đồ bị quên."
+        },
+        "translationVi": "Trước khi xuất phát, hãy kiểm tra kỹ xem có bỏ quên gì không.",
+        "vocabulary": [
+          {
+            "word": "確認",
+            "hiragana": "かくにん",
+            "meaningVi": "kiểm tra, xác nhận"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-019",
+      "number": 19,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "とてもつかれていて、電車の中で（　）寝てしまった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "はっきり"
+        },
+        {
+          "id": "2",
+          "text": "そっくり"
+        },
+        {
+          "id": "3",
+          "text": "がっかり"
+        },
+        {
+          "id": "4",
+          "text": "ぐっすり"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "ぐっすり寝る nghĩa là ngủ say. はっきり: rõ ràng, そっくり: giống hệt, がっかり: thất vọng.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): はっきり là rõ ràng, không đi với 寝る theo nghĩa ngủ say.",
+          "2": "SAI (đề xuất): そっくり là giống hệt.",
+          "3": "SAI (đề xuất): がっかり là thất vọng.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): ぐっすり寝る nghĩa là ngủ say. はっきり: rõ ràng, そっくり: giống hệt, がっかり: thất vọng."
+        },
+        "translationVi": "Vì quá mệt nên tôi ngủ say trên tàu.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-020",
+      "number": 20,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "どうすれば町が元気になるか、何かいい（　）はありませんか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "アイディア"
+        },
+        {
+          "id": "2",
+          "text": "クイズ"
+        },
+        {
+          "id": "3",
+          "text": "チェンジ"
+        },
+        {
+          "id": "4",
+          "text": "メンバー"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "いいアイディア là ý tưởng hay; câu hỏi cần đề xuất cách giúp khu phố sôi động trở lại. Các từ khác là câu đố, thay đổi, thành viên.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): いいアイディア là ý tưởng hay; câu hỏi cần đề xuất cách giúp khu phố sôi động trở lại. Các từ khác là câu đố, thay đổi, thành viên.",
+          "2": "SAI (đề xuất): クイズ là câu đố, không phải đề xuất giải pháp.",
+          "3": "SAI (đề xuất): チェンジ là thay đổi, không phù hợp 何かいい.",
+          "4": "SAI (đề xuất): メンバー là thành viên, không phải ý tưởng."
+        },
+        "translationVi": "Có ý tưởng nào hay để khu phố trở nên sôi động không?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-021",
+      "number": 21,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "自転車で（　）、けがをしてしまった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "回って"
+        },
+        {
+          "id": "2",
+          "text": "飛んで"
+        },
+        {
+          "id": "3",
+          "text": "転んで"
+        },
+        {
+          "id": "4",
+          "text": "散って"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "転ぶ（ころぶ） = ngã; 自転車で転んでけがをした. 回る: quay, 飛ぶ: bay, 散る: rụng/tản.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 回る = quay vòng, không tự nói về ngã xe.",
+          "2": "SAI (đề xuất): 飛ぶ = bay, không phải ngã.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 転ぶ（ころぶ） = ngã; 自転車で転んでけがをした. 回る: quay, 飛ぶ: bay, 散る: rụng/tản.",
+          "4": "SAI (đề xuất): 散る = rụng/tản, không dùng cho ngã xe."
+        },
+        "translationVi": "Tôi bị ngã xe đạp và bị thương.",
+        "vocabulary": [
+          {
+            "word": "転ぶ",
+            "hiragana": "ころぶ",
+            "meaningVi": "ngã"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-022",
+      "number": 22,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "中山さんに結婚式のスピーチを頼んだら、喜んで（　）くれた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "とり返して"
+        },
+        {
+          "id": "2",
+          "text": "ひきうけて"
+        },
+        {
+          "id": "3",
+          "text": "くり返して"
+        },
+        {
+          "id": "4",
+          "text": "うけとって"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "引き受ける（ひきうける） = nhận lời đảm nhiệm; 喜んで引き受けてくれた = vui vẻ nhận lời.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 取り返す = lấy lại, không phải nhận lời.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 引き受ける（ひきうける） = nhận lời đảm nhiệm; 喜んで引き受けてくれた = vui vẻ nhận lời.",
+          "3": "SAI (đề xuất): 繰り返す = lặp lại.",
+          "4": "SAI (đề xuất): 受け取る = nhận đồ/tin nhắn, không phải nhận nhiệm vụ."
+        },
+        "translationVi": "Khi nhờ Nakayama phát biểu tại đám cưới, anh ấy vui vẻ nhận lời.",
+        "vocabulary": [
+          {
+            "word": "引き受ける",
+            "hiragana": "ひきうける",
+            "meaningVi": "nhận đảm nhiệm"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-023",
+      "number": 23,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "父は、会社から電話が（　）きて出かけた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "きこえて"
+        },
+        {
+          "id": "2",
+          "text": "とどいて"
+        },
+        {
+          "id": "3",
+          "text": "よんで"
+        },
+        {
+          "id": "4",
+          "text": "かかって"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "電話がかかってくる là có cuộc điện thoại gọi đến. Cụm cố định: 電話がかかる.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 聞こえる = nghe thấy; 電話が聞こえてくる không nói cuộc gọi đến.",
+          "2": "SAI (đề xuất): 届く = được chuyển đến, ít dùng với 電話が～くる ở ngữ cảnh này.",
+          "3": "SAI (đề xuất): 呼ぶ = gọi ai, không dùng 電話が呼んでくる.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 電話がかかってくる là có cuộc điện thoại gọi đến. Cụm cố định: 電話がかかる."
+        },
+        "translationVi": "Bố nhận điện thoại từ công ty rồi đi ra ngoài.",
+        "vocabulary": [
+          {
+            "word": "電話がかかる",
+            "hiragana": "でんわがかかる",
+            "meaningVi": "có điện thoại gọi đến"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-024",
+      "number": 24,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "旅行に行くので洋服を（　）スーツケースに入れた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "のばして"
+        },
+        {
+          "id": "2",
+          "text": "たたんで"
+        },
+        {
+          "id": "3",
+          "text": "おって"
+        },
+        {
+          "id": "4",
+          "text": "ちぢめて"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "服をたたむ = gấp quần áo. のばす: duỗi, おる: bẻ/gấp vật khác nhưng với quần áo tự nhiên hơn là たたむ, ちぢめる: làm co.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 伸ばす = duỗi thẳng; không nói gấp áo.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 服をたたむ = gấp quần áo. のばす: duỗi, おる: bẻ/gấp vật khác nhưng với quần áo tự nhiên hơn là たたむ, ちぢめる: làm co.",
+          "3": "SAI (đề xuất): 折る có thể gấp một số vật nhưng gấp quần áo thông thường dùng たたむ.",
+          "4": "SAI (đề xuất): 縮める = làm co ngắn lại."
+        },
+        "translationVi": "Vì đi du lịch nên tôi gấp quần áo bỏ vào vali.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-025",
+      "number": 25,
+      "section": "vocabulary",
+      "subtype": "context_word",
+      "passageId": null,
+      "questionText": "おなかがいっぱいなら、（　）食べなくてもいいですよ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "無理に"
+        },
+        {
+          "id": "2",
+          "text": "大事に"
+        },
+        {
+          "id": "3",
+          "text": "意外に"
+        },
+        {
+          "id": "4",
+          "text": "特別に"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "無理に = một cách gượng ép/cố quá sức; 無理に食べなくてもいい = không cần ép mình ăn.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 無理に = một cách gượng ép/cố quá sức; 無理に食べなくてもいい = không cần ép mình ăn.",
+          "2": "SAI (đề xuất): 大事に = trân trọng, không phải ép ăn.",
+          "3": "SAI (đề xuất): 意外に = bất ngờ, không nói sức ép.",
+          "4": "SAI (đề xuất): 特別に = đặc biệt, không phù hợp điều kiện đã no."
+        },
+        "translationVi": "Nếu đã no thì không cần cố ăn nữa đâu.",
+        "vocabulary": [
+          {
+            "word": "無理に",
+            "hiragana": "むりに",
+            "meaningVi": "một cách gượng ép"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-026",
+      "number": 26,
+      "section": "vocabulary",
+      "subtype": "synonym",
+      "passageId": null,
+      "questionText": "母は__あわてて__出かけました。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ゆっくり"
+        },
+        {
+          "id": "2",
+          "text": "しかたなく"
+        },
+        {
+          "id": "3",
+          "text": "いそいで"
+        },
+        {
+          "id": "4",
+          "text": "うれしそうに"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "あわてて = vội vã/cuống quýt, gần nhất với いそいで = vội vàng; không phải từ từ, miễn cưỡng hay vui vẻ.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): ゆっくり = chậm rãi, nghĩa ngược.",
+          "2": "SAI (đề xuất): しかたなく = bất đắc dĩ.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): あわてて = vội vã/cuống quýt, gần nhất với いそいで = vội vàng; không phải từ từ, miễn cưỡng hay vui vẻ.",
+          "4": "SAI (đề xuất): うれしそうに = có vẻ vui vẻ."
+        },
+        "translationVi": "Mẹ vội vã đi ra ngoài.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 6. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-027",
+      "number": 27,
+      "section": "vocabulary",
+      "subtype": "synonym",
+      "passageId": null,
+      "questionText": "洋服が__きつく__なりました。",
+      "options": [
+        {
+          "id": "1",
+          "text": "小さく"
+        },
+        {
+          "id": "2",
+          "text": "大きく"
+        },
+        {
+          "id": "3",
+          "text": "古く"
+        },
+        {
+          "id": "4",
+          "text": "新しく"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "きつい khi nói về quần áo là chật; gần nhất với 小さくなった (trở nên nhỏ/chật).",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): きつい khi nói về quần áo là chật; gần nhất với 小さくなった (trở nên nhỏ/chật).",
+          "2": "SAI (đề xuất): 大きく = to hơn, không phải chật.",
+          "3": "SAI (đề xuất): 古く = cũ hơn, không nói độ chật.",
+          "4": "SAI (đề xuất): 新しく = mới hơn."
+        },
+        "translationVi": "Quần áo đã trở nên chật.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 6. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-028",
+      "number": 28,
+      "section": "vocabulary",
+      "subtype": "synonym",
+      "passageId": null,
+      "questionText": "子どもたちが__さわいで__いる。",
+      "options": [
+        {
+          "id": "1",
+          "text": "おこって"
+        },
+        {
+          "id": "2",
+          "text": "じっとして"
+        },
+        {
+          "id": "3",
+          "text": "わらって"
+        },
+        {
+          "id": "4",
+          "text": "うるさくして"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "騒ぐ（さわぐ） là gây ồn ào; tương đương うるさくする. Các lựa chọn khác: tức giận, đứng yên, cười.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 怒る = giận dữ không nhất thiết làm ồn.",
+          "2": "SAI (đề xuất): じっとする = đứng yên, trái nghĩa.",
+          "3": "SAI (đề xuất): 笑う = cười, chưa hẳn ồn ào.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 騒ぐ（さわぐ） là gây ồn ào; tương đương うるさくする. Các lựa chọn khác: tức giận, đứng yên, cười."
+        },
+        "translationVi": "Bọn trẻ đang làm ồn.",
+        "vocabulary": [
+          {
+            "word": "騒ぐ",
+            "hiragana": "さわぐ",
+            "meaningVi": "làm ồn"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 6. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-029",
+      "number": 29,
+      "section": "vocabulary",
+      "subtype": "synonym",
+      "passageId": null,
+      "questionText": "友達に旅行に行こうと言われましたが、__断りました__。",
+      "options": [
+        {
+          "id": "1",
+          "text": "行けないと言いました"
+        },
+        {
+          "id": "2",
+          "text": "考えると言いました"
+        },
+        {
+          "id": "3",
+          "text": "分からないと言いました"
+        },
+        {
+          "id": "4",
+          "text": "返事をしませんでした"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "断る（ことわる） là từ chối. Nói rằng không thể đi tương ứng với việc từ chối lời rủ; không đồng nghĩa với cân nhắc hay im lặng.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 断る（ことわる） là từ chối. Nói rằng không thể đi tương ứng với việc từ chối lời rủ; không đồng nghĩa với cân nhắc hay im lặng.",
+          "2": "SAI (đề xuất): 考えると言う = nói sẽ suy nghĩ, chưa từ chối.",
+          "3": "SAI (đề xuất): 分からないと言う = nói không biết.",
+          "4": "SAI (đề xuất): 返事をしない = chưa phản hồi, không đồng nghĩa từ chối."
+        },
+        "translationVi": "Bạn rủ đi du lịch nhưng tôi đã từ chối.",
+        "vocabulary": [
+          {
+            "word": "断る",
+            "hiragana": "ことわる",
+            "meaningVi": "từ chối"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 6. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-030",
+      "number": 30,
+      "section": "vocabulary",
+      "subtype": "synonym",
+      "passageId": null,
+      "questionText": "この店は、__食べ放題__です。",
+      "options": [
+        {
+          "id": "1",
+          "text": "食べ物がおいしいです"
+        },
+        {
+          "id": "2",
+          "text": "自由に料理してもいいです"
+        },
+        {
+          "id": "3",
+          "text": "食べ物が安いです"
+        },
+        {
+          "id": "4",
+          "text": "いくら食べてもいいです"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "食べ放題（たべほうだい） là ăn không giới hạn số lượng, gần nghĩa いくら食べてもいいです. Không có nghĩa đồ ăn ngon/rẻ hay tự nấu.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Ngon không có nghĩa ăn không giới hạn.",
+          "2": "SAI (đề xuất): Được tự nấu ăn không đồng nghĩa 食べ放題.",
+          "3": "SAI (đề xuất): Đồ ăn rẻ không phải mô tả buffet.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 食べ放題（たべほうだい） là ăn không giới hạn số lượng, gần nghĩa いくら食べてもいいです. Không có nghĩa đồ ăn ngon/rẻ hay tự nấu."
+        },
+        "translationVi": "Quán này là quán ăn buffet không giới hạn.",
+        "vocabulary": [
+          {
+            "word": "食べ放題",
+            "hiragana": "たべほうだい",
+            "meaningVi": "ăn thỏa thích"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 6. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-031",
+      "number": 31,
+      "section": "vocabulary",
+      "subtype": "word_usage",
+      "passageId": null,
+      "questionText": "「注目」の使い方として最もよいものを選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "自分の好みの服があったので注目している。"
+        },
+        {
+          "id": "2",
+          "text": "苦手なことに注目して勉強している。"
+        },
+        {
+          "id": "3",
+          "text": "海の上での風力発電が注目されている。"
+        },
+        {
+          "id": "4",
+          "text": "富士山の山頂に注目して登っている。"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "注目する = tập trung chú ý/được dư luận quan tâm. 「風力発電が注目されている」 là điện gió ngoài khơi đang được chú ý, cách dùng tự nhiên.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Không tự nhiên: có quần áo ưng ý thì 気に入る, không phải 注目.",
+          "2": "SAI (đề xuất): Trong câu học kỹ năng yếu, 通目 không phải động từ phù hợp bằng 意識する/重点を置く.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 注目する = tập trung chú ý/được dư luận quan tâm. 「風力発電が注目されている」 là điện gió ngoài khơi đang được chú ý, cách dùng tự nhiên.",
+          "4": "SAI (đề xuất): Dùng 注目して登る không diễn đạt tự nhiên hành động leo lên đỉnh."
+        },
+        "translationVi": "Chọn câu dùng 注目 đúng nhất.",
+        "vocabulary": [
+          {
+            "word": "注目",
+            "hiragana": "ちゅうもく",
+            "meaningVi": "chú ý, quan tâm"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 7. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-032",
+      "number": 32,
+      "section": "vocabulary",
+      "subtype": "word_usage",
+      "passageId": null,
+      "questionText": "「加える」の使い方として最もよいものを選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "時給を加えてほしいと店長にたのんだ。"
+        },
+        {
+          "id": "2",
+          "text": "体重を加えてしまったので、運動することにした。"
+        },
+        {
+          "id": "3",
+          "text": "寒かったので、セーターの上に上着を加えて出かけた。"
+        },
+        {
+          "id": "4",
+          "text": "作文にちょっと手を加えたら、よくなった。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "手を加える là chỉnh sửa/cải tiến một chút; 「作文に手を加える」 là sửa bài văn. Các câu còn lại cần 増やす/太る hoặc 重ね着する.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Tăng lương theo giờ dùng 上げる/増やす, không dùng 加える.",
+          "2": "SAI (đề xuất): Tăng cân dùng 増える hoặc 太る, không dùng 加える.",
+          "3": "SAI (đề xuất): Mặc thêm áo dùng 羽織る/重ね着する tự nhiên hơn.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 手を加える là chỉnh sửa/cải tiến một chút; 「作文に手を加える」 là sửa bài văn. Các câu còn lại cần 増やす/太る hoặc 重ね着する."
+        },
+        "translationVi": "Chọn câu dùng 加える đúng nhất.",
+        "vocabulary": [
+          {
+            "word": "加える",
+            "hiragana": "くわえる",
+            "meaningVi": "thêm vào, chỉnh sửa"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 7. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-033",
+      "number": 33,
+      "section": "vocabulary",
+      "subtype": "word_usage",
+      "passageId": null,
+      "questionText": "「発展」の使い方として最もよいものを選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "リンさんの日本語は短い間にずいぶん発展した。"
+        },
+        {
+          "id": "2",
+          "text": "大きい工場ができて人口も増え、町が発展した。"
+        },
+        {
+          "id": "3",
+          "text": "新幹線はこの50年の間に速くなりすっかり発展した。"
+        },
+        {
+          "id": "4",
+          "text": "ラーメンは、今では日本を代表する料理に発展している。"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "町が発展する là thành phố phát triển về kinh tế/xã hội; phát triển thường dùng cho địa phương, kinh tế, công nghệ. Câu 1 cần 上達する, câu 3 dùng 進歩する/発達する tự nhiên hơn.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Tiến bộ năng lực ngoại ngữ dùng 上達する hơn là 発展する.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 町が発展する là thành phố phát triển về kinh tế/xã hội; phát triển thường dùng cho địa phương, kinh tế, công nghệ. Câu 1 cần 上達する, câu 3 dùng 進歩する/発達する tự nhiên hơn.",
+          "3": "SAI (đề xuất): Nói tốc độ tàu nhanh hơn thường dùng 速くなる/進歩する.",
+          "4": "SAI (đề xuất): Câu 4 mô tả sự phổ biến thành món đại diện, cách diễn đạt này không tự nhiên bằng 町が発展した."
+        },
+        "translationVi": "Chọn câu dùng 発展 đúng nhất.",
+        "vocabulary": [
+          {
+            "word": "発展",
+            "hiragana": "はってん",
+            "meaningVi": "phát triển"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 7. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-034",
+      "number": 34,
+      "section": "vocabulary",
+      "subtype": "word_usage",
+      "passageId": null,
+      "questionText": "「気に入る」の使い方として最もよいものを選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "買い物に行ったけれど、気に入ったものはなかった。"
+        },
+        {
+          "id": "2",
+          "text": "就職は決まったが気に入ることがたくさんある。"
+        },
+        {
+          "id": "3",
+          "text": "試験の点数が気に入って、落ち着かない。"
+        },
+        {
+          "id": "4",
+          "text": "おみやげを買ってきたので、気に入ってください。"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "気に入る = thấy ưng ý/thích một vật, người, nơi chốn; 「気に入ったもの」 là món đồ hợp ý. Không dùng để yêu cầu trực tiếp người khác phải thích.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 気に入る = thấy ưng ý/thích một vật, người, nơi chốn; 「気に入ったもの」 là món đồ hợp ý. Không dùng để yêu cầu trực tiếp người khác phải thích.",
+          "2": "SAI (đề xuất): 「気に入ることがたくさんある」 không diễn tả lo lắng/điều cần bận tâm sau khi nhận việc.",
+          "3": "SAI (đề xuất): Điểm thi không khiến bồn chồn theo cách diễn đạt 気に入る.",
+          "4": "SAI (đề xuất): Không dùng mệnh lệnh 気に入ってください để yêu cầu người khác phải thích quà."
+        },
+        "translationVi": "Chọn câu dùng 気に入る đúng nhất.",
+        "vocabulary": [
+          {
+            "word": "気に入る",
+            "hiragana": "きにいる",
+            "meaningVi": "ưng ý, yêu thích"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 7. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-voc-035",
+      "number": 35,
+      "section": "vocabulary",
+      "subtype": "word_usage",
+      "passageId": null,
+      "questionText": "「簡単」の使い方として最もよいものを選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "薬を飲めば、簡単に元気になるはずだ。"
+        },
+        {
+          "id": "2",
+          "text": "弟は家に帰ってくると、簡単に寝てしまった。"
+        },
+        {
+          "id": "3",
+          "text": "今家を出れば、簡単に間に合います。"
+        },
+        {
+          "id": "4",
+          "text": "このケーキは簡単に作れておいしい。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "簡単に作れる diễn tả dễ làm/chế biến đơn giản. Các câu kia dùng 簡単に với phục hồi sức khỏe, ngủ hoặc kịp giờ không tự nhiên bằng ví dụ 4.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Hồi phục sức khỏe nhờ thuốc thường không diễn đạt là 簡単に元気になる.",
+          "2": "SAI (đề xuất): Ngủ ngay dùng すぐ/すぐに寝る, không phải 簡単に寝る.",
+          "3": "SAI (đề xuất): 間に合う nói về thời gian; 簡単に間に合う không tự nhiên bằng 十分間に合う.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 簡単に作れる diễn tả dễ làm/chế biến đơn giản. Các câu kia dùng 簡単に với phục hồi sức khỏe, ngủ hoặc kịp giờ không tự nhiên bằng ví dụ 4."
+        },
+        "translationVi": "Chọn câu dùng 簡単 đúng nhất.",
+        "vocabulary": [
+          {
+            "word": "簡単",
+            "hiragana": "かんたん",
+            "meaningVi": "đơn giản, dễ"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 7. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-001",
+      "number": 1,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "日本は、子どもの数が少なくなり人口も減っています。これは日本（　）とても大きな問題です。",
+      "options": [
+        {
+          "id": "1",
+          "text": "に対して"
+        },
+        {
+          "id": "2",
+          "text": "にとって"
+        },
+        {
+          "id": "3",
+          "text": "について"
+        },
+        {
+          "id": "4",
+          "text": "につれて"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "grammar"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Nにとって = đối với N, xét trên quan điểm/lợi ích của N; 日本にとって = đối với Nhật Bản. に対して: đối diện/đối với về hành động; について: về chủ đề; につれて: cùng với thay đổi.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): に対して nhấn hướng tác động/đối tượng, không diễn tả vấn đề có ý nghĩa đối với quốc gia.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Nにとって = đối với N, xét trên quan điểm/lợi ích của N; 日本にとって = đối với Nhật Bản. に対して: đối diện/đối với về hành động; について: về chủ đề; につれて: cùng với thay đổi.",
+          "3": "SAI (đề xuất): について chỉ chủ đề được bàn đến, không phải quan điểm của một quốc gia.",
+          "4": "SAI (đề xuất): につれて nối hai thay đổi cùng diễn ra, không phù hợp ngay trước とても大きな問題."
+        },
+        "translationVi": "Nhật Bản đang ít trẻ em và dân số giảm. Đây là vấn đề lớn đối với Nhật Bản.",
+        "vocabulary": [
+          {
+            "word": "人口",
+            "hiragana": "じんこう",
+            "meaningVi": "dân số"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "grammar_fill",
+            "meaningVi": "Nにとって = đối với N, xét trên quan điểm/lợi ích của N; 日本にとって = đối với Nhật Bản. に対して: đối diện/đối với về hành động; について: về chủ đề; につれて: cùng với thay đổi.",
+            "exampleJa": "日本は、子どもの数が少なくなり人口も減っています。これは日本（　）とても大きな問題です。",
+            "exampleVi": "Nhật Bản đang ít trẻ em và dân số giảm. Đây là vấn đề lớn đối với Nhật Bản."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-002",
+      "number": 2,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "アルバイト店員「店長、実は今度引っ越しをするんです。それでアパートの保証人になっていただけないでしょうか。（　）ご迷惑はおかけしませんので。」店長「ああ、いいよ。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "ちっとも"
+        },
+        {
+          "id": "2",
+          "text": "とうとう"
+        },
+        {
+          "id": "3",
+          "text": "せっかく"
+        },
+        {
+          "id": "4",
+          "text": "けっして"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "否定表現"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "決して～ない = tuyệt đối không/nhất định không; 決してご迷惑はおかけしません là tôi sẽ tuyệt đối không gây phiền phức. Các từ khác không kết hợp tự nhiên với lời cam đoan này.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): ちっとも thường đi với phủ định để nói hoàn toàn không, nhưng không mang lực cam kết như 決して trong câu này.",
+          "2": "SAI (đề xuất): とうとう = cuối cùng, không phù hợp với phủ định cam đoan.",
+          "3": "SAI (đề xuất): せっかく = bỏ công/đã có dịp, không khớp lời cam kết.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 決して～ない = tuyệt đối không/nhất định không; 決してご迷惑はおかけしません là tôi sẽ tuyệt đối không gây phiền phức. Các từ khác không kết hợp tự nhiên với lời cam đoan này."
+        },
+        "translationVi": "Nhân viên nhờ quản lý làm người bảo lãnh và cam đoan sẽ không gây phiền.",
+        "vocabulary": [
+          {
+            "word": "保証人",
+            "hiragana": "ほしょうにん",
+            "meaningVi": "người bảo lãnh"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "否定表現",
+            "meaningVi": "決して～ない = tuyệt đối không/nhất định không; 決してご迷惑はおかけしません là tôi sẽ tuyệt đối không gây phiền phức. Các từ khác không kết hợp tự nhiên với lời cam đoan này.",
+            "exampleJa": "アルバイト店員「店長、実は今度引っ越しをするんです。それでアパートの保証人になっていただけないでしょうか。（　）ご迷惑はおかけしませんので。」店長「ああ、いいよ。」",
+            "exampleVi": "Nhân viên nhờ quản lý làm người bảo lãnh và cam đoan sẽ không gây phiền."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-003",
+      "number": 3,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "昨日、ドアにカギを（　）出かけてしまって、どろぼうに入られた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "かけないで"
+        },
+        {
+          "id": "2",
+          "text": "かけなくて"
+        },
+        {
+          "id": "3",
+          "text": "かけたまま"
+        },
+        {
+          "id": "4",
+          "text": "かけっぱなしで"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "grammar"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Vないで + V diễn tả không làm V1 mà làm V2. カギをかけないで出かける = ra ngoài mà không khóa cửa, dẫn đến trộm đột nhập.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Vないで + V diễn tả không làm V1 mà làm V2. カギをかけないで出かける = ra ngoài mà không khóa cửa, dẫn đến trộm đột nhập.",
+          "2": "SAI (đề xuất): かけなくて không nối hành động không khóa cửa rồi đi ra ngoài theo mẫu thích hợp ở đây.",
+          "3": "SAI (đề xuất): かけたまま = giữ tình trạng đã khóa, trái ngược sự việc bị đột nhập.",
+          "4": "SAI (đề xuất): かけっぱなし = cứ để ở trạng thái khóa, không khớp."
+        },
+        "translationVi": "Hôm qua vì ra ngoài mà không khóa cửa nên bị trộm vào.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "grammar_fill",
+            "meaningVi": "Vないで + V diễn tả không làm V1 mà làm V2. カギをかけないで出かける = ra ngoài mà không khóa cửa, dẫn đến trộm đột nhập.",
+            "exampleJa": "昨日、ドアにカギを（　）出かけてしまって、どろぼうに入られた。",
+            "exampleVi": "Hôm qua vì ra ngoài mà không khóa cửa nên bị trộm vào."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-004",
+      "number": 4,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "何かいいアルバイトが（　）と思っていたら、先輩に店を手伝ってくれないかと頼まれた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ないだろう"
+        },
+        {
+          "id": "2",
+          "text": "ないかなあ"
+        },
+        {
+          "id": "3",
+          "text": "ないらしい"
+        },
+        {
+          "id": "4",
+          "text": "ないそうだ"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "grammar"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "～ないかなあ bộc lộ mong muốn/thầm tự hỏi: không biết có việc làm thêm tốt không nhỉ. Các phương án khác mang sắc thái suy đoán hoặc nghe nói.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): ないだろう = có lẽ không có, không mang nguyện vọng tự hỏi.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): ～ないかなあ bộc lộ mong muốn/thầm tự hỏi: không biết có việc làm thêm tốt không nhỉ. Các phương án khác mang sắc thái suy đoán hoặc nghe nói.",
+          "3": "SAI (đề xuất): ないらしい = nghe nói có vẻ không có.",
+          "4": "SAI (đề xuất): ないそうだ = nghe nói không có."
+        },
+        "translationVi": "Đang nghĩ không biết có việc làm thêm nào tốt không, thì được đàn anh nhờ giúp cửa hàng.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "grammar_fill",
+            "meaningVi": "～ないかなあ bộc lộ mong muốn/thầm tự hỏi: không biết có việc làm thêm tốt không nhỉ. Các phương án khác mang sắc thái suy đoán hoặc nghe nói.",
+            "exampleJa": "何かいいアルバイトが（　）と思っていたら、先輩に店を手伝ってくれないかと頼まれた。",
+            "exampleVi": "Đang nghĩ không biết có việc làm thêm nào tốt không, thì được đàn anh nhờ giúp cửa hàng."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-005",
+      "number": 5,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "中田「（　）申し訳ありません。部長はもうすぐ戻ってきますので。」川村「いえ、こちらこそお忙しいところをすみません。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "待たれて"
+        },
+        {
+          "id": "2",
+          "text": "待たせられて"
+        },
+        {
+          "id": "3",
+          "text": "お待たせして"
+        },
+        {
+          "id": "4",
+          "text": "お待ちして"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "敬語"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "お待たせして申し訳ありません là cách xin lỗi lịch sự vì đã để người kia phải chờ. お待ちして là tôi chờ (khiêm nhường), không diễn tả đã bắt khách chờ.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 待たれて là bị chờ, sai quan hệ người gây phiền.",
+          "2": "SAI (đề xuất): 待たせられて = bị ép chờ, không hợp lời xin lỗi.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): お待たせして申し訳ありません là cách xin lỗi lịch sự vì đã để người kia phải chờ. お待ちして là tôi chờ (khiêm nhường), không diễn tả đã bắt khách chờ.",
+          "4": "SAI (đề xuất): お待ちして = tôi chờ; không có nghĩa tôi khiến anh phải chờ."
+        },
+        "translationVi": "Tôi xin lỗi vì đã để anh/chị chờ; trưởng phòng sắp trở lại.",
+        "vocabulary": [
+          {
+            "word": "申し訳ありません",
+            "hiragana": "もうしわけありません",
+            "meaningVi": "vô cùng xin lỗi"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "敬語",
+            "meaningVi": "お待たせして申し訳ありません là cách xin lỗi lịch sự vì đã để người kia phải chờ. お待ちして là tôi chờ (khiêm nhường), không diễn tả đã bắt khách chờ.",
+            "exampleJa": "中田「（　）申し訳ありません。部長はもうすぐ戻ってきますので。」川村「いえ、こちらこそお忙しいところをすみません。」",
+            "exampleVi": "Tôi xin lỗi vì đã để anh/chị chờ; trưởng phòng sắp trở lại."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-006",
+      "number": 6,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "（家で）夫「ああ、のどがかわいた。」妻「ビールが（　）けど、飲む？」夫「あ、いいねえ。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "冷やしている"
+        },
+        {
+          "id": "2",
+          "text": "冷やしておく"
+        },
+        {
+          "id": "3",
+          "text": "冷やしておいた"
+        },
+        {
+          "id": "4",
+          "text": "冷やしてある"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "てある・ておく"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Vてある diễn tả trạng thái kết quả của hành động có chủ đích: ビールが冷やしてある = bia đã được làm lạnh sẵn. Vておいた dùng chủ thể thực hiện, không phù hợp với ビールが ở đây.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 冷やしている nêu chủ thể đang làm lạnh; không hợp cách nói trạng thái hoàn tất với ビールが.",
+          "2": "SAI (đề xuất): 冷やしておく là dự định làm lạnh, không hợp thời điểm đã có bia sẵn.",
+          "3": "SAI (đề xuất): 冷やしておいた hợp khi chủ thể là người đã làm lạnh, nhưng ở đây ビールが đòi diễn tả trạng thái kết quả.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Vてある diễn tả trạng thái kết quả của hành động có chủ đích: ビールが冷やしてある = bia đã được làm lạnh sẵn. Vておいた dùng chủ thể thực hiện, không phù hợp với ビールが ở đây."
+        },
+        "translationVi": "Ở nhà, vợ hỏi chồng có muốn uống bia đã để lạnh sẵn không.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "てある・ておく",
+            "meaningVi": "Vてある diễn tả trạng thái kết quả của hành động có chủ đích: ビールが冷やしてある = bia đã được làm lạnh sẵn. Vておいた dùng chủ thể thực hiện, không phù hợp với ビールが ở đây.",
+            "exampleJa": "（家で）夫「ああ、のどがかわいた。」妻「ビールが（　）けど、飲む？」夫「あ、いいねえ。」",
+            "exampleVi": "Ở nhà, vợ hỏi chồng có muốn uống bia đã để lạnh sẵn không."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-007",
+      "number": 7,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "（食堂で）客「何かおすすめの料理はありますか。」店の人「じゃ、これですね。この魚は、この地方（　）とれないんですよ。ぜひ召し上がってみてください。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "だけでしか"
+        },
+        {
+          "id": "2",
+          "text": "だけでなら"
+        },
+        {
+          "id": "3",
+          "text": "だからこそ"
+        },
+        {
+          "id": "4",
+          "text": "だということで"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "限定表現"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "この地方だけでしかとれない = chỉ có thể đánh bắt ở vùng này. しか đi kèm phủ định とれない, hạn định địa điểm.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): この地方だけでしかとれない = chỉ có thể đánh bắt ở vùng này. しか đi kèm phủ định とれない, hạn định địa điểm.",
+          "2": "SAI (đề xuất): だけでなら = nếu chỉ ở... không tạo nghĩa độc quyền với とれない.",
+          "3": "SAI (đề xuất): だからこそ = chính vì thế nên, không đi với とれない như cụm địa điểm độc quyền.",
+          "4": "SAI (đề xuất): だということで = dựa vào lời nói, không diễn tả phạm vi đánh bắt."
+        },
+        "translationVi": "Loài cá này chỉ đánh bắt được ở vùng này, mời quý khách dùng thử.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "限定表現",
+            "meaningVi": "この地方だけでしかとれない = chỉ có thể đánh bắt ở vùng này. しか đi kèm phủ định とれない, hạn định địa điểm.",
+            "exampleJa": "（食堂で）客「何かおすすめの料理はありますか。」店の人「じゃ、これですね。この魚は、この地方（　）とれないんですよ。ぜひ召し上がってみてください。」",
+            "exampleVi": "Loài cá này chỉ đánh bắt được ở vùng này, mời quý khách dùng thử."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-008",
+      "number": 8,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "（携帯電話で）敬子「太郎、遅いじゃない。今、どこ。」太郎「ごめん。今（　）から、もうちょっと待ってて。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "向かってもいい"
+        },
+        {
+          "id": "2",
+          "text": "向かっているはずだ"
+        },
+        {
+          "id": "3",
+          "text": "向かっているところだ"
+        },
+        {
+          "id": "4",
+          "text": "向かうらしい"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "ところだ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Vているところ = ngay lúc này đang trong quá trình làm V; 向かっているところだ = đang trên đường tới.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 向かってもいい = có thể được phép đi tới.",
+          "2": "SAI (đề xuất): 向かっているはずだ = chắc là đang đi tới, người nói lại đang nói về chính mình.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Vているところ = ngay lúc này đang trong quá trình làm V; 向かっているところだ = đang trên đường tới.",
+          "4": "SAI (đề xuất): 向かうらしい = nghe nói có vẻ đi, không hợp người tự nói tình trạng mình."
+        },
+        "translationVi": "Taro xin lỗi vì đến muộn và nói đang trên đường đến.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "ところだ",
+            "meaningVi": "Vているところ = ngay lúc này đang trong quá trình làm V; 向かっているところだ = đang trên đường tới.",
+            "exampleJa": "（携帯電話で）敬子「太郎、遅いじゃない。今、どこ。」太郎「ごめん。今（　）から、もうちょっと待ってて。」",
+            "exampleVi": "Taro xin lỗi vì đến muộn và nói đang trên đường đến."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-009",
+      "number": 9,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "事故を起こした車は、前の車を（　）として反対から来る車とぶつかったということだ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "追い抜く"
+        },
+        {
+          "id": "2",
+          "text": "追い抜こう"
+        },
+        {
+          "id": "3",
+          "text": "追い抜きたい"
+        },
+        {
+          "id": "4",
+          "text": "追い抜いて"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "意向形"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "V意向形＋とする = định/cố thực hiện V: 追い抜こうとして = trong lúc định vượt xe trước.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 追い抜く dạng từ điển không trực tiếp tạo nghĩa ý định trước として trong câu.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): V意向形＋とする = định/cố thực hiện V: 追い抜こうとして = trong lúc định vượt xe trước.",
+          "3": "SAI (đề xuất): 追い抜きたい nêu ham muốn, không dùng trước として theo mẫu này.",
+          "4": "SAI (đề xuất): 追い抜いて là đã/đang vượt, không khớp cấu trúc ～ようとして."
+        },
+        "translationVi": "Xe gây tai nạn định vượt xe phía trước thì đâm xe đi ngược chiều.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "意向形",
+            "meaningVi": "V意向形＋とする = định/cố thực hiện V: 追い抜こうとして = trong lúc định vượt xe trước.",
+            "exampleJa": "事故を起こした車は、前の車を（　）として反対から来る車とぶつかったということだ。",
+            "exampleVi": "Xe gây tai nạn định vượt xe phía trước thì đâm xe đi ngược chiều."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-010",
+      "number": 10,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "日本にいる（　）、ぜひ富士山に登ってみたい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "あいだ"
+        },
+        {
+          "id": "2",
+          "text": "ところに"
+        },
+        {
+          "id": "3",
+          "text": "まで"
+        },
+        {
+          "id": "4",
+          "text": "うちに"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "うちに"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Vているうちに = trong khi còn có cơ hội/điều kiện; 日本にいるうちに = tranh thủ khi còn ở Nhật. あいだ cũng nói khoảng thời gian nhưng うちに thích hợp hơn với ý định làm khi còn cơ hội.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): あいだ chỉ khoảng kéo dài, うちに nhấn tranh thủ cơ hội trước khi hết thời gian.",
+          "2": "SAI (đề xuất): ところに nói đúng lúc, không hợp mệnh đề.",
+          "3": "SAI (đề xuất): まで = đến khi, không phải tranh thủ khi còn ở Nhật.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Vているうちに = trong khi còn có cơ hội/điều kiện; 日本にいるうちに = tranh thủ khi còn ở Nhật. あいだ cũng nói khoảng thời gian nhưng うちに thích hợp hơn với ý định làm khi còn cơ hội."
+        },
+        "translationVi": "Tôi muốn tranh thủ leo núi Phú Sĩ khi còn ở Nhật.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "うちに",
+            "meaningVi": "Vているうちに = trong khi còn có cơ hội/điều kiện; 日本にいるうちに = tranh thủ khi còn ở Nhật. あいだ cũng nói khoảng thời gian nhưng うちに thích hợp hơn với ý định làm khi còn cơ hội.",
+            "exampleJa": "日本にいる（　）、ぜひ富士山に登ってみたい。",
+            "exampleVi": "Tôi muốn tranh thủ leo núi Phú Sĩ khi còn ở Nhật."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-011",
+      "number": 11,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "山中さんは私の新しい仕事の話には全然興味が（　）だったので、話題を変えた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "なさそう"
+        },
+        {
+          "id": "2",
+          "text": "ないこと"
+        },
+        {
+          "id": "3",
+          "text": "ないつもり"
+        },
+        {
+          "id": "4",
+          "text": "ないもの"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "そうだ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "なさそう = có vẻ không có; 興味がなさそうだった = dường như không quan tâm. Các mẫu ないこと/ないつもり/ないもの không phù hợp sau 興味が trong câu này.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): なさそう = có vẻ không có; 興味がなさそうだった = dường như không quan tâm. Các mẫu ないこと/ないつもり/ないもの không phù hợp sau 興味が trong câu này.",
+          "2": "SAI (đề xuất): ないこと không kết hợp tự nhiên với 興味が～だった.",
+          "3": "SAI (đề xuất): ないつもり = dự định không có, không mô tả ấn tượng của người quan sát.",
+          "4": "SAI (đề xuất): ないもの = loại không có, không phù hợp cấu trúc câu."
+        },
+        "translationVi": "Vì Yamanaka có vẻ không hứng thú với công việc mới của tôi nên tôi đổi chủ đề.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "そうだ",
+            "meaningVi": "なさそう = có vẻ không có; 興味がなさそうだった = dường như không quan tâm. Các mẫu ないこと/ないつもり/ないもの không phù hợp sau 興味が trong câu này.",
+            "exampleJa": "山中さんは私の新しい仕事の話には全然興味が（　）だったので、話題を変えた。",
+            "exampleVi": "Vì Yamanaka có vẻ không hứng thú với công việc mới của tôi nên tôi đổi chủ đề."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-012",
+      "number": 12,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "（会社で）「みなさん、もう（　）が、当社は、南山に新しい支店をつくる計画があります。それで、皆さんにもご協力いただくことがあると思いますが、よろしくお願いします。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "ご存じだと思います"
+        },
+        {
+          "id": "2",
+          "text": "存じ上げています"
+        },
+        {
+          "id": "3",
+          "text": "存じます"
+        },
+        {
+          "id": "4",
+          "text": "存じています"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "敬語"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "ご存じだ = tôn kính ngữ của 知っている khi nói về người nghe; ご存じだと思います = tôi nghĩ mọi người đã biết. 存じる/存じ上げる là khiêm nhường ngữ dùng cho bản thân.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): ご存じだ = tôn kính ngữ của 知っている khi nói về người nghe; ご存じだと思います = tôi nghĩ mọi người đã biết. 存じる/存じ上げる là khiêm nhường ngữ dùng cho bản thân.",
+          "2": "SAI (đề xuất): 存じ上げる là khiêm nhường cho chính người nói, không tôn kính người nghe.",
+          "3": "SAI (đề xuất): 存じます dùng chính mình, không dùng về điều mọi người biết.",
+          "4": "SAI (đề xuất): 存じています dùng chính mình, không nâng người nghe."
+        },
+        "translationVi": "Thưa mọi người, có lẽ mọi người đã biết kế hoạch mở chi nhánh mới của công ty.",
+        "vocabulary": [
+          {
+            "word": "存じる",
+            "hiragana": "ぞんじる",
+            "meaningVi": "biết/nghĩ (khiêm nhường)"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "敬語",
+            "meaningVi": "ご存じだ = tôn kính ngữ của 知っている khi nói về người nghe; ご存じだと思います = tôi nghĩ mọi người đã biết. 存じる/存じ上げる là khiêm nhường ngữ dùng cho bản thân.",
+            "exampleJa": "（会社で）「みなさん、もう（　）が、当社は、南山に新しい支店をつくる計画があります。それで、皆さんにもご協力いただくことがあると思いますが、よろしくお願いします。」",
+            "exampleVi": "Thưa mọi người, có lẽ mọi người đã biết kế hoạch mở chi nhánh mới của công ty."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-013",
+      "number": 13,
+      "section": "grammar",
+      "subtype": "grammar_fill",
+      "passageId": null,
+      "questionText": "私たちの学校では、毎年春に運動会を（　）。来年も５月に行う予定です。",
+      "options": [
+        {
+          "id": "1",
+          "text": "するつもりでした"
+        },
+        {
+          "id": "2",
+          "text": "するほどではありません"
+        },
+        {
+          "id": "3",
+          "text": "することになっています"
+        },
+        {
+          "id": "4",
+          "text": "するところです"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "ことになっている"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "～ことになっている biểu thị lịch trình/quy định đã được quyết định; 毎年春に運動会をすることになっています.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): するつもりでした = từng định làm; không biểu thị lệ thường hàng năm.",
+          "2": "SAI (đề xuất): するほどではありません = không đến mức phải làm, trái ngữ cảnh.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): ～ことになっている biểu thị lịch trình/quy định đã được quyết định; 毎年春に運動会をすることになっています.",
+          "4": "SAI (đề xuất): するところです = sắp làm ngay, không nói quy định hàng năm."
+        },
+        "translationVi": "Ở trường chúng tôi, hằng năm đều tổ chức hội thao vào mùa xuân; năm sau dự kiến tháng 5.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "ことになっている",
+            "meaningVi": "～ことになっている biểu thị lịch trình/quy định đã được quyết định; 毎年春に運動会をすることになっています.",
+            "exampleJa": "私たちの学校では、毎年春に運動会を（　）。来年も５月に行う予定です。",
+            "exampleVi": "Ở trường chúng tôi, hằng năm đều tổ chức hội thao vào mùa xuân; năm sau dự kiến tháng 5."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 12. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-014",
+      "number": 14,
+      "section": "grammar",
+      "subtype": "sentence_order",
+      "passageId": null,
+      "questionText": "自分が人に ★ ＿＿ ＿＿ ＿＿ よく母に注意された。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ことを"
+        },
+        {
+          "id": "2",
+          "text": "されたくない"
+        },
+        {
+          "id": "3",
+          "text": "してはいけない"
+        },
+        {
+          "id": "4",
+          "text": "と"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "並べ替え"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Sắp đúng: 自分が人に【されたくない→ことを→してはいけない→と】よく母に注意された. Vị trí ★ là mảnh 2 (されたくない). Nghĩa: Mẹ thường dặn không được làm với người khác điều mình không muốn họ làm với mình.",
+        "optionReasonsVi": {
+          "1": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ của 4 mảnh: 2 → 1 → 3 → 4.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Sắp đúng: 自分が人に【されたくない→ことを→してはいけない→と】よく母に注意された. Vị trí ★ là mảnh 2 (されたくない). Nghĩa: Mẹ thường dặn không được làm với người khác điều mình không muốn họ làm với mình.",
+          "3": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ của 4 mảnh: 2 → 1 → 3 → 4.",
+          "4": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ của 4 mảnh: 2 → 1 → 3 → 4."
+        },
+        "translationVi": "Mẹ thường nhắc không được làm cho người khác điều bản thân không muốn bị làm.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "並べ替え",
+            "meaningVi": "Sắp đúng: 自分が人に【されたくない→ことを→してはいけない→と】よく母に注意された. Vị trí ★ là mảnh 2 (されたくない). Nghĩa: Mẹ thường dặn không được làm với người khác điều mình không muốn họ làm với mình.",
+            "exampleJa": "自分が人に ★ ＿＿ ＿＿ ＿＿ よく母に注意された。",
+            "exampleVi": "Mẹ thường nhắc không được làm cho người khác điều bản thân không muốn bị làm."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Thứ tự đầy đủ của 4 mảnh: 2 → 1 → 3 → 4."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 13. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-015",
+      "number": 15,
+      "section": "grammar",
+      "subtype": "sentence_order",
+      "passageId": null,
+      "questionText": "外国語はその言葉が ＿＿ ＿＿ ＿＿ ★ というと、いつもそうとは言えないのではないでしょうか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "上手になる"
+        },
+        {
+          "id": "2",
+          "text": "話されている"
+        },
+        {
+          "id": "3",
+          "text": "か"
+        },
+        {
+          "id": "4",
+          "text": "国へ行けば"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "並べ替え"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Thứ tự: 話されている→国へ行けば→上手になる→か. Cụm 「外国語はその言葉が話されている国へ行けば上手になるかというと...」 diễn tả nêu giả định rồi phản biện. ★ là mảnh 3 (か).",
+        "optionReasonsVi": {
+          "1": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 4 → 1 → 3.",
+          "2": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 4 → 1 → 3.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Thứ tự: 話されている→国へ行けば→上手になる→か. Cụm 「外国語はその言葉が話されている国へ行けば上手になるかというと...」 diễn tả nêu giả định rồi phản biện. ★ là mảnh 3 (か).",
+          "4": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 4 → 1 → 3."
+        },
+        "translationVi": "Không phải cứ đến nước nói thứ tiếng đó là ngoại ngữ sẽ giỏi lên.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "並べ替え",
+            "meaningVi": "Thứ tự: 話されている→国へ行けば→上手になる→か. Cụm 「外国語はその言葉が話されている国へ行けば上手になるかというと...」 diễn tả nêu giả định rồi phản biện. ★ là mảnh 3 (か).",
+            "exampleJa": "外国語はその言葉が ＿＿ ＿＿ ＿＿ ★ というと、いつもそうとは言えないのではないでしょうか。",
+            "exampleVi": "Không phải cứ đến nước nói thứ tiếng đó là ngoại ngữ sẽ giỏi lên."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Thứ tự đầy đủ: 2 → 4 → 1 → 3."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 13. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-016",
+      "number": 16,
+      "section": "grammar",
+      "subtype": "sentence_order",
+      "passageId": null,
+      "questionText": "自分が本当に ＿＿ ＿＿ ★ ＿＿ ことができる人は、少ないと思います。",
+      "options": [
+        {
+          "id": "1",
+          "text": "仕事に"
+        },
+        {
+          "id": "2",
+          "text": "ことを"
+        },
+        {
+          "id": "3",
+          "text": "する"
+        },
+        {
+          "id": "4",
+          "text": "やりたい"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "並べ替え"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Thứ tự: やりたい→ことを→仕事に→する. 「やりたいことを仕事にする」 biến điều muốn làm thành nghề nghiệp. ★ là mảnh 1 (仕事に).",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Thứ tự: やりたい→ことを→仕事に→する. 「やりたいことを仕事にする」 biến điều muốn làm thành nghề nghiệp. ★ là mảnh 1 (仕事に).",
+          "2": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 4 → 2 → 1 → 3.",
+          "3": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 4 → 2 → 1 → 3.",
+          "4": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 4 → 2 → 1 → 3."
+        },
+        "translationVi": "Tôi nghĩ số người có thể biến điều mình thật sự muốn làm thành công việc là ít.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "並べ替え",
+            "meaningVi": "Thứ tự: やりたい→ことを→仕事に→する. 「やりたいことを仕事にする」 biến điều muốn làm thành nghề nghiệp. ★ là mảnh 1 (仕事に).",
+            "exampleJa": "自分が本当に ＿＿ ＿＿ ★ ＿＿ ことができる人は、少ないと思います。",
+            "exampleVi": "Tôi nghĩ số người có thể biến điều mình thật sự muốn làm thành công việc là ít."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Thứ tự đầy đủ: 4 → 2 → 1 → 3."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 13. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-017",
+      "number": 17,
+      "section": "grammar",
+      "subtype": "sentence_order",
+      "passageId": null,
+      "questionText": "たまには、日常生活から ＿＿ ＿＿ ★ ＿＿ みることも大切なのではないでしょうか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "旅行"
+        },
+        {
+          "id": "2",
+          "text": "はなれて"
+        },
+        {
+          "id": "3",
+          "text": "して"
+        },
+        {
+          "id": "4",
+          "text": "などを"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "並べ替え"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Thứ tự: はなれて→旅行→などを→して. 「日常生活からはなれて旅行などをしてみる」 = thử rời xa sinh hoạt thường ngày để đi du lịch. ★ là mảnh 4.",
+        "optionReasonsVi": {
+          "1": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 1 → 4 → 3.",
+          "2": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 1 → 4 → 3.",
+          "3": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 1 → 4 → 3.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Thứ tự: はなれて→旅行→などを→して. 「日常生活からはなれて旅行などをしてみる」 = thử rời xa sinh hoạt thường ngày để đi du lịch. ★ là mảnh 4."
+        },
+        "translationVi": "Thỉnh thoảng rời nhịp sống thường ngày để thử đi du lịch cũng quan trọng.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "並べ替え",
+            "meaningVi": "Thứ tự: はなれて→旅行→などを→して. 「日常生活からはなれて旅行などをしてみる」 = thử rời xa sinh hoạt thường ngày để đi du lịch. ★ là mảnh 4.",
+            "exampleJa": "たまには、日常生活から ＿＿ ＿＿ ★ ＿＿ みることも大切なのではないでしょうか。",
+            "exampleVi": "Thỉnh thoảng rời nhịp sống thường ngày để thử đi du lịch cũng quan trọng."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Thứ tự đầy đủ: 2 → 1 → 4 → 3."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 14. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-018",
+      "number": 18,
+      "section": "grammar",
+      "subtype": "sentence_order",
+      "passageId": null,
+      "questionText": "高橋「息子さん、アメリカから帰っていらっしゃったそうですね。」渡辺「ええ、そうなんです。息子が留学 ＿＿ ＿＿ ★ ＿＿ んですけど、途中で帰ってきてしまったんです。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "させた"
+        },
+        {
+          "id": "2",
+          "text": "したい"
+        },
+        {
+          "id": "3",
+          "text": "から"
+        },
+        {
+          "id": "4",
+          "text": "と言う"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "並べ替え",
+        "使役"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Thứ tự: したい→と言う→から→させた. 「留学したいと言うからさせたんですけど」 = vì con nói muốn du học nên tôi đã cho đi. ★ là mảnh 3 (から).",
+        "optionReasonsVi": {
+          "1": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 4 → 3 → 1.",
+          "2": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 4 → 3 → 1.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Thứ tự: したい→と言う→から→させた. 「留学したいと言うからさせたんですけど」 = vì con nói muốn du học nên tôi đã cho đi. ★ là mảnh 3 (から).",
+          "4": "SAI: đây không phải từ cần điền vào vị trí có dấu ★. Phải sắp xếp cả 4 mảnh theo quan hệ ngữ pháp; Thứ tự đầy đủ: 2 → 4 → 3 → 1."
+        },
+        "translationVi": "Con nói muốn du học nên tôi cho đi, nhưng rồi nó về giữa chừng.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "並べ替え",
+            "meaningVi": "Thứ tự: したい→と言う→から→させた. 「留学したいと言うからさせたんですけど」 = vì con nói muốn du học nên tôi đã cho đi. ★ là mảnh 3 (から).",
+            "exampleJa": "高橋「息子さん、アメリカから帰っていらっしゃったそうですね。」渡辺「ええ、そうなんです。息子が留学 ＿＿ ＿＿ ★ ＿＿ んですけど、途中で帰ってきてしまったんです。」",
+            "exampleVi": "Con nói muốn du học nên tôi cho đi, nhưng rồi nó về giữa chừng."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Thứ tự đầy đủ: 2 → 4 → 3 → 1."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 14. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-019",
+      "number": 19,
+      "section": "grammar",
+      "subtype": "passage_cloze",
+      "passageId": "g-cloze",
+      "questionText": "私はカタカナ語が苦手です。日本語がちゃんとあってわざわざカタカナ語を使う必要はないのに、どうして日本人はカタカナ語をよく【19】か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "使います"
+        },
+        {
+          "id": "2",
+          "text": "使うのでしょう"
+        },
+        {
+          "id": "3",
+          "text": "使ってもいいです"
+        },
+        {
+          "id": "4",
+          "text": "使いたいです"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "文章文法"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "「どうして～のでしょうか」 là cách nêu câu hỏi băn khoăn/lịch sự. Nội dung tác giả tự hỏi tại sao người Nhật hay dùng katakana.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 使いますか là câu hỏi trực tiếp có thể dùng, nhưng trong văn nghị luận diễn tả thắc mắc suy ngẫm thì ～のでしょうか tự nhiên hơn.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 「どうして～のでしょうか」 là cách nêu câu hỏi băn khoăn/lịch sự. Nội dung tác giả tự hỏi tại sao người Nhật hay dùng katakana.",
+          "3": "SAI (đề xuất): 使ってもいいですか hỏi xin phép sử dụng, không phải thắc mắc nguyên nhân.",
+          "4": "SAI (đề xuất): 使いたいですか hỏi mong muốn sử dụng của người Nhật; không hợp luận điểm tác giả."
+        },
+        "translationVi": "Tại sao người Nhật lại hay dùng từ Katakana đến vậy nhỉ?",
+        "vocabulary": [
+          {
+            "word": "苦手",
+            "hiragana": "にがて",
+            "meaningVi": "không giỏi"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "文章文法",
+            "meaningVi": "「どうして～のでしょうか」 là cách nêu câu hỏi băn khoăn/lịch sự. Nội dung tác giả tự hỏi tại sao người Nhật hay dùng katakana.",
+            "exampleJa": "私はカタカナ語が苦手です。日本語がちゃんとあってわざわざカタカナ語を使う必要はないのに、どうして日本人はカタカナ語をよく【19】か。",
+            "exampleVi": "Tại sao người Nhật lại hay dùng từ Katakana đến vậy nhỉ?"
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 16. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-020",
+      "number": 20,
+      "section": "grammar",
+      "subtype": "passage_cloze",
+      "passageId": "g-cloze",
+      "questionText": "カタカナ語に困っている人は、日本語を勉強している私たちのような外国人ばかりだと最近までずっと【20】。ところが、ある調査によると…",
+      "options": [
+        {
+          "id": "1",
+          "text": "思います"
+        },
+        {
+          "id": "2",
+          "text": "思われます"
+        },
+        {
+          "id": "3",
+          "text": "思っています"
+        },
+        {
+          "id": "4",
+          "text": "思っていました"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "文章文法"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "最近までずっと + 思っていました thể hiện quan niệm kéo dài đến gần đây rồi được thay đổi sau khi biết kết quả khảo sát.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 思います hiện tại, không phù hợp 最近までずっと trong thế đối chiếu với thông tin mới.",
+          "2": "SAI (đề xuất): 思われます là dạng bị động/tự nhiên, không hợp chủ thể 私 và mốc thời gian.",
+          "3": "SAI (đề xuất): 思っています nói niềm tin đang tiếp diễn, chưa thể hiện sự thay đổi sau khi có khảo sát.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 最近までずっと + 思っていました thể hiện quan niệm kéo dài đến gần đây rồi được thay đổi sau khi biết kết quả khảo sát."
+        },
+        "translationVi": "Đến gần đây tôi vẫn nghĩ chỉ người nước ngoài như mình mới gặp khó khăn với từ Katakana.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "文章文法",
+            "meaningVi": "最近までずっと + 思っていました thể hiện quan niệm kéo dài đến gần đây rồi được thay đổi sau khi biết kết quả khảo sát.",
+            "exampleJa": "カタカナ語に困っている人は、日本語を勉強している私たちのような外国人ばかりだと最近までずっと【20】。ところが、ある調査によると…",
+            "exampleVi": "Đến gần đây tôi vẫn nghĩ chỉ người nước ngoài như mình mới gặp khó khăn với từ Katakana."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 16. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-021",
+      "number": 21,
+      "section": "grammar",
+      "subtype": "passage_cloze",
+      "passageId": "g-cloze",
+      "questionText": "ある調査【21】、外国人だけでなく日本人も理解できなくて困るカタカナ語がたくさんあるということが分かりました。",
+      "options": [
+        {
+          "id": "1",
+          "text": "によると"
+        },
+        {
+          "id": "2",
+          "text": "にすると"
+        },
+        {
+          "id": "3",
+          "text": "におくと"
+        },
+        {
+          "id": "4",
+          "text": "につくと"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "文章文法"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Nによると = theo N, dẫn nguồn khảo sát/thông tin; ある調査によると là theo một cuộc khảo sát.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Nによると = theo N, dẫn nguồn khảo sát/thông tin; ある調査によると là theo một cuộc khảo sát.",
+          "2": "SAI (đề xuất): にすると không dùng để dẫn nguồn báo cáo nghiên cứu.",
+          "3": "SAI (đề xuất): におくと không phải cấu trúc dẫn nguồn.",
+          "4": "SAI (đề xuất): につくと không phải cấu trúc dẫn nguồn."
+        },
+        "translationVi": "Theo một cuộc khảo sát, cả người Nhật cũng khó hiểu rất nhiều từ Katakana.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "文章文法",
+            "meaningVi": "Nによると = theo N, dẫn nguồn khảo sát/thông tin; ある調査によると là theo một cuộc khảo sát.",
+            "exampleJa": "ある調査【21】、外国人だけでなく日本人も理解できなくて困るカタカナ語がたくさんあるということが分かりました。",
+            "exampleVi": "Theo một cuộc khảo sát, cả người Nhật cũng khó hiểu rất nhiều từ Katakana."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 16. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-022",
+      "number": 22,
+      "section": "grammar",
+      "subtype": "passage_cloze",
+      "passageId": "g-cloze",
+      "questionText": "昔から使われている言葉は【22】が、最近よく使われるようになってきた言葉に困っているということです。",
+      "options": [
+        {
+          "id": "1",
+          "text": "困ります"
+        },
+        {
+          "id": "2",
+          "text": "いいのです"
+        },
+        {
+          "id": "3",
+          "text": "もちろんです"
+        },
+        {
+          "id": "4",
+          "text": "いけません"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "文章文法"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "～はもちろんですが = đương nhiên không nói đến những từ...; đối chiếu từ Katakana lâu đời với từ mới gần đây.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 困ります = gặp khó khăn; không thể diễn tả phần miễn bàn trong thế đối chiếu.",
+          "2": "SAI (đề xuất): いいのです = là được; không tạo khuôn đối chiếu ～はもちろんですが.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): ～はもちろんですが = đương nhiên không nói đến những từ...; đối chiếu từ Katakana lâu đời với từ mới gần đây.",
+          "4": "SAI (đề xuất): いけません = không được; câu không phê phán việc dùng từ cũ."
+        },
+        "translationVi": "Những từ được dùng từ xưa thì không nói, nhưng từ Katakana mới gần đây gây khó khăn.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "文章文法",
+            "meaningVi": "～はもちろんですが = đương nhiên không nói đến những từ...; đối chiếu từ Katakana lâu đời với từ mới gần đây.",
+            "exampleJa": "昔から使われている言葉は【22】が、最近よく使われるようになってきた言葉に困っているということです。",
+            "exampleVi": "Những từ được dùng từ xưa thì không nói, nhưng từ Katakana mới gần đây gây khó khăn."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 16. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-gr-023",
+      "number": 23,
+      "section": "grammar",
+      "subtype": "passage_cloze",
+      "passageId": "g-cloze",
+      "questionText": "最近のちょっとカッコよく聞こえるからという理由で使われるカタカナ語は【23】日本語で表現してほしいと思います。",
+      "options": [
+        {
+          "id": "1",
+          "text": "たとえ"
+        },
+        {
+          "id": "2",
+          "text": "もしかしたら"
+        },
+        {
+          "id": "3",
+          "text": "なるべく"
+        },
+        {
+          "id": "4",
+          "text": "ついに"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "文章文法"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "なるべく = càng... càng tốt; なるべく日本語で表現してほしい = mong họ diễn đạt bằng tiếng Nhật càng nhiều càng tốt.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): たとえ cần đi kèm cấu trúc nhượng bộ ～ても/～でも.",
+          "2": "SAI (đề xuất): もしかしたら = có lẽ, không diễn đạt mức độ tối đa mong muốn.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): なるべく = càng... càng tốt; なるべく日本語で表現してほしい = mong họ diễn đạt bằng tiếng Nhật càng nhiều càng tốt.",
+          "4": "SAI (đề xuất): ついに = rốt cuộc, không thể chỉ mức độ ưu tiên dùng tiếng Nhật."
+        },
+        "translationVi": "Tôi mong những từ Katakana chỉ dùng cho có vẻ thời thượng được diễn đạt bằng tiếng Nhật nếu có thể.",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "pattern": "文章文法",
+            "meaningVi": "なるべく = càng... càng tốt; なるべく日本語で表現してほしい = mong họ diễn đạt bằng tiếng Nhật càng nhiều càng tốt.",
+            "exampleJa": "最近のちょっとカッコよく聞こえるからという理由で使われるカタカナ語は【23】日本語で表現してほしいと思います。",
+            "exampleVi": "Tôi mong những từ Katakana chỉ dùng cho có vẻ thời thượng được diễn đạt bằng tiếng Nhật nếu có thể."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 16. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-024",
+      "number": 24,
+      "section": "reading",
+      "subtype": "reading_detail",
+      "passageId": "r-email",
+      "questionText": "このメールで一番伝えたいことは何か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "先生の指導を受けたいということ"
+        },
+        {
+          "id": "2",
+          "text": "研究計画書を直していること"
+        },
+        {
+          "id": "3",
+          "text": "ゼミの見学をさせてほしいこと"
+        },
+        {
+          "id": "4",
+          "text": "ゼミの見学ができる日を知らせてほしいこと"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "メール"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Người gửi email viết 「私はいつでもかまいませんので、先生のご都合をお知らせいただければ幸いです」, muốn thầy cho biết ngày giờ có thể tham quan buổi seminar.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Thông tin muốn được hướng dẫn là sự quan tâm trong thư, không phải yêu cầu trực tiếp cuối thư.",
+          "2": "SAI (đề xuất): Người viết nói đã sửa bản kế hoạch, nhưng không phải điều chính muốn thầy phản hồi.",
+          "3": "SAI (đề xuất): Đúng là muốn tham quan seminar, nhưng phương án này thiếu yêu cầu thầy cho biết thời gian phù hợp.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Người gửi email viết 「私はいつでもかまいませんので、先生のご都合をお知らせいただければ幸いです」, muốn thầy cho biết ngày giờ có thể tham quan buổi seminar."
+        },
+        "translationVi": "Email này muốn truyền đạt điều gì nhất?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "私はいつでもかまいませんので、先生のご都合をお知らせいただければ幸いです。",
+        "studyTipVi": "Cần nhìn mục đích yêu cầu ở cuối email trước khi chọn đáp án."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 17. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-025",
+      "number": 25,
+      "section": "reading",
+      "subtype": "reading_detail",
+      "passageId": "r-equality",
+      "questionText": "何に対して不思議な気持ちになったのか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "男女平等の国なので、女性は自分のお金を出さなくていいこと"
+        },
+        {
+          "id": "2",
+          "text": "男女平等の国なので、女性が社会進出をしていること"
+        },
+        {
+          "id": "3",
+          "text": "男女平等の国なのに、まだ女性は弱いものとされていること"
+        },
+        {
+          "id": "4",
+          "text": "男女平等の国なので、弱い女性も力が必要な仕事をしていること"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "男女平等"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Bạn người kể đến từ nước bình đẳng giới, nhưng tại cửa hàng người ta cho rằng nam giới phải mang hành lý nặng vì phụ nữ yếu. Sự mâu thuẫn này khiến cô thấy kỳ lạ.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Bài viết không nói phụ nữ được miễn trả tiền. Người phụ nữ đã tự dùng thẻ thanh toán.",
+          "2": "SAI (đề xuất): Phụ nữ tiến ra xã hội là bối cảnh để so sánh chứ không phải điểm gây bất ngờ.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Bạn người kể đến từ nước bình đẳng giới, nhưng tại cửa hàng người ta cho rằng nam giới phải mang hành lý nặng vì phụ nữ yếu. Sự mâu thuẫn này khiến cô thấy kỳ lạ.",
+          "4": "SAI (đề xuất): Bài không đề cập công việc đòi thể lực của phụ nữ yếu."
+        },
+        "translationVi": "Người bạn đã cảm thấy khó hiểu về điều gì?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "これは女性は弱いのだから男性が守らなければならないという、昔からの習慣があるからなのでしょう。",
+        "studyTipVi": "Tập trung cấu trúc 「～はずの国での出来事に」."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 18. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-026",
+      "number": 26,
+      "section": "reading",
+      "subtype": "reading_detail",
+      "passageId": "r-farm",
+      "questionText": "この手紙からわかることは何か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "アンディさんは小野さんに牧畜について教えてもらっている。"
+        },
+        {
+          "id": "2",
+          "text": "アンディさんは小野さんの牧場で仕事をさせてもらった。"
+        },
+        {
+          "id": "3",
+          "text": "アンディさんはチーズやバターの作り方を覚えたいと思っている。"
+        },
+        {
+          "id": "4",
+          "text": "アンディさんは卒業したら小野さんの牧場で働くつもりだ。"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "手紙"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Thư ghi 「小野さんの牧場で実習ができたことは、私にとってとてもいい経験になりました」: Andy đã được thực tập ở trang trại nhà Ono.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Andy đã được thực tập trong trang trại, nhưng không có thông tin rõ Ono trực tiếp dạy về ngành chăn nuôi.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Thư ghi 「小野さんの牧場で実習ができたことは、私にとってとてもいい経験になりました」: Andy đã được thực tập ở trang trại nhà Ono.",
+          "3": "SAI (đề xuất): Tác giả nói hương vị phô mai và bơ rất đáng nhớ, không nói muốn học cách làm.",
+          "4": "SAI (đề xuất): Andy muốn vận dụng kinh nghiệm khi về nước, không nói sẽ quay lại làm việc ở trang trại sau tốt nghiệp."
+        },
+        "translationVi": "Có thể biết điều gì từ bức thư?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "小野さんの牧場で実習ができたことは、私にとってとてもいい経験になりました。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 19. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-027",
+      "number": 27,
+      "section": "reading",
+      "subtype": "reading_inference",
+      "passageId": "r-names",
+      "questionText": "子どもの名前について「私」はどのように考えているか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "変な名前は絶対に付けないほうがいい。"
+        },
+        {
+          "id": "2",
+          "text": "読みやすい名前でないと子どもが後で困るだろう。"
+        },
+        {
+          "id": "3",
+          "text": "変だと思っても人の名前は受け入れなければいけない。"
+        },
+        {
+          "id": "4",
+          "text": "今の子どもは変な名前だとは感じていないだろう。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "名前"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Tác giả nêu 「今の子どもたちはきっとどんな名前であっても変などとは思わないでそのまま受け入れるのだろう」: trẻ hiện nay sẽ không thấy tên lạ là kỳ quặc.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Tác giả thấy nhiều tên lạ nhưng không yêu cầu tuyệt đối cấm đặt.",
+          "2": "SAI (đề xuất): Khó đọc là nỗi băn khoăn của tác giả, không phải kết luận trẻ sẽ gặp khó khăn.",
+          "3": "SAI (đề xuất): Đây là lời khuyên mang tính bắt buộc mà tác giả không nói.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Tác giả nêu 「今の子どもたちはきっとどんな名前であっても変などとは思わないでそのまま受け入れるのだろう」: trẻ hiện nay sẽ không thấy tên lạ là kỳ quặc."
+        },
+        "translationVi": "Tác giả nghĩ thế nào về tên trẻ em?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "今の子どもたちはきっとどんな名前であっても変などとは思わないでそのまま受け入れるのだろう。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 20. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-028",
+      "number": 28,
+      "section": "reading",
+      "subtype": "reading_detail",
+      "passageId": "r-ukiyoe",
+      "questionText": "値段も安くとあるが、なぜ値段が安かったのか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "庶民のものだから"
+        },
+        {
+          "id": "2",
+          "text": "印刷したものだから"
+        },
+        {
+          "id": "3",
+          "text": "価値のないものだから"
+        },
+        {
+          "id": "4",
+          "text": "歌舞伎の広告用だから"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "浮世絵"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Đoạn văn giải thích 「版画、つまり印刷したものですから何枚も同じものがあり、一枚が今でいうと数百円で買えた」; vì là bản in nhiều tờ nên giá rẻ.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Bài cho biết nghệ thuật gần gũi bình dân, nhưng giá rẻ được giải thích cụ thể bởi tính chất bản in.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Đoạn văn giải thích 「版画、つまり印刷したものですから何枚も同じものがあり、一枚が今でいうと数百円で買えた」; vì là bản in nhiều tờ nên giá rẻ.",
+          "3": "SAI (đề xuất): Tác giả không nói tranh không có giá trị; chỉ nói lúc đó người Nhật chưa nhận ra giá trị nghệ thuật.",
+          "4": "SAI (đề xuất): Tranh có chủ đề Kabuki nhưng không phải toàn bộ được in làm quảng cáo."
+        },
+        "translationVi": "Vì sao ukiyo-e có giá rẻ?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "版画、つまり印刷したものですから何枚も同じものがあり、一枚が今でいうと数百円で買えたそうです。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 21. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-029",
+      "number": 29,
+      "section": "reading",
+      "subtype": "reading_comparison",
+      "passageId": "r-ukiyoe",
+      "questionText": "日本がヨーロッパと違っていたのはどのようなことか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "日本では庶民が芸術を楽しんでいたこと"
+        },
+        {
+          "id": "2",
+          "text": "日本では芸術が上流階級のものだったこと"
+        },
+        {
+          "id": "3",
+          "text": "日本では上流階級も同じ芸術を楽しんでいたこと"
+        },
+        {
+          "id": "4",
+          "text": "日本では芸術が身近なものではなかったこと"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "文化"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Ở châu Âu nghệ thuật chủ yếu dành cho tầng lớp thượng lưu, còn Nhật thời Edo người dân bình thường có thể mua tranh và thưởng thức nghệ thuật.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Ở châu Âu nghệ thuật chủ yếu dành cho tầng lớp thượng lưu, còn Nhật thời Edo người dân bình thường có thể mua tranh và thưởng thức nghệ thuật.",
+          "2": "SAI (đề xuất): Đây là đặc điểm được nêu về châu Âu, không phải Nhật Bản thời Edo.",
+          "3": "SAI (đề xuất): Bài không nói tầng lớp trên và người bình thường Nhật đều thưởng thức cùng loại tác phẩm.",
+          "4": "SAI (đề xuất): Trái với đoạn nói nghệ thuật Nhật Bản gần gũi tầng lớp bình dân."
+        },
+        "translationVi": "Nhật Bản khác châu Âu ở điểm nào?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "日本では一般庶民が絵を買って楽しんでいたのです。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 21. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-030",
+      "number": 30,
+      "section": "reading",
+      "subtype": "reading_inference",
+      "passageId": "r-ukiyoe",
+      "questionText": "このころの日本人について本文と合っているものはどれか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "日本人は町人も上流階級だと思っていた。"
+        },
+        {
+          "id": "2",
+          "text": "浮世絵が西洋の美術に影響を与えると思っていた。"
+        },
+        {
+          "id": "3",
+          "text": "自分たちが文化を育てているという気持ちがあった。"
+        },
+        {
+          "id": "4",
+          "text": "自分たちの文化に価値があることを知らなかった。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "浮世絵"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Bài viết nói 「日本人はこの浮世絵に芸術的な価値があるとは思っていませんでした。その価値を教えてくれたのは…西洋人」.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 町人 là thường dân, không có nhận định họ thuộc thượng lưu.",
+          "2": "SAI (đề xuất): Người Nhật lúc đó không biết giá trị nghệ thuật, nên không dự đoán ảnh hưởng tới phương Tây.",
+          "3": "SAI (đề xuất): Đoạn văn không cho rằng họ tự giác thấy mình đang nuôi dưỡng một nền văn hóa có giá trị nghệ thuật.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Bài viết nói 「日本人はこの浮世絵に芸術的な価値があるとは思っていませんでした。その価値を教えてくれたのは…西洋人」."
+        },
+        "translationVi": "Điều nào đúng về người Nhật thời đó?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "日本人はこの浮世絵に芸術的な価値があるとは思っていませんでした。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 22. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-031",
+      "number": 31,
+      "section": "reading",
+      "subtype": "reading_comparison",
+      "passageId": "r-geopark",
+      "questionText": "「世界自然遺産」と「世界ジオパーク」の違いは何か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "世界自然遺産は多くの人に見てもらうことを目的としているが、世界ジオパークはそうではないこと"
+        },
+        {
+          "id": "2",
+          "text": "世界自然遺産は保護することが目的だが、世界ジオパークはそれを積極的に利用しようとしていること"
+        },
+        {
+          "id": "3",
+          "text": "世界自然遺産は自然を楽しく学ぶためのものだが、世界ジオパークは自然を保護するためのものであること"
+        },
+        {
+          "id": "4",
+          "text": "世界自然遺産は自然を保護するためのものだが、世界ジオパークは自然保護は目的ではないこと"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "環境"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Thế giới di sản thiên nhiên hướng đến bảo tồn; geopark vừa bảo vệ, vừa sử dụng cho giáo dục/du lịch và phát triển địa phương. Phương án 2 thể hiện đúng điểm khác biệt.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Mục tiêu của di sản thiên nhiên thế giới không được nêu là để nhiều người đến tham quan.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Thế giới di sản thiên nhiên hướng đến bảo tồn; geopark vừa bảo vệ, vừa sử dụng cho giáo dục/du lịch và phát triển địa phương. Phương án 2 thể hiện đúng điểm khác biệt.",
+          "3": "SAI (đề xuất): Đã đảo ngược mục tiêu bảo tồn và giáo dục/du lịch của hai loại hình.",
+          "4": "SAI (đề xuất): Geopark vẫn có mục tiêu bảo tồn; chỉ khác ở chỗ còn sử dụng để học tập, du lịch."
+        },
+        "translationVi": "Sự khác nhau giữa di sản thiên nhiên thế giới và công viên địa chất toàn cầu?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "自然を保護すると同時に教育や観光にも役立てようというのが目的です。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 23. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-032",
+      "number": 32,
+      "section": "reading",
+      "subtype": "reading_detail",
+      "passageId": "r-geopark",
+      "questionText": "日本が他国よりも進んでいるのはどんな点か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "地球の活動についての知識がある点"
+        },
+        {
+          "id": "2",
+          "text": "自然をきちんと保護している点"
+        },
+        {
+          "id": "3",
+          "text": "防災教育に役立たせようとしている点"
+        },
+        {
+          "id": "4",
+          "text": "観光に力を入れ地域を活性化している点"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "防災教育"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Đoạn văn nêu Nhật Bản giữ lại dấu tích núi lửa và động đất để phục vụ giáo dục phòng chống thiên tai; đây là điểm dẫn đầu thế giới.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Bài không đánh giá Nhật đi đầu về kiến thức khoa học trái đất nói chung.",
+          "2": "SAI (đề xuất): Bảo tồn là mục đích chung ở nhiều quốc gia, không phải đặc điểm tiên phong nêu ở đây.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Đoạn văn nêu Nhật Bản giữ lại dấu tích núi lửa và động đất để phục vụ giáo dục phòng chống thiên tai; đây là điểm dẫn đầu thế giới.",
+          "4": "SAI (đề xuất): Du lịch phát triển địa phương đang gặp thiếu nhân lực, không phải điểm Nhật được nói là dẫn đầu."
+        },
+        "translationVi": "Nhật Bản đi trước các nước khác ở điểm nào?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "火山の噴火や地震などの被害の跡を保存し、防災教育にも役立てようとしているところも多いです。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 23. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-033",
+      "number": 33,
+      "section": "reading",
+      "subtype": "reading_detail",
+      "passageId": "r-geopark",
+      "questionText": "日本の「世界ジオパーク」について、正しいものはどれか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "地域の活性化につなげるための人材が不足している。"
+        },
+        {
+          "id": "2",
+          "text": "経済を活性化することには利用しようとしていない。"
+        },
+        {
+          "id": "3",
+          "text": "火山の噴火などの被害の跡を残すことが目的となっている。"
+        },
+        {
+          "id": "4",
+          "text": "観光に利用することに最も力を入れている。"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "地域活性化"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Cuối bài ghi 「多くの地域で経済的なメリットにつなげる人材が不足していて、地域の活性化という点が今後の課題」.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Cuối bài ghi 「多くの地域で経済的なメリットにつなげる人材が不足していて、地域の活性化という点が今後の課題」.",
+          "2": "SAI (đề xuất): Bài nói cố kết nối với lợi ích kinh tế, nhưng đang thiếu nhân lực thực hiện.",
+          "3": "SAI (đề xuất): Lưu dấu tích thiên tai là một hoạt động, không phải mục đích bao trùm duy nhất.",
+          "4": "SAI (đề xuất): Du lịch là một mục tiêu song song, không được khẳng định ưu tiên cao nhất."
+        },
+        "translationVi": "Nhận định nào đúng về geopark của Nhật?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "多くの地域で経済的なメリットにつなげる人材が不足していて、地域の活性化という点が今後の課題となるようです。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 24. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-034",
+      "number": 34,
+      "section": "reading",
+      "subtype": "reading_detail",
+      "passageId": "r-meiji",
+      "questionText": "ここで①緑のかたまりと言っているのは何のことか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "大きい木"
+        },
+        {
+          "id": "2",
+          "text": "森のような所"
+        },
+        {
+          "id": "3",
+          "text": "緑の山"
+        },
+        {
+          "id": "4",
+          "text": "緑の建物"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "森林"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "「高い所から東京を見渡すと、ところどころに緑のかたまりが見えます。それは木々がたくさん集まっている場所」: khối màu xanh là nơi nhiều cây tụ lại, như một khu rừng.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): 緑のかたまり không phải một cây lớn đơn lẻ.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): 「高い所から東京を見渡すと、ところどころに緑のかたまりが見えます。それは木々がたくさん集まっている場所」: khối màu xanh là nơi nhiều cây tụ lại, như một khu rừng.",
+          "3": "SAI (đề xuất): Không có thông tin đây là núi xanh.",
+          "4": "SAI (đề xuất): Không có thông tin đây là kiến trúc xanh."
+        },
+        "translationVi": "“Khối màu xanh” có nghĩa là gì?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "ところどころに緑のかたまりが見えます。それは木々がたくさん集まっている場所で",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 25. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-035",
+      "number": 35,
+      "section": "reading",
+      "subtype": "reading_detail",
+      "passageId": "r-meiji",
+      "questionText": "②計画を立ててとあるが、どういう計画を立てたのか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "大きくなる木を植えようという計画"
+        },
+        {
+          "id": "2",
+          "text": "荒れた土地を木が育つ土地にしようという計画"
+        },
+        {
+          "id": "3",
+          "text": "自然に近い森をつくろうという計画"
+        },
+        {
+          "id": "4",
+          "text": "東京に自生する木を植えようという計画"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "自然"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 3. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Trong bài: 「自然に近い森をつくるために、東京に大昔から自然に生えていた種類の木々を植えた」. Kế hoạch là tạo khu rừng gần với rừng tự nhiên.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Trồng cây lớn không phải mục tiêu cốt lõi; rừng hình thành tự nhiên qua nhiều năm.",
+          "2": "SAI (đề xuất): Bài nhắc đất hoang cằn cỗi nhưng giải pháp không chỉ là cải tạo đất.",
+          "3": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Trong bài: 「自然に近い森をつくるために、東京に大昔から自然に生えていた種類の木々を植えた」. Kế hoạch là tạo khu rừng gần với rừng tự nhiên.",
+          "4": "SAI (đề xuất): Chọn cây bản địa là phương pháp để đạt mục tiêu rừng gần tự nhiên, không phải toàn bộ mục tiêu."
+        },
+        "translationVi": "Người ta đã lập kế hoạch như thế nào?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "自然に近い森をつくるために、東京に大昔から自然に生えていた種類の木々を植えたからです。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 26. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-036",
+      "number": 36,
+      "section": "reading",
+      "subtype": "reading_inference",
+      "passageId": "r-meiji",
+      "questionText": "③昔からある自然の森と同じこととはどういうことか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "荒れた土地でも大きく育つ木もあること"
+        },
+        {
+          "id": "2",
+          "text": "いろいろな種類の木が大きく育つこと"
+        },
+        {
+          "id": "3",
+          "text": "何種類かの木だけしか大きく育たないこと"
+        },
+        {
+          "id": "4",
+          "text": "木々同士の競争が起こり強いものだけが残ること"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "森林"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Bài viết nói cây tự cạnh tranh, cây yếu không phát triển, cây thắng cạnh tranh lớn lên; giống quy luật chọn lọc trong rừng tự nhiên.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Bài không nói có cây lớn mọc được trên mọi đất cằn.",
+          "2": "SAI (đề xuất): Nhiều loài được trồng nhưng không phải loài nào cũng lớn mạnh; có cây yếu bị đào thải.",
+          "3": "SAI (đề xuất): Không nói chỉ vài loài được phép lớn; vấn đề là sự cạnh tranh giữa các cây.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Bài viết nói cây tự cạnh tranh, cây yếu không phát triển, cây thắng cạnh tranh lớn lên; giống quy luật chọn lọc trong rừng tự nhiên."
+        },
+        "translationVi": "Điều gì giống với rừng tự nhiên tồn tại từ xưa?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "それは木々同士の競争が自然に起こって、弱いものは育たなかったからです。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 26. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-037",
+      "number": 37,
+      "section": "reading",
+      "subtype": "reading_detail",
+      "passageId": "r-meiji",
+      "questionText": "この森の管理について本文の内容と合っているものはどれか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ほとんどのことを自然のままにしている。"
+        },
+        {
+          "id": "2",
+          "text": "自然な森に見えるように苦労をしている。"
+        },
+        {
+          "id": "3",
+          "text": "弱い木も大きく育つように手を入れている。"
+        },
+        {
+          "id": "4",
+          "text": "誰もまったく何もしない。"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "管理"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 1. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Bài viết cho biết người quản lý chủ yếu để mặc tự nhiên, chỉ thu gom lá rụng và đưa trở lại gốc cây; không chăm sóc như rừng trồng thông thường.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Bài viết cho biết người quản lý chủ yếu để mặc tự nhiên, chỉ thu gom lá rụng và đưa trở lại gốc cây; không chăm sóc như rừng trồng thông thường.",
+          "2": "SAI (đề xuất): Bài nói họ hầu như để mọi thứ tự nhiên, không phải tốn công làm rừng trông tự nhiên.",
+          "3": "SAI (đề xuất): Cây yếu không được chăm để lớn lên; cạnh tranh tự nhiên vẫn diễn ra.",
+          "4": "SAI (đề xuất): Vẫn có người thu gom lá rụng, đưa về gốc cây; không phải tuyệt đối không làm gì."
+        },
+        "translationVi": "Nhận định nào đúng về việc quản lý khu rừng này?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "すべてを自然のままにしているのです。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 26. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-038",
+      "number": 38,
+      "section": "reading",
+      "subtype": "reading_condition",
+      "passageId": "r-notice",
+      "questionText": "次の４人のうち、交流会に参加できるのは誰か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "パクさん：北東大学を卒業して、日本の会社に就職して４年目。"
+        },
+        {
+          "id": "2",
+          "text": "リンさん：北東市内のほかの大学の留学生。料理が得意でごちそうするのが好き。"
+        },
+        {
+          "id": "3",
+          "text": "パウロさん：北東大学の近くに住む歌手。自分の歌を聞いてほしいと思っている。"
+        },
+        {
+          "id": "4",
+          "text": "アンナさん：北東市内のほかの大学の卒業生。市内の会社に就職して３年目。"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "お知らせ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 2. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Điều kiện: sinh viên quốc tế ở Đại học Hokutō hoặc các đại học khác trong thành phố, hoặc cựu sinh viên Hokutō làm việc trong thành phố không quá 3 năm. Rin đang là du học sinh tại trường khác trong thành phố nên đủ điều kiện.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Đã làm việc năm thứ tư, quá mốc 3 năm cho phép với cựu sinh viên Hokutō.",
+          "2": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Điều kiện: sinh viên quốc tế ở Đại học Hokutō hoặc các đại học khác trong thành phố, hoặc cựu sinh viên Hokutō làm việc trong thành phố không quá 3 năm. Rin đang là du học sinh tại trường khác trong thành phố nên đủ điều kiện.",
+          "3": "SAI (đề xuất): Chỉ sống gần trường và là ca sĩ không đáp ứng điều kiện tham dự.",
+          "4": "SAI (đề xuất): Tốt nghiệp trường khác nên không thuộc nhóm cựu sinh viên Đại học Hokutō trong thông báo."
+        },
+        "translationVi": "Trong bốn người, ai có thể tham gia buổi giao lưu?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "北東市内のほかの大学の留学生",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 27. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    },
+    {
+      "id": "n3-best-moshi-01-rd-039",
+      "number": 39,
+      "section": "reading",
+      "subtype": "reading_condition",
+      "passageId": "r-notice",
+      "questionText": "北東大学４年生のサラさんは交流会に参加して国の歌を紹介したいと思っている。どうすればいいか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "すぐにメールで申し込み、歌のくわしい話をする日時の希望を伝える。"
+        },
+        {
+          "id": "2",
+          "text": "すぐにメールで申し込み、連絡が来たら歌を紹介したいことを伝える。"
+        },
+        {
+          "id": "3",
+          "text": "10月18日までに、歌を歌いたいことを書いてメールで申し込む。"
+        },
+        {
+          "id": "4",
+          "text": "９月30日までに、歌を歌いたいことを書いてメールで申し込む。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "お知らせ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án đề xuất: 4. Chưa có bảng đáp án chính thức; cần kiểm duyệt.",
+        "correctReasonVi": "Thông báo ghi hạn đăng ký đến 9/30 lúc 17:00; người muốn hát phải ghi rõ trong email lúc đăng ký. Vì thế chọn phương án 4.",
+        "optionReasonsVi": {
+          "1": "SAI (đề xuất): Không cần hẹn trước giờ trao đổi về tiết mục; Ban tổ chức sẽ liên lạc sau.",
+          "2": "SAI (đề xuất): Thông báo yêu cầu ghi ý định hát ngay khi đăng ký, không đợi liên lạc rồi mới nói.",
+          "3": "SAI (đề xuất): Ngày 18/10 là ngày diễn ra buổi giao lưu, không phải hạn chót đăng ký.",
+          "4": "ĐÚNG (đề xuất, CHƯA đối chiếu đáp án gốc): Thông báo ghi hạn đăng ký đến 9/30 lúc 17:00; người muốn hát phải ghi rõ trong email lúc đăng ký. Vì thế chọn phương án 4."
+        },
+        "translationVi": "Sara muốn tham gia và giới thiệu bài hát quê hương thì cần làm gì?",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": "歌を歌ったりダンスをしたりしてくださる方も、申し込み時にそのことを書いてください。",
+        "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "Trang PDF 27. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
+      }
+    }
+  ],
+  "questionCount": 74
+}

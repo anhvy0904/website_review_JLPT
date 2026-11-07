@@ -2859,3 +2859,4 @@ fs.writeFileSync(path.join(EXAMS_DIR, "n3-kanji-writing-46.json"), JSON.stringif
 console.log("✅ Đã xuất bản thành công 2 bộ đề chữ Hán thực chiến:");
 console.log("   1. n3-kanji-reading-50.json (50 câu Mondai 1 - Cách đọc Kanji)");
 console.log("   2. n3-kanji-writing-46.json (46 câu Mondai 2 - Cách viết Kanji)");
+

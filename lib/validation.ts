@@ -64,7 +64,7 @@ export const examQuestionSchema = z.object({
 export const examPassageSchema = z.object({
   id: z.string().min(1, "ID bài đọc không được để trống"),
   title: z.string().optional(),
-  text: z.string().min(1, "Nội dung bài đọc không được để trống"),
+  text: z.string().default(""),
   imagePath: z.string().optional(),
 });
 

@@ -13,7 +13,7 @@ export function PassageViewer({ passage, className = "" }: PassageViewerProps) {
   // Font size state: 16px, 18px (default), 20px, 22px
   const [fontSize, setFontSize] = useState<number>(18);
 
-  const paragraphs = passage.text.split("\n\n").filter(Boolean);
+  const paragraphs = (passage.text || "").split("\n\n").filter(Boolean);
 
   const fontSizeClasses: Record<number, string> = {
     16: "text-[16px] leading-[1.85]",

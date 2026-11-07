@@ -24,6 +24,7 @@ export default function ExamsPage() {
   // Filters
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSection, setSelectedSection] = useState<string>("all");
+  const [selectedStatus, setSelectedStatus] = useState<string>("all");
   const [selectedSort, setSelectedSort] = useState<string>("default");
 
   useEffect(() => {
@@ -39,8 +40,8 @@ export default function ExamsPage() {
   // Filtered and sorted exams
   const filteredExams = useMemo(() => {
     return exams.filter((exam) => {
-      // Must be published
-      if (exam.status !== "published") return false;
+      // Status filter
+      if (selectedStatus !== "all" && exam.status !== selectedStatus) return false;
 
       // Search query
       if (searchQuery.trim()) {
@@ -64,7 +65,7 @@ export default function ExamsPage() {
       if (selectedSort === "time-desc") return b.timeLimitMinutes - a.timeLimitMinutes;
       return 0;
     });
-  }, [exams, searchQuery, selectedSection, selectedSort]);
+  }, [exams, searchQuery, selectedSection, selectedStatus, selectedSort]);
 
   // Determine user status for an exam
   const getExamUserStatus = (examId: string) => {
@@ -126,26 +127,61 @@ export default function ExamsPage() {
           </div>
         </div>
 
-        {/* Section tabs */}
-        <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-100">
-          {[
-            { id: "all", label: "Tất cả đề thi" },
-            { id: "vocabulary", label: "Chữ Hán & Từ vựng" },
-            { id: "grammar", label: "Ngữ pháp" },
-            { id: "reading", label: "Đọc hiểu" },
-          ].map((tab) => (
+        {/* Section tabs & Status filter */}
+        <div className="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-slate-100">
+          <div className="flex flex-wrap items-center gap-1.5">
+            {[
+              { id: "all", label: "Tất cả dạng bài" },
+              { id: "vocabulary", label: "Chữ Hán & Từ vựng" },
+              { id: "grammar", label: "Ngữ pháp" },
+              { id: "reading", label: "Đọc hiểu" },
+            ].map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setSelectedSection(tab.id)}
+                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                  selectedSection === tab.id
+                    ? "bg-[#1B5E20] text-white shadow-xs"
+                    : "bg-[#E8F5E9]/50 text-slate-700 hover:bg-[#E8F5E9] border border-[#A5D6A7]/60"
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-1.5 bg-slate-100/80 p-1 rounded-xl text-xs">
             <button
-              key={tab.id}
-              onClick={() => setSelectedSection(tab.id)}
-              className={`px-4 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                selectedSection === tab.id
-                  ? "bg-indigo-600 text-white shadow-sm"
-                  : "bg-slate-50 text-slate-600 hover:bg-slate-100 border border-slate-200/60"
+              onClick={() => setSelectedStatus("all")}
+              className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
+                selectedStatus === "all"
+                  ? "bg-white text-slate-900 shadow-xs"
+                  : "text-slate-500 hover:text-slate-800"
               }`}
             >
-              {tab.label}
+              Tất cả ({exams.length})
             </button>
-          ))}
+            <button
+              onClick={() => setSelectedStatus("published")}
+              className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
+                selectedStatus === "published"
+                  ? "bg-white text-[#1B5E20] shadow-xs"
+                  : "text-slate-500 hover:text-slate-800"
+              }`}
+            >
+              Chính thức ({exams.filter((e) => e.status === "published").length})
+            </button>
+            <button
+              onClick={() => setSelectedStatus("draft")}
+              className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
+                selectedStatus === "draft"
+                  ? "bg-amber-500 text-white shadow-xs"
+                  : "text-slate-500 hover:text-slate-800"
+              }`}
+            >
+              Bản nháp ({exams.filter((e) => e.status === "draft").length})
+            </button>
+          </div>
         </div>
       </div>
 
@@ -153,7 +189,7 @@ export default function ExamsPage() {
       {loading ? (
         <div className="py-20 text-center text-slate-400 text-sm">Đang tải danh sách đề thi...</div>
       ) : filteredExams.length === 0 ? (
-        <div className="py-16 text-center bg-white rounded-2xl border border-slate-200 p-8 space-y-3">
+        <div className="py-16 text-center bg-white rounded-3xl border border-slate-200 p-8 space-y-3">
           <BookOpen className="w-10 h-10 text-slate-300 mx-auto" />
           <h3 className="text-base font-bold text-slate-800">Không tìm thấy đề thi phù hợp</h3>
           <p className="text-xs text-slate-500 max-w-sm mx-auto">
@@ -168,13 +204,24 @@ export default function ExamsPage() {
             return (
               <div
                 key={exam.id}
-                className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:border-indigo-300 hover:shadow-md transition-all flex flex-col justify-between"
+                className={`bg-white rounded-3xl border p-6 shadow-xs hover:shadow-md transition-all flex flex-col justify-between ${
+                  exam.status === "draft"
+                    ? "border-amber-300 hover:border-amber-400"
+                    : "border-[#A5D6A7]/80 hover:border-[#66BB6A]"
+                }`}
               >
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold px-2.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
-                      {exam.level}
-                    </span>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-xs font-bold px-2.5 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
+                        {exam.level}
+                      </span>
+                      {exam.status === "draft" && (
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 border border-amber-300">
+                          Bản nháp • Cần rà soát
+                        </span>
+                      )}
+                    </div>
                     <span className={`text-[11px] font-semibold px-2.5 py-0.5 rounded-full border ${userStatus.color}`}>
                       {userStatus.label}
                     </span>
@@ -234,21 +281,21 @@ export default function ExamsPage() {
                 <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between gap-2">
                   <Link
                     href={`/practice/${exam.id}?mode=practice`}
-                    className="flex-1 text-center py-2 px-3 rounded-xl bg-indigo-50 text-indigo-700 hover:bg-indigo-100 text-xs font-semibold transition-colors"
+                    className="flex-1 text-center py-2 px-3 rounded-xl bg-[#E8F5E9] text-[#1B5E20] hover:bg-[#A5D6A7]/50 text-xs font-bold transition-colors border border-[#A5D6A7]/60"
                   >
                     Luyện tập
                   </Link>
 
                   <Link
                     href={`/practice/${exam.id}?mode=exam`}
-                    className="flex-1 text-center py-2 px-3 rounded-xl bg-slate-900 text-white hover:bg-slate-800 text-xs font-semibold transition-colors"
+                    className="flex-1 text-center py-2 px-3 rounded-xl bg-[#1B5E20] text-white hover:bg-[#2E7D32] text-xs font-bold transition-colors shadow-xs"
                   >
                     Thi thử
                   </Link>
 
                   <Link
                     href={`/exams/${exam.id}`}
-                    className="p-2 rounded-xl text-slate-400 hover:text-slate-600 hover:bg-slate-50 transition-colors"
+                    className="p-2 rounded-xl text-slate-400 hover:text-[#1B5E20] hover:bg-[#E8F5E9] transition-colors"
                     title="Xem chi tiết đề"
                   >
                     <ArrowRight className="w-4 h-4" />
