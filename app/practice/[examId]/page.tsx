@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState, useMemo, useRef, useCallback } from "react";
+import React, { useEffect, useState, useMemo, useRef, useCallback, Suspense } from "react";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { ExamDetail, ExamAttempt, ExamMode } from "@/lib/types";
@@ -21,7 +21,7 @@ import {
   RotateCcw,
 } from "lucide-react";
 
-export default function PracticePage() {
+function PracticeContent() {
   const params = useParams();
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -497,6 +497,20 @@ export default function PracticePage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function PracticePage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen flex items-center justify-center bg-slate-50 text-slate-500 text-sm">
+          Đang tải phòng thi...
+        </div>
+      }
+    >
+      <PracticeContent />
+    </Suspense>
   );
 }
 
