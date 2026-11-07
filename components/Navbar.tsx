@@ -39,10 +39,12 @@ export function Navbar() {
           </div>
           <div>
             <div className="flex items-center gap-1.5">
-              <span className="font-extrabold text-base sm:text-lg text-[#1B5E20] tracking-tight flex items-center gap-1">
-                Luyện đề tiếng Nhật cùng VuyAnh <span className="text-sm">🌸</span>
+              <span className="font-extrabold text-sm sm:text-base lg:text-lg text-[#1B5E20] tracking-tight flex items-center gap-1">
+                <span className="hidden sm:inline">Luyện đề tiếng Nhật cùng VuyAnh</span>
+                <span className="inline sm:hidden">Luyện đề VuyAnh</span>
+                <span className="text-sm">🌸</span>
               </span>
-              <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
+              <span className="text-[10px] font-bold px-1.5 py-0.2 sm:px-2 sm:py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
                 N3
               </span>
             </div>

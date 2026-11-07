@@ -48,7 +48,7 @@ export function ExamNavigator({
       </div>
 
       {/* Grid of question buttons */}
-      <div className="grid grid-cols-5 gap-2 pt-4">
+      <div className="grid grid-cols-5 sm:grid-cols-6 lg:grid-cols-5 gap-2 pt-4 max-h-[50vh] sm:max-h-[60vh] lg:max-h-[calc(100vh-280px)] overflow-y-auto pr-1">
         {questions.map((q, idx) => {
           const isCurrent = q.id === currentQuestionId;
           const isAnswered = Boolean(answers[q.id]);

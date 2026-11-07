@@ -128,8 +128,8 @@ export default function ExamsPage() {
         </div>
 
         {/* Section tabs & Status filter */}
-        <div className="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-slate-100">
-          <div className="flex flex-wrap items-center gap-1.5">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-2 border-t border-slate-100">
+          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 sm:flex-wrap no-scrollbar">
             {[
               { id: "all", label: "Tất cả dạng bài" },
               { id: "vocabulary", label: "Chữ Hán & Từ vựng" },
@@ -139,7 +139,7 @@ export default function ExamsPage() {
               <button
                 key={tab.id}
                 onClick={() => setSelectedSection(tab.id)}
-                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all shrink-0 whitespace-nowrap ${
                   selectedSection === tab.id
                     ? "bg-[#1B5E20] text-white shadow-xs"
                     : "bg-[#E8F5E9]/50 text-slate-700 hover:bg-[#E8F5E9] border border-[#A5D6A7]/60"
@@ -150,7 +150,7 @@ export default function ExamsPage() {
             ))}
           </div>
 
-          <div className="flex items-center gap-1.5 bg-slate-100/80 p-1 rounded-xl text-xs">
+          <div className="flex items-center gap-1.5 bg-slate-100/80 p-1 rounded-xl text-xs overflow-x-auto no-scrollbar">
             <button
               onClick={() => setSelectedStatus("all")}
               className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${

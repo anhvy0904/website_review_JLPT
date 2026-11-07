@@ -257,23 +257,23 @@ export function QuestionCard({
                 type="button"
                 disabled={isLocked}
                 onClick={() => onSelectOption(opt.id)}
-                className={`w-full flex items-center justify-between p-4 rounded-xl border text-left transition-all ${optionStyle} ${
+                className={`w-full flex items-center justify-between p-3.5 sm:p-4 rounded-xl border text-left transition-all ${optionStyle} ${
                   isLocked ? "cursor-default" : "cursor-pointer"
                 }`}
               >
-                <div className="flex items-center gap-3.5">
+                <div className="flex items-center gap-3 sm:gap-3.5 min-w-0">
                   <span
                     className={`inline-flex items-center justify-center w-7 h-7 rounded-lg text-xs font-bold border shrink-0 transition-colors ${badgeStyle}`}
                   >
                     {opt.id}
                   </span>
-                  <span className="font-japanese text-[17px] tracking-wide font-normal">
+                  <span className="font-japanese text-[16px] sm:text-[17px] tracking-wide font-normal break-words">
                     {opt.text}
                   </span>
                 </div>
 
                 {isSelected && !isLocked && (
-                  <Check className="w-5 h-5 text-indigo-600 shrink-0" />
+                  <Check className="w-5 h-5 text-indigo-600 shrink-0 ml-2" />
                 )}
               </button>
             );
@@ -281,14 +281,15 @@ export function QuestionCard({
         </div>
 
         {/* Bottom Actions Bar */}
-        <div className="mt-8 pt-5 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+        <div className="mt-6 sm:mt-8 pt-4 sm:pt-5 border-t border-slate-100 flex items-center justify-between gap-2 sm:gap-3">
           <button
             onClick={onPrev}
             disabled={questionIndex === 0}
-            className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl border border-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+            className="inline-flex items-center gap-1 sm:gap-1.5 px-3 sm:px-4 py-2.5 rounded-xl border border-slate-200 text-slate-700 text-xs sm:text-sm font-medium hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors shrink-0"
           >
-            <ArrowLeft className="w-4 h-4" />
-            <span>Câu trước</span>
+            <ArrowLeft className="w-4 h-4 shrink-0" />
+            <span className="hidden sm:inline">Câu trước</span>
+            <span className="inline sm:hidden">Trước</span>
           </button>
 
           <div className="flex items-center gap-2">
@@ -296,18 +297,18 @@ export function QuestionCard({
             {mode === "exam" && isLastQuestion ? (
               <button
                 onClick={onSubmitExam}
-                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-emerald-600 text-white text-sm font-bold shadow-md hover:bg-emerald-700 active:scale-95 transition-all cursor-pointer"
+                className="inline-flex items-center gap-1.5 sm:gap-2 px-4 sm:px-6 py-2.5 rounded-xl bg-emerald-600 text-white text-xs sm:text-sm font-bold shadow-md hover:bg-emerald-700 active:scale-95 transition-all cursor-pointer"
               >
                 <span>Nộp bài thi</span>
-                <CheckCircle2 className="w-4 h-4" />
+                <CheckCircle2 className="w-4 h-4 shrink-0" />
               </button>
             ) : (
               <button
                 onClick={onNext}
-                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-slate-900 text-white text-sm font-semibold hover:bg-slate-800 active:scale-95 transition-all cursor-pointer"
+                className="inline-flex items-center gap-1.5 px-4 sm:px-5 py-2.5 rounded-xl bg-slate-900 text-white text-xs sm:text-sm font-semibold hover:bg-slate-800 active:scale-95 transition-all cursor-pointer"
               >
-                <span>{isLastQuestion ? (mode === "practice" ? "Xem kết quả & nộp bài" : "Hoàn thành") : "Câu tiếp theo"}</span>
-                <ArrowRight className="w-4 h-4" />
+                <span>{isLastQuestion ? (mode === "practice" ? "Xem kết quả & nộp bài" : "Hoàn thành") : "Câu tiếp"}</span>
+                <ArrowRight className="w-4 h-4 shrink-0" />
               </button>
             )}
           </div>

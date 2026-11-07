@@ -382,23 +382,23 @@ export default function FlashcardsPage() {
 
       {/* ANKI SRS STATS DASHBOARD BANNER */}
       {allCards.length > 0 && (
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3">
           {/* Cần ôn hôm nay */}
           <div
             onClick={() => setActiveFilter("due")}
-            className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-3 ${
+            className={`p-3 sm:p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-2.5 sm:gap-3 ${
               activeFilter === "due"
                 ? "bg-orange-50 border-orange-400 ring-2 ring-orange-200 shadow-sm"
                 : "bg-white border-orange-200/80 hover:bg-orange-50/50"
             }`}
           >
-            <div className="w-9 h-9 rounded-xl bg-orange-500 text-white flex items-center justify-center shadow-xs shrink-0">
-              <Flame className="w-5 h-5" />
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-orange-500 text-white flex items-center justify-center shadow-xs shrink-0">
+              <Flame className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
-            <div>
-              <span className="text-[11px] font-bold text-orange-800 uppercase block">Cần ôn hôm nay</span>
-              <div className="flex items-baseline gap-1.5">
-                <span className="text-xl font-extrabold text-orange-950 font-mono">{srsStats.dueToday}</span>
+            <div className="min-w-0">
+              <span className="text-[10px] sm:text-[11px] font-bold text-orange-800 uppercase block truncate">Cần ôn hôm nay</span>
+              <div className="flex items-baseline gap-1">
+                <span className="text-lg sm:text-xl font-extrabold text-orange-950 font-mono">{srsStats.dueToday}</span>
                 <span className="text-[10px] text-orange-600 font-medium">từ</span>
               </div>
             </div>
@@ -407,19 +407,19 @@ export default function FlashcardsPage() {
           {/* Thẻ mới */}
           <div
             onClick={() => setActiveFilter("new")}
-            className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-3 ${
+            className={`p-3 sm:p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-2.5 sm:gap-3 ${
               activeFilter === "new"
                 ? "bg-blue-50 border-blue-400 ring-2 ring-blue-200 shadow-sm"
                 : "bg-white border-blue-200/80 hover:bg-blue-50/50"
             }`}
           >
-            <div className="w-9 h-9 rounded-xl bg-blue-500 text-white flex items-center justify-center shadow-xs shrink-0">
-              <Sparkles className="w-5 h-5" />
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-blue-500 text-white flex items-center justify-center shadow-xs shrink-0">
+              <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
-            <div>
-              <span className="text-[11px] font-bold text-blue-800 uppercase block">Thẻ mới</span>
-              <div className="flex items-baseline gap-1.5">
-                <span className="text-xl font-extrabold text-blue-950 font-mono">{srsStats.newCards}</span>
+            <div className="min-w-0">
+              <span className="text-[10px] sm:text-[11px] font-bold text-blue-800 uppercase block truncate">Thẻ mới</span>
+              <div className="flex items-baseline gap-1">
+                <span className="text-lg sm:text-xl font-extrabold text-blue-950 font-mono">{srsStats.newCards}</span>
                 <span className="text-[10px] text-blue-600 font-medium">chưa học</span>
               </div>
             </div>
@@ -428,19 +428,19 @@ export default function FlashcardsPage() {
           {/* Đang ghi nhớ */}
           <div
             onClick={() => setActiveFilter("learning")}
-            className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-3 ${
+            className={`p-3 sm:p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-2.5 sm:gap-3 ${
               activeFilter === "learning"
                 ? "bg-purple-50 border-purple-400 ring-2 ring-purple-200 shadow-sm"
                 : "bg-white border-purple-200/80 hover:bg-purple-50/50"
             }`}
           >
-            <div className="w-9 h-9 rounded-xl bg-purple-500 text-white flex items-center justify-center shadow-xs shrink-0">
-              <BookOpen className="w-5 h-5" />
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-purple-500 text-white flex items-center justify-center shadow-xs shrink-0">
+              <BookOpen className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
-            <div>
-              <span className="text-[11px] font-bold text-purple-800 uppercase block">Đang ghi nhớ</span>
-              <div className="flex items-baseline gap-1.5">
-                <span className="text-xl font-extrabold text-purple-950 font-mono">{srsStats.learning}</span>
+            <div className="min-w-0">
+              <span className="text-[10px] sm:text-[11px] font-bold text-purple-800 uppercase block truncate">Đang ghi nhớ</span>
+              <div className="flex items-baseline gap-1">
+                <span className="text-lg sm:text-xl font-extrabold text-purple-950 font-mono">{srsStats.learning}</span>
                 <span className="text-[10px] text-purple-600 font-medium">từ</span>
               </div>
             </div>
@@ -449,19 +449,19 @@ export default function FlashcardsPage() {
           {/* Đã nhớ vững */}
           <div
             onClick={() => setActiveFilter("mastered")}
-            className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-3 ${
+            className={`p-3 sm:p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center gap-2.5 sm:gap-3 ${
               activeFilter === "mastered"
                 ? "bg-emerald-50 border-[#66BB6A] ring-2 ring-[#A5D6A7] shadow-sm"
                 : "bg-white border-[#A5D6A7]/80 hover:bg-[#E8F5E9]/50"
             }`}
           >
-            <div className="w-9 h-9 rounded-xl bg-[#1B5E20] text-white flex items-center justify-center shadow-xs shrink-0">
-              <Award className="w-5 h-5 text-[#A5D6A7]" />
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-[#1B5E20] text-white flex items-center justify-center shadow-xs shrink-0">
+              <Award className="w-4 h-4 sm:w-5 sm:h-5 text-[#A5D6A7]" />
             </div>
-            <div>
-              <span className="text-[11px] font-bold text-[#1B5E20] uppercase block">Đã nhớ vững</span>
-              <div className="flex items-baseline gap-1.5">
-                <span className="text-xl font-extrabold text-[#1B5E20] font-mono">{srsStats.mastered}</span>
+            <div className="min-w-0">
+              <span className="text-[10px] sm:text-[11px] font-bold text-[#1B5E20] uppercase block truncate">Đã nhớ vững</span>
+              <div className="flex items-baseline gap-1">
+                <span className="text-lg sm:text-xl font-extrabold text-[#1B5E20] font-mono">{srsStats.mastered}</span>
                 <span className="text-[10px] text-emerald-600 font-medium">≥21 ngày</span>
               </div>
             </div>
@@ -470,7 +470,7 @@ export default function FlashcardsPage() {
       )}
 
       {/* FOLDERS SELECTOR (Phân chia Folder theo từng file đề) */}
-      <div className="bg-white p-5 rounded-3xl border border-slate-200 shadow-xs space-y-3">
+      <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200 shadow-xs space-y-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <FolderOpen className="w-4 h-4 text-[#1B5E20]" />
@@ -492,11 +492,11 @@ export default function FlashcardsPage() {
         </div>
 
         {/* Folder Badges / Tabs */}
-        <div className="flex flex-wrap items-center gap-2 pt-1">
+        <div className="flex items-center gap-2 pt-1 overflow-x-auto pb-1 sm:flex-wrap no-scrollbar">
           <button
             type="button"
             onClick={() => setSelectedFolder("all")}
-            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer shrink-0 ${
               selectedFolder === "all"
                 ? "bg-[#1B5E20] text-white shadow-sm"
                 : "bg-slate-100 text-slate-700 hover:bg-slate-200"
@@ -520,7 +520,7 @@ export default function FlashcardsPage() {
                 key={f.examId}
                 type="button"
                 onClick={() => setSelectedFolder(f.examId)}
-                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer max-w-xs truncate ${
+                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer max-w-xs truncate shrink-0 ${
                   isSelected
                     ? "bg-[#1B5E20] text-white shadow-sm"
                     : "bg-[#E8F5E9]/60 text-[#1B5E20] hover:bg-[#A5D6A7]/40 border border-[#A5D6A7]/70"
@@ -743,11 +743,11 @@ export default function FlashcardsPage() {
           {viewMode === "deck" && (
             <>
               {currentCard ? (
-                <div className="space-y-5">
+                <div className="space-y-4 sm:space-y-5">
                   {/* Card Frame with Flip Perspective */}
                   <div
                     onClick={handleFlip}
-                    className="group relative w-full min-h-[380px] sm:min-h-[420px] cursor-pointer [perspective:1000px] select-none"
+                    className="group relative w-full min-h-[350px] sm:min-h-[390px] md:min-h-[420px] cursor-pointer [perspective:1000px] select-none"
                   >
                     <div
                       className={`w-full h-full duration-500 [transform-style:preserve-3d] transition-transform rounded-3xl shadow-md border border-slate-200/90 bg-white ${
@@ -755,55 +755,55 @@ export default function FlashcardsPage() {
                       }`}
                     >
                       {/* ================= FRONT SIDE ================= */}
-                      <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-white via-white to-[#E8F5E9]/30 rounded-3xl">
+                      <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] p-5 sm:p-7 md:p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-white via-white to-[#E8F5E9]/30 rounded-3xl">
                         {/* Top bar on front */}
-                        <div className="w-full flex items-center justify-between text-xs text-slate-400">
+                        <div className="w-full flex items-center justify-between text-xs text-slate-400 gap-1.5">
                           <span className="font-mono font-semibold">
                             #{currentIndex + 1} / {filteredCards.length}
                           </span>
 
-                          <div className="flex items-center gap-2">
+                          <div className="flex items-center gap-1.5 sm:gap-2">
                             {/* SRS Badge */}
                             {isCardDueToday(currentCard) ? (
-                              <span className="px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 font-bold text-[10px] border border-orange-200 flex items-center gap-1">
+                              <span className="px-2 py-0.5 rounded-full bg-orange-100 text-orange-800 font-bold text-[10px] border border-orange-200 flex items-center gap-1">
                                 <Flame className="w-3 h-3 text-orange-600" /> Cần ôn
                               </span>
                             ) : currentCard.state === "mastered" ? (
-                              <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold text-[10px] border border-emerald-200 flex items-center gap-1">
+                              <span className="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold text-[10px] border border-emerald-200 flex items-center gap-1">
                                 <Award className="w-3 h-3 text-emerald-600" /> Nhớ vững
                               </span>
                             ) : currentCard.state === "learning" ? (
-                              <span className="px-2.5 py-0.5 rounded-full bg-purple-100 text-purple-800 font-bold text-[10px] border border-purple-200">
+                              <span className="px-2 py-0.5 rounded-full bg-purple-100 text-purple-800 font-bold text-[10px] border border-purple-200">
                                 Đang học ({currentCard.interval}d)
                               </span>
                             ) : (
-                              <span className="px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 font-bold text-[10px] border border-blue-200">
+                              <span className="px-2 py-0.5 rounded-full bg-blue-100 text-blue-800 font-bold text-[10px] border border-blue-200">
                                 Thẻ mới
                               </span>
                             )}
 
-                            <span className="px-2.5 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] font-semibold text-[11px] border border-[#A5D6A7]/60 truncate max-w-[160px]">
+                            <span className="px-2 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] font-semibold text-[10px] sm:text-[11px] border border-[#A5D6A7]/60 truncate max-w-[120px] sm:max-w-[160px]">
                               📁 {currentCard.examTitle}
                             </span>
                           </div>
                         </div>
 
                         {/* Main Word */}
-                        <div className="space-y-3 my-auto">
-                          <div className="text-5xl sm:text-6xl font-extrabold text-slate-900 tracking-wider font-japanese hover:scale-105 transition-transform">
+                        <div className="space-y-2 sm:space-y-3 my-auto max-w-full px-2">
+                          <div className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 tracking-wider font-japanese hover:scale-105 transition-transform break-words">
                             {currentCard.word}
                           </div>
 
                           {currentCard.sinoVietnamese && (
                             <div className="pt-1">
-                              <span className="inline-block px-3 py-1 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7] font-sans font-bold text-xs tracking-wider uppercase shadow-2xs">
+                              <span className="inline-block px-3 py-0.5 sm:py-1 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7] font-sans font-bold text-[11px] sm:text-xs tracking-wider uppercase shadow-2xs">
                                 ÂM HÁN VIỆT: {currentCard.sinoVietnamese}
                               </span>
                             </div>
                           )}
 
-                          <p className="text-xs text-slate-400 pt-2">
-                            Nhấp vào thẻ hoặc bấm phím <b>Space</b> để xem lời giải & chọn mức độ ghi nhớ Anki
+                          <p className="text-[11px] sm:text-xs text-slate-400 pt-1 sm:pt-2">
+                            Chạm vào thẻ hoặc bấm phím <b>Space</b> để lật mặt sau
                           </p>
                         </div>
 
@@ -815,65 +815,65 @@ export default function FlashcardsPage() {
                               e.stopPropagation();
                               speakText(currentCard.reading || currentCard.word);
                             }}
-                            className="p-3 rounded-2xl bg-[#E8F5E9] hover:bg-[#A5D6A7]/50 text-[#1B5E20] transition-colors shadow-2xs cursor-pointer"
+                            className="p-2.5 sm:p-3 rounded-2xl bg-[#E8F5E9] hover:bg-[#A5D6A7]/50 text-[#1B5E20] transition-colors shadow-2xs cursor-pointer"
                             title="Nghe phát âm từ vựng (phím V)"
                           >
-                            <Volume2 className="w-5 h-5" />
+                            <Volume2 className="w-4 h-4 sm:w-5 sm:h-5" />
                           </button>
                         </div>
                       </div>
 
                       {/* ================= BACK SIDE ================= */}
-                      <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden] p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-[#E8F5E9]/40 via-white to-emerald-50/30 rounded-3xl overflow-y-auto">
+                      <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden] p-5 sm:p-7 md:p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-[#E8F5E9]/40 via-white to-emerald-50/30 rounded-3xl overflow-y-auto">
                         {/* Top bar on back */}
-                        <div className="w-full flex items-center justify-between text-xs text-slate-400">
+                        <div className="w-full flex items-center justify-between text-xs text-slate-400 gap-1.5">
                           <span className="font-mono font-semibold">
                             #{currentIndex + 1} / {filteredCards.length}
                           </span>
 
-                          <div className="flex items-center gap-2">
+                          <div className="flex items-center gap-1.5 sm:gap-2">
                             <span className="text-[10px] font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">
                               Hạn ôn: {currentCard.dueDate || "Hôm nay"}
                             </span>
-                            <span className="text-[11px] font-bold text-[#1B5E20] bg-[#E8F5E9] px-2.5 py-0.5 rounded-full border border-[#A5D6A7] truncate max-w-[160px]">
+                            <span className="text-[10px] sm:text-[11px] font-bold text-[#1B5E20] bg-[#E8F5E9] px-2 py-0.5 rounded-full border border-[#A5D6A7] truncate max-w-[120px] sm:max-w-[160px]">
                               📁 {currentCard.examTitle}
                             </span>
                           </div>
                         </div>
 
                         {/* Middle Content */}
-                        <div className="space-y-4 my-auto max-w-lg w-full">
+                        <div className="space-y-3 sm:space-y-4 my-auto max-w-lg w-full px-2">
                           <div>
-                            <span className="text-xl sm:text-2xl font-bold text-[#1B5E20] font-japanese block">
+                            <span className="text-lg sm:text-xl md:text-2xl font-bold text-[#1B5E20] font-japanese block">
                               {currentCard.reading}
                             </span>
-                            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-japanese mt-0.5">
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 font-japanese mt-0.5 break-words">
                               {currentCard.word}
                             </h2>
                             {currentCard.sinoVietnamese && (
-                              <span className="inline-block mt-2 text-xs font-black text-[#1B5E20] uppercase tracking-widest bg-[#E8F5E9] border border-[#A5D6A7] px-3.5 py-1 rounded-full shadow-2xs">
+                              <span className="inline-block mt-1 sm:mt-2 text-[11px] sm:text-xs font-black text-[#1B5E20] uppercase tracking-widest bg-[#E8F5E9] border border-[#A5D6A7] px-3 py-0.5 sm:py-1 rounded-full shadow-2xs">
                                 ÂM HÁN VIỆT: {currentCard.sinoVietnamese}
                               </span>
                             )}
                           </div>
 
                           {/* Meaning */}
-                          <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs">
-                            <span className="text-[11px] font-bold text-slate-400 block uppercase tracking-wider mb-1">
+                          <div className="p-3 sm:p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs">
+                            <span className="text-[10px] sm:text-[11px] font-bold text-slate-400 block uppercase tracking-wider mb-0.5 sm:mb-1">
                               Nghĩa tiếng Việt
                             </span>
-                            <div className="text-lg sm:text-xl font-bold text-slate-900">
+                            <div className="text-base sm:text-lg md:text-xl font-bold text-slate-900">
                               {currentCard.meaning}
                             </div>
                           </div>
 
                           {/* SRS State summary line */}
-                          <div className="flex items-center justify-center gap-4 text-[11px] text-slate-500 font-medium pt-1">
-                            <span>Chu kỳ hiện tại: <b className="text-slate-800">{currentCard.interval} ngày</b></span>
+                          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 text-[10px] sm:text-[11px] text-slate-500 font-medium pt-1">
+                            <span>Chu kỳ: <b className="text-slate-800">{currentCard.interval} ngày</b></span>
                             <span>•</span>
                             <span>Số lần ôn: <b className="text-slate-800">{currentCard.repetitions}</b></span>
                             <span>•</span>
-                            <span>Hệ số dễ (EF): <b className="text-slate-800">{currentCard.easeFactor}</b></span>
+                            <span>Hệ số (EF): <b className="text-slate-800">{currentCard.easeFactor}</b></span>
                           </div>
                         </div>
 
@@ -885,10 +885,10 @@ export default function FlashcardsPage() {
                               e.stopPropagation();
                               speakText(currentCard.reading || currentCard.word);
                             }}
-                            className="p-3 rounded-2xl bg-[#1B5E20] text-white hover:bg-[#2E7D32] transition-colors shadow-sm cursor-pointer"
+                            className="p-2.5 sm:p-3 rounded-2xl bg-[#1B5E20] text-white hover:bg-[#2E7D32] transition-colors shadow-sm cursor-pointer"
                             title="Nghe lại phát âm (phím V)"
                           >
-                            <Volume2 className="w-5 h-5" />
+                            <Volume2 className="w-4 h-4 sm:w-5 sm:h-5" />
                           </button>
                         </div>
                       </div>
@@ -898,24 +898,24 @@ export default function FlashcardsPage() {
                   {/* ANKI 4 RATING BUTTONS (Hiện rõ khi thẻ được lật) */}
                   {isFlipped ? (
                     <div className="space-y-2 pt-1 animate-in fade-in duration-200">
-                      <div className="flex items-center justify-between text-xs text-slate-500 px-1 font-medium">
-                        <span>Đánh giá mức độ nhớ từ (Bấm 1, 2, 3, 4 trên bàn phím):</span>
-                        <span className="text-slate-400">Chu kỳ lặp lại tiếp theo:</span>
+                      <div className="flex flex-col sm:flex-row sm:items-center justify-between text-[11px] sm:text-xs text-slate-500 px-1 gap-1 font-medium">
+                        <span>Đánh giá mức độ nhớ (Phím 1, 2, 3, 4):</span>
+                        <span className="text-slate-400 text-[10px] sm:text-xs">Chu kỳ ôn tập tiếp theo:</span>
                       </div>
 
-                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-2.5">
                         {/* 1. Lại (Again) */}
                         <button
                           type="button"
                           onClick={() => handleRateCard("again")}
-                          className="flex flex-col items-center justify-center py-3 px-3 rounded-2xl bg-rose-50 hover:bg-rose-100 text-rose-800 border-2 border-rose-200 hover:border-rose-300 transition-all active:scale-95 cursor-pointer shadow-xs"
+                          className="flex flex-col items-center justify-center py-2.5 sm:py-3 px-2 sm:px-3 rounded-2xl bg-rose-50 hover:bg-rose-100 text-rose-800 border-2 border-rose-200 hover:border-rose-300 transition-all active:scale-95 cursor-pointer shadow-xs touch-manipulation"
                         >
-                          <div className="flex items-center gap-1.5 font-bold text-xs sm:text-sm">
-                            <RotateCcw className="w-3.5 h-3.5 text-rose-600" />
+                          <div className="flex items-center gap-1 sm:gap-1.5 font-bold text-xs sm:text-sm">
+                            <RotateCcw className="w-3.5 h-3.5 text-rose-600 shrink-0" />
                             <span>Lại (Again)</span>
                             <kbd className="hidden sm:inline-block px-1 rounded bg-rose-200/70 text-[10px] text-rose-800">1</kbd>
                           </div>
-                          <span className="text-[11px] font-semibold text-rose-600 mt-0.5">
+                          <span className="text-[10px] sm:text-[11px] font-semibold text-rose-600 mt-0.5">
                             1 ngày
                           </span>
                         </button>
@@ -924,14 +924,14 @@ export default function FlashcardsPage() {
                         <button
                           type="button"
                           onClick={() => handleRateCard("hard")}
-                          className="flex flex-col items-center justify-center py-3 px-3 rounded-2xl bg-amber-50 hover:bg-amber-100 text-amber-900 border-2 border-amber-200 hover:border-amber-300 transition-all active:scale-95 cursor-pointer shadow-xs"
+                          className="flex flex-col items-center justify-center py-2.5 sm:py-3 px-2 sm:px-3 rounded-2xl bg-amber-50 hover:bg-amber-100 text-amber-900 border-2 border-amber-200 hover:border-amber-300 transition-all active:scale-95 cursor-pointer shadow-xs touch-manipulation"
                         >
-                          <div className="flex items-center gap-1.5 font-bold text-xs sm:text-sm">
-                            <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
+                          <div className="flex items-center gap-1 sm:gap-1.5 font-bold text-xs sm:text-sm">
+                            <HelpCircle className="w-3.5 h-3.5 text-amber-600 shrink-0" />
                             <span>Khó (Hard)</span>
                             <kbd className="hidden sm:inline-block px-1 rounded bg-amber-200/70 text-[10px] text-amber-800">2</kbd>
                           </div>
-                          <span className="text-[11px] font-semibold text-amber-700 mt-0.5">
+                          <span className="text-[10px] sm:text-[11px] font-semibold text-amber-700 mt-0.5">
                             +{getReviewIntervalPreview(currentCard, "hard")} ngày
                           </span>
                         </button>
@@ -940,14 +940,14 @@ export default function FlashcardsPage() {
                         <button
                           type="button"
                           onClick={() => handleRateCard("good")}
-                          className="flex flex-col items-center justify-center py-3 px-3 rounded-2xl bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border-2 border-emerald-300 hover:border-emerald-400 transition-all active:scale-95 cursor-pointer shadow-xs"
+                          className="flex flex-col items-center justify-center py-2.5 sm:py-3 px-2 sm:px-3 rounded-2xl bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border-2 border-emerald-300 hover:border-emerald-400 transition-all active:scale-95 cursor-pointer shadow-xs touch-manipulation"
                         >
-                          <div className="flex items-center gap-1.5 font-bold text-xs sm:text-sm">
-                            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                          <div className="flex items-center gap-1 sm:gap-1.5 font-bold text-xs sm:text-sm">
+                            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
                             <span>Tốt (Good)</span>
                             <kbd className="hidden sm:inline-block px-1 rounded bg-emerald-200/70 text-[10px] text-emerald-800">3</kbd>
                           </div>
-                          <span className="text-[11px] font-semibold text-emerald-700 mt-0.5">
+                          <span className="text-[10px] sm:text-[11px] font-semibold text-emerald-700 mt-0.5">
                             +{getReviewIntervalPreview(currentCard, "good")} ngày
                           </span>
                         </button>
@@ -956,14 +956,14 @@ export default function FlashcardsPage() {
                         <button
                           type="button"
                           onClick={() => handleRateCard("easy")}
-                          className="flex flex-col items-center justify-center py-3 px-3 rounded-2xl bg-blue-50 hover:bg-blue-100 text-blue-900 border-2 border-blue-300 hover:border-blue-400 transition-all active:scale-95 cursor-pointer shadow-xs"
+                          className="flex flex-col items-center justify-center py-2.5 sm:py-3 px-2 sm:px-3 rounded-2xl bg-blue-50 hover:bg-blue-100 text-blue-900 border-2 border-blue-300 hover:border-blue-400 transition-all active:scale-95 cursor-pointer shadow-xs touch-manipulation"
                         >
-                          <div className="flex items-center gap-1.5 font-bold text-xs sm:text-sm">
-                            <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+                          <div className="flex items-center gap-1 sm:gap-1.5 font-bold text-xs sm:text-sm">
+                            <Sparkles className="w-3.5 h-3.5 text-blue-600 shrink-0" />
                             <span>Dễ (Easy)</span>
                             <kbd className="hidden sm:inline-block px-1 rounded bg-blue-200/70 text-[10px] text-blue-800">4</kbd>
                           </div>
-                          <span className="text-[11px] font-semibold text-blue-700 mt-0.5">
+                          <span className="text-[10px] sm:text-[11px] font-semibold text-blue-700 mt-0.5">
                             +{getReviewIntervalPreview(currentCard, "easy")} ngày
                           </span>
                         </button>
@@ -972,22 +972,23 @@ export default function FlashcardsPage() {
                   ) : null}
 
                   {/* Bottom Navigation & Star Controls */}
-                  <div className="flex items-center justify-between gap-3 pt-1">
+                  <div className="flex items-center justify-between gap-1.5 sm:gap-3 pt-1">
                     <button
                       type="button"
                       onClick={handlePrev}
-                      className="p-3.5 rounded-2xl bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 shadow-xs active:scale-95 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer"
+                      className="p-2.5 sm:p-3.5 rounded-2xl bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 shadow-xs active:scale-95 transition-all flex items-center gap-1 text-xs font-bold cursor-pointer shrink-0"
                     >
-                      <ChevronLeft className="w-4 h-4" />
+                      <ChevronLeft className="w-4 h-4 shrink-0" />
                       <span className="hidden sm:inline">Từ trước (←)</span>
+                      <span className="inline sm:hidden">Trước</span>
                     </button>
 
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-1 sm:gap-2">
                       {/* Star Button */}
                       <button
                         type="button"
                         onClick={toggleStar}
-                        className={`p-3 sm:px-4 sm:py-3 rounded-2xl border text-xs font-bold flex items-center gap-2 transition-all active:scale-95 cursor-pointer ${
+                        className={`p-2.5 sm:px-4 sm:py-3 rounded-2xl border text-xs font-bold flex items-center gap-1.5 transition-all active:scale-95 cursor-pointer ${
                           isCurrentStarred
                             ? "bg-amber-50 border-amber-300 text-amber-700 shadow-xs"
                             : "bg-white border-slate-200 text-slate-600 hover:bg-slate-50"
@@ -1004,17 +1005,18 @@ export default function FlashcardsPage() {
                       <button
                         type="button"
                         onClick={handleFlip}
-                        className="px-5 py-3 rounded-2xl bg-[#1B5E20] hover:bg-[#2E7D32] text-white text-xs font-bold shadow-sm active:scale-95 transition-all flex items-center gap-1.5 cursor-pointer"
+                        className="px-3 sm:px-5 py-2.5 sm:py-3 rounded-2xl bg-[#1B5E20] hover:bg-[#2E7D32] text-white text-xs font-bold shadow-sm active:scale-95 transition-all flex items-center gap-1.5 cursor-pointer whitespace-nowrap"
                       >
-                        <RotateCcw className="w-3.5 h-3.5" />
-                        <span>{isFlipped ? "Mặt trước (Space)" : "Lật thẻ (Space)"}</span>
+                        <RotateCcw className="w-3.5 h-3.5 shrink-0" />
+                        <span className="hidden sm:inline">{isFlipped ? "Mặt trước (Space)" : "Lật thẻ (Space)"}</span>
+                        <span className="inline sm:hidden">{isFlipped ? "Mặt trước" : "Lật thẻ"}</span>
                       </button>
 
                       {/* Delete Current Card Button */}
                       <button
                         type="button"
                         onClick={() => handleDeleteCard(currentCard)}
-                        className="p-3 rounded-2xl bg-white border border-slate-200 hover:bg-rose-50 hover:border-rose-200 text-slate-400 hover:text-rose-600 transition-all cursor-pointer"
+                        className="p-2.5 sm:p-3 rounded-2xl bg-white border border-slate-200 hover:bg-rose-50 hover:border-rose-200 text-slate-400 hover:text-rose-600 transition-all cursor-pointer shrink-0"
                         title="Xóa từ này khỏi Flashcard"
                       >
                         <Trash2 className="w-4 h-4" />
@@ -1024,10 +1026,11 @@ export default function FlashcardsPage() {
                     <button
                       type="button"
                       onClick={handleNext}
-                      className="p-3.5 rounded-2xl bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 shadow-xs active:scale-95 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer"
+                      className="p-2.5 sm:p-3.5 rounded-2xl bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 shadow-xs active:scale-95 transition-all flex items-center gap-1 text-xs font-bold cursor-pointer shrink-0"
                     >
                       <span className="hidden sm:inline">Từ tiếp (→)</span>
-                      <ChevronRight className="w-4 h-4" />
+                      <span className="inline sm:hidden">Tiếp</span>
+                      <ChevronRight className="w-4 h-4 shrink-0" />
                     </button>
                   </div>
                 </div>

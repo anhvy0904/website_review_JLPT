@@ -308,38 +308,38 @@ function PracticeContent() {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
       {/* Sticky Test Header Bar */}
-      <div className="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200 px-4 sm:px-6 py-3 shadow-xs">
-        <div className="max-w-7xl mx-auto flex items-center justify-between gap-3">
+      <div className="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200 px-3 sm:px-6 py-2.5 sm:py-3 shadow-xs">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-2 sm:gap-3">
           {/* Left: Back & Title */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0">
             <Link
               href={`/exams/${exam.id}`}
-              className="p-2 rounded-xl text-slate-500 hover:text-slate-800 hover:bg-slate-100 transition-colors"
+              className="p-1.5 sm:p-2 rounded-xl text-slate-500 hover:text-slate-800 hover:bg-slate-100 transition-colors shrink-0"
               title="Quay lại chi tiết đề"
             >
-              <ArrowLeft className="w-5 h-5" />
+              <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5" />
             </Link>
 
-            <div>
-              <div className="flex items-center gap-2">
-                <h1 className="font-bold text-slate-900 text-sm sm:text-base line-clamp-1 max-w-xs sm:max-w-md">
+            <div className="min-w-0">
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <h1 className="font-bold text-slate-900 text-xs sm:text-base truncate max-w-[120px] xs:max-w-[200px] sm:max-w-md">
                   {exam.title}
                 </h1>
-                <span className="text-[11px] font-semibold px-2 py-0.5 rounded-md bg-indigo-50 text-indigo-700 hidden sm:inline-block">
+                <span className="text-[10px] sm:text-[11px] font-semibold px-2 py-0.5 rounded-md bg-indigo-50 text-indigo-700 hidden sm:inline-block shrink-0">
                   {mode === "practice" ? "Luyện tập" : "Thi thử"}
                 </span>
               </div>
-              <p className="text-[11px] text-slate-500">
-                Câu {currentQuestionIndex + 1} / {exam.questions.length} • Đã trả lời {answeredCount} câu
+              <p className="text-[10px] sm:text-[11px] text-slate-500 truncate">
+                Câu {currentQuestionIndex + 1}/{exam.questions.length} • {answeredCount} đã làm
               </p>
             </div>
           </div>
 
           {/* Right: Timer & Submit Button */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
             {/* Timer Badge */}
             <div
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-mono text-xs font-bold border transition-colors ${
+              className={`flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl font-mono text-[11px] sm:text-xs font-bold border transition-colors ${
                 mode === "exam"
                   ? isTimeCritical
                     ? "bg-rose-50 text-rose-700 border-rose-300 animate-pulse"
@@ -347,7 +347,7 @@ function PracticeContent() {
                   : "bg-indigo-50 text-indigo-700 border-indigo-200"
               }`}
             >
-              <Clock className="w-4 h-4 text-slate-500" />
+              <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-500" />
               <span>
                 {mode === "exam" ? formatTime(remainingSeconds) : formatTime(elapsedSeconds)}
               </span>
@@ -356,16 +356,16 @@ function PracticeContent() {
             {/* Mobile navigator button */}
             <button
               onClick={() => setShowMobileNavigator(!showMobileNavigator)}
-              className="lg:hidden p-2 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-100"
+              className="lg:hidden p-1.5 sm:p-2 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-100"
               title="Danh sách câu hỏi"
             >
-              <ListFilter className="w-5 h-5" />
+              <ListFilter className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
 
             {/* Submit Button */}
             <button
               onClick={() => setShowSubmitModal(true)}
-              className="px-4 py-2 rounded-xl bg-indigo-600 text-white text-xs sm:text-sm font-bold shadow-sm hover:bg-indigo-700 active:scale-95 transition-all"
+              className="px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl bg-indigo-600 text-white text-xs sm:text-sm font-bold shadow-sm hover:bg-indigo-700 active:scale-95 transition-all"
             >
               Nộp bài
             </button>
@@ -429,30 +429,32 @@ function PracticeContent() {
 
       {/* Mobile Drawer Navigator Modal */}
       {showMobileNavigator && (
-        <div className="lg:hidden fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4 bg-slate-900/40 backdrop-blur-xs">
-          <div className="w-full max-w-md bg-white rounded-2xl shadow-xl border border-slate-200 p-5 space-y-4">
-            <div className="flex items-center justify-between pb-2 border-b border-slate-100">
-              <h3 className="font-bold text-slate-900 text-sm">Danh sách câu hỏi</h3>
+        <div className="lg:hidden fixed inset-0 z-50 flex items-end sm:items-center justify-center p-3 sm:p-4 bg-slate-900/50 backdrop-blur-xs">
+          <div className="w-full max-w-md bg-white rounded-3xl shadow-2xl border border-slate-200 p-4 sm:p-5 space-y-3.5 max-h-[85vh] flex flex-col">
+            <div className="flex items-center justify-between pb-2 border-b border-slate-100 shrink-0">
+              <h3 className="font-bold text-slate-900 text-sm">Danh sách câu hỏi ({exam.questions.length})</h3>
               <button
                 onClick={() => setShowMobileNavigator(false)}
-                className="p-1 rounded-lg text-slate-400 hover:text-slate-600"
+                className="p-1.5 rounded-xl text-slate-400 hover:text-slate-600 hover:bg-slate-100"
               >
                 <X className="w-5 h-5" />
               </button>
             </div>
 
-            <ExamNavigator
-              questions={exam.questions}
-              currentQuestionId={currentQuestion.id}
-              answers={answers}
-              flaggedQuestionIds={flaggedQuestionIds}
-              checkedQuestionIds={checkedQuestionIds}
-              mode={mode}
-              onSelectQuestion={(id) => {
-                setCurrentQuestionId(id);
-                setShowMobileNavigator(false);
-              }}
-            />
+            <div className="overflow-y-auto pr-1 flex-1">
+              <ExamNavigator
+                questions={exam.questions}
+                currentQuestionId={currentQuestion.id}
+                answers={answers}
+                flaggedQuestionIds={flaggedQuestionIds}
+                checkedQuestionIds={checkedQuestionIds}
+                mode={mode}
+                onSelectQuestion={(id) => {
+                  setCurrentQuestionId(id);
+                  setShowMobileNavigator(false);
+                }}
+              />
+            </div>
           </div>
         </div>
       )}

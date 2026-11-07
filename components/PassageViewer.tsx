@@ -50,13 +50,18 @@ export function PassageViewer({ passage, className = "" }: PassageViewerProps) {
                 key={size}
                 type="button"
                 onClick={() => setFontSize(size)}
-                className={`px-2 py-0.5 rounded-lg text-xs font-bold transition-all ${
+                className={`px-1.5 sm:px-2 py-0.5 rounded-lg text-xs font-bold transition-all ${
                   fontSize === size
                     ? "bg-[#1B5E20] text-white shadow-xs"
                     : "text-slate-600 hover:text-slate-900 hover:bg-slate-200/60"
                 }`}
               >
-                {size === 16 ? "Nhỏ" : size === 18 ? "Vừa" : size === 20 ? "Lớn" : "Rất lớn"}
+                <span className="hidden sm:inline">
+                  {size === 16 ? "Nhỏ" : size === 18 ? "Vừa" : size === 20 ? "Lớn" : "Rất lớn"}
+                </span>
+                <span className="inline sm:hidden">
+                  {size === 16 ? "A-" : size === 18 ? "A" : size === 20 ? "A+" : "A++"}
+                </span>
               </button>
             ))}
           </div>

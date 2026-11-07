@@ -53,3 +53,13 @@ body {
 .animate-fade-in {
   animation: fadeIn 0.15s ease-out forwards;
 }
+
+/* Hide scrollbar for clean mobile tabs & chips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

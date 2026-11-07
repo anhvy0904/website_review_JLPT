@@ -90,17 +90,17 @@ export default function ExamDetailPage() {
       </Link>
 
       {/* Header Info */}
-      <div className="bg-white rounded-3xl border border-slate-200 p-7 sm:p-9 shadow-sm space-y-6">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <span className="text-xs font-bold px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
+      <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-7 md:p-9 shadow-sm space-y-5 sm:space-y-6">
+        <div className="flex flex-wrap items-center justify-between gap-2.5 sm:gap-3">
+          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
+            <span className="text-xs font-bold px-3 py-1 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
               Cấp độ {exam.level}
             </span>
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-slate-100 text-slate-700">
               {exam.questions.length} câu hỏi
             </span>
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-slate-100 text-slate-700 flex items-center gap-1">
-              <Clock className="w-3.5 h-3.5" />
+              <Clock className="w-3.5 h-3.5 text-slate-400" />
               {exam.settings.timeLimitMinutes} phút
             </span>
           </div>
@@ -112,58 +112,58 @@ export default function ExamDetailPage() {
           )}
         </div>
 
-        <div className="space-y-3">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
+        <div className="space-y-2 sm:space-y-3">
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-[#1B5E20] tracking-tight leading-snug">
             {exam.title}
           </h1>
-          <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+          <p className="text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed">
             {exam.description}
           </p>
         </div>
 
         {/* Provenance info */}
         {exam.source && (
-          <div className="flex items-center gap-2 text-xs text-slate-500 bg-slate-50 p-3.5 rounded-xl border border-slate-100">
+          <div className="flex items-center gap-2 text-xs text-slate-500 bg-slate-50 p-3 sm:p-3.5 rounded-xl border border-slate-100">
             <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
-            <span>
-              Nguồn: <strong className="text-slate-700">{exam.source.fileName}</strong> • Đã được kiểm duyệt xác minh 100% đáp án
+            <span className="truncate">
+              Nguồn: <strong className="text-slate-700">{exam.source.fileName}</strong> • Đã xác minh đáp án chuẩn
             </span>
           </div>
         )}
       </div>
 
       {/* Mode Selection */}
-      <div className="bg-white rounded-3xl border border-slate-200 p-7 sm:p-9 shadow-sm space-y-6">
+      <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-7 md:p-9 shadow-sm space-y-5 sm:space-y-6">
         <div>
-          <h2 className="text-lg font-bold text-slate-900">Chọn chế độ làm bài</h2>
+          <h2 className="text-base sm:text-lg font-bold text-slate-900">Chọn chế độ làm bài</h2>
           <p className="text-xs text-slate-500 mt-0.5">
             Tùy theo mục tiêu ôn tập, bạn có thể chọn làm tự do hoặc thi thử chuẩn thời gian
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
           {/* Option Practice */}
           <div
             onClick={() => setSelectedMode("practice")}
-            className={`p-5 rounded-2xl border-2 cursor-pointer transition-all ${
+            className={`p-4 sm:p-5 rounded-2xl border-2 cursor-pointer transition-all ${
               selectedMode === "practice"
-                ? "border-indigo-600 bg-indigo-50/40 shadow-sm"
+                ? "border-[#1B5E20] bg-[#E8F5E9]/50 shadow-sm"
                 : "border-slate-200 hover:border-slate-300 bg-white"
             }`}
           >
-            <div className="flex items-center justify-between mb-3">
-              <div className="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center">
-                <BookOpen className="w-5 h-5" />
+            <div className="flex items-center justify-between mb-2.5 sm:mb-3">
+              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#E8F5E9] text-[#1B5E20] flex items-center justify-center font-bold">
+                <BookOpen className="w-5 h-5 text-[#2E7D32]" />
               </div>
               <input
                 type="radio"
                 name="exam-mode"
                 checked={selectedMode === "practice"}
                 onChange={() => setSelectedMode("practice")}
-                className="w-4 h-4 text-indigo-600"
+                className="w-4 h-4 text-[#1B5E20] accent-[#1B5E20]"
               />
             </div>
-            <h3 className="font-bold text-slate-900 text-base">Chế độ Luyện tập</h3>
+            <h3 className="font-bold text-slate-900 text-sm sm:text-base">Chế độ Luyện tập</h3>
             <p className="text-xs text-slate-600 mt-1 leading-relaxed">
               Kiểm tra ngay sau mỗi câu, xem đầy đủ lời giải, dịch nghĩa và từ vựng. Không tính giờ áp lực.
             </p>
@@ -172,14 +172,14 @@ export default function ExamDetailPage() {
           {/* Option Exam */}
           <div
             onClick={() => setSelectedMode("exam")}
-            className={`p-5 rounded-2xl border-2 cursor-pointer transition-all ${
+            className={`p-4 sm:p-5 rounded-2xl border-2 cursor-pointer transition-all ${
               selectedMode === "exam"
-                ? "border-indigo-600 bg-indigo-50/40 shadow-sm"
+                ? "border-[#1B5E20] bg-[#E8F5E9]/50 shadow-sm"
                 : "border-slate-200 hover:border-slate-300 bg-white"
             }`}
           >
-            <div className="flex items-center justify-between mb-3">
-              <div className="w-10 h-10 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center">
+            <div className="flex items-center justify-between mb-2.5 sm:mb-3">
+              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center font-bold">
                 <Clock className="w-5 h-5" />
               </div>
               <input
@@ -187,10 +187,10 @@ export default function ExamDetailPage() {
                 name="exam-mode"
                 checked={selectedMode === "exam"}
                 onChange={() => setSelectedMode("exam")}
-                className="w-4 h-4 text-indigo-600"
+                className="w-4 h-4 text-[#1B5E20] accent-[#1B5E20]"
               />
             </div>
-            <h3 className="font-bold text-slate-900 text-base">Chế độ Thi thử</h3>
+            <h3 className="font-bold text-slate-900 text-sm sm:text-base">Chế độ Thi thử</h3>
             <p className="text-xs text-slate-600 mt-1 leading-relaxed">
               Có đồng hồ đếm ngược {exam.settings.timeLimitMinutes} phút. Không hiện đáp án trong lúc làm. Nộp bài để xem điểm và lời giải chi tiết.
             </p>
@@ -198,21 +198,21 @@ export default function ExamDetailPage() {
         </div>
 
         {/* Start Button */}
-        <div className="pt-4 flex flex-col sm:flex-row items-center gap-3">
+        <div className="pt-2 sm:pt-4 flex flex-col sm:flex-row items-center gap-3">
           <button
             onClick={() => {
               router.push(`/practice/${exam.id}?mode=${selectedMode}`);
             }}
-            className="w-full sm:w-auto flex-1 inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl bg-indigo-600 text-white text-base font-bold shadow-md shadow-indigo-100 hover:bg-indigo-700 active:scale-95 transition-all"
+            className="w-full sm:w-auto flex-1 inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 rounded-2xl bg-[#1B5E20] text-white text-sm sm:text-base font-bold shadow-md hover:bg-[#2E7D32] border border-[#66BB6A]/40 active:scale-95 transition-all cursor-pointer"
           >
-            <Play className="w-5 h-5 fill-white" />
+            <Play className="w-4 h-4 sm:w-5 sm:h-5 fill-white" />
             <span>Bắt đầu làm bài ({selectedMode === "practice" ? "Luyện tập" : "Thi thử"})</span>
           </button>
 
           {activeAttempt && (
             <Link
               href={`/practice/${exam.id}?mode=${activeAttempt.mode}`}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-2xl bg-slate-100 text-slate-700 text-sm font-semibold hover:bg-slate-200 transition-colors"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 sm:px-6 py-3.5 sm:py-4 rounded-2xl bg-slate-100 text-slate-700 text-xs sm:text-sm font-semibold hover:bg-slate-200 transition-colors"
             >
               <RotateCcw className="w-4 h-4" />
               <span>Tiếp tục bài đang dở</span>
