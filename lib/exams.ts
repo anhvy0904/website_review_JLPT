@@ -51,3 +51,4 @@ export async function getExamById(examId: string): Promise<ExamDetail | null> {
     return null;
   }
 }
+

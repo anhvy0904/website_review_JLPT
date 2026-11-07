@@ -57,3 +57,4 @@ npm run dev
 - **Icon**: Lucide React
 - **Hiệu ứng**: Canvas Confetti
 - **Phông chữ**: Inter & Noto Sans JP
+

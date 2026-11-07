@@ -20,3 +20,4 @@ export function FuriganaRuby({ word, hiragana, className = "" }: FuriganaRubyPro
     </ruby>
   );
 }
+

@@ -173,3 +173,4 @@ if (hasError) {
 // Lưu index.json
 fs.writeFileSync(INDEX_FILE, JSON.stringify(indexList, null, 2), "utf8");
 console.log(`\n🎉 [sync-exams] Thành công! Đã tạo index.json với ${indexList.length} bộ đề.`);
+

@@ -90,3 +90,4 @@ export function scoreAttempt(exam: ExamDetail, attempt: ExamAttempt): AttemptSco
     questionResults,
   };
 }
+

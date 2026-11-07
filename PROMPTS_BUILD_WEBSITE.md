@@ -78,3 +78,4 @@ npm run start
    - Chạy `npm run exams:sync`.
    - Script sẽ tự động kiểm tra cú pháp, xác minh xem mọi options đã có lời giải hay chưa, kiểm tra `passageId`, và cập nhật file `public/data/exams/index.json`.
 5. **Triển khai**: Đề thi mới sẽ tự động xuất hiện trên giao diện website mà không cần chỉnh sửa bất kỳ dòng mã nào.
+

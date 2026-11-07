@@ -48,3 +48,4 @@ export function PassageViewer({ passage, className = "" }: PassageViewerProps) {
     </div>
   );
 }
+

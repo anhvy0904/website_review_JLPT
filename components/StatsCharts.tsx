@@ -119,3 +119,4 @@ export function StatsCharts({ historyData, sectionData }: StatsChartsProps) {
     </div>
   );
 }
+
