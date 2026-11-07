@@ -133,3 +133,50 @@ export function toggleBookmarkQuestion(questionId: string): boolean {
   }
 }
 
+// BACKUP & RESTORE
+export interface BackupData {
+  version: "1.0.0";
+  exportedAt: string;
+  attempts: ExamAttempt[];
+  surveys: ExamSurvey[];
+  bookmarks: string[];
+}
+
+export function exportUserData(): string {
+  const backup: BackupData = {
+    version: "1.0.0",
+    exportedAt: new Date().toISOString(),
+    attempts: getAllAttempts(),
+    surveys: getAllSurveys(),
+    bookmarks: getBookmarkedQuestions(),
+  };
+  return JSON.stringify(backup, null, 2);
+}
+
+export function importUserData(jsonString: string): { success: boolean; message: string; count?: number } {
+  if (!isLocalStorageAvailable()) {
+    return { success: false, message: "Trình duyệt không hỗ trợ localStorage" };
+  }
+  try {
+    const parsed: BackupData = JSON.parse(jsonString);
+    if (!parsed || !Array.isArray(parsed.attempts)) {
+      return { success: false, message: "Định dạng file sao lưu không hợp lệ" };
+    }
+
+    window.localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(parsed.attempts));
+    if (Array.isArray(parsed.surveys)) {
+      window.localStorage.setItem(SURVEYS_KEY, JSON.stringify(parsed.surveys));
+    }
+    if (Array.isArray(parsed.bookmarks)) {
+      window.localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(parsed.bookmarks));
+    }
+
+    return {
+      success: true,
+      message: `Đã khôi phục thành công ${parsed.attempts.length} lượt làm bài, ${parsed.surveys?.length || 0} khảo sát và ${parsed.bookmarks?.length || 0} câu đã ghim!`,
+      count: parsed.attempts.length,
+    };
+  } catch (err: any) {
+    return { success: false, message: `Lỗi đọc dữ liệu: ${err.message}` };
+  }
+}

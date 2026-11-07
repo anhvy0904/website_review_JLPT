@@ -47,6 +47,11 @@ export function Footer() {
                   Ôn tập câu sai
                 </Link>
               </li>
+              <li>
+                <Link href="/admin" className="hover:text-indigo-600 transition-colors text-slate-400">
+                  Quản trị & Nhập đề (Admin)
+                </Link>
+              </li>
             </ul>
           </div>
 
