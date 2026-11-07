@@ -4,9 +4,9 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Học tiếng Nhật cùng VuyAnh 🌸 — Luyện Đề JLPT N3 Thân Thương",
+  title: "Luyện đề tiếng Nhật cùng VuyAnh 🌸 — Luyện Đề JLPT N3 Thân Thương",
   description:
-    "Chào ngừi iu! Góc nhỏ VuyAnh tự tay chuẩn bị để cùng ngừi iu chinh phục kỳ thi JLPT N3 (tập trung trọn vẹn vào Từ vựng, Chữ Hán, Ngữ pháp và Đọc hiểu) với lời giải chi tiết 100% tiếng Việt.",
+    "Chào các ghệ! Góc nhỏ VuyAnh tự tay chuẩn bị để cùng ngừi iu chinh phục kỳ thi JLPT N3 (tập trung trọn vẹn vào Từ vựng, Chữ Hán, Ngữ pháp và Đọc hiểu) với lời giải chi tiết 100% tiếng Việt.",
   icons: {
     icon: "/images/mascot-frog.jpg",
     apple: "/images/mascot-frog.jpg",

@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Học Chuyên Đề N3 — Học tiếng Nhật cùng VuyAnh 🌸",
+  title: "Học Chuyên Đề N3 — Luyện đề tiếng Nhật cùng VuyAnh 🌸",
   description: "Hai chuyên đề ngữ pháp then chốt JLPT N3: 12 Thể động từ và Kính ngữ / Khiêm nhường ngữ công sở cùng VuyAnh.",
 };
 

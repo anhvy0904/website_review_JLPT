@@ -40,7 +40,7 @@ export function Navbar() {
           <div>
             <div className="flex items-center gap-1.5">
               <span className="font-extrabold text-base sm:text-lg text-[#1B5E20] tracking-tight flex items-center gap-1">
-                Học tiếng Nhật cùng VuyAnh <span className="text-sm">🌸</span>
+                Luyện đề tiếng Nhật cùng VuyAnh <span className="text-sm">🌸</span>
               </span>
               <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
                 N3

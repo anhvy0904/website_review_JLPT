@@ -17,7 +17,7 @@ export function Footer() {
                 />
               </div>
               <span className="font-extrabold text-[#1B5E20] text-base">
-                Học tiếng Nhật cùng VuyAnh 🌸
+                Luyện đề tiếng Nhật cùng VuyAnh 🌸
               </span>
             </div>
             <p className="text-sm text-slate-600 max-w-md leading-relaxed">
@@ -95,7 +95,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-[#A5D6A7]/40 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
-          <p>© {new Date().getFullYear()} Học tiếng Nhật cùng VuyAnh 🌸 • Đồng hành cùng ngừi iu chinh phục JLPT N3</p>
+          <p>© {new Date().getFullYear()} Luyện đề tiếng Nhật cùng VuyAnh 🌸 • Đồng hành cùng ngừi iu chinh phục JLPT N3</p>
           <p className="flex items-center gap-1.5 text-emerald-800 font-medium">
             <span>Thiết kế riêng cho ngừi iu với tất cả yêu thương</span>
             <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />

@@ -73,7 +73,7 @@ export default function HomePage() {
 
               <div className="space-y-3">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1B5E20] tracking-tight leading-[1.2]">
-                  Học tiếng Nhật cùng VuyAnh <span className="text-3xl sm:text-4xl lg:text-5xl">🌸</span>
+                  Luyện đề tiếng Nhật cùng VuyAnh <span className="text-3xl sm:text-4xl lg:text-5xl">🌸</span>
                 </h1>
                 <p className="text-lg sm:text-xl font-bold text-[#2E7D32]">
                   Ôn tập thông minh, hiểu sâu từng câu
@@ -82,7 +82,7 @@ export default function HomePage() {
 
               <div className="p-5 rounded-2xl bg-white/95 border-2 border-[#A5D6A7] shadow-sm text-slate-700 text-sm sm:text-base leading-relaxed relative">
                 <p>
-                  Chào ngừi iu! Đây là góc nhỏ VuyAnh tự tay chuẩn bị để cùng ngừi iu chinh phục kỳ thi JLPT N3 (tập trung trọn vẹn vào Từ vựng, Chữ Hán, Ngữ pháp và Đọc hiểu). Không còn cảnh làm đề xong chỉ biết đúng - sai rồi thôi, ở đây mỗi câu hỏi đều được tợ &ldquo;mổ xẻ&rdquo; giải thích chi tiết 100% bằng tiếng Việt, phân tích cặn kẽ từng đáp án để đôi mình cùng coi.
+                  Chào các ghệ! Đây là góc nhỏ VuyAnh tự tay chuẩn bị để cùng ngừi iu chinh phục kỳ thi JLPT N3 (tập trung trọn vẹn vào Từ vựng, Chữ Hán, Ngữ pháp và Đọc hiểu). Không còn cảnh làm đề xong chỉ biết đúng - sai rồi thôi, ở đây mỗi câu hỏi đều được &ldquo;mổ xẻ&rdquo; giải thích chi tiết 100% bằng tiếng Việt, phân tích cặn kẽ từng đáp án để đôi mình cùng coi.
                 </p>
               </div>
 

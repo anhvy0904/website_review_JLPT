@@ -27,7 +27,7 @@ export default function GuidePage() {
           Hướng Dẫn Ôn Thi & Sử Dụng Nền Tảng
         </h1>
         <p className="text-sm sm:text-base text-slate-600 max-w-2xl leading-relaxed">
-          Tìm hiểu cấu trúc đề thi JLPT N3, cách phân bổ thời gian hợp lý và tận dụng tối đa các công cụ phân tích của Học tiếng Nhật cùng VuyAnh 🌸.
+          Tìm hiểu cấu trúc đề thi JLPT N3, cách phân bổ thời gian hợp lý và tận dụng tối đa các công cụ phân tích của Luyện đề tiếng Nhật cùng VuyAnh 🌸.
         </p>
       </div>
 
@@ -78,7 +78,7 @@ export default function GuidePage() {
         <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-xs flex items-start gap-3">
           <AlertCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
           <div className="leading-relaxed">
-            <strong>Lưu ý về phạm vi của website:</strong> Học tiếng Nhật cùng VuyAnh 🌸 tập trung chuyên sâu vào các kỹ năng trắc nghiệm Từ vựng, Ngữ pháp và Đọc hiểu. Hệ thống <strong>không tích hợp phần thi Nghe hiểu</strong>. Điểm số bài làm được tính là <strong>Tỷ lệ % câu đúng thô (raw percent)</strong>, không quy đổi thành điểm scaled score 0–180 của kỳ thi chính thức.
+            <strong>Lưu ý về phạm vi của website:</strong> Luyện đề tiếng Nhật cùng VuyAnh 🌸 tập trung chuyên sâu vào các kỹ năng trắc nghiệm Từ vựng, Ngữ pháp và Đọc hiểu. Hệ thống <strong>không tích hợp phần thi Nghe hiểu</strong>. Điểm số bài làm được tính là <strong>Tỷ lệ % câu đúng thô (raw percent)</strong>, không quy đổi thành điểm scaled score 0–180 của kỳ thi chính thức.
           </div>
         </div>
       </section>
