@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "n3-exam-sample-id",
+  "title": "Tiêu đề đề thi mẫu JLPT N3",
+  "description": "Mô tả chi tiết về bộ đề, các phần kiến thức trọng tâm",
+  "level": "N3",
+  "status": "published",
+  "source": {
+    "fileName": "nguon-de-thi.pdf",
+    "type": "official_mock",
+    "notes": "Ghi chú kiểm duyệt nguồn đề",
+    "reviewedByHuman": true
+  },
+  "settings": {
+    "timeLimitMinutes": 30,
+    "allowedModes": ["practice", "exam"]
+  },
+  "passages": [
+    {
+      "id": "p001",
+      "title": "読解 - Tiêu đề bài đọc (tùy chọn)",
+      "text": "Nội dung bài đọc hiểu tiếng Nhật...",
+      "imagePath": ""
+    }
+  ],
+  "questions": [
+    {
+      "id": "n3-sample-q001",
+      "number": 1,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "questionText": "この書類を__提出__してください。",
+      "options": [
+        { "id": "1", "text": "ていしゅつ" },
+        { "id": "2", "text": "たいしゅつ" },
+        { "id": "3", "text": "ていしゅっ" },
+        { "id": "4", "text": "だいしゅつ" }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": ["Từ vựng N3", "Chữ Hán"],
+      "explanation": {
+        "summaryVi": "Tóm tắt ngắn gọn đáp án đúng bằng tiếng Việt",
+        "correctReasonVi": "Lý do chi tiết vì sao đáp án này là đúng",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Giải thích vì sao lựa chọn 1 đúng",
+          "2": "SAI: Phân tích bẫy / nghĩa sai của lựa chọn 2",
+          "3": "SAI: Phân tích lỗi chính tả / âm sai của lựa chọn 3",
+          "4": "SAI: Phân tích vì sao lựa chọn 4 không phù hợp"
+        },
+        "translationVi": "Bản dịch nghĩa trọn vẹn câu hỏi sang tiếng Việt",
+        "vocabulary": [
+          { "word": "提出", "hiragana": "ていしゅつ", "meaningVi": "nộp, xuất trình" }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "V-てください",
+            "meaningVi": "Xin vui lòng làm gì đó...",
+            "exampleJa": "ここに名前を書いてください。",
+            "exampleVi": "Xin vui lòng viết tên vào đây."
+          }
+        ],
+        "readingEvidenceJa": "Trích dẫn câu văn trong bài đọc làm căn cứ (đối với câu hỏi đọc hiểu)",
+        "studyTipVi": "Mẹo làm bài, mẹo nhớ âm Hán Việt hoặc bẫy cần tránh"
+      },
+      "review": {
+        "status": "verified",
+        "notes": "Đã duyệt và xác nhận đáp án"
+      }
+    }
+  ],
+  "questionCount": 1
+}

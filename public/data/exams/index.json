@@ -1,0 +1,73 @@
+[
+  {
+    "id": "n3-2026-set-001",
+    "title": "Đề Luyện Thi JLPT N3 - Bộ Đề Thực Chiến Số 02",
+    "description": "Luyện tập chuyên sâu các bẫy thường gặp trong ngữ pháp N3 (〜わけではない, 〜に違いない) và kỹ năng lọc thông tin đọc hiểu ngắn.",
+    "level": "N3",
+    "status": "published",
+    "questionCount": 4,
+    "timeLimitMinutes": 25,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ],
+    "sectionCounts": {
+      "vocabulary": 2,
+      "grammar": 1,
+      "reading": 1
+    },
+    "subtypes": [
+      "kanji_reading",
+      "paraphrase",
+      "sentence_grammar",
+      "reading_short"
+    ],
+    "tags": [
+      "Từ vựng N3",
+      "Cách đọc Kanji",
+      "Từ đồng nghĩa",
+      "Ngữ pháp N3",
+      "Mẫu câu わけではない",
+      "Đọc hiểu N3",
+      "Tìm kiếm thông tin"
+    ],
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "n3-demo-001",
+    "title": "Đề Luyện Thi Chuẩn JLPT N3 - Đề Số 01 (Tổng Hợp)",
+    "description": "Bộ đề chuẩn hóa cấu trúc JLPT N3 gồm Từ vựng - Chữ Hán, Ngữ pháp và Bài đọc hiểu có giải thích tiếng Việt chi tiết.",
+    "level": "N3",
+    "status": "published",
+    "questionCount": 5,
+    "timeLimitMinutes": 30,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ],
+    "sectionCounts": {
+      "vocabulary": 2,
+      "grammar": 2,
+      "reading": 1
+    },
+    "subtypes": [
+      "kanji_reading",
+      "contextual_use",
+      "sentence_grammar",
+      "sentence_composition",
+      "reading_medium"
+    ],
+    "tags": [
+      "Từ vựng N3",
+      "Chữ Hán",
+      "Cách đọc",
+      "Ngữ cảnh",
+      "Ngữ pháp N3",
+      "Mẫu câu Vないうちに",
+      "Ghép câu sao",
+      "Đọc hiểu N3",
+      "Ý chính tác giả"
+    ],
+    "lastUpdated": "2026-11-07"
+  }
+]

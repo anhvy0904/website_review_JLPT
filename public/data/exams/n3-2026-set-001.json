@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "n3-2026-set-001",
+  "title": "Đề Luyện Thi JLPT N3 - Bộ Đề Thực Chiến Số 02",
+  "description": "Luyện tập chuyên sâu các bẫy thường gặp trong ngữ pháp N3 (〜わけではない, 〜に違いない) và kỹ năng lọc thông tin đọc hiểu ngắn.",
+  "level": "N3",
+  "status": "published",
+  "source": {
+    "fileName": "jlpt-n3-mock-drill-2026.pdf",
+    "type": "practice_set",
+    "notes": "Bộ đề thực chiến biên soạn theo định dạng kỳ thi tháng 7 & tháng 12",
+    "reviewedByHuman": true
+  },
+  "settings": {
+    "timeLimitMinutes": 25,
+    "allowedModes": ["practice", "exam"]
+  },
+  "passages": [
+    {
+      "id": "p002",
+      "title": "読解（短文）- 図書館の利用案内 (Thông báo sử dụng thư viện)",
+      "text": "【市民中央図書館からのお知らせ】\n館内設備の点検作業に伴い、来週月曜日（11月10日）は終日休館とさせていただきます。なお、本の返却につきましては、正面玄関横の「返却ポスト」をご利用いただけますが、CD・DVDなどの視聴覚資料は破損の恐れがあるため、ポストには入れず、火曜日以降に直接カウンターまでお持ちください。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "n3-2026-q001",
+      "number": 1,
+      "section": "vocabulary",
+      "subtype": "kanji_reading",
+      "questionText": "最近は世界中で環境の__変化__が問題になっている。",
+      "options": [
+        { "id": "1", "text": "へんか" },
+        { "id": "2", "text": "へんけい" },
+        { "id": "3", "text": "へんこう" },
+        { "id": "4", "text": "へんかん" }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": ["Từ vựng N3", "Cách đọc Kanji"],
+      "explanation": {
+        "summaryVi": "Chữ Hán 変化 có cách đọc chuẩn là へんか (biến hóa, sự thay đổi).",
+        "correctReasonVi": "Chữ 変 (BIẾN) đọc là へん, chữ 化 (HÓA) đọc là か (âm ngắn). Ghép lại là へんか.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: 変化 đọc là へんか (sự biến đổi, thay đổi).",
+          "2": "SAI: へんけい là chữ 変形 (biến hình).",
+          "3": "SAI: へんこう là chữ 変更 (biến canh - đổi kế hoạch, điều chỉnh).",
+          "4": "SAI: へんかん là chữ 変換 (biến hoán - chuyển đổi định dạng/chữ)."
+        },
+        "translationVi": "Gần đây, sự biến đổi môi trường trên toàn thế giới đang trở thành một vấn đề đáng lo ngại.",
+        "vocabulary": [
+          { "word": "変化", "hiragana": "へんか", "meaningVi": "sự thay đổi, biến hóa" },
+          { "word": "環境", "hiragana": "かんきょう", "meaningVi": "môi trường" }
+        ],
+        "studyTipVi": "Phân biệt 変化 (tự biến đổi tự nhiên như thời tiết, hoàn cảnh) với 変更 (con người chủ động thay đổi kế hoạch, lịch trình)."
+      },
+      "review": {
+        "status": "verified",
+        "notes": "Đã duyệt"
+      }
+    },
+    {
+      "id": "n3-2026-q002",
+      "number": 2,
+      "section": "vocabulary",
+      "subtype": "paraphrase",
+      "questionText": "山田さんは__そっくり__な帽子をかぶっていた。",
+      "options": [
+        { "id": "1", "text": "とても高価な" },
+        { "id": "2", "text": "とてもよく似ている" },
+        { "id": "3", "text": "とても派手な" },
+        { "id": "4", "text": "とても珍しい" }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": ["Từ vựng N3", "Từ đồng nghĩa"],
+      "explanation": {
+        "summaryVi": "Phó từ そっくり mang nghĩa 'giống hệt, giống như đúc', đồng nghĩa với とてもよく似ている.",
+        "correctReasonVi": "そっくり diễn tả hai sự vật, hiện tượng hoặc con người giống hệt nhau về hình thức bên ngoài.",
+        "optionReasonsVi": {
+          "1": "SAI: とても高価な nghĩa là 'rất đắt tiền'.",
+          "2": "ĐÚNG: とてもよく似ている nghĩa là 'rất giống', tương đương そっくり.",
+          "3": "SAI: とても派手な nghĩa là 'rất lòe loẹt, sặc sỡ'.",
+          "4": "SAI: とても珍しい nghĩa là 'rất hiếm có'."
+        },
+        "translationVi": "Anh Yamada đã đội một chiếc mũ giống hệt (chiếc của tôi/ai đó).",
+        "vocabulary": [
+          { "word": "そっくり", "hiragana": "そっくり", "meaningVi": "giống như đúc, y hệt" },
+          { "word": "帽子", "hiragana": "ぼうし", "meaningVi": "nón, mũ" },
+          { "word": "似る", "hiragana": "にる", "meaningVi": "giống" }
+        ],
+        "studyTipVi": "Các cụm hay gặp: 父親にそっくり (giống cha như đúc), そっくりそのまま (y nguyên không thay đổi gì)."
+      },
+      "review": {
+        "status": "verified",
+        "notes": "Đã duyệt"
+      }
+    },
+    {
+      "id": "n3-2026-q003",
+      "number": 3,
+      "section": "grammar",
+      "subtype": "sentence_grammar",
+      "questionText": "日本料理が嫌いな__わけではない__が、納豆だけはどうしても食べられない。",
+      "options": [
+        { "id": "1", "text": "わけではない" },
+        { "id": "2", "text": "はずがない" },
+        { "id": "3", "text": "わけがない" },
+        { "id": "4", "text": "にちがいない" }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 3,
+      "tags": ["Ngữ pháp N3", "Mẫu câu わけではない"],
+      "explanation": {
+        "summaryVi": "Mẫu câu 〜わけではない dùng để phủ định một phần: 'Không hẳn là / Không phải là...'.",
+        "correctReasonVi": "Vế sau có 'nhưng riêng natto thì tuyệt đối không ăn được', chứng tỏ người nói không ghét toàn bộ món Nhật, mà chỉ muốn nói 'Không hẳn là ghét món Nhật'. Cấu trúc phù hợp duy nhất là わけではない.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: 〜わけではない (không hẳn là ghét, chỉ là có ngoại lệ natto).",
+          "2": "SAI: 〜はずがない nghĩa là 'chắc chắn không thể nào...', không kết hợp phủ định một phần như ngữ cảnh này.",
+          "3": "SAI: 〜わけがない nghĩa là 'lẽ nào lại, tuyệt đối không có lý do nào...', quá mang tính khẳng định tuyệt đối.",
+          "4": "SAI: 〜にちがいない nghĩa là 'chắc chắn là...', mang nghĩa khẳng định, mâu thuẫn với liên từ が."
+        },
+        "translationVi": "Không hẳn là tôi ghét món ăn Nhật Bản, nhưng riêng món natto thì dù thế nào tôi cũng không thể ăn nổi.",
+        "grammarPoints": [
+          {
+            "pattern": "Thể thông thường (Na な / N な) + わけではない",
+            "meaningVi": "Không hẳn là, không có nghĩa là...",
+            "usageVi": "Phủ định một phần hoặc làm nhẹ bớt tính khẳng định của câu nói.",
+            "exampleJa": "お金があれば幸せになれるというわけではない。",
+            "exampleVi": "Không hẳn là cứ có tiền thì sẽ trở nên hạnh phúc."
+          }
+        ],
+        "vocabulary": [
+          { "word": "納豆", "hiragana": "なっとう", "meaningVi": "đậu tương lên men Natto" },
+          { "word": "どうしても", "hiragana": "どうしても", "meaningVi": "dù thế nào đi nữa" }
+        ],
+        "studyTipVi": "Phân biệt わけではない (phủ định một phần) vs わけがない (phủ định tuyệt đối: chắc chắn không)."
+      },
+      "review": {
+        "status": "verified",
+        "notes": "Đã duyệt"
+      }
+    },
+    {
+      "id": "n3-2026-q004",
+      "number": 4,
+      "section": "reading",
+      "subtype": "reading_short",
+      "passageId": "p002",
+      "questionText": "休館日（11月10日）に本やDVDを返却したい場合、利用者はどうすればよいか。",
+      "options": [
+        { "id": "1", "text": "本もDVDもすべて正面玄関横の返却ポストに入れる。" },
+        { "id": "2", "text": "本は返却ポストに入れ、DVDは火曜日以降にカウンターへ持参する。" },
+        { "id": "3", "text": "本もDVDも休館日は返却できないので、すべて火曜日以降に持参する。" },
+        { "id": "4", "text": "DVDだけを返却ポストに入れ、本はカウンターに返す。" }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": ["Đọc hiểu N3", "Tìm kiếm thông tin"],
+      "explanation": {
+        "summaryVi": "Sách có thể bỏ vào thùng trả sách (返却ポスト), nhưng CD/DVD dễ vỡ nên cấm bỏ vào thùng, phải đem trực tiếp đến quầy từ thứ Ba.",
+        "correctReasonVi": "Bài đọc ghi rõ: '本の返却につきましては、正面玄関横の「返却ポスト」をご利用いただけますが、CD・DVDなどの視聴覚資料は破損の恐れがあるため、ポストには入れず、火曜日以降に直接カウンターまでお持ちください'.",
+        "optionReasonsVi": {
+          "1": "SAI: DVD bị cấm bỏ vào thùng sách vì sợ vỡ (破損の恐れ).",
+          "2": "ĐÚNG: Khớp hoàn toàn cả hai điều kiện đối với sách và đĩa DVD.",
+          "3": "SAI: Sách vẫn được phép trả qua thùng trả sách vào ngày nghỉ.",
+          "4": "SAI: Đảo ngược hoàn toàn điều kiện thực tế."
+        },
+        "translationVi": "Trong ngày thư viện đóng cửa (10/11), nếu muốn trả sách hoặc đĩa DVD, người sử dụng phải làm như thế nào?",
+        "readingEvidenceJa": "本の返却につきましては...「返却ポスト」をご利用いただけますが、CD・DVDなどの視聴覚資料は...ポストには入れず、火曜日以降に直接カウンターまでお持ちください。",
+        "studyTipVi": "Dạng bài thông báo: Hãy chú ý kỹ các liên từ đối lập như「なお」「ただし」「〜が」để bắt các trường hợp ngoại lệ!"
+      },
+      "review": {
+        "status": "verified",
+        "notes": "Đã duyệt"
+      }
+    }
+  ],
+  "questionCount": 4
+}
