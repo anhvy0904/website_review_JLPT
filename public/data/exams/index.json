@@ -71,6 +71,108 @@
     "lastUpdated": "2026-11-07"
   },
   {
+    "id": "n3-best-moshi-02",
+    "title": "JLPT N3 ベスト模試 — Đề 2 (Từ vựng • Ngữ pháp • Đọc hiểu)",
+    "description": "Bộ đề ベスト模試 N3 Đề 2, không bao gồm nghe. 35 từ vựng, 23 ngữ pháp, 16 đọc hiểu. Bản số hóa chờ kiểm duyệt nội dung và đối chiếu hình ảnh nguồn.",
+    "level": "N3",
+    "status": "draft",
+    "questionCount": 74,
+    "timeLimitMinutes": 100,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ],
+    "sectionCounts": {
+      "vocabulary": 35,
+      "grammar": 23,
+      "reading": 16
+    },
+    "subtypes": [
+      "kanji_reading",
+      "kanji_writing",
+      "context_fill",
+      "synonym",
+      "usage",
+      "grammar_fill",
+      "sentence_order",
+      "passage_cloze",
+      "short_reading",
+      "medium_reading",
+      "long_reading",
+      "information_lookup"
+    ],
+    "tags": [
+      "JLPT N3",
+      "Từ vựng",
+      "kanji_reading",
+      "kanji_writing",
+      "context_fill",
+      "synonym",
+      "usage",
+      "Ngữ pháp",
+      "grammar_fill",
+      "sentence_order",
+      "passage_cloze",
+      "Đọc hiểu",
+      "short_reading",
+      "medium_reading",
+      "long_reading",
+      "information_lookup"
+    ],
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "n3-best-moshi-03",
+    "title": "JLPT N3 ベスト模試 — Đề 3 (Từ vựng • Ngữ pháp • Đọc hiểu)",
+    "description": "Bộ đề ベスト模試 N3 Đề 3, không bao gồm nghe. 35 từ vựng, 23 ngữ pháp, 16 đọc hiểu. Bản số hóa chờ kiểm duyệt nội dung và đối chiếu hình ảnh nguồn.",
+    "level": "N3",
+    "status": "draft",
+    "questionCount": 74,
+    "timeLimitMinutes": 100,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ],
+    "sectionCounts": {
+      "vocabulary": 35,
+      "grammar": 23,
+      "reading": 16
+    },
+    "subtypes": [
+      "kanji_reading",
+      "kanji_writing",
+      "context_fill",
+      "synonym",
+      "usage",
+      "grammar_fill",
+      "sentence_order",
+      "passage_cloze",
+      "short_reading",
+      "medium_reading",
+      "long_reading",
+      "information_lookup"
+    ],
+    "tags": [
+      "JLPT N3",
+      "Từ vựng",
+      "kanji_reading",
+      "kanji_writing",
+      "context_fill",
+      "synonym",
+      "usage",
+      "Ngữ pháp",
+      "grammar_fill",
+      "sentence_order",
+      "passage_cloze",
+      "Đọc hiểu",
+      "short_reading",
+      "medium_reading",
+      "long_reading",
+      "information_lookup"
+    ],
+    "lastUpdated": "2026-11-07"
+  },
+  {
     "id": "n3-kanji-reading-50",
     "title": "Đề Thi Thực Chiến Chữ Hán N3 - Phần 1: Cách Đọc Kanji (50 Câu)",
     "description": "Bộ đề trắc nghiệm chuẩn hoá 50 câu hỏi Mondai 1 (Chọn cách đọc của chữ Hán) trích xuất trực tiếp từ giáo trình thực chiến JLPT N3 Kosei Nihongo. Phân tích cặn kẽ 100% tiếng Việt cho từng lựa chọn.",
