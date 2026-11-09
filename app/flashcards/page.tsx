@@ -747,15 +747,15 @@ export default function FlashcardsPage() {
                   {/* Card Frame with Flip Perspective */}
                   <div
                     onClick={handleFlip}
-                    className="group relative w-full min-h-[350px] sm:min-h-[390px] md:min-h-[420px] cursor-pointer [perspective:1000px] select-none"
+                    className="group relative w-full h-[380px] sm:h-[420px] md:h-[460px] cursor-pointer [perspective:1000px] select-none"
                   >
                     <div
-                      className={`w-full h-full duration-500 [transform-style:preserve-3d] transition-transform rounded-3xl shadow-md border border-slate-200/90 bg-white ${
+                      className={`relative w-full h-full duration-500 [transform-style:preserve-3d] transition-transform rounded-3xl shadow-md border border-slate-200/90 bg-white ${
                         isFlipped ? "[transform:rotateY(180deg)]" : ""
                       }`}
                     >
                       {/* ================= FRONT SIDE ================= */}
-                      <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] p-5 sm:p-7 md:p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-white via-white to-[#E8F5E9]/30 rounded-3xl">
+                      <div className={`absolute inset-0 w-full h-full [backface-visibility:hidden] [-webkit-backface-visibility:hidden] p-5 sm:p-7 md:p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-white via-white to-[#E8F5E9]/30 rounded-3xl overflow-y-auto ${!isFlipped ? "z-10" : "z-0 pointer-events-none"}`}>
                         {/* Top bar on front */}
                         <div className="w-full flex items-center justify-between text-xs text-slate-400 gap-1.5">
                           <span className="font-mono font-semibold">
@@ -824,7 +824,7 @@ export default function FlashcardsPage() {
                       </div>
 
                       {/* ================= BACK SIDE ================= */}
-                      <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden] p-5 sm:p-7 md:p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-[#E8F5E9]/40 via-white to-emerald-50/30 rounded-3xl overflow-y-auto">
+                      <div className={`absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden] [-webkit-backface-visibility:hidden] p-5 sm:p-7 md:p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-[#E8F5E9]/40 via-white to-emerald-50/30 rounded-3xl overflow-y-auto ${isFlipped ? "z-10" : "z-0 pointer-events-none"}`}>
                         {/* Top bar on back */}
                         <div className="w-full flex items-center justify-between text-xs text-slate-400 gap-1.5">
                           <span className="font-mono font-semibold">
@@ -1046,7 +1046,7 @@ export default function FlashcardsPage() {
                         Đã hoàn thành mục tiêu ôn tập hôm nay!
                       </h3>
                       <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        Tuyệt vời ghê! Toàn bộ từ vựng đến hạn của ngày hôm nay đã được ôn luyện và lên lịch lặp lại ngắt quãng chuẩn thuật toán Anki.
+                        Tuyệt vời! Toàn bộ từ vựng đến hạn của ngày hôm nay đã được ôn luyện và lên lịch lặp lại ngắt quãng chuẩn thuật toán Anki.
                       </p>
                       <div className="pt-2 flex flex-wrap items-center justify-center gap-2">
                         <button

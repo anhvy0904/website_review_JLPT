@@ -6,6 +6,7 @@ import { ExamDetail, ExamQuestion } from "@/lib/types";
 import { getAllAttempts, getBookmarkedQuestions, toggleBookmarkQuestion } from "@/lib/storage";
 import { AnswerExplanation } from "@/components/AnswerExplanation";
 import { PassageViewer } from "@/components/PassageViewer";
+import { FormattedQuestionText } from "@/components/FormattedQuestionText";
 import {
   RotateCcw,
   BookOpen,
@@ -244,7 +245,7 @@ export default function ReviewPage() {
                 {/* Question Text */}
                 <div>
                   <p className="font-japanese text-slate-900 text-xl font-medium leading-[1.8]">
-                    {question.questionText}
+                    <FormattedQuestionText text={question.questionText} />
                   </p>
                 </div>
 

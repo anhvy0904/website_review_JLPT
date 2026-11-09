@@ -10,6 +10,7 @@ import { formatTime } from "@/lib/utils";
 import { AnswerExplanation } from "@/components/AnswerExplanation";
 import { PassageViewer } from "@/components/PassageViewer";
 import { SurveyModal } from "@/components/SurveyModal";
+import { FormattedQuestionText } from "@/components/FormattedQuestionText";
 import confetti from "canvas-confetti";
 import {
   Trophy,
@@ -687,7 +688,7 @@ export default function ResultsPage() {
                   {/* Question text */}
                   <div>
                     <p className="font-japanese text-slate-900 text-lg sm:text-xl font-medium leading-[1.8]">
-                      {q.questionText}
+                      <FormattedQuestionText text={q.questionText} />
                     </p>
                   </div>
 

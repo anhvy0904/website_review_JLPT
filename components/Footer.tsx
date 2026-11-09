@@ -21,7 +21,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm text-slate-600 max-w-md leading-relaxed">
-              Góc nhỏ luyện thi trắc nghiệm JLPT N3 do VuyAnh tự tay chuẩn bị riêng cho ngừi iu: giải thích cặn kẽ 100% tiếng Việt cho từng lựa chọn, phân tích ngữ pháp, từ vựng và bài đọc với giao diện trực quan, nhẹ nhàng và thanh bình.
+              Nền tảng luyện thi trắc nghiệm JLPT N3 trực tuyến: giải thích cặn kẽ 100% tiếng Việt cho từng lựa chọn, phân tích ngữ pháp, từ vựng và bài đọc với giao diện trực quan, nhẹ nhàng và khoa học.
             </p>
             <div className="flex items-center gap-2 text-xs text-emerald-800 pt-1 font-medium">
               <ShieldCheck className="w-4 h-4 text-[#2E7D32]" />
@@ -95,9 +95,9 @@ export function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-[#A5D6A7]/40 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
-          <p>© {new Date().getFullYear()} Luyện đề tiếng Nhật cùng VuyAnh 🌸 • Đồng hành cùng ngừi iu chinh phục JLPT N3</p>
+          <p>© {new Date().getFullYear()} Luyện đề tiếng Nhật cùng VuyAnh 🌸 • Đồng hành cùng cộng đồng người học chinh phục JLPT N3</p>
           <p className="flex items-center gap-1.5 text-emerald-800 font-medium">
-            <span>Thiết kế riêng cho ngừi iu với tất cả yêu thương</span>
+            <span>Thiết kế tận tâm vì cộng đồng người học tiếng Nhật</span>
             <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
             <span>và tĩnh tâm</span>
             <span className="text-base">🐸💚</span>

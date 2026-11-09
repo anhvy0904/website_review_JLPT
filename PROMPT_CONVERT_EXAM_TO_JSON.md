@@ -27,7 +27,7 @@ Nguyên tắc KHÔNG ĐƯỢC VI PHẠM:
 4. Nếu nguồn có hình ảnh/bảng quan trọng mà không thể biểu diễn chính xác bằng text, báo rõ ảnh nào phải giữ làm asset; không phỏng đoán dữ liệu.
 5. Đáp án chính xác lấy từ đáp án gốc nếu có. Nếu thiếu đáp án gốc hoặc câu khó xác minh, bạn có thể đề xuất đáp án để tôi rà soát nhưng phải đánh dấu câu review.status = "needs_review", ghi vấn đề vào review.notes; không bao giờ coi đáp án suy đoán là đã xác minh. Với câu không thể xác định, đặt correctOptionId = null và giữ trạng thái draft.
 6. Mỗi câu cần explanation tiếng Việt: summaryVi, correctReasonVi, optionReasonsVi cho từng lựa chọn, translationVi, vocabulary[] gồm word, reading, meaningVi, grammarPoints[] nếu có, readingEvidenceJa nếu là đọc hiểu, studyTipVi.
-7. Giải thích vì sao đáp án đúng và vì sao từng phương án còn lại sai. Nếu chưa có đủ thông tin để giải thích chắc chắn, ghi rõ trong review.notes, không bịa lập luận.
+7. Giải thích vì sao đáp án đúng và vì sao từng phương án còn lại sai. ĐẶC BIỆT cho phần Từ vựng / Chữ Hán (Mondai 1 & Mondai 2): Trong optionReasonsVi, ghi rõ chữ Hán và nghĩa tiếng Việt tương ứng của TỪNG phương án lựa chọn (Ví dụ: nếu phương án là Hiragana thì ghi rõ chữ Hán tương ứng của phương án đó và nghĩa; tuyệt đối KHÔNG lặp lại giải thích của câu hỏi cho các phương án khác). Nếu chưa có đủ thông tin để giải thích chắc chắn, ghi rõ trong review.notes, không bịa lập luận.
 8. Ở từ vựng lời giải, ghi cách đọc hiragana; KHÔNG chèn furigana khiến phần đề kiểm tra cách đọc Kanji bị lộ đáp án.
 9. Gán id đề và câu duy nhất và ổn định: n3-<bo-de>-q001, q002, ...; Chuẩn hóa phân loại `section`, `mondai`, `subtype` và trọng số `weight` chuẩn JLPT N3:
    - `vocabulary` (Thang 30đ):

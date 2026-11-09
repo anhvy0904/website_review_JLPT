@@ -1,12 +1,14 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { ExamQuestion } from "@/lib/types";
 import { FuriganaRuby } from "./FuriganaRuby";
 import { AITutorChat } from "./AITutorChat";
 import { AnnotatedTextWithHanViet } from "./AnnotatedTextWithHanViet";
+import { FormattedQuestionText, getStarSlotInfo } from "./FormattedQuestionText";
 import { getHanViet, getQuestionKanjiTarget } from "@/lib/hanviet";
+import { resolveOptionKanji, getEnrichedQuestionVocabulary, EnrichedVocabularyItem } from "@/lib/kanji-dict";
 import {
   saveQuestionReport,
   isFlashcardSaved,
@@ -71,6 +73,7 @@ export function AnswerExplanation({
   const selectedOption = question.options.find((o) => o.id === selectedOptionId);
   const correctOption = question.options.find((o) => o.id === question.correctOptionId);
   const kanjiTarget = getQuestionKanjiTarget(question);
+  const starInfo = getStarSlotInfo(question.questionText);
 
   // Determine examId & examTitle (explicit or inferred from questionId)
   const inferExamMeta = (qid: string) => {
@@ -90,17 +93,22 @@ export function AnswerExplanation({
   const resolvedExamId = examId || inferred.id;
   const resolvedExamTitle = examTitle || inferred.title;
 
+  // Tổng hợp toàn bộ từ vựng: Trọng tâm + Các đáp án + Từ trong câu hỏi
+  const enrichedVocabulary = useMemo(() => {
+    return getEnrichedQuestionVocabulary(question);
+  }, [question]);
+
   const [savedVocab, setSavedVocab] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
-    if (explanation.vocabulary && explanation.vocabulary.length > 0) {
+    if (enrichedVocabulary && enrichedVocabulary.length > 0) {
       const map: Record<string, boolean> = {};
-      for (const v of explanation.vocabulary) {
+      for (const v of enrichedVocabulary) {
         map[v.word] = isFlashcardSaved(v.word, resolvedExamId);
       }
       setSavedVocab(map);
     }
-  }, [explanation.vocabulary, resolvedExamId]);
+  }, [enrichedVocabulary, resolvedExamId]);
 
   const handleToggleFlashcard = (v: { word: string; hiragana: string; meaningVi: string }) => {
     const isSaved = !!savedVocab[v.word];
@@ -122,9 +130,9 @@ export function AnswerExplanation({
   };
 
   const handleAddAllVocabToFlashcard = () => {
-    if (!explanation.vocabulary) return;
+    if (!enrichedVocabulary || enrichedVocabulary.length === 0) return;
     const newMap = { ...savedVocab };
-    for (const v of explanation.vocabulary) {
+    for (const v of enrichedVocabulary) {
       saveFlashcard({
         word: v.word,
         reading: v.hiragana,
@@ -285,6 +293,28 @@ export function AnswerExplanation({
             </div>
           )}
 
+          {/* Vị trí dấu sao trong đề thi (star arrangement) */}
+          {starInfo && (
+            <div className="p-3.5 rounded-2xl bg-gradient-to-r from-amber-50 via-amber-100/50 to-white border-2 border-amber-300 text-xs sm:text-sm space-y-1.5 shadow-2xs">
+              <div className="flex items-center justify-between gap-2 flex-wrap">
+                <div className="flex items-center gap-2">
+                  <span className="w-6 h-6 rounded-lg bg-amber-500 text-white font-black text-xs flex items-center justify-center shrink-0 shadow-xs">
+                    ★
+                  </span>
+                  <span className="font-bold uppercase tracking-wider text-amber-900 text-xs">
+                    Vị trí dấu sao trong đề thi
+                  </span>
+                </div>
+                <span className="px-2.5 py-0.5 rounded-lg bg-amber-500 text-white font-black text-xs shadow-2xs">
+                  Vị trí số {starInfo.starPosition} (Ô thứ {starInfo.starPosition})
+                </span>
+              </div>
+              <div className="text-amber-800 text-xs">
+                Yêu cầu đề bài: Sắp xếp 4 phương án vào đúng trật tự câu văn và tìm mảnh ghép điền vào <strong>ô số {starInfo.starPosition} (có đánh dấu ★)</strong>.
+              </div>
+            </div>
+          )}
+
           <div className="text-slate-800 font-medium text-sm leading-relaxed">
             <AnnotatedTextWithHanViet text={explanation.summaryVi} />
           </div>
@@ -304,7 +334,7 @@ export function AnswerExplanation({
                 const isThisCorrect = opt.id === question.correctOptionId;
                 const isThisSelected = opt.id === selectedOptionId;
                 const reason = explanation.optionReasonsVi[opt.id] || "Chưa có lời giải";
-                const optHanViet = getHanViet(opt.text);
+                const kanjiInfo = resolveOptionKanji(opt.text, question, isThisCorrect, reason);
 
                 return (
                   <div
@@ -329,21 +359,43 @@ export function AnswerExplanation({
                       >
                         {opt.id}
                       </span>
-                      <div className="space-y-1 flex-1">
+                      <div className="space-y-1.5 flex-1">
                         <div className="font-japanese font-semibold flex flex-wrap items-center gap-1.5">
-                          <span>{opt.text}</span>
-                          {optHanViet && (
-                            <span className="font-sans text-[11px] font-bold text-[#1B5E20] bg-[#E8F5E9] px-2 py-0.5 rounded border border-[#A5D6A7]">
-                              Hán Việt: {optHanViet}
+                          <span className="text-base text-slate-900">{opt.text}</span>
+                          
+                          {/* Chữ Hán, Âm Hán Việt & Nghĩa tương ứng của đáp án này */}
+                          {kanjiInfo && (
+                            <span
+                              className={`font-sans text-xs inline-flex flex-wrap items-center gap-1 px-2.5 py-0.5 rounded-lg border transition-all ${
+                                isThisCorrect
+                                  ? "bg-emerald-100/90 text-emerald-950 border-emerald-300 shadow-2xs font-semibold"
+                                  : isThisSelected
+                                  ? "bg-rose-100/80 text-rose-950 border-rose-300"
+                                  : "bg-slate-100 text-slate-800 border-slate-200"
+                              }`}
+                            >
+                              <span className="text-[11px] text-slate-500 font-medium">Chữ Hán:</span>
+                              <span className="font-japanese font-bold text-slate-900 text-xs">{kanjiInfo.kanji}</span>
+                              {kanjiInfo.hanViet && (
+                                <span className="font-bold text-[#1B5E20] text-[11px] bg-white/90 px-1 py-0.2 rounded border border-[#A5D6A7]/60">
+                                  {kanjiInfo.hanViet}
+                                </span>
+                              )}
+                              {kanjiInfo.meaningVi && (
+                                <span className="text-slate-600 text-[11px] font-normal">
+                                  ({kanjiInfo.meaningVi})
+                                </span>
+                              )}
                             </span>
                           )}
+
                           {isThisCorrect && (
-                            <span className="ml-1 text-xs font-normal text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full font-sans">
+                            <span className="ml-auto text-xs font-semibold text-emerald-700 bg-emerald-100 border border-emerald-200/80 px-2 py-0.5 rounded-full font-sans">
                               (Đáp án đúng)
                             </span>
                           )}
                           {isThisSelected && !isThisCorrect && (
-                            <span className="ml-1 text-xs font-normal text-rose-700 bg-rose-100 px-2 py-0.5 rounded-full font-sans">
+                            <span className="ml-auto text-xs font-semibold text-rose-700 bg-rose-100 border border-rose-200/80 px-2 py-0.5 rounded-full font-sans">
                               (Lựa chọn của bạn)
                             </span>
                           )}
@@ -385,13 +437,13 @@ export function AnswerExplanation({
           </div>
         )}
 
-        {/* Từ vựng quan trọng (với Furigana, Âm Hán Việt & Nút Flashcard) */}
-        {explanation.vocabulary && explanation.vocabulary.length > 0 && (
+        {/* Từ vựng quan trọng (Trọng tâm + Các đáp án + Trong câu hỏi) */}
+        {enrichedVocabulary && enrichedVocabulary.length > 0 && (
           <div className="space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2 text-slate-900 font-semibold text-sm">
                 <BookA className="w-4 h-4 text-[#1B5E20]" />
-                <span>Từ vựng trọng tâm N3 ({explanation.vocabulary.length} từ)</span>
+                <span>Từ vựng trọng tâm N3 ({enrichedVocabulary.length} từ)</span>
               </div>
               <button
                 type="button"
@@ -405,7 +457,7 @@ export function AnswerExplanation({
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-              {explanation.vocabulary.map((v, i) => {
+              {enrichedVocabulary.map((v, i) => {
                 const vHanViet = getHanViet(v.word);
                 const isSaved = !!savedVocab[v.word];
 
@@ -420,11 +472,30 @@ export function AnswerExplanation({
                   >
                     <div className="flex items-start justify-between gap-2">
                       <div className="space-y-1">
-                        <FuriganaRuby
-                          word={v.word}
-                          hiragana={v.hiragana}
-                          className="text-base font-bold text-slate-900"
-                        />
+                        <div className="flex flex-wrap items-center gap-1.5">
+                          <FuriganaRuby
+                            word={v.word}
+                            hiragana={v.hiragana}
+                            className="text-base font-bold text-slate-900"
+                          />
+                          {v.source && (
+                            <span
+                              className={`text-[10px] font-semibold px-1.5 py-0.2 rounded-md ${
+                                v.source === "question"
+                                  ? "bg-blue-50 text-blue-700 border border-blue-200/80"
+                                  : v.source === "option"
+                                  ? "bg-amber-50 text-amber-700 border border-amber-200/80"
+                                  : "bg-emerald-50 text-[#1B5E20] border border-[#A5D6A7]/80"
+                              }`}
+                            >
+                              {v.source === "question"
+                                ? "Trong câu"
+                                : v.source === "option"
+                                ? "Từ đáp án"
+                                : "Trọng tâm"}
+                            </span>
+                          )}
+                        </div>
                         {vHanViet && (
                           <div className="text-[11px] font-bold text-[#1B5E20] flex items-center gap-1">
                             <span className="text-slate-400 font-normal">Hán Việt:</span>

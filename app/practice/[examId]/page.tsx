@@ -224,6 +224,12 @@ function PracticeContent() {
     return exam.passages?.find((p) => p.id === currentQuestion.passageId) || null;
   }, [exam, currentQuestion]);
 
+  // Questions that belong to the same passage (for quick switching)
+  const passageQuestions = useMemo(() => {
+    if (!exam || !currentQuestion?.passageId) return [];
+    return exam.questions.filter((q) => q.passageId === currentQuestion.passageId);
+  }, [exam, currentQuestion]);
+
   // Options & Navigation Handlers
   const handleSelectOption = (optionId: string) => {
     if (!currentQuestion) return;
@@ -353,13 +359,15 @@ function PracticeContent() {
               </span>
             </div>
 
-            {/* Mobile navigator button */}
+            {/* Navigator drawer button (available on all screen sizes, especially helpful in passage split mode) */}
             <button
-              onClick={() => setShowMobileNavigator(!showMobileNavigator)}
-              className="lg:hidden p-1.5 sm:p-2 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-100"
-              title="Danh sách câu hỏi"
+              onClick={() => setShowMobileNavigator(true)}
+              className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 text-xs font-semibold shadow-2xs"
+              title="Mở danh sách câu hỏi"
             >
-              <ListFilter className="w-4 h-4 sm:w-5 sm:h-5" />
+              <ListFilter className="w-4 h-4 text-indigo-600" />
+              <span className="hidden sm:inline">Danh sách câu</span>
+              <span className="text-slate-400 font-normal">({answeredCount}/{exam.questions.length})</span>
             </button>
 
             {/* Submit Button */}
@@ -374,65 +382,136 @@ function PracticeContent() {
       </div>
 
       {/* Main Content Area */}
-      <div className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          {/* Main Question + Passage Column */}
-          <div
-            className={`space-y-6 ${
-              currentPassage ? "lg:col-span-8" : "lg:col-span-9"
-            }`}
-          >
-            {/* If reading question with passage, display side-by-side or stacked */}
-            {currentPassage && (
-              <div className="mb-6">
-                <PassageViewer passage={currentPassage} />
-              </div>
-            )}
+      <div
+        className={`flex-1 w-full mx-auto px-3 sm:px-6 lg:px-8 py-5 sm:py-7 ${
+          currentPassage ? "max-w-[1700px]" : "max-w-7xl"
+        }`}
+      >
+        {currentPassage ? (
+          /* Split view: 60% Left for Passage, 40% Right for Question */
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] gap-6 lg:gap-8 items-start">
+            {/* Left 60%: Independent scrollable passage viewer */}
+            <div className="min-w-0 lg:sticky lg:top-20 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto pr-1">
+              <PassageViewer key={currentPassage.id} passage={currentPassage} />
+            </div>
 
-            <QuestionCard
-              question={currentQuestion}
-              questionIndex={currentQuestionIndex}
-              totalQuestions={exam.questions.length}
-              selectedOptionId={answers[currentQuestion.id]}
-              isFlagged={flaggedQuestionIds.includes(currentQuestion.id)}
-              isChecked={checkedQuestionIds.includes(currentQuestion.id)}
-              mode={mode}
-              examId={exam.id}
-              examTitle={exam.title}
-              onSelectOption={handleSelectOption}
-              onToggleFlag={handleToggleFlag}
-              onCheckAnswer={handleCheckAnswer}
-              onNext={handleNextQuestion}
-              onPrev={handlePrevQuestion}
-              onSubmitExam={() => setShowSubmitModal(true)}
-            />
-          </div>
+            {/* Right 40%: Question Card and passage question switcher */}
+            <div className="min-w-0 space-y-4">
+              {/* Passage Question Stepper if multiple questions belong to this passage */}
+              {passageQuestions.length > 1 && (
+                <div className="flex items-center justify-between gap-2 p-3 rounded-2xl bg-white border border-slate-200/90 shadow-2xs">
+                  <div className="text-xs text-slate-500 font-medium">
+                    Câu hỏi của bài này ({passageQuestions.length} câu):
+                  </div>
+                  <div className="flex items-center gap-1.5 flex-wrap">
+                    {passageQuestions.map((pq) => {
+                      const isCurrent = pq.id === currentQuestion.id;
+                      const isAnswered = Boolean(answers[pq.id]);
+                      const isChecked = checkedQuestionIds.includes(pq.id);
+                      const isCorrect = isChecked && answers[pq.id] === pq.correctOptionId;
 
-          {/* Desktop Sidebar Navigator */}
-          <div
-            className={`hidden lg:block sticky top-24 ${
-              currentPassage ? "lg:col-span-4" : "lg:col-span-3"
-            }`}
-          >
-            <ExamNavigator
-              questions={exam.questions}
-              currentQuestionId={currentQuestion.id}
-              answers={answers}
-              flaggedQuestionIds={flaggedQuestionIds}
-              checkedQuestionIds={checkedQuestionIds}
-              mode={mode}
-              onSelectQuestion={(id) => setCurrentQuestionId(id)}
-            />
+                      let badgeClass = "bg-slate-100 text-slate-700 hover:bg-slate-200 border-slate-200";
+                      if (isCurrent) {
+                        badgeClass = "bg-emerald-700 text-white border-emerald-800 shadow-xs ring-2 ring-emerald-400/40";
+                      } else if (isChecked && mode === "practice") {
+                        badgeClass = isCorrect
+                          ? "bg-emerald-50 text-emerald-800 border-emerald-300"
+                          : "bg-rose-50 text-rose-800 border-rose-300";
+                      } else if (isAnswered) {
+                        badgeClass = "bg-indigo-50 text-indigo-800 border-indigo-200";
+                      }
+
+                      return (
+                        <button
+                          key={pq.id}
+                          type="button"
+                          onClick={() => setCurrentQuestionId(pq.id)}
+                          className={`px-2.5 py-1 rounded-xl text-xs font-bold border transition-all ${badgeClass}`}
+                          title={`Chuyển tới Câu ${pq.number}`}
+                        >
+                          Câu {pq.number}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              <QuestionCard
+                question={currentQuestion}
+                questionIndex={currentQuestionIndex}
+                totalQuestions={exam.questions.length}
+                selectedOptionId={answers[currentQuestion.id]}
+                isFlagged={flaggedQuestionIds.includes(currentQuestion.id)}
+                isChecked={checkedQuestionIds.includes(currentQuestion.id)}
+                mode={mode}
+                examId={exam.id}
+                examTitle={exam.title}
+                onSelectOption={handleSelectOption}
+                onToggleFlag={handleToggleFlag}
+                onCheckAnswer={handleCheckAnswer}
+                onNext={handleNextQuestion}
+                onPrev={handlePrevQuestion}
+                onSubmitExam={() => setShowSubmitModal(true)}
+              />
+            </div>
           </div>
-        </div>
+        ) : (
+          /* Standard view for non-passage questions */
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            <div className="lg:col-span-9 space-y-6">
+              <QuestionCard
+                question={currentQuestion}
+                questionIndex={currentQuestionIndex}
+                totalQuestions={exam.questions.length}
+                selectedOptionId={answers[currentQuestion.id]}
+                isFlagged={flaggedQuestionIds.includes(currentQuestion.id)}
+                isChecked={checkedQuestionIds.includes(currentQuestion.id)}
+                mode={mode}
+                examId={exam.id}
+                examTitle={exam.title}
+                onSelectOption={handleSelectOption}
+                onToggleFlag={handleToggleFlag}
+                onCheckAnswer={handleCheckAnswer}
+                onNext={handleNextQuestion}
+                onPrev={handlePrevQuestion}
+                onSubmitExam={() => setShowSubmitModal(true)}
+              />
+            </div>
+
+            {/* Desktop Sidebar Navigator */}
+            <div className="hidden lg:block sticky top-24 lg:col-span-3">
+              <ExamNavigator
+                questions={exam.questions}
+                currentQuestionId={currentQuestion.id}
+                answers={answers}
+                flaggedQuestionIds={flaggedQuestionIds}
+                checkedQuestionIds={checkedQuestionIds}
+                mode={mode}
+                onSelectQuestion={(id) => setCurrentQuestionId(id)}
+              />
+            </div>
+          </div>
+        )}
       </div>
 
-      {/* Mobile Drawer Navigator Modal */}
+      {/* Drawer Navigator Modal (available on both mobile and desktop) */}
       {showMobileNavigator && (
-        <div className="lg:hidden fixed inset-0 z-50 flex items-end sm:items-center justify-center p-3 sm:p-4 bg-slate-900/50 backdrop-blur-xs">
-          <div className="w-full max-w-md bg-white rounded-3xl shadow-2xl border border-slate-200 p-4 sm:p-5 space-y-3.5 max-h-[85vh] flex flex-col">
-            <div className="flex items-center justify-between pb-2 border-b border-slate-100 shrink-0">
-              <h3 className="font-bold text-slate-900 text-sm">Danh sách câu hỏi ({exam.questions.length})</h3>
+        <div
+          className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-3 sm:p-4 bg-slate-900/60 backdrop-blur-xs animate-fade-in"
+          onClick={() => setShowMobileNavigator(false)}
+        >
+          <div
+            className="w-full max-w-xl bg-white rounded-3xl shadow-2xl border border-slate-200 p-4 sm:p-6 space-y-4 max-h-[88vh] flex flex-col"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between pb-3 border-b border-slate-100 shrink-0">
+              <div className="flex items-center gap-2">
+                <ListFilter className="w-5 h-5 text-indigo-600" />
+                <h3 className="font-bold text-slate-900 text-sm sm:text-base">
+                  Danh sách câu hỏi ({exam.questions.length} câu)
+                </h3>
+              </div>
               <button
                 onClick={() => setShowMobileNavigator(false)}
                 className="p-1.5 rounded-xl text-slate-400 hover:text-slate-600 hover:bg-slate-100"

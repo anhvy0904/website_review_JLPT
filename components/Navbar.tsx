@@ -49,7 +49,7 @@ export function Navbar() {
               </span>
             </div>
             <p className="text-[11px] text-emerald-800/80 hidden sm:block">
-              Góc nhỏ luyện đề thân thương cho ngừi iu
+              Nền tảng luyện thi JLPT N3 thông minh &amp; toàn diện
             </p>
           </div>
         </Link>

@@ -122,7 +122,7 @@ export function AITutorChat({
                   </span>
                 </h4>
                 <p className="text-[11px] text-slate-500">
-                  Giải thích cặn kẽ ngữ pháp, từ vựng và chỉ rõ bẫy sai cho ngừi iu
+                  Giải thích cặn kẽ ngữ pháp, từ vựng và chỉ rõ bẫy sai cho học viên
                 </p>
               </div>
             </div>

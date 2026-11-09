@@ -65,9 +65,9 @@ export default function HomePage() {
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 border border-[#A5D6A7] text-[#1B5E20] text-xs font-semibold shadow-sm">
                 <span className="text-sm">🌸</span>
-                <span>Góc nhỏ luyện đề N3 dành riêng cho ngừi iu</span>
+                <span>Nền tảng luyện đề JLPT N3 thông minh &amp; toàn diện</span>
                 <span className="text-[11px] bg-[#66BB6A] text-white px-2 py-0.5 rounded-full font-bold">
-                  VuyAnh 💚
+                  JLPT N3 💚
                 </span>
               </div>
 
@@ -82,7 +82,7 @@ export default function HomePage() {
 
               <div className="p-5 rounded-2xl bg-white/95 border-2 border-[#A5D6A7] shadow-sm text-slate-700 text-sm sm:text-base leading-relaxed relative">
                 <p>
-                  Chào các ghệ! Đây là góc nhỏ VuyAnh tự tay chuẩn bị để cùng ngừi iu chinh phục kỳ thi JLPT N3 (tập trung trọn vẹn vào Từ vựng, Chữ Hán, Ngữ pháp và Đọc hiểu). Không còn cảnh làm đề xong chỉ biết đúng - sai rồi thôi, ở đây mỗi câu hỏi đều được &ldquo;mổ xẻ&rdquo; giải thích chi tiết 100% bằng tiếng Việt, phân tích cặn kẽ từng đáp án để đôi mình cùng coi.
+                  Chào mừng bạn đến với JLPT N3 Practice Hub! Nền tảng được xây dựng để đồng hành cùng cộng đồng người học chinh phục kỳ thi JLPT N3 (tập trung chuyên sâu vào Từ vựng, Chữ Hán, Ngữ pháp và Đọc hiểu). Không còn cảnh làm đề xong chỉ biết đúng - sai rồi thôi, ở đây mỗi câu hỏi đều được phân tích và giải thích chi tiết 100% bằng tiếng Việt, chỉ rõ bẫy thi và cung cấp bảng từ vựng trọng tâm giúp bạn ghi nhớ sâu.
                 </p>
               </div>
 
@@ -135,7 +135,7 @@ export default function HomePage() {
                         <span className="text-2xl">🐸</span>
                         <div>
                           <p className="text-xs font-bold text-[#1B5E20]">Bé Ếch Sen VuyAnh</p>
-                          <p className="text-[10px] text-emerald-800">Cùng ngừi iu luyện thi N3</p>
+                          <p className="text-[10px] text-emerald-800">Đồng hành cùng học viên N3</p>
                         </div>
                       </div>
                       <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
@@ -144,19 +144,19 @@ export default function HomePage() {
                     </div>
                   </div>
 
-                  {/* Sweet Message from VuyAnh */}
+                  {/* Encouraging Message from Mascot */}
                   <div className="p-3.5 rounded-xl bg-[#E8F5E9] border border-[#A5D6A7] text-xs text-[#1B5E20] space-y-1.5">
                     <div className="flex items-center justify-between font-bold">
                       <span className="flex items-center gap-1.5">
                         <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
-                        Lời nhắn gửi ngừi iu:
+                        Lời nhắn gửi học viên:
                       </span>
                       <span className="text-[10px] text-emerald-800 bg-white px-2 py-0.5 rounded-full font-semibold border border-[#A5D6A7]">
                         Tâm an trí sáng ✨
                       </span>
                     </div>
                     <p className="text-slate-700 leading-relaxed italic">
-                      &ldquo;Cố lên ngừi iu nha! Mỗi ngày làm một ít, hiểu sâu từng từ vựng và ngữ pháp. Đừng lo lắng, có tợ ở đây giải thích từng câu cho bạn rồi! 💚&rdquo;
+                      &ldquo;Kiên trì mỗi ngày một ít, hiểu sâu từng từ vựng và cấu trúc ngữ pháp. Chúc bạn ôn thi thật tốt và tự tin chinh phục chứng chỉ JLPT N3! 💚&rdquo;
                     </p>
                   </div>
                 </div>
@@ -264,7 +264,7 @@ export default function HomePage() {
               </div>
               <h2 className="text-2xl font-extrabold text-[#1B5E20]">Học theo chuyên đề cùng VuyAnh</h2>
               <p className="text-xs text-slate-500 mt-0.5">
-                Hai chủ đề nền tảng giúp ngừi iu tự tin ăn trọn điểm Ngữ pháp và Giao tiếp
+                Hai chủ đề nền tảng giúp bạn tự tin đạt điểm tối đa phần Ngữ pháp và Giao tiếp thực tế
               </p>
             </div>
 
@@ -354,7 +354,7 @@ export default function HomePage() {
         <section className="space-y-4">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-xl font-bold text-[#1B5E20]">Đề thi sẵn sàng cùng ngừi iu luyện tập</h2>
+              <h2 className="text-xl font-bold text-[#1B5E20]">Kho đề thi chuẩn cấu trúc JLPT N3</h2>
               <p className="text-xs text-slate-500 mt-0.5">Chọn bộ đề để bắt đầu rèn luyện ngay hôm nay</p>
             </div>
 
@@ -448,7 +448,7 @@ export default function HomePage() {
         <section className="bg-white rounded-3xl border-2 border-[#A5D6A7]/70 p-8 sm:p-10 space-y-8">
           <div className="max-w-2xl">
             <h2 className="text-2xl font-bold text-[#1B5E20]">
-              Được thiết kế tỉ mỉ cho đôi mình cùng học JLPT N3
+              Được thiết kế tối ưu cho trải nghiệm ôn luyện JLPT N3
             </h2>
             <p className="text-sm text-slate-600 mt-2">
               Giao diện thanh bình, không quảng cáo gây phân tâm. Tập trung hoàn toàn vào việc hiểu cặn kẽ bản chất câu hỏi và bẫy đề thi.

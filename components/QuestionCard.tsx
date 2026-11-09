@@ -4,6 +4,7 @@ import React, { useEffect, useCallback } from "react";
 import { ExamQuestion } from "@/lib/types";
 import { Flag, Star, Check, ArrowRight, ArrowLeft, CheckCircle2 } from "lucide-react";
 import { AnswerExplanation } from "./AnswerExplanation";
+import { FormattedQuestionText, getStarSlotInfo } from "./FormattedQuestionText";
 
 interface QuestionCardProps {
   question: ExamQuestion;
@@ -86,24 +87,7 @@ export function QuestionCard({
   onSubmitExam,
   className = "",
 }: QuestionCardProps) {
-  // Format question text with underlined text `__...__`
-  const renderQuestionText = (text: string) => {
-    const parts = text.split(/(__.*?__)/g);
-    return parts.map((part, i) => {
-      if (part.startsWith("__") && part.endsWith("__")) {
-        const inner = part.slice(2, -2);
-        return (
-          <span
-            key={i}
-            className="underline decoration-indigo-600 decoration-[2.5px] underline-offset-4 font-bold text-indigo-950 px-1 bg-indigo-50/50 rounded"
-          >
-            {inner}
-          </span>
-        );
-      }
-      return <span key={i}>{part}</span>;
-    });
-  };
+  const starInfo = getStarSlotInfo(question.questionText);
 
   // Keyboard shortcut handler
   const handleKeyDown = useCallback(
@@ -235,10 +219,30 @@ export function QuestionCard({
         </div>
 
         {/* Question Text */}
-        <div className="py-6">
+        <div className="py-5 sm:py-6 space-y-4">
           <p className="font-japanese text-slate-900 text-[20px] sm:text-[22px] font-normal leading-[1.8] tracking-wide">
-            {renderQuestionText(question.questionText)}
+            <FormattedQuestionText text={question.questionText} />
           </p>
+
+          {/* Banner hướng dẫn vị trí dấu sao cho câu ghép dấu sao ★ */}
+          {starInfo && (
+            <div className="flex items-center gap-3 p-3.5 rounded-2xl bg-gradient-to-r from-amber-50/90 to-amber-100/60 border-2 border-amber-300/90 text-amber-950 text-xs sm:text-sm font-medium shadow-xs">
+              <div className="w-8 h-8 rounded-xl bg-amber-500 text-white flex items-center justify-center font-black text-sm shrink-0 shadow-xs ring-2 ring-white">
+                ★
+              </div>
+              <div className="space-y-0.5">
+                <div className="font-bold text-amber-900 flex items-center gap-2 flex-wrap">
+                  <span>Câu hỏi ghép câu dấu sao:</span>
+                  <span className="px-2.5 py-0.5 rounded-lg bg-white text-amber-900 font-black text-xs border border-amber-400 shadow-2xs">
+                    Vị trí cần chọn: Ô số {starInfo.starPosition} [ ★ ]
+                  </span>
+                </div>
+                <div className="text-[11px] sm:text-xs text-amber-800 font-normal">
+                  Sắp xếp 4 phương án bên dưới thành câu hoàn chỉnh, sau đó chọn phương án nằm ở vị trí ô số {starInfo.starPosition} (có đánh dấu ★).
+                </div>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Options List */}

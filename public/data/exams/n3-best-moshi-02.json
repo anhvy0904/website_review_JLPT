@@ -4,12 +4,12 @@
   "title": "JLPT N3 ベスト模試 — Đề 2 (Từ vựng • Ngữ pháp • Đọc hiểu)",
   "description": "Bộ đề ベスト模試 N3 Đề 2, không bao gồm nghe. 35 từ vựng, 23 ngữ pháp, 16 đọc hiểu. Bản số hóa chờ kiểm duyệt nội dung và đối chiếu hình ảnh nguồn.",
   "level": "N3",
-  "status": "published",
+  "status": "draft",
   "source": {
     "fileName": "ベスト模試 N3 đề 2 THI full.pdf",
     "type": "official_mock",
-    "notes": "Đề luyện tập từ PDF người dùng cung cấp, không phải đề thi JLPT chính thức. Tham chiếu đáp án trong BEST N3 đáp án 3 đề.xlsx; trích xuất tiếng Nhật bằng biên tập thủ công từ bản scan, chưa được kiểm duyệt độc lập. Bài đọc dài có ảnh gốc, một số passage.text để trống.",
-    "reviewedByHuman": true
+    "notes": "Đề luyện tập từ PDF người dùng cung cấp, không phải đề thi JLPT chính thức. Tham chiếu đáp án trong BEST N3 đáp án 3 đề.xlsx; trích xuất tiếng Nhật bằng biên tập thủ công từ bản scan, chưa được kiểm duyệt độc lập. Bài đọc dài có ảnh gốc, một số passage.text để trống. | Đã bổ sung đầy đủ 9/9 passage.text và ảnh nguồn WebP; 17 passage mới được chép từ ảnh quét, cần kiểm duyệt từng ký tự với PDF gốc trước khi công khai.",
+    "reviewedByHuman": false
   },
   "settings": {
     "timeLimitMinutes": 100,
@@ -52,25 +52,25 @@
     {
       "id": "p-r28",
       "title": "Đọc hiểu 28–30",
-      "text": "",
+      "text": "ネズミにえさを与え、食べて数日後に体重を測ると、えさが体に入った分体重が増えているでしょうか。そうではなく、体重は増えていません。今から約70年前にドイツの研究者がこの発見をし、どうしてなのか研究しました。彼は、食べ物はネズミの体の中に溶け込んで、それまでの細胞と入れかわり、体の一部になってしまうと考えました。それまでの細胞は体の外に捨てられるのです。このように動物は、物を食べることによって、細胞がどんどん変化しています。\n\n人間の体も同じです。それまでの体の細胞は、新しく入ってきた物と入れかわります。ですから、１年ぐらいたてば、体の中はすっかり新しい細胞に変わっているのです。この点から言えば、何年も会わなかった人に会ったとき「お変わりありませんね」とあいさつする表現は、正確でないということになるでしょう。\n\nですから、「人間は食べる物によってつくられる」というのは事実なのです。食べる物を軽く見てはいけない、というのは、こういうことから来ています。\n\n（注）細胞：生物を作っている基本の単位",
       "imagePath": "/data/exams/assets/n3-best-moshi-02/source-page-21.webp"
     },
     {
       "id": "p-r31",
       "title": "Đọc hiểu 31–33",
-      "text": "",
+      "text": "18歳から24歳までの学生に「学校に通う意義」について調査し、日本、アメリカ、韓国、イギリス、フランス５か国の比較をしたデータがある。\n\nそれによると、日本は「友達との友情をはぐくむ」と考える人が66％で、他国に比べ圧倒的に高い。一番低いのはフランスで、16％。また、「自由な時間を楽しむ」についても日本が33％で５か国中最高、一番低いのはこれもまたフランスで、11％である。\n\n一方、日本で「職業的技能を身につける」と考える人は30％、５か国中最も低い。ただこの点はどの国もあまり高くなく、一番高いイギリスでも45％だ。また、「一般的・基本的知識を身につける」についてはアメリカが最も高く79％、イギリスもフランスも65％ぐらいである。この項目は、日本は56％で、韓国が一番低く45％だ。\n\nまた、「先生の人情や生き方から学ぶ」という項目で、一番高いのはアメリカの46％、一番低いのはフランスの16％、日本は27％だった。\n\n参考：「第８回世界青年意識調査」（平成21年３月内閣府）\n（注1）意義：その事が持つ意味。学校に通う意義：学校は何をする所だと考えて通うか。\n（注2）はぐくむ：大事に養って育てる。",
       "imagePath": "/data/exams/assets/n3-best-moshi-02/source-page-23.webp"
     },
     {
       "id": "p-r34",
       "title": "Đọc hiểu 34–37",
-      "text": "",
+      "text": "日本映画は、アメリカのハリウッド映画に大きく影響を与えている。\n\n例えば、日本を代表する映画監督である黒澤明の作品の中に「七人の侍」という映画がある。1954年に作られたが、現在でも世界の映画の中で最高の作品の一つだと、多くの国で大変高く評価されている。\n\nこの作品のすばらしい点は、人間とは何かということを、見る人に考えさせるということだ。私は、映画はそうであってほしいと思っている。つまり、ただ観て楽しむのではなく、私たちの内面を豊かにしてくれるメッセージを持っていてほしいのだ。この映画の場合は、それは最後にあらわれる。敵との戦いに勝って目的を果たした主人公が、「勝った」とは言わず、「今度もまた負けた」と言うのだ。この最後の一言で、映画の雰囲気は大きく変わる。「勝った」と思った観客は、この言葉を聞き、不思議に思う。そして「勝つとか負けるとかいうのは、どういうことなのか」という深い問いを心に持つ。そのまま映画を見終わることになり、見終わった後もそのことについて考え続けるのである。\n\nこれが、ハリウッドで作られた映画だったら、と考えてみよう。たぶん、目的を果たせば任務完了、それでハッピーエンドだろう。勝ちと負けは、はっきりと区別できるのである。しかし、黒澤作品に代表される日本映画はちがう。白と黒の間に灰色があることを伝えているのだ。\n\nだからこそ、日本映画にハリウッドの人々は大変驚いた。そして、日本映画に影響された作品が数多く作られた。大ヒット映画「スター・ウォーズ」もその一つである。\n\n（注1）ハリウッド：アメリカのロサンゼルス市にある地区。映画産業の中心地。\n（注2）黒澤明：1950年代から2000年にかけて活躍した日本の映画監督。その作品は世界中の映画祭で賞を受けており、世界の多くの映画関係者から映画監督としての力を高く評価されている。\n（注3）「七人の侍」：農民に雇われた７人の武士が、いろいろな問題を解決しながら、乱暴な野武士の集団と戦う物語。\n（注4）「スター・ウォーズ」：1977年に公開されたアメリカのSF映画シリーズ。",
       "imagePath": "/data/exams/assets/n3-best-moshi-02/source-page-25.webp"
     },
     {
       "id": "p-r38",
       "title": "Đọc hiểu 38–39",
-      "text": "",
+      "text": "お客さまへ　ご不在時にお届けしたお荷物について\nスマイル配送サービス\n\nお留守の間に届いたお荷物は、特に指示がなければ、配達員が持ち帰ります。\nその時、「配達メモ」をお客さまの郵便受けに入れておきます。\n\n配達メモに書いてあること\nA．荷物配達番号\nB．配達員の携帯電話番号\nC．配送センターのホームページアドレス・電話番号・住所\n\n再配達またはお受け取りについては、次のようにお願いいたします。\n※どの場合も、荷物配達番号が必要です。「配達メモ」を必ず手元にお持ちください。\n\n◆当日中の配達を希望される場合\n配達員の携帯電話に直接お電話ください。\n※なお、当日の18：00（午後６時）までにお電話をいただいた場合に限ります。\n\n◆次の日以降の配達の場合\n次の①か②でご連絡ください。\n①配送センターに電話する。0123-456-789\n　係員が対応いたします。\n　※電話対応時間　月曜～金曜　９：00～17：00\n②配送センターにオンラインで知らせる。https://sumairuhaisoo.co.jp/saihaitatsu\n　配達ご希望の日時を入力してください。\n　※日にちの入力の仕方　例：2021年１月15日＝20210115\n　配達希望時間の入力の仕方　※配達は21：00（午後９時）までです。\n　希望なし＝０　午前中＝１　12：00～17：00＝２　17：00～21：00＝３\n\n◆次の日以降、配送センターで受け取る場合\n配送センター窓口に直接お越しください。「配達メモ」と身分証明書が必要です。\n※配送センター窓口対応時間（平日は24時間対応）\n　通常窓口：月曜～金曜　９：00～17：00\n　特別窓口：月曜～金曜　17：00～９：00\n　　　　　　土曜・日曜　９：00～０：00",
       "imagePath": "/data/exams/assets/n3-best-moshi-02/source-page-28.webp"
     }
   ],
@@ -108,20 +108,20 @@
         "kanji_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "統一（とういつ） nghĩa là thống nhất. Lưu ý âm dài とう và âm cuối いつ.",
+        "summaryVi": "Đáp án chính xác: 4.",
+        "correctReasonVi": "「統一」（とういつ - THỐNG NHẤT）nghĩa là thống nhất đất nước.",
         "optionReasonsVi": {
-          "1": "SAI: 「といち」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 統一（とういつ） nghĩa là thống nhất. Lưu ý âm dài とう và âm cuối いつ.",
-          "2": "SAI: 「といつ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 統一（とういつ） nghĩa là thống nhất. Lưu ý âm dài とう và âm cuối いつ.",
-          "3": "SAI: 「とういち」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 統一（とういつ） nghĩa là thống nhất. Lưu ý âm dài とう và âm cuối いつ.",
-          "4": "ĐÚNG: 統一（とういつ） nghĩa là thống nhất. Lưu ý âm dài とう và âm cuối いつ."
+          "1": "SAI: 「といち」 sai âm on của 統 (phải đọc trường âm とう).",
+          "2": "SAI: 「といつ」 thiếu trường âm とう.",
+          "3": "SAI: 「とういち」 sai âm đọc của chữ 一 (trong 統一 đọc là いつ).",
+          "4": "ĐÚNG: 「統一」 đọc là「とういつ」[THỐNG NHẤT] (đất nước được thống nhất đã được 30 năm)."
         },
         "translationVi": "Đất nước đã thống nhất được 30 năm.",
         "vocabulary": [
           {
             "word": "統一",
             "hiragana": "とういつ",
-            "meaningVi": "thống nhất"
+            "meaningVi": "thống nhất quốc gia"
           }
         ],
         "grammarPoints": [],
@@ -129,8 +129,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -168,20 +168,30 @@
         "kanji_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "重ねる（かさねる） nghĩa là xếp chồng, chồng lên nhau. 書類を重ねる là xếp chồng giấy tờ.",
+        "summaryVi": "Đáp án chính xác: 2.",
+        "correctReasonVi": "「重ねて」（かさねて - TRỌNG）là thể て của 重ねる (xếp chồng, chồng lên).",
         "optionReasonsVi": {
-          "1": "SAI: 「おもねて」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 重ねる（かさねる） nghĩa là xếp chồng, chồng lên nhau. 書類を重ねる là xếp chồng giấy tờ.",
-          "2": "ĐÚNG: 重ねる（かさねる） nghĩa là xếp chồng, chồng lên nhau. 書類を重ねる là xếp chồng giấy tờ.",
-          "3": "SAI: 「たばねて」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 重ねる（かさねる） nghĩa là xếp chồng, chồng lên nhau. 書類を重ねる là xếp chồng giấy tờ.",
-          "4": "SAI: 「たずねて」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 重ねる（かさねる） nghĩa là xếp chồng, chồng lên nhau. 書類を重ねる là xếp chồng giấy tờ."
+          "1": "SAI: 「おもねて」 là chữ Hán「阿ねて」[A] (nghĩa là nịnh hót, a dua).",
+          "2": "ĐÚNG: 「重ねて」 là thể て của động từ「重ねる」[TRỌNG] (nghĩa là xếp chồng tài liệu lên nhau).",
+          "3": "SAI: 「たばねて」 là chữ Hán「束ねて」[THÚC] (nghĩa là bó lại, buộc thành bó).",
+          "4": "SAI: 「たずねて」 là chữ Hán「尋ねて」[TẦM] (hỏi han) hoặc「訪ねて」[PHÓNG] (ghé thăm)."
         },
         "translationVi": "Tôi sẽ xếp chồng các tài liệu cho ngay ngắn.",
         "vocabulary": [
           {
             "word": "重ねる",
             "hiragana": "かさねる",
-            "meaningVi": "xếp chồng"
+            "meaningVi": "xếp chồng lên, lặp lại"
+          },
+          {
+            "word": "束ねる",
+            "hiragana": "たばねる",
+            "meaningVi": "bó lại, buộc lại"
+          },
+          {
+            "word": "訪ねる",
+            "hiragana": "たずねる",
+            "meaningVi": "ghé thăm"
           }
         ],
         "grammarPoints": [],
@@ -189,8 +199,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -228,13 +238,13 @@
         "kanji_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "世代（せだい） nghĩa là thế hệ. 世 đọc せ, 代 đọc だい trong từ này.",
+        "summaryVi": "Đáp án chính xác: 1.",
+        "correctReasonVi": "「世代」（せだい - THẾ ĐẠI）nghĩa là thế hệ.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: 世代（せだい） nghĩa là thế hệ. 世 đọc せ, 代 đọc だい trong từ này.",
-          "2": "SAI: 「せいだい」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 世代（せだい） nghĩa là thế hệ. 世 đọc せ, 代 đọc だい trong từ này.",
-          "3": "SAI: 「せたい」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 世代（せだい） nghĩa là thế hệ. 世 đọc せ, 代 đọc だい trong từ này.",
-          "4": "SAI: 「せいたい」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 世代（せだい） nghĩa là thế hệ. 世 đọc せ, 代 đọc だい trong từ này."
+          "1": "ĐÚNG: 「世代」 đọc là「せだい」[THẾ ĐẠI] (thế hệ khác nhau thì cách suy nghĩ cũng khác nhau).",
+          "2": "SAI: 「せいだい」 là chữ Hán「盛大」[THỊNH ĐẠI] (nghĩa là linh đình, hoành tráng; bẫy thừa trường âm せい).",
+          "3": "SAI: 「せたい」 là chữ Hán「世帯」[THẾ ĐỚI] (nghĩa là hộ gia đình).",
+          "4": "SAI: 「せいたい」 là chữ Hán「生態」[SINH THÁI] (hệ sinh thái) hoặc「正体」[CHÍNH THỂ] (chân tướng)."
         },
         "translationVi": "Những thế hệ khác nhau thường có suy nghĩ khác nhau.",
         "vocabulary": [
@@ -242,6 +252,11 @@
             "word": "世代",
             "hiragana": "せだい",
             "meaningVi": "thế hệ"
+          },
+          {
+            "word": "世帯",
+            "hiragana": "せたい",
+            "meaningVi": "hộ gia đình"
           }
         ],
         "grammarPoints": [],
@@ -249,8 +264,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -288,20 +303,25 @@
         "kanji_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "片道（かたみち） nghĩa là một chiều. 片道1時間: mất một giờ cho một lượt đường.",
+        "summaryVi": "Đáp án chính xác: 3.",
+        "correctReasonVi": "「片道」（かたみち - PHIẾN ĐẠO）nghĩa là đường một chiều, lượt đi.",
         "optionReasonsVi": {
-          "1": "SAI: 「へんみち」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 片道（かたみち） nghĩa là một chiều. 片道1時間: mất một giờ cho một lượt đường.",
-          "2": "SAI: 「へんどう」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 片道（かたみち） nghĩa là một chiều. 片道1時間: mất một giờ cho một lượt đường.",
-          "3": "ĐÚNG: 片道（かたみち） nghĩa là một chiều. 片道1時間: mất một giờ cho một lượt đường.",
-          "4": "SAI: 「かたどう」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 片道（かたみち） nghĩa là một chiều. 片道1時間: mất một giờ cho một lượt đường."
+          "1": "SAI: 「へんみち」 bẫy âm on của 片 là へん (như trong 破片 - mảnh vỡ).",
+          "2": "SAI: 「へんどう」 là chữ Hán「変動」[BIẾN ĐỘNG] (biến động).",
+          "3": "ĐÚNG: 「片道」 đọc là「かたみち」[PHIẾN ĐẠO] (nghĩa là một chiều; đi đến công ty một chiều mất 1 tiếng).",
+          "4": "SAI: 「かたどう」 sai âm đọc của chữ 道 (trong từ này đọc âm kun là みち)."
         },
         "translationVi": "Từ nhà đến công ty mất một giờ cho một chiều.",
         "vocabulary": [
           {
             "word": "片道",
             "hiragana": "かたみち",
-            "meaningVi": "một chiều"
+            "meaningVi": "một chiều (lượt đi)"
+          },
+          {
+            "word": "往復",
+            "hiragana": "おうふく",
+            "meaningVi": "khứ hồi (hai chiều)"
           }
         ],
         "grammarPoints": [],
@@ -309,8 +329,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -348,20 +368,25 @@
         "kanji_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "無事（ぶじ） nghĩa là bình an, an toàn, không gặp sự cố; 無 đọc ぶ trong từ này.",
+        "summaryVi": "Đáp án chính xác: 2.",
+        "correctReasonVi": "「無事」（ぶじ - VÔ SỰ）nghĩa là bình an vô sự, an toàn.",
         "optionReasonsVi": {
-          "1": "SAI: 「むじ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 無事（ぶじ） nghĩa là bình an, an toàn, không gặp sự cố; 無 đọc ぶ trong từ này.",
-          "2": "ĐÚNG: 無事（ぶじ） nghĩa là bình an, an toàn, không gặp sự cố; 無 đọc ぶ trong từ này.",
-          "3": "SAI: 「むうじ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 無事（ぶじ） nghĩa là bình an, an toàn, không gặp sự cố; 無 đọc ぶ trong từ này.",
-          "4": "SAI: 「ぶうじ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 無事（ぶじ） nghĩa là bình an, an toàn, không gặp sự cố; 無 đọc ぶ trong từ này."
+          "1": "SAI: 「むじ」 là chữ Hán「無地」[VÔ ĐỊA] (nghĩa là vải trơn, không có họa tiết).",
+          "2": "ĐÚNG: 「無事」 đọc là「ぶじ」[VÔ SỰ] (chuyến du lịch đã trở về bình an vô sự).",
+          "3": "SAI: 「むうじ」 sai trường âm.",
+          "4": "SAI: 「ぶうじ」 sai trường âm."
         },
         "translationVi": "Tôi đã trở về an toàn sau chuyến du lịch.",
         "vocabulary": [
           {
             "word": "無事",
             "hiragana": "ぶじ",
-            "meaningVi": "bình an"
+            "meaningVi": "bình an vô sự"
+          },
+          {
+            "word": "無地",
+            "hiragana": "むじ",
+            "meaningVi": "trơn, không họa tiết"
           }
         ],
         "grammarPoints": [],
@@ -369,8 +394,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -408,20 +433,30 @@
         "kanji_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "底（そこ） là đáy của hộp/vật chứa; từ được kiểm tra là 底, không phải 穴.",
+        "summaryVi": "Đáp án chính xác: 4.",
+        "correctReasonVi": "「底」（そこ - ĐỂ）nghĩa là phần đáy.",
         "optionReasonsVi": {
-          "1": "SAI: 「ふた」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 底（そこ） là đáy của hộp/vật chứa; từ được kiểm tra là 底, không phải 穴.",
-          "2": "SAI: 「よこ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 底（そこ） là đáy của hộp/vật chứa; từ được kiểm tra là 底, không phải 穴.",
-          "3": "SAI: 「わき」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 底（そこ） là đáy của hộp/vật chứa; từ được kiểm tra là 底, không phải 穴.",
-          "4": "ĐÚNG: 底（そこ） là đáy của hộp/vật chứa; từ được kiểm tra là 底, không phải 穴."
+          "1": "SAI: 「ふた」 là chữ Hán「蓋」[CÁI] (nghĩa là cái nắp đậy).",
+          "2": "SAI: 「よこ」 là chữ Hán「横」[HOÀNH] (nghĩa là bên cạnh, bề ngang).",
+          "3": "SAI: 「わき」 là chữ Hán「脇」[HIỆP] (nghĩa là bên hông, nách).",
+          "4": "ĐÚNG: 「底」 đọc là「そこ」[ĐỂ] (nghĩa là phần đáy của chiếc hộp bị thủng một lỗ nhỏ)."
         },
         "translationVi": "Chiếc hộp này có một lỗ nhỏ ở dưới đáy.",
         "vocabulary": [
           {
             "word": "底",
             "hiragana": "そこ",
-            "meaningVi": "đáy"
+            "meaningVi": "phần đáy"
+          },
+          {
+            "word": "蓋",
+            "hiragana": "ふた",
+            "meaningVi": "cái nắp đậy"
+          },
+          {
+            "word": "横",
+            "hiragana": "よこ",
+            "meaningVi": "bên cạnh, bề ngang"
           }
         ],
         "grammarPoints": [],
@@ -429,8 +464,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -468,20 +503,25 @@
         "kanji_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "指示（しじ） nghĩa là chỉ thị, hướng dẫn. Đọc cả hai chữ theo âm し và じ.",
+        "summaryVi": "Đáp án chính xác: 3.",
+        "correctReasonVi": "「指示」（しじ - CHỈ THỊ）nghĩa là chỉ thị, hướng dẫn chỉ đạo.",
         "optionReasonsVi": {
-          "1": "SAI: 「ゆびじ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 指示（しじ） nghĩa là chỉ thị, hướng dẫn. Đọc cả hai chữ theo âm し và じ.",
-          "2": "SAI: 「ゆびし」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 指示（しじ） nghĩa là chỉ thị, hướng dẫn. Đọc cả hai chữ theo âm し và じ.",
-          "3": "ĐÚNG: 指示（しじ） nghĩa là chỉ thị, hướng dẫn. Đọc cả hai chữ theo âm し và じ.",
-          "4": "SAI: 「じじ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 指示（しじ） nghĩa là chỉ thị, hướng dẫn. Đọc cả hai chữ theo âm し và じ."
+          "1": "SAI: 「ゆびじ」 bẫy âm kun của 指 là ゆび (ngón tay).",
+          "2": "SAI: 「ゆびし」 sai âm đọc.",
+          "3": "ĐÚNG: 「指示」 đọc là「しじ」[CHỈ THỊ] (việc quan trọng sẽ có chỉ thị trực tiếp từ giám đốc).",
+          "4": "SAI: 「じじ」 là chữ Hán「時事」[THỜI SỰ] (việc đương thời) hoặc「祖父」[TỔ PHỤ - ông lão]."
         },
         "translationVi": "Những việc quan trọng sẽ nhận chỉ thị trực tiếp từ giám đốc.",
         "vocabulary": [
           {
             "word": "指示",
             "hiragana": "しじ",
-            "meaningVi": "chỉ thị"
+            "meaningVi": "chỉ thị, hướng dẫn"
+          },
+          {
+            "word": "直接",
+            "hiragana": "ちょくせつ",
+            "meaningVi": "trực tiếp"
           }
         ],
         "grammarPoints": [],
@@ -489,8 +529,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -528,13 +568,13 @@
         "kanji_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "過去（かこ） nghĩa là quá khứ. 過 là か; 去 là こ.",
+        "summaryVi": "Đáp án chính xác: 1.",
+        "correctReasonVi": "「過去」（かこ - QUÁ KHỨ）nghĩa là quá khứ.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: 過去（かこ） nghĩa là quá khứ. 過 là か; 去 là こ.",
-          "2": "SAI: 「かこう」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 過去（かこ） nghĩa là quá khứ. 過 là か; 去 là こ.",
-          "3": "SAI: 「かきょ」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 過去（かこ） nghĩa là quá khứ. 過 là か; 去 là こ.",
-          "4": "SAI: 「かきょう」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. 過去（かこ） nghĩa là quá khứ. 過 là か; 去 là こ."
+          "1": "ĐÚNG: 「過去」 đọc là「かこ」[QUÁ KHỨ] (nghĩa là không quên những chuyện trong quá khứ).",
+          "2": "SAI: 「かこう」 là chữ Hán「加工」[GIA CÔNG] hoặc「下降」[HẠ GIÁNG] (đi xuống).",
+          "3": "SAI: 「かきょ」 là chữ Hán「科挙」[KHOA CỬ] (thi khoa cử).",
+          "4": "SAI: 「かきょう」 là chữ Hán「佳境」[GIA CẢNH] (giai đoạn cao trào)."
         },
         "translationVi": "Đừng quên chuyện quá khứ.",
         "vocabulary": [
@@ -542,6 +582,16 @@
             "word": "過去",
             "hiragana": "かこ",
             "meaningVi": "quá khứ"
+          },
+          {
+            "word": "現在",
+            "hiragana": "げんざい",
+            "meaningVi": "hiện tại"
+          },
+          {
+            "word": "未来",
+            "hiragana": "みらい",
+            "meaningVi": "tương lai"
           }
         ],
         "grammarPoints": [],
@@ -549,8 +599,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -588,20 +638,30 @@
         "kanji_writing"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "はしら viết là 柱, nghĩa là cột/trụ. 橋（はし） nghĩa là cầu, khác từ.",
+        "summaryVi": "Đáp án chính xác: 4.",
+        "correctReasonVi": "「はしら」 chữ Hán là 柱 [TRỤ] (cột nhà, trụ cột).",
         "optionReasonsVi": {
-          "1": "SAI: 「株」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. はしら viết là 柱, nghĩa là cột/trụ. 橋（はし） nghĩa là cầu, khác từ.",
-          "2": "SAI: 「札」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. はしら viết là 柱, nghĩa là cột/trụ. 橋（はし） nghĩa là cầu, khác từ.",
-          "3": "SAI: 「橋」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. はしら viết là 柱, nghĩa là cột/trụ. 橋（はし） nghĩa là cầu, khác từ.",
-          "4": "ĐÚNG: はしら viết là 柱, nghĩa là cột/trụ. 橋（はし） nghĩa là cầu, khác từ."
+          "1": "SAI: 「株」[CHU] nghĩa là gốc cây, cổ phiếu (trong 株式会社 - công ty cổ phần).",
+          "2": "SAI: 「札」[TRÁT] nghĩa là tấm thẻ, tờ tiền giấy (như trong お札, 改札口).",
+          "3": "SAI: 「橋」[KIỀU] nghĩa là cây cầu bắc qua sông.",
+          "4": "ĐÚNG: 「柱」[TRỤ] nghĩa là cây cột, trụ nhà (nhìn thấy chiếc cột lớn ở đằng xa)."
         },
         "translationVi": "Có thể nhìn thấy một cây cột lớn ở đằng xa.",
         "vocabulary": [
           {
             "word": "柱",
             "hiragana": "はしら",
-            "meaningVi": "cột"
+            "meaningVi": "cột nhà, trụ"
+          },
+          {
+            "word": "橋",
+            "hiragana": "はし",
+            "meaningVi": "cây cầu"
+          },
+          {
+            "word": "株",
+            "hiragana": "かぶ",
+            "meaningVi": "cổ phiếu, gốc cây"
           }
         ],
         "grammarPoints": [],
@@ -609,8 +669,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -648,20 +708,30 @@
         "kanji_writing"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "やさしい khi mang nghĩa dễ (đề thi dễ) viết là 易しい; 安い là rẻ, không phải dễ.",
+        "summaryVi": "Đáp án chính xác: 3.",
+        "correctReasonVi": "「やさしい」 trong ngữ cảnh bài kiểm tra là 易しい [DỊ] (dễ dàng).",
         "optionReasonsVi": {
-          "1": "SAI: 「低い」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. やさしい khi mang nghĩa dễ (đề thi dễ) viết là 易しい; 安い là rẻ, không phải dễ.",
-          "2": "SAI: 「安い」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. やさしい khi mang nghĩa dễ (đề thi dễ) viết là 易しい; 安い là rẻ, không phải dễ.",
-          "3": "ĐÚNG: やさしい khi mang nghĩa dễ (đề thi dễ) viết là 易しい; 安い là rẻ, không phải dễ.",
-          "4": "SAI: 「単い」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. やさしい khi mang nghĩa dễ (đề thi dễ) viết là 易しい; 安い là rẻ, không phải dễ."
+          "1": "SAI: 「低い」[ĐÊ] nghĩa là thấp (về chiều cao, nhiệt độ, âm thanh).",
+          "2": "SAI: 「安い」[AN] nghĩa là giá rẻ, an tâm.",
+          "3": "ĐÚNG: 「易しい」[DỊ] nghĩa là dễ dàng (bài kiểm tra này rất dễ). Lưu ý: 優しい [ƯU] là hiền lành, tốt bụng.",
+          "4": "SAI: 「単い」 sai cấu tạo ngữ pháp, từ chỉ tính chất đơn giản là 簡単 [かんたん - ĐƠN GIẢN]."
         },
         "translationVi": "Bài kiểm tra này rất dễ.",
         "vocabulary": [
           {
             "word": "易しい",
             "hiragana": "やさしい",
-            "meaningVi": "dễ"
+            "meaningVi": "dễ dàng (đề thi, bài toán)"
+          },
+          {
+            "word": "優しい",
+            "hiragana": "やさしい",
+            "meaningVi": "hiền lành, dịu dàng"
+          },
+          {
+            "word": "簡単",
+            "hiragana": "かんたん",
+            "meaningVi": "đơn giản"
           }
         ],
         "grammarPoints": [],
@@ -669,8 +739,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -708,20 +778,25 @@
         "kanji_writing"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "かいけつ viết 解決, nghĩa là giải quyết vấn đề; cần phân biệt với 改決, 解結.",
+        "summaryVi": "Đáp án chính xác: 3.",
+        "correctReasonVi": "「かいけつ」 chữ Hán là 解決 [GIẢI QUYẾT] (giải quyết vấn đề).",
         "optionReasonsVi": {
-          "1": "SAI: 「改決」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. かいけつ viết 解決, nghĩa là giải quyết vấn đề; cần phân biệt với 改決, 解結.",
-          "2": "SAI: 「改結」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. かいけつ viết 解決, nghĩa là giải quyết vấn đề; cần phân biệt với 改決, 解結.",
-          "3": "ĐÚNG: かいけつ viết 解決, nghĩa là giải quyết vấn đề; cần phân biệt với 改決, 解結.",
-          "4": "SAI: 「解結」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. かいけつ viết 解決, nghĩa là giải quyết vấn đề; cần phân biệt với 改決, 解結."
+          "1": "SAI: 「改決」 sai chữ 改 [CẢI] (trong 改革 - cải cách, 改める - sửa đổi).",
+          "2": "SAI: 「改結」 sai cả hai chữ Hán.",
+          "3": "ĐÚNG: 「解決」[GIẢI QUYẾT] nghĩa là giải quyết vấn đề càng sớm càng tốt.",
+          "4": "SAI: 「解結」 sai chữ 結 [KẾT] (trong 結果 - kết quả, 結論 - kết luận)."
         },
         "translationVi": "Hãy giải quyết vấn đề nhanh nhất có thể.",
         "vocabulary": [
           {
             "word": "解決",
             "hiragana": "かいけつ",
-            "meaningVi": "giải quyết"
+            "meaningVi": "giải quyết vấn đề"
+          },
+          {
+            "word": "改革",
+            "hiragana": "かいかく",
+            "meaningVi": "cải cách"
           }
         ],
         "grammarPoints": [],
@@ -729,8 +804,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -768,20 +843,30 @@
         "kanji_writing"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "つもる khi nói tuyết đọng viết là 積もる. 雪が積もる: tuyết tích tụ.",
+        "summaryVi": "Đáp án chính xác: 2.",
+        "correctReasonVi": "「つもって」 là thể て của 積もる [TÍCH] (tuyết phủ dày, chất đống).",
         "optionReasonsVi": {
-          "1": "SAI: 「責もって」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. つもる khi nói tuyết đọng viết là 積もる. 雪が積もる: tuyết tích tụ.",
-          "2": "ĐÚNG: つもる khi nói tuyết đọng viết là 積もる. 雪が積もる: tuyết tích tụ.",
-          "3": "SAI: 「績もって」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. つもる khi nói tuyết đọng viết là 積もる. 雪が積もる: tuyết tích tụ.",
-          "4": "SAI: 「債もって」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. つもる khi nói tuyết đọng viết là 積もる. 雪が積もる: tuyết tích tụ."
+          "1": "SAI: 「責もって」 sai chữ 責 [TRÁCH] (trong 責任 - trách nhiệm).",
+          "2": "ĐÚNG: 「積もって」 là thể て của động từ「積もる」[TÍCH] (tuyết rơi chất đống, tích tụ dày).",
+          "3": "SAI: 「績もって」 sai chữ 績 [TÍCH] (trong 成績 - thành tích).",
+          "4": "SAI: 「債もって」 sai chữ 債 [TRÁI] (trong 負債 - nợ nần, 債券 - trái phiếu)."
         },
         "translationVi": "Tuyết đang chất đống.",
         "vocabulary": [
           {
             "word": "積もる",
             "hiragana": "つもる",
-            "meaningVi": "chất đống"
+            "meaningVi": "chất đống, tuyết tích tụ"
+          },
+          {
+            "word": "責任",
+            "hiragana": "せきにん",
+            "meaningVi": "trách nhiệm"
+          },
+          {
+            "word": "成績",
+            "hiragana": "せいせき",
+            "meaningVi": "thành tích học tập"
           }
         ],
         "grammarPoints": [],
@@ -789,8 +874,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -828,20 +913,25 @@
         "kanji_writing"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "せいけつ viết 清潔, nghĩa là sạch sẽ, vệ sinh.",
+        "summaryVi": "Đáp án chính xác: 1.",
+        "correctReasonVi": "「せいけつ」 chữ Hán là 清潔 [THANH KHIẾT] (sạch sẽ, tinh tươm).",
         "optionReasonsVi": {
-          "1": "ĐÚNG: せいけつ viết 清潔, nghĩa là sạch sẽ, vệ sinh.",
-          "2": "SAI: 「精潔」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. せいけつ viết 清潔, nghĩa là sạch sẽ, vệ sinh.",
-          "3": "SAI: 「静潔」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. せいけつ viết 清潔, nghĩa là sạch sẽ, vệ sinh.",
-          "4": "SAI: 「晴潔」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. せいけつ viết 清潔, nghĩa là sạch sẽ, vệ sinh."
+          "1": "ĐÚNG: 「清潔」[THANH KHIẾT] nghĩa là sạch sẽ, vệ sinh (luôn giữ nhà bếp sạch sẽ tinh tươm).",
+          "2": "SAI: 「精潔」 sai chữ 精 [TINH] (trong 精神 - tinh thần, 精密 - tinh vi).",
+          "3": "SAI: 「静潔」 sai chữ 静 [TĨNH] (trong 静か - yên tĩnh).",
+          "4": "SAI: 「晴潔」 sai chữ 晴 [TÌNH] (trong 晴れ - trời nắng ráo)."
         },
         "translationVi": "Nhà bếp luôn được giữ sạch sẽ.",
         "vocabulary": [
           {
             "word": "清潔",
             "hiragana": "せいけつ",
-            "meaningVi": "sạch sẽ"
+            "meaningVi": "sạch sẽ, hợp vệ sinh"
+          },
+          {
+            "word": "台所",
+            "hiragana": "だいどころ",
+            "meaningVi": "nhà bếp"
           }
         ],
         "grammarPoints": [],
@@ -849,8 +939,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -888,13 +978,13 @@
         "kanji_writing"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "いわう (chúc mừng) viết 祝う. 祝った là thì quá khứ.",
+        "summaryVi": "Đáp án chính xác: 4.",
+        "correctReasonVi": "「いわった」 là thể quá khứ của 祝う [CHÚC] (chúc mừng).",
         "optionReasonsVi": {
-          "1": "SAI: 「税った」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. いわう (chúc mừng) viết 祝う. 祝った là thì quá khứ.",
-          "2": "SAI: 「礼った」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. いわう (chúc mừng) viết 祝う. 祝った là thì quá khứ.",
-          "3": "SAI: 「祈った」 không phải âm đọc/chữ Hán đúng của từ được gạch chân trong ngữ cảnh. いわう (chúc mừng) viết 祝う. 祝った là thì quá khứ.",
-          "4": "ĐÚNG: いわう (chúc mừng) viết 祝う. 祝った là thì quá khứ."
+          "1": "SAI: 「税った」 sai chữ 税 [THUẾ] (trong 税金 - tiền thuế).",
+          "2": "SAI: 「礼った」 sai chữ 礼 [LỄ] (trong お礼 - lời cảm ơn, 礼儀 - lễ nghi phép tắc).",
+          "3": "SAI: 「祈った」 là thể quá khứ của 祈る [いのる - KỲ] (nghĩa là cầu nguyện).",
+          "4": "ĐÚNG: 「祝った」 là thể quá khứ của động từ「祝う」[CHÚC] (mọi người cùng chúc mừng bạn đỗ đại học)."
         },
         "translationVi": "Mọi người cùng chúc mừng bạn đỗ đại học.",
         "vocabulary": [
@@ -902,6 +992,16 @@
             "word": "祝う",
             "hiragana": "いわう",
             "meaningVi": "chúc mừng"
+          },
+          {
+            "word": "合格",
+            "hiragana": "ごうかく",
+            "meaningVi": "đỗ, trúng tuyển"
+          },
+          {
+            "word": "祈る",
+            "hiragana": "いのる",
+            "meaningVi": "cầu nguyện"
           }
         ],
         "grammarPoints": [],
@@ -909,8 +1009,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -948,11 +1048,11 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "平均して là tính trung bình. Câu nói trung bình mỗi ngày làm việc khoảng 10 tiếng.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「平行」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 平均して là tính trung bình. Câu nói trung bình mỗi ngày làm việc khoảng 10 tiếng.",
-          "2": "ĐÚNG: 平均して là tính trung bình. Câu nói trung bình mỗi ngày làm việc khoảng 10 tiếng.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 平均して là tính trung bình. Câu nói trung bình mỗi ngày làm việc khoảng 10 tiếng.",
           "3": "SAI: Đặt 「等分」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 平均して là tính trung bình. Câu nói trung bình mỗi ngày làm việc khoảng 10 tiếng.",
           "4": "SAI: Đặt 「配分」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 平均して là tính trung bình. Câu nói trung bình mỗi ngày làm việc khoảng 10 tiếng."
         },
@@ -969,8 +1069,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1008,13 +1108,13 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 4",
         "correctReasonVi": "意見をまとめる nghĩa là tổng hợp/đúc kết các ý kiến trước khi viết báo cáo.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「ためて」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 意見をまとめる nghĩa là tổng hợp/đúc kết các ý kiến trước khi viết báo cáo.",
           "2": "SAI: Đặt 「おとして」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 意見をまとめる nghĩa là tổng hợp/đúc kết các ý kiến trước khi viết báo cáo.",
           "3": "SAI: Đặt 「まわして」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 意見をまとめる nghĩa là tổng hợp/đúc kết các ý kiến trước khi viết báo cáo.",
-          "4": "ĐÚNG: 意見をまとめる nghĩa là tổng hợp/đúc kết các ý kiến trước khi viết báo cáo."
+          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 意見をまとめる nghĩa là tổng hợp/đúc kết các ý kiến trước khi viết báo cáo."
         },
         "translationVi": "Tổng hợp những ý kiến đưa ra trong cuộc họp rồi viết báo cáo.",
         "vocabulary": [
@@ -1029,8 +1129,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1068,10 +1168,10 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 1",
         "correctReasonVi": "仕事に就く là có việc làm/nhận việc; 仕事につく rồi tự nuôi sống bản thân.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: 仕事に就く là có việc làm/nhận việc; 仕事につく rồi tự nuôi sống bản thân.",
+          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 仕事に就く là có việc làm/nhận việc; 仕事につく rồi tự nuôi sống bản thân.",
           "2": "SAI: Đặt 「のって」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 仕事に就く là có việc làm/nhận việc; 仕事につく rồi tự nuôi sống bản thân.",
           "3": "SAI: Đặt 「かけて」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 仕事に就く là có việc làm/nhận việc; 仕事につく rồi tự nuôi sống bản thân.",
           "4": "SAI: Đặt 「とめて」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 仕事に就く là có việc làm/nhận việc; 仕事につく rồi tự nuôi sống bản thân."
@@ -1089,8 +1189,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1128,11 +1228,11 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "ぎっしり là đầy chật, nhồi kín; chiếc rương chứa đầy quà cho trẻ em.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「びっくり」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ぎっしり là đầy chật, nhồi kín; chiếc rương chứa đầy quà cho trẻ em.",
-          "2": "ĐÚNG: ぎっしり là đầy chật, nhồi kín; chiếc rương chứa đầy quà cho trẻ em.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ぎっしり là đầy chật, nhồi kín; chiếc rương chứa đầy quà cho trẻ em.",
           "3": "SAI: Đặt 「がっかり」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ぎっしり là đầy chật, nhồi kín; chiếc rương chứa đầy quà cho trẻ em.",
           "4": "SAI: Đặt 「はっきり」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ぎっしり là đầy chật, nhồi kín; chiếc rương chứa đầy quà cho trẻ em."
         },
@@ -1149,8 +1249,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1188,12 +1288,12 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 3",
         "correctReasonVi": "ユーモアのある話し方 là cách nói chuyện có tính hài hước, làm giờ học thú vị.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「コメント」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ユーモアのある話し方 là cách nói chuyện có tính hài hước, làm giờ học thú vị.",
           "2": "SAI: Đặt 「ヒント」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ユーモアのある話し方 là cách nói chuyện có tính hài hước, làm giờ học thú vị.",
-          "3": "ĐÚNG: ユーモアのある話し方 là cách nói chuyện có tính hài hước, làm giờ học thú vị.",
+          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ユーモアのある話し方 là cách nói chuyện có tính hài hước, làm giờ học thú vị.",
           "4": "SAI: Đặt 「レベル」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ユーモアのある話し方 là cách nói chuyện có tính hài hước, làm giờ học thú vị."
         },
         "translationVi": "Giờ học của thầy có cách nói chuyện hài hước thật thú vị.",
@@ -1209,8 +1309,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1248,10 +1348,10 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 1",
         "correctReasonVi": "けがをしたあと là vết/dấu tích còn lại sau khi bị thương; あと không phải 手順.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: けがをしたあと là vết/dấu tích còn lại sau khi bị thương; あと không phải 手順.",
+          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): けがをしたあと là vết/dấu tích còn lại sau khi bị thương; あと không phải 手順.",
           "2": "SAI: Đặt 「手順」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. けがをしたあと là vết/dấu tích còn lại sau khi bị thương; あと không phải 手順.",
           "3": "SAI: Đặt 「のこり」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. けがをしたあと là vết/dấu tích còn lại sau khi bị thương; あと không phải 手順.",
           "4": "SAI: Đặt 「残業」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. けがをしたあと là vết/dấu tích còn lại sau khi bị thương; あと không phải 手順."
@@ -1269,8 +1369,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1308,11 +1408,11 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "～程度 (ていど) thể hiện mức độ: chỉ nói được tiếng Anh ở mức hội thoại hằng ngày.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「様子」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ～程度 (ていど) thể hiện mức độ: chỉ nói được tiếng Anh ở mức hội thoại hằng ngày.",
-          "2": "ĐÚNG: ～程度 (ていど) thể hiện mức độ: chỉ nói được tiếng Anh ở mức hội thoại hằng ngày.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～程度 (ていど) thể hiện mức độ: chỉ nói được tiếng Anh ở mức hội thoại hằng ngày.",
           "3": "SAI: Đặt 「都合」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ～程度 (ていど) thể hiện mức độ: chỉ nói được tiếng Anh ở mức hội thoại hằng ngày.",
           "4": "SAI: Đặt 「位置」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. ～程度 (ていど) thể hiện mức độ: chỉ nói được tiếng Anh ở mức hội thoại hằng ngày."
         },
@@ -1329,8 +1429,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1368,13 +1468,13 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 4",
         "correctReasonVi": "くり返してもらう là nhờ đối phương lặp lại lời nói; phù hợp khi không nghe/hiểu rõ.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「気に入って」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. くり返してもらう là nhờ đối phương lặp lại lời nói; phù hợp khi không nghe/hiểu rõ.",
           "2": "SAI: Đặt 「気にして」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. くり返してもらう là nhờ đối phương lặp lại lời nói; phù hợp khi không nghe/hiểu rõ.",
           "3": "SAI: Đặt 「ききかえして」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. くり返してもらう là nhờ đối phương lặp lại lời nói; phù hợp khi không nghe/hiểu rõ.",
-          "4": "ĐÚNG: くり返してもらう là nhờ đối phương lặp lại lời nói; phù hợp khi không nghe/hiểu rõ."
+          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): くり返してもらう là nhờ đối phương lặp lại lời nói; phù hợp khi không nghe/hiểu rõ."
         },
         "translationVi": "Nếu không hiểu lời đối phương, bạn nên nhờ họ lặp lại.",
         "vocabulary": [
@@ -1389,8 +1489,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1428,13 +1528,13 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 4",
         "correctReasonVi": "心がつながっている là tình cảm/tâm hồn vẫn gắn kết dù sống xa gia đình.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「のびて」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 心がつながっている là tình cảm/tâm hồn vẫn gắn kết dù sống xa gia đình.",
           "2": "SAI: Đặt 「こぼれて」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 心がつながっている là tình cảm/tâm hồn vẫn gắn kết dù sống xa gia đình.",
           "3": "SAI: Đặt 「にぎって」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 心がつながっている là tình cảm/tâm hồn vẫn gắn kết dù sống xa gia đình.",
-          "4": "ĐÚNG: 心がつながっている là tình cảm/tâm hồn vẫn gắn kết dù sống xa gia đình."
+          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 心がつながっている là tình cảm/tâm hồn vẫn gắn kết dù sống xa gia đình."
         },
         "translationVi": "Dù xa gia đình, chỉ cần nghĩ trái tim vẫn kết nối là sẽ ổn.",
         "vocabulary": [
@@ -1449,8 +1549,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1488,10 +1588,10 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 1",
         "correctReasonVi": "主張する là nêu quan điểm, khẳng định/đòi hỏi. Cha mẹ học sinh cho rằng lớp học cần máy điều hòa.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: 主張する là nêu quan điểm, khẳng định/đòi hỏi. Cha mẹ học sinh cho rằng lớp học cần máy điều hòa.",
+          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 主張する là nêu quan điểm, khẳng định/đòi hỏi. Cha mẹ học sinh cho rằng lớp học cần máy điều hòa.",
           "2": "SAI: Đặt 「感動」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 主張する là nêu quan điểm, khẳng định/đòi hỏi. Cha mẹ học sinh cho rằng lớp học cần máy điều hòa.",
           "3": "SAI: Đặt 「緊張」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 主張する là nêu quan điểm, khẳng định/đòi hỏi. Cha mẹ học sinh cho rằng lớp học cần máy điều hòa.",
           "4": "SAI: Đặt 「提出」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. 主張する là nêu quan điểm, khẳng định/đòi hỏi. Cha mẹ học sinh cho rằng lớp học cần máy điều hòa."
@@ -1509,8 +1609,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1548,11 +1648,11 @@
         "context_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "はずかしい là xấu hổ. Bị bạn nhìn thấy phòng bẩn nên thấy ngượng.",
         "optionReasonsVi": {
           "1": "SAI: Đặt 「なつかしく」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. はずかしい là xấu hổ. Bị bạn nhìn thấy phòng bẩn nên thấy ngượng.",
-          "2": "ĐÚNG: はずかしい là xấu hổ. Bị bạn nhìn thấy phòng bẩn nên thấy ngượng.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): はずかしい là xấu hổ. Bị bạn nhìn thấy phòng bẩn nên thấy ngượng.",
           "3": "SAI: Đặt 「うらやましく」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. はずかしい là xấu hổ. Bị bạn nhìn thấy phòng bẩn nên thấy ngượng.",
           "4": "SAI: Đặt 「したしく」 vào câu sẽ không diễn đạt đúng nghĩa/cách kết hợp từ cần thiết. はずかしい là xấu hổ. Bị bạn nhìn thấy phòng bẩn nên thấy ngượng."
         },
@@ -1569,8 +1669,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1608,13 +1708,13 @@
         "synonym"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 4",
         "correctReasonVi": "むだな nghĩa là vô ích, không có ý nghĩa thiết thực; tương đương 意味がない.",
         "optionReasonsVi": {
           "1": "SAI: 「努力が必要な」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. むだな nghĩa là vô ích, không có ý nghĩa thiết thực; tương đương 意味がない.",
           "2": "SAI: 「努力がいらない」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. むだな nghĩa là vô ích, không có ý nghĩa thiết thực; tương đương 意味がない.",
           "3": "SAI: 「意味がある」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. むだな nghĩa là vô ích, không có ý nghĩa thiết thực; tương đương 意味がない.",
-          "4": "ĐÚNG: むだな nghĩa là vô ích, không có ý nghĩa thiết thực; tương đương 意味がない."
+          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): むだな nghĩa là vô ích, không có ý nghĩa thiết thực; tương đương 意味がない."
         },
         "translationVi": "Có lẽ học chữ Hán thời nay là điều vô ích?",
         "vocabulary": [
@@ -1629,8 +1729,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 6. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1668,11 +1768,11 @@
         "synonym"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "いくつか là một vài, số lượng nhỏ không xác định; 3～5つ là cách diễn giải gần nhất.",
         "optionReasonsVi": {
           "1": "SAI: 「1つ」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. いくつか là một vài, số lượng nhỏ không xác định; 3～5つ là cách diễn giải gần nhất.",
-          "2": "ĐÚNG: いくつか là một vài, số lượng nhỏ không xác định; 3～5つ là cách diễn giải gần nhất.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): いくつか là một vài, số lượng nhỏ không xác định; 3～5つ là cách diễn giải gần nhất.",
           "3": "SAI: 「10以上」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. いくつか là một vài, số lượng nhỏ không xác định; 3～5つ là cách diễn giải gần nhất.",
           "4": "SAI: 「非常にたくさん」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. いくつか là một vài, số lượng nhỏ không xác định; 3～5つ là cách diễn giải gần nhất."
         },
@@ -1689,8 +1789,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 6. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1728,12 +1828,12 @@
         "synonym"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 3",
         "correctReasonVi": "そろった nghĩa là đã có đủ/đã tập hợp đầy đủ thành viên, tương đương 全員集まった.",
         "optionReasonsVi": {
           "1": "SAI: 「呼ばれた」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. そろった nghĩa là đã có đủ/đã tập hợp đầy đủ thành viên, tương đương 全員集まった.",
           "2": "SAI: 「話し合った」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. そろった nghĩa là đã có đủ/đã tập hợp đầy đủ thành viên, tương đương 全員集まった.",
-          "3": "ĐÚNG: そろった nghĩa là đã có đủ/đã tập hợp đầy đủ thành viên, tương đương 全員集まった.",
+          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): そろった nghĩa là đã có đủ/đã tập hợp đầy đủ thành viên, tương đương 全員集まった.",
           "4": "SAI: 「足りなかった」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. そろった nghĩa là đã có đủ/đã tập hợp đầy đủ thành viên, tương đương 全員集まった."
         },
         "translationVi": "Các thành viên của dự án mới đã tập hợp đầy đủ.",
@@ -1749,8 +1849,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 6. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1788,10 +1888,10 @@
         "synonym"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 1",
         "correctReasonVi": "伝言 là lời nhắn gửi qua người khác; gần nghĩa メッセージ.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: 伝言 là lời nhắn gửi qua người khác; gần nghĩa メッセージ.",
+          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 伝言 là lời nhắn gửi qua người khác; gần nghĩa メッセージ.",
           "2": "SAI: 「メール」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 伝言 là lời nhắn gửi qua người khác; gần nghĩa メッセージ.",
           "3": "SAI: 「郵便」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 伝言 là lời nhắn gửi qua người khác; gần nghĩa メッセージ.",
           "4": "SAI: 「命令」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 伝言 là lời nhắn gửi qua người khác; gần nghĩa メッセージ."
@@ -1809,8 +1909,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 6. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1848,11 +1948,11 @@
         "synonym"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "雨天中止 nghĩa là nếu trời mưa thì hủy; không phải vẫn tổ chức trong mưa.",
         "optionReasonsVi": {
           "1": "SAI: 「雨が降ってもやります」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 雨天中止 nghĩa là nếu trời mưa thì hủy; không phải vẫn tổ chức trong mưa.",
-          "2": "ĐÚNG: 雨天中止 nghĩa là nếu trời mưa thì hủy; không phải vẫn tổ chức trong mưa.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 雨天中止 nghĩa là nếu trời mưa thì hủy; không phải vẫn tổ chức trong mưa.",
           "3": "SAI: 「雨が降るかどうかわかりません」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 雨天中止 nghĩa là nếu trời mưa thì hủy; không phải vẫn tổ chức trong mưa.",
           "4": "SAI: 「雨が降ってもすぐやめます」 không đồng nghĩa sát nhất với từ được hỏi; cần phân biệt sắc thái. 雨天中止 nghĩa là nếu trời mưa thì hủy; không phải vẫn tổ chức trong mưa."
         },
@@ -1869,8 +1969,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 6. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1908,12 +2008,12 @@
         "usage"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 3",
         "correctReasonVi": "偶然 dùng cho sự việc xảy ra tình cờ, ngoài dự kiến. Phát hiện tình cờ trong thí nghiệm là cách dùng tự nhiên.",
         "optionReasonsVi": {
           "1": "SAI: Cách dùng ở câu 「映画館には偶然行くが、やはり家で見るよりずっといいと思う。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 偶然 dùng cho sự việc xảy ra tình cờ, ngoài dự kiến. Phát hiện tình cờ trong thí nghiệm là cách dùng tự nhiên.",
           "2": "SAI: Cách dùng ở câu 「マリさんは初めて外国で生活しているのだから、偶然ストレスがある。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 偶然 dùng cho sự việc xảy ra tình cờ, ngoài dự kiến. Phát hiện tình cờ trong thí nghiệm là cách dùng tự nhiên.",
-          "3": "ĐÚNG: 偶然 dùng cho sự việc xảy ra tình cờ, ngoài dự kiến. Phát hiện tình cờ trong thí nghiệm là cách dùng tự nhiên.",
+          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 偶然 dùng cho sự việc xảy ra tình cờ, ngoài dự kiến. Phát hiện tình cờ trong thí nghiệm là cách dùng tự nhiên.",
           "4": "SAI: Cách dùng ở câu 「家族など非常に近い関係でも、互いを偶然理解することはできない。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 偶然 dùng cho sự việc xảy ra tình cờ, ngoài dự kiến. Phát hiện tình cờ trong thí nghiệm là cách dùng tự nhiên."
         },
         "translationVi": "Hãy chọn cách dùng 偶然 đúng nhất.",
@@ -1929,8 +2029,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 7. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -1968,11 +2068,11 @@
         "usage"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "ぜひ thường dùng để bày tỏ mong muốn/mời tha thiết: ぜひ一度遊びに来てほしい.",
         "optionReasonsVi": {
           "1": "SAI: Cách dùng ở câu 「大学に入学するときは、ぜひテストを受けなければなりません。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. ぜひ thường dùng để bày tỏ mong muốn/mời tha thiết: ぜひ一度遊びに来てほしい.",
-          "2": "ĐÚNG: ぜひ thường dùng để bày tỏ mong muốn/mời tha thiết: ぜひ一度遊びに来てほしい.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ぜひ thường dùng để bày tỏ mong muốn/mời tha thiết: ぜひ一度遊びに来てほしい.",
           "3": "SAI: Cách dùng ở câu 「私は山に登ると、高山病でぜひ頭がいたくなります。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. ぜひ thường dùng để bày tỏ mong muốn/mời tha thiết: ぜひ一度遊びに来てほしい.",
           "4": "SAI: Cách dùng ở câu 「コンピューターの近くでぜひ飲み物を飲まないようにしている。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. ぜひ thường dùng để bày tỏ mong muốn/mời tha thiết: ぜひ一度遊びに来てほしい."
         },
@@ -1989,8 +2089,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 7. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2028,11 +2128,11 @@
         "usage"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "予想が当たる là dự đoán trúng. Các câu còn lại dùng 当たる sai kết hợp từ.",
         "optionReasonsVi": {
           "1": "SAI: Cách dùng ở câu 「東京からの特急列車は大阪に当たり、しばらく止まって出発した。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 予想が当たる là dự đoán trúng. Các câu còn lại dùng 当たる sai kết hợp từ.",
-          "2": "ĐÚNG: 予想が当たる là dự đoán trúng. Các câu còn lại dùng 当たる sai kết hợp từ.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 予想が当たる là dự đoán trúng. Các câu còn lại dùng 当たる sai kết hợp từ.",
           "3": "SAI: Cách dùng ở câu 「課長は部長と意見が当たり、激しく議論を始めた。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 予想が当たる là dự đoán trúng. Các câu còn lại dùng 当たる sai kết hợp từ.",
           "4": "SAI: Cách dùng ở câu 「入学式は、4月10日に当たることになった。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 予想が当たる là dự đoán trúng. Các câu còn lại dùng 当たる sai kết hợp từ."
         },
@@ -2049,8 +2149,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 7. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2088,10 +2188,10 @@
         "usage"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 1",
         "correctReasonVi": "影響する diễn tả ảnh hưởng gây ra kết quả: mưa lớn ảnh hưởng khiến xe buýt đến muộn.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: 影響する diễn tả ảnh hưởng gây ra kết quả: mưa lớn ảnh hưởng khiến xe buýt đến muộn.",
+          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 影響する diễn tả ảnh hưởng gây ra kết quả: mưa lớn ảnh hưởng khiến xe buýt đến muộn.",
           "2": "SAI: Cách dùng ở câu 「私は、コンピューターに影響した仕事がしたいと考えています。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 影響する diễn tả ảnh hưởng gây ra kết quả: mưa lớn ảnh hưởng khiến xe buýt đến muộn.",
           "3": "SAI: Cách dùng ở câu 「蝶など昆虫の体は、数回影響して最終的な姿になる。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 影響する diễn tả ảnh hưởng gây ra kết quả: mưa lớn ảnh hưởng khiến xe buýt đến muộn.",
           "4": "SAI: Cách dùng ở câu 「大学院で、人間と自然とのかかわりについて影響している。」 chưa phù hợp với kết hợp từ/văn cảnh chuẩn. 影響する diễn tả ảnh hưởng gây ra kết quả: mưa lớn ảnh hưởng khiến xe buýt đến muộn."
@@ -2109,8 +2209,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 7. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2169,8 +2269,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 7. Đáp án đối chiếu bảng Excel: 5. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập. CẢNH BÁO: Giá trị đáp án Excel = 5, ngoài phạm vi 1–4; giữ null, tuyệt đối không chấm điểm trước khi kiểm tra. Có thể xem xét lựa chọn 3 theo ngữ cảnh nhưng chưa xác nhận."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2208,16 +2308,22 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "どうも～ようだ = có vẻ như/dường như; nhìn trời tối dự đoán buổi chiều trời mưa.",
+        "summaryVi": "Đáp án chính xác: 4.",
+        "correctReasonVi": "「統一」（とういつ - THỐNG NHẤT）nghĩa là thống nhất đất nước.",
         "optionReasonsVi": {
-          "1": "SAI: 「どうか」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. どうも～ようだ = có vẻ như/dường như; nhìn trời tối dự đoán buổi chiều trời mưa.",
-          "2": "ĐÚNG: どうも～ようだ = có vẻ như/dường như; nhìn trời tối dự đoán buổi chiều trời mưa.",
-          "3": "SAI: 「どうして」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. どうも～ようだ = có vẻ như/dường như; nhìn trời tối dự đoán buổi chiều trời mưa.",
-          "4": "SAI: 「どうしても」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. どうも～ようだ = có vẻ như/dường như; nhìn trời tối dự đoán buổi chiều trời mưa."
+          "1": "SAI: 「といち」 sai âm on của 統 (phải đọc trường âm とう).",
+          "2": "SAI: 「といつ」 thiếu trường âm とう.",
+          "3": "SAI: 「とういち」 sai âm đọc của chữ 一 (trong 統一 đọc là いつ).",
+          "4": "ĐÚNG: 「統一」 đọc là「とういつ」[THỐNG NHẤT] (đất nước được thống nhất đã được 30 năm)."
         },
         "translationVi": "Trời tối. Hình như chiều nay sẽ mưa.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "統一",
+            "hiragana": "とういつ",
+            "meaningVi": "thống nhất quốc gia"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "どうも",
@@ -2230,8 +2336,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2269,16 +2375,32 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "～ことは…のだ nhấn mạnh kết luận: điều quan trọng khi quyết định công việc chính là suy nghĩ sở trường.",
+        "summaryVi": "Đáp án chính xác: 2.",
+        "correctReasonVi": "「重ねて」（かさねて - TRỌNG）là thể て của 重ねる (xếp chồng, chồng lên).",
         "optionReasonsVi": {
-          "1": "ĐÚNG: ～ことは…のだ nhấn mạnh kết luận: điều quan trọng khi quyết định công việc chính là suy nghĩ sở trường.",
-          "2": "SAI: 「のだ」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ことは…のだ nhấn mạnh kết luận: điều quan trọng khi quyết định công việc chính là suy nghĩ sở trường.",
-          "3": "SAI: 「ものだ」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ことは…のだ nhấn mạnh kết luận: điều quan trọng khi quyết định công việc chính là suy nghĩ sở trường.",
-          "4": "SAI: 「場合だ」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ことは…のだ nhấn mạnh kết luận: điều quan trọng khi quyết định công việc chính là suy nghĩ sở trường."
+          "1": "SAI: 「おもねて」 là chữ Hán「阿ねて」[A] (nghĩa là nịnh hót, a dua).",
+          "2": "ĐÚNG: 「重ねて」 là thể て của động từ「重ねる」[TRỌNG] (nghĩa là xếp chồng tài liệu lên nhau).",
+          "3": "SAI: 「たばねて」 là chữ Hán「束ねて」[THÚC] (nghĩa là bó lại, buộc thành bó).",
+          "4": "SAI: 「たずねて」 là chữ Hán「尋ねて」[TẦM] (hỏi han) hoặc「訪ねて」[PHÓNG] (ghé thăm)."
         },
         "translationVi": "Điều quan trọng khi quyết định công việc chính là suy nghĩ điều mình giỏi.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "重ねる",
+            "hiragana": "かさねる",
+            "meaningVi": "xếp chồng lên, lặp lại"
+          },
+          {
+            "word": "束ねる",
+            "hiragana": "たばねる",
+            "meaningVi": "bó lại, buộc lại"
+          },
+          {
+            "word": "訪ねる",
+            "hiragana": "たずねる",
+            "meaningVi": "ghé thăm"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "ことだ",
@@ -2291,8 +2413,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2330,16 +2452,27 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "消えていなかった là tự động từ 消える ở phủ định quá khứ: đèn đã không tắt khi về nhà.",
+        "summaryVi": "Đáp án chính xác: 1.",
+        "correctReasonVi": "「世代」（せだい - THẾ ĐẠI）nghĩa là thế hệ.",
         "optionReasonsVi": {
-          "1": "SAI: 「消していた」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 消えていなかった là tự động từ 消える ở phủ định quá khứ: đèn đã không tắt khi về nhà.",
-          "2": "SAI: 「消えていた」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 消えていなかった là tự động từ 消える ở phủ định quá khứ: đèn đã không tắt khi về nhà.",
-          "3": "SAI: 「消した」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 消えていなかった là tự động từ 消える ở phủ định quá khứ: đèn đã không tắt khi về nhà.",
-          "4": "ĐÚNG: 消えていなかった là tự động từ 消える ở phủ định quá khứ: đèn đã không tắt khi về nhà."
+          "1": "ĐÚNG: 「世代」 đọc là「せだい」[THẾ ĐẠI] (thế hệ khác nhau thì cách suy nghĩ cũng khác nhau).",
+          "2": "SAI: 「せいだい」 là chữ Hán「盛大」[THỊNH ĐẠI] (nghĩa là linh đình, hoành tráng; bẫy thừa trường âm せい).",
+          "3": "SAI: 「せたい」 là chữ Hán「世帯」[THẾ ĐỚI] (nghĩa là hộ gia đình).",
+          "4": "SAI: 「せいたい」 là chữ Hán「生態」[SINH THÁI] (hệ sinh thái) hoặc「正体」[CHÍNH THỂ] (chân tướng)."
         },
         "translationVi": "Tôi tưởng đã tắt điện trước khi ra ngoài, nhưng khi về thì chưa tắt.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "世代",
+            "hiragana": "せだい",
+            "meaningVi": "thế hệ"
+          },
+          {
+            "word": "世帯",
+            "hiragana": "せたい",
+            "meaningVi": "hộ gia đình"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "消えていなかった",
@@ -2352,8 +2485,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2391,16 +2524,27 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "～かもしれない diễn tả khả năng chưa chắc xảy ra: sau này có thể sống ở nước ngoài.",
+        "summaryVi": "Đáp án chính xác: 3.",
+        "correctReasonVi": "「片道」（かたみち - PHIẾN ĐẠO）nghĩa là đường một chiều, lượt đi.",
         "optionReasonsVi": {
-          "1": "SAI: 「住もう」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～かもしれない diễn tả khả năng chưa chắc xảy ra: sau này có thể sống ở nước ngoài.",
-          "2": "SAI: 「住むつもりだ」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～かもしれない diễn tả khả năng chưa chắc xảy ra: sau này có thể sống ở nước ngoài.",
-          "3": "ĐÚNG: ～かもしれない diễn tả khả năng chưa chắc xảy ra: sau này có thể sống ở nước ngoài.",
-          "4": "SAI: 「住んでもいい」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～かもしれない diễn tả khả năng chưa chắc xảy ra: sau này có thể sống ở nước ngoài."
+          "1": "SAI: 「へんみち」 bẫy âm on của 片 là へん (như trong 破片 - mảnh vỡ).",
+          "2": "SAI: 「へんどう」 là chữ Hán「変動」[BIẾN ĐỘNG] (biến động).",
+          "3": "ĐÚNG: 「片道」 đọc là「かたみち」[PHIẾN ĐẠO] (nghĩa là một chiều; đi đến công ty một chiều mất 1 tiếng).",
+          "4": "SAI: 「かたどう」 sai âm đọc của chữ 道 (trong từ này đọc âm kun là みち)."
         },
         "translationVi": "Xã hội ngày càng quốc tế hóa; có thể sau này tôi sẽ sống ở nước ngoài.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "片道",
+            "hiragana": "かたみち",
+            "meaningVi": "một chiều (lượt đi)"
+          },
+          {
+            "word": "往復",
+            "hiragana": "おうふく",
+            "meaningVi": "khứ hồi (hai chiều)"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "住むかもしれない",
@@ -2413,8 +2557,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2452,16 +2596,27 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "～たくてたまらなかった diễn tả cảm giác rất muốn làm: trẻ em trước đây cực kỳ muốn chơi ngoài trời.",
+        "summaryVi": "Đáp án chính xác: 2.",
+        "correctReasonVi": "「無事」（ぶじ - VÔ SỰ）nghĩa là bình an vô sự, an toàn.",
         "optionReasonsVi": {
-          "1": "SAI: 「遊びたい」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～たくてたまらなかった diễn tả cảm giác rất muốn làm: trẻ em trước đây cực kỳ muốn chơi ngoài trời.",
-          "2": "SAI: 「遊ぶつもりじゃなかった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～たくてたまらなかった diễn tả cảm giác rất muốn làm: trẻ em trước đây cực kỳ muốn chơi ngoài trời.",
-          "3": "ĐÚNG: ～たくてたまらなかった diễn tả cảm giác rất muốn làm: trẻ em trước đây cực kỳ muốn chơi ngoài trời.",
-          "4": "SAI: 「遊びたがっていなかった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～たくてたまらなかった diễn tả cảm giác rất muốn làm: trẻ em trước đây cực kỳ muốn chơi ngoài trời."
+          "1": "SAI: 「むじ」 là chữ Hán「無地」[VÔ ĐỊA] (nghĩa là vải trơn, không có họa tiết).",
+          "2": "ĐÚNG: 「無事」 đọc là「ぶじ」[VÔ SỰ] (chuyến du lịch đã trở về bình an vô sự).",
+          "3": "SAI: 「むうじ」 sai trường âm.",
+          "4": "SAI: 「ぶうじ」 sai trường âm."
         },
         "translationVi": "Trước đây khi còn nhỏ, chúng ta rất muốn chơi ngoài trời, nhưng trẻ bây giờ có vẻ khác.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "無事",
+            "hiragana": "ぶじ",
+            "meaningVi": "bình an vô sự"
+          },
+          {
+            "word": "無地",
+            "hiragana": "むじ",
+            "meaningVi": "trơn, không họa tiết"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "遊びたくてたまらなかった",
@@ -2474,8 +2629,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2513,16 +2668,32 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "～という名前 = cái tên gọi là...; “佐藤という名前”.",
+        "summaryVi": "Đáp án chính xác: 4.",
+        "correctReasonVi": "「底」（そこ - ĐỂ）nghĩa là phần đáy.",
         "optionReasonsVi": {
-          "1": "SAI: 「なんて」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～という名前 = cái tên gọi là...; “佐藤という名前”.",
-          "2": "SAI: 「との」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～という名前 = cái tên gọi là...; “佐藤という名前”.",
-          "3": "SAI: 「といった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～という名前 = cái tên gọi là...; “佐藤という名前”.",
-          "4": "ĐÚNG: ～という名前 = cái tên gọi là...; “佐藤という名前”."
+          "1": "SAI: 「ふた」 là chữ Hán「蓋」[CÁI] (nghĩa là cái nắp đậy).",
+          "2": "SAI: 「よこ」 là chữ Hán「横」[HOÀNH] (nghĩa là bên cạnh, bề ngang).",
+          "3": "SAI: 「わき」 là chữ Hán「脇」[HIỆP] (nghĩa là bên hông, nách).",
+          "4": "ĐÚNG: 「底」 đọc là「そこ」[ĐỂ] (nghĩa là phần đáy của chiếc hộp bị thủng một lỗ nhỏ)."
         },
         "translationVi": "Tên họ Sato phổ biến nhất ở Nhật Bản, tiếp theo là Suzuki.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "底",
+            "hiragana": "そこ",
+            "meaningVi": "phần đáy"
+          },
+          {
+            "word": "蓋",
+            "hiragana": "ふた",
+            "meaningVi": "cái nắp đậy"
+          },
+          {
+            "word": "横",
+            "hiragana": "よこ",
+            "meaningVi": "bên cạnh, bề ngang"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "という",
@@ -2535,8 +2706,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2574,16 +2745,27 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "うかがう là cách nói khiêm nhường của 聞く／尋ねる; ～てもいいでしょうか xin phép được hỏi.",
+        "summaryVi": "Đáp án chính xác: 3.",
+        "correctReasonVi": "「指示」（しじ - CHỈ THỊ）nghĩa là chỉ thị, hướng dẫn chỉ đạo.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: うかがう là cách nói khiêm nhường của 聞く／尋ねる; ～てもいいでしょうか xin phép được hỏi.",
-          "2": "SAI: 「うかがわれても」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. うかがう là cách nói khiêm nhường của 聞く／尋ねる; ～てもいいでしょうか xin phép được hỏi.",
-          "3": "SAI: 「うかがわせても」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. うかがう là cách nói khiêm nhường của 聞く／尋ねる; ～てもいいでしょうか xin phép được hỏi.",
-          "4": "SAI: 「うかがわせられても」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. うかがう là cách nói khiêm nhường của 聞く／尋ねる; ～てもいいでしょうか xin phép được hỏi."
+          "1": "SAI: 「ゆびじ」 bẫy âm kun của 指 là ゆび (ngón tay).",
+          "2": "SAI: 「ゆびし」 sai âm đọc.",
+          "3": "ĐÚNG: 「指示」 đọc là「しじ」[CHỈ THỊ] (việc quan trọng sẽ có chỉ thị trực tiếp từ giám đốc).",
+          "4": "SAI: 「じじ」 là chữ Hán「時事」[THỜI SỰ] (việc đương thời) hoặc「祖父」[TỔ PHỤ - ông lão]."
         },
         "translationVi": "Thưa thầy, em có điều chưa hiểu, em có thể hỏi được không ạ?",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "指示",
+            "hiragana": "しじ",
+            "meaningVi": "chỉ thị, hướng dẫn"
+          },
+          {
+            "word": "直接",
+            "hiragana": "ちょくせつ",
+            "meaningVi": "trực tiếp"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "うかがっても",
@@ -2596,8 +2778,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2635,16 +2817,32 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "お持ちください là cách nói lịch sự mời khách mang/lấy tờ giới thiệu; không dùng お持ちします khi đề nghị khách tự lấy.",
+        "summaryVi": "Đáp án chính xác: 1.",
+        "correctReasonVi": "「過去」（かこ - QUÁ KHỨ）nghĩa là quá khứ.",
         "optionReasonsVi": {
-          "1": "SAI: 「お持ちします」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. お持ちください là cách nói lịch sự mời khách mang/lấy tờ giới thiệu; không dùng お持ちします khi đề nghị khách tự lấy.",
-          "2": "ĐÚNG: お持ちください là cách nói lịch sự mời khách mang/lấy tờ giới thiệu; không dùng お持ちします khi đề nghị khách tự lấy.",
-          "3": "SAI: 「お持ちになります」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. お持ちください là cách nói lịch sự mời khách mang/lấy tờ giới thiệu; không dùng お持ちします khi đề nghị khách tự lấy.",
-          "4": "SAI: 「お持ちしてください」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. お持ちください là cách nói lịch sự mời khách mang/lấy tờ giới thiệu; không dùng お持ちします khi đề nghị khách tự lấy."
+          "1": "ĐÚNG: 「過去」 đọc là「かこ」[QUÁ KHỨ] (nghĩa là không quên những chuyện trong quá khứ).",
+          "2": "SAI: 「かこう」 là chữ Hán「加工」[GIA CÔNG] hoặc「下降」[HẠ GIÁNG] (đi xuống).",
+          "3": "SAI: 「かきょ」 là chữ Hán「科挙」[KHOA CỬ] (thi khoa cử).",
+          "4": "SAI: 「かきょう」 là chữ Hán「佳境」[GIA CẢNH] (giai đoạn cao trào)."
         },
         "translationVi": "Đây là tờ giới thiệu, xin quý khách tự do lấy mang theo.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "過去",
+            "hiragana": "かこ",
+            "meaningVi": "quá khứ"
+          },
+          {
+            "word": "現在",
+            "hiragana": "げんざい",
+            "meaningVi": "hiện tại"
+          },
+          {
+            "word": "未来",
+            "hiragana": "みらい",
+            "meaningVi": "tương lai"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "お持ちください",
@@ -2657,8 +2855,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 11. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2696,16 +2894,32 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "～なくて biểu đạt nguyên nhân gây khó khăn: không uống được nước nên rất vất vả.",
+        "summaryVi": "Đáp án chính xác: 4.",
+        "correctReasonVi": "「はしら」 chữ Hán là 柱 [TRỤ] (cột nhà, trụ cột).",
         "optionReasonsVi": {
-          "1": "ĐÚNG: ～なくて biểu đạt nguyên nhân gây khó khăn: không uống được nước nên rất vất vả.",
-          "2": "SAI: 「飲めないと」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～なくて biểu đạt nguyên nhân gây khó khăn: không uống được nước nên rất vất vả.",
-          "3": "SAI: 「飲めなければ」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～なくて biểu đạt nguyên nhân gây khó khăn: không uống được nước nên rất vất vả.",
-          "4": "SAI: 「飲めなかったら」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～なくて biểu đạt nguyên nhân gây khó khăn: không uống được nước nên rất vất vả."
+          "1": "SAI: 「株」[CHU] nghĩa là gốc cây, cổ phiếu (trong 株式会社 - công ty cổ phần).",
+          "2": "SAI: 「札」[TRÁT] nghĩa là tấm thẻ, tờ tiền giấy (như trong お札, 改札口).",
+          "3": "SAI: 「橋」[KIỀU] nghĩa là cây cầu bắc qua sông.",
+          "4": "ĐÚNG: 「柱」[TRỤ] nghĩa là cây cột, trụ nhà (nhìn thấy chiếc cột lớn ở đằng xa)."
         },
         "translationVi": "Sau trận động đất trước, do không uống được nước nên tôi đã rất khổ sở.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "柱",
+            "hiragana": "はしら",
+            "meaningVi": "cột nhà, trụ"
+          },
+          {
+            "word": "橋",
+            "hiragana": "はし",
+            "meaningVi": "cây cầu"
+          },
+          {
+            "word": "株",
+            "hiragana": "かぶ",
+            "meaningVi": "cổ phiếu, gốc cây"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "飲めなくて",
@@ -2718,8 +2932,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 11. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2757,16 +2971,32 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "～なくてもよくなった nghĩa là đã trở nên không cần phải làm; kết quả xét nghiệm cho thấy không cần nhập viện.",
+        "summaryVi": "Đáp án chính xác: 3.",
+        "correctReasonVi": "「やさしい」 trong ngữ cảnh bài kiểm tra là 易しい [DỊ] (dễ dàng).",
         "optionReasonsVi": {
-          "1": "SAI: 「してもよくなった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～なくてもよくなった nghĩa là đã trở nên không cần phải làm; kết quả xét nghiệm cho thấy không cần nhập viện.",
-          "2": "ĐÚNG: ～なくてもよくなった nghĩa là đã trở nên không cần phải làm; kết quả xét nghiệm cho thấy không cần nhập viện.",
-          "3": "SAI: 「しなければならなくなった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～なくてもよくなった nghĩa là đã trở nên không cần phải làm; kết quả xét nghiệm cho thấy không cần nhập viện.",
-          "4": "SAI: 「してはいけなくなった」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～なくてもよくなった nghĩa là đã trở nên không cần phải làm; kết quả xét nghiệm cho thấy không cần nhập viện."
+          "1": "SAI: 「低い」[ĐÊ] nghĩa là thấp (về chiều cao, nhiệt độ, âm thanh).",
+          "2": "SAI: 「安い」[AN] nghĩa là giá rẻ, an tâm.",
+          "3": "ĐÚNG: 「易しい」[DỊ] nghĩa là dễ dàng (bài kiểm tra này rất dễ). Lưu ý: 優しい [ƯU] là hiền lành, tốt bụng.",
+          "4": "SAI: 「単い」 sai cấu tạo ngữ pháp, từ chỉ tính chất đơn giản là 簡単 [かんたん - ĐƠN GIẢN]."
         },
         "translationVi": "Ban đầu nghĩ phải nhập viện, nhưng kết quả kiểm tra cho thấy không cần nữa.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "易しい",
+            "hiragana": "やさしい",
+            "meaningVi": "dễ dàng (đề thi, bài toán)"
+          },
+          {
+            "word": "優しい",
+            "hiragana": "やさしい",
+            "meaningVi": "hiền lành, dịu dàng"
+          },
+          {
+            "word": "簡単",
+            "hiragana": "かんたん",
+            "meaningVi": "đơn giản"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "しなくてもよくなった",
@@ -2779,8 +3009,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 11. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2818,16 +3048,27 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "～そうもない = có vẻ không thể/sẽ không; bé Akio trông không chịu ăn rau.",
+        "summaryVi": "Đáp án chính xác: 3.",
+        "correctReasonVi": "「かいけつ」 chữ Hán là 解決 [GIẢI QUYẾT] (giải quyết vấn đề).",
         "optionReasonsVi": {
-          "1": "SAI: 「食べたがっている」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～そうもない = có vẻ không thể/sẽ không; bé Akio trông không chịu ăn rau.",
-          "2": "SAI: 「食べようがない」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～そうもない = có vẻ không thể/sẽ không; bé Akio trông không chịu ăn rau.",
-          "3": "SAI: 「食べるそうじゃない」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～そうもない = có vẻ không thể/sẽ không; bé Akio trông không chịu ăn rau.",
-          "4": "ĐÚNG: ～そうもない = có vẻ không thể/sẽ không; bé Akio trông không chịu ăn rau."
+          "1": "SAI: 「改決」 sai chữ 改 [CẢI] (trong 改革 - cải cách, 改める - sửa đổi).",
+          "2": "SAI: 「改結」 sai cả hai chữ Hán.",
+          "3": "ĐÚNG: 「解決」[GIẢI QUYẾT] nghĩa là giải quyết vấn đề càng sớm càng tốt.",
+          "4": "SAI: 「解結」 sai chữ 結 [KẾT] (trong 結果 - kết quả, 結論 - kết luận)."
         },
         "translationVi": "Akio có vẻ không ăn món salad nên ăn giúp em nhé?",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "解決",
+            "hiragana": "かいけつ",
+            "meaningVi": "giải quyết vấn đề"
+          },
+          {
+            "word": "改革",
+            "hiragana": "かいかく",
+            "meaningVi": "cải cách"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "食べそうもない",
@@ -2840,8 +3081,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 11. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2879,16 +3120,32 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "～てもらったほうがいい = tốt hơn nên nhờ ai làm; nên hỏi tiền bối đã đi làm.",
+        "summaryVi": "Đáp án chính xác: 2.",
+        "correctReasonVi": "「つもって」 là thể て của 積もる [TÍCH] (tuyết phủ dày, chất đống).",
         "optionReasonsVi": {
-          "1": "SAI: 「教えてくれたほうがいい」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～てもらったほうがいい = tốt hơn nên nhờ ai làm; nên hỏi tiền bối đã đi làm.",
-          "2": "SAI: 「教えてくれるはずだ」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～てもらったほうがいい = tốt hơn nên nhờ ai làm; nên hỏi tiền bối đã đi làm.",
-          "3": "ĐÚNG: ～てもらったほうがいい = tốt hơn nên nhờ ai làm; nên hỏi tiền bối đã đi làm.",
-          "4": "SAI: 「教えてもらえるはずだ」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～てもらったほうがいい = tốt hơn nên nhờ ai làm; nên hỏi tiền bối đã đi làm."
+          "1": "SAI: 「責もって」 sai chữ 責 [TRÁCH] (trong 責任 - trách nhiệm).",
+          "2": "ĐÚNG: 「積もって」 là thể て của động từ「積もる」[TÍCH] (tuyết rơi chất đống, tích tụ dày).",
+          "3": "SAI: 「績もって」 sai chữ 績 [TÍCH] (trong 成績 - thành tích).",
+          "4": "SAI: 「債もって」 sai chữ 債 [TRÁI] (trong 負債 - nợ nần, 債券 - trái phiếu)."
         },
         "translationVi": "Nên nhờ tiền bối đã đi làm giải thích để hiểu không khí công ty.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "積もる",
+            "hiragana": "つもる",
+            "meaningVi": "chất đống, tuyết tích tụ"
+          },
+          {
+            "word": "責任",
+            "hiragana": "せきにん",
+            "meaningVi": "trách nhiệm"
+          },
+          {
+            "word": "成績",
+            "hiragana": "せいせき",
+            "meaningVi": "thành tích học tập"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "教えてもらったほうがいい",
@@ -2901,8 +3158,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 11. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2940,16 +3197,27 @@
         "grammar_fill"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "～ようとしない = không có ý định/không chịu làm; dù được khuyên vẫn không định học đại học.",
+        "summaryVi": "Đáp án chính xác: 1.",
+        "correctReasonVi": "「せいけつ」 chữ Hán là 清潔 [THANH KHIẾT] (sạch sẽ, tinh tươm).",
         "optionReasonsVi": {
-          "1": "SAI: 「しまいとする」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ようとしない = không có ý định/không chịu làm; dù được khuyên vẫn không định học đại học.",
-          "2": "ĐÚNG: ～ようとしない = không có ý định/không chịu làm; dù được khuyên vẫn không định học đại học.",
-          "3": "SAI: 「するつもりだ」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ようとしない = không có ý định/không chịu làm; dù được khuyên vẫn không định học đại học.",
-          "4": "SAI: 「してはいけない」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ようとしない = không có ý định/không chịu làm; dù được khuyên vẫn không định học đại học."
+          "1": "ĐÚNG: 「清潔」[THANH KHIẾT] nghĩa là sạch sẽ, vệ sinh (luôn giữ nhà bếp sạch sẽ tinh tươm).",
+          "2": "SAI: 「精潔」 sai chữ 精 [TINH] (trong 精神 - tinh thần, 精密 - tinh vi).",
+          "3": "SAI: 「静潔」 sai chữ 静 [TĨNH] (trong 静か - yên tĩnh).",
+          "4": "SAI: 「晴潔」 sai chữ 晴 [TÌNH] (trong 晴れ - trời nắng ráo)."
         },
         "translationVi": "Dù được khuyên bao nhiêu, anh Hayashi vẫn không chịu học đại học.",
-        "vocabulary": [],
+        "vocabulary": [
+          {
+            "word": "清潔",
+            "hiragana": "せいけつ",
+            "meaningVi": "sạch sẽ, hợp vệ sinh"
+          },
+          {
+            "word": "台所",
+            "hiragana": "だいどころ",
+            "meaningVi": "nhà bếp"
+          }
+        ],
         "grammarPoints": [
           {
             "pattern": "しようとしない",
@@ -2962,8 +3230,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 12. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2974,7 +3242,7 @@
       "section": "grammar",
       "subtype": "star_arrangement",
       "passageId": null,
-      "questionText": "「私にはできない」ではなくて、____ ____ ★ ____ 。",
+      "questionText": "「私にはできない」ではなくて、____ ★ ____ ____ 。",
       "options": [
         {
           "id": "1",
@@ -3001,30 +3269,41 @@
         "sentence_order"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
-        "correctReasonVi": "Sắp xếp câu thành 「私ならできる」と考える習慣をつけたほうがいい. Vị trí ★ là と考える.",
+        "summaryVi": "Trật tự câu ghép hoàn chỉnh: 「私にはできない」ではなくて、【「私ならできる」 (2) → ★ と考える (4) → 習慣をつけた (1) → ほうがいい (3)】。",
+        "correctReasonVi": "ĐÁP ÁN ĐÚNG là 4. と考える: Cấu trúc ghép câu hoàn chỉnh là 「私ならできる」と考える (nghĩ rằng 'mình có thể làm được') + 習慣をつけたほうがいい (nên tạo thành thói quen). Vị trí ★ nằm ở vị trí số 2 (ô thứ hai), tương ứng với phương án 4 「と考える」. Trật tự đúng: 2 - 4 - 1 - 3.",
         "optionReasonsVi": {
-          "1": "SAI ở vị trí ★: 「習慣をつけた」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp câu thành 「私ならできる」と考える習慣をつけたほうがいい. Vị trí ★ là と考える.",
-          "2": "SAI ở vị trí ★: 「「私ならできる」」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp câu thành 「私ならできる」と考える習慣をつけたほうがいい. Vị trí ★ là と考える.",
-          "3": "SAI ở vị trí ★: 「ほうがいい」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp câu thành 「私ならできる」と考える習慣をつけたほうがいい. Vị trí ★ là と考える.",
-          "4": "ĐÚNG: Sắp xếp câu thành 「私ならできる」と考える習慣をつけたほうがいい. Vị trí ★ là と考える."
+          "1": "SAI: 「習慣をつけた」 nằm ở vị trí số 3, bổ nghĩa cho 「ほうがいい」.",
+          "2": "SAI: 「「私ならできる」」 nằm ở vị trí số 1, mở đầu cho nội dung trích dẫn.",
+          "3": "SAI: 「ほうがいい」 nằm ở vị trí số 4, kết thúc câu với lời khuyên nên làm gì.",
+          "4": "ĐÚNG: 「と考える」 nằm ở vị trí số 2 (vị trí đánh dấu ★). Trật tự đúng là 2 - 4 - 1 - 3."
         },
-        "translationVi": "Tốt hơn nên tập thói quen nghĩ rằng “mình có thể làm được”.",
-        "vocabulary": [],
+        "translationVi": "Thay vì nghĩ “mình không làm được”, tốt hơn nên tập thói quen nghĩ rằng “mình có thể làm được”.",
+        "vocabulary": [
+          {
+            "word": "習慣",
+            "hiragana": "しゅうかん",
+            "meaningVi": "thói quen, tập quán"
+          },
+          {
+            "word": "考える",
+            "hiragana": "かんがえる",
+            "meaningVi": "suy nghĩ, tư duy"
+          }
+        ],
         "grammarPoints": [
           {
-            "pattern": "と考える",
-            "meaningVi": "Sắp xếp câu thành 「私ならできる」と考える習慣をつけたほうがいい. Vị trí ★ là と考える.",
-            "exampleJa": "「私にはできない」ではなくて、  ★  。",
-            "exampleVi": "Tốt hơn nên tập thói quen nghĩ rằng “mình có thể làm được”."
+            "pattern": "〜たほうがいい",
+            "meaningVi": "Khuyên nhủ nên làm gì: [V-た] + ほうがいい.",
+            "exampleJa": "「私ならできる」と考える習慣をつけたほうがいい。",
+            "exampleVi": "Nên tập thói quen nghĩ rằng “mình có thể làm được”."
           }
         ],
         "readingEvidenceJa": "",
-        "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
+        "studyTipVi": "Xác định các cặp đi liền nhau: nội dung trích dẫn 「...」 đi với trợ từ と + động từ 考える; động từ thể quá khứ 習慣をつけた đi với ほうがいい."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 13. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3062,7 +3341,7 @@
         "sentence_order"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Trật tự câu ghép hoàn chỉnh: 心から分かり合える【友達 (1) → を (4) → ★ 持つことが (3) → 人生の大きな楽しみ (2)】である。",
         "correctReasonVi": "Sắp xếp: 心から分かり合える友達を持つことが人生の大きな楽しみである. Vị trí ★ là 持つことが.",
         "optionReasonsVi": {
           "1": "SAI ở vị trí ★: 「友達」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: 心から分かり合える友達を持つことが人生の大きな楽しみである. Vị trí ★ là 持つことが.",
@@ -3084,8 +3363,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 13. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3123,7 +3402,7 @@
         "sentence_order"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Trật tự câu ghép hoàn chỉnh: 少しくらい高くても【品質のいい (4) → 物を買う (3) → ★ ほうが (1) → 長く使える (2)】から、結局は安いと思う。",
         "correctReasonVi": "Sắp xếp: 少しくらい高くても品質のいい物を買うほうが長く使えるから、結局は安いと思う. Vị trí ★ là ほうが.",
         "optionReasonsVi": {
           "1": "ĐÚNG: Sắp xếp: 少しくらい高くても品質のいい物を買うほうが長く使えるから、結局は安いと思う. Vị trí ★ là ほうが.",
@@ -3145,8 +3424,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 13. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3184,7 +3463,7 @@
         "sentence_order"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Trật tự câu ghép hoàn chỉnh: 私は、日本ほど【自然 (3) → ★ が (2) → 美しい国 (4) → は (1)】ないと思っている。",
         "correctReasonVi": "Sắp xếp: 私は、日本ほど自然が美しい国はないと思っている. Vị trí ★ là が.",
         "optionReasonsVi": {
           "1": "SAI ở vị trí ★: 「は」 sẽ xuất hiện ở vị trí khác khi sắp xếp câu theo quan hệ ngữ pháp; cần khôi phục đủ 4 mảnh. Sắp xếp: 私は、日本ほど自然が美しい国はないと思っている. Vị trí ★ là が.",
@@ -3206,8 +3485,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 14. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3245,7 +3524,7 @@
         "sentence_order"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Trật tự câu ghép hoàn chỉnh: 母「よう子、そんなことしちゃダメでしょう。」よう子「え？しなさいと【言われたから (2) → してるのに (3) → ★ どうして (1) → 叱られる (4)】のかわからないよ。」",
         "correctReasonVi": "Sắp xếp: しなさいと言われたからしてるのに、どうして叱られるのかわからない. Vị trí ★ là どうして.",
         "optionReasonsVi": {
           "1": "ĐÚNG: Sắp xếp: しなさいと言われたからしてるのに、どうして叱られるのかわからない. Vị trí ★ là どうして.",
@@ -3267,8 +3546,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 14. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3306,11 +3585,11 @@
         "passage_cloze"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "女の子が家を離れて…: trợ từ が đánh dấu chủ thể của hành động rời nhà.",
         "optionReasonsVi": {
           "1": "SAI: 「は」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 女の子が家を離れて…: trợ từ が đánh dấu chủ thể của hành động rời nhà.",
-          "2": "ĐÚNG: 女の子が家を離れて…: trợ từ が đánh dấu chủ thể của hành động rời nhà.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 女の子が家を離れて…: trợ từ が đánh dấu chủ thể của hành động rời nhà.",
           "3": "SAI: 「の」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 女の子が家を離れて…: trợ từ が đánh dấu chủ thể của hành động rời nhà.",
           "4": "SAI: 「も」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 女の子が家を離れて…: trợ từ が đánh dấu chủ thể của hành động rời nhà."
         },
@@ -3328,8 +3607,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 15. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3367,10 +3646,10 @@
         "passage_cloze"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 1",
         "correctReasonVi": "気に入って có vai trò nối sự việc thích câu chuyện với ý định bắt chước.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: 気に入って có vai trò nối sự việc thích câu chuyện với ý định bắt chước.",
+          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): 気に入って có vai trò nối sự việc thích câu chuyện với ý định bắt chước.",
           "2": "SAI: 「気に入ってから」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 気に入って có vai trò nối sự việc thích câu chuyện với ý định bắt chước.",
           "3": "SAI: 「気に入った」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 気に入って có vai trò nối sự việc thích câu chuyện với ý định bắt chước.",
           "4": "SAI: 「気に入ったら」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. 気に入って có vai trò nối sự việc thích câu chuyện với ý định bắt chước."
@@ -3389,8 +3668,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 15. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3428,13 +3707,13 @@
         "passage_cloze"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 4",
         "correctReasonVi": "もちろん両親には意味を伝えていません: tác giả dĩ nhiên chưa nói ý nghĩa email cho bố mẹ.",
         "optionReasonsVi": {
           "1": "SAI: 「つまり」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. もちろん両親には意味を伝えていません: tác giả dĩ nhiên chưa nói ý nghĩa email cho bố mẹ.",
           "2": "SAI: 「だから」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. もちろん両親には意味を伝えていません: tác giả dĩ nhiên chưa nói ý nghĩa email cho bố mẹ.",
           "3": "SAI: 「たとえば」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. もちろん両親には意味を伝えていません: tác giả dĩ nhiên chưa nói ý nghĩa email cho bố mẹ.",
-          "4": "ĐÚNG: もちろん両親には意味を伝えていません: tác giả dĩ nhiên chưa nói ý nghĩa email cho bố mẹ."
+          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): もちろん両親には意味を伝えていません: tác giả dĩ nhiên chưa nói ý nghĩa email cho bố mẹ."
         },
         "translationVi": "Tác giả chưa giải thích ý nghĩa của bức email lạ cho bố mẹ.",
         "vocabulary": [],
@@ -3450,8 +3729,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 15. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3489,11 +3768,11 @@
         "passage_cloze"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "～んじゃないか nghĩa là “liệu có phải… không”; dự đoán bố mẹ có thể gọi vì không hiểu ý nghĩa.",
         "optionReasonsVi": {
           "1": "SAI: 「んじゃない」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～んじゃないか nghĩa là “liệu có phải… không”; dự đoán bố mẹ có thể gọi vì không hiểu ý nghĩa.",
-          "2": "ĐÚNG: ～んじゃないか nghĩa là “liệu có phải… không”; dự đoán bố mẹ có thể gọi vì không hiểu ý nghĩa.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～んじゃないか nghĩa là “liệu có phải… không”; dự đoán bố mẹ có thể gọi vì không hiểu ý nghĩa.",
           "3": "SAI: 「わけがない」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～んじゃないか nghĩa là “liệu có phải… không”; dự đoán bố mẹ có thể gọi vì không hiểu ý nghĩa.",
           "4": "SAI: 「ことはない」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～んじゃないか nghĩa là “liệu có phải… không”; dự đoán bố mẹ có thể gọi vì không hiểu ý nghĩa."
         },
@@ -3511,8 +3790,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 15. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3550,12 +3829,12 @@
         "passage_cloze"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 3",
         "correctReasonVi": "～ているところです = đang đúng lúc suy nghĩ/làm một hành động; tác giả đang tính gửi dấu ba vòng tròn.",
         "optionReasonsVi": {
           "1": "SAI: 「にちがいありません」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ているところです = đang đúng lúc suy nghĩ/làm một hành động; tác giả đang tính gửi dấu ba vòng tròn.",
           "2": "SAI: 「だろうと思います」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ているところです = đang đúng lúc suy nghĩ/làm một hành động; tác giả đang tính gửi dấu ba vòng tròn.",
-          "3": "ĐÚNG: ～ているところです = đang đúng lúc suy nghĩ/làm một hành động; tác giả đang tính gửi dấu ba vòng tròn.",
+          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): ～ているところです = đang đúng lúc suy nghĩ/làm một hành động; tác giả đang tính gửi dấu ba vòng tròn.",
           "4": "SAI: 「つもりです」 không đáp ứng cấu trúc ngữ pháp, sắc thái hoặc quan hệ thời gian của câu. ～ているところです = đang đúng lúc suy nghĩ/làm một hành động; tác giả đang tính gửi dấu ba vòng tròn."
         },
         "translationVi": "Tác giả đang cân nhắc đáp lại bằng dấu ba vòng tròn.",
@@ -3572,8 +3851,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 15. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3611,12 +3890,12 @@
         "short_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 3",
         "correctReasonVi": "Email yêu cầu báo số lượng áo T-shirt mong muốn bằng cách trả lời chính email, không gọi điện hay chỉ trao đổi miệng.",
         "optionReasonsVi": {
           "1": "SAI: 「Tシャツを家族や友人に着てもらって、感想を聞くこと」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 12月20日（月）までに、希望枚数を総務にお知らせください。",
           "2": "SAI: 「Tシャツのデザインがいいかどうか総務部の人に伝えること」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 12月20日（月）までに、希望枚数を総務にお知らせください。",
-          "3": "ĐÚNG: Email yêu cầu báo số lượng áo T-shirt mong muốn bằng cách trả lời chính email, không gọi điện hay chỉ trao đổi miệng.",
+          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Email yêu cầu báo số lượng áo T-shirt mong muốn bằng cách trả lời chính email, không gọi điện hay chỉ trao đổi miệng.",
           "4": "SAI: 「Tシャツを家族や友人がほしがっているかどうか総務部に電話すること」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 12月20日（月）までに、希望枚数を総務にお知らせください。"
         },
         "translationVi": "Đọc email này, người nhận phải làm việc gì?",
@@ -3626,8 +3905,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 17. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -3665,13 +3944,13 @@
         "short_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 4",
         "correctReasonVi": "Mục tiêu là quảng bá dịch vụ tư vấn của công ty du lịch: có lời khuyên từ công ty thì chuyến đi có thể tránh lặp lại thất bại.",
         "optionReasonsVi": {
           "1": "SAI: 「旅行で失敗する人は大勢いるから心配しなくてもいいということ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 旅行会社の助けがあればいい旅行ができることを人々に知らせ",
           "2": "SAI: 「何かで失敗しても、もう一度やり直すことができるということ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 旅行会社の助けがあればいい旅行ができることを人々に知らせ",
           "3": "SAI: 「たとえ失敗しても、旅行は自分で計画したほうが楽しいということ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 旅行会社の助けがあればいい旅行ができることを人々に知らせ",
-          "4": "ĐÚNG: Mục tiêu là quảng bá dịch vụ tư vấn của công ty du lịch: có lời khuyên từ công ty thì chuyến đi có thể tránh lặp lại thất bại."
+          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Mục tiêu là quảng bá dịch vụ tư vấn của công ty du lịch: có lời khuyên từ công ty thì chuyến đi có thể tránh lặp lại thất bại."
         },
         "translationVi": "Cuộc thi này muốn truyền tải điều gì tới mọi người?",
         "vocabulary": [],
@@ -3680,8 +3959,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 18. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -3719,10 +3998,10 @@
         "short_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 1",
         "correctReasonVi": "Bạn của người kể quan sát người đang xem động vật chứ không chỉ động vật, chính là “cách nhìn” đặc biệt.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: Bạn của người kể quan sát người đang xem động vật chứ không chỉ động vật, chính là “cách nhìn” đặc biệt.",
+          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Bạn của người kể quan sát người đang xem động vật chứ không chỉ động vật, chính là “cách nhìn” đặc biệt.",
           "2": "SAI: 「ライバルである友達に、発表でショックを与えようとすること」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 動物園で動物を見ている人間を観察し",
           "3": "SAI: 「クラスでの発表であっても、できるだけおもしろくしようとすること」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 動物園で動物を見ている人間を観察し",
           "4": "SAI: 「本当は友達に勝ったとしても、負けてしまったと考えること」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 動物園で動物を見ている人間を観察し"
@@ -3734,8 +4013,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 19. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -3773,11 +4052,11 @@
         "short_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "Ghi chú bảo bắt đầu cuộc họp khi các thành viên có mặt; trưởng bộ phận có thể đến trễ.",
         "optionReasonsVi": {
           "1": "SAI: 「会議の時間を遅くする。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 会議は、他のメンバーがそろったら始めていてほしい",
-          "2": "ĐÚNG: Ghi chú bảo bắt đầu cuộc họp khi các thành viên có mặt; trưởng bộ phận có thể đến trễ.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Ghi chú bảo bắt đầu cuộc họp khi các thành viên có mặt; trưởng bộ phận có thể đến trễ.",
           "3": "SAI: 「3時にナカノ総合（株）の中川さんに電話する。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 会議は、他のメンバーがそろったら始めていてほしい",
           "4": "SAI: 「北山部長に電話する。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 会議は、他のメンバーがそろったら始めていてほしい"
         },
@@ -3788,8 +4067,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 20. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -3827,12 +4106,12 @@
         "medium_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 3",
         "correctReasonVi": "Thức ăn được đưa vào cơ thể và các tế bào cũ được thay thế bởi tế bào mới, nên cân nặng không nhất thiết tăng.",
         "optionReasonsVi": {
           "1": "SAI: 「えさは、ネズミの体重と比べると、とても軽いから」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: それまでの細胞と入れかわり",
           "2": "SAI: 「食べ物が体の中に入ると、吸収されて重さがなくなるから」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: それまでの細胞と入れかわり",
-          "3": "ĐÚNG: Thức ăn được đưa vào cơ thể và các tế bào cũ được thay thế bởi tế bào mới, nên cân nặng không nhất thiết tăng.",
+          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Thức ăn được đưa vào cơ thể và các tế bào cũ được thay thế bởi tế bào mới, nên cân nặng không nhất thiết tăng.",
           "4": "SAI: 「食べ物を体内に入れても、細胞に変化しないから」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: それまでの細胞と入れかわり"
         },
         "translationVi": "Tại sao bài đọc nói cân nặng không tăng?",
@@ -3842,8 +4121,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 21. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -3881,11 +4160,11 @@
         "medium_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "Sau khoảng một năm, tế bào cơ thể con người đã được đổi mới; chào “không thay đổi” là không chính xác theo lập luận của bài.",
         "optionReasonsVi": {
           "1": "SAI: 「何年もたって変化がないというのは、不自然だから」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: すっかり新しい細胞に変わっている",
-          "2": "ĐÚNG: Sau khoảng một năm, tế bào cơ thể con người đã được đổi mới; chào “không thay đổi” là không chính xác theo lập luận của bài.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Sau khoảng một năm, tế bào cơ thể con người đã được đổi mới; chào “không thay đổi” là không chính xác theo lập luận của bài.",
           "3": "SAI: 「細胞は変わっても、体全体は変化しないから」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: すっかり新しい細胞に変わっている",
           "4": "SAI: 「何も変わっていないというのは、うそだから」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: すっかり新しい細胞に変わっている"
         },
@@ -3896,8 +4175,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 21. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -3935,13 +4214,13 @@
         "medium_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 4",
         "correctReasonVi": "Thông điệp chính: cơ thể được tạo dựng từ thức ăn, vì vậy phải chú ý tới những gì mình ăn.",
         "optionReasonsVi": {
           "1": "SAI: 「人と話す時も、もっと科学的な知識をもって正確に言葉をつかったほうがいい。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 人間は食べる物によってつくられる",
           "2": "SAI: 「人の体はいつも変化しているので、少しくらい悪い物を食べても問題はない。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 人間は食べる物によってつくられる",
           "3": "SAI: 「体重を増やさないために物を食べないという考えは、間違っている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 人間は食べる物によってつくられる",
-          "4": "ĐÚNG: Thông điệp chính: cơ thể được tạo dựng từ thức ăn, vì vậy phải chú ý tới những gì mình ăn."
+          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Thông điệp chính: cơ thể được tạo dựng từ thức ăn, vì vậy phải chú ý tới những gì mình ăn."
         },
         "translationVi": "Tác giả muốn nói điều gì qua bài văn?",
         "vocabulary": [],
@@ -3950,8 +4229,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 22. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -3989,10 +4268,10 @@
         "medium_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 1",
         "correctReasonVi": "Trong khảo sát, Nhật có tỷ lệ cao nhất ở quan niệm học để nuôi dưỡng tình bạn và tận hưởng thời gian tự do.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: Trong khảo sát, Nhật có tỷ lệ cao nhất ở quan niệm học để nuôi dưỡng tình bạn và tận hưởng thời gian tự do.",
+          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Trong khảo sát, Nhật có tỷ lệ cao nhất ở quan niệm học để nuôi dưỡng tình bạn và tận hưởng thời gian tự do.",
           "2": "SAI: 「勉強して、知識や技術を身につける場所である。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 友達との友情をはぐくむ",
           "3": "SAI: 「職業的技能ではなくて基本的知識を身につける場所である。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 友達との友情をはぐくむ",
           "4": "SAI: 「好きな先生と出会い、その人から生き方を学ぶ場所である。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 友達との友情をはぐくむ"
@@ -4004,8 +4283,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 23. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -4043,12 +4322,12 @@
         "medium_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 3",
         "correctReasonVi": "Khảo sát cho thấy học sinh Nhật đặt nặng bạn bè/tự do, trong khi Pháp thấp nhất ở hai hạng mục đó.",
         "optionReasonsVi": {
           "1": "SAI: 「5か国の学生全員、学校は知識より技能を身につける場だと考えている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 一番低いのはフランス",
           "2": "SAI: 「学校を知識を身につける場だと考えているのは、アジアの学生である。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 一番低いのはフランス",
-          "3": "ĐÚNG: Khảo sát cho thấy học sinh Nhật đặt nặng bạn bè/tự do, trong khi Pháp thấp nhất ở hai hạng mục đó.",
+          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Khảo sát cho thấy học sinh Nhật đặt nặng bạn bè/tự do, trong khi Pháp thấp nhất ở hai hạng mục đó.",
           "4": "SAI: 「日本の学生はアメリカの学生より、先生に対する尊敬の気持ちが強い。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 一番低いのはフランス"
         },
         "translationVi": "Điều nào phù hợp với kết quả khảo sát?",
@@ -4058,8 +4337,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 23. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -4097,13 +4376,13 @@
         "medium_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 4",
         "correctReasonVi": "Bài viết trình bày số liệu khảo sát và so sánh, không đưa ra quan điểm chuẩn tắc của tác giả.",
         "optionReasonsVi": {
           "1": "SAI: 「日本の学生が持つ学校に対する考えを、よくないと言っている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 18歳から24歳までの学生に「学校に通う意義」について調査し",
           "2": "SAI: 「学校は学生に職業的技能を身につけさせる場所だと言っている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 18歳から24歳までの学生に「学校に通う意義」について調査し",
           "3": "SAI: 「学校は学生に基本的な知識を与えなければならないと言っている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 18歳から24歳までの学生に「学校に通う意義」について調査し",
-          "4": "ĐÚNG: Bài viết trình bày số liệu khảo sát và so sánh, không đưa ra quan điểm chuẩn tắc của tác giả."
+          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Bài viết trình bày số liệu khảo sát và so sánh, không đưa ra quan điểm chuẩn tắc của tác giả."
         },
         "translationVi": "Phát biểu nào về đoạn văn là đúng?",
         "vocabulary": [],
@@ -4112,8 +4391,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 24. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -4151,11 +4430,11 @@
         "long_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "Tác giả cho rằng phim nên có thông điệp sâu sắc, khiến người xem suy nghĩ chứ không chỉ giải trí.",
         "optionReasonsVi": {
           "1": "SAI: 「映画は、観客を楽しませおもしろいと思わせることが一番大事だ。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 私たちの内面を豊かにしてくれるメッセージ",
-          "2": "ĐÚNG: Tác giả cho rằng phim nên có thông điệp sâu sắc, khiến người xem suy nghĩ chứ không chỉ giải trí.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Tác giả cho rằng phim nên có thông điệp sâu sắc, khiến người xem suy nghĩ chứ không chỉ giải trí.",
           "3": "SAI: 「映画は白と黒がはっきりしているほうがよく、中途半端な部分はいらない。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 私たちの内面を豊かにしてくれるメッセージ",
           "4": "SAI: 「最後にストーリーが大きく変わる映画は、見ている人を強く引きつける。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 私たちの内面を豊かにしてくれるメッセージ"
         },
@@ -4166,8 +4445,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 25. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4205,10 +4484,10 @@
         "long_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 1",
         "correctReasonVi": "Nhân vật thắng trận nhưng lại nói mình thua, làm người xem băn khoăn và suy nghĩ về thắng/thua.",
         "optionReasonsVi": {
-          "1": "ĐÚNG: Nhân vật thắng trận nhưng lại nói mình thua, làm người xem băn khoăn và suy nghĩ về thắng/thua.",
+          "1": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Nhân vật thắng trận nhưng lại nói mình thua, làm người xem băn khoăn và suy nghĩ về thắng/thua.",
           "2": "SAI: 「次の戦いでぜったいに勝つためにはどうすればいいか、観客に考えさせている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 「勝った」とは言わず、「今度もまた負けた」と言う",
           "3": "SAI: 「今回も負けてしまったが次は負けないという主人公の気持ちを伝えている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 「勝った」とは言わず、「今度もまた負けた」と言う",
           "4": "SAI: 「何度やっても負けてしまうのでもう戦わないという主人公の気持ちが出ている。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 「勝った」とは言わず、「今度もまた負けた」と言う"
@@ -4220,8 +4499,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 26. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4259,11 +4538,11 @@
         "long_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 2",
         "correctReasonVi": "Tác giả muốn đối chiếu điện ảnh Hollywood có kết thúc rạch ròi thắng/thua với cách để lại dư âm của phim Nhật.",
         "optionReasonsVi": {
           "1": "SAI: 「ハリウッドの映画作りが日本映画に大きく影響を与えたことを伝えるため」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 勝ちと負けは、はっきりと区別できる",
-          "2": "ĐÚNG: Tác giả muốn đối chiếu điện ảnh Hollywood có kết thúc rạch ròi thắng/thua với cách để lại dư âm của phim Nhật.",
+          "2": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Tác giả muốn đối chiếu điện ảnh Hollywood có kết thúc rạch ròi thắng/thua với cách để lại dư âm của phim Nhật.",
           "3": "SAI: 「日本とハリウッドでそれぞれの監督たちが協力し合っていることを知らせるため」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 勝ちと負けは、はっきりと区別できる",
           "4": "SAI: 「日本映画がハリウッド映画と共に発展してきたことを多くの人に知らせるため」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 勝ちと負けは、はっきりと区別できる"
         },
@@ -4274,8 +4553,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 26. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4313,13 +4592,13 @@
         "long_reading"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 4",
         "correctReasonVi": "Chính sự không phân định trắng đen dứt khoát khiến phim Nhật gây ấn tượng mạnh và ảnh hưởng ra bên ngoài.",
         "optionReasonsVi": {
           "1": "SAI: 「日本映画がハリウッド映画に勝ったからこそ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 白と黒の間に灰色がある",
           "2": "SAI: 「日本映画がハリウッド映画に負けたからこそ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 白と黒の間に灰色がある",
           "3": "SAI: 「日本映画が白と黒をはっきりさせるからこそ」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 白と黒の間に灰色がある",
-          "4": "ĐÚNG: Chính sự không phân định trắng đen dứt khoát khiến phim Nhật gây ấn tượng mạnh và ảnh hưởng ra bên ngoài."
+          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Chính sự không phân định trắng đen dứt khoát khiến phim Nhật gây ấn tượng mạnh và ảnh hưởng ra bên ngoài."
         },
         "translationVi": "“Chính vì vậy” trong đoạn là vì lý do gì?",
         "vocabulary": [],
@@ -4328,8 +4607,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 26. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4367,12 +4646,12 @@
         "information_lookup"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 3",
         "correctReasonVi": "Có thể đến quầy đặc biệt của trung tâm vào tối thứ Sáu để nhận sớm nhất, vì quầy tối trong tuần phục vụ 17:00–9:00.",
         "optionReasonsVi": {
           "1": "SAI: 「今日配達員に電話して、明日配達してもらう。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 特別窓口：月曜～金曜 17：00～9：00",
           "2": "SAI: 「今日配送センターにオンラインで連絡して、明日配達してもらう。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 特別窓口：月曜～金曜 17：00～9：00",
-          "3": "ĐÚNG: Có thể đến quầy đặc biệt của trung tâm vào tối thứ Sáu để nhận sớm nhất, vì quầy tối trong tuần phục vụ 17:00–9:00.",
+          "3": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Có thể đến quầy đặc biệt của trung tâm vào tối thứ Sáu để nhận sớm nhất, vì quầy tối trong tuần phục vụ 17:00–9:00.",
           "4": "SAI: 「来週の月曜日に配送センターの特別窓口に行く。」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 特別窓口：月曜～金曜 17：00～9：00"
         },
         "translationVi": "Cách sớm nhất Matt có thể nhận được kiện hàng là gì?",
@@ -4382,8 +4661,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 27. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 4,
       "mondai": "Mondai 7"
@@ -4421,13 +4700,13 @@
         "information_lookup"
       ],
       "explanation": {
-        "summaryVi": "Đáp án chuẩn: .",
+        "summaryVi": "Đáp án theo bảng Excel: 4",
         "correctReasonVi": "Ngày kế tiếp là 06/12/2020; 19 giờ thuộc khoảng 17:00–21:00 có mã thời gian 3.",
         "optionReasonsVi": {
           "1": "SAI: 「日にち＝2020125　時間＝2」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 17：00～21：00＝3",
           "2": "SAI: 「日にち＝2020125　時間＝3」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 17：00～21：00＝3",
           "3": "SAI: 「日にち＝20201206　時間＝2」 không diễn đạt chính xác bằng chứng hoặc ý chính của đoạn văn. Căn cứ: 17：00～21：00＝3",
-          "4": "ĐÚNG: Ngày kế tiếp là 06/12/2020; 19 giờ thuộc khoảng 17:00–21:00 có mã thời gian 3."
+          "4": "ĐÚNG THEO BẢNG ĐÁP ÁN (chưa được người dùng kiểm duyệt): Ngày kế tiếp là 06/12/2020; 19 giờ thuộc khoảng 17:00–21:00 có mã thời gian 3."
         },
         "translationVi": "Ông/bà Rou nhập ngày tháng và thời gian giao lại như thế nào?",
         "vocabulary": [],
@@ -4436,8 +4715,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Nguồn PDF trang 27. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
       },
       "weight": 4,
       "mondai": "Mondai 7"

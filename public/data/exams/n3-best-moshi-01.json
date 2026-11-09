@@ -4,12 +4,12 @@
   "title": "ベスト模試 N3 — Đề 1 (không có phần nghe)",
   "description": "Bộ đề luyện N3 lấy từ bản PDF người dùng cung cấp: 35 câu từ vựng, 23 câu ngữ pháp và 16 câu đọc hiểu. Chưa có bảng đáp án gốc. Đáp án/giải thích hiện là đề xuất, bắt buộc kiểm duyệt trước khi xuất bản.",
   "level": "N3",
-  "status": "published",
+  "status": "draft",
   "source": {
     "fileName": "ベスト模試 N3 đề 1 THI full.pdf",
     "type": "commercial_mock",
-    "notes": "Bản quét 44 trang; dùng trang 3–7 và 10–28, loại Listening trang 29–44. Không có đáp án chính thức trong file. Học liệu có thể thuộc bản quyền; xin phép trước khi công khai trên website. Các passages dài giữ bằng ảnh WebP do trích xuất văn bản từ bản quét chưa bảo đảm chính xác. Đã đối chiếu bảng BEST N3 đáp án 3 đề.xlsx; ngữ pháp câu 22 cập nhật từ 3 sang 2. Tất cả câu vẫn cần kiểm duyệt nội dung.",
-    "reviewedByHuman": true
+    "notes": "Bản quét 44 trang; dùng trang 3–7 và 10–28, loại Listening trang 29–44. Không có đáp án chính thức trong file. Học liệu có thể thuộc bản quyền; xin phép trước khi công khai trên website. Các passages dài giữ bằng ảnh WebP do trích xuất văn bản từ bản quét chưa bảo đảm chính xác. Đã đối chiếu bảng BEST N3 đáp án 3 đề.xlsx; ngữ pháp câu 22 cập nhật từ 3 sang 2. Tất cả câu vẫn cần kiểm duyệt nội dung. | Đã bổ sung đầy đủ 9/9 passage.text và ảnh nguồn WebP; 17 passage mới được chép từ ảnh quét, cần kiểm duyệt từng ký tự với PDF gốc trước khi công khai.",
+    "reviewedByHuman": false
   },
   "settings": {
     "timeLimitMinutes": 100,
@@ -22,55 +22,55 @@
     {
       "id": "g-cloze",
       "title": "文章文法「ごはん？ ライス？」",
-      "text": "",
+      "text": "ごはん？ ライス？\nマ シュウブン\n\n私はカタカナ語が苦手です。日本語がちゃんとあってわざわざカタカナ語を使う必要はないのに、どうして日本人はカタカナ語をよく［19］か。たとえば、「ご飯」という言葉があるのに「ライス」と言ったりもします。\n\nカタカナ語はもともとの発音と違うものも多くて、とても分かりにくいです。もちろん、「カタカナ語があるので、助かる」と言っているクラスの友達もいますが、困っている人のほうが多いと思います。\n\n私は、カタカナ語に困っている人は、日本語を勉強している私たちのような外国人ばかりだと最近までずっと［20］。ところが、ある調査［21］、外国人だけでなく日本人も理解できなくて困るカタカナ語がたくさんあるということが分かりました。特に、60代以上の人には理解できない言葉が多いのだそうです。昔から使われている言葉は［22］が、最近よく使われるようになってきた言葉に困っているということです。昔から使われている言葉でどの世代にも理解度が高いものは別として、最近のちょっとカッコよく聞こえるからという理由で使われるカタカナ語は［23］日本語で表現してほしいと思います。",
       "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-15.webp"
     },
     {
       "id": "r-email",
       "title": "読解 (1) 大学院の先生へのメール",
-      "text": "",
+      "text": "これは留学生が大学院の先生に送ったメールである。\n\nあて先：tanaka@daigaku.ac.jp\n件名：先日のお礼とお願い\n送信日時：2019年11月1日　16：30\n\n田中次郎先生\n\n先日はお忙しいところお時間をとっていただき、ありがとうございました。\n先生にお目にかかり、ますます先生にご指導いただきたいという気持ちが強くなりました。\n研究計画書についてご注意くださったところは、今直しております。\n\n来月、ゼミの見学をさせていただけるということでしたが、私はいつでもかまいませんので、先生のご都合をお知らせいただければ幸いです。\nどうぞよろしくお願いいたします。\n\nダン　ワンリン\n\n（注1）ゼミ：ゼミナール。大学で教員の指導の下に少数の学生が集まって研究、発表、討論などをするもの。\n（注2）～いただければ幸いです：～てもらえればうれしい／幸せだ、という意味。手紙でよく使う。",
       "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-17.webp"
     },
     {
       "id": "r-equality",
       "title": "読解 (2) 男女平等と社会習慣",
-      "text": "",
+      "text": "これは友人に聞いた話です。彼女はある国でコートを買い、自分のカードで支払いをしました。品物を受け取ろうとすると、その店の店員は、「大きい荷物は男性が持つのが当然です」と言って、店の入り口近くで待っていた彼女の夫に品物を渡したそうです。これは女性は弱いのだから男性が守らなければならないという、昔からの習慣があるからなのでしょう。女性の社会進出が日本よりずっと進み男女平等であるはずの国での出来事に、友人は何となく不思議な気持ちになったそうです。",
       "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-18.webp"
     },
     {
       "id": "r-farm",
       "title": "読解 (3) 牧場でのホームステイ",
-      "text": "",
+      "text": "これは留学生のアンディさんが小野さん夫婦に出した手紙である。\n\n小野一郎さま、敬子さま\n\n先日は大変お世話になり、ありがとうございました。２週間もホームステイをさせていただき、小野さんの牧場で実習ができたことは、私にとってとてもいい経験になりました。学校で牧畜について学んでいても、実際の仕事とはずいぶん違うということもわかりました。手作りのチーズやバターのおいしさも忘れられません。卒業して国に帰ったら、この経験を生かして頑張ろうと思います。ありがとうございました。\n\n９月１日\nアンディ・ビカス\n\n（注1）牧場：牛や馬などを育てる所\n（注2）牧畜：牛・馬・羊などの家畜を育てる産業",
       "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-19.webp"
     },
     {
       "id": "r-names",
       "title": "読解 (4) 子どもの名前",
-      "text": "",
+      "text": "何年か前からだが、子どもたちの名前に簡単には読めないものが増えてきたように思う。たとえば、「宇宙」と書いて「そら」と読んだり、「愛利」と書いて「ラブリー」と読んだりするのだ。これではまるでクイズのようだ。読み方だけの問題ではない。親が子どもにどんな名前を付けても自由だが、私のような昭和生まれの世代だとあまりにも変なものが多いと感じる。しかし、今の子どもたちはきっとどんな名前であっても変などとは思わないでそのまま受け入れるのだろう。そういう名前と赤ちゃんの時から接しているのだから。\n\n（注）昭和：1926年から1989年までの間。昭和天皇が天皇だった期間を言う。",
       "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-20.webp"
     },
     {
       "id": "r-ukiyoe",
       "title": "読解 (5) 浮世絵と日本文化",
-      "text": "",
+      "text": "日本には浮世絵という美術があります。これは江戸時代（1603～1868）に江戸（今の東京）の町人の間ですごく人気があったもので、版画、つまり印刷したものですから何枚も同じものがあり、一枚が今でいうと数百円で買えたそうです。歌舞伎の人気役者の絵や、旅行ガイドのように江戸の町や富士山をいろいろな所から見て描いた絵もありました。当時、ヨーロッパなどでは、芸術は一部の上流階級だけのものでしたが、日本では一般庶民が絵を買って楽しんでいたのです。江戸時代は、戦争のない時代でしたから、江戸や大阪の町人たちの間で華やかな文化が花開いたのでしょう。値段も安くとても身近なものですから、日本人はこの浮世絵に芸術的な価値があるとは思っていませんでした。その価値を教えてくれたのは、江戸時代の終わりから次の明治時代（1868～）にかけて日本に来ていた西洋人たちだったのです。そして、これはフランスの美術にも大きな影響を与えました。\n\n（注1）浮世絵：江戸時代に発達した民衆的な風俗画。版画が多い。\n（注2）町人：江戸時代に都市に住んでいた商人や職人の身分の人。\n（注3）版画：木などに絵をほり、それで印刷したもの。\n（注4）歌舞伎：江戸時代にできた日本独特の演劇。",
       "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-21.webp"
     },
     {
       "id": "r-geopark",
       "title": "読解 (6) 世界ジオパーク",
-      "text": "",
+      "text": "ユネスコでは、すばらしい自然を保護しようという目的で「世界自然遺産」を認定していますが、それとは別に、「世界ジオパーク」というものもあるのです。「ジオ」は「地球」や「大地」を意味します。「パーク」は「公園」です。地球を学び楽しむ場所にしよう、自然を保護すると同時に教育や観光にも役立てようというのが目的です。自然の美しさを楽しむだけでなく、たとえばその場所がどんな地球の活動によって生まれたのかということも知ろうということです。こういうところが「世界自然遺産」とは違うところなのです。「世界ジオパーク」は観光に力を入れれば地域の活性化にもつながりますし、日本の場合は火山の噴火や地震などの被害の跡を保存し、防災教育にも役立てようとしているところも多いです。日本は災害の多い国なので、こういう点では世界をリードしています。ただ、多くの地域で経済的なメリットにつなげる人材が不足していて、地域の活性化という点が今後の課題となるようです。\n\n（注）ユネスコ：国際連合教育科学文化機関（UNESCO）",
       "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-23.webp"
     },
     {
       "id": "r-meiji",
       "title": "読解 (7) 明治神宮の森",
-      "text": "",
+      "text": "以前、日本に来たある国のビジネスマンが言っていました。「東京は大都会なのに町の真ん中に大きい森があってびっくりしました」と。大きい森とは、明治神宮のことでした。高い所から東京を見渡すと、ところどころに緑のかたまりが見えます。それは木々がたくさん集まっている場所で、その一つが明治神宮の森なのです。明治天皇が亡くなったのが1912年、明治神宮は明治天皇を祭るために建てられた神社で1920年に完成しました。この場所に明治神宮が建てられると決まったころ、このあたりは作物があまり育たない荒れた土地でした。そこに神社にふさわしい森をつくろうということになって、庭づくりの専門家たちがいろいろ考え、計画を立てて木を植えたのです。ここは、人の手でつくられた林のようには見えません。自然に近い森をつくるために、東京に大昔から自然に生えていた種類の木々を植えたからです。初めは12万本植えたそうですが、今は3万6千本に減っています。それは木々同士の競争が自然に起こって、弱いものは育たなかったからです。昔からある自然の森と同じことが起こるようにと考えた庭づくりの専門家たちの計画どおりでした。競争に勝ち残った木は、今ではとても大きな木に成長しています。\n\nここでは、たとえ木が倒れても人は何もしません。ただ見守っているだけだそうです。すべてを自然のままにしているのです。今、ここを管理する人がしていることは、落ち葉を掃き集め、それを森の木々の根元に戻すことだけです。\n\n何もない荒れた土地に木を植えて100年、森は大きく成長しました。これは100年前の人たちから私たちへの贈り物なのです。\n\n（注1）明治神宮：東京にある大きい神社\n（注2）明治天皇：1867年から1912年までの天皇。天皇：古代からの日本の君主の称号\n（注3）荒れた土地：石などが多く作物が育ちにくい土地",
       "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-25.webp"
     },
     {
       "id": "r-notice",
       "title": "読解 (8) 北東大学からのお知らせ",
-      "text": "",
+      "text": "北東大学からのお知らせ\n\n留学生の皆さん、北東大学国際交流会では下記のように留学生・元留学生と日本人学生との交流会を開くことになりました。\n料理を食べながら、留学生活で困っていること、これからのことなど、いろいろなことを語り合うという場にしたいと思います。\nまた、国際交流会の日本人の学生がお好み焼きやすしなどの料理を用意しますので、留学生の皆さんの中にお国の料理を作ってくださる方がいらっしゃれば、申し出てください。\nまた、歌を歌ったりダンスをしたりしてくださる方も申し出てください。\n\n★参加資格：北東大学の留学生／北東市内のほかの大学の留学生／北東市内で仕事をしている北東大学の元留学生（仕事を始めて３年以内）\n●日時：10月18日（土）12：00～16：00\n●場所：北東大学キャンパス内の「大食堂」\n●会費：500円\n●参加申し込み：９月16日（火）10：00～９月30日（火）17：00\n下記にメールで申し込んでください。\n北東大学国際交流会　kouryuukai@hokutou.......\n\n※料理を作ってくださる方、歌を歌ったりダンスをしたりしてくださる方は、申し込み時にそのことを書いてください。あとでくわしいことを相談します。日時はこちらから連絡します。\n※料理は食堂の調理場でできます。\n\nでは、皆さん、ふるってご参加ください。\n連絡、お待ちしています。\n北東大学国際交流会",
       "imagePath": "/data/exams/assets/n3-best-moshi-01/source-page-28.webp"
     }
   ],
@@ -133,8 +133,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -197,8 +197,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -255,8 +255,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -313,8 +313,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -376,8 +376,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -439,8 +439,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -497,8 +497,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -555,8 +555,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 3. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -613,8 +613,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -671,8 +671,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -729,8 +729,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -787,8 +787,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -845,8 +845,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -903,8 +903,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 4. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -961,8 +961,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1019,8 +1019,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1077,8 +1077,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1135,8 +1135,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1187,8 +1187,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1239,8 +1239,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1297,8 +1297,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1355,8 +1355,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1413,8 +1413,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1465,8 +1465,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1523,8 +1523,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 5. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1575,8 +1575,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 6. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1627,8 +1627,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 6. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1685,8 +1685,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 6. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1743,8 +1743,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 6. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1801,8 +1801,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 6. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1859,8 +1859,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 7. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -1917,8 +1917,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 7. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -1975,8 +1975,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 7. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2033,8 +2033,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 7. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2091,8 +2091,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 7. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2156,8 +2156,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2221,8 +2221,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2280,8 +2280,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2339,8 +2339,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2404,8 +2404,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2463,8 +2463,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 10. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2522,8 +2522,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2581,8 +2581,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2640,8 +2640,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2699,8 +2699,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2758,8 +2758,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2823,8 +2823,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 11. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2882,8 +2882,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 12. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2941,8 +2941,8 @@
         "studyTipVi": "Thứ tự đầy đủ của 4 mảnh: 2 → 1 → 3 → 4."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 13. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3000,8 +3000,8 @@
         "studyTipVi": "Thứ tự đầy đủ: 2 → 4 → 1 → 3."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 13. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3059,8 +3059,8 @@
         "studyTipVi": "Thứ tự đầy đủ: 4 → 2 → 1 → 3."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 13. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3118,8 +3118,8 @@
         "studyTipVi": "Thứ tự đầy đủ: 2 → 1 → 4 → 3."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 14. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3178,8 +3178,8 @@
         "studyTipVi": "Thứ tự đầy đủ: 2 → 4 → 3 → 1."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 14. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3243,8 +3243,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 16. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3302,8 +3302,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 16. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3361,8 +3361,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 16. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3420,8 +3420,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 16. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text. ĐÃ SỬA: Đáp án biên tập trước là 3; Excel ghi 2; đã chỉnh lời giải theo 2. Cần người dùng xác nhận."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3479,8 +3479,8 @@
         "studyTipVi": "Tự giải thích vì sao ba lựa chọn còn lại không phù hợp."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 16. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3531,8 +3531,8 @@
         "studyTipVi": "Cần nhìn mục đích yêu cầu ở cuối email trước khi chọn đáp án."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 17. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -3583,8 +3583,8 @@
         "studyTipVi": "Tập trung cấu trúc 「～はずの国での出来事に」."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 18. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -3635,8 +3635,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 19. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -3687,8 +3687,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 20. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -3739,8 +3739,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 21. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -3791,8 +3791,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 21. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -3843,8 +3843,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 22. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -3895,8 +3895,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 23. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -3947,8 +3947,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 23. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -3999,8 +3999,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 24. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -4051,8 +4051,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 25. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4103,8 +4103,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 26. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4155,8 +4155,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 26. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4207,8 +4207,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 26. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4259,8 +4259,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 27. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 4,
       "mondai": "Mondai 7"
@@ -4311,8 +4311,8 @@
         "studyTipVi": "Đọc đoạn văn nguồn trong ảnh trước khi chọn và đối chiếu bằng chứng."
       },
       "review": {
-        "status": "verified",
-        "notes": "Đã đối chiếu bảng đáp án chuẩn."
+        "status": "needs_review",
+        "notes": "Trang PDF 27. Không kèm bảng đáp án chính thức; đáp án và giải thích hiện là phương án biên tập đề xuất, chưa được con người kiểm tra. Văn bản đoạn đọc được giữ dưới dạng ảnh gốc trong passages[].imagePath, chưa trích xuất thành passage.text."
       },
       "weight": 4,
       "mondai": "Mondai 7"
