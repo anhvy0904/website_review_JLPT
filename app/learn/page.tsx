@@ -33,6 +33,13 @@ export default function LearningHubPage() {
         </p>
       </div>
 
+      <Link href="/learn/translation" className="block rounded-2xl border-2 border-emerald-200 bg-emerald-50 p-6 hover:bg-emerald-100 transition-colors">
+        <p className="text-sm font-semibold text-emerald-700">NHẬT → VIỆT · JLPT N3</p>
+        <h2 className="mt-2 text-2xl font-bold text-emerald-950">Luyện dịch song ngữ</h2>
+        <p className="mt-2 text-base leading-relaxed text-slate-600">5 bài đọc về du lịch, công việc IT, đời sống và văn hóa Nhật. Tự viết bản dịch, bật furigana khi cần và đối chiếu đáp án có giải thích.</p>
+        <span className="mt-4 inline-block font-semibold text-emerald-800">Bắt đầu luyện dịch</span>
+      </Link>
+
       {/* 2 Big Module Cards */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
         {/* Module A: Verb Forms */}

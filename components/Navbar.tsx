@@ -11,6 +11,7 @@ import {
   X,
   Sparkles,
   Layers,
+  Languages,
 } from "lucide-react";
 
 export function Navbar() {
@@ -20,6 +21,7 @@ export function Navbar() {
   const navLinks = [
     { href: "/exams", label: "Kho đề thi", icon: Compass },
     { href: "/learn", label: "Học chuyên đề", icon: Layers },
+    { href: "/learn/translation", label: "Luyện dịch", icon: Languages },
     { href: "/flashcards", label: "Flashcard", icon: Sparkles },
     { href: "/review", label: "Ôn câu sai", icon: RotateCcw },
     { href: "/dashboard", label: "Thống kê", icon: BarChart3 },
@@ -55,15 +57,15 @@ export function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-1.5">
+        <nav className="hidden xl:flex items-center gap-1">
           {navLinks.map((link) => {
             const Icon = link.icon;
-            const isActive = pathname === link.href || pathname?.startsWith(link.href + "/");
+            const isActive = pathname === link.href || (link.href !== "/learn" && pathname?.startsWith(link.href + "/")) || (link.href === "/learn" && pathname?.startsWith("/learn/") && !pathname?.startsWith("/learn/translation"));
             return (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-sm font-medium transition-colors ${
+                className={`flex items-center gap-2 px-2 py-2 whitespace-nowrap rounded-xl text-sm font-medium transition-colors ${
                   isActive
                     ? "bg-[#E8F5E9] text-[#1B5E20] font-semibold border border-[#A5D6A7]/70"
                     : "text-slate-600 hover:text-[#1B5E20] hover:bg-[#E8F5E9]/60"
@@ -85,7 +87,7 @@ export function Navbar() {
         </nav>
 
         {/* Mobile menu button */}
-        <div className="flex md:hidden items-center">
+        <div className="flex xl:hidden items-center">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="p-2 rounded-lg text-slate-600 hover:text-[#1B5E20] hover:bg-[#E8F5E9]"
@@ -98,7 +100,7 @@ export function Navbar() {
 
       {/* Mobile dropdown */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-b border-[#A5D6A7]/50 bg-white px-4 pt-2 pb-4 space-y-1">
+        <div className="xl:hidden border-b border-[#A5D6A7]/50 bg-white px-4 pt-2 pb-4 space-y-1">
           {navLinks.map((link) => {
             const Icon = link.icon;
             const isActive = pathname === link.href;
