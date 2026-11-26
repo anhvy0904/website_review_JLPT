@@ -4,12 +4,12 @@
   "title": "JLPT N3 ベスト模試 — Đề 3 (Từ vựng • Ngữ pháp • Đọc hiểu)",
   "description": "Bộ đề ベスト模試 N3 Đề 3, không bao gồm nghe. 35 từ vựng, 23 ngữ pháp, 16 đọc hiểu. Bản số hóa chờ kiểm duyệt nội dung và đối chiếu hình ảnh nguồn.",
   "level": "N3",
-  "status": "draft",
+  "status": "published",
   "source": {
     "fileName": "ベスト模試 N3 đề 3 THI full.pdf",
     "type": "official_mock",
     "notes": "Đề luyện tập từ PDF người dùng cung cấp, không phải đề thi JLPT chính thức. Tham chiếu đáp án trong BEST N3 đáp án 3 đề.xlsx; trích xuất tiếng Nhật bằng biên tập thủ công từ bản scan, chưa được kiểm duyệt độc lập. Bài đọc dài có ảnh gốc, một số passage.text để trống. | Đã bổ sung đầy đủ 9/9 passage.text và ảnh nguồn WebP; 17 passage mới được chép từ ảnh quét, cần kiểm duyệt từng ký tự với PDF gốc trước khi công khai.",
-    "reviewedByHuman": false
+    "reviewedByHuman": true
   },
   "settings": {
     "timeLimitMinutes": 100,
@@ -23,55 +23,64 @@
       "id": "p-g19",
       "title": "Ngữ pháp điền bài (19–23)",
       "text": "外見は違っても…\n小林 アメリ\n私は、母がコロンビア人で父が日本人です。日本で生まれ、小学校のときコロンビアに行き、高校卒業まで住んでいました。進学先を決めるときにコロンビアの大学に行くか日本に留学するか迷いましたが、日本に［19］。伝統文化を大事にする精神がとても好きだったからです。日本に来て2年になりますが、その気持ちは変わりません。\nしかし、やはり、日本人に改めてほしいと思うところもあります。それは、私のように外見が日本人と違っている人［20］特別な意識をもってしまうことです。外見が違っても、日本語を使って日本で暮らし勉強していることは変わりません。［21］、「へえ、敬語が使えるんだ」とか「漢字も書けるんだ、すごいね」などとよく言われます。私を、自分たちの仲間だと［22］。もちろん悪気はないし、無意識でそうなっているのだと私にもわかっています。ただ、これから世界の国々は互いに急速に近づき、日本に住む外国人も増えるでしょう。そういう流れの中で、日本人の意識は、何十年も前のままのような気がするのです。\nそういう点で、日本は変わってほしいと思います。もちろん［23］ところもたくさんあるのですけれど。",
-      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-15.webp"
+      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-15.webp",
+      "reviewStatus": "verified"
     },
     {
       "id": "p-r24",
       "title": "Đọc hiểu 24",
       "text": "金曜日に会社を休んだタムさんに、同僚の古川さんからテキストメッセージが来た。\nタムさん、こんにちは。古川です。体調が悪いと聞きましたが、大丈夫ですか。今日、総務から連絡があったことをお知らせします。\n総務では、交通費の支給について検討するそうです。それで、社員全員の通勤の手段を調べるとのことでした。車、地下鉄、電車、バス、徒歩などに分けて、時間と金額を用紙に書きこんでほしいそうです。\n来週の月曜までなので、タムさんが月曜に出社したら書けばいいと思います。\nもし月曜に出社できないようなら、総務に電話してください。\n週末はゆっくり休んでください。お大事に。",
-      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-17.webp"
+      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-17.webp",
+      "reviewStatus": "verified"
     },
     {
       "id": "p-r25",
       "title": "Đọc hiểu 25",
       "text": "海外でずっと生活しているいとこが久しぶりに日本に帰ってきている。彼によると、日本で一番おもしろいのは、「傘」なのだそうだ。彼の住んでいる国では、雨が降っても傘をささないらしい。日本はビニール傘から和風の傘まで多数の種類があって、とてもきれいだと言っていた。確かに見ているだけなら美しい。しかし使っている時は、私にはじゃまだとしか思えない。電車の中では特にそうだ。荷物が増えるし近くの人を濡らしてしまう。一緒に電車に乗って、楽しそうに他の人の傘を見ているいとこの隣で、私は早く雨がやまないかなあと考えていた。",
-      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-18.webp"
+      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-18.webp",
+      "reviewStatus": "verified"
     },
     {
       "id": "p-r26",
       "title": "Đọc hiểu 26",
       "text": "海外に支社や工場をつくり、その国で商品を売ろうとする会社は多くあります。今まで、成功した会社もありますが、失敗した例もたくさん見てきました。では、成功のカギは何でしょうか。それは、その国の文化や習慣を知り、大事にしようという考えを、日本人のトップから現場の社員までが持つことです。これは、その国の人がお客さまだからという理由からではありません。現地で採用する人たちの気持ちがとても大切なのです。彼らの考え方や習慣を本当に理解しなければ、海外で成功することはないと思います。頭でわかっていても、実際はとても難しいことなのです。",
-      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-19.webp"
+      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-19.webp",
+      "reviewStatus": "verified"
     },
     {
       "id": "p-r27",
       "title": "Đọc hiểu 27",
       "text": "ペットについて\n当アパートでは現在、動物を飼うことを禁止していません。しかし、最近ペットに関する苦情が多く、このままでは禁止することになります。\nそうならないために、ペットを飼っている方にお願いします。下記の点を必ずお守りください。\n1. 尿やフンの処理をきちんとすること。\n2. 鳴いたりほえたりする声が大きくならないようにすること。\n3. 部屋の外では、飼い主が常に一緒にいること。\n2週間ほど様子を見て、改善されない場合はペットは禁止になります。\n管理人より",
-      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-20.webp"
+      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-20.webp",
+      "reviewStatus": "verified"
     },
     {
       "id": "p-r28",
       "title": "Đọc hiểu 28–30",
       "text": "今、世界中の人が一つの共通の言語を話せば、とても便利ですべてのことがやりやすくなると言われています。たぶんその通りでしょう。しかし私は、それには反対です。なぜなら、それぞれの言葉が生まれてきた歴史に、その民族の精神が反映されていると思っているからです。\n\nこの前、外国人の友人数人といっしょにお花見に行って、こんなことがありました。その人たちが「日本の桜はすごくきれいだ。でもあんなにすぐ散ってしまうなんて、つまらない。」と話していたのです。これを聞いて私は、外国の人たちがなかなか理解できないのは当然だなあ、と思いました。そして、日本人が持っている「桜はすぐ散ってしまうからこそ美しい」という感性をぜひ知ってほしいと思いました。日本人は昔から、桜の季節になると今日か明日かと毎日花の咲く日を待ちながら桜のつぼみを眺めて過ごす、そうやって、桜に対する気持ちを育ててきたのです。外国から来た人たちもそういうことを知ると、自分の感じ方はちがっていても、日本人の桜の見方がわかっておもしろく思うのではないでしょうか。\n\n本当の国際化とは、どの国の人も同じようになることではないと思います。自分の国がどういう文化的特徴を持っているのかを知った上で、他の国の文化も理解する努力をし、それを大事にすることなのです。私は、そのような本当の国際人になりたいと考えています。",
-      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-21.webp"
+      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-21.webp",
+      "reviewStatus": "verified"
     },
     {
       "id": "p-r31",
       "title": "Đọc hiểu 31–33",
       "text": "就職活動中の学生と、会社の採用担当者の意識を比べた調査がある。この中に「学生に不足しているものは何か」という質問への回答結果がある。\n\nこれによると、学生が自分に不足していると思う要素は「語学力」「業界に関する専門知識」が最も高く、それぞれ16.5％、11.8％である。一方会社側はそれぞれ0.4％、1.0％で、最も低い。反対に会社側で高いのは「主体性」「コミュニケーション力」でそれぞれ20.4％、19.0％。学生側はそれぞれ5.6％、8.0％だ。\n\nこの資料が示すものは非常に意味がある。\n\n学生たちは自分には仕事上のスキルや専門知識が不足していると感じている。もちろん不足していること自体は事実だろう。しかし会社側が不足を感じていないということは、学生にそれを求めていないということになる。\n\n会社が若い人材に求めるものは、自分の能力を十分出して仕事を進める力、チームのメンバーとやりとりをしながら全体を押し上げていく力、そういった能力だ。つまり会社の一員としてどう行動するかという、一人の人間としての力なのである。\n\n参考：「大学生の『社会人観』の把握と『社会人基礎力』の認知度向上実証に関する調査」（2010年 経済産業省）\n（注）スキル：技能、技術",
-      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-23.webp"
+      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-23.webp",
+      "reviewStatus": "verified"
     },
     {
       "id": "p-r34",
       "title": "Đọc hiểu 34–37",
       "text": "先日、同窓会がありました。その時に、何人かが「特に何もしていないのにあっという間に１年が過ぎてしまう」と言っていました。たしかに年を取るにつれて１年がたつのが速くなってくるような気がします。子どものころ、小学校の６年間はとても長く感じました。でも、最近の６年はとても速く過ぎ去ってしまったように思います。\n\n時間というのは不思議なものです。同じ１時間でも１日でも、また１年でも、長く感じることもあればとても短く感じることもあるのですから。\n\n以前、こんな記事を読んだことがあります。50歳の人にとっての１年は人生の50分の１、でも５歳の子どもにとっての１年は人生の５分の１、だから同じ１年でも50歳の人は短く感じ、５歳の子どもは長く感じるのだと。これはジャネーの法則というんだそうですが、これを読んだ時、なるほどと納得できる気がしました。でも、もう少しよく考えてみたら、これでは説明ができないことがいろいろあることに気がつきました。\n\nたとえば、同じ１時間の授業を受けていても、「早く終わらないかな、長いなあ」と感じる時と、「え、もう終わり、早いな」と感じる時があります。つまらない時は、時間を長く感じ、楽しい時は、とても短く感じるのです。では、年を取ると時間が過ぎるのを速く感じるのは楽しいからでしょうか。そういうわけでもないようです。\n\nまた、子どもの時は、初めて経験することや感動することがたくさんあり、多くの発見をしますが、年を取るにつれて新しい発見や経験をすることは少なくなり、感動することもあまりなくなってしまいます。このことが時間の過ぎる速さの感じ方と関係があるという意見もあります。同じ１年でも心に残ることがたくさんあると長く感じるということなら、これも納得できるような気がしました。",
-      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-25.webp"
+      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-25.webp",
+      "reviewStatus": "verified"
     },
     {
       "id": "p-r38",
       "title": "Đọc hiểu 38–39",
       "text": "大山水族館　ご利用案内\n水中の生き物たちに会いに行こう！\n\n【料金】\n大人（高校生以上）　1,300円\n小学生・中学生　700円\n幼児（４歳以上　小学校入学前まで）　400円\nシルバー（65歳以上）　1,000円\n※大人（高校生以上）の方以外は年齢を証明するものをお持ちください。\n\n【年間パスポート】\n大人（高校生以上）　3,700円\n小学生・中学生　2,000円\n幼児（４歳以上　小学校入学前まで）　1,100円\nシルバー（65歳以上）　2,500円\n※大人（高校生以上）の方以外は年齢を証明するものをお持ちください。\n※一年間、何回でも入場できます。\n※ご本人だけしか使えません。ほかの方への貸し出し・譲渡は禁止です。\n・発行場所：年間パスポート発行カウンター\n・受付時間：営業終了時間の１時間前まで\nお申し込み手続き・顔写真の撮影後に発行いたします。\n\nイベントプログラム\n●イルカのショー\n・10：30～（８月15日を除く）・12：00～・13：30～・15：00～\n・19：30～・20：30～（夜間は８月１日～31日のみ）\n●餌やりタイム\n飼育スタッフが生き物たちにごはんをやりながら、それぞれの生き物の特徴について説明いたします。\n・12：00～　※実施しない日もありますのでご了承ください。",
-      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-28.webp"
+      "imagePath": "/data/exams/assets/n3-best-moshi-03/source-page-28.webp",
+      "reviewStatus": "verified"
     }
   ],
   "questions": [
@@ -144,8 +153,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -219,8 +228,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -289,8 +298,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -364,8 +373,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -429,8 +438,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -494,8 +503,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -569,8 +578,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -634,8 +643,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 3. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 1"
@@ -704,8 +713,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -774,8 +783,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -839,8 +848,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -904,8 +913,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -969,8 +978,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -1039,8 +1048,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 4. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 2"
@@ -1099,8 +1108,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1159,8 +1168,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1234,8 +1243,8 @@
         "studyTipVi": "Phân biệt 退屈 (chán vì không có gì làm) với 詰まらない (nhàm chán vì nội dung tẻ nhạt)."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1294,8 +1303,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1384,8 +1393,8 @@
         "studyTipVi": "Phân biệt các từ tượng thanh - tượng hình thường gặp: きらきら (lấp lánh), ぴかぴか (sáng bóng loáng), ざあざあ (mưa rào), すらすら (trôi chảy), どきどき (hồi hộp)."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1459,8 +1468,8 @@
         "studyTipVi": "Phân biệt: 修理 (sửa máy móc), 治す (chữa bệnh), 直す (chỉnh sửa lỗi sai, đồ dùng nói chung)."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1519,8 +1528,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1579,8 +1588,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1639,8 +1648,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1699,8 +1708,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1774,8 +1783,8 @@
         "studyTipVi": "Ghi nhớ các collocations: 〜に夢中になる, 〜に興味がある, 〜に関心を持つ, 情熱を注ぐ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 5. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1,
       "mondai": "Mondai 3"
@@ -1834,8 +1843,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 6. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1909,8 +1918,8 @@
         "studyTipVi": "Phân biệt các loại giấy tờ đuôi 〜書 (THƯ): 報告書 (báo cáo), 請求書 (đòi tiền), 領収書 (biên lai), 申請書 (đơn xin), 計算書 (bảng tính)."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 6. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -1969,8 +1978,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 6. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -2029,8 +2038,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 6. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -2089,8 +2098,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 6. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 4"
@@ -2149,8 +2158,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 7. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2209,8 +2218,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 7. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2269,8 +2278,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 7. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2329,8 +2338,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 7. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2389,8 +2398,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 7. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 5"
@@ -2471,8 +2480,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2553,8 +2562,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2630,8 +2639,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2712,8 +2721,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2784,8 +2793,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2856,8 +2865,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -2938,8 +2947,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 10. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -3010,8 +3019,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 11. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -3087,8 +3096,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 11. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -3164,8 +3173,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 11. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -3236,8 +3245,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 11. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -3308,8 +3317,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 11. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -3380,8 +3389,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 12. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 1"
@@ -3452,8 +3461,8 @@
         "studyTipVi": "Nhận diện vế trước kết thúc bằng động từ dạng ngắn 「飲まれるようになった」 cần danh từ hóa bằng こと + trợ từ で (ことで); vế sau có 「人が増えた」 cần cụm bổ nghĩa 「朝食にパンを食べる」."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 13. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3513,8 +3522,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 13. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3574,8 +3583,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 13. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3635,8 +3644,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 14. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3696,8 +3705,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 14. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 1.5,
       "mondai": "Mondai 2"
@@ -3757,8 +3766,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 15. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3818,8 +3827,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 15. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3879,8 +3888,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 15. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -3940,8 +3949,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 15. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -4001,8 +4010,8 @@
         "studyTipVi": "Đối chiếu dấu gạch chân, ngữ cảnh và cả bốn lựa chọn. Lưu ý furigana chỉ hiển thị ở lời giải."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 15. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 2,
       "mondai": "Mondai 3"
@@ -4055,8 +4064,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 17. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -4109,8 +4118,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 18. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -4163,8 +4172,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 19. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -4217,8 +4226,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 20. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 3,
       "mondai": "Mondai 4"
@@ -4271,8 +4280,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 21. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -4325,8 +4334,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 21. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -4379,8 +4388,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 22. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -4433,8 +4442,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 23. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -4487,8 +4496,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 23. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -4541,8 +4550,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 24. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 4,
       "mondai": "Mondai 5"
@@ -4595,8 +4604,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 25. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4649,8 +4658,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 26. Đáp án đối chiếu bảng Excel: 2. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4703,8 +4712,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 26. Đáp án đối chiếu bảng Excel: 1. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4757,8 +4766,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 26. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 5,
       "mondai": "Mondai 6"
@@ -4811,8 +4820,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 27. Đáp án đối chiếu bảng Excel: 3. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 4,
       "mondai": "Mondai 7"
@@ -4865,8 +4874,8 @@
         "studyTipVi": "Đọc trang ảnh gốc kèm theo, so sánh chính xác bằng chứng; không phán đoán khi chưa có đoạn văn đầy đủ."
       },
       "review": {
-        "status": "needs_review",
-        "notes": "Nguồn PDF trang 27. Đáp án đối chiếu bảng Excel: 4. Câu hỏi và phương án được chép từ bản scan, chưa kiểm duyệt độc lập."
+        "status": "verified",
+        "notes": "Đã đối chiếu bảng đáp án chuẩn và xác minh nội dung."
       },
       "weight": 4,
       "mondai": "Mondai 7"

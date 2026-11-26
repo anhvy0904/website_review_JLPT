@@ -251,7 +251,8 @@ export function scoreAttempt(exam: ExamDetail, attempt: ExamAttempt): AttemptSco
   const questionResults = exam.questions.map((q) => {
     const selectedOptionId = attempt.answers[q.id];
     const isSkipped = !selectedOptionId || selectedOptionId.trim() === "";
-    const isCorrect = !isSkipped && !!q.correctOptionId && String(selectedOptionId) === String(q.correctOptionId);
+    const hasVerifiedAnswer = q.correctOptionId !== null && q.correctOptionId !== undefined && q.correctOptionId !== "";
+    const isCorrect = !isSkipped && hasVerifiedAnswer && String(selectedOptionId) === String(q.correctOptionId);
     const isFlagged = Array.isArray(attempt.flaggedQuestionIds) && attempt.flaggedQuestionIds.includes(q.id);
     const weight = getEffectiveQuestionWeight(q);
 
@@ -271,12 +272,14 @@ export function scoreAttempt(exam: ExamDetail, attempt: ExamAttempt): AttemptSco
     if (isSkipped) {
       skippedCount++;
       subtypeStats[subtype].skipped++;
-    } else if (isCorrect) {
-      correctCount++;
-      subtypeStats[subtype].correct++;
-    } else {
-      incorrectCount++;
-      subtypeStats[subtype].incorrect++;
+    } else if (hasVerifiedAnswer) {
+      if (isCorrect) {
+        correctCount++;
+        subtypeStats[subtype].correct++;
+      } else {
+        incorrectCount++;
+        subtypeStats[subtype].incorrect++;
+      }
     }
 
     return {
@@ -308,6 +311,11 @@ export function scoreAttempt(exam: ExamDetail, attempt: ExamAttempt): AttemptSco
   });
 
   const jlptScore = calculateJLPTScore(exam.questions, attempt.answers);
+  const unverifiedCount = exam.questions.filter((q) => q.correctOptionId == null || q.correctOptionId === "").length;
+  const hasUnverifiedAnswers = unverifiedCount > 0;
+
+  jlptScore.hasUnverifiedAnswers = hasUnverifiedAnswers;
+  jlptScore.unverifiedCount = unverifiedCount;
 
   return {
     attemptId: attempt.attemptId,
@@ -320,6 +328,8 @@ export function scoreAttempt(exam: ExamDetail, attempt: ExamAttempt): AttemptSco
     skippedCount,
     scorePercent,
     elapsedSeconds: attempt.elapsedSeconds,
+    hasUnverifiedAnswers,
+    unverifiedCount,
     sectionStats,
     subtypeStats,
     questionResults,

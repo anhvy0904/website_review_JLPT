@@ -747,15 +747,11 @@ export default function FlashcardsPage() {
                   {/* Card Frame with Flip Perspective */}
                   <div
                     onClick={handleFlip}
-                    className="group relative w-full h-[380px] sm:h-[420px] md:h-[460px] cursor-pointer [perspective:1000px] select-none"
+                    className="group relative w-full min-h-[380px] sm:min-h-[420px] md:min-h-[460px] cursor-pointer select-none rounded-3xl shadow-md border border-slate-200/90 bg-white transition-all hover:shadow-lg"
                   >
-                    <div
-                      className={`relative w-full h-full duration-500 [transform-style:preserve-3d] transition-transform rounded-3xl shadow-md border border-slate-200/90 bg-white ${
-                        isFlipped ? "[transform:rotateY(180deg)]" : ""
-                      }`}
-                    >
-                      {/* ================= FRONT SIDE ================= */}
-                      <div className={`absolute inset-0 w-full h-full [backface-visibility:hidden] [-webkit-backface-visibility:hidden] p-5 sm:p-7 md:p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-white via-white to-[#E8F5E9]/30 rounded-3xl overflow-y-auto ${!isFlipped ? "z-10" : "z-0 pointer-events-none"}`}>
+                    {!isFlipped ? (
+                      /* ================= FRONT SIDE ================= */
+                      <div className="w-full h-full min-h-[380px] sm:min-h-[420px] md:min-h-[460px] p-5 sm:p-7 md:p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-white via-white to-[#E8F5E9]/30 rounded-3xl animate-in fade-in duration-150">
                         {/* Top bar on front */}
                         <div className="w-full flex items-center justify-between text-xs text-slate-400 gap-1.5">
                           <span className="font-mono font-semibold">
@@ -803,7 +799,7 @@ export default function FlashcardsPage() {
                           )}
 
                           <p className="text-[11px] sm:text-xs text-slate-400 pt-1 sm:pt-2">
-                            Chạm vào thẻ hoặc bấm phím <b>Space</b> để lật mặt sau
+                            Chạm vào thẻ hoặc bấm phím <b>Space</b> để xem nghĩa & cách đọc
                           </p>
                         </div>
 
@@ -822,9 +818,9 @@ export default function FlashcardsPage() {
                           </button>
                         </div>
                       </div>
-
-                      {/* ================= BACK SIDE ================= */}
-                      <div className={`absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden] [-webkit-backface-visibility:hidden] p-5 sm:p-7 md:p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-[#E8F5E9]/40 via-white to-emerald-50/30 rounded-3xl overflow-y-auto ${isFlipped ? "z-10" : "z-0 pointer-events-none"}`}>
+                    ) : (
+                      /* ================= BACK SIDE ================= */
+                      <div className="w-full h-full min-h-[380px] sm:min-h-[420px] md:min-h-[460px] p-5 sm:p-7 md:p-8 flex flex-col justify-between items-center text-center bg-gradient-to-b from-[#E8F5E9]/40 via-white to-emerald-50/30 rounded-3xl animate-in fade-in duration-150">
                         {/* Top bar on back */}
                         <div className="w-full flex items-center justify-between text-xs text-slate-400 gap-1.5">
                           <span className="font-mono font-semibold">
@@ -892,7 +888,7 @@ export default function FlashcardsPage() {
                           </button>
                         </div>
                       </div>
-                    </div>
+                    )}
                   </div>
 
                   {/* ANKI 4 RATING BUTTONS (Hiện rõ khi thẻ được lật) */}

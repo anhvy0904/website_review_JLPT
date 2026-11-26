@@ -64,10 +64,14 @@ export interface ExamQuestion {
   number: number;
   section: SectionType;
   subtype: Subtype | string;
-  mondai?: string;
+  mondai?: string | number;
   weight?: number;
-  passageId?: string;
+  passageId?: string | null;
   questionText: string;
+  questionImagePath?: string;
+  sourcePage?: number;
+  contentAvailableAsText?: boolean;
+  ocrUnverified?: boolean;
   options: ExamOption[];
   correctOptionId: string | null;
   difficulty: number; // 1 to 5
@@ -81,6 +85,8 @@ export interface ExamPassage {
   title?: string;
   text: string;
   imagePath?: string;
+  additionalImagePaths?: string[];
+  reviewStatus?: "verified" | "needs_review";
 }
 
 export interface ExamSource {
@@ -126,6 +132,14 @@ export interface ExamIndexItem {
   subtypes: string[];
   tags: string[];
   lastUpdated: string;
+  hasUnverifiedAnswers?: boolean;
+  stats?: {
+    questionsWithText: number;
+    verifiedQuestions: number;
+    totalQuestions: number;
+    passagesWithText: number;
+    totalPassages: number;
+  };
 }
 
 export interface ExamAttempt {
@@ -160,6 +174,8 @@ export interface JLPTScoreResult {
   isLanguageKnowledgePassed: boolean; // >= 19 (hoặc >= 60% nếu đề đơn lẻ)
   isReadingPassed: boolean; // >= 19 (hoặc true nếu không có reading)
   isOverallPassed: boolean; // Tổng >= 67/120 VÀ không bị liệt môn nào; đề lẻ >= 60%
+  hasUnverifiedAnswers?: boolean;
+  unverifiedCount?: number;
 }
 
 export interface AttemptScoringResult {
@@ -173,6 +189,8 @@ export interface AttemptScoringResult {
   skippedCount: number;
   scorePercent: number; // raw percent 0-100, rounded to 1 decimal
   elapsedSeconds: number;
+  hasUnverifiedAnswers?: boolean;
+  unverifiedCount?: number;
   sectionStats: Record<
     SectionType,
     {

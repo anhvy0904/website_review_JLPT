@@ -16,22 +16,39 @@ export function PassageViewer({
   isMobileCollapsible = true,
 }: PassageViewerProps) {
   const hasText = Boolean(passage.text && passage.text.trim().length > 0);
-  const hasImage = Boolean(passage.imagePath && passage.imagePath.trim().length > 0);
+  
+  // Collect all images in order
+  const allImages = React.useMemo(() => {
+    const list: string[] = [];
+    if (passage.imagePath && passage.imagePath.trim().length > 0) {
+      list.push(passage.imagePath.trim());
+    }
+    if (Array.isArray(passage.additionalImagePaths)) {
+      passage.additionalImagePaths.forEach((img) => {
+        if (img && img.trim().length > 0 && !list.includes(img.trim())) {
+          list.push(img.trim());
+        }
+      });
+    }
+    return list;
+  }, [passage.imagePath, passage.additionalImagePaths]);
+
+  const hasImage = allImages.length > 0;
 
   // Default mode: text if available, otherwise image
   const [mode, setMode] = useState<"text" | "image">(hasText ? "text" : "image");
-  const [imageFailed, setImageFailed] = useState<boolean>(false);
+  const [failedImages, setFailedImages] = useState<Record<string, boolean>>({});
   // Font size: 16px, 18px (default), 20px, 22px
   const [fontSize, setFontSize] = useState<number>(18);
   // Mobile collapse state
   const [isMobileCollapsed, setIsMobileCollapsed] = useState<boolean>(false);
-  const [isImageModalOpen, setIsImageModalOpen] = useState<boolean>(false);
+  const [modalImageSrc, setModalImageSrc] = useState<string | null>(null);
 
   // Synchronize mode when passage changes
   useEffect(() => {
     setMode(passage.text && passage.text.trim().length > 0 ? "text" : "image");
-    setImageFailed(false);
-  }, [passage.id, passage.text, passage.imagePath]);
+    setFailedImages({});
+  }, [passage.id, passage.text, passage.imagePath, passage.additionalImagePaths]);
 
   const fontSizeClasses: Record<number, string> = {
     16: "text-[16px] leading-[1.95]",
@@ -39,6 +56,12 @@ export function PassageViewer({
     20: "text-[20px] leading-[2.15]",
     22: "text-[22px] leading-[2.2]",
   };
+
+  const handleImageError = (src: string) => {
+    setFailedImages((prev) => ({ ...prev, [src]: true }));
+  };
+
+  const allImagesFailed = allImages.length > 0 && allImages.every((src) => failedImages[src]);
 
   return (
     <section
@@ -94,7 +117,7 @@ export function PassageViewer({
                   title="Xem ảnh quét trang đề gốc"
                 >
                   <ImageIcon className="w-3.5 h-3.5" />
-                  <span>Ảnh đề gốc</span>
+                  <span>Ảnh đề gốc {allImages.length > 1 ? `(${allImages.length} trang)` : ""}</span>
                 </button>
               </div>
             )}
@@ -175,35 +198,53 @@ export function PassageViewer({
           </article>
         ) : null}
 
-        {/* MODE 2: ORIGINAL EXAM SCANNED IMAGE */}
-        {(mode === "image" || (!hasText && hasImage)) && hasImage && !imageFailed ? (
-          <div className="space-y-3">
-            <div className="relative group overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 p-2 shadow-2xs">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={passage.imagePath}
-                alt={passage.title || "Ảnh trang đề gốc"}
-                className="mx-auto h-auto max-w-full rounded-xl object-contain transition-transform"
-                onError={() => setImageFailed(true)}
-              />
-              <button
-                type="button"
-                onClick={() => setIsImageModalOpen(true)}
-                className="absolute top-4 right-4 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-900 text-white text-xs font-semibold backdrop-blur-xs shadow-md transition-opacity"
-                title="Phóng to ảnh đề gốc"
-              >
-                <ZoomIn className="w-3.5 h-3.5" />
-                <span>Phóng to</span>
-              </button>
-            </div>
+        {/* MODE 2: ORIGINAL EXAM SCANNED IMAGES (Render ALL images in sequential order) */}
+        {(mode === "image" || (!hasText && hasImage)) && hasImage && !allImagesFailed ? (
+          <div className="space-y-5">
+            {allImages.map((src, index) => {
+              if (failedImages[src]) return null;
+              return (
+                <div key={src} className="space-y-2">
+                  {allImages.length > 1 && (
+                    <div className="flex items-center justify-between px-2 text-xs font-semibold text-slate-600 bg-slate-50 py-1.5 rounded-lg border border-slate-200">
+                      <span className="flex items-center gap-1.5">
+                        <ImageIcon className="w-3.5 h-3.5 text-emerald-700" />
+                        <span>Trang {index + 1} / {allImages.length}</span>
+                      </span>
+                      <span className="text-[11px] text-slate-400 font-mono">
+                        {src.split("/").pop()}
+                      </span>
+                    </div>
+                  )}
+                  <div className="relative group overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 p-2 shadow-2xs">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={src}
+                      alt={`${passage.title || "Ảnh trang đề gốc"} (Trang ${index + 1})`}
+                      className="mx-auto h-auto max-w-full rounded-xl object-contain transition-transform"
+                      onError={() => handleImageError(src)}
+                    />
+                    <button
+                      type="button"
+                      onClick={() => setModalImageSrc(src)}
+                      className="absolute top-4 right-4 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-900 text-white text-xs font-semibold backdrop-blur-xs shadow-md transition-opacity"
+                      title="Phóng to ảnh trang này"
+                    >
+                      <ZoomIn className="w-3.5 h-3.5" />
+                      <span>Phóng to</span>
+                    </button>
+                  </div>
+                </div>
+              );
+            })}
             <p className="text-center text-xs text-slate-400">
-              * Ảnh quét nguyên bản từ bộ đề thi JLPT N3 Best Moshi.
+              * Ảnh quét nguyên bản từ nguồn đề thi JLPT N3 ({allImages.length} trang).
             </p>
           </div>
         ) : null}
 
         {/* FALLBACK: Image load error but text exists */}
-        {mode === "image" && imageFailed && hasText && (
+        {mode === "image" && allImagesFailed && hasText && (
           <div className="p-4 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs space-y-2">
             <div className="flex items-center gap-2 font-bold text-amber-950">
               <AlertCircle className="w-4 h-4 text-amber-600 shrink-0" />
@@ -221,7 +262,7 @@ export function PassageViewer({
         )}
 
         {/* FALLBACK: Neither text nor valid image exists */}
-        {!hasText && (!hasImage || imageFailed) && (
+        {!hasText && (!hasImage || allImagesFailed) && (
           <div className="p-4 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs flex items-start gap-2.5">
             <AlertCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
             <div className="space-y-1">
@@ -235,20 +276,22 @@ export function PassageViewer({
       </div>
 
       {/* Fullscreen Image Modal if requested */}
-      {isImageModalOpen && passage.imagePath && (
+      {modalImageSrc && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-slate-950/80 backdrop-blur-sm"
-          onClick={() => setIsImageModalOpen(false)}
+          onClick={() => setModalImageSrc(null)}
         >
           <div
             className="relative max-w-5xl max-h-[92vh] bg-white rounded-3xl p-3 sm:p-5 shadow-2xl overflow-auto border border-slate-700"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-center justify-between pb-3 mb-2 border-b border-slate-100">
-              <h3 className="font-bold text-slate-900 text-sm">{passage.title || "Ảnh đề gốc"}</h3>
+              <h3 className="font-bold text-slate-900 text-sm">
+                {passage.title || "Ảnh đề gốc"} - {modalImageSrc.split("/").pop()}
+              </h3>
               <button
                 type="button"
-                onClick={() => setIsImageModalOpen(false)}
+                onClick={() => setModalImageSrc(null)}
                 className="px-3 py-1 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold"
               >
                 Đóng (ESC)
@@ -256,7 +299,7 @@ export function PassageViewer({
             </div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={passage.imagePath}
+              src={modalImageSrc}
               alt={passage.title || "Ảnh đề gốc phóng to"}
               className="w-full h-auto max-h-[80vh] object-contain mx-auto rounded-xl"
             />

@@ -26,18 +26,25 @@ export default function LearningHubPage() {
           <span>Chuyên Đề Trọng Tâm • Học cùng VuyAnh 🌸</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-[#1B5E20] tracking-tight">
-          Học Ngữ Pháp Theo Chuyên Đề
+          Học Tiếng Nhật Theo Chuyên Đề
         </h1>
         <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-          Nắm vững quy tắc chia 12 thể động từ và làm chủ hệ thống Kính ngữ – Khiêm nhường ngữ trong đời sống và môi trường làm việc Nhật Bản.
+          Học ngữ pháp, luyện dịch hai chiều và luyện nghe–gõ từ vựng, câu ví dụ để ghi nhớ tiếng Nhật qua từng ngày.
         </p>
       </div>
 
       <Link href="/learn/translation" className="block rounded-2xl border-2 border-emerald-200 bg-emerald-50 p-6 hover:bg-emerald-100 transition-colors">
-        <p className="text-sm font-semibold text-emerald-700">NHẬT → VIỆT · JLPT N3</p>
+        <p className="text-sm font-semibold text-emerald-700">VIỆT ↔ NHẬT · JLPT N3</p>
         <h2 className="mt-2 text-2xl font-bold text-emerald-950">Luyện dịch song ngữ</h2>
-        <p className="mt-2 text-base leading-relaxed text-slate-600">5 bài đọc về du lịch, công việc IT, đời sống và văn hóa Nhật. Tự viết bản dịch, bật furigana khi cần và đối chiếu đáp án có giải thích.</p>
+        <p className="mt-2 text-base leading-relaxed text-slate-600">5 bài đọc về du lịch, công việc IT, đời sống và văn hóa Nhật. Dịch từng câu theo cả hai chiều, so sánh đáp án và nhận điểm cùng nhận xét từ AI.</p>
         <span className="mt-4 inline-block font-semibold text-emerald-800">Bắt đầu luyện dịch</span>
+      </Link>
+
+      <Link href="/learn/tango" className="block rounded-2xl border-2 border-[#A5DEE5] bg-[#A5DEE5]/20 p-6 transition-colors hover:bg-[#A5DEE5]/40">
+        <p className="text-sm font-semibold text-teal-800">TANGO N3 · 12 CHAPTER · 60 UNIT · 1.392 TỪ VỰNG</p>
+        <h2 className="mt-2 text-2xl font-bold text-slate-900">Từ vựng & Câu ví dụ Tango N3</h2>
+        <p className="mt-2 text-base leading-relaxed text-slate-600">Kho từ vựng đầy đủ 12 Chapter, 60 Unit với 1.392 từ vựng và câu ví dụ chuẩn sách Tango N3. Nghe phát âm tiếng Nhật, gõ từ/câu, kiểm tra đáp án tức thì và ôn luyện các mục sai.</p>
+        <span className="mt-4 inline-block font-semibold text-teal-800">Bắt đầu học 1.392 từ Tango N3 →</span>
       </Link>
 
       {/* 2 Big Module Cards */}

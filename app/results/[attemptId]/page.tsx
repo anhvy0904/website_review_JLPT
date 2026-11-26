@@ -86,9 +86,13 @@ export default function ResultsPage() {
     return scoreAttempt(exam, attempt);
   }, [exam, attempt]);
 
-  // Fire confetti on pass or high score
+  // Fire confetti on pass or high score (only when answers are verified)
   useEffect(() => {
-    if (scoring && (scoring.jlptScore?.isOverallPassed || scoring.scorePercent >= 70)) {
+    if (
+      scoring &&
+      !scoring.hasUnverifiedAnswers &&
+      (scoring.jlptScore?.isOverallPassed || scoring.scorePercent >= 70)
+    ) {
       try {
         confetti({
           particleCount: 90,
@@ -180,6 +184,19 @@ export default function ResultsPage() {
         {/* Decorative corner accent */}
         <div className="absolute top-0 right-0 w-36 h-36 bg-gradient-to-bl from-emerald-100/60 to-transparent rounded-bl-full pointer-events-none" />
 
+        {/* Unverified Draft Notice if present */}
+        {scoring.hasUnverifiedAnswers && (
+          <div className="p-4 rounded-2xl bg-amber-50 border-2 border-amber-300 text-amber-950 text-sm flex items-start gap-3 relative z-10">
+            <AlertCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+            <div>
+              <div className="font-bold text-amber-900">Đề thi Bản nháp — Chưa xác minh đáp án</div>
+              <div className="text-xs text-amber-800 mt-1 leading-relaxed">
+                Đề thi này có {scoring.unverifiedCount} câu chưa có đáp án chính thức từ nguồn đề. Điểm số chỉ phản ánh các câu đã xác minh (nếu có).
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Header & Mascot */}
         <div className="flex flex-wrap items-center justify-between gap-4 border-b border-emerald-100/80 pb-5">
           <div className="flex items-center gap-3">
@@ -202,7 +219,12 @@ export default function ResultsPage() {
 
           {/* Pass/Fail Main Badge */}
           <div className="flex items-center">
-            {scoring.jlptScore.isOverallPassed ? (
+            {scoring.hasUnverifiedAnswers ? (
+              <div className="flex items-center gap-2.5 px-4 py-2 rounded-2xl bg-amber-500 text-white font-extrabold text-sm sm:text-base shadow-sm ring-4 ring-amber-100">
+                <AlertCircle className="w-5 h-5" />
+                <span>CHƯA CHẤM ĐIỂM (CHƯA XÁC MINH ĐÁP ÁN)</span>
+              </div>
+            ) : scoring.jlptScore.isOverallPassed ? (
               <div className="flex items-center gap-2.5 px-4 py-2 rounded-2xl bg-emerald-500 text-white font-extrabold text-sm sm:text-base shadow-sm ring-4 ring-emerald-100">
                 <CheckCircle2 className="w-5 h-5" />
                 <span>ĐẠT (合格)</span>
@@ -659,7 +681,12 @@ export default function ResultsPage() {
                     </div>
 
                     <div className="flex items-center gap-2">
-                      {qr.isCorrect ? (
+                      {qr.correctOptionId == null || qr.correctOptionId === "" ? (
+                        <span className="flex items-center gap-1 text-xs font-bold text-amber-800 bg-amber-100 px-2.5 py-1 rounded-full border border-amber-300">
+                          <AlertCircle className="w-3.5 h-3.5" />
+                          Chưa xác minh đáp án
+                        </span>
+                      ) : qr.isCorrect ? (
                         <span className="flex items-center gap-1 text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
                           <CheckCircle2 className="w-3.5 h-3.5" />
                           Đúng
@@ -685,11 +712,30 @@ export default function ResultsPage() {
                     </div>
                   )}
 
-                  {/* Question text */}
-                  <div>
-                    <p className="font-japanese text-slate-900 text-lg sm:text-xl font-medium leading-[1.8]">
-                      <FormattedQuestionText text={q.questionText} />
-                    </p>
+                  {/* Question text or Scanned Image (Requirement 3) */}
+                  <div className="space-y-3">
+                    {q.questionText && q.questionText.trim().length > 0 ? (
+                      <p className="font-japanese text-slate-900 text-lg sm:text-xl font-medium leading-[1.8]">
+                        <FormattedQuestionText text={q.questionText} />
+                      </p>
+                    ) : q.questionImagePath ? (
+                      <div className="space-y-2">
+                        <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs flex items-center justify-between">
+                          <span className="font-bold">Ảnh trang đề gốc (Bản nháp — Chưa nhập chữ)</span>
+                          {q.sourcePage && (
+                            <span className="text-[11px] font-mono text-amber-800">Trang PDF: {q.sourcePage}</span>
+                          )}
+                        </div>
+                        <div className="p-2 rounded-2xl border border-slate-200 bg-slate-50">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={q.questionImagePath}
+                            alt={`Ảnh đề gốc câu ${q.number}`}
+                            className="max-h-[500px] w-auto mx-auto rounded-xl object-contain shadow-xs"
+                          />
+                        </div>
+                      </div>
+                    ) : null}
                   </div>
 
                   {/* Explanation Component */}

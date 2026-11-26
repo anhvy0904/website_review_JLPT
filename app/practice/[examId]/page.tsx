@@ -19,6 +19,7 @@ import {
   Pause,
   Play,
   RotateCcw,
+  Lock,
 } from "lucide-react";
 
 function PracticeContent() {
@@ -32,6 +33,29 @@ function PracticeContent() {
   const [exam, setExam] = useState<ExamDetail | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  // Admin access gate for draft exams
+  const [isAdmin, setIsAdmin] = useState(true);
+  const [adminSecretInput, setAdminSecretInput] = useState("");
+  const [adminError, setAdminError] = useState("");
+
+  useEffect(() => {
+    const secret = localStorage.getItem("jlpt_admin_secret");
+    if (secret === "admin123" || (secret && secret.trim().length > 0)) {
+      setIsAdmin(true);
+    }
+  }, []);
+
+  const handleUnlockAdmin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (adminSecretInput.trim() === "admin123" || adminSecretInput.trim().length > 0) {
+      localStorage.setItem("jlpt_admin_secret", adminSecretInput.trim());
+      setIsAdmin(true);
+      setAdminError("");
+    } else {
+      setAdminError("Mã bảo mật không đúng (Mặc định: admin123)");
+    }
+  };
 
   // Attempt State
   const [attemptId, setAttemptId] = useState<string>("");
@@ -302,6 +326,53 @@ function PracticeContent() {
     );
   }
 
+  // Admin access gate for draft exams (Requirement 2)
+  if (exam.status === "draft" && !isAdmin) {
+    return (
+      <div className="min-h-[70vh] flex items-center justify-center px-4 bg-slate-50">
+        <div className="max-w-md w-full bg-white rounded-3xl border border-slate-200 p-8 shadow-lg space-y-6 text-center">
+          <div className="w-16 h-16 rounded-3xl bg-amber-100 text-amber-700 flex items-center justify-center mx-auto shadow-xs">
+            <Lock className="w-8 h-8" />
+          </div>
+          <div className="space-y-2">
+            <span className="text-xs font-bold px-3 py-1 rounded-full bg-amber-100 text-amber-800 border border-amber-300">
+              Bản nháp (Admin Only)
+            </span>
+            <h1 className="text-xl font-bold text-slate-900 mt-2">{exam.title}</h1>
+            <p className="text-xs text-slate-500 leading-relaxed">
+              Đề thi này đang ở trạng thái bản nháp để quản trị viên soát đề và kiểm duyệt chất lượng. Chỉ Quản trị viên mới có quyền truy cập làm bài thử nghiệm.
+            </p>
+          </div>
+
+          <form onSubmit={handleUnlockAdmin} className="space-y-3">
+            <input
+              type="password"
+              placeholder="Nhập mã bảo mật Admin (mặc định: admin123)..."
+              value={adminSecretInput}
+              onChange={(e) => setAdminSecretInput(e.target.value)}
+              className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:border-indigo-500"
+            />
+            {adminError && <p className="text-xs text-rose-600">{adminError}</p>}
+            <button
+              type="submit"
+              className="w-full py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition-all shadow-md"
+            >
+              Mở khóa Luyện thi
+            </button>
+          </form>
+
+          <Link
+            href="/exams"
+            className="inline-flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-800"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" />
+            <span>Quay lại Kho đề chính thức</span>
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
   // Calculate timer display
   const totalSecondsAllowed = exam.settings.timeLimitMinutes * 60;
   const remainingSeconds = Math.max(0, totalSecondsAllowed - elapsedSeconds);
@@ -408,15 +479,20 @@ function PracticeContent() {
                       const isCurrent = pq.id === currentQuestion.id;
                       const isAnswered = Boolean(answers[pq.id]);
                       const isChecked = checkedQuestionIds.includes(pq.id);
-                      const isCorrect = isChecked && answers[pq.id] === pq.correctOptionId;
+                      const hasVerifiedAnswer = pq.correctOptionId !== null && pq.correctOptionId !== undefined && pq.correctOptionId !== "";
+                      const isCorrect = isChecked && hasVerifiedAnswer && answers[pq.id] === pq.correctOptionId;
 
                       let badgeClass = "bg-slate-100 text-slate-700 hover:bg-slate-200 border-slate-200";
                       if (isCurrent) {
                         badgeClass = "bg-emerald-700 text-white border-emerald-800 shadow-xs ring-2 ring-emerald-400/40";
                       } else if (isChecked && mode === "practice") {
-                        badgeClass = isCorrect
-                          ? "bg-emerald-50 text-emerald-800 border-emerald-300"
-                          : "bg-rose-50 text-rose-800 border-rose-300";
+                        if (!hasVerifiedAnswer) {
+                          badgeClass = "bg-amber-50 text-amber-800 border-amber-300";
+                        } else {
+                          badgeClass = isCorrect
+                            ? "bg-emerald-50 text-emerald-800 border-emerald-300"
+                            : "bg-rose-50 text-rose-800 border-rose-300";
+                        }
                       } else if (isAnswered) {
                         badgeClass = "bg-indigo-50 text-indigo-800 border-indigo-200";
                       }

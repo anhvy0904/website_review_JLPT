@@ -107,7 +107,10 @@ export default function AdminPage() {
         <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-2">
           <span className="text-xs font-semibold text-slate-500">Tổng số bộ đề</span>
           <div className="text-3xl font-extrabold text-slate-900">{exams.length}</div>
-          <p className="text-xs text-emerald-600 font-semibold">100% đã xuất bản (published)</p>
+          <p className="text-xs text-slate-500 font-semibold">
+            <span className="text-emerald-700">{exams.filter((e) => e.status === "published").length} đã xuất bản</span> •{" "}
+            <span className="text-amber-700">{exams.filter((e) => e.status === "draft").length} bản nháp</span>
+          </p>
         </div>
 
         <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-2">
@@ -165,9 +168,9 @@ export default function AdminPage() {
                   <th className="py-3 px-4">Mã đề (ID)</th>
                   <th className="py-3 px-4">Tên đề thi</th>
                   <th className="py-3 px-4">Số câu</th>
-                  <th className="py-3 px-4">Thời gian</th>
+                  <th className="py-3 px-4">Tiến độ soát đề</th>
                   <th className="py-3 px-4">Trạng thái</th>
-                  <th className="py-3 px-4 text-right">Xem trước</th>
+                  <th className="py-3 px-4 text-right">Thao tác</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
@@ -177,23 +180,54 @@ export default function AdminPage() {
                       {exam.id}
                     </td>
                     <td className="py-3.5 px-4 font-medium text-slate-800">
-                      {exam.title}
+                      <div>{exam.title}</div>
+                      {exam.hasUnverifiedAnswers && (
+                        <span className="text-[10px] text-amber-700 font-semibold bg-amber-50 px-1.5 py-0.5 rounded border border-amber-200 mt-0.5 inline-block">
+                          ⚠️ Chưa xác minh đáp án
+                        </span>
+                      )}
                     </td>
                     <td className="py-3.5 px-4 font-semibold text-indigo-600">
                       {exam.questionCount} câu
                     </td>
-                    <td className="py-3.5 px-4 font-mono">
-                      {exam.timeLimitMinutes} phút
+                    <td className="py-3.5 px-4">
+                      {exam.stats ? (
+                        <div className="space-y-0.5 text-[11px]">
+                          <div>
+                            Chữ: <span className="font-semibold text-slate-800">{exam.stats.questionsWithText}/{exam.questionCount}</span>
+                          </div>
+                          <div>
+                            Duyệt: <span className="font-semibold text-slate-800">{exam.stats.verifiedQuestions}/{exam.questionCount}</span>
+                          </div>
+                          <div>
+                            Bài đọc: <span className="font-semibold text-slate-800">{exam.stats.passagesWithText}/{exam.stats.totalPassages}</span>
+                          </div>
+                        </div>
+                      ) : (
+                        <span className="text-slate-400">100%</span>
+                      )}
                     </td>
                     <td className="py-3.5 px-4">
-                      <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-100 text-emerald-800">
-                        {exam.status}
+                      <span
+                        className={`px-2.5 py-0.5 rounded-full text-[11px] font-semibold ${
+                          exam.status === "published"
+                            ? "bg-emerald-100 text-emerald-800"
+                            : "bg-amber-100 text-amber-800"
+                        }`}
+                      >
+                        {exam.status === "published" ? "Xuất bản" : "Bản nháp"}
                       </span>
                     </td>
-                    <td className="py-3.5 px-4 text-right">
+                    <td className="py-3.5 px-4 text-right space-x-2">
+                      <Link
+                        href={`/admin/review/${exam.id}`}
+                        className="inline-flex items-center gap-1 font-semibold px-2.5 py-1 rounded-lg bg-indigo-50 text-indigo-700 hover:bg-indigo-100 border border-indigo-200 transition-colors"
+                      >
+                        <span>Soát & Duyệt đề</span>
+                      </Link>
                       <Link
                         href={`/exams/${exam.id}`}
-                        className="inline-flex items-center gap-1 font-semibold text-indigo-600 hover:text-indigo-800"
+                        className="inline-flex items-center gap-1 font-semibold text-slate-500 hover:text-slate-800"
                       >
                         <span>Chi tiết</span>
                         <ArrowRight className="w-3.5 h-3.5" />

@@ -1,6 +1,6 @@
 # Luyện đề tiếng Nhật cùng VuyAnh — JLPT N3
 
-Website học và luyện thi tiếng Nhật dành cho người Việt, xây dựng bằng Next.js, React và TypeScript. Nội dung gồm từ vựng, Kanji, ngữ pháp, đọc hiểu, học chuyên đề và luyện dịch Nhật → Việt.
+Website học và luyện thi tiếng Nhật dành cho người Việt, xây dựng bằng Next.js, React và TypeScript. Nội dung gồm từ vựng, Kanji, ngữ pháp, đọc hiểu, học chuyên đề và luyện dịch Việt ↔ Nhật theo từng câu.
 
 Đề thi và bài học được lưu trong mã nguồn dưới dạng JSON hoặc mảng JavaScript. Các chức năng học cơ bản chạy không cần khóa API; AI là phần mở rộng tùy chọn. Tiến độ cá nhân được lưu trên trình duyệt, không tự đồng bộ giữa thiết bị.
 
@@ -11,7 +11,7 @@ Website học và luyện thi tiếng Nhật dành cho người Việt, xây d�
 - [Công nghệ và cấu trúc mã nguồn](#công-nghệ-và-cấu-trúc-mã-nguồn)
 - [Cài đặt và chạy dự án](#cài-đặt-và-chạy-dự-án)
 - [Cấu hình môi trường và AI](#cấu-hình-môi-trường-và-ai)
-- [Luyện dịch Nhật → Việt](#luyện-dịch-nhật--việt)
+- [Luyện dịch Việt ↔ Nhật](#luyện-dịch-việt--nhật)
 - [Thêm và cập nhật đề thi](#thêm-và-cập-nhật-đề-thi)
 - [Dữ liệu và tiến độ học](#dữ-liệu-và-tiến-độ-học)
 - [Lệnh phát triển và kiểm tra](#lệnh-phát-triển-và-kiểm-tra)
@@ -40,17 +40,23 @@ Website học và luyện thi tiếng Nhật dành cho người Việt, xây d�
 - Flashcard từ vựng với lịch ôn lặp lại ngắt quãng; người học tự đánh giá mức độ nhớ sau mỗi thẻ.
 - Trang ôn câu sai và biểu đồ thống kê để theo dõi quá trình học.
 
-### Luyện dịch Nhật → Việt
+### Luyện dịch Việt ↔ Nhật
 
 Có 5 bài đọc N3, mỗi bài 10 câu, thuộc bốn chủ đề: **Du lịch**, **Công việc IT**, **Đời sống hằng ngày**, **Văn hóa Nhật**.
 
 - Chọn bài từ danh sách hoặc chuyển bằng nút **Bài tiếp theo**.
 - Bật/tắt furigana; ẩn/hiện gợi ý từ vựng và ngữ pháp.
-- Viết bản dịch trong ô nhập lớn, tự lưu bản nháp riêng cho từng bài.
+- Nhập bản dịch trong từng ô câu theo thứ tự từ trên xuống; lưu riêng theo bài và chiều dịch.
 - Đo thời gian luyện dịch, tạm dừng hoặc đặt lại đồng hồ.
-- Mở bản dịch mẫu và giải thích cách ngắt câu, chọn từ, diễn đạt tự nhiên.
+- So sánh đáp án và chấm từng câu bằng AI: đúng ý 6 điểm, ngữ pháp 2 điểm, độ tự nhiên 2 điểm; kèm nhận xét và gợi ý sửa.
 
-Đây là bài tập tự đối chiếu; chức năng này không tự chấm điểm bản dịch và không cần AI.
+So sánh đáp án không cần AI. Chấm từng câu cần khóa AI ở server; nếu chưa cấu hình hoặc gặp lỗi, trang báo rõ chưa chấm được. Điểm AI mang tính tham khảo, không yêu cầu câu trả lời giống từng chữ với đáp án mẫu.
+
+### Tango N3: nghe – gõ – ôn mục sai
+
+Trang `/learn/tango` hỗ trợ chọn Chapter/Unit, nghe và gõ từ vựng hoặc câu ví dụ. Enter kiểm tra rồi chuyển mục; Alt + R nghe lại, Alt + S đổi tốc độ 0.75x/1.0x. Chấp nhận Kanji hoặc cách đọc Hiragana, lưu tiến độ và trạng thái đang sai/đã thuộc riêng cho hai chế độ bằng localStorage.
+
+Bản mẫu gồm 12 từ tự biên soạn, chưa phải toàn bộ sách Tango N3. Có file `public/data/tango_n3_sample.json` và vùng nhập kho JSON trên trang. Audio ưu tiên file trong `/audio/`, dự phòng bằng Web Speech API trên thiết bị có giọng Nhật. Xem [hướng dẫn Tango N3](README_TANGO_N3.md).
 
 ### Công cụ AI và quản trị
 
@@ -75,7 +81,8 @@ Các đường dẫn bên dưới là đường dẫn trong ứng dụng, ví d�
 | `/learn` | Danh sách chuyên đề |
 | `/learn/verb-forms` | Học chia động từ |
 | `/learn/keigo` | Học kính ngữ và khiêm nhường ngữ |
-| `/learn/translation` | Luyện dịch Nhật → Việt |
+| `/learn/translation` | Luyện dịch Việt ↔ Nhật |
+| `/learn/tango` | Nghe–gõ từ vựng, câu ví dụ và ôn mục sai Tango N3 |
 | `/flashcards` | Ôn từ vựng |
 | `/review` | Ôn câu sai và câu đã ghim |
 | `/dashboard` | Thống kê học tập |
@@ -197,22 +204,24 @@ Một số màn hình cho phép nhập khóa riêng; khóa này được ưu ti�
 
 `lib/auth.ts` hiện có mã quản trị dự phòng dành cho phát triển. Trước khi mở chức năng quản trị trên môi trường công khai, đặt `ADMIN_SECRET` riêng và đủ khó đoán. Không dùng tiền tố `NEXT_PUBLIC_` cho bí mật, không commit `.env.local` hoặc khóa thật. File `.env.local` đã được bỏ qua trong `.gitignore`.
 
-## Luyện dịch Nhật → Việt
+## Luyện dịch Việt ↔ Nhật
 
 ### Cách học
 
 1. Mở **Luyện dịch** trên menu hoặc `/learn/translation`.
-2. Chọn chủ đề và bài đọc. Furigana mặc định tắt để tự luyện đọc Kanji.
-3. Bấm **Bắt đầu** trước khi đọc nếu muốn đo cả thời gian đọc; đồng hồ cũng tự chạy khi bắt đầu gõ bản dịch.
-4. Ẩn gợi ý để tự thử sức hoặc mở lại khi cần tra từ vựng, ngữ pháp.
-5. Bấm **Xem đáp án mẫu & Giải thích** để đối chiếu; đồng hồ tạm dừng.
-6. Chọn **Bài tiếp theo** để chuyển bài trong danh sách đang lọc.
+2. Chọn chiều **Việt → Nhật** (mặc định) hoặc **Nhật → Việt**, rồi chọn chủ đề và bài đọc.
+3. Nhập bản dịch vào từng ô câu, lần lượt từ trên xuống. Đồng hồ tự bắt đầu khi gõ; có thể bấm **Bắt đầu** trước khi đọc.
+4. Bấm **Chấm câu này** để nhận điểm, nhận xét và gợi ý sửa ngay dưới câu đó. Bấm **So sánh với đáp án** nếu chỉ muốn tự đối chiếu.
+5. Sửa bản dịch sẽ xóa điểm cũ để chấm lại; bấm **Tiếp tục câu…** để đưa con trỏ xuống câu sau.
+6. Dùng **Bài tiếp theo** để chuyển trong danh sách đã lọc; hết danh sách sẽ quay lại bài đầu. Nếu chỉ có một bài, nút sẽ tắt.
 
-Khi rời tab, đồng hồ tạm dừng. Khi quay lại, bấm bắt đầu hoặc gõ tiếp; cần ẩn đáp án trước khi tiếp tục đo thời gian. Tải lại trang giữ bản nháp và thời gian đã lưu nhưng không tự chạy lại đồng hồ.
+Bản nháp, điểm và thời gian lưu riêng theo bài và chiều dịch. Khi rời tab, chấm câu hoặc mở đối chiếu, đồng hồ tạm dừng. Tải lại trang không tự chạy lại đồng hồ; **Đặt lại thời gian** không xóa bản dịch. Bản nháp cả đoạn của phiên bản cũ được giữ trong mục mở rộng để sao chép lại từng câu.
 
-**Bài tiếp theo** quay về bài đầu khi hết danh sách. Nút này bị vô hiệu hóa khi chủ đề chỉ có một bài; chọn **Tất cả** để luyện các bài còn lại. **Đặt lại thời gian** chỉ đưa đồng hồ về 0, không xóa bản dịch.
+API `/api/ai/translation` sử dụng khóa và model cấu hình ở server như mục AI bên trên. Câu trả lời và ngữ cảnh bài học được gửi đến nhà cung cấp khi bấm chấm. Xem [hướng dẫn luyện dịch](README_LUYEN_DICH.md) để biết chi tiết lưu dữ liệu và cách chấm.
 
 ### Thêm bài bằng JavaScript
+
+Bạn cũng có thể thêm bài ngay trên website: mở **Thêm bài bằng JSON** bên dưới phần chọn bài, sao chép mẫu có sẵn, sửa nội dung rồi dán vào ô nhập và bấm **Kiểm tra & thêm bài**. Mỗi bài có 1–50 cặp câu, một lần nhập tối đa 20 bài. Bài được lưu trên trình duyệt, dùng được cho cả hai chiều và chấm AI; không tự đăng cho mọi người. Nút **Tải JSON các bài đã thêm** giúp sao lưu. Xem chi tiết trong [hướng dẫn luyện dịch](README_LUYEN_DICH.md).
 
 Sửa [lib/translation-lessons.js](lib/translation-lessons.js). Thêm object vào mảng `translationLessons`, tại dòng ghi **THÊM OBJECT BÀI MỚI TẠI ĐÂY**. Cuối file đã có mẫu để sao chép.
 
@@ -270,7 +279,7 @@ Giao diện quản trị hỗ trợ nhập và xuất bản đề qua API. Endpo
 | Lượt làm bài, khảo sát, đánh dấu, báo lỗi câu hỏi | localStorage qua `lib/storage.ts` |
 | Flashcard và lịch ôn | localStorage qua `lib/storage.ts` |
 | Tiến độ chuyên đề | `jlptn3:v1:learning_progress` |
-| Bản nháp và thời gian dịch | `vuyanh-translation-v1:<lessonId>` |
+| Bản nháp, điểm và thời gian dịch | `vuyanh-translation-v2:<lessonId>:<direction>`; bản nháp cũ giữ ở khóa v1 |
 
 Dữ liệu cá nhân gắn với trình duyệt và origin của website. Đổi thiết bị, trình duyệt, tên miền hoặc cổng local có thể khiến dữ liệu không xuất hiện. Xóa dữ liệu website sẽ xóa tiến độ đã lưu; chế độ riêng tư có thể chỉ giữ dữ liệu trong phiên.
 
@@ -286,7 +295,7 @@ Dữ liệu đề trong `public/` có thể được truy cập trực tiếp, b
 | `npm run start` | Chạy bản production đã build |
 | `npm test` | Chạy các file `tests/*.test.mjs` |
 | `npx tsc --noEmit` | Kiểm tra kiểu TypeScript |
-| `node --test tests/translation-lessons.test.mjs` | Kiểm tra số câu, chủ đề, bản dịch và furigana của bài dịch |
+| `node --test tests/translation-lessons.test.mjs tests/translation-grading.test.mjs` | Kiểm tra dữ liệu bài dịch và API chấm với nhà cung cấp giả lập |
 | `npm run lint` | Gọi `next lint`; cần cấu hình ESLint phù hợp nếu dự án yêu cầu thiết lập ban đầu |
 
 Thư mục `tests/` có các kiểm tra về chia động từ, Kanji, Hán Việt, flashcard, tính điểm, bài đọc và dữ liệu luyện dịch. Chúng không thay thế việc thử trực tiếp các luồng người dùng trên trình duyệt.

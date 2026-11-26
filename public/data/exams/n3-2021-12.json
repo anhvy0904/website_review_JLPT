@@ -1,0 +1,4641 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "n3-2021-12",
+  "title": "JLPT N3 — Tháng 12/2021 (không nghe)",
+  "description": "Bản nhập dữ liệu học JLPT N3: từ vựng, ngữ pháp và đọc hiểu. Không có nghe hiểu; cần kiểm duyệt trước khi xuất bản.",
+  "level": "N3",
+  "status": "draft",
+  "source": {
+    "type": "pdf",
+    "fileName": "N3 T12-2021 Final Version(1).pdf",
+    "notes": "Chuyển từ PDF do người dùng cung cấp; đáp án đề xuất chưa đối chiếu đáp án gốc. Không công bố trước khi kiểm duyệt.",
+    "reviewedByHuman": false
+  },
+  "settings": {
+    "timeLimitMinutes": 100,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ]
+  },
+  "passages": [
+    {
+      "id": "p001",
+      "title": "桜の絵の傘（文法・文章）",
+      "text": "桜の絵の傘　パーカーキャサリン\n私は4月に日本に来ました。授業がないときや休みの日には、花見をしたり、買い物をしたり、大好きなテニスをしたりして、楽しく過ごしていました。（19）、6月になると、梅雨で雨の日が多くなりました。雨の日は、傘を持って歩くのがめんどうくさいし、テニスもできません。私は雨の日は嫌だと思っていました。雨の日が何日も続いたので、雨がほとんど降らないふるさとが懐かしくなりました。\nそんなとき、（20）が傘をプレゼントしてくれました。それまで、私はコンビニで買った黒い傘を使っていました。プレゼントの傘も黒で、私が持っている傘と似ていました。ところが、傘を開くと内側は全く違っていました。友達がくれた傘は内側に美しい桜の絵が（21）。傘をさすと、まるで桜の木の下にいるようでした。私は楽しかった花見を思い出しました。\n今は、この傘があるので雨の日が嫌ではありません。晴れの日が続いたときに、雨が降ってほしいなあと（22）。傘だけで気持ちがこんなに変わることに驚きました。",
+      "imagePath": "/data/exams/assets/n3-2021-12/source-page-05.webp",
+      "additionalImagePaths": [
+        "/data/exams/assets/n3-2021-12/source-page-06.webp"
+      ]
+    },
+    {
+      "id": "p002",
+      "title": "山川市マラソン大会・ボランティア募集",
+      "text": "第3回山川市マラソン大会\n大会当日に手伝ってくださる方、大募集！\n日時：4月17日（土）午前7時～午後3時ごろ\n場所：山川市民運動場\n内容：当日の準備や会場案内など\n募集人数：約100人\n募集期間：1月8日（金）～2月12日（金）\nお願いする具体的な内容は、3月下旬に郵送でお知らせいたします。\n応募できる方：山川市民で18歳以上の方・大会当日の午前7時からの説明会に参加できる方\n特に、マラソン大会を手伝った経験がある方は歓迎します。\n応募方法：スポーツ課ホームページ。見られない方は窓口でも受付。",
+      "imagePath": "/data/exams/assets/n3-2021-12/source-page-07.webp",
+      "additionalImagePaths": [
+        "/data/exams/assets/n3-2021-12/source-page-08.webp"
+      ]
+    },
+    {
+      "id": "p003",
+      "title": "朝日市の新しい規則",
+      "text": "朝日市は、市民全員が力を合わせて美しい町を作り、気持ちのいい生活が送れるように、新しい規則を作った。その規則では、次の三つのことを禁止している。\n①ごみ箱などの決められた場所以外にごみを捨てること\n②歩きながらたばこを吸うこと\n③指定の場所以外に自転車をとめること\n守らなかった場合は、お金を払わされることもあるそうだ。",
+      "imagePath": "/data/exams/assets/n3-2021-12/source-page-08.webp",
+      "additionalImagePaths": []
+    },
+    {
+      "id": "p004",
+      "title": "鈴木電気工業からの手紙",
+      "text": "10月15日\n田中電気株式会社営業部 青山一郎様\n鈴木電気工業株式会社 営業第二課 山本和男\n拝啓\nいつもお世話になっております。先日はわが社の新製品説明会にご参加くださいまして、ありがとうございました。その他の製品についての説明を、ということでしたので、パンフレットと説明書、価格表をお送りいたします。よろしくお願いいたします。",
+      "imagePath": "/data/exams/assets/n3-2021-12/source-page-08.webp",
+      "additionalImagePaths": [
+        "/data/exams/assets/n3-2021-12/source-page-09.webp"
+      ]
+    },
+    {
+      "id": "p005",
+      "title": "クリーニング店の選び方",
+      "text": "先日、私は白い服をインクで汚してしまった。近所のクリーニング店に持っていったら、この汚れは落とせないと断られてしまった。そこで、インターネットで探すと、家からは遠いが、引き受けてくれそうな店が見つかった。服は郵送しなければならないが、相談のために電話をしてみたら落とせそうだと言われたので、送ってみることにした。きれいになって戻ってきたが、値段が高いので、この店に頼むのは今回のように仕方ないときだけにしようと思う。",
+      "imagePath": "/data/exams/assets/n3-2021-12/source-page-09.webp",
+      "additionalImagePaths": []
+    },
+    {
+      "id": "p006",
+      "title": "母とスポーツクラブ",
+      "text": "スポーツクラブは運動するために行くところだ。しかし、私の母にとっては、それ以上の場所であった。\n85歳になる母は、今、スポーツクラブに通っている。実は、母は半年前に転んで腕を骨折し、それ以来すっかり元気をなくしてしまっていた。食欲が落ち、体重も減った。骨折は3週間で治ったが、腕を動かす訓練のための病院へはあまり行きたがらなかった。\nところが、そんな母がある日、友達に誘われて近くのスポーツクラブに通い始めた。すると、たった1か月で全く違う人のように元気になったのだ。病院でもスポーツクラブでも、無理をせずにできるトレーニングを一人一人に考えてくれる。\nしかし、元気な若い人たちと同じ場所で運動したり、同じくらいの年の仲間と一緒に頑張ったりすることは、スポーツクラブだからできたのである。そして、それが母の生きる力を引き出してくれたのだろう。スポーツクラブは運動するだけの場所ではない。それ以上の価値があるのだ。私は、今、母の通うスポーツクラブに心から感謝している。",
+      "imagePath": "/data/exams/assets/n3-2021-12/source-page-09.webp",
+      "additionalImagePaths": [
+        "/data/exams/assets/n3-2021-12/source-page-10.webp"
+      ]
+    },
+    {
+      "id": "p007",
+      "title": "買い物のしかたと部屋の整理",
+      "text": "「部屋が片付けられない」と悩む人から相談を受けることがある。詳しく話を聞いてみると、整理が下手なのではなく、買い物のしかたに原因があることが多い。「セール」や「割引」の看板を見つけると、喜んで、つい店に入ってしまう。そして、安くなっているのを見ると、それが必要かどうか深く考えず、①財布を開く。その結果、部屋に物があふれるのだ。\nこのような人には、次のような②アドバイスをしている。買う前に、まず、必要かどうかを考える。必要だと思ったら、次に、同じような物を持っていないかどうかを考える。持っていなければ、最後に、それをしまう場所があるかどうかを考える。場所がなければ、あきらめる。そこまで考えて、必要だったら、買えばいい。\n安いからといって、必要のない物やしまう場所のない物を次々と買えば、部屋が片付かないのは当然だ。もうすぐ、あちこちのデパートでセールが始まるが、（ ）。",
+      "imagePath": "/data/exams/assets/n3-2021-12/source-page-10.webp",
+      "additionalImagePaths": [
+        "/data/exams/assets/n3-2021-12/source-page-11.webp"
+      ]
+    },
+    {
+      "id": "p008",
+      "title": "小川さんから大山先生への手紙",
+      "text": "大山先生\n暑かった夏が過ぎ、涼しい風が吹き始めました。大山先生、いかがお過ごしでしょうか。\n先生と最後にお会いしたのは、卒業後10年を記念して集まったクラス会の席でした。あの時はなつかしい仲間たちと先生を囲んで、学生時代の思い出話をしましたね。みんな家族ができ、それぞれ仕事でもがんばっているようでしたが、中身は昔とちっとも変わっていないと感じました。あれからもう4年も経ってしまいました。\n先日京都に参りましたときに、高校の先生をしている川上君、マツダ銀行の木下君と会い、先生のご様子をうかがいました。もう大学をおやめになったと聞いて驚きました。しかし、相変わらずお元気で、奥様との自由でゆっくりした生活を楽しんでいらっしゃるそうで、安心いたしました。\n私は前と同じ会社で働いており、出張で国内外へ行くことの多い生活です。先生もご存知のとおり、昔から体は丈夫ですから、仕事が大変だと思ったことはありません。家族も皆、元気に過ごしております。\n京都で二人と会った時の写真をお送りいたします。二人とも以前より太っていたのでそれを笑ったら、「お前も腹が出てきたじゃないか」と言われました。みんないつまでも若くはないということですね。\nこれからは時々先生にもお目にかかって、みんなでなつかしい思い出話がしたいと話し合いました。近いうちにまたご連絡を申し上げます。\nでは、本日はこれで失礼いたします。どうぞお体を大切に。\n9月10日　小川進",
+      "imagePath": "/data/exams/assets/n3-2021-12/source-page-11.webp",
+      "additionalImagePaths": [
+        "/data/exams/assets/n3-2021-12/source-page-12.webp"
+      ]
+    },
+    {
+      "id": "p009",
+      "title": "あおい市市立図書館のご利用案内（資料A）",
+      "text": "図書館名 | 開館時間 | 休館日\n深川町図書館 | 9時～18時 | 毎週月曜\n南田町図書館 | 9時～20時 | 毎週火曜\n大山町図書館 | 9時～20時 | 毎週月曜\n借り方・返し方：本・雑誌\n借りる：三つの図書館から合計10冊、2週間まで借りることができます。\n返す：三つの図書館のどちらでも返すことができます。開館中：窓口。閉館中：入り口にあるブックポスト。\nCD・DVD：三つの図書館から合計5枚、1週間まで。",
+      "imagePath": "/data/exams/assets/n3-2021-12/source-page-14.webp",
+      "additionalImagePaths": []
+    },
+    {
+      "id": "p010",
+      "title": "あおい市市立図書館の4月の読書会（資料B）",
+      "text": "◆大山町図書館◆ 4月12日（土）10:00～11:00／大山町図書館ロビー\nテーマ「大人も楽しめる絵本」。親子での参加も可能です。\n◆南田町図書館◆ 4月19日（土）14:00～15:00／南田町図書館2階会議室\nテキスト：小林ゆり『手ぶくろ』。大学生から参加できます。\n〈ご参加方法〉参加希望日の三日前までに、それぞれの図書館の窓口か、お電話で申し込んでください。",
+      "imagePath": "/data/exams/assets/n3-2021-12/source-page-15.webp",
+      "additionalImagePaths": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n3-2021-12-q001",
+      "number": 1,
+      "section": "vocabulary",
+      "mondai": 1,
+      "subtype": "kanji_reading",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "この国の人は自然を大切にしている。",
+      "options": [
+        {
+          "id": "1",
+          "text": "しぜん"
+        },
+        {
+          "id": "2",
+          "text": "じぜん"
+        },
+        {
+          "id": "3",
+          "text": "しせん"
+        },
+        {
+          "id": "4",
+          "text": "じせん"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "vocabulary",
+        "Q1"
+      ],
+      "explanation": {
+        "summaryVi": "自然 đọc là しぜん, nghĩa là thiên nhiên.",
+        "correctReasonVi": "自然 đọc là しぜん, nghĩa là thiên nhiên.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「しぜん」. 自然 đọc là しぜん, nghĩa là thiên nhiên. Từ/chữ được xét: 自然 (thiên nhiên).",
+          "2": "Không được đề xuất: 「じぜん」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Không được đề xuất: 「しせん」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Không được đề xuất: 「じせん」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "自然",
+            "reading": "しぜん",
+            "meaningVi": "thiên nhiên"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "自然",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q002",
+      "number": 2,
+      "section": "vocabulary",
+      "mondai": 1,
+      "subtype": "kanji_reading",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "あと30秒で完成します。",
+      "options": [
+        {
+          "id": "1",
+          "text": "じょう"
+        },
+        {
+          "id": "2",
+          "text": "しょう"
+        },
+        {
+          "id": "3",
+          "text": "びょう"
+        },
+        {
+          "id": "4",
+          "text": "ひょう"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "vocabulary",
+        "Q2"
+      ],
+      "explanation": {
+        "summaryVi": "秒 đọc là びょう, đơn vị giây.",
+        "correctReasonVi": "秒 đọc là びょう, đơn vị giây.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「じょう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "2": "Không được đề xuất: 「しょう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Đề xuất đúng: 「びょう」. 秒 đọc là びょう, đơn vị giây. Từ/chữ được xét: 秒 (giây).",
+          "4": "Không được đề xuất: 「ひょう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "秒",
+            "reading": "びょう",
+            "meaningVi": "giây"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "秒",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q003",
+      "number": 3,
+      "section": "vocabulary",
+      "mondai": 1,
+      "subtype": "kanji_reading",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "夏休みも残り三日になってしまった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "もとり"
+        },
+        {
+          "id": "2",
+          "text": "おわり"
+        },
+        {
+          "id": "3",
+          "text": "のこり"
+        },
+        {
+          "id": "4",
+          "text": "あまり"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "vocabulary",
+        "Q3"
+      ],
+      "explanation": {
+        "summaryVi": "残り đọc là のこり, phần còn lại.",
+        "correctReasonVi": "残り đọc là のこり, phần còn lại.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「もとり」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "2": "Không được đề xuất: 「おわり」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Đề xuất đúng: 「のこり」. 残り đọc là のこり, phần còn lại. Từ/chữ được xét: 残り (phần còn lại).",
+          "4": "Không được đề xuất: 「あまり」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "残り",
+            "reading": "のこり",
+            "meaningVi": "phần còn lại"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "残り",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q004",
+      "number": 4,
+      "section": "vocabulary",
+      "mondai": 1,
+      "subtype": "kanji_reading",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "このグラフは、人口の増減を表している。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ぞうけん"
+        },
+        {
+          "id": "2",
+          "text": "ぞうげん"
+        },
+        {
+          "id": "3",
+          "text": "じょうけん"
+        },
+        {
+          "id": "4",
+          "text": "じょうげん"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "vocabulary",
+        "Q4"
+      ],
+      "explanation": {
+        "summaryVi": "増減 đọc là ぞうげん, tăng và giảm.",
+        "correctReasonVi": "増減 đọc là ぞうげん, tăng và giảm.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「ぞうけん」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "2": "Đề xuất đúng: 「ぞうげん」. 増減 đọc là ぞうげん, tăng và giảm. Từ/chữ được xét: 増減 (tăng giảm).",
+          "3": "Không được đề xuất: 「じょうけん」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Không được đề xuất: 「じょうげん」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "増減",
+            "reading": "ぞうげん",
+            "meaningVi": "tăng giảm"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "増減",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q005",
+      "number": 5,
+      "section": "vocabulary",
+      "mondai": 1,
+      "subtype": "kanji_reading",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "面接の結果は、1週間以内に通知します。",
+      "options": [
+        {
+          "id": "1",
+          "text": "つうち"
+        },
+        {
+          "id": "2",
+          "text": "とおち"
+        },
+        {
+          "id": "3",
+          "text": "つうし"
+        },
+        {
+          "id": "4",
+          "text": "とおし"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "vocabulary",
+        "Q5"
+      ],
+      "explanation": {
+        "summaryVi": "通知 đọc là つうち, thông báo.",
+        "correctReasonVi": "通知 đọc là つうち, thông báo.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「つうち」. 通知 đọc là つうち, thông báo. Từ/chữ được xét: 通知 (thông báo).",
+          "2": "Không được đề xuất: 「とおち」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Không được đề xuất: 「つうし」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Không được đề xuất: 「とおし」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "通知",
+            "reading": "つうち",
+            "meaningVi": "thông báo"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "通知",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q006",
+      "number": 6,
+      "section": "vocabulary",
+      "mondai": 1,
+      "subtype": "kanji_reading",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "庭に生えた草にきれいな花が咲いていた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "はえた"
+        },
+        {
+          "id": "2",
+          "text": "せいえた"
+        },
+        {
+          "id": "3",
+          "text": "しようえた"
+        },
+        {
+          "id": "4",
+          "text": "うえた"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "vocabulary",
+        "Q6"
+      ],
+      "explanation": {
+        "summaryVi": "生えた là quá khứ của 生える（はえる）.",
+        "correctReasonVi": "生えた là quá khứ của 生える（はえる）.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「はえた」. 生えた là quá khứ của 生える（はえる）. Từ/chữ được xét: 生える (mọc).",
+          "2": "Không được đề xuất: 「せいえた」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Không được đề xuất: 「しようえた」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Không được đề xuất: 「うえた」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "生える",
+            "reading": "はえる",
+            "meaningVi": "mọc"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "生えた",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q007",
+      "number": 7,
+      "section": "vocabulary",
+      "mondai": 1,
+      "subtype": "kanji_reading",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "外国で一人暮らしをしているので、国の料理が恋しくなる。",
+      "options": [
+        {
+          "id": "1",
+          "text": "なつかしく"
+        },
+        {
+          "id": "2",
+          "text": "うれしく"
+        },
+        {
+          "id": "3",
+          "text": "ほしく"
+        },
+        {
+          "id": "4",
+          "text": "こいしく"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "vocabulary",
+        "Q7"
+      ],
+      "explanation": {
+        "summaryVi": "恋しく là dạng liên dụng của 恋しい（こいしい）.",
+        "correctReasonVi": "恋しく là dạng liên dụng của 恋しい（こいしい）.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「なつかしく」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "2": "Không được đề xuất: 「うれしく」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Không được đề xuất: 「ほしく」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Đề xuất đúng: 「こいしく」. 恋しく là dạng liên dụng của 恋しい（こいしい）. Từ/chữ được xét: 恋しい (nhớ nhung)."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "恋しい",
+            "reading": "こいしい",
+            "meaningVi": "nhớ nhung"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "恋しく",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q008",
+      "number": 8,
+      "section": "vocabulary",
+      "mondai": 1,
+      "subtype": "kanji_reading",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "これを郵送してください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ほそう"
+        },
+        {
+          "id": "2",
+          "text": "ほうそう"
+        },
+        {
+          "id": "3",
+          "text": "ゆそう"
+        },
+        {
+          "id": "4",
+          "text": "ゆうそう"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "vocabulary",
+        "Q8"
+      ],
+      "explanation": {
+        "summaryVi": "郵送 đọc là ゆうそう.",
+        "correctReasonVi": "郵送 đọc là ゆうそう.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「ほそう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "2": "Không được đề xuất: 「ほうそう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Không được đề xuất: 「ゆそう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Đề xuất đúng: 「ゆうそう」. 郵送 đọc là ゆうそう. Từ/chữ được xét: 郵送 (gửi qua bưu điện)."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "郵送",
+            "reading": "ゆうそう",
+            "meaningVi": "gửi qua bưu điện"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "郵送",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q009",
+      "number": 9,
+      "section": "vocabulary",
+      "mondai": 2,
+      "subtype": "orthography",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "あそこにいるのが私のむすめです。",
+      "options": [
+        {
+          "id": "1",
+          "text": "妹"
+        },
+        {
+          "id": "2",
+          "text": "嫁"
+        },
+        {
+          "id": "3",
+          "text": "婦"
+        },
+        {
+          "id": "4",
+          "text": "娘"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "vocabulary",
+        "Q9"
+      ],
+      "explanation": {
+        "summaryVi": "むすめ được viết là 娘, nghĩa là con gái.",
+        "correctReasonVi": "むすめ được viết là 娘, nghĩa là con gái.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「妹」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "2": "Không được đề xuất: 「嫁」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Không được đề xuất: 「婦」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Đề xuất đúng: 「娘」. むすめ được viết là 娘, nghĩa là con gái. Từ/chữ được xét: 娘 (con gái)."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "娘",
+            "reading": "むすめ",
+            "meaningVi": "con gái"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "むすめ",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q010",
+      "number": 10,
+      "section": "vocabulary",
+      "mondai": 2,
+      "subtype": "orthography",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "彼女は頭もいいし、せいかくもいい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "性格"
+        },
+        {
+          "id": "2",
+          "text": "正格"
+        },
+        {
+          "id": "3",
+          "text": "性確"
+        },
+        {
+          "id": "4",
+          "text": "正確"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "vocabulary",
+        "Q10"
+      ],
+      "explanation": {
+        "summaryVi": "せいかく viết 性格, nghĩa là tính cách.",
+        "correctReasonVi": "せいかく viết 性格, nghĩa là tính cách.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「性格」. せいかく viết 性格, nghĩa là tính cách. Từ/chữ được xét: 性格 (tính cách).",
+          "2": "Không được đề xuất: 「正格」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Không được đề xuất: 「性確」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Không được đề xuất: 「正確」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "性格",
+            "reading": "せいかく",
+            "meaningVi": "tính cách"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "せいかく",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q011",
+      "number": 11,
+      "section": "vocabulary",
+      "mondai": 2,
+      "subtype": "orthography",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "それは誰かのめいれいですか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "命例"
+        },
+        {
+          "id": "2",
+          "text": "命令"
+        },
+        {
+          "id": "3",
+          "text": "企例"
+        },
+        {
+          "id": "4",
+          "text": "企令"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "vocabulary",
+        "Q11"
+      ],
+      "explanation": {
+        "summaryVi": "めいれい viết 命令, nghĩa là mệnh lệnh.",
+        "correctReasonVi": "めいれい viết 命令, nghĩa là mệnh lệnh.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「命例」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "2": "Đề xuất đúng: 「命令」. めいれい viết 命令, nghĩa là mệnh lệnh. Từ/chữ được xét: 命令 (mệnh lệnh).",
+          "3": "Không được đề xuất: 「企例」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Không được đề xuất: 「企令」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "命令",
+            "reading": "めいれい",
+            "meaningVi": "mệnh lệnh"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "めいれい",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q012",
+      "number": 12,
+      "section": "vocabulary",
+      "mondai": 2,
+      "subtype": "orthography",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "銀行へお金をあずけに行ってきます。",
+      "options": [
+        {
+          "id": "1",
+          "text": "預け"
+        },
+        {
+          "id": "2",
+          "text": "借け"
+        },
+        {
+          "id": "3",
+          "text": "替け"
+        },
+        {
+          "id": "4",
+          "text": "貯け"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "vocabulary",
+        "Q12"
+      ],
+      "explanation": {
+        "summaryVi": "あずける viết 預ける, nghĩa là gửi/ủy thác.",
+        "correctReasonVi": "あずける viết 預ける, nghĩa là gửi/ủy thác.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「預け」. あずける viết 預ける, nghĩa là gửi/ủy thác. Từ/chữ được xét: 預ける (gửi (tiền, đồ)).",
+          "2": "Không được đề xuất: 「借け」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Không được đề xuất: 「替け」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Không được đề xuất: 「貯け」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "預ける",
+            "reading": "あずける",
+            "meaningVi": "gửi (tiền, đồ)"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "あずけ",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q013",
+      "number": 13,
+      "section": "vocabulary",
+      "mondai": 2,
+      "subtype": "orthography",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "テストの点数がよそう以上によかった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "予習"
+        },
+        {
+          "id": "2",
+          "text": "予測"
+        },
+        {
+          "id": "3",
+          "text": "予想"
+        },
+        {
+          "id": "4",
+          "text": "予定"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "vocabulary",
+        "Q13"
+      ],
+      "explanation": {
+        "summaryVi": "よそう viết 予想, nghĩa là dự đoán.",
+        "correctReasonVi": "よそう viết 予想, nghĩa là dự đoán.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「予習」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "2": "Không được đề xuất: 「予測」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Đề xuất đúng: 「予想」. よそう viết 予想, nghĩa là dự đoán. Từ/chữ được xét: 予想 (dự đoán).",
+          "4": "Không được đề xuất: 「予定」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "予想",
+            "reading": "よそう",
+            "meaningVi": "dự đoán"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "よそう",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q014",
+      "number": 14,
+      "section": "vocabulary",
+      "mondai": 2,
+      "subtype": "orthography",
+      "sourcePage": 1,
+      "passageId": null,
+      "questionText": "これはとてもこうかなものだ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "高値"
+        },
+        {
+          "id": "2",
+          "text": "高費"
+        },
+        {
+          "id": "3",
+          "text": "高給"
+        },
+        {
+          "id": "4",
+          "text": "高価"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "vocabulary",
+        "Q14"
+      ],
+      "explanation": {
+        "summaryVi": "こうか viết 高価, nghĩa là đắt tiền.",
+        "correctReasonVi": "こうか viết 高価, nghĩa là đắt tiền.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「高値」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "2": "Không được đề xuất: 「高費」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "3": "Không được đề xuất: 「高給」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn. Cách viết/cách đọc này không khớp với từ đích; nếu là hình thức không tồn tại, không tự gán nghĩa Hán tự.",
+          "4": "Đề xuất đúng: 「高価」. こうか viết 高価, nghĩa là đắt tiền. Từ/chữ được xét: 高価 (đắt tiền)."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "高価",
+            "reading": "こうか",
+            "meaningVi": "đắt tiền"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "targetText": "こうか",
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-01.webp"
+    },
+    {
+      "id": "n3-2021-12-q015",
+      "number": 15,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "会社に帰ったら、今回の出張の（ ）をしなければならない。",
+      "options": [
+        {
+          "id": "1",
+          "text": "発言"
+        },
+        {
+          "id": "2",
+          "text": "報告"
+        },
+        {
+          "id": "3",
+          "text": "講演"
+        },
+        {
+          "id": "4",
+          "text": "応答"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q15"
+      ],
+      "explanation": {
+        "summaryVi": "出張の報告をする = báo cáo về chuyến công tác.",
+        "correctReasonVi": "出張の報告をする = báo cáo về chuyến công tác.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「発言」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「報告」. 出張の報告をする = báo cáo về chuyến công tác.",
+          "3": "Không được đề xuất: 「講演」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「応答」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "報告",
+            "reading": "ほうこく",
+            "meaningVi": "báo cáo"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q016",
+      "number": 16,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "試合を見ていた人にテニスボールが（ ）。",
+      "options": [
+        {
+          "id": "1",
+          "text": "なぐった"
+        },
+        {
+          "id": "2",
+          "text": "うつった"
+        },
+        {
+          "id": "3",
+          "text": "あたった"
+        },
+        {
+          "id": "4",
+          "text": "うった"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q16"
+      ],
+      "explanation": {
+        "summaryVi": "ボールが人に当たる = quả bóng trúng người.",
+        "correctReasonVi": "ボールが人に当たる = quả bóng trúng người.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「なぐった」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「うつった」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「あたった」. ボールが人に当たる = quả bóng trúng người.",
+          "4": "Không được đề xuất: 「うった」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "当たる",
+            "reading": "あたる",
+            "meaningVi": "trúng, va vào"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q017",
+      "number": 17,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "必要がないものを買うのは、お金の（ ）だ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "苦手"
+        },
+        {
+          "id": "2",
+          "text": "無駄"
+        },
+        {
+          "id": "3",
+          "text": "貧乏"
+        },
+        {
+          "id": "4",
+          "text": "不用"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q17"
+      ],
+      "explanation": {
+        "summaryVi": "お金の無駄 = lãng phí tiền bạc.",
+        "correctReasonVi": "お金の無駄 = lãng phí tiền bạc.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「苦手」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「無駄」. お金の無駄 = lãng phí tiền bạc.",
+          "3": "Không được đề xuất: 「貧乏」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「不用」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "無駄",
+            "reading": "むだ",
+            "meaningVi": "lãng phí"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q018",
+      "number": 18,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "今回は三日間の旅行であまり時間がないが、（ ）多くの寺に行きたい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "うっかり"
+        },
+        {
+          "id": "2",
+          "text": "たいてい"
+        },
+        {
+          "id": "3",
+          "text": "そっと"
+        },
+        {
+          "id": "4",
+          "text": "なるべく"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q18"
+      ],
+      "explanation": {
+        "summaryVi": "なるべく多く = nhiều nhất có thể.",
+        "correctReasonVi": "なるべく多く = nhiều nhất có thể.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「うっかり」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「たいてい」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「そっと」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「なるべく」. なるべく多く = nhiều nhất có thể."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "なるべく",
+            "reading": "なるべく",
+            "meaningVi": "cố gắng hết mức"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q019",
+      "number": 19,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "日本に着いた（ ）、大学で授業の説明会があった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "翌日"
+        },
+        {
+          "id": "2",
+          "text": "今後"
+        },
+        {
+          "id": "3",
+          "text": "明日"
+        },
+        {
+          "id": "4",
+          "text": "早速"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q19"
+      ],
+      "explanation": {
+        "summaryVi": "着いた翌日 = ngày sau khi đến.",
+        "correctReasonVi": "着いた翌日 = ngày sau khi đến.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「翌日」. 着いた翌日 = ngày sau khi đến.",
+          "2": "Không được đề xuất: 「今後」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「明日」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「早速」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "翌日",
+            "reading": "よくじつ",
+            "meaningVi": "ngày hôm sau"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q020",
+      "number": 20,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "来年は何か新しいことに（ ）しようと思っている。",
+      "options": [
+        {
+          "id": "1",
+          "text": "オープン"
+        },
+        {
+          "id": "2",
+          "text": "ノック"
+        },
+        {
+          "id": "3",
+          "text": "マーク"
+        },
+        {
+          "id": "4",
+          "text": "チャレンジ"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q20"
+      ],
+      "explanation": {
+        "summaryVi": "新しいことにチャレンジする = thử điều mới.",
+        "correctReasonVi": "新しいことにチャレンジする = thử điều mới.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「オープン」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「ノック」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「マーク」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「チャレンジ」. 新しいことにチャレンジする = thử điều mới."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "チャレンジ",
+            "reading": "チャレンジ",
+            "meaningVi": "thử thách"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q021",
+      "number": 21,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "駅前の（ ）を安く買った。",
+      "options": [
+        {
+          "id": "1",
+          "text": "住所"
+        },
+        {
+          "id": "2",
+          "text": "土地"
+        },
+        {
+          "id": "3",
+          "text": "近所"
+        },
+        {
+          "id": "4",
+          "text": "番地"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q21"
+      ],
+      "explanation": {
+        "summaryVi": "駅前の土地を買う = mua đất trước ga.",
+        "correctReasonVi": "駅前の土地を買う = mua đất trước ga.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「住所」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「土地」. 駅前の土地を買う = mua đất trước ga.",
+          "3": "Không được đề xuất: 「近所」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「番地」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "土地",
+            "reading": "とち",
+            "meaningVi": "đất đai"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q022",
+      "number": 22,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "（ ）電話でお願いした件は、どうなりましたか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "これから"
+        },
+        {
+          "id": "2",
+          "text": "このあいだ"
+        },
+        {
+          "id": "3",
+          "text": "ふだん"
+        },
+        {
+          "id": "4",
+          "text": "しばらく"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q22"
+      ],
+      "explanation": {
+        "summaryVi": "このあいだ電話でお願いした件 = việc đã nhờ qua điện thoại hôm trước.",
+        "correctReasonVi": "このあいだ電話でお願いした件 = việc đã nhờ qua điện thoại hôm trước.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「これから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「このあいだ」. このあいだ電話でお願いした件 = việc đã nhờ qua điện thoại hôm trước.",
+          "3": "Không được đề xuất: 「ふだん」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「しばらく」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "このあいだ",
+            "reading": "このあいだ",
+            "meaningVi": "hôm trước"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q023",
+      "number": 23,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "みんなの意見が（ ）で、一つの意見にすることができません。",
+      "options": [
+        {
+          "id": "1",
+          "text": "がらがら"
+        },
+        {
+          "id": "2",
+          "text": "どきどき"
+        },
+        {
+          "id": "3",
+          "text": "ばらばら"
+        },
+        {
+          "id": "4",
+          "text": "ずきずき"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q23"
+      ],
+      "explanation": {
+        "summaryVi": "意見がばらばら = ý kiến phân tán.",
+        "correctReasonVi": "意見がばらばら = ý kiến phân tán.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「がらがら」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「どきどき」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「ばらばら」. 意見がばらばら = ý kiến phân tán.",
+          "4": "Không được đề xuất: 「ずきずき」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "ばらばら",
+            "reading": "ばらばら",
+            "meaningVi": "rời rạc"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q024",
+      "number": 24,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "佐藤さんには、絶対に音楽家になるという強い（ ）があるようだ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "満足"
+        },
+        {
+          "id": "2",
+          "text": "将来"
+        },
+        {
+          "id": "3",
+          "text": "努力"
+        },
+        {
+          "id": "4",
+          "text": "意志"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q24"
+      ],
+      "explanation": {
+        "summaryVi": "強い意志 = ý chí mạnh mẽ.",
+        "correctReasonVi": "強い意志 = ý chí mạnh mẽ.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「満足」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「将来」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「努力」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「意志」. 強い意志 = ý chí mạnh mẽ."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "意志",
+            "reading": "いし",
+            "meaningVi": "ý chí"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q025",
+      "number": 25,
+      "section": "vocabulary",
+      "mondai": 3,
+      "subtype": "context_meaning",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "山田「仕事が終わりましたので、お先に失礼します。」田中「（ ）。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "おまちどおさま"
+        },
+        {
+          "id": "2",
+          "text": "おつかれさま"
+        },
+        {
+          "id": "3",
+          "text": "おかえりなさい"
+        },
+        {
+          "id": "4",
+          "text": "おかげさまで"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "vocabulary",
+        "Q25"
+      ],
+      "explanation": {
+        "summaryVi": "お先に失礼します → おつかれさま là lời đáp lịch sự trong công sở.",
+        "correctReasonVi": "お先に失礼します → おつかれさま là lời đáp lịch sự trong công sở.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「おまちどおさま」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「おつかれさま」. お先に失礼します → おつかれさま là lời đáp lịch sự trong công sở.",
+          "3": "Không được đề xuất: 「おかえりなさい」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「おかげさまで」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "おつかれさま",
+            "reading": "おつかれさま",
+            "meaningVi": "bạn đã vất vả rồi"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q026",
+      "number": 26,
+      "section": "vocabulary",
+      "mondai": 4,
+      "subtype": "paraphrase",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "昨日見た映画は退屈だった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "めずらしかった"
+        },
+        {
+          "id": "2",
+          "text": "つまらなかった"
+        },
+        {
+          "id": "3",
+          "text": "おかしかった"
+        },
+        {
+          "id": "4",
+          "text": "おもしろかった"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題4",
+        "vocabulary",
+        "Q26"
+      ],
+      "explanation": {
+        "summaryVi": "退屈 và つまらない đều nghĩa là chán.",
+        "correctReasonVi": "退屈 và つまらない đều nghĩa là chán.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「めずらしかった」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「つまらなかった」. 退屈 và つまらない đều nghĩa là chán.",
+          "3": "Không được đề xuất: 「おかしかった」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「おもしろかった」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "退屈",
+            "reading": "たいくつ",
+            "meaningVi": "nhàm chán"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q027",
+      "number": 27,
+      "section": "vocabulary",
+      "mondai": 4,
+      "subtype": "paraphrase",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "危険なので絶対にふれないでください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "座らないで"
+        },
+        {
+          "id": "2",
+          "text": "走らないで"
+        },
+        {
+          "id": "3",
+          "text": "触らないで"
+        },
+        {
+          "id": "4",
+          "text": "休まないで"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題4",
+        "vocabulary",
+        "Q27"
+      ],
+      "explanation": {
+        "summaryVi": "ふれない và 触らない đều chỉ không chạm vào.",
+        "correctReasonVi": "ふれない và 触らない đều chỉ không chạm vào.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「座らないで」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「走らないで」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「触らないで」. ふれない và 触らない đều chỉ không chạm vào.",
+          "4": "Không được đề xuất: 「休まないで」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "触れる",
+            "reading": "ふれる",
+            "meaningVi": "chạm vào"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q028",
+      "number": 28,
+      "section": "vocabulary",
+      "mondai": 4,
+      "subtype": "paraphrase",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "それはとてもいい機会だと思います。",
+      "options": [
+        {
+          "id": "1",
+          "text": "プレゼント"
+        },
+        {
+          "id": "2",
+          "text": "アイディア"
+        },
+        {
+          "id": "3",
+          "text": "パーティー"
+        },
+        {
+          "id": "4",
+          "text": "チャンス"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題4",
+        "vocabulary",
+        "Q28"
+      ],
+      "explanation": {
+        "summaryVi": "機会 và チャンス đều chỉ cơ hội.",
+        "correctReasonVi": "機会 và チャンス đều chỉ cơ hội.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「プレゼント」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「アイディア」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「パーティー」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「チャンス」. 機会 và チャンス đều chỉ cơ hội."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "機会",
+            "reading": "きかい",
+            "meaningVi": "cơ hội"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q029",
+      "number": 29,
+      "section": "vocabulary",
+      "mondai": 4,
+      "subtype": "paraphrase",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "今回の仕事は、いつもよりきつかった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "大変だった"
+        },
+        {
+          "id": "2",
+          "text": "簡単だった"
+        },
+        {
+          "id": "3",
+          "text": "楽しかった"
+        },
+        {
+          "id": "4",
+          "text": "長かった"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題4",
+        "vocabulary",
+        "Q29"
+      ],
+      "explanation": {
+        "summaryVi": "きつい ở đây gần nghĩa 大変, vất vả.",
+        "correctReasonVi": "きつい ở đây gần nghĩa 大変, vất vả.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「大変だった」. きつい ở đây gần nghĩa 大変, vất vả.",
+          "2": "Không được đề xuất: 「簡単だった」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「楽しかった」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「長かった」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "きつい",
+            "reading": "きつい",
+            "meaningVi": "nặng nhọc"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q030",
+      "number": 30,
+      "section": "vocabulary",
+      "mondai": 4,
+      "subtype": "paraphrase",
+      "sourcePage": 2,
+      "passageId": null,
+      "questionText": "なぜ私のこたえが違うのか、友達の説明を聞いて納得した。",
+      "options": [
+        {
+          "id": "1",
+          "text": "少し分かった"
+        },
+        {
+          "id": "2",
+          "text": "とてもよく分かった"
+        },
+        {
+          "id": "3",
+          "text": "もう一度考えた"
+        },
+        {
+          "id": "4",
+          "text": "何度も考えた"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題4",
+        "vocabulary",
+        "Q30"
+      ],
+      "explanation": {
+        "summaryVi": "納得する ở đây là hiểu rõ lời giải thích.",
+        "correctReasonVi": "納得する ở đây là hiểu rõ lời giải thích.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「少し分かった」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「とてもよく分かった」. 納得する ở đây là hiểu rõ lời giải thích.",
+          "3": "Không được đề xuất: 「もう一度考えた」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「何度も考えた」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "納得する",
+            "reading": "なっとくする",
+            "meaningVi": "hiểu và chấp nhận"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-02.webp"
+    },
+    {
+      "id": "n3-2021-12-q031",
+      "number": 31,
+      "section": "vocabulary",
+      "mondai": 5,
+      "subtype": "usage",
+      "sourcePage": 3,
+      "passageId": null,
+      "questionText": "集合",
+      "options": [
+        {
+          "id": "1",
+          "text": "あしたは駅前に7時に集合してください。"
+        },
+        {
+          "id": "2",
+          "text": "短時間に雨が集合してふった。"
+        },
+        {
+          "id": "3",
+          "text": "この店にはおいしいワインが集合している。"
+        },
+        {
+          "id": "4",
+          "text": "私の趣味は切手を集合することです。"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "vocabulary",
+        "Q31"
+      ],
+      "explanation": {
+        "summaryVi": "集合する dùng cho nhiều người tập trung ở một địa điểm.",
+        "correctReasonVi": "集合する dùng cho nhiều người tập trung ở một địa điểm.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「あしたは駅前に7時に集合してください。」. 集合する dùng cho nhiều người tập trung ở một địa điểm.",
+          "2": "Không được đề xuất: 「短時間に雨が集合してふった。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「この店にはおいしいワインが集合している。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「私の趣味は切手を集合することです。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "集合",
+            "reading": "しゅうごう",
+            "meaningVi": "tập trung"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-03.webp"
+    },
+    {
+      "id": "n3-2021-12-q032",
+      "number": 32,
+      "section": "vocabulary",
+      "mondai": 5,
+      "subtype": "usage",
+      "sourcePage": 3,
+      "passageId": null,
+      "questionText": "中古",
+      "options": [
+        {
+          "id": "1",
+          "text": "これは中古の卵なので、早く食べたほうがいいですね。"
+        },
+        {
+          "id": "2",
+          "text": "彼女は、子どものころから仲良くしている中古の友達です。"
+        },
+        {
+          "id": "3",
+          "text": "あの店に行けば、中古のカメラが安く買えますよ。"
+        },
+        {
+          "id": "4",
+          "text": "ここでアルバイトを始めてから3年なので、私は中古の店員です。"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "vocabulary",
+        "Q32"
+      ],
+      "explanation": {
+        "summaryVi": "中古のカメラ là máy ảnh cũ/đã qua sử dụng.",
+        "correctReasonVi": "中古のカメラ là máy ảnh cũ/đã qua sử dụng.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「これは中古の卵なので、早く食べたほうがいいですね。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「彼女は、子どものころから仲良くしている中古の友達です。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「あの店に行けば、中古のカメラが安く買えますよ。」. 中古のカメラ là máy ảnh cũ/đã qua sử dụng.",
+          "4": "Không được đề xuất: 「ここでアルバイトを始めてから3年なので、私は中古の店員です。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "中古",
+            "reading": "ちゅうこ",
+            "meaningVi": "đã qua sử dụng"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-03.webp"
+    },
+    {
+      "id": "n3-2021-12-q033",
+      "number": 33,
+      "section": "vocabulary",
+      "mondai": 5,
+      "subtype": "usage",
+      "sourcePage": 3,
+      "passageId": null,
+      "questionText": "追い抜く",
+      "options": [
+        {
+          "id": "1",
+          "text": "マラソンで前の人を追い抜くときに、腕がぶつかってしまった。"
+        },
+        {
+          "id": "2",
+          "text": "この山を追い抜いたら、向こうに海が見えると思います。"
+        },
+        {
+          "id": "3",
+          "text": "この国では二十歳を追い抜くと、もう大人だ。"
+        },
+        {
+          "id": "4",
+          "text": "12時を追い抜いたので、お昼ご飯にしましょう。"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "vocabulary",
+        "Q33"
+      ],
+      "explanation": {
+        "summaryVi": "追い抜く dùng khi vượt một người ở phía trước.",
+        "correctReasonVi": "追い抜く dùng khi vượt một người ở phía trước.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「マラソンで前の人を追い抜くときに、腕がぶつかってしまった。」. 追い抜く dùng khi vượt một người ở phía trước.",
+          "2": "Không được đề xuất: 「この山を追い抜いたら、向こうに海が見えると思います。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「この国では二十歳を追い抜くと、もう大人だ。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「12時を追い抜いたので、お昼ご飯にしましょう。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "追い抜く",
+            "reading": "おいぬく",
+            "meaningVi": "vượt qua"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-03.webp"
+    },
+    {
+      "id": "n3-2021-12-q034",
+      "number": 34,
+      "section": "vocabulary",
+      "mondai": 5,
+      "subtype": "usage",
+      "sourcePage": 3,
+      "passageId": null,
+      "questionText": "見本",
+      "options": [
+        {
+          "id": "1",
+          "text": "今度のスピーチ大会には、川井さんが学校の見本で出るそうだ。"
+        },
+        {
+          "id": "2",
+          "text": "私の兄は、日本人の見本の身長より10センチくらい高い。"
+        },
+        {
+          "id": "3",
+          "text": "ここに申込書の書き方の見本があるので、参考にしてください。"
+        },
+        {
+          "id": "4",
+          "text": "ギターを弾くのが初めての人は、見本から教えてもらえます。"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "vocabulary",
+        "Q34"
+      ],
+      "explanation": {
+        "summaryVi": "見本 là mẫu để tham khảo khi viết đơn.",
+        "correctReasonVi": "見本 là mẫu để tham khảo khi viết đơn.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「今度のスピーチ大会には、川井さんが学校の見本で出るそうだ。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「私の兄は、日本人の見本の身長より10センチくらい高い。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「ここに申込書の書き方の見本があるので、参考にしてください。」. 見本 là mẫu để tham khảo khi viết đơn.",
+          "4": "Không được đề xuất: 「ギターを弾くのが初めての人は、見本から教えてもらえます。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "見本",
+            "reading": "みほん",
+            "meaningVi": "mẫu minh họa"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-03.webp"
+    },
+    {
+      "id": "n3-2021-12-q035",
+      "number": 35,
+      "section": "vocabulary",
+      "mondai": 5,
+      "subtype": "usage",
+      "sourcePage": 3,
+      "passageId": null,
+      "questionText": "だるい",
+      "options": [
+        {
+          "id": "1",
+          "text": "このスープは味がだるいから、塩を足したほうがいい。"
+        },
+        {
+          "id": "2",
+          "text": "ダイエットをしたら、スカートがだるくなった。"
+        },
+        {
+          "id": "3",
+          "text": "レポートが終わったら少しだるくしたい。"
+        },
+        {
+          "id": "4",
+          "text": "体がだるくて起きられない。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "vocabulary",
+        "Q35"
+      ],
+      "explanation": {
+        "summaryVi": "体がだるい = cơ thể uể oải, mệt mỏi.",
+        "correctReasonVi": "体がだるい = cơ thể uể oải, mệt mỏi.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「このスープは味がだるいから、塩を足したほうがいい。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「ダイエットをしたら、スカートがだるくなった。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「レポートが終わったら少しだるくしたい。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「体がだるくて起きられない。」. 体がだるい = cơ thể uể oải, mệt mỏi."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [
+          {
+            "word": "だるい",
+            "reading": "だるい",
+            "meaningVi": "uể oải"
+          }
+        ],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-03.webp"
+    },
+    {
+      "id": "n3-2021-12-q036",
+      "number": 36,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "母は、留学している兄と久しぶりに電話で話して、とてもうれしそうな顔（ ）していた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "へ"
+        },
+        {
+          "id": "2",
+          "text": "が"
+        },
+        {
+          "id": "3",
+          "text": "を"
+        },
+        {
+          "id": "4",
+          "text": "の"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q1"
+      ],
+      "explanation": {
+        "summaryVi": "顔をする là cấu trúc diễn tả vẻ mặt.",
+        "correctReasonVi": "顔をする là cấu trúc diễn tả vẻ mặt.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「へ」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「が」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「を」. 顔をする là cấu trúc diễn tả vẻ mặt.",
+          "4": "Không được đề xuất: 「の」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q037",
+      "number": 37,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "長い間建設中だったABCビルが、昨日（ ）完成した。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ずっと"
+        },
+        {
+          "id": "2",
+          "text": "今にも"
+        },
+        {
+          "id": "3",
+          "text": "次第に"
+        },
+        {
+          "id": "4",
+          "text": "ついに"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q2"
+      ],
+      "explanation": {
+        "summaryVi": "ついに chỉ kết quả cuối cùng sau quá trình kéo dài.",
+        "correctReasonVi": "ついに chỉ kết quả cuối cùng sau quá trình kéo dài.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「ずっと」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「今にも」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「次第に」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「ついに」. ついに chỉ kết quả cuối cùng sau quá trình kéo dài."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q038",
+      "number": 38,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "（電話で）店長「大下さん、急で申し訳ないんですけど、明日出勤することはできますか。」大下「午後（ ）行けますが、それでも大丈夫ですか。」店長「ありがとうございます。お願いします。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "でなら"
+        },
+        {
+          "id": "2",
+          "text": "からなら"
+        },
+        {
+          "id": "3",
+          "text": "へでも"
+        },
+        {
+          "id": "4",
+          "text": "まででも"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q3"
+      ],
+      "explanation": {
+        "summaryVi": "午後からなら = nếu bắt đầu từ buổi chiều.",
+        "correctReasonVi": "午後からなら = nếu bắt đầu từ buổi chiều.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「でなら」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「からなら」. 午後からなら = nếu bắt đầu từ buổi chiều.",
+          "3": "Không được đề xuất: 「へでも」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「まででも」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q039",
+      "number": 39,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "音楽会は、あすの11時からさくら広場（ ）開かれます。",
+      "options": [
+        {
+          "id": "1",
+          "text": "に対して"
+        },
+        {
+          "id": "2",
+          "text": "によって"
+        },
+        {
+          "id": "3",
+          "text": "について"
+        },
+        {
+          "id": "4",
+          "text": "において"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q4"
+      ],
+      "explanation": {
+        "summaryVi": "において chỉ địa điểm diễn ra sự kiện (văn phong trang trọng).",
+        "correctReasonVi": "において chỉ địa điểm diễn ra sự kiện (văn phong trang trọng).",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「に対して」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「によって」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「について」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「において」. において chỉ địa điểm diễn ra sự kiện (văn phong trang trọng)."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q040",
+      "number": 40,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "去年姉に子供が生まれた。2、3か月に1回ぐらい会っているが、会う（ ）大きくなっていて、びっくりする。",
+      "options": [
+        {
+          "id": "1",
+          "text": "たびに"
+        },
+        {
+          "id": "2",
+          "text": "うちに"
+        },
+        {
+          "id": "3",
+          "text": "間に"
+        },
+        {
+          "id": "4",
+          "text": "前に"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q5"
+      ],
+      "explanation": {
+        "summaryVi": "Vるたびに = mỗi khi làm một việc.",
+        "correctReasonVi": "Vるたびに = mỗi khi làm một việc.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「たびに」. Vるたびに = mỗi khi làm một việc.",
+          "2": "Không được đề xuất: 「うちに」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「間に」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「前に」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q041",
+      "number": 41,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "私は10年前から同じかばんを（ ）続けている。",
+      "options": [
+        {
+          "id": "1",
+          "text": "使う"
+        },
+        {
+          "id": "2",
+          "text": "使い"
+        },
+        {
+          "id": "3",
+          "text": "使おう"
+        },
+        {
+          "id": "4",
+          "text": "使った"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q6"
+      ],
+      "explanation": {
+        "summaryVi": "Vます bỏ ます + 続ける = tiếp tục làm.",
+        "correctReasonVi": "Vます bỏ ます + 続ける = tiếp tục làm.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「使う」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「使い」. Vます bỏ ます + 続ける = tiếp tục làm.",
+          "3": "Không được đề xuất: 「使おう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「使った」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q042",
+      "number": 42,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "田中さんがわたしの方に（ ）見えました。",
+      "options": [
+        {
+          "id": "1",
+          "text": "走っていくことが"
+        },
+        {
+          "id": "2",
+          "text": "走ってくることが"
+        },
+        {
+          "id": "3",
+          "text": "走っていくのが"
+        },
+        {
+          "id": "4",
+          "text": "走ってくるのが"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q7"
+      ],
+      "explanation": {
+        "summaryVi": "走ってくるのが見える chỉ nhìn thấy người chạy về phía mình.",
+        "correctReasonVi": "走ってくるのが見える chỉ nhìn thấy người chạy về phía mình.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「走っていくことが」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「走ってくることが」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「走っていくのが」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「走ってくるのが」. 走ってくるのが見える chỉ nhìn thấy người chạy về phía mình."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q043",
+      "number": 43,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "山田「ジョンくんは、毎日バスケットボールの練習をしているんですか。」ジョン「はい。早く試合に（ ）なりたいんです。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "出られるように"
+        },
+        {
+          "id": "2",
+          "text": "出られるために"
+        },
+        {
+          "id": "3",
+          "text": "出させるように"
+        },
+        {
+          "id": "4",
+          "text": "出させるために"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q8"
+      ],
+      "explanation": {
+        "summaryVi": "V可能形 + ようになる = trở nên có thể làm.",
+        "correctReasonVi": "V可能形 + ようになる = trở nên có thể làm.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「出られるように」. V可能形 + ようになる = trở nên có thể làm.",
+          "2": "Không được đề xuất: 「出られるために」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「出させるように」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「出させるために」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q044",
+      "number": 44,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "今朝はすごい雨だったが、今はもう（ ）。",
+      "options": [
+        {
+          "id": "1",
+          "text": "降っている"
+        },
+        {
+          "id": "2",
+          "text": "降っていない"
+        },
+        {
+          "id": "3",
+          "text": "降る"
+        },
+        {
+          "id": "4",
+          "text": "降らない"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q9"
+      ],
+      "explanation": {
+        "summaryVi": "今はもう降っていない = hiện giờ đã không còn mưa.",
+        "correctReasonVi": "今はもう降っていない = hiện giờ đã không còn mưa.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「降っている」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「降っていない」. 今はもう降っていない = hiện giờ đã không còn mưa.",
+          "3": "Không được đề xuất: 「降る」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「降らない」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q045",
+      "number": 45,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "西川「あ、森さん、携帯電話がポケットから（ ）よ。」森「本当だ。ありがとうございます。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "落ちるそうです"
+        },
+        {
+          "id": "2",
+          "text": "落ちそうです"
+        },
+        {
+          "id": "3",
+          "text": "落とすそうです"
+        },
+        {
+          "id": "4",
+          "text": "落としそうです"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q10"
+      ],
+      "explanation": {
+        "summaryVi": "落ちそうです = trông như sắp rơi.",
+        "correctReasonVi": "落ちそうです = trông như sắp rơi.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「落ちるそうです」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「落ちそうです」. 落ちそうです = trông như sắp rơi.",
+          "3": "Không được đề xuất: 「落とすそうです」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「落としそうです」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q046",
+      "number": 46,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "A「今度駅前に新しいケーキ屋さんができる（ ）ね。」B「本当ですか。楽しみですね。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "でしょう"
+        },
+        {
+          "id": "2",
+          "text": "といい"
+        },
+        {
+          "id": "3",
+          "text": "ほうがいい"
+        },
+        {
+          "id": "4",
+          "text": "みたいだ"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q11"
+      ],
+      "explanation": {
+        "summaryVi": "みたいだ = nghe/nói có vẻ như.",
+        "correctReasonVi": "みたいだ = nghe/nói có vẻ như.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「でしょう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「といい」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「ほうがいい」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「みたいだ」. みたいだ = nghe/nói có vẻ như."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q047",
+      "number": 47,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "この花は、土が乾いたら水をやる必要があるが、（ ）。水が多いと根が腐ってしまう。",
+      "options": [
+        {
+          "id": "1",
+          "text": "やりすぎるのもよくない"
+        },
+        {
+          "id": "2",
+          "text": "やらなくていいのがいい"
+        },
+        {
+          "id": "3",
+          "text": "やってやるのもよくない"
+        },
+        {
+          "id": "4",
+          "text": "やらないでおくのがいい"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q12"
+      ],
+      "explanation": {
+        "summaryVi": "やりすぎるのもよくない = tưới quá nhiều cũng không tốt.",
+        "correctReasonVi": "やりすぎるのもよくない = tưới quá nhiều cũng không tốt.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「やりすぎるのもよくない」. やりすぎるのもよくない = tưới quá nhiều cũng không tốt.",
+          "2": "Không được đề xuất: 「やらなくていいのがいい」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「やってやるのもよくない」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「やらないでおくのがいい」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q048",
+      "number": 48,
+      "section": "grammar",
+      "mondai": 1,
+      "subtype": "sentence_grammar",
+      "sourcePage": 4,
+      "passageId": null,
+      "questionText": "（患者が病院に電話をする）受付の人「はい。山田病院でございます。」患者「すみません。10時に予約した田中と申しますが、11時に（ ）。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "変えましょうか"
+        },
+        {
+          "id": "2",
+          "text": "変えたほうがいいですか"
+        },
+        {
+          "id": "3",
+          "text": "変えていただきましょう"
+        },
+        {
+          "id": "4",
+          "text": "変えていただけないでしょうか"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題1",
+        "grammar",
+        "Q13"
+      ],
+      "explanation": {
+        "summaryVi": "変えていただけないでしょうか là cách nhờ đổi lịch rất lịch sự.",
+        "correctReasonVi": "変えていただけないでしょうか là cách nhờ đổi lịch rất lịch sự.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「変えましょうか」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「変えたほうがいいですか」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「変えていただきましょう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「変えていただけないでしょうか」. 変えていただけないでしょうか là cách nhờ đổi lịch rất lịch sự."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-04.webp"
+    },
+    {
+      "id": "n3-2021-12-q049",
+      "number": 49,
+      "section": "grammar",
+      "mondai": 2,
+      "subtype": "star_arrangement",
+      "sourcePage": 5,
+      "passageId": null,
+      "questionText": "この小学生は ＿＿ ＿＿ ★ ＿＿ 問題を簡単に解いてしまう。",
+      "options": [
+        {
+          "id": "1",
+          "text": "大人"
+        },
+        {
+          "id": "2",
+          "text": "ような"
+        },
+        {
+          "id": "3",
+          "text": "解けない"
+        },
+        {
+          "id": "4",
+          "text": "でも"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "grammar",
+        "Q14"
+      ],
+      "explanation": {
+        "summaryVi": "Thứ tự đúng: 大人 → でも → 解けない → ような.",
+        "correctReasonVi": "Thứ tự đúng: 大人 → でも → 解けない → ような.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「大人」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「ような」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「解けない」. Thứ tự đúng: 大人 → でも → 解けない → ような.",
+          "4": "Không được đề xuất: 「でも」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-05.webp"
+    },
+    {
+      "id": "n3-2021-12-q050",
+      "number": 50,
+      "section": "grammar",
+      "mondai": 2,
+      "subtype": "star_arrangement",
+      "sourcePage": 5,
+      "passageId": null,
+      "questionText": "去年、初めて一人で海外を旅行した。行く前は心配なこともあったが、＿＿ ＿＿ ★ ＿＿ だった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "楽しいこと"
+        },
+        {
+          "id": "2",
+          "text": "ばかり"
+        },
+        {
+          "id": "3",
+          "text": "旅行していた"
+        },
+        {
+          "id": "4",
+          "text": "2週間は"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "grammar",
+        "Q15"
+      ],
+      "explanation": {
+        "summaryVi": "Thứ tự đúng: 2週間は → 旅行していた → 楽しいこと → ばかり.",
+        "correctReasonVi": "Thứ tự đúng: 2週間は → 旅行していた → 楽しいこと → ばかり.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「楽しいこと」. Thứ tự đúng: 2週間は → 旅行していた → 楽しいこと → ばかり.",
+          "2": "Không được đề xuất: 「ばかり」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「旅行していた」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「2週間は」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-05.webp"
+    },
+    {
+      "id": "n3-2021-12-q051",
+      "number": 51,
+      "section": "grammar",
+      "mondai": 2,
+      "subtype": "star_arrangement",
+      "sourcePage": 5,
+      "passageId": null,
+      "questionText": "A「昨日は日曜日だったから、遊園地は人が多かったでしょう?」B「いや、＿＿ ＿＿ ★ ＿＿ いませんでしたよ。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "いた"
+        },
+        {
+          "id": "2",
+          "text": "込んで"
+        },
+        {
+          "id": "3",
+          "text": "ほど"
+        },
+        {
+          "id": "4",
+          "text": "思って"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "grammar",
+        "Q16"
+      ],
+      "explanation": {
+        "summaryVi": "Thứ tự đúng: 思って → いた → ほど → 込んで.",
+        "correctReasonVi": "Thứ tự đúng: 思って → いた → ほど → 込んで.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「いた」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「込んで」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「ほど」. Thứ tự đúng: 思って → いた → ほど → 込んで.",
+          "4": "Không được đề xuất: 「思って」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-05.webp"
+    },
+    {
+      "id": "n3-2021-12-q052",
+      "number": 52,
+      "section": "grammar",
+      "mondai": 2,
+      "subtype": "star_arrangement",
+      "sourcePage": 5,
+      "passageId": null,
+      "questionText": "一人暮らしを始めて、両親が毎日仕事を ＿＿ ＿＿ ★ ＿＿ 大変なことだったか、よくわかった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "どれだけ"
+        },
+        {
+          "id": "2",
+          "text": "しながら"
+        },
+        {
+          "id": "3",
+          "text": "食事の準備や洗濯を"
+        },
+        {
+          "id": "4",
+          "text": "してくれていたことが"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "grammar",
+        "Q17"
+      ],
+      "explanation": {
+        "summaryVi": "Thứ tự đúng: しながら → 食事の準備や洗濯を → してくれていたことが → どれだけ.",
+        "correctReasonVi": "Thứ tự đúng: しながら → 食事の準備や洗濯を → してくれていたことが → どれだけ.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「どれだけ」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「しながら」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「食事の準備や洗濯を」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「してくれていたことが」. Thứ tự đúng: しながら → 食事の準備や洗濯を → してくれていたことが → どれだけ."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-05.webp"
+    },
+    {
+      "id": "n3-2021-12-q053",
+      "number": 53,
+      "section": "grammar",
+      "mondai": 2,
+      "subtype": "star_arrangement",
+      "sourcePage": 5,
+      "passageId": null,
+      "questionText": "患者「先生、おふろには入ってもいいんでしょうか。」医者「＿＿ ＿＿ ★ ＿＿ いいですよ。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "なって"
+        },
+        {
+          "id": "2",
+          "text": "いたら"
+        },
+        {
+          "id": "3",
+          "text": "熱が下がって"
+        },
+        {
+          "id": "4",
+          "text": "あしたに"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題2",
+        "grammar",
+        "Q18"
+      ],
+      "explanation": {
+        "summaryVi": "Trật tự dự kiến: 熱が下がって → いたら → あしたに → なって. Cần xem lại bản in.",
+        "correctReasonVi": "Trật tự dự kiến: 熱が下がって → いたら → あしたに → なって. Cần xem lại bản in.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「なって」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「いたら」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「熱が下がって」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「あしたに」. Trật tự dự kiến: 熱が下がって → いたら → あしたに → なって. Cần xem lại bản in."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 1.5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-05.webp"
+    },
+    {
+      "id": "n3-2021-12-q054",
+      "number": 54,
+      "section": "grammar",
+      "mondai": 3,
+      "subtype": "text_grammar",
+      "sourcePage": 6,
+      "passageId": "p001",
+      "questionText": "（19）桜の絵の傘 — 文脈に入る表現を選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "だから"
+        },
+        {
+          "id": "2",
+          "text": "つまり"
+        },
+        {
+          "id": "3",
+          "text": "でも"
+        },
+        {
+          "id": "4",
+          "text": "そのうえ"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "grammar",
+        "Q19"
+      ],
+      "explanation": {
+        "summaryVi": "でも = nhưng, đối lập thời gian vui chơi và mùa mưa.",
+        "correctReasonVi": "でも = nhưng, đối lập thời gian vui chơi và mùa mưa.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「だから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「つまり」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「でも」. でも = nhưng, đối lập thời gian vui chơi và mùa mưa.",
+          "4": "Không được đề xuất: 「そのうえ」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 2,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-06.webp"
+    },
+    {
+      "id": "n3-2021-12-q055",
+      "number": 55,
+      "section": "grammar",
+      "mondai": 3,
+      "subtype": "text_grammar",
+      "sourcePage": 6,
+      "passageId": "p001",
+      "questionText": "（20）桜の絵の傘 — 文脈に入る表現を選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "その友達"
+        },
+        {
+          "id": "2",
+          "text": "こういう友達"
+        },
+        {
+          "id": "3",
+          "text": "どちらかの友達"
+        },
+        {
+          "id": "4",
+          "text": "友達"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "grammar",
+        "Q20"
+      ],
+      "explanation": {
+        "summaryVi": "友達 (bạn bè) là chủ ngữ tự nhiên khi chưa chỉ rõ một người cụ thể.",
+        "correctReasonVi": "友達 (bạn bè) là chủ ngữ tự nhiên khi chưa chỉ rõ một người cụ thể.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「その友達」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「こういう友達」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「どちらかの友達」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「友達」. 友達 (bạn bè) là chủ ngữ tự nhiên khi chưa chỉ rõ một người cụ thể."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 2,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-06.webp"
+    },
+    {
+      "id": "n3-2021-12-q056",
+      "number": 56,
+      "section": "grammar",
+      "mondai": 3,
+      "subtype": "text_grammar",
+      "sourcePage": 6,
+      "passageId": "p001",
+      "questionText": "（21）桜の絵の傘 — 文脈に入る表現を選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "かいてあったそうです"
+        },
+        {
+          "id": "2",
+          "text": "かいてあったのです"
+        },
+        {
+          "id": "3",
+          "text": "かいてあったはずです"
+        },
+        {
+          "id": "4",
+          "text": "かいてあったおかげです"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "grammar",
+        "Q21"
+      ],
+      "explanation": {
+        "summaryVi": "かいてあったのです khẳng định điều mà người viết trực tiếp phát hiện.",
+        "correctReasonVi": "かいてあったのです khẳng định điều mà người viết trực tiếp phát hiện.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「かいてあったそうです」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「かいてあったのです」. かいてあったのです khẳng định điều mà người viết trực tiếp phát hiện.",
+          "3": "Không được đề xuất: 「かいてあったはずです」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「かいてあったおかげです」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 2,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-06.webp"
+    },
+    {
+      "id": "n3-2021-12-q057",
+      "number": 57,
+      "section": "grammar",
+      "mondai": 3,
+      "subtype": "text_grammar",
+      "sourcePage": 6,
+      "passageId": "p001",
+      "questionText": "（22）桜の絵の傘 — 文脈に入る表現を選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "思うこともあります"
+        },
+        {
+          "id": "2",
+          "text": "思ったらいいです"
+        },
+        {
+          "id": "3",
+          "text": "思うことができません"
+        },
+        {
+          "id": "4",
+          "text": "思わなくなりました"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題3",
+        "grammar",
+        "Q22"
+      ],
+      "explanation": {
+        "summaryVi": "思うこともあります = cũng có lúc tôi nghĩ như thế.",
+        "correctReasonVi": "思うこともあります = cũng có lúc tôi nghĩ như thế.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「思うこともあります」. 思うこともあります = cũng có lúc tôi nghĩ như thế.",
+          "2": "Không được đề xuất: 「思ったらいいです」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「思うことができません」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「思わなくなりました」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu lại đáp án và sắc thái nghĩa khi ôn tập."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 2,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-06.webp"
+    },
+    {
+      "id": "n3-2021-12-q058",
+      "number": 58,
+      "section": "reading",
+      "mondai": 4,
+      "subtype": "short_passage",
+      "sourcePage": 7,
+      "passageId": "p002",
+      "questionText": "お知らせの内容に合っているのはどれか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "応募は、1月8日までにスポーツ課ホームページからしなければならない。"
+        },
+        {
+          "id": "2",
+          "text": "応募した人がどんなことを手伝うかは、当日にならないとわからない。"
+        },
+        {
+          "id": "3",
+          "text": "大会当日の朝の説明会に行けない人は応募できない。"
+        },
+        {
+          "id": "4",
+          "text": "マラソン大会を手伝ったことがある人だけが応募できる。"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題4",
+        "reading",
+        "Q23"
+      ],
+      "explanation": {
+        "summaryVi": "Thông báo yêu cầu có mặt ở buổi hướng dẫn lúc 7 giờ sáng ngày diễn ra giải.",
+        "correctReasonVi": "Thông báo yêu cầu có mặt ở buổi hướng dẫn lúc 7 giờ sáng ngày diễn ra giải.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「応募は、1月8日までにスポーツ課ホームページからしなければならない。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「応募した人がどんなことを手伝うかは、当日にならないとわからない。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「大会当日の朝の説明会に行けない人は応募できない。」. Thông báo yêu cầu có mặt ở buổi hướng dẫn lúc 7 giờ sáng ngày diễn ra giải.",
+          "4": "Không được đề xuất: 「マラソン大会を手伝ったことがある人だけが応募できる。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 3,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-07.webp"
+    },
+    {
+      "id": "n3-2021-12-q059",
+      "number": 59,
+      "section": "reading",
+      "mondai": 4,
+      "subtype": "short_passage",
+      "sourcePage": 8,
+      "passageId": "p003",
+      "questionText": "この規則について、正しいものはどれか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "自分の家以外では、ごみを捨ててはならない。"
+        },
+        {
+          "id": "2",
+          "text": "道を歩きながら、たばこを吸ってはいけない。"
+        },
+        {
+          "id": "3",
+          "text": "自転車は、決められた場所以外走ってはいけない。"
+        },
+        {
+          "id": "4",
+          "text": "規則を守らない人は、全員お金を払わなければならない。"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題4",
+        "reading",
+        "Q24"
+      ],
+      "explanation": {
+        "summaryVi": "Quy định số ② cấm hút thuốc khi đang đi bộ.",
+        "correctReasonVi": "Quy định số ② cấm hút thuốc khi đang đi bộ.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「自分の家以外では、ごみを捨ててはならない。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「道を歩きながら、たばこを吸ってはいけない。」. Quy định số ② cấm hút thuốc khi đang đi bộ.",
+          "3": "Không được đề xuất: 「自転車は、決められた場所以外走ってはいけない。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「規則を守らない人は、全員お金を払わなければならない。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 3,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-08.webp"
+    },
+    {
+      "id": "n3-2021-12-q060",
+      "number": 60,
+      "section": "reading",
+      "mondai": 4,
+      "subtype": "short_passage",
+      "sourcePage": 8,
+      "passageId": "p004",
+      "questionText": "山本さんがしたことはどれか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "田中電気の新製品のパンフレットと説明書、価格表を送った。"
+        },
+        {
+          "id": "2",
+          "text": "鈴木電気の新製品のパンフレットと説明書、価格表を送った。"
+        },
+        {
+          "id": "3",
+          "text": "田中電気の新製品以外のパンフレットと説明書、価格表を送った。"
+        },
+        {
+          "id": "4",
+          "text": "鈴木電気の新製品以外のパンフレットと説明書、価格表を送った。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題4",
+        "reading",
+        "Q25"
+      ],
+      "explanation": {
+        "summaryVi": "Người gửi là công ty Suzuki và gửi tài liệu về các sản phẩm khác, không phải sản phẩm mới đã giới thiệu.",
+        "correctReasonVi": "Người gửi là công ty Suzuki và gửi tài liệu về các sản phẩm khác, không phải sản phẩm mới đã giới thiệu.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「田中電気の新製品のパンフレットと説明書、価格表を送った。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「鈴木電気の新製品のパンフレットと説明書、価格表を送った。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「田中電気の新製品以外のパンフレットと説明書、価格表を送った。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「鈴木電気の新製品以外のパンフレットと説明書、価格表を送った。」. Người gửi là công ty Suzuki và gửi tài liệu về các sản phẩm khác, không phải sản phẩm mới đã giới thiệu."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 3,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-08.webp"
+    },
+    {
+      "id": "n3-2021-12-q061",
+      "number": 61,
+      "section": "reading",
+      "mondai": 4,
+      "subtype": "short_passage",
+      "sourcePage": 9,
+      "passageId": "p005",
+      "questionText": "「今回のように仕方ないとき」とあるが、どのようなときか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "近所の店に行く時間がないとき"
+        },
+        {
+          "id": "2",
+          "text": "近所の店に断られたとき"
+        },
+        {
+          "id": "3",
+          "text": "白い服を汚したとき"
+        },
+        {
+          "id": "4",
+          "text": "あまりお金がないとき"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題4",
+        "reading",
+        "Q26"
+      ],
+      "explanation": {
+        "summaryVi": "Cửa hàng gần nhà đã từ chối xử lý vết bẩn.",
+        "correctReasonVi": "Cửa hàng gần nhà đã từ chối xử lý vết bẩn.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「近所の店に行く時間がないとき」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「近所の店に断られたとき」. Cửa hàng gần nhà đã từ chối xử lý vết bẩn.",
+          "3": "Không được đề xuất: 「白い服を汚したとき」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「あまりお金がないとき」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 3,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-09.webp"
+    },
+    {
+      "id": "n3-2021-12-q062",
+      "number": 62,
+      "section": "reading",
+      "mondai": 5,
+      "subtype": "medium_passage",
+      "sourcePage": 10,
+      "passageId": "p006",
+      "questionText": "母が元気をなくした原因は何か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "食欲が落ちたから"
+        },
+        {
+          "id": "2",
+          "text": "体重が減ったから"
+        },
+        {
+          "id": "3",
+          "text": "腕を骨折したから"
+        },
+        {
+          "id": "4",
+          "text": "けがが治らないから"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "reading",
+        "Q27"
+      ],
+      "explanation": {
+        "summaryVi": "Người mẹ suy sụp sau khi ngã và gãy tay.",
+        "correctReasonVi": "Người mẹ suy sụp sau khi ngã và gãy tay.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「食欲が落ちたから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「体重が減ったから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「腕を骨折したから」. Người mẹ suy sụp sau khi ngã và gãy tay.",
+          "4": "Không được đề xuất: 「けがが治らないから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 4,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-10.webp"
+    },
+    {
+      "id": "n3-2021-12-q063",
+      "number": 63,
+      "section": "reading",
+      "mondai": 5,
+      "subtype": "medium_passage",
+      "sourcePage": 10,
+      "passageId": "p006",
+      "questionText": "母が病院ではなく、スポーツクラブで元気になれたのはなぜか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "無理をせずにできるトレーニングを自分用に作ってもらったから"
+        },
+        {
+          "id": "2",
+          "text": "若い人たちがいるところで運動したり、仲間と頑張ったりできたから"
+        },
+        {
+          "id": "3",
+          "text": "たった1か月で効果が出るようなトレーニングを考えてもらったから"
+        },
+        {
+          "id": "4",
+          "text": "元気な人と仲間になったり、若い人たちと同じ運動をしたりしたから"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "reading",
+        "Q28"
+      ],
+      "explanation": {
+        "summaryVi": "Mẹ được tập cùng người trẻ và bạn đồng tuổi, điều không có ở phòng tập phục hồi trong bệnh viện.",
+        "correctReasonVi": "Mẹ được tập cùng người trẻ và bạn đồng tuổi, điều không có ở phòng tập phục hồi trong bệnh viện.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「無理をせずにできるトレーニングを自分用に作ってもらったから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「若い人たちがいるところで運動したり、仲間と頑張ったりできたから」. Mẹ được tập cùng người trẻ và bạn đồng tuổi, điều không có ở phòng tập phục hồi trong bệnh viện.",
+          "3": "Không được đề xuất: 「たった1か月で効果が出るようなトレーニングを考えてもらったから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「元気な人と仲間になったり、若い人たちと同じ運動をしたりしたから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 4,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-10.webp"
+    },
+    {
+      "id": "n3-2021-12-q064",
+      "number": 64,
+      "section": "reading",
+      "mondai": 5,
+      "subtype": "medium_passage",
+      "sourcePage": 10,
+      "passageId": "p006",
+      "questionText": "この文章を書いた人は、スポーツクラブにはどんな特別な価値があると考えているか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "自分は生きる値段のある人間だと気づかせてくれる。"
+        },
+        {
+          "id": "2",
+          "text": "運動不足にならないようにしてくれる。"
+        },
+        {
+          "id": "3",
+          "text": "けがを早く治す方法を考えてくれる。"
+        },
+        {
+          "id": "4",
+          "text": "生きる力を引き出してくれる。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "reading",
+        "Q29"
+      ],
+      "explanation": {
+        "summaryVi": "Tác giả nhấn mạnh nơi này khơi dậy sức sống của mẹ.",
+        "correctReasonVi": "Tác giả nhấn mạnh nơi này khơi dậy sức sống của mẹ.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「自分は生きる値段のある人間だと気づかせてくれる。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「運動不足にならないようにしてくれる。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「けがを早く治す方法を考えてくれる。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「生きる力を引き出してくれる。」. Tác giả nhấn mạnh nơi này khơi dậy sức sống của mẹ."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 4,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-10.webp"
+    },
+    {
+      "id": "n3-2021-12-q065",
+      "number": 65,
+      "section": "reading",
+      "mondai": 5,
+      "subtype": "medium_passage",
+      "sourcePage": 11,
+      "passageId": "p007",
+      "questionText": "①財布を開くとあるが、どうしてですか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "まだ部屋に物を入れる場所があるから"
+        },
+        {
+          "id": "2",
+          "text": "何も買わずに店を出るのは悪いと思うから"
+        },
+        {
+          "id": "3",
+          "text": "安い値段がうれしくて買いたくなるから"
+        },
+        {
+          "id": "4",
+          "text": "自分にとって必要な物に違いないと思うから"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "reading",
+        "Q30"
+      ],
+      "explanation": {
+        "summaryVi": "Thấy hàng giảm giá nên khách hàng muốn mua ngay.",
+        "correctReasonVi": "Thấy hàng giảm giá nên khách hàng muốn mua ngay.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「まだ部屋に物を入れる場所があるから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「何も買わずに店を出るのは悪いと思うから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「安い値段がうれしくて買いたくなるから」. Thấy hàng giảm giá nên khách hàng muốn mua ngay.",
+          "4": "Không được đề xuất: 「自分にとって必要な物に違いないと思うから」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 4,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-11.webp"
+    },
+    {
+      "id": "n3-2021-12-q066",
+      "number": 66,
+      "section": "reading",
+      "mondai": 5,
+      "subtype": "medium_passage",
+      "sourcePage": 11,
+      "passageId": "p007",
+      "questionText": "買い物についての②アドバイスの内容に合っているものは、どれか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "しまえる場所があったら、同じような物を持っていても、買えばいい。"
+        },
+        {
+          "id": "2",
+          "text": "必要な物だと思ったら、いろいろなことを考えずに、すぐ買えばいい。"
+        },
+        {
+          "id": "3",
+          "text": "必要かどうか、同じような物がないか、しまう場所があるかを、よく考える。"
+        },
+        {
+          "id": "4",
+          "text": "似た物を持っていないか、しまう場所があるか、本当に安いかを、よく考える。"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "reading",
+        "Q31"
+      ],
+      "explanation": {
+        "summaryVi": "Lời khuyên gồm ba điều: thật cần, chưa có món tương tự, có nơi cất.",
+        "correctReasonVi": "Lời khuyên gồm ba điều: thật cần, chưa có món tương tự, có nơi cất.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「しまえる場所があったら、同じような物を持っていても、買えばいい。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「必要な物だと思ったら、いろいろなことを考えずに、すぐ買えばいい。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「必要かどうか、同じような物がないか、しまう場所があるかを、よく考える。」. Lời khuyên gồm ba điều: thật cần, chưa có món tương tự, có nơi cất.",
+          "4": "Không được đề xuất: 「似た物を持っていないか、しまう場所があるか、本当に安いかを、よく考える。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 4,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-11.webp"
+    },
+    {
+      "id": "n3-2021-12-q067",
+      "number": 67,
+      "section": "reading",
+      "mondai": 5,
+      "subtype": "medium_passage",
+      "sourcePage": 11,
+      "passageId": "p007",
+      "questionText": "（ ）に入れるのに、最もよいものはどれか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "部屋の整理が上手な人も、買い物を楽しもう"
+        },
+        {
+          "id": "2",
+          "text": "買い物が好きな人は、値段をよく見て買おう"
+        },
+        {
+          "id": "3",
+          "text": "安い物を買いたい人は、急いで店に行こう"
+        },
+        {
+          "id": "4",
+          "text": "部屋の整理に悩んでいる人は、気をつけよう"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題5",
+        "reading",
+        "Q32"
+      ],
+      "explanation": {
+        "summaryVi": "Câu kết hướng người khó sắp xếp đồ đạc nên cẩn thận với đợt giảm giá.",
+        "correctReasonVi": "Câu kết hướng người khó sắp xếp đồ đạc nên cẩn thận với đợt giảm giá.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「部屋の整理が上手な人も、買い物を楽しもう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「買い物が好きな人は、値段をよく見て買おう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「安い物を買いたい人は、急いで店に行こう」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「部屋の整理に悩んでいる人は、気をつけよう」. Câu kết hướng người khó sắp xếp đồ đạc nên cẩn thận với đợt giảm giá."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 4,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-11.webp"
+    },
+    {
+      "id": "n3-2021-12-q068",
+      "number": 68,
+      "section": "reading",
+      "mondai": 6,
+      "subtype": "long_passage",
+      "sourcePage": 12,
+      "passageId": "p008",
+      "questionText": "この手紙を書いた小川さんはどんな人か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "川上君、木下君と同じ会社で働いている人"
+        },
+        {
+          "id": "2",
+          "text": "出張の時に京都で大山先生と会った人"
+        },
+        {
+          "id": "3",
+          "text": "大山先生と同じ大学で教えていた人"
+        },
+        {
+          "id": "4",
+          "text": "大学の時、大山先生に教えてもらった人"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": "medium",
+      "tags": [
+        "問題6",
+        "reading",
+        "Q33"
+      ],
+      "explanation": {
+        "summaryVi": "Tác giả là cựu sinh viên từng được thầy Ōyama giảng dạy.",
+        "correctReasonVi": "Tác giả là cựu sinh viên từng được thầy Ōyama giảng dạy.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「川上君、木下君と同じ会社で働いている人」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「出張の時に京都で大山先生と会った人」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「大山先生と同じ大学で教えていた人」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Đề xuất đúng: 「大学の時、大山先生に教えてもらった人」. Tác giả là cựu sinh viên từng được thầy Ōyama giảng dạy."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-12.webp"
+    },
+    {
+      "id": "n3-2021-12-q069",
+      "number": 69,
+      "section": "reading",
+      "mondai": 6,
+      "subtype": "long_passage",
+      "sourcePage": 12,
+      "passageId": "p008",
+      "questionText": "小川さんが大山先生と最後に会ったのはいつか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "4年前"
+        },
+        {
+          "id": "2",
+          "text": "6年前"
+        },
+        {
+          "id": "3",
+          "text": "10年前"
+        },
+        {
+          "id": "4",
+          "text": "14年前"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題6",
+        "reading",
+        "Q34"
+      ],
+      "explanation": {
+        "summaryVi": "Tác giả nói đã bốn năm kể từ lần gặp thầy ở buổi họp lớp.",
+        "correctReasonVi": "Tác giả nói đã bốn năm kể từ lần gặp thầy ở buổi họp lớp.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「4年前」. Tác giả nói đã bốn năm kể từ lần gặp thầy ở buổi họp lớp.",
+          "2": "Không được đề xuất: 「6年前」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「10年前」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「14年前」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-12.webp"
+    },
+    {
+      "id": "n3-2021-12-q070",
+      "number": 70,
+      "section": "reading",
+      "mondai": 6,
+      "subtype": "long_passage",
+      "sourcePage": 12,
+      "passageId": "p008",
+      "questionText": "大山先生は今、どうしているか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "相変わらず京都の大学で教えている。"
+        },
+        {
+          "id": "2",
+          "text": "出張で国内外へ行くような生活をしている。"
+        },
+        {
+          "id": "3",
+          "text": "仕事をやめて奥さんと生活を楽しんでいる。"
+        },
+        {
+          "id": "4",
+          "text": "体を壊して自宅でゆっくりと過ごしている。"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": "medium",
+      "tags": [
+        "問題6",
+        "reading",
+        "Q35"
+      ],
+      "explanation": {
+        "summaryVi": "Thầy đã nghỉ việc và đang sống thư thái cùng vợ.",
+        "correctReasonVi": "Thầy đã nghỉ việc và đang sống thư thái cùng vợ.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「相変わらず京都の大学で教えている。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Không được đề xuất: 「出張で国内外へ行くような生活をしている。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Đề xuất đúng: 「仕事をやめて奥さんと生活を楽しんでいる。」. Thầy đã nghỉ việc và đang sống thư thái cùng vợ.",
+          "4": "Không được đề xuất: 「体を壊して自宅でゆっくりと過ごしている。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-12.webp"
+    },
+    {
+      "id": "n3-2021-12-q071",
+      "number": 71,
+      "section": "reading",
+      "mondai": 6,
+      "subtype": "long_passage",
+      "sourcePage": 12,
+      "passageId": "p008",
+      "questionText": "小川さんが手紙といっしょに送った写真には、小川さんのほかにだれが写っているか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "小川さんの家族"
+        },
+        {
+          "id": "2",
+          "text": "川上君と木下君"
+        },
+        {
+          "id": "3",
+          "text": "大山先生と奥さん"
+        },
+        {
+          "id": "4",
+          "text": "クラス会に集まった人たち"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題6",
+        "reading",
+        "Q36"
+      ],
+      "explanation": {
+        "summaryVi": "Ảnh gửi kèm có Ogawa và hai người bạn Kawakami, Kinoshita.",
+        "correctReasonVi": "Ảnh gửi kèm có Ogawa và hai người bạn Kawakami, Kinoshita.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「小川さんの家族」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「川上君と木下君」. Ảnh gửi kèm có Ogawa và hai người bạn Kawakami, Kinoshita.",
+          "3": "Không được đề xuất: 「大山先生と奥さん」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「クラス会に集まった人たち」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 5,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-12.webp"
+    },
+    {
+      "id": "n3-2021-12-q072",
+      "number": 72,
+      "section": "reading",
+      "mondai": 7,
+      "subtype": "information_retrieval",
+      "sourcePage": 13,
+      "passageId": "p009",
+      "questionText": "コウさんは火曜日の19時ごろ、深川町図書館に本を返しに行こうと思っている。コウさんはどうしなければならないか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "窓口に返す。"
+        },
+        {
+          "id": "2",
+          "text": "ブックポストに返す。"
+        },
+        {
+          "id": "3",
+          "text": "窓口かブックポストに返す。"
+        },
+        {
+          "id": "4",
+          "text": "返せないので、違う日に行く。"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": "medium",
+      "tags": [
+        "問題7",
+        "reading",
+        "Q37",
+        "requires_image_asset"
+      ],
+      "explanation": {
+        "summaryVi": "Thư viện Fukagawa đóng cửa sau 18 giờ nên phải dùng thùng trả sách.",
+        "correctReasonVi": "Thư viện Fukagawa đóng cửa sau 18 giờ nên phải dùng thùng trả sách.",
+        "optionReasonsVi": {
+          "1": "Không được đề xuất: 「窓口に返す。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "2": "Đề xuất đúng: 「ブックポストに返す。」. Thư viện Fukagawa đóng cửa sau 18 giờ nên phải dùng thùng trả sách.",
+          "3": "Không được đề xuất: 「窓口かブックポストに返す。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「返せないので、違う日に行く。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 4,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-13.webp"
+    },
+    {
+      "id": "n3-2021-12-q073",
+      "number": 73,
+      "section": "reading",
+      "mondai": 7,
+      "subtype": "information_retrieval",
+      "sourcePage": 13,
+      "passageId": "p010",
+      "questionText": "ビルさんは小学生の息子と一緒に参加できる読書会に行きたいと思っている。電話で申し込む場合、どうしなければならないか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "4月9日までの月曜以外の日に、大山町図書館に電話する。"
+        },
+        {
+          "id": "2",
+          "text": "4月9日までの火曜以外の日に、大山町図書館に電話する。"
+        },
+        {
+          "id": "3",
+          "text": "4月12日までの月曜以外の日に、大山町図書館に電話する。"
+        },
+        {
+          "id": "4",
+          "text": "4月16日までの火曜以外の日に、南田町図書館に電話する。"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": "medium",
+      "tags": [
+        "問題7",
+        "reading",
+        "Q38",
+        "requires_image_asset"
+      ],
+      "explanation": {
+        "summaryVi": "Buổi đọc sách phù hợp cha con ở thư viện Ōyama, đăng ký trước ba ngày và thư viện nghỉ thứ Hai.",
+        "correctReasonVi": "Buổi đọc sách phù hợp cha con ở thư viện Ōyama, đăng ký trước ba ngày và thư viện nghỉ thứ Hai.",
+        "optionReasonsVi": {
+          "1": "Đề xuất đúng: 「4月9日までの月曜以外の日に、大山町図書館に電話する。」. Buổi đọc sách phù hợp cha con ở thư viện Ōyama, đăng ký trước ba ngày và thư viện nghỉ thứ Hai.",
+          "2": "Không được đề xuất: 「4月9日までの火曜以外の日に、大山町図書館に電話する。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "3": "Không được đề xuất: 「4月12日までの月曜以外の日に、大山町図書館に電話する。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn.",
+          "4": "Không được đề xuất: 「4月16日までの火曜以外の日に、南田町図書館に電話する。」. Khác với cách hiểu hoặc dạng cần dùng trong câu; cần kiểm duyệt chi tiết theo nguồn."
+        },
+        "translationVi": "Chưa có bản dịch câu đầy đủ được kiểm duyệt; xem câu tiếng Nhật và phần giải thích.",
+        "vocabulary": [],
+        "grammarPoints": [],
+        "readingEvidenceJa": null,
+        "studyTipVi": "Đối chiếu từ khóa ở câu hỏi và dẫn chứng trong đoạn, loại trừ các phương án không phù hợp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": [
+          "Chưa có đáp án gốc; đáp án đang là đề xuất, không phải đã xác minh.",
+          "Nội dung được trích xuất từ PDF; cần đối chiếu lại ký tự, chỗ gạch chân và lựa chọn."
+        ]
+      },
+      "weight": 4,
+      "questionImagePath": "/data/exams/assets/n3-2021-12/source-page-13.webp"
+    }
+  ],
+  "questionCount": 73
+}

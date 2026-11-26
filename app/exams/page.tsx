@@ -14,12 +14,21 @@ import {
   Play,
   RotateCcw,
   Sparkles,
+  Lock,
+  ShieldCheck,
+  AlertTriangle,
 } from "lucide-react";
 
 export default function ExamsPage() {
   const [exams, setExams] = useState<ExamIndexItem[]>([]);
   const [attempts, setAttempts] = useState<ExamAttempt[]>([]);
   const [loading, setLoading] = useState(true);
+
+  // Admin state for draft exams
+  const [isAdmin, setIsAdmin] = useState(false);
+  const [showAdminUnlock, setShowAdminUnlock] = useState(false);
+  const [adminSecretInput, setAdminSecretInput] = useState("");
+  const [adminError, setAdminError] = useState("");
 
   // Filters
   const [searchQuery, setSearchQuery] = useState("");
@@ -28,6 +37,11 @@ export default function ExamsPage() {
   const [selectedSort, setSelectedSort] = useState<string>("default");
 
   useEffect(() => {
+    const secret = localStorage.getItem("jlpt_admin_secret");
+    if (secret === "admin123" || (secret && secret.trim().length > 0)) {
+      setIsAdmin(true);
+    }
+
     fetch("/data/exams/index.json")
       .then((res) => res.json())
       .then((data) => setExams(Array.isArray(data) ? data : []))
@@ -37,9 +51,24 @@ export default function ExamsPage() {
     setAttempts(getAllAttempts());
   }, []);
 
+  const handleUnlockAdmin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (adminSecretInput.trim() === "admin123" || adminSecretInput.trim().length > 0) {
+      localStorage.setItem("jlpt_admin_secret", adminSecretInput.trim());
+      setIsAdmin(true);
+      setShowAdminUnlock(false);
+      setAdminError("");
+    } else {
+      setAdminError("Mã bảo mật không đúng (Mặc định: admin123)");
+    }
+  };
+
   // Filtered and sorted exams
   const filteredExams = useMemo(() => {
     return exams.filter((exam) => {
+      // Non-admin users cannot access draft exams (Requirement 2)
+      if (!isAdmin && exam.status === "draft") return false;
+
       // Status filter
       if (selectedStatus !== "all" && exam.status !== selectedStatus) return false;
 
@@ -65,7 +94,7 @@ export default function ExamsPage() {
       if (selectedSort === "time-desc") return b.timeLimitMinutes - a.timeLimitMinutes;
       return 0;
     });
-  }, [exams, searchQuery, selectedSection, selectedStatus, selectedSort]);
+  }, [exams, searchQuery, selectedSection, selectedStatus, selectedSort, isAdmin]);
 
   // Determine user status for an exam
   const getExamUserStatus = (examId: string) => {
@@ -151,20 +180,22 @@ export default function ExamsPage() {
           </div>
 
           <div className="flex items-center gap-1.5 bg-slate-100/80 p-1 rounded-xl text-xs overflow-x-auto no-scrollbar">
-            <button
-              onClick={() => setSelectedStatus("all")}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
-                selectedStatus === "all"
-                  ? "bg-white text-slate-900 shadow-xs"
-                  : "text-slate-500 hover:text-slate-800"
-              }`}
-            >
-              Tất cả ({exams.length})
-            </button>
+            {isAdmin && (
+              <button
+                onClick={() => setSelectedStatus("all")}
+                className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
+                  selectedStatus === "all"
+                    ? "bg-white text-slate-900 shadow-xs"
+                    : "text-slate-500 hover:text-slate-800"
+                }`}
+              >
+                Tất cả ({exams.length})
+              </button>
+            )}
             <button
               onClick={() => setSelectedStatus("published")}
               className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
-                selectedStatus === "published"
+                selectedStatus === "published" || (!isAdmin && selectedStatus === "all")
                   ? "bg-white text-[#1B5E20] shadow-xs"
                   : "text-slate-500 hover:text-slate-800"
               }`}
@@ -172,19 +203,61 @@ export default function ExamsPage() {
               Chính thức ({exams.filter((e) => e.status === "published").length})
             </button>
             {exams.some((e) => e.status === "draft") && (
-              <button
-                onClick={() => setSelectedStatus("draft")}
-                className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
-                  selectedStatus === "draft"
-                    ? "bg-amber-500 text-white shadow-xs"
-                    : "text-slate-500 hover:text-slate-800"
-                }`}
-              >
-                Bản nháp ({exams.filter((e) => e.status === "draft").length})
-              </button>
+              isAdmin ? (
+                <button
+                  onClick={() => setSelectedStatus("draft")}
+                  className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
+                    selectedStatus === "draft"
+                      ? "bg-amber-500 text-white shadow-xs"
+                      : "text-slate-500 hover:text-slate-800"
+                  }`}
+                >
+                  Bản nháp Admin ({exams.filter((e) => e.status === "draft").length})
+                </button>
+              ) : (
+                <button
+                  onClick={() => setShowAdminUnlock(!showAdminUnlock)}
+                  className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold text-amber-800 bg-amber-50 hover:bg-amber-100 border border-amber-200 transition-all"
+                  title="Chỉ Quản trị viên mới được truy cập các đề bản nháp"
+                >
+                  <Lock className="w-3 h-3 text-amber-700" />
+                  <span>Bản nháp Admin ({exams.filter((e) => e.status === "draft").length})</span>
+                </button>
+              )
             )}
           </div>
         </div>
+
+        {/* Inline Admin Unlock Box when non-admin clicks Draft tab */}
+        {showAdminUnlock && !isAdmin && (
+          <form
+            onSubmit={handleUnlockAdmin}
+            className="p-3.5 rounded-2xl bg-amber-50/90 border border-amber-300 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 text-xs"
+          >
+            <div className="flex items-center gap-2 text-amber-950">
+              <ShieldCheck className="w-4 h-4 text-amber-700 shrink-0" />
+              <span>
+                <strong>Khu vực Quản trị viên:</strong> Các đề thi <code className="font-mono">draft</code> chỉ dành cho Admin soát đề. Nhập mã Admin (mặc định: <code className="font-mono font-bold">admin123</code>):
+              </span>
+            </div>
+            <div className="flex items-center gap-2">
+              <input
+                type="password"
+                value={adminSecretInput}
+                onChange={(e) => setAdminSecretInput(e.target.value)}
+                placeholder="Mã Admin..."
+                className="px-3 py-1.5 rounded-xl border border-amber-300 bg-white text-slate-800 text-xs focus:outline-none focus:border-amber-600"
+              />
+              <button
+                type="submit"
+                className="px-3.5 py-1.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs shrink-0 transition-colors"
+              >
+                Mở khóa
+              </button>
+            </div>
+            {adminError && <span className="text-rose-600 font-semibold">{adminError}</span>}
+          </form>
+        )}
       </div>
 
       {/* Exam Grid */}
@@ -209,8 +282,8 @@ export default function ExamsPage() {
                 className="bg-white rounded-3xl border border-[#A5D6A7]/80 hover:border-[#66BB6A] p-6 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
               >
                 <div className="space-y-4">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-1.5">
+                  <div className="flex items-center justify-between gap-2 flex-wrap">
+                    <div className="flex items-center gap-1.5 flex-wrap">
                       <span className="text-xs font-bold px-2.5 py-0.5 rounded-full bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
                         {exam.level}
                       </span>

@@ -12,6 +12,7 @@ import {
   Sparkles,
   Layers,
   Languages,
+  Headphones,
 } from "lucide-react";
 
 export function Navbar() {
@@ -22,6 +23,7 @@ export function Navbar() {
     { href: "/exams", label: "Kho đề thi", icon: Compass },
     { href: "/learn", label: "Học chuyên đề", icon: Layers },
     { href: "/learn/translation", label: "Luyện dịch", icon: Languages },
+    { href: "/learn/tango", label: "Tango N3", icon: Headphones },
     { href: "/flashcards", label: "Flashcard", icon: Sparkles },
     { href: "/review", label: "Ôn câu sai", icon: RotateCcw },
     { href: "/dashboard", label: "Thống kê", icon: BarChart3 },
@@ -60,7 +62,7 @@ export function Navbar() {
         <nav className="hidden xl:flex items-center gap-1">
           {navLinks.map((link) => {
             const Icon = link.icon;
-            const isActive = pathname === link.href || (link.href !== "/learn" && pathname?.startsWith(link.href + "/")) || (link.href === "/learn" && pathname?.startsWith("/learn/") && !pathname?.startsWith("/learn/translation"));
+            const isActive = pathname === link.href || (link.href !== "/learn" && pathname?.startsWith(link.href + "/")) || (link.href === "/learn" && pathname?.startsWith("/learn/") && !pathname?.startsWith("/learn/translation") && !pathname?.startsWith("/learn/tango"));
             return (
               <Link
                 key={link.href}
