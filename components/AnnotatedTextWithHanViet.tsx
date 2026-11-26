@@ -44,13 +44,21 @@ export function AnnotatedTextWithHanViet({
 
     const hanViet = getHanViet(word);
 
-    // Kiểm tra xem phía sau đã có sẵn [Hán Việt] hay chưa để tránh trùng lặp
+    // Kiểm tra xem phía sau đã có sẵn [Hán Việt] hay chưa (kể cả sau dấu đóng ngoặc 「...」) để tránh trùng lặp
     const restAfter = text.substring(matchIndex + word.length);
-    const alreadyAnnotated = hanViet && (
-      restAfter.startsWith(` [${hanViet}]`) || 
-      restAfter.startsWith(`[${hanViet}]`) ||
-      restAfter.startsWith(` (${hanViet})`) ||
-      restAfter.startsWith(`【${hanViet}】`)
+    const trimmedRest = restAfter.replace(/^[」』"'”’\s]+/, "");
+    const bracketMatch = trimmedRest.match(/^[\[(【]([^\])】]+)[\])】]/);
+    const bracketParts = bracketMatch
+      ? bracketMatch[1].split(/[\/\s,]+/).map((s) => s.trim().toUpperCase())
+      : [];
+
+    const alreadyAnnotated = Boolean(
+      hanViet &&
+        (bracketParts.includes(hanViet.toUpperCase()) ||
+          restAfter.startsWith(` [${hanViet}]`) ||
+          restAfter.startsWith(`[${hanViet}]`) ||
+          restAfter.startsWith(` (${hanViet})`) ||
+          restAfter.startsWith(`【${hanViet}】`))
     );
 
     elements.push(

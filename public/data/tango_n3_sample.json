@@ -1,0 +1,206 @@
+[
+  {
+    "chapterId": 1,
+    "chapterTitle": "Chapter 1: 日常生活 (Cuộc sống hằng ngày)",
+    "units": [
+      {
+        "unitId": 1,
+        "unitTitle": "Unit 1: 朝起きてから (Từ lúc thức dậy)",
+        "words": [
+          {
+            "id": "c1_u1_1",
+            "stt": 1,
+            "kanji": "目覚まし時計",
+            "hiragana": "めざましどけい",
+            "meaning": "Đồng hồ báo thức",
+            "wordAudio": "",
+            "example": {
+              "japanese": "目覚まし時計が鳴る。",
+              "hiragana": "めざましどけいがなる。",
+              "meaning": "Đồng hồ báo thức reo.",
+              "audio": ""
+            }
+          },
+          {
+            "id": "c1_u1_2",
+            "stt": 2,
+            "kanji": "支度",
+            "hiragana": "したく",
+            "meaning": "Sự chuẩn bị",
+            "wordAudio": "",
+            "example": {
+              "japanese": "出かける前に支度をします。",
+              "hiragana": "でかけるまえにしたくをします。",
+              "meaning": "Tôi chuẩn bị trước khi ra ngoài.",
+              "audio": ""
+            }
+          },
+          {
+            "id": "c1_u1_3",
+            "stt": 3,
+            "kanji": "寝坊",
+            "hiragana": "ねぼう",
+            "meaning": "Ngủ dậy muộn",
+            "wordAudio": "",
+            "example": {
+              "japanese": "寝坊しないように、早く寝ます。",
+              "hiragana": "ねぼうしないように、はやくねます。",
+              "meaning": "Tôi đi ngủ sớm để không dậy muộn.",
+              "audio": ""
+            }
+          }
+        ]
+      },
+      {
+        "unitId": 2,
+        "unitTitle": "Unit 2: 家事 (Việc nhà)",
+        "words": [
+          {
+            "id": "c1_u2_1",
+            "stt": 1,
+            "kanji": "片付ける",
+            "hiragana": "かたづける",
+            "meaning": "Dọn dẹp",
+            "wordAudio": "",
+            "example": {
+              "japanese": "食事のあとで台所を片付けます。",
+              "hiragana": "しょくじのあとでだいどころをかたづけます。",
+              "meaning": "Sau bữa ăn, tôi dọn bếp.",
+              "audio": ""
+            }
+          },
+          {
+            "id": "c1_u2_2",
+            "stt": 2,
+            "kanji": "干す",
+            "hiragana": "ほす",
+            "meaning": "Phơi",
+            "wordAudio": "",
+            "example": {
+              "japanese": "晴れた日に布団を干します。",
+              "hiragana": "はれたひにふとんをほします。",
+              "meaning": "Tôi phơi chăn đệm vào ngày nắng.",
+              "audio": ""
+            }
+          },
+          {
+            "id": "c1_u2_3",
+            "stt": 3,
+            "kanji": "節約",
+            "hiragana": "せつやく",
+            "meaning": "Tiết kiệm",
+            "wordAudio": "",
+            "example": {
+              "japanese": "水を節約するようにしています。",
+              "hiragana": "みずをせつやくするようにしています。",
+              "meaning": "Tôi cố gắng tiết kiệm nước.",
+              "audio": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapterId": 2,
+    "chapterTitle": "Chapter 2: 学校と仕事 (Trường học và công việc)",
+    "units": [
+      {
+        "unitId": 1,
+        "unitTitle": "Unit 1: 勉強 (Học tập)",
+        "words": [
+          {
+            "id": "c2_u1_1",
+            "stt": 1,
+            "kanji": "復習",
+            "hiragana": "ふくしゅう",
+            "meaning": "Ôn tập",
+            "wordAudio": "",
+            "example": {
+              "japanese": "授業で習った漢字を復習します。",
+              "hiragana": "じゅぎょうでならったかんじをふくしゅうします。",
+              "meaning": "Tôi ôn lại các chữ Kanji đã học trong giờ.",
+              "audio": ""
+            }
+          },
+          {
+            "id": "c2_u1_2",
+            "stt": 2,
+            "kanji": "間違い",
+            "hiragana": "まちがい",
+            "meaning": "Lỗi sai",
+            "wordAudio": "",
+            "example": {
+              "japanese": "間違いに気づいたら、すぐ直します。",
+              "hiragana": "まちがいにきづいたら、すぐなおします。",
+              "meaning": "Khi nhận ra lỗi sai, tôi sửa ngay.",
+              "audio": ""
+            }
+          },
+          {
+            "id": "c2_u1_3",
+            "stt": 3,
+            "kanji": "集中",
+            "hiragana": "しゅうちゅう",
+            "meaning": "Tập trung",
+            "wordAudio": "",
+            "example": {
+              "japanese": "静かな場所なら、勉強に集中できます。",
+              "hiragana": "しずかなばしょなら、べんきょうにしゅうちゅうできます。",
+              "meaning": "Ở nơi yên tĩnh, tôi có thể tập trung học.",
+              "audio": ""
+            }
+          }
+        ]
+      },
+      {
+        "unitId": 2,
+        "unitTitle": "Unit 2: 会社 (Công ty)",
+        "words": [
+          {
+            "id": "c2_u2_1",
+            "stt": 1,
+            "kanji": "確認",
+            "hiragana": "かくにん",
+            "meaning": "Xác nhận, kiểm tra",
+            "wordAudio": "",
+            "example": {
+              "japanese": "会議の時間を確認してください。",
+              "hiragana": "かいぎのじかんをかくにんしてください。",
+              "meaning": "Hãy kiểm tra giờ họp.",
+              "audio": ""
+            }
+          },
+          {
+            "id": "c2_u2_2",
+            "stt": 2,
+            "kanji": "連絡",
+            "hiragana": "れんらく",
+            "meaning": "Liên lạc",
+            "wordAudio": "",
+            "example": {
+              "japanese": "遅れる場合は、会社に連絡します。",
+              "hiragana": "おくれるばあいは、かいしゃにれんらくします。",
+              "meaning": "Nếu đến muộn, tôi sẽ liên lạc với công ty.",
+              "audio": ""
+            }
+          },
+          {
+            "id": "c2_u2_3",
+            "stt": 3,
+            "kanji": "締め切り",
+            "hiragana": "しめきり",
+            "meaning": "Hạn chót",
+            "wordAudio": "",
+            "example": {
+              "japanese": "申し込みの締め切りは明日です。",
+              "hiragana": "もうしこみのしめきりはあしたです。",
+              "meaning": "Hạn đăng ký là ngày mai.",
+              "audio": ""
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

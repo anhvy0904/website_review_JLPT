@@ -54,13 +54,16 @@ export function ExamNavigator({
           const isAnswered = Boolean(answers[q.id]);
           const isFlagged = flaggedQuestionIds.includes(q.id);
           const isChecked = checkedQuestionIds.includes(q.id);
-          const isCorrect = isChecked && answers[q.id] === q.correctOptionId;
+          const hasVerifiedAnswer = q.correctOptionId !== null && q.correctOptionId !== undefined && q.correctOptionId !== "";
+          const isCorrect = isChecked && hasVerifiedAnswer && answers[q.id] === q.correctOptionId;
 
           // Color calculation
           let btnClass = "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100";
 
           if (mode === "practice" && isChecked) {
-            if (isCorrect) {
+            if (!hasVerifiedAnswer) {
+              btnClass = "bg-amber-500 text-white border-amber-500 hover:bg-amber-600";
+            } else if (isCorrect) {
               btnClass = "bg-emerald-600 text-white border-emerald-600 hover:bg-emerald-700";
             } else {
               btnClass = "bg-rose-600 text-white border-rose-600 hover:bg-rose-700";

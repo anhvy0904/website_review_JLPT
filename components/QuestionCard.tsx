@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useEffect, useCallback } from "react";
+import React, { useEffect, useCallback, useState } from "react";
 import { ExamQuestion } from "@/lib/types";
-import { Flag, Star, Check, ArrowRight, ArrowLeft, CheckCircle2 } from "lucide-react";
+import { Flag, Star, Check, ArrowRight, ArrowLeft, CheckCircle2, Image as ImageIcon, AlertTriangle } from "lucide-react";
 import { AnswerExplanation } from "./AnswerExplanation";
 import { FormattedQuestionText, getStarSlotInfo } from "./FormattedQuestionText";
 
@@ -88,6 +88,16 @@ export function QuestionCard({
   className = "",
 }: QuestionCardProps) {
   const starInfo = getStarSlotInfo(question.questionText);
+  const [showSourceImage, setShowSourceImage] = useState(false);
+
+  const hasQuestionText = Boolean(question.questionText && question.questionText.trim().length > 0);
+  const hasQuestionImage = Boolean(question.questionImagePath && question.questionImagePath.trim().length > 0);
+  const hasVerifiedAnswer = question.correctOptionId !== null && question.correctOptionId !== undefined && question.correctOptionId !== "";
+
+  // Reset toggle when question changes
+  useEffect(() => {
+    setShowSourceImage(false);
+  }, [question.id]);
 
   // Keyboard shortcut handler
   const handleKeyDown = useCallback(
@@ -172,9 +182,9 @@ export function QuestionCard({
               {secInfo.label}
             </span>
 
-            {question.mondai && (
+            {question.mondai !== undefined && question.mondai !== null && (
               <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-[#E8F5E9] text-[#1B5E20] border border-[#A5D6A7]">
-                {question.mondai}
+                {typeof question.mondai === "number" ? `Mondai ${question.mondai}` : question.mondai}
               </span>
             )}
 
@@ -218,11 +228,59 @@ export function QuestionCard({
           </div>
         </div>
 
-        {/* Question Text */}
+        {/* Question Text or Scanned Image */}
         <div className="py-5 sm:py-6 space-y-4">
-          <p className="font-japanese text-slate-900 text-[20px] sm:text-[22px] font-normal leading-[1.8] tracking-wide">
-            <FormattedQuestionText text={question.questionText} />
-          </p>
+          {hasQuestionText ? (
+            <div className="space-y-3">
+              <p className="font-japanese text-slate-900 text-[20px] sm:text-[22px] font-normal leading-[1.8] tracking-wide">
+                <FormattedQuestionText text={question.questionText} />
+              </p>
+
+              {hasQuestionImage && (
+                <div className="pt-1">
+                  <button
+                    type="button"
+                    onClick={() => setShowSourceImage(!showSourceImage)}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 text-xs font-semibold transition-colors"
+                  >
+                    <ImageIcon className="w-3.5 h-3.5 text-indigo-600" />
+                    <span>{showSourceImage ? "Ẩn ảnh đề gốc" : "Xem ảnh đề gốc"}</span>
+                  </button>
+                  {showSourceImage && (
+                    <div className="mt-3 p-2 rounded-2xl border border-slate-200 bg-slate-50">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={question.questionImagePath}
+                        alt={`Ảnh đề gốc câu ${question.number}`}
+                        className="max-h-[500px] w-auto mx-auto rounded-xl object-contain shadow-xs"
+                      />
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          ) : hasQuestionImage ? (
+            <div className="space-y-3">
+              <div className="p-3 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs flex items-center justify-between">
+                <span className="font-bold">Ảnh quét đề gốc (Bản nháp — Đang chờ nhập chữ)</span>
+                {question.sourcePage && (
+                  <span className="text-[11px] font-mono text-amber-800">Trang PDF: {question.sourcePage}</span>
+                )}
+              </div>
+              <div className="p-2 rounded-2xl border border-slate-200 bg-slate-50 overflow-hidden">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={question.questionImagePath}
+                  alt={`Ảnh đề gốc câu ${question.number}`}
+                  className="max-h-[550px] w-auto mx-auto rounded-xl object-contain shadow-xs"
+                />
+              </div>
+            </div>
+          ) : (
+            <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-slate-500 text-sm">
+              (Chưa có nội dung văn bản hoặc ảnh câu hỏi)
+            </div>
+          )}
 
           {/* Banner hướng dẫn vị trí dấu sao cho câu ghép dấu sao ★ */}
           {starInfo && (
@@ -261,16 +319,27 @@ export function QuestionCard({
 
             // In Practice Mode after checking:
             if (isLocked) {
-              const isCorrectOption = opt.id === question.correctOptionId;
-              if (isCorrectOption) {
-                optionStyle = "border-emerald-500 bg-emerald-50 text-emerald-950 font-medium ring-1 ring-emerald-500";
-                badgeStyle = "bg-emerald-600 text-white border-emerald-600";
-              } else if (isSelected && !isCorrectOption) {
-                optionStyle = "border-rose-400 bg-rose-50 text-rose-950 ring-1 ring-rose-400";
-                badgeStyle = "bg-rose-500 text-white border-rose-500";
+              if (hasVerifiedAnswer) {
+                const isCorrectOption = opt.id === question.correctOptionId;
+                if (isCorrectOption) {
+                  optionStyle = "border-emerald-500 bg-emerald-50 text-emerald-950 font-medium ring-1 ring-emerald-500";
+                  badgeStyle = "bg-emerald-600 text-white border-emerald-600";
+                } else if (isSelected && !isCorrectOption) {
+                  optionStyle = "border-rose-400 bg-rose-50 text-rose-950 ring-1 ring-rose-400";
+                  badgeStyle = "bg-rose-500 text-white border-rose-500";
+                } else {
+                  optionStyle = "border-slate-200 opacity-60 bg-white text-slate-500";
+                  badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
+                }
               } else {
-                optionStyle = "border-slate-200 opacity-60 bg-white text-slate-500";
-                badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
+                // Draft with unverified answer: DO NOT SCORE OR REVEAL
+                if (isSelected) {
+                  optionStyle = "border-amber-400 bg-amber-50/80 text-amber-950 font-medium ring-1 ring-amber-400";
+                  badgeStyle = "bg-amber-600 text-white border-amber-600";
+                } else {
+                  optionStyle = "border-slate-200 opacity-80 bg-white text-slate-600";
+                  badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
+                }
               }
             }
 
@@ -302,6 +371,19 @@ export function QuestionCard({
             );
           })}
         </div>
+
+        {/* Unverified answer warning */}
+        {!hasVerifiedAnswer && (
+          <div className="mt-4 flex items-start gap-2.5 p-3.5 rounded-xl bg-amber-50 border border-amber-300 text-amber-900 text-xs sm:text-sm font-medium">
+            <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+            <div>
+              <div className="font-bold text-amber-950">Chưa xác minh đáp án (Bản nháp)</div>
+              <div className="text-[11px] sm:text-xs text-amber-800">
+                Câu hỏi này chưa có đáp án chính thức từ nguồn kiểm duyệt. Hệ thống không chấm điểm hoặc công bố đáp án đúng.
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Bottom Actions Bar */}
         <div className="mt-6 sm:mt-8 pt-4 sm:pt-5 border-t border-slate-100 flex items-center justify-between gap-2 sm:gap-3">

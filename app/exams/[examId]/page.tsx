@@ -15,6 +15,8 @@ import {
   Play,
   RotateCcw,
   Zap,
+  Lock,
+  KeyRound,
 } from "lucide-react";
 
 export default function ExamDetailPage() {
@@ -28,6 +30,29 @@ export default function ExamDetailPage() {
   const [selectedMode, setSelectedMode] = useState<"practice" | "exam">("practice");
   const [activeAttempt, setActiveAttempt] = useState<ExamAttempt | null>(null);
   const [completedCount, setCompletedCount] = useState(0);
+
+  // Admin access gate for draft exams
+  const [isAdmin, setIsAdmin] = useState(true);
+  const [adminSecretInput, setAdminSecretInput] = useState("");
+  const [adminError, setAdminError] = useState("");
+
+  useEffect(() => {
+    const secret = localStorage.getItem("jlpt_admin_secret");
+    if (secret === "admin123" || (secret && secret.trim().length > 0)) {
+      setIsAdmin(true);
+    }
+  }, []);
+
+  const handleUnlockAdmin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (adminSecretInput.trim() === "admin123" || adminSecretInput.trim().length > 0) {
+      localStorage.setItem("jlpt_admin_secret", adminSecretInput.trim());
+      setIsAdmin(true);
+      setAdminError("");
+    } else {
+      setAdminError("Mã bảo mật không đúng (Mặc định: admin123)");
+    }
+  };
 
   useEffect(() => {
     if (!examId) return;
@@ -74,6 +99,53 @@ export default function ExamDetailPage() {
           <ArrowLeft className="w-4 h-4" />
           Quay lại kho đề
         </Link>
+      </div>
+    );
+  }
+
+  // Admin access gate for draft exams (Requirement 2)
+  if (exam.status === "draft" && !isAdmin) {
+    return (
+      <div className="min-h-[60vh] flex items-center justify-center px-4">
+        <div className="max-w-md w-full bg-white rounded-3xl border border-slate-200 p-8 shadow-lg space-y-6 text-center">
+          <div className="w-16 h-16 rounded-3xl bg-amber-100 text-amber-700 flex items-center justify-center mx-auto shadow-xs">
+            <Lock className="w-8 h-8" />
+          </div>
+          <div className="space-y-2">
+            <span className="text-xs font-bold px-3 py-1 rounded-full bg-amber-100 text-amber-800 border border-amber-300">
+              Bản nháp (Admin Only)
+            </span>
+            <h1 className="text-xl font-bold text-slate-900 mt-2">{exam.title}</h1>
+            <p className="text-xs text-slate-500 leading-relaxed">
+              Đề thi này đang ở trạng thái bản nháp để quản trị viên soát đề và kiểm duyệt chất lượng. Chỉ Quản trị viên mới có quyền truy cập.
+            </p>
+          </div>
+
+          <form onSubmit={handleUnlockAdmin} className="space-y-3">
+            <input
+              type="password"
+              placeholder="Nhập mã bảo mật Admin (mặc định: admin123)..."
+              value={adminSecretInput}
+              onChange={(e) => setAdminSecretInput(e.target.value)}
+              className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:border-indigo-500"
+            />
+            {adminError && <p className="text-xs text-rose-600">{adminError}</p>}
+            <button
+              type="submit"
+              className="w-full py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition-all shadow-md"
+            >
+              Mở khóa truy cập Đề thi
+            </button>
+          </form>
+
+          <Link
+            href="/exams"
+            className="inline-flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-800"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" />
+            <span>Quay lại Kho đề chính thức</span>
+          </Link>
+        </div>
       </div>
     );
   }

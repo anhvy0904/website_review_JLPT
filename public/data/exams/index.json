@@ -1,10 +1,286 @@
 [
   {
-    "id": "n3-best-moshi-01",
-    "title": "ベスト模試 N3 — Đề 1 (không có phần nghe)",
-    "description": "Bộ đề luyện N3 lấy từ bản PDF người dùng cung cấp: 35 câu từ vựng, 23 câu ngữ pháp và 16 câu đọc hiểu. Chưa có bảng đáp án gốc. Đáp án/giải thích hiện là đề xuất, bắt buộc kiểm duyệt trước khi xuất bản.",
+    "id": "n3-2021-12",
+    "title": "JLPT N3 — Tháng 12/2021 (không nghe)",
+    "description": "Bản nhập dữ liệu học JLPT N3: từ vựng, ngữ pháp và đọc hiểu. Không có nghe hiểu; cần kiểm duyệt trước khi xuất bản.",
     "level": "N3",
     "status": "draft",
+    "questionCount": 73,
+    "timeLimitMinutes": 100,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ],
+    "sectionCounts": {
+      "vocabulary": 35,
+      "grammar": 22,
+      "reading": 16
+    },
+    "subtypes": [
+      "kanji_reading",
+      "orthography",
+      "context_meaning",
+      "paraphrase",
+      "usage",
+      "sentence_grammar",
+      "star_arrangement",
+      "text_grammar",
+      "short_passage",
+      "medium_passage",
+      "long_passage",
+      "information_retrieval"
+    ],
+    "tags": [
+      "問題1",
+      "vocabulary",
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5",
+      "Q6",
+      "Q7",
+      "Q8",
+      "問題2",
+      "Q9",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "問題3",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19",
+      "Q20",
+      "Q21",
+      "Q22",
+      "Q23",
+      "Q24",
+      "Q25",
+      "問題4",
+      "Q26",
+      "Q27",
+      "Q28",
+      "Q29",
+      "Q30",
+      "問題5",
+      "Q31",
+      "Q32",
+      "Q33",
+      "Q34",
+      "Q35",
+      "grammar",
+      "reading",
+      "問題6",
+      "Q36",
+      "問題7",
+      "Q37",
+      "requires_image_asset",
+      "Q38"
+    ],
+    "hasUnverifiedAnswers": true,
+    "stats": {
+      "questionsWithText": 73,
+      "verifiedQuestions": 0,
+      "totalQuestions": 73,
+      "passagesWithText": 10,
+      "totalPassages": 10
+    },
+    "lastUpdated": "2026-11-24"
+  },
+  {
+    "id": "n3-2025-07",
+    "title": "JLPT N3 — Tháng 7/2025 (không nghe)",
+    "description": "Bản nhập dữ liệu học JLPT N3: từ vựng, ngữ pháp và đọc hiểu. Không có nghe hiểu; cần kiểm duyệt trước khi xuất bản.",
+    "level": "N3",
+    "status": "draft",
+    "questionCount": 73,
+    "timeLimitMinutes": 100,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ],
+    "sectionCounts": {
+      "vocabulary": 35,
+      "grammar": 22,
+      "reading": 16
+    },
+    "subtypes": [
+      "kanji_reading",
+      "orthography",
+      "context_meaning",
+      "paraphrase",
+      "usage",
+      "sentence_grammar",
+      "star_arrangement",
+      "text_grammar",
+      "short_passage",
+      "medium_passage",
+      "long_passage",
+      "information_retrieval"
+    ],
+    "tags": [
+      "問題1",
+      "vocabulary",
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5",
+      "Q6",
+      "Q7",
+      "Q8",
+      "問題2",
+      "Q9",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "問題3",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19",
+      "Q20",
+      "Q21",
+      "Q22",
+      "Q23",
+      "Q24",
+      "Q25",
+      "問題4",
+      "Q26",
+      "Q27",
+      "Q28",
+      "Q29",
+      "Q30",
+      "問題5",
+      "Q31",
+      "Q32",
+      "Q33",
+      "Q34",
+      "Q35",
+      "grammar",
+      "reading",
+      "問題6",
+      "Q36",
+      "問題7",
+      "Q37",
+      "requires_image_asset",
+      "Q38"
+    ],
+    "hasUnverifiedAnswers": true,
+    "stats": {
+      "questionsWithText": 73,
+      "verifiedQuestions": 0,
+      "totalQuestions": 73,
+      "passagesWithText": 9,
+      "totalPassages": 9
+    },
+    "lastUpdated": "2026-11-24"
+  },
+  {
+    "id": "n3-2025-12",
+    "title": "JLPT N3 — Tháng 12/2025 (không nghe)",
+    "description": "Bản nhập dữ liệu học JLPT N3: từ vựng, ngữ pháp và đọc hiểu. Không có nghe hiểu; cần kiểm duyệt trước khi xuất bản.",
+    "level": "N3",
+    "status": "draft",
+    "questionCount": 73,
+    "timeLimitMinutes": 100,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ],
+    "sectionCounts": {
+      "vocabulary": 35,
+      "grammar": 22,
+      "reading": 16
+    },
+    "subtypes": [
+      "kanji_reading",
+      "orthography",
+      "context_meaning",
+      "paraphrase",
+      "usage",
+      "sentence_grammar",
+      "star_arrangement",
+      "text_grammar",
+      "short_passage",
+      "medium_passage",
+      "long_passage",
+      "information_retrieval"
+    ],
+    "tags": [
+      "問題1",
+      "vocabulary",
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5",
+      "Q6",
+      "Q7",
+      "Q8",
+      "問題2",
+      "Q9",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "問題3",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19",
+      "Q20",
+      "Q21",
+      "Q22",
+      "Q23",
+      "Q24",
+      "Q25",
+      "問題4",
+      "Q26",
+      "Q27",
+      "Q28",
+      "Q29",
+      "Q30",
+      "問題5",
+      "Q31",
+      "Q32",
+      "Q33",
+      "Q34",
+      "Q35",
+      "grammar",
+      "reading",
+      "requires_image_asset",
+      "問題6",
+      "Q36",
+      "問題7",
+      "Q37",
+      "Q38"
+    ],
+    "hasUnverifiedAnswers": true,
+    "stats": {
+      "questionsWithText": 73,
+      "verifiedQuestions": 0,
+      "totalQuestions": 73,
+      "passagesWithText": 9,
+      "totalPassages": 9
+    },
+    "lastUpdated": "2026-11-24"
+  },
+  {
+    "id": "n3-best-moshi-01",
+    "title": "ベスト模試 N3 — Đề 1 (không có phần nghe)",
+    "description": "Bộ đề luyện N3 lấy từ bản PDF người dùng cung cấp: 35 câu từ vựng, 23 câu ngữ pháp và 16 câu đọc hiểu. Đã kiểm duyệt đầy đủ đáp án chuẩn, toàn bộ bài đọc hiểu và lời giải chi tiết tiếng Việt.",
+    "level": "N3",
+    "status": "published",
     "questionCount": 74,
     "timeLimitMinutes": 100,
     "allowedModes": [
@@ -68,14 +344,22 @@
       "管理",
       "お知らせ"
     ],
-    "lastUpdated": "2026-11-09"
+    "hasUnverifiedAnswers": false,
+    "stats": {
+      "questionsWithText": 74,
+      "verifiedQuestions": 74,
+      "totalQuestions": 74,
+      "passagesWithText": 9,
+      "totalPassages": 9
+    },
+    "lastUpdated": "2026-11-24"
   },
   {
     "id": "n3-best-moshi-02",
     "title": "JLPT N3 ベスト模試 — Đề 2 (Từ vựng • Ngữ pháp • Đọc hiểu)",
     "description": "Bộ đề ベスト模試 N3 Đề 2, không bao gồm nghe. 35 từ vựng, 23 ngữ pháp, 16 đọc hiểu. Bản số hóa chờ kiểm duyệt nội dung và đối chiếu hình ảnh nguồn.",
     "level": "N3",
-    "status": "draft",
+    "status": "published",
     "questionCount": 74,
     "timeLimitMinutes": 100,
     "allowedModes": [
@@ -119,14 +403,22 @@
       "long_reading",
       "information_lookup"
     ],
-    "lastUpdated": "2026-11-09"
+    "hasUnverifiedAnswers": false,
+    "stats": {
+      "questionsWithText": 74,
+      "verifiedQuestions": 74,
+      "totalQuestions": 74,
+      "passagesWithText": 9,
+      "totalPassages": 9
+    },
+    "lastUpdated": "2026-11-24"
   },
   {
     "id": "n3-best-moshi-03",
     "title": "JLPT N3 ベスト模試 — Đề 3 (Từ vựng • Ngữ pháp • Đọc hiểu)",
     "description": "Bộ đề ベスト模試 N3 Đề 3, không bao gồm nghe. 35 từ vựng, 23 ngữ pháp, 16 đọc hiểu. Bản số hóa chờ kiểm duyệt nội dung và đối chiếu hình ảnh nguồn.",
     "level": "N3",
-    "status": "draft",
+    "status": "published",
     "questionCount": 74,
     "timeLimitMinutes": 100,
     "allowedModes": [
@@ -170,7 +462,15 @@
       "long_reading",
       "information_lookup"
     ],
-    "lastUpdated": "2026-11-09"
+    "hasUnverifiedAnswers": false,
+    "stats": {
+      "questionsWithText": 74,
+      "verifiedQuestions": 74,
+      "totalQuestions": 74,
+      "passagesWithText": 9,
+      "totalPassages": 9
+    },
+    "lastUpdated": "2026-11-24"
   },
   {
     "id": "n3-kanji-reading-50",
@@ -199,7 +499,15 @@
       "n3",
       "kính ngữ"
     ],
-    "lastUpdated": "2026-11-09"
+    "hasUnverifiedAnswers": false,
+    "stats": {
+      "questionsWithText": 50,
+      "verifiedQuestions": 50,
+      "totalQuestions": 50,
+      "passagesWithText": 0,
+      "totalPassages": 0
+    },
+    "lastUpdated": "2026-11-24"
   },
   {
     "id": "n3-kanji-writing-46",
@@ -227,6 +535,14 @@
       "kosei",
       "n3"
     ],
-    "lastUpdated": "2026-11-09"
+    "hasUnverifiedAnswers": false,
+    "stats": {
+      "questionsWithText": 46,
+      "verifiedQuestions": 46,
+      "totalQuestions": 46,
+      "passagesWithText": 0,
+      "totalPassages": 0
+    },
+    "lastUpdated": "2026-11-24"
   }
 ]

@@ -87,25 +87,38 @@ for (const file of files) {
         errors.push(`${qPrefix}: section không hợp lệ ("${q.section}")`);
       }
 
-      if (!q.questionText || typeof q.questionText !== "string") {
-        errors.push(`${qPrefix}: Thiếu nội dung câu hỏi questionText`);
+      const hasText = typeof q.questionText === "string" && q.questionText.trim().length > 0;
+      const hasImage = typeof q.questionImagePath === "string" && q.questionImagePath.trim().length > 0;
+
+      if (!hasText && !hasImage) {
+        errors.push(`${qPrefix}: Phải có nội dung questionText hoặc questionImagePath (ảnh trang gốc)`);
+      }
+
+      if (examData.status === "published" && !hasText) {
+        errors.push(`${qPrefix}: Đề published bắt buộc phải có nội dung văn bản questionText`);
       }
 
       if (!Array.isArray(q.options) || q.options.length < 2) {
         errors.push(`${qPrefix}: options phải có ít nhất 2 lựa chọn`);
       } else {
         const optionIds = q.options.map((o) => String(o.id));
-        if (!optionIds.includes(String(q.correctOptionId))) {
-          errors.push(`${qPrefix}: correctOptionId "${q.correctOptionId}" không nằm trong danh sách options [${optionIds.join(", ")}]`);
+        if (q.correctOptionId !== null && q.correctOptionId !== undefined) {
+          if (!optionIds.includes(String(q.correctOptionId))) {
+            errors.push(`${qPrefix}: correctOptionId "${q.correctOptionId}" không nằm trong danh sách options [${optionIds.join(", ")}]`);
+          }
+        } else if (examData.status === "published") {
+          errors.push(`${qPrefix}: Đề published bắt buộc phải có correctOptionId xác thực`);
         }
 
-        // Kiểm tra giải thích cho từng lựa chọn
-        if (!q.explanation || !q.explanation.optionReasonsVi) {
-          errors.push(`${qPrefix}: Thiếu explanation.optionReasonsVi`);
-        } else {
-          for (const optId of optionIds) {
-            if (!q.explanation.optionReasonsVi[optId]) {
-              errors.push(`${qPrefix}: Thiếu giải thích optionReasonsVi cho lựa chọn ID "${optId}"`);
+        // Kiểm tra giải thích cho từng lựa chọn (bắt buộc khi xuất bản)
+        if (examData.status === "published") {
+          if (!q.explanation || !q.explanation.optionReasonsVi) {
+            errors.push(`${qPrefix}: Thiếu explanation.optionReasonsVi`);
+          } else {
+            for (const optId of optionIds) {
+              if (!q.explanation.optionReasonsVi[optId]) {
+                errors.push(`${qPrefix}: Thiếu giải thích optionReasonsVi cho lựa chọn ID "${optId}"`);
+              }
             }
           }
         }
@@ -123,6 +136,14 @@ for (const file of files) {
         }
       }
     });
+
+    if (examData.status === "published" && Array.isArray(examData.passages)) {
+      for (const p of examData.passages) {
+        if (!p.text || !p.text.trim()) {
+          errors.push(`Passage "${p.id}": Đề published bắt buộc bài đọc phải có nội dung văn bản text`);
+        }
+      }
+    }
   }
 
   if (errors.length > 0) {
@@ -149,6 +170,13 @@ for (const file of files) {
     }
   }
 
+  const questionsWithText = examData.questions.filter((q) => q.questionText && q.questionText.trim().length > 0).length;
+  const verifiedQuestions = examData.questions.filter((q) => q.review?.status === "verified").length;
+  const passagesWithText = (examData.passages || []).filter((p) => p.text && p.text.trim().length > 0).length;
+  const hasUnverifiedAnswers =
+    examData.status === "draft" ||
+    examData.questions.some((q) => q.correctOptionId === null || q.correctOptionId === undefined || q.review?.status !== "verified");
+
   indexList.push({
     id: examData.id,
     title: examData.title,
@@ -161,6 +189,14 @@ for (const file of files) {
     sectionCounts,
     subtypes: Array.from(subtypesSet),
     tags: Array.from(tagsSet),
+    hasUnverifiedAnswers,
+    stats: {
+      questionsWithText,
+      verifiedQuestions,
+      totalQuestions: examData.questions.length,
+      passagesWithText,
+      totalPassages: examData.passages?.length || 0,
+    },
     lastUpdated: new Date().toISOString().split("T")[0],
   });
 }

@@ -46,7 +46,8 @@ export function AnswerExplanation({
   examTitle,
   className = "",
 }: AnswerExplanationProps) {
-  const isCorrect = selectedOptionId === question.correctOptionId;
+  const hasVerifiedAnswer = question.correctOptionId !== null && question.correctOptionId !== undefined && question.correctOptionId !== "";
+  const isCorrect = hasVerifiedAnswer && selectedOptionId === question.correctOptionId;
   const isSkipped = !selectedOptionId;
   const { explanation } = question;
 
@@ -150,7 +151,7 @@ export function AnswerExplanation({
   // Detect related learning module per PRD Addendum Section A3
   const getRelatedTopicLink = () => {
     const textToScan = `${question.subtype} ${(question.tags || []).join(" ")} ${question.questionText}`.toLowerCase();
-    
+
     if (textToScan.includes("causative_passive") || textToScan.includes("使役受身") || textToScan.includes("bị động sai khiến")) {
       return { href: "/learn/verb-forms/causative-passive", label: "Thể bị động sai khiến (使役受身形)" };
     }
@@ -184,7 +185,9 @@ export function AnswerExplanation({
   return (
     <div
       className={`rounded-2xl border transition-all ${
-        isCorrect
+        !hasVerifiedAnswer
+          ? "border-amber-200 bg-amber-50/30"
+          : isCorrect
           ? "border-emerald-200 bg-emerald-50/40"
           : isSkipped
           ? "border-amber-200 bg-amber-50/30"
@@ -194,7 +197,12 @@ export function AnswerExplanation({
       {/* Header Status */}
       <div className="flex flex-wrap items-center justify-between gap-3 pb-5 border-b border-slate-200/80">
         <div className="flex items-center gap-3">
-          {isCorrect ? (
+          {!hasVerifiedAnswer ? (
+            <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-100 text-amber-900 text-sm font-bold border border-amber-300">
+              <AlertTriangle className="w-5 h-5 text-amber-600" />
+              CHƯA XÁC MINH ĐÁP ÁN (BẢN NHÁP)
+            </div>
+          ) : isCorrect ? (
             <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-sm font-bold">
               <CheckCircle2 className="w-5 h-5 text-emerald-600" />
               CHÍNH XÁC!
@@ -211,18 +219,29 @@ export function AnswerExplanation({
             </div>
           )}
 
-          <div className="text-sm text-slate-700">
-            <span>Đáp án đúng: </span>
-            <span className="font-bold text-emerald-700 px-2 py-0.5 rounded bg-emerald-100/80">
-              [{correctOption?.id}] {correctOption?.text}
-            </span>
-          </div>
+          {hasVerifiedAnswer && correctOption && (
+            <div className="text-sm text-slate-700">
+              <span>Đáp án đúng: </span>
+              <span className="font-bold text-emerald-700 px-2 py-0.5 rounded bg-emerald-100/80">
+                [{correctOption.id}] {correctOption.text}
+              </span>
+            </div>
+          )}
         </div>
 
-        {!isCorrect && !isSkipped && selectedOption && (
+        {hasVerifiedAnswer && !isCorrect && !isSkipped && selectedOption && (
           <div className="text-sm text-slate-600">
             <span>Bạn đã chọn: </span>
             <span className="font-semibold text-rose-700 px-2 py-0.5 rounded bg-rose-100/80">
+              [{selectedOption.id}] {selectedOption.text}
+            </span>
+          </div>
+        )}
+
+        {!hasVerifiedAnswer && selectedOption && (
+          <div className="text-sm text-slate-600">
+            <span>Lựa chọn của bạn: </span>
+            <span className="font-semibold text-amber-800 px-2 py-0.5 rounded bg-amber-100/80">
               [{selectedOption.id}] {selectedOption.text}
             </span>
           </div>
@@ -377,7 +396,7 @@ export function AnswerExplanation({
                               <span className="text-[11px] text-slate-500 font-medium">Chữ Hán:</span>
                               <span className="font-japanese font-bold text-slate-900 text-xs">{kanjiInfo.kanji}</span>
                               {kanjiInfo.hanViet && (
-                                <span className="font-bold text-[#1B5E20] text-[11px] bg-white/90 px-1 py-0.2 rounded border border-[#A5D6A7]/60">
+                                <span className="font-bold text-[#1B5E20] text-[11px] bg-white/90 px-1 py-0.5 rounded border border-[#A5D6A7]/60">
                                   {kanjiInfo.hanViet}
                                 </span>
                               )}
@@ -448,15 +467,15 @@ export function AnswerExplanation({
               <button
                 type="button"
                 onClick={handleAddAllVocabToFlashcard}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#E8F5E9] hover:bg-[#A5D6A7]/40 text-[#1B5E20] border border-[#A5D6A7] text-xs font-bold transition-all shadow-2xs active:scale-95 cursor-pointer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#E8F5E9] hover:bg-[#A5D6A7]/40 text-[#1B5E20] border border-[#A5D6A7] text-xs font-bold transition-all shrink-0 whitespace-nowrap shadow-2xs active:scale-95 cursor-pointer"
                 title="Lưu tất cả từ vựng này vào Flashcard"
               >
-                <Sparkles className="w-3.5 h-3.5 text-[#2E7D32]" />
-                <span>+ Lưu cả bộ vào Flashcard</span>
+                <Sparkles className="w-3.5 h-3.5 text-[#2E7D32] shrink-0" />
+                <span>Lưu cả bộ vào Flashcard</span>
               </button>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {enrichedVocabulary.map((v, i) => {
                 const vHanViet = getHanViet(v.word);
                 const isSaved = !!savedVocab[v.word];
@@ -464,15 +483,15 @@ export function AnswerExplanation({
                 return (
                   <div
                     key={i}
-                    className={`flex flex-col justify-between p-3.5 rounded-2xl border transition-all text-sm gap-2 ${
+                    className={`flex flex-col justify-between p-3.5 rounded-2xl border transition-all text-sm gap-2.5 ${
                       isSaved
                         ? "bg-[#E8F5E9]/50 border-[#A5D6A7] shadow-xs"
                         : "bg-white border-slate-200 hover:border-[#A5D6A7]"
                     }`}
                   >
-                    <div className="flex items-start justify-between gap-2">
-                      <div className="space-y-1">
-                        <div className="flex flex-wrap items-center gap-1.5">
+                    <div className="flex items-start justify-between gap-2.5">
+                      <div className="space-y-1.5 min-w-0 flex-1">
+                        <div className="flex flex-wrap items-center gap-2">
                           <FuriganaRuby
                             word={v.word}
                             hiragana={v.hiragana}
@@ -480,7 +499,7 @@ export function AnswerExplanation({
                           />
                           {v.source && (
                             <span
-                              className={`text-[10px] font-semibold px-1.5 py-0.2 rounded-md ${
+                              className={`text-[10px] font-semibold px-2 py-0.5 rounded-md shrink-0 ${
                                 v.source === "question"
                                   ? "bg-blue-50 text-blue-700 border border-blue-200/80"
                                   : v.source === "option"
@@ -497,9 +516,9 @@ export function AnswerExplanation({
                           )}
                         </div>
                         {vHanViet && (
-                          <div className="text-[11px] font-bold text-[#1B5E20] flex items-center gap-1">
+                          <div className="text-[11px] font-bold text-[#1B5E20] flex items-center gap-1.5">
                             <span className="text-slate-400 font-normal">Hán Việt:</span>
-                            <span className="px-1.5 py-0.2 rounded bg-white border border-[#A5D6A7]/70">
+                            <span className="px-1.5 py-0.5 rounded bg-white border border-[#A5D6A7]/70 shadow-2xs">
                               {vHanViet}
                             </span>
                           </div>
@@ -510,7 +529,7 @@ export function AnswerExplanation({
                       <button
                         type="button"
                         onClick={() => handleToggleFlashcard(v)}
-                        className={`inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 shadow-2xs active:scale-95 cursor-pointer ${
+                        className={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 whitespace-nowrap shadow-2xs active:scale-95 cursor-pointer ${
                           isSaved
                             ? "bg-[#1B5E20] text-white hover:bg-rose-600 border border-[#1B5E20]"
                             : "bg-[#E8F5E9] text-[#1B5E20] hover:bg-[#A5D6A7]/60 border border-[#A5D6A7]"
@@ -519,23 +538,27 @@ export function AnswerExplanation({
                       >
                         {isSaved ? (
                           <>
-                            <Check className="w-3.5 h-3.5" />
+                            <Check className="w-3.5 h-3.5 shrink-0" />
                             <span>Đã lưu</span>
                           </>
                         ) : (
                           <>
-                            <Plus className="w-3.5 h-3.5" />
-                            <span>+ Flashcard</span>
+                            <Plus className="w-3.5 h-3.5 shrink-0" />
+                            <span>Flashcard</span>
                           </>
                         )}
                       </button>
                     </div>
 
-                    <div className="pt-2 border-t border-slate-100/80 flex items-center justify-between text-xs gap-2">
-                      <span className="text-slate-600 font-medium">{v.meaningVi}</span>
-                      <span className="text-[10px] text-slate-400 truncate max-w-[130px]" title={resolvedExamTitle}>
-                        📁 {resolvedExamTitle}
+                    <div className="pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs gap-2">
+                      <span className="text-slate-700 font-medium truncate flex-1" title={v.meaningVi}>
+                        {v.meaningVi}
                       </span>
+                      {resolvedExamTitle && (
+                        <span className="text-[10px] text-slate-400 shrink-0 truncate max-w-[130px]" title={resolvedExamTitle}>
+                          📁 {resolvedExamTitle}
+                        </span>
+                      )}
                     </div>
                   </div>
                 );

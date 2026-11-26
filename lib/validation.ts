@@ -18,13 +18,10 @@ export const grammarPointSchema = z.object({
 
 // Schema for Question Explanation
 export const questionExplanationSchema = z.object({
-  summaryVi: z.string().min(1, "Tóm tắt giải thích không được để trống"),
-  correctReasonVi: z.string().min(1, "Lý do đáp án đúng không được để trống"),
-  optionReasonsVi: z.record(z.string(), z.string()).refine(
-    (reasons) => Object.keys(reasons).length > 0,
-    { message: "Phải có giải thích cho các phương án" }
-  ),
-  translationVi: z.string().min(1, "Bản dịch câu hỏi không được để trống"),
+  summaryVi: z.string().default(""),
+  correctReasonVi: z.string().default(""),
+  optionReasonsVi: z.record(z.string(), z.string()).default({}),
+  translationVi: z.string().default(""),
   vocabulary: z.array(vocabularyItemSchema).optional(),
   grammarPoints: z.array(grammarPointSchema).optional(),
   readingEvidenceJa: z.string().optional(),
@@ -49,13 +46,18 @@ export const examQuestionSchema = z.object({
   number: z.number().int().positive("Số thứ tự câu hỏi phải là số nguyên dương"),
   section: z.enum(["vocabulary", "grammar", "reading"]),
   subtype: z.string().min(1, "Phân loại câu hỏi (subtype) không được để trống"),
-  passageId: z.string().optional(),
-  questionText: z.string().min(1, "Nội dung câu hỏi không được để trống"),
+  mondai: z.union([z.string(), z.number()]).optional(),
+  weight: z.number().optional(),
+  passageId: z.string().nullable().optional(),
+  questionText: z.string().default(""),
+  questionImagePath: z.string().optional(),
   options: z.array(examOptionSchema).min(2, "Mỗi câu hỏi phải có ít nhất 2 lựa chọn"),
   correctOptionId: z.string().nullable().optional(), // Allowed null in draft when source lacks answer key
   difficulty: z.number().int().min(1).max(5).default(3),
   tags: z.array(z.string()).optional(),
   sourcePage: z.number().int().positive().optional(), // Provenance tracking
+  contentAvailableAsText: z.boolean().optional(),
+  ocrUnverified: z.boolean().optional(),
   explanation: questionExplanationSchema,
   review: questionReviewSchema,
 });
@@ -66,6 +68,8 @@ export const examPassageSchema = z.object({
   title: z.string().optional(),
   text: z.string().default(""),
   imagePath: z.string().optional(),
+  additionalImagePaths: z.array(z.string()).optional(),
+  reviewStatus: z.enum(["verified", "needs_review"]).optional(),
 });
 
 // Schema for Exam Detail (Schema 1.0.0)
@@ -158,8 +162,35 @@ export const examDetailSchema = z
         }
       }
 
-      // If exam is published, strict verification is required
+      // Question must have either questionText or questionImagePath
+      if ((!q.questionText || q.questionText.trim().length === 0) && (!q.questionImagePath || q.questionImagePath.trim().length === 0)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ["questions", idx, "questionText"],
+          message: `Câu hỏi ${q.id} phải có ít nhất questionText hoặc questionImagePath`,
+        });
+      }
+
+      // If exam is published, strict verification is required (Requirement 10)
       if (data.status === "published") {
+        if (!q.questionText || q.questionText.trim().length === 0) {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            path: ["questions", idx, "questionText"],
+            message: `Đề xuất bản (published) nhưng câu ${q.id} chưa có nội dung văn bản tiếng Nhật`,
+          });
+        }
+        const hasPlaceholderOptions =
+          !q.options ||
+          q.options.length < 4 ||
+          q.options.every((o) => o.text.trim() === o.id.trim());
+        if (hasPlaceholderOptions) {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            path: ["questions", idx, "options"],
+            message: `Đề xuất bản (published) nhưng câu ${q.id} chưa đủ 4 lựa chọn gốc tiếng Nhật`,
+          });
+        }
         if (!q.correctOptionId) {
           ctx.addIssue({
             code: z.ZodIssueCode.custom,
@@ -174,10 +205,23 @@ export const examDetailSchema = z
             message: `Đề xuất bản (published) nhưng câu ${q.id} chưa được xác nhận verified`,
           });
         }
+        const isPlaceholderExplanation =
+          !q.explanation ||
+          !q.explanation.summaryVi?.trim() ||
+          !q.explanation.correctReasonVi?.trim() ||
+          q.explanation.summaryVi.includes("Chưa có đáp án gốc") ||
+          q.explanation.correctReasonVi.includes("Chưa được kiểm duyệt");
+        if (isPlaceholderExplanation) {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            path: ["questions", idx, "explanation"],
+            message: `Đề xuất bản (published) nhưng câu ${q.id} thiếu lời giải chi tiết đã kiểm duyệt`,
+          });
+        }
       }
     });
 
-    // Check passage IDs are unique
+    // Check passage IDs are unique and published passages have verified text
     const pIds = new Set<string>();
     data.passages.forEach((p, idx) => {
       if (pIds.has(p.id)) {
@@ -188,6 +232,23 @@ export const examDetailSchema = z
         });
       }
       pIds.add(p.id);
+
+      if (data.status === "published") {
+        if (!p.text || p.text.trim().length === 0) {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            path: ["passages", idx, "text"],
+            message: `Đề xuất bản (published) nhưng bài đọc ${p.id} chưa có văn bản tiếng Nhật`,
+          });
+        }
+        if (p.reviewStatus === "needs_review") {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            path: ["passages", idx, "reviewStatus"],
+            message: `Đề xuất bản (published) nhưng bài đọc ${p.id} chưa được kiểm chứng (needs_review)`,
+          });
+        }
+      }
     });
   });
 
