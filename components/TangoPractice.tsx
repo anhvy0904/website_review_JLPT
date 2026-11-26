@@ -231,8 +231,56 @@ export default function TangoPractice() {
         <label className="space-y-2 text-sm font-semibold">Chapter<select value={chapter.chapterId} disabled={!ready} onChange={(event) => { endSession(); const next = chapters.find((item) => item.chapterId === Number(event.target.value))!; setChapterId(next.chapterId); setUnitId(next.units[0].unitId); }} className="block w-full rounded-xl border border-slate-300 p-3 text-base">{chapters.map((item) => <option key={item.chapterId} value={item.chapterId}>{item.chapterTitle}</option>)}</select></label>
         <label className="space-y-2 text-sm font-semibold">Unit<select value={unit.unitId} disabled={!ready} onChange={(event) => { endSession(); setUnitId(Number(event.target.value)); }} className="block w-full rounded-xl border border-slate-300 p-3 text-base">{chapter.units.map((item) => <option key={item.unitId} value={item.unitId}>{item.unitTitle}</option>)}</select></label>
       </div>
-      <div className="flex flex-wrap gap-2" aria-label="Chế độ học">{(["word", "example"] as const).map((item) => <button key={item} className={mode === item ? selectedButton : button} aria-pressed={mode === item} onClick={() => { endSession(); setMode(item); }}>{item === "word" ? "Nghe – gõ từ vựng" : "Nghe – gõ câu ví dụ"}</button>)}</div>
-      <div className="flex flex-wrap items-center gap-3"><button className={wrongOnly ? button : selectedButton} aria-pressed={!wrongOnly} onClick={() => { endSession(); setWrongOnly(false); }}>Tất cả trong Unit</button><button className={wrongOnly ? selectedButton : button} aria-pressed={wrongOnly} onClick={() => { endSession(); setWrongOnly(true); }}><RotateCcw size={16} />Ôn mục sai ({wrongCount})</button><span className="text-sm text-slate-600">Đã thuộc: {masteredCount}/{unit.words.length}</span></div>
+      {/* 4 Nút chức năng nằm cùng trên 1 hàng thẳng tắp */}
+      <div className="flex flex-wrap items-center justify-between gap-3 pt-1">
+        <div className="flex flex-wrap items-center gap-2.5">
+          {/* Nhóm chế độ học: Từ vựng / Câu ví dụ */}
+          {(["word", "example"] as const).map((item) => (
+            <button
+              key={item}
+              className={mode === item ? selectedButton : button}
+              aria-pressed={mode === item}
+              onClick={() => {
+                endSession();
+                setMode(item);
+              }}
+            >
+              {item === "word" ? "Nghe – gõ từ vựng" : "Nghe – gõ câu ví dụ"}
+            </button>
+          ))}
+
+          {/* Vạch ngăn cách tinh tế giữa 2 nhóm nút */}
+          <div className="hidden md:block h-6 w-px bg-slate-200 mx-1" aria-hidden="true" />
+
+          {/* Nhóm phạm vi ôn tập: Tất cả trong Unit / Ôn mục sai */}
+          <button
+            className={wrongOnly ? button : selectedButton}
+            aria-pressed={!wrongOnly}
+            onClick={() => {
+              endSession();
+              setWrongOnly(false);
+            }}
+          >
+            Tất cả trong Unit
+          </button>
+          <button
+            className={wrongOnly ? selectedButton : button}
+            aria-pressed={wrongOnly}
+            onClick={() => {
+              endSession();
+              setWrongOnly(true);
+            }}
+          >
+            <RotateCcw size={16} />
+            <span>Ôn mục sai ({wrongCount})</span>
+          </button>
+        </div>
+
+        {/* Chỉ số Đã thuộc trong Unit */}
+        <span className="text-sm font-medium text-slate-600 bg-slate-50 px-3.5 py-2 rounded-xl border border-slate-200/80 shrink-0">
+          Đã thuộc: <strong className="text-[#1B5E20]">{masteredCount}</strong>/{unit.words.length} từ
+        </span>
+      </div>
       <div className="flex flex-wrap items-center gap-4 border-t border-slate-100 pt-4">
         <label className="flex items-center gap-2 text-sm font-semibold">
           Tốc độ
