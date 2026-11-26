@@ -1,4 +1,4 @@
-# Luyện đề tiếng Nhật cùng VuyAnh — JLPT N3
+# Học cùng VuyAnh — JLPT N3
 
 Website học và luyện thi tiếng Nhật dành cho người Việt, xây dựng bằng Next.js, React và TypeScript. Nội dung gồm từ vựng, Kanji, ngữ pháp, đọc hiểu, học chuyên đề và luyện dịch Việt ↔ Nhật theo từng câu.
 

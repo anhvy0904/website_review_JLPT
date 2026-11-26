@@ -190,7 +190,7 @@ export default function TangoPractice() {
   return <div className="mx-auto max-w-6xl space-y-6 px-4 py-8 sm:px-6">
     <header className="space-y-3">
       <p className="flex items-center gap-2 text-sm font-bold text-emerald-800">
-        <Headphones size={18} /> HỌC TIẾNG NHẬT CÙNG VUYANH
+        <Headphones size={18} /> HỌC CÙNG VUYANH
       </p>
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <h1 className="text-3xl font-extrabold text-slate-900 sm:text-4xl">

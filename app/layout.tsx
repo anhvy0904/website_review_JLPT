@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Luyện đề tiếng Nhật cùng VuyAnh 🌸 — Nền Tảng Luyện Đề JLPT N3",
+  title: "Học cùng VuyAnh 🌸 — Nền Tảng Luyện Đề JLPT N3",
   description:
     "Nền tảng luyện thi JLPT N3 trực tuyến chuyên sâu: Từ vựng, Chữ Hán, Ngữ pháp và Đọc hiểu với lời giải chi tiết 100% tiếng Việt, phân tích cặn kẽ từng lựa chọn và bài đọc song ngữ.",
   icons: {

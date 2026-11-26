@@ -73,7 +73,7 @@ export default function HomePage() {
 
               <div className="space-y-3">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1B5E20] tracking-tight leading-[1.2]">
-                  Luyện đề tiếng Nhật cùng VuyAnh <span className="text-3xl sm:text-4xl lg:text-5xl">🌸</span>
+                  Học cùng VuyAnh <span className="text-3xl sm:text-4xl lg:text-5xl">🌸</span>
                 </h1>
                 <p className="text-lg sm:text-xl font-bold text-[#2E7D32]">
                   Ôn tập thông minh, hiểu sâu từng câu
