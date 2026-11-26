@@ -76,10 +76,10 @@ export function Navbar() {
 
           <Link
             href="/exams"
-            className="ml-3 inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#1B5E20] text-white text-sm font-semibold shadow-sm hover:bg-[#2E7D32] border border-[#66BB6A]/40 active:scale-95 transition-all"
+            className="ml-3 inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-[#1B5E20] text-white text-sm font-bold shadow-sm hover:bg-[#2E7D32] border border-[#66BB6A]/40 active:scale-95 transition-all whitespace-nowrap shrink-0"
           >
-            <Sparkles className="w-4 h-4 text-[#A5D6A7]" />
-            Luyện đề ngay
+            <Sparkles className="w-4 h-4 text-[#A5D6A7] shrink-0" />
+            <span>Luyện đề ngay</span>
           </Link>
         </nav>
 
@@ -122,10 +122,10 @@ export function Navbar() {
             <Link
               href="/exams"
               onClick={() => setMobileMenuOpen(false)}
-              className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-[#1B5E20] text-white text-sm font-semibold shadow-sm"
+              className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-[#1B5E20] text-white text-sm font-bold shadow-sm hover:bg-[#2E7D32] whitespace-nowrap"
             >
-              <Sparkles className="w-4 h-4 text-[#A5D6A7]" />
-              Luyện đề ngay
+              <Sparkles className="w-4 h-4 text-[#A5D6A7] shrink-0" />
+              <span>Luyện đề ngay</span>
             </Link>
           </div>
         </div>
