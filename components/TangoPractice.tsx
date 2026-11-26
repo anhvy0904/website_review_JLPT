@@ -1,12 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Headphones, RotateCcw, Volume2, Eye, EyeOff, Copy, Check, ExternalLink, Download, Sparkles, Trash2, RefreshCw, FileText, Plus, X } from "lucide-react";
+import { Headphones, RotateCcw, Volume2, VolumeX, Eye, EyeOff, Copy, Check, ExternalLink, Download, Sparkles, Trash2, RefreshCw, FileText, Plus, X } from "lucide-react";
 import sample from "@/public/data/tango_n3_sample.json";
 import defaultChapters from "@/public/data/tango_n3.json";
 import { checkTangoAnswer, emptyProgress, progressKey, recordTangoAnswer, selectTangoQueue, tangoDataSchema, tangoProgressSchema,
   TANGO_DATA_KEY, TANGO_PROGRESS_KEY, type TangoChapter, type TangoMode, type TangoProgress, type TangoWord } from "@/lib/tango";
 import { useTangoAudio } from "@/components/useTangoAudio";
+import { playCorrectSound, playWrongSound } from "@/lib/sound-effects";
 
 const button = "inline-flex items-center justify-center gap-2 rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-700 disabled:cursor-not-allowed disabled:opacity-50";
 const selectedButton = `${button} !border-[#B4E4D6] !bg-[#B4E4D6]`;
@@ -32,6 +33,7 @@ export default function TangoPractice() {
   const [json, setJson] = useState("");
   const [importMessage, setImportMessage] = useState("");
   const [showMeaning, setShowMeaning] = useState(false);
+  const [soundFx, setSoundFx] = useState(true);
   const [showSampleViewer, setShowSampleViewer] = useState(false);
   const [copiedSample, setCopiedSample] = useState(false);
   const [showJsonModal, setShowJsonModal] = useState(false);
@@ -49,6 +51,10 @@ export default function TangoPractice() {
   const masteredCount = unit.words.filter((item) => progress[progressKey(item, mode)]?.mastered).length;
 
   useEffect(() => {
+    try {
+      const savedFx = localStorage.getItem("vuyanh-tango-sound-fx");
+      if (savedFx !== null) setSoundFx(JSON.parse(savedFx));
+    } catch {}
     try {
       const saved = localStorage.getItem(TANGO_PROGRESS_KEY);
       if (saved) setProgress(tangoProgressSchema.parse(JSON.parse(saved)));
@@ -103,6 +109,13 @@ export default function TangoPractice() {
     checked.current = true;
     const correct = checkTangoAnswer(word, mode, answer);
     setResult(correct); setInputMessage(""); stop();
+    if (soundFx) {
+      if (correct) {
+        playCorrectSound();
+      } else {
+        playWrongSound();
+      }
+    }
     if (correct) setSessionCorrect((value) => value + 1);
     setProgress((current) => ({ ...current, [progressKey(word, mode)]: recordTangoAnswer(current[progressKey(word, mode)], correct) }));
     inputRef.current?.focus();
@@ -220,7 +233,33 @@ export default function TangoPractice() {
       </div>
       <div className="flex flex-wrap gap-2" aria-label="Chế độ học">{(["word", "example"] as const).map((item) => <button key={item} className={mode === item ? selectedButton : button} aria-pressed={mode === item} onClick={() => { endSession(); setMode(item); }}>{item === "word" ? "Nghe – gõ từ vựng" : "Nghe – gõ câu ví dụ"}</button>)}</div>
       <div className="flex flex-wrap items-center gap-3"><button className={wrongOnly ? button : selectedButton} aria-pressed={!wrongOnly} onClick={() => { endSession(); setWrongOnly(false); }}>Tất cả trong Unit</button><button className={wrongOnly ? selectedButton : button} aria-pressed={wrongOnly} onClick={() => { endSession(); setWrongOnly(true); }}><RotateCcw size={16} />Ôn mục sai ({wrongCount})</button><span className="text-sm text-slate-600">Đã thuộc: {masteredCount}/{unit.words.length}</span></div>
-      <div className="flex flex-wrap items-center gap-3 border-t border-slate-100 pt-4"><label className="flex items-center gap-2 text-sm font-semibold">Tốc độ<select value={speed} onChange={(event) => { const next = Number(event.target.value) as 0.75 | 1; setSpeed(next); if (word) play(word, mode, next); }} className="rounded-lg border border-slate-300 p-2"><option value={0.75}>0.75x</option><option value={1}>1.0x</option></select></label><label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={showMeaning} onChange={(event) => setShowMeaning(event.target.checked)} />Gợi ý nghĩa tiếng Việt</label></div>
+      <div className="flex flex-wrap items-center gap-4 border-t border-slate-100 pt-4">
+        <label className="flex items-center gap-2 text-sm font-semibold">
+          Tốc độ
+          <select value={speed} onChange={(event) => { const next = Number(event.target.value) as 0.75 | 1; setSpeed(next); if (word) play(word, mode, next); }} className="rounded-lg border border-slate-300 p-2">
+            <option value={0.75}>0.75x</option>
+            <option value={1}>1.0x</option>
+          </select>
+        </label>
+        <label className="flex items-center gap-2 text-sm select-none cursor-pointer">
+          <input type="checkbox" checked={showMeaning} onChange={(event) => setShowMeaning(event.target.checked)} />
+          <span>Gợi ý nghĩa tiếng Việt</span>
+        </label>
+        <label className="flex items-center gap-2 text-sm select-none cursor-pointer">
+          <input
+            type="checkbox"
+            checked={soundFx}
+            onChange={(event) => {
+              setSoundFx(event.target.checked);
+              try { localStorage.setItem("vuyanh-tango-sound-fx", JSON.stringify(event.target.checked)); } catch {}
+            }}
+          />
+          <span className="flex items-center gap-1.5 font-medium text-slate-700">
+            {soundFx ? <Volume2 size={16} className="text-[#1B5E20]" /> : <VolumeX size={16} className="text-slate-400" />}
+            <span>Âm thanh Ting ting khi đối chiếu</span>
+          </span>
+        </label>
+      </div>
     </section>
 
     <section aria-label="Bài tập nghe và gõ" className="rounded-3xl border border-[#A5DEE5] bg-white p-5 shadow-sm sm:p-8">
