@@ -83,6 +83,7 @@ Các đường dẫn bên dưới là đường dẫn trong ứng dụng, ví d�
 | `/learn/keigo` | Học kính ngữ và khiêm nhường ngữ |
 | `/learn/translation` | Luyện dịch Việt ↔ Nhật |
 | `/learn/tango` | Nghe–gõ từ vựng, câu ví dụ và ôn mục sai Tango N3 |
+| `/learn/onomatopoeia` | Tượng hình – Tượng thanh: tra cứu, hội thoại, furigana và tiến độ ghi nhớ |
 | `/flashcards` | Ôn từ vựng |
 | `/review` | Ôn câu sai và câu đã ghim |
 | `/dashboard` | Thống kê học tập |
@@ -270,6 +271,18 @@ Dùng `lib/types.ts`, `lib/validation.ts` và `scripts/sync-exams.mjs` làm ngu�
 Giao diện quản trị hỗ trợ nhập và xuất bản đề qua API. Endpoint xuất bản hiện ghi file vào thư mục dự án và gọi script đồng bộ; thao tác này cần môi trường Node có quyền ghi vào filesystem. Nó không tự commit hoặc push thay đổi lên GitHub.
 
 ## Dữ liệu và tiến độ học
+
+### Tượng hình – Tượng thanh
+
+Trang đầu hiển thị lộ trình bài học nối tiếp: ban đầu chỉ mở Bài 1. Mỗi bài chứa riêng **Danh sách, Trắc nghiệm, Flashcard, Chép chính tả, Bài tập**. Làm hết một lượt trắc nghiệm (không yêu cầu điểm tối thiểu) hoặc lật và tự đánh giá hết flashcard sẽ hoàn thành bài, mở bài tiếp theo. Các bài đã mở luôn có thể học lại. Tiến độ mở khóa lưu trong `jlptn3:v1:onomatopoeia-completed-lessons`; không thay đổi dấu đã thuộc từ vựng cũ. Đổi chế độ bắt đầu lượt luyện mới. Mỗi `sections` trong JSON tương ứng một bài, theo thứ tự trong mảng; nên giữ nguyên ID và thứ tự khi cập nhật. Flashcard dùng trực tiếp dữ liệu `entries`, không cần thêm trường vào JSON mẫu.
+
+Để trích xuất sách bằng ChatGPT, gửi kèm `public/data/learning/onomatopoeia/book-template.json` và dùng prompt trong `PROMPT_TRICH_XUAT_TUONG_THANH.txt`. Mẫu có nội dung minh họa riêng, không nằm trong kho bài đang học. Cấu trúc có `sections`, `entries`, `quizzes`, `dictations`, `exercises`, được kiểm tra bằng schema dùng chung trong `lib/onomatopoeia.ts`. Các mảng bài tập có thể rỗng để website sinh bài từ từ vựng và ví dụ hiện có; bài được cung cấp riêng sẽ được ưu tiên theo từng từ.
+
+Kiểm tra JSON trước khi gửi/nhập bằng `node scripts/validate-onomatopoeia.mjs duong-dan-file.json`. Lệnh này chỉ kiểm tra, không ghi đè kho dữ liệu. Khi nhận JSON mới, kiểm tra nội dung, ghép phần/từ theo ID (giữ ID cũ để bảo toàn tiến độ), rồi cập nhật `public/data/learning/onomatopoeia/index.json`. Audio, nếu có, đặt riêng trong `public/audio/onomatopoeia/`.
+
+Trang `/learn/onomatopoeia` dùng `public/data/learning/onomatopoeia/index.json`, nhập từ [Phá Đảo Tiếng Nhật](https://phadaotiengnhat.com/tuvung/tuongthanhtuonghinh/). Bản khách công khai hiện cung cấp đầy đủ 24/185 mục; 161 mục bị khóa được bỏ qua, không tạo nghĩa hoặc hội thoại giả. Không sao chép hình ảnh hay audio của nguồn; nút nghe sử dụng giọng tiếng Nhật trên thiết bị.
+
+Cập nhật dữ liệu bằng `node scripts/import-onomatopoeia.mjs`, hoặc truyền đường dẫn bản JSON khách đã tải làm đối số. Script kiểm tra dữ liệu trước khi ghi và lưu URL nguồn, thời điểm nhập, số mục bị khóa. Tiến độ đánh dấu đã thuộc lưu riêng tại `jlptn3:v1:onomatopoeia-learned` trong localStorage. Tìm kiếm hỗ trợ tiếng Việt không dấu và đối chiếu Hiragana/Katakana.
 
 | Loại dữ liệu | Nơi lưu |
 | --- | --- |

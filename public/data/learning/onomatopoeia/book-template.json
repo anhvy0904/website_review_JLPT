@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Tượng hình – Tượng thanh: dữ liệu minh họa cấu trúc",
+  "sourceName": "Ví dụ tự biên soạn; thay bằng tên sách thực tế",
+  "sourceUrl": "",
+  "sections": [
+    { "id": "chapter-01", "title": "Phần 1 · Cảm xúc" }
+  ],
+  "entries": [
+    {
+      "id": "book-001",
+      "sectionId": "chapter-01",
+      "word": "わくわく",
+      "reading": "わくわく",
+      "meaning": "Háo hức, mong chờ điều thú vị",
+      "explanation": "Diễn tả cảm giác háo hức khi mong chờ một điều vui. Thường dùng với する.",
+      "sourcePage": null,
+      "conversations": [
+        {
+          "context": "Ví dụ minh họa tự biên soạn",
+          "dialogues": [
+            { "speaker": "", "ja": "[明日](あした)の[旅行](りょこう)が[楽](たの)しみで、_わくわく_しています。", "vi": "Tôi háo hức mong chờ chuyến du lịch ngày mai." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book-002",
+      "sectionId": "chapter-01",
+      "word": "どきどき",
+      "reading": "どきどき",
+      "meaning": "Tim đập thình thịch vì hồi hộp",
+      "explanation": "Diễn tả nhịp tim đập mạnh do hồi hộp, lo lắng hoặc xúc động. Thường dùng với する.",
+      "sourcePage": null,
+      "conversations": [
+        {
+          "context": "Ví dụ minh họa tự biên soạn",
+          "dialogues": [
+            { "speaker": "", "ja": "[面接](めんせつ)の[前](まえ)は、いつも_どきどき_します。", "vi": "Trước buổi phỏng vấn, tôi lúc nào cũng hồi hộp." }
+          ]
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-book-001",
+      "entryId": "book-001",
+      "question": "「わくわく」 diễn tả cảm giác nào?",
+      "options": ["Háo hức mong chờ", "Mệt mỏi rã rời", "Tức giận", "Buồn ngủ"],
+      "answerIndex": 0,
+      "explanation": "わくわく diễn tả sự háo hức trước một điều thú vị."
+    }
+  ],
+  "dictations": [
+    {
+      "id": "dictation-book-001-word",
+      "entryId": "book-001",
+      "text": "わくわく",
+      "reading": "わくわく",
+      "acceptedAnswers": [],
+      "audio": ""
+    },
+    {
+      "id": "dictation-book-002-sentence",
+      "entryId": "book-002",
+      "text": "面接の前は、いつもどきどきします。",
+      "reading": "めんせつのまえは、いつもどきどきします。",
+      "acceptedAnswers": [],
+      "audio": ""
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exercise-book-001",
+      "entryId": "book-001",
+      "prompt": "明日の旅行が楽しみで、___しています。",
+      "answer": "わくわく",
+      "acceptedAnswers": [],
+      "explanation": "Nhân vật mong chờ chuyến du lịch nên dùng わくわく để diễn tả sự háo hức."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+HƯỚNG DẪN SỬ DỤNG
+
+1. Đính kèm sách/PDF/ảnh và file book-template.json cho ChatGPT.
+2. Sao chép toàn bộ prompt bên dưới. Có thể yêu cầu xử lý từng chương hoặc 10–20 từ để dễ kiểm tra.
+3. Tải JSON kết quả về và gửi lại cho Codex để kiểm tra, ghép vào website. Không ghi đè dữ liệu đang dùng bằng file mẫu.
+4. Nếu sách có audio, gửi các tệp âm thanh riêng. JSON không chứa dữ liệu âm thanh.
+
+PROMPT ĐƯA CHO CHATGPT
+
+Hãy trích xuất nội dung tượng hình, tượng thanh trong sách tôi đính kèm thành JSON theo đúng cấu trúc của file book-template.json. Các mục trong mẫu là ví dụ tự biên soạn, không phải nội dung của sách; hãy thay hoàn toàn bằng nội dung sách.
+
+Yêu cầu chung:
+- Trả một file JSON hợp lệ, UTF-8; không có comment, dấu phẩy cuối, dấu ba chấm hay Markdown bên trong file. schemaVersion luôn là "1.0".
+- Giữ đầy đủ các trường cấp cao: schemaVersion, title, sourceName, sourceUrl, sections, entries, quizzes, dictations, exercises.
+- sourceName là tên sách và tác giả nếu xác định được. sourceUrl là URL http/https thực tế hoặc ""; không bịa URL.
+- Chia sections theo chương/phần thật của sách; nếu sách không có chương, chia nhóm 8–12 từ và ghi rõ đây là cách chia để học.
+- id dùng chữ Latin, chữ số, dấu gạch ngang hoặc gạch dưới. ID phải duy nhất trong từng danh sách. Dùng tiền tố tên sách để tránh trùng khi ghép nhiều sách. Giữ ID nhất quán giữa các lần xuất.
+- entry.sectionId phải trỏ đến id trong sections. entryId của câu hỏi/bài tập phải trỏ đến id trong entries.
+- Không tự đoán chữ bị mờ, phần thiếu, đáp án không có hoặc cách đọc không chắc chắn. Bỏ mục chưa đủ thông tin và liệt kê riêng ngoài JSON để tôi kiểm tra. Không gán cấp JLPT khi sách không xác nhận.
+- Không gộp hai mục cùng từ nhưng khác nghĩa/ngữ cảnh thành một mục nếu sách tách riêng.
+
+entries — dữ liệu cho Danh sách:
+- word: từ tiếng Nhật đúng như sách; reading: cách đọc đầy đủ bằng Hiragana.
+- meaning: nghĩa tiếng Việt ngắn gọn, giữ các nghĩa khác nhau nếu có.
+- explanation: ý nghĩa, cách dùng, sắc thái và kết hợp từ. Dùng \n để xuống dòng. Có thể dịch nội dung sách sang tiếng Việt nhưng không thêm nhận định không có căn cứ.
+- sourcePage: số trang in trong sách (số nguyên dương), hoặc null nếu không xác định; không dùng 0.
+- conversations: các ví dụ hoặc hội thoại. Nếu không có thì dùng []. Mỗi phần tử có context và dialogues. Mỗi câu có speaker ("" nếu không có người nói), ja, vi.
+- Trong ja dùng [漢字](かんじ) cho furigana; bao từ mục tiêu bằng _từ_ để tạo bài điền từ. Ví dụ: [胸](むね)が_どきどき_します。 Không dùng HTML.
+
+quizzes — dữ liệu cho Trắc nghiệm:
+- Mỗi câu có id, entryId, question, options, answerIndex, explanation.
+- options gồm 2–4 lựa chọn khác nhau, chỉ có một đáp án đúng. answerIndex tính từ 0: lựa chọn đầu là 0, lựa chọn thứ hai là 1.
+- Ưu tiên bài trong sách có đáp án rõ ràng. Nếu sách không có thì để []; website sẽ tự tạo câu chọn nghĩa từ kho từ vựng.
+- Chỉ khi tôi yêu cầu riêng mới tự biên soạn câu hỏi thêm; khi đó ghi "Bài tự biên soạn từ nội dung sách" trong explanation.
+
+dictations — dữ liệu cho Nghe chép chính tả:
+- Mỗi mục có id, entryId, text, reading, acceptedAnswers, audio.
+- text là từ hoặc câu hoàn chỉnh bằng tiếng Nhật; reading là cách đọc toàn bộ bằng Hiragana. Hai trường này là văn bản thuần, không có cú pháp furigana hay dấu _ đánh dấu.
+- acceptedAnswers là danh sách đáp án tương đương thực sự được chấp nhận, mặc định []. Không thêm câu khác nghĩa. Website tự chấp nhận Hiragana/Katakana tương đương, khoảng trắng và dấu câu.
+- audio để "" nếu không có tệp. Website dùng giọng đọc thiết bị khi trống. Chỉ điền /audio/onomatopoeia/ten-tep.mp3 khi tôi cung cấp tệp tương ứng; không bịa đường dẫn, không nhúng base64.
+- Có thể tạo mục nghe từ và nghe câu lấy nguyên từ ví dụ rõ ràng trong sách. Nếu không chắc cách đọc thì bỏ mục đó.
+
+exercises — dữ liệu cho Bài tập:
+- Mỗi bài có id, entryId, prompt, answer, acceptedAnswers, explanation.
+- prompt dùng văn bản thuần, có đúng một chỗ trống ___; không để lộ đáp án trong prompt.
+- answer chỉ là phần cần điền, không phải cả câu; acceptedAnswers mặc định [].
+- Dùng bài có đáp án trong sách. Nếu sách không có bài tập thì để []; website có thể tạo câu điền từ từ các ví dụ có _từ mục tiêu_.
+- explanation giải thích vì sao điền từ này; nếu là bài tự biên soạn theo yêu cầu riêng của tôi, phải ghi rõ.
+
+Trước khi xuất:
+1. Kiểm tra mọi ID tham chiếu, số trang, furigana, nghĩa và đáp án.
+2. Kiểm tra không có ID trùng, lựa chọn trùng, hoặc answerIndex vượt ngoài options.
+3. Báo ngoài JSON: phạm vi chương/trang đã xử lý, số từ và số bài mỗi loại, danh sách chỗ chưa đọc rõ.
+4. Với sách dài, mỗi file phải tự chứa sections và entries mà các bài trong file tham chiếu; không để tham chiếu sang file chưa gửi.

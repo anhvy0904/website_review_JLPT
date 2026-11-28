@@ -1,0 +1,1018 @@
+{
+  "sourceName": "Phá Đảo Tiếng Nhật",
+  "sourceUrl": "https://phadaotiengnhat.com/tuvung/tuongthanhtuonghinh/",
+  "dataUrl": "https://phadaotiengnhat.com/data/khach/sachkaiwa/sachkaiwatuongthanhtuonghinh.json",
+  "importedAt": "2026-11-28T03:39:01.778Z",
+  "sourceTotal": 185,
+  "lockedCount": 161,
+  "entries": [
+    {
+      "id": "001",
+      "word": "ペラペラ",
+      "meaning": "Trôi chảy / Bép xép, nói huyên thuyên",
+      "explanation": "Ý nghĩa:\n1. Dáng vẻ nói ngoại ngữ trôi chảy, không vấp váp, không bị ngắt quãng giữa chừng, nói liền một mạch như nước chảy.\n2. Dáng vẻ nói năng vô trách nhiệm, không suy nghĩ kỹ.\n\nCách dùng:\n• Nghĩa 1 hay dùng khi đánh giá năng lực của ai đó (nói ngoại ngữ giỏi).\n• Nghĩa 2 hay dùng khi nhắc nhở hoặc chê trách ai đó ăn nói, hành động thiếu cẩn trọng.\n\nDạng hay dùng:\n• ペラペラ V「話す」「しゃべる」\n• ペラペラと V\n• 「〜語はペラペラだ」",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "すごいなあ、[彼女](かのじょ)。[英語](えいご)もドイツ[語](ご)も_ペラペラ_だね。",
+              "vi": "Cô ấy giỏi thật đấy. Cả tiếng Anh lẫn tiếng Đức đều nói trôi chảy."
+            },
+            {
+              "speaker": "B",
+              "ja": "フランス[語](ご)も_ペラペラ_だよ。",
+              "vi": "Tiếng Pháp cô ấy cũng nói trôi chảy luôn."
+            }
+          ]
+        },
+        {
+          "context": "Ví dụ 2",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "[私](わたし)のプライバシーを[人](ひと)に_ペラペラ_しゃべらないで。",
+              "vi": "Đừng có đem chuyện riêng tư của tôi đi bép xép với người khác."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-1",
+      "reading": "ぺらぺら",
+      "sourcePage": null
+    },
+    {
+      "id": "002",
+      "word": "ぶつぶつ",
+      "meaning": "Lầm bầm / Càu nhàu",
+      "explanation": "Ý nghĩa:\n1. Dáng vẻ nói bằng giọng nhỏ, khó nghe rõ, nói lí nhí trong miệng.\n2. Dáng vẻ nói sau lưng những lời than phiền, bất mãn.\n\nCách dùng:\n• Nghĩa 1 thường dùng cho những lời tự nói một mình.\n\nDạng hay dùng:\n• ぶつぶつ V「言う」\n• ぶつぶつと V",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "あの[人](ひと)、ずっと[独](ひと)り[言](ごと)を_ぶつぶつ_[言](い)ってるよ。",
+              "vi": "Người đó cứ lầm bầm nói một mình mãi ấy."
+            },
+            {
+              "speaker": "B",
+              "ja": "ちょっと[変](へん)な[人](ひと)かも。",
+              "vi": "Có khi ông ấy hơi kỳ quặc đấy."
+            }
+          ]
+        },
+        {
+          "context": "Ví dụ 2",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "そんなに_ぶつぶつ_[言](い)うなら、やめたら？",
+              "vi": "Nếu cứ càu nhàu mãi như vậy thì sao không thôi luôn đi?"
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-1",
+      "reading": "ぶつぶつ",
+      "sourcePage": null
+    },
+    {
+      "id": "003",
+      "word": "シクシク",
+      "meaning": "Khóc thút thít / Sụt sùi",
+      "explanation": "Ý nghĩa: Dáng vẻ khóc yếu ớt, buồn bã, không phát ra nhiều tiếng.\n\nCách dùng:\n• Đây là kiểu khóc yếu ớt, nhưng không tạo ấn tượng tiêu cực.\n\nDạng hay dùng:\n• シクシク V「泣く」\n\nLưu ý:\n• Cùng từ này còn được giải thích ở bài 120 (シクシク).",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "よう[子](こ)は[悲](かな)しかっただろうね。",
+              "vi": "Yoko chắc đã buồn lắm nhỉ."
+            },
+            {
+              "speaker": "B",
+              "ja": "うん…。あれからずっと、[部屋](へや)で_シクシク_[泣](な)いてたみたい。",
+              "vi": "Ừ… Từ hôm đó đến giờ hình như bạn ấy cứ ngồi khóc thút thít trong phòng."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "あの[子](こ)、[迷子](まいご)じゃない？",
+              "vi": "Cô bé kia có phải bị lạc không nhỉ?"
+            },
+            {
+              "speaker": "B",
+              "ja": "なんか、_シクシク_[泣](な)いてるね。きっと、そうだよ。",
+              "vi": "Hình như bé đang khóc thút thít kìa. Chắc là vậy rồi."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-1",
+      "reading": "しくしく",
+      "sourcePage": null
+    },
+    {
+      "id": "004",
+      "word": "わんわん",
+      "meaning": "Khóc oà, khóc ầm ĩ / Tiếng chó sủa",
+      "explanation": "Ý nghĩa:\n1. Dáng vẻ khóc to thành tiếng, khóc oà lên.\n2. Tiếng chó sủa 「わんわん」 (gâu gâu).\n\nCách dùng:\n• Nghĩa 1 dùng khi ai đó khóc mà để mặc cảm xúc tuôn trào.\n\nDạng hay dùng:\n• わんわん V「泣く」",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "[昨日](きのう)、[映画](えいが)[見](み)ながら_わんわん_[泣](な)いちゃった。",
+              "vi": "Hôm qua mình vừa xem phim vừa khóc oà lên luôn."
+            },
+            {
+              "speaker": "B",
+              "ja": "そんなにいい[映画](えいが)なんだ。じゃあ、[僕](ぼく)も[見](み)ようかな。",
+              "vi": "Phim hay đến vậy cơ à. Vậy chắc mình cũng đi xem thử."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "[負](ま)けた[時](とき)は[本当](ほんとう)に[悔](くや)しくて、みんなで_わんわん_[泣](な)きました。",
+              "vi": "Lúc thua cuộc bọn mình tức đến mức cả nhóm cùng khóc oà lên."
+            },
+            {
+              "speaker": "B",
+              "ja": "まだ[高校生](こうこうせい)だからね。",
+              "vi": "Dù sao cũng mới là học sinh cấp ba mà (khóc cũng phải thôi)."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-1",
+      "reading": "わんわん",
+      "sourcePage": null
+    },
+    {
+      "id": "005",
+      "word": "ちらっと／ちらりと",
+      "meaning": "Liếc qua / Thoáng nhìn",
+      "explanation": "Ý nghĩa: Dáng vẻ liếc nhìn trong thoáng chốc, sao cho người xung quanh hay đối phương không nhận ra mình đang nhìn.\n\nCách dùng:\n• Dùng khi nhìn thấy hoặc lọt vào mắt thứ gì đó chỉ trong một khoảnh khắc.\n\nDạng hay dùng:\n• チラッと V「見る」「見せる」",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "[田中君](たなかくん)の[点数](てんすう)、_ちらっと_[見](み)ちゃったんだけど、100[点](てん)だったよ。",
+              "vi": "Mình lỡ liếc qua điểm của Tanaka, cậu ấy được 100 điểm đấy."
+            },
+            {
+              "speaker": "B",
+              "ja": "[彼](かれ)、できるからね。",
+              "vi": "Cậu ấy giỏi mà."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "この[子](こ)、[知](し)らない？[最近](さいきん)、すごくテレビに[出](で)てるよ。",
+              "vi": "Cậu có biết cô bé này không? Dạo này cô ấy lên tivi suốt đấy."
+            },
+            {
+              "speaker": "B",
+              "ja": "ああ、_ちらっと_[見](み)たことがある。[何](なん)かのコマーシャルで。",
+              "vi": "À, mình có thoáng thấy rồi. Trong một quảng cáo nào đó."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-1",
+      "reading": "ちらっと／ちらりと",
+      "sourcePage": null
+    },
+    {
+      "id": "006",
+      "word": "ちらちら",
+      "meaning": "Liếc đi liếc lại / Thấp thoáng",
+      "explanation": "Ý nghĩa: Dáng vẻ nhìn ngắt quãng, liếc đi liếc lại nhiều lần; hoặc dáng vẻ vật lúc thấy lúc khuất, thấp thoáng ẩn hiện.\n\nCách dùng:\n• Dùng khi nhìn ai đó mà không để họ nhận ra.\n\nDạng hay dùng:\n• ちらちら V「見る」「見える」",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "さっきから[何](なに)を_ちらちら_[見](み)てるの？",
+              "vi": "Nãy giờ cậu cứ liếc nhìn cái gì thế?"
+            },
+            {
+              "speaker": "B",
+              "ja": "ほら、あの[人](ひと)。[有名](ゆうめい)なタレントじゃないかな。",
+              "vi": "Kìa, người đằng kia kìa. Có phải nghệ sĩ nổi tiếng không nhỉ?"
+            }
+          ]
+        },
+        {
+          "context": "Ví dụ 2",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "[服](ふく)のえりから[下着](したぎ)が_ちらちら_[見](み)えてるよ。[着替](きが)えたら？",
+              "vi": "Cổ áo của cậu cứ hở ra, thấy thấp thoáng cả áo lót đấy. Thay đồ đi?"
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-1",
+      "reading": "ちらちら",
+      "sourcePage": null
+    },
+    {
+      "id": "007",
+      "word": "じっと",
+      "meaning": "Nhìn chăm chú, nhìn không chớp mắt",
+      "explanation": "Ý nghĩa: Dáng vẻ tập trung nhìn trong một lúc, không dời ánh mắt đi chỗ khác.\n\nCách dùng:\n• Dùng khi tập trung nhìn vào một điểm.\n• Khi muốn nhấn mạnh thì nói 「じーっと」.\n\nDạng hay dùng:\n• じっと V「見る」「見つめる」「する」\n\nLưu ý:\n• 「じっと」 còn có nghĩa là “không cử động”.",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "あの[犬](いぬ)、かわいい。さっきから[飼](か)い[主](ぬし)さんのほうを_じっと_[見](み)てる。",
+              "vi": "Chú chó kia dễ thương ghê. Nãy giờ nó cứ nhìn chăm chú về phía chủ của nó."
+            },
+            {
+              "speaker": "B",
+              "ja": "[飼](か)い[主](ぬし)さんのことが[大好](だいす)きなんだね。",
+              "vi": "Chắc nó quý chủ lắm nhỉ."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "さっきからあなたのことを_じっと_[見](み)ている[人](ひと)がいるよ。",
+              "vi": "Nãy giờ có người cứ nhìn chằm chằm vào cậu đấy."
+            },
+            {
+              "speaker": "B",
+              "ja": "え？いやだなあ。どんな[人](ひと)？",
+              "vi": "Hả? Ghê quá đi. Người thế nào vậy?"
+            }
+          ]
+        },
+        {
+          "context": "Mở rộng",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "あ、[動](うご)かないで！そのままそこに_じっと_していて。",
+              "vi": "Này, đừng nhúc nhích! Cứ giữ nguyên vậy, ở yên đó nhé."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-1",
+      "reading": "じっと",
+      "sourcePage": null
+    },
+    {
+      "id": "008",
+      "word": "じろじろ",
+      "meaning": "Nhìn soi mói / Nhìn chằm chằm từ đầu đến chân",
+      "explanation": "Ý nghĩa: Dáng vẻ nhìn từ trên xuống dưới mà không chút e dè, chẳng quan tâm đối phương nghĩ gì.\n\nCách dùng:\n• Dáng vẻ nhìn chỉ vì tò mò, cứ thế nhìn mà không giữ ý.\n\nDạng hay dùng:\n• じろじろ V「見る」",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "そんなに_じろじろ_[見](み)ないで。[恥](は)ずかしいから。",
+              "vi": "Đừng nhìn soi mói như vậy mà. Ngại lắm."
+            },
+            {
+              "speaker": "B",
+              "ja": "あ、ごめん。",
+              "vi": "À, xin lỗi."
+            }
+          ]
+        },
+        {
+          "context": "Ví dụ 2",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "ここは[田舎](いなか)だから、[外国](がいこく)の[人](ひと)は_じろじろ_[見](み)られてかわいそうだ。",
+              "vi": "Ở đây là vùng quê nên người nước ngoài bị nhìn chằm chằm từ đầu đến chân, thấy tội họ ghê."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-1",
+      "reading": "じろじろ",
+      "sourcePage": null
+    },
+    {
+      "id": "009",
+      "word": "ごくごく",
+      "meaning": "Uống ừng ực",
+      "explanation": "Ý nghĩa: Dáng vẻ uống mạnh mẽ, uống một hơi liền mạch.\n\nCách dùng:\n• Từ mô phỏng tiếng cổ họng khi uống mạnh mẽ, nuốt liền một hơi.\n\nDạng hay dùng:\n• ごくごく V「飲む」\n• ごくごくと V",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "おいしそうにビールを_ごくごく_[飲](の)んでる[人](ひと)を[見](み)ると、[飲](の)みたくなるなあ。",
+              "vi": "Cứ nhìn ai đó uống bia ừng ực ngon lành là lại thấy thèm uống ghê."
+            },
+            {
+              "speaker": "B",
+              "ja": "じゃ、[注文](ちゅうもん)する？",
+              "vi": "Vậy gọi một ly nhé?"
+            }
+          ]
+        },
+        {
+          "context": "Ví dụ 2",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "この[牛乳](ぎゅうにゅう)、おいしくて、_ごくごく_[飲](の)んじゃった。",
+              "vi": "Sữa này ngon quá, mình uống ừng ực một hơi hết luôn."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-2",
+      "reading": "ごくごく",
+      "sourcePage": null
+    },
+    {
+      "id": "010",
+      "word": "がぶがぶ",
+      "meaning": "Uống ừng ực, tu một hơi",
+      "explanation": "Ý nghĩa: Dáng vẻ uống mạnh mẽ, uống thỏa thích cho đã khát, chẳng bận tâm đến con mắt người khác hay hậu quả.\n\nCách dùng:\n• Hay dùng khi uống nước hay rượu (nhất là lúc trời nóng).\n\nDạng hay dùng:\n• がぶがぶ V「飲む」\n• がぶがぶと V\n• 名詞表現で「がぶ飲み」",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "なんか、お[腹](なか)が[痛](いた)くなってきた。",
+              "vi": "Không hiểu sao mình bắt đầu đau bụng rồi."
+            },
+            {
+              "speaker": "B",
+              "ja": "[冷](つめ)たいものを_がぶがぶ_[飲](の)んだからじゃない？",
+              "vi": "Có phải do cậu tu ừng ực đồ lạnh không?"
+            }
+          ]
+        },
+        {
+          "context": "Ví dụ 2",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "のど[渇](かわ)いてたから、[水](みず)を_がぶがぶ_[飲](の)んじゃった。",
+              "vi": "Khát khô cổ nên mình đã tu nước ừng ực luôn."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-2",
+      "reading": "がぶがぶ",
+      "sourcePage": null
+    },
+    {
+      "id": "011",
+      "word": "ゲラゲラ",
+      "meaning": "Cười ha hả, cười sằng sặc",
+      "explanation": "Ý nghĩa: Dáng vẻ cười to thành tiếng mà không để ý đến con mắt người xung quanh.\n\nCách dùng:\n• Dùng khi thấy hoặc nghe chuyện buồn cười mà bật cười.\n• Đây là kiểu cười không được tao nhã cho lắm.\n\nDạng hay dùng:\n• ゲラゲラ V「笑う」\n• ゲラゲラと V",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "ひどい！そんなに_ゲラゲラ_[笑](わら)うなんて。",
+              "vi": "Quá đáng thật! Sao cậu lại cười ha hả như thế được."
+            },
+            {
+              "speaker": "B",
+              "ja": "だって、おかしいんだもん。",
+              "vi": "Tại buồn cười mà."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "テレビ[見](み)て_ゲラゲラ_[笑](わら)うひまがあったら、[少](すこ)し[手伝](てつだ)ってよ。",
+              "vi": "Có thời gian ngồi xem tivi cười sằng sặc thì giúp mình một tay đi."
+            },
+            {
+              "speaker": "B",
+              "ja": "ごめん、ごめん。",
+              "vi": "Xin lỗi, xin lỗi mà."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-2",
+      "reading": "げらげら",
+      "sourcePage": null
+    },
+    {
+      "id": "012",
+      "word": "クスクス",
+      "meaning": "Cười khúc khích",
+      "explanation": "Ý nghĩa: Dáng vẻ cười vui vẻ mà không phát ra tiếng lớn, cũng không há miệng to.\n\nCách dùng:\n• Dùng khi cười nhẹ, hoặc cười kìm nén không cho bật thành tiếng lớn.\n\nDạng hay dùng:\n• クスクス V「笑う」\n• クスクスと V\n• クスッ→「〜と笑う」「〜とくる」\n\nLưu ý:\n• 「クスッ」 là tiếng cười kìm nén, chỉ thoáng qua trong chốc lát.",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "みんなで[何](なに)_クスクス_[笑](わら)ってるの？",
+              "vi": "Mọi người đang cười khúc khích chuyện gì thế?"
+            },
+            {
+              "speaker": "B",
+              "ja": "[田中](たなか)さんに[冗談](じょうだん)[言](い)ったのに、[全然](ぜんぜん)[気](き)がつかないから。",
+              "vi": "Tại bọn mình nói đùa với anh Tanaka mà anh ấy chẳng nhận ra gì cả."
+            }
+          ]
+        },
+        {
+          "context": "Ví dụ 2",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "[日本](にほん)の[女性](じょせい)は、_クスクス_[笑](わら)うときに[口](くち)を[隠](かく)す[人](ひと)が[多](おお)いね。",
+              "vi": "Phụ nữ Nhật khi cười khúc khích thì nhiều người hay che miệng nhỉ."
+            }
+          ]
+        },
+        {
+          "context": "Mở rộng",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "[私](わたし)が[冗談](じょうだん)を[言](い)ったら、[石井](いしい)[先生](せんせい)も_クスッ_と[笑](わら)ってくれた。",
+              "vi": "Tôi nói đùa một câu thì đến thầy Ishii cũng khẽ bật cười."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-2",
+      "reading": "くすくす",
+      "sourcePage": null
+    },
+    {
+      "id": "013",
+      "word": "にこにこ",
+      "meaning": "Cười tươi, mỉm cười rạng rỡ",
+      "explanation": "Ý nghĩa: Dáng vẻ mỉm cười tươi tắn, vui vẻ, trông rạng rỡ.\n\nCách dùng:\n• Dùng khi ai đó mỉm cười liên tục, kéo dài.\n\nDạng hay dùng:\n• にこにこする\n• にこにこ V「笑う」\n• にこにこと V",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "[彼女](かのじょ)、[感](かん)じがいいね。いつも_にこにこ_してて。",
+              "vi": "Cô ấy dễ mến ghê nhỉ. Lúc nào cũng tươi cười."
+            },
+            {
+              "speaker": "B",
+              "ja": "そうだね。",
+              "vi": "Ừ, đúng vậy."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "_にこにこ_[笑](わら)っていると、[心](こころ)も[元気](げんき)になる。",
+              "vi": "Cứ cười tươi thì lòng mình cũng thấy khỏe khoắn hơn."
+            },
+            {
+              "speaker": "B",
+              "ja": "なるべく_にこにこ_[笑](わら)うようにしています。そのほうが[元気](げんき)になるから。",
+              "vi": "Tôi cố gắng cười tươi hết mức có thể. Vì làm vậy sẽ thấy khỏe khoắn hơn."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-2",
+      "reading": "にこにこ",
+      "sourcePage": null
+    },
+    {
+      "id": "014",
+      "word": "にっこり",
+      "meaning": "Mỉm cười, nở nụ cười",
+      "explanation": "Ý nghĩa: Dáng vẻ thả lỏng nét mặt rồi nở một nụ cười.\n\nCách dùng:\n• Dùng khi nói về việc mỉm cười trong chốc lát.\n\nDạng hay dùng:\n• にっこりする\n• にっこり V「笑う」「ほほえむ」\n• にっこりと V\n\nLưu ý:\n• 「にこりともしない」 là câu nói cố định, diễn tả việc hoàn toàn không nở nụ cười với đối phương.",
+      "conversations": [
+        {
+          "context": "Ví dụ 1",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "〈[写真](しゃしん)〉じゃ、2[枚](まい)[撮](と)りますね。はい、みんな、_にっこり_して〜。はい、チーズ！",
+              "vi": "〈Chụp ảnh〉 Nào, tôi chụp hai tấm nhé. Rồi, mọi người mỉm cười nào~. Nào, cheese!"
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "となりの[部屋](へや)の[人](ひと)は、どんな[人](ひと)ですか。",
+              "vi": "Người ở phòng bên cạnh là người thế nào vậy?"
+            },
+            {
+              "speaker": "B",
+              "ja": "[感](かん)じのいい[人](ひと)ですよ。[会](あ)うと、いつも_にっこり_[笑](わら)って[挨拶](あいさつ)してくれます。",
+              "vi": "Là người dễ mến lắm. Hễ gặp là lúc nào anh ấy cũng mỉm cười chào hỏi tôi."
+            }
+          ]
+        },
+        {
+          "context": "Mở rộng",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "[彼女](かのじょ)は[何](なに)を[話](はな)しても、_にこり_ともしない。",
+              "vi": "Dù nói chuyện gì đi nữa, cô ấy cũng chẳng buồn nở một nụ cười."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-2",
+      "reading": "にっこり",
+      "sourcePage": null
+    },
+    {
+      "id": "015",
+      "word": "ニヤニヤ",
+      "meaning": "Cười tủm tỉm, cười thầm một mình",
+      "explanation": "Ý nghĩa: Dáng vẻ vừa nghĩ về điều gì đó vừa lặng lẽ cười một mình.\n\nCách dùng:\n• Dùng khi chợt cười vì tưởng tượng chuyện sắp xảy ra, hoặc nhớ lại điều gì đó buồn cười, v.v.\n\nDạng hay dùng:\n• ニヤニヤする\n• ニヤニヤ V「笑う」\n• ニヤニヤと V",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "[石川](いしかわ)さん、[朝](あさ)からずっと_ニヤニヤ_してるよ。",
+              "vi": "Chị Ishikawa từ sáng đến giờ cứ cười tủm tỉm một mình đấy."
+            },
+            {
+              "speaker": "B",
+              "ja": "[何](なに)かいいことでも、あったんじゃない？",
+              "vi": "Có khi chị ấy gặp chuyện gì vui chăng?"
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "さっきから[何](なに)、_ニヤニヤ_してるの？",
+              "vi": "Nãy giờ cậu cười tủm tỉm chuyện gì thế?"
+            },
+            {
+              "speaker": "B",
+              "ja": "[別](べつ)に。[何](なん)でもないよ。ちょっと[思](おも)い[出](だ)しただけ。",
+              "vi": "Có gì đâu. Không có gì đâu mà. Chỉ là chợt nhớ ra một chuyện thôi."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-2",
+      "reading": "にやにや",
+      "sourcePage": null
+    },
+    {
+      "id": "016",
+      "word": "くるくる",
+      "meaning": "Quay tròn, xoay vòng vòng",
+      "explanation": "Ý nghĩa: Dáng vẻ quay hoặc xoay nhẹ nhàng liên tục, hết vòng này đến vòng khác.\n\nCách dùng:\n• Không dùng khi chỉ quay một vòng, mà dùng khi quay nhiều vòng liên tục.\n\nDạng hay dùng:\n• くるくる V「回る」「回す」「巻く」\n• くるくると V\n\nLưu ý:\n• Cũng dùng khi cuộn, quấn liên tục thứ gì đó.",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "この[窓](まど)はどうやって[開](あ)けるの？",
+              "vi": "Cái cửa sổ này mở bằng cách nào vậy?"
+            },
+            {
+              "speaker": "B",
+              "ja": "ああ、それはハンドルを_くるくる_[回](まわ)して[開](あ)けるタイプだよ。",
+              "vi": "À, cái đó là loại xoay tay quay vòng vòng để mở ra đấy."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "あの[犬](いぬ)、ボール[遊](あそ)びが[好](す)きなんだね。",
+              "vi": "Chú chó đó thích chơi bóng nhỉ."
+            },
+            {
+              "speaker": "B",
+              "ja": "うん。_くるくる_[回](まわ)って、すごくうれしそう。",
+              "vi": "Ừ. Nó chạy quay vòng vòng, trông vui lắm."
+            }
+          ]
+        },
+        {
+          "context": "Mở rộng",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "トルティーヤにいろいろなものを[入](い)れて_くるくる_[巻](ま)いてみましょう。",
+              "vi": "Thử cho đủ thứ nguyên liệu vào bánh tortilla rồi cuộn tròn lại xem nào."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-2",
+      "reading": "くるくる",
+      "sourcePage": null
+    },
+    {
+      "id": "017",
+      "word": "コロコロ",
+      "meaning": "Lăn lông lốc / Tròn trịa mũm mĩm",
+      "explanation": "Ý nghĩa: Dáng vẻ vật tròn hoặc vật nhỏ lăn đi. Cũng dùng để tả dáng tròn trịa, mũm mĩm.\n\nCách dùng:\n• Dùng để tả đặc điểm của trẻ nhỏ (tròn trĩnh, mũm mĩm), và thường diễn tả vẻ đáng yêu.\n\nDạng hay dùng:\n• コロコロ V「転がる」「転がす」「太る」\n• コロコロと V\n\nLưu ý:\n• 「コロコロ」 còn diễn tả sự việc dễ dàng thay đổi xoành xoạch.",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "あ、[私](わたし)の[消](け)しゴム、あんな[所](ところ)まで[行](い)ってる！",
+              "vi": "Ơ, cục tẩy của mình chạy ra tận đằng kia kìa!"
+            },
+            {
+              "speaker": "B",
+              "ja": "_コロコロ_[転](ころ)がっちゃったんだね。",
+              "vi": "Chắc là nó lăn lông lốc ra đó rồi."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "_コロコロ_[太](ふと)った[子犬](こいぬ)ってかわいいね。",
+              "vi": "Mấy chú cún con mập tròn thật dễ thương nhỉ."
+            },
+            {
+              "speaker": "B",
+              "ja": "あの[子犬](こいぬ)、_コロコロ_しててかわいい。",
+              "vi": "Chú cún kia tròn xoe mũm mĩm, dễ thương quá."
+            }
+          ]
+        },
+        {
+          "context": "Mở rộng",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "[部長](ぶちょう)は[言](い)うことが_コロコロ_[変](か)わるから[困](こま)る。",
+              "vi": "Trưởng phòng nói gì cũng đổi xoành xoạch nên tôi chẳng biết làm sao."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-3",
+      "reading": "ころころ",
+      "sourcePage": null
+    },
+    {
+      "id": "018",
+      "word": "ぐるっと",
+      "meaning": "Quay một vòng / Đi một vòng",
+      "explanation": "Ý nghĩa: Dáng vẻ xoay một vòng, hoặc đi trọn một vòng quanh.\n\nCách dùng:\n• Dùng khi nói về chuyển động vẽ nên một vòng tròn.\n\nDạng hay dùng:\n• ぐるっと V「回る」「回す」「巻く」",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "[京都](きょうと)は[行](い)きたい[所](ところ)が[多](おお)くて[困](こま)るね。",
+              "vi": "Kyoto có nhiều chỗ muốn đi quá, phân vân ghê."
+            },
+            {
+              "speaker": "B",
+              "ja": "バスの[一日券](いちにちけん)を[買](か)って、_ぐるっと_[回](まわ)るのはどう？",
+              "vi": "Mua vé xe buýt một ngày rồi đi một vòng thì sao?"
+            }
+          ]
+        },
+        {
+          "context": "Ví dụ 2",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "[時間](じかん)があったから、この[辺](へん)を_ぐるっと_してきたよ。",
+              "vi": "Có chút thời gian nên mình đã đi một vòng quanh khu này rồi."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-3",
+      "reading": "ぐるっと",
+      "sourcePage": null
+    },
+    {
+      "id": "019",
+      "word": "ぐっすり",
+      "meaning": "Ngủ say, ngủ ngon giấc",
+      "explanation": "Ý nghĩa: Dáng vẻ ngủ sâu và ngủ ngon giấc.\n\nCách dùng:\n• Nghĩa tương đương với “good sleep” (giấc ngủ ngon).\n\nDạng hay dùng:\n• ぐっすり V「寝る」\n• ぐっすりと V",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "おはよう。[今日](きょう)はいい[顔](かお)してるね。",
+              "vi": "Chào buổi sáng. Hôm nay nhìn mặt cậu tươi tỉnh nhỉ."
+            },
+            {
+              "speaker": "B",
+              "ja": "うん、[昨日](きのう)の[夜](よる)は[久](ひさ)しぶりに_ぐっすり_[寝](ね)られたからね。",
+              "vi": "Ừ, vì tối qua lâu lắm rồi mình mới ngủ say được đấy."
+            }
+          ]
+        },
+        {
+          "context": "Ví dụ 2",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "このふとん、[気持](きも)ちいい！_ぐっすり_[寝](ね)られそう。",
+              "vi": "Cái nệm futon này êm quá! Chắc là sẽ ngủ say được đây."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-3",
+      "reading": "ぐっすり",
+      "sourcePage": null
+    },
+    {
+      "id": "020",
+      "word": "スヤスヤ",
+      "meaning": "Ngủ yên bình, ngủ say sưa",
+      "explanation": "Ý nghĩa: Dáng vẻ ngủ lặng lẽ, thoải mái, thở khe khẽ nhẹ nhàng.\n\nCách dùng:\n• Dùng khi nhìn thấy ai đó đang ngủ và muốn diễn tả cảnh ấy.\n\nDạng hay dùng:\n• スヤスヤ V「寝る」\n• スヤスヤと V",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "あの[赤](あか)ちゃん、ミルク[飲](の)んだら[静](しず)かになったね。",
+              "vi": "Em bé kia uống sữa xong là yên ắng hẳn nhỉ."
+            },
+            {
+              "speaker": "B",
+              "ja": "うん。あんなに[泣](な)いてたのに、_スヤスヤ_[寝](ね)てる。",
+              "vi": "Ừ. Lúc nãy khóc dữ vậy mà giờ đã ngủ say sưa rồi."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "[愛子](あいこ)はもう[寝](ね)た？",
+              "vi": "Aiko đã ngủ rồi à?"
+            },
+            {
+              "speaker": "B",
+              "ja": "うん。[今回](こんかい)の[旅行](りょこう)は[長](なが)かったから、[疲](つか)れたんじゃない？_スヤスヤ_[寝](ね)てる。",
+              "vi": "Ừ. Chuyến đi lần này dài mà, chắc bạn ấy mệt rồi. Đang ngủ say sưa lắm."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-3",
+      "reading": "すやすや",
+      "sourcePage": null
+    },
+    {
+      "id": "021",
+      "word": "ザーザー",
+      "meaning": "Mưa xối xả, mưa tầm tã",
+      "explanation": "Ý nghĩa: Dáng vẻ mưa rơi dữ dội, nghe tiếng rào rào.\n\nCách dùng:\n• Cách nói thân mật, đời thường để diễn tả mức độ dữ dội của cơn mưa.\n\nDạng hay dùng:\n• ザーザー V「降る」\n• ザーザーと V\n• 名詞「ザーザー降り」\n\nLưu ý:\n• 「ザーザー降り」 là cách nói thân mật của “mưa dữ dội”.",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "[雨](あめ)が_ザーザー_[降](ふ)ってきたよ。",
+              "vi": "Mưa bắt đầu đổ xối xả rồi kìa."
+            },
+            {
+              "speaker": "B",
+              "ja": "ほんとだ。[結構](けっこう)、[強](つよ)いね。",
+              "vi": "Đúng thật. Mưa khá lớn nhỉ."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "（[窓](まど)の[外](そと)を[見](み)て）まだ_ザーザー_[降](ふ)ってる。",
+              "vi": "(Nhìn ra ngoài cửa sổ) Vẫn còn mưa tầm tã."
+            },
+            {
+              "speaker": "B",
+              "ja": "あ、そう…。じゃあ、[出](で)るのは、もうちょっと[後](あと)にしようか。",
+              "vi": "À, vậy à… Thế thì lát nữa hẵng ra ngoài nhé?"
+            }
+          ]
+        },
+        {
+          "context": "Mở rộng",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "こんな_ザーザー_[降](ぶ)りだと、イベント、[中止](ちゅうし)になるね。",
+              "vi": "Mưa xối xả thế này thì sự kiện chắc phải hủy nhỉ."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-3",
+      "reading": "ざーざー",
+      "sourcePage": null
+    },
+    {
+      "id": "022",
+      "word": "しとしと",
+      "meaning": "Mưa rả rích, mưa lất phất",
+      "explanation": "Ý nghĩa: Dáng vẻ mưa rơi lặng lẽ, gần như không nghe thấy tiếng mưa, cứ thế kéo dài mãi.\n\nCách dùng:\n• Hay dùng để nói về cơn mưa kéo dài lâu.\n\nDạng hay dùng:\n• しとしと V「降る」\n• しとしとと V",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "まだ、_しとしと_[降](ふ)ってる。[今日](きょう)は[雨](あめ)、やまないね。",
+              "vi": "Vẫn còn mưa rả rích. Hôm nay chắc mưa không tạnh đâu nhỉ."
+            },
+            {
+              "speaker": "B",
+              "ja": "そうだね。",
+              "vi": "Ừ nhỉ."
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "〈[電話](でんわ)で〉そっちの[天気](てんき)はどう？",
+              "vi": "〈Gọi điện thoại〉 Bên đó thời tiết thế nào?"
+            },
+            {
+              "speaker": "B",
+              "ja": "ちょっと[寒](さむ)いですね。[雨](あめ)も_しとしと_[降](ふ)ってて。",
+              "vi": "Hơi lạnh đấy. Lại còn mưa lất phất nữa."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-3",
+      "reading": "しとしと",
+      "sourcePage": null
+    },
+    {
+      "id": "023",
+      "word": "ポツポツ",
+      "meaning": "Mưa lác đác, mưa lộp độp",
+      "explanation": "Ý nghĩa: Cách nói khi cảm nhận cơn mưa bắt đầu rơi qua những hạt mưa lộp độp chạm lên da.\n\nCách dùng:\n• Thường dùng khi cảm thấy trời sắp mưa to hơn.\n\nDạng hay dùng:\n• ポツポツ V「降る」「くる」「落ちる」\n• ポツポツと V\n• 名詞は「ポツポツ雨」",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "あっ、_ポツポツ_[降](ふ)ってきた！",
+              "vi": "A, bắt đầu mưa lác đác rồi!"
+            },
+            {
+              "speaker": "B",
+              "ja": "ほんとだ。どこかお[店](みせ)に[入](はい)る？",
+              "vi": "Ừ đúng rồi. Mình vào quán nào đó nhé?"
+            }
+          ]
+        },
+        {
+          "context": "Hội thoại 2",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "[雨](あめ)、[降](ふ)り[始](はじ)めた？",
+              "vi": "Mưa bắt đầu rơi rồi à?"
+            },
+            {
+              "speaker": "B",
+              "ja": "うん。でも、まだ_ポツポツ_って[感](かん)じ。かさは[誰](だれ)も[差](さ)してない。",
+              "vi": "Ừ. Nhưng vẫn chỉ lộp độp vài giọt thôi. Chưa ai che ô cả."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-3",
+      "reading": "ぽつぽつ",
+      "sourcePage": null
+    },
+    {
+      "id": "024",
+      "word": "パラパラ",
+      "meaning": "Mưa lách tách, mưa nhỏ hạt",
+      "explanation": "Ý nghĩa: Cách nói diễn tả cơn mưa bắt đầu rơi từ bầu trời nhiều mây, vẫn còn là mưa nhỏ.\n\nCách dùng:\n• Dùng cho cơn mưa nhiều hơn 「ポツポツ」 một chút, tiếng rơi vẫn nhẹ nhàng.\n\nDạng hay dùng:\n• パラパラ V「降る」「くる」\n• パラパラする\n• パラパラと V\n• 名詞は「パラパラ降り」",
+      "conversations": [
+        {
+          "context": "Hội thoại 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "ja": "〈[電話](でんわ)で〉もしもし、そっちの[天気](てんき)、どう？",
+              "vi": "〈Gọi điện thoại〉 A lô, bên đó thời tiết thế nào?"
+            },
+            {
+              "speaker": "B",
+              "ja": "うん、_パラパラ_[降](ふ)ってるよ。",
+              "vi": "Ừ, đang mưa lách tách đây."
+            }
+          ]
+        },
+        {
+          "context": "Ví dụ 2",
+          "dialogues": [
+            {
+              "speaker": "",
+              "ja": "〈キャンプで〉_パラパラ_[来](き)たら、[急](いそ)いでテントを[張](は)ったほうがいいね。",
+              "vi": "〈Ở chỗ cắm trại〉 Nếu trời bắt đầu mưa lách tách thì nên nhanh chóng dựng lều nhỉ."
+            }
+          ]
+        }
+      ],
+      "sectionId": "part-3",
+      "reading": "ぱらぱら",
+      "sourcePage": null
+    }
+  ],
+  "schemaVersion": "1.0",
+  "title": "Tượng hình – Tượng thanh",
+  "sections": [
+    {
+      "id": "part-1",
+      "title": "Phần 1 · Từ 1–8"
+    },
+    {
+      "id": "part-2",
+      "title": "Phần 2 · Từ 9–16"
+    },
+    {
+      "id": "part-3",
+      "title": "Phần 3 · Từ 17–24"
+    }
+  ],
+  "quizzes": [],
+  "dictations": [],
+  "exercises": []
+}

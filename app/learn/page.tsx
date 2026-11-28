@@ -13,7 +13,7 @@ import {
 
 export const metadata = {
   title: "Học Chuyên Đề N3 — Học cùng VuyAnh 🌸",
-  description: "Hai chuyên đề ngữ pháp then chốt JLPT N3: 12 Thể động từ và Kính ngữ / Khiêm nhường ngữ công sở cùng VuyAnh.",
+  description: "Học tiếng Nhật theo chuyên đề: động từ, kính ngữ, luyện dịch, Tango N3 và từ tượng hình – tượng thanh cùng VuyAnh.",
 };
 
 export default function LearningHubPage() {
@@ -45,6 +45,13 @@ export default function LearningHubPage() {
         <h2 className="mt-2 text-2xl font-bold text-slate-900">Từ vựng & Câu ví dụ Tango N3</h2>
         <p className="mt-2 text-base leading-relaxed text-slate-600">Kho từ vựng đầy đủ 12 Chapter, 60 Unit với 1.392 từ vựng và câu ví dụ chuẩn sách Tango N3. Nghe phát âm tiếng Nhật, gõ từ/câu, kiểm tra đáp án tức thì và ôn luyện các mục sai.</p>
         <span className="mt-4 inline-block font-semibold text-teal-800">Bắt đầu học 1.392 từ Tango N3 →</span>
+      </Link>
+
+      <Link href="/learn/onomatopoeia" className="block rounded-2xl border-2 border-emerald-200 bg-emerald-50 p-6 transition-colors hover:bg-emerald-100">
+        <p className="text-sm font-semibold text-emerald-700">オノマトペ · TỪ VỰNG TRONG ĐỜI SỐNG</p>
+        <h2 className="mt-2 text-2xl font-bold text-emerald-950">Tượng hình – Tượng thanh</h2>
+        <p className="mt-2 text-base leading-relaxed text-slate-600">Tra cứu nghĩa tiếng Việt, cách dùng và hội thoại có furigana. Nghe từ, ẩn nghĩa để tự ôn và đánh dấu những từ đã thuộc.</p>
+        <span className="mt-4 inline-block font-semibold text-emerald-800">Khám phá từ tượng hình, tượng thanh</span>
       </Link>
 
       {/* 2 Big Module Cards */}
