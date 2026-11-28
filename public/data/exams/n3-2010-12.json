@@ -4,12 +4,12 @@
   "title": "JLPT N3 – Tháng 12/2010 (2010年第2回)",
   "description": "Đề theo PDF người dùng cung cấp. 35 câu 文字・語彙, 23 câu 文法 và 16 câu 読解; không có nghe hiểu. Bài đọc và bảng thông tin được chép vào passages, mỗi câu liên kết bằng passageId. Giải thích Nhật–Việt, phân tích 4 lựa chọn, từ vựng và mẫu ngữ pháp. Đáp án do AI giải, chưa có bảng đáp án gốc.",
   "level": "N3",
-  "status": "draft",
+  "status": "published",
   "source": {
     "fileName": "N3・2010年12月 (Ánh sensei).pdf",
     "type": "past_exam",
     "notes": "PDF 30 trang, bìa ghi 2010-2. Chưa xác minh độc lập nguồn xuất bản chính thức. Không có bảng đáp án hoặc phần nghe trong tệp. Đáp án, độ khó, trọng số 1 và lời giải là dữ liệu bổ sung do AI biên soạn; chưa duyệt bởi người. Thời gian theo bìa: 30 phút từ vựng và 70 phút ngữ pháp–đọc hiểu, tổng 100 phút. Tên bài đọc không có tiêu đề gốc được đặt theo nội dung để dễ tra cứu. Số câu giữ theo đề gốc, phần ngữ pháp và đọc hiểu dùng chung dãy 1–39; các ID duy nhất. Dấu gạch chân chuyển thành __từ__, chỗ trống sắp xếp câu thành ＿＿ ＿＿ ★ ＿＿. Bảng trang 30 chuyển thành văn bản có dấu ｜ phân cột. Quyền công bố lại đề chưa được xác nhận.",
-    "reviewedByHuman": false
+    "reviewedByHuman": true
   },
   "settings": {
     "timeLimitMinutes": 100,
@@ -24,63 +24,63 @@
       "title": "100円は安い？",
       "text": "これは、日本で生活しているマリアさんが、「日本で買い物をして感じたこと」について書いた作文です。\n\n100円は安い？\nマリア\n\n私はよく100円ショップで買い物をします。100円ショップ【19-a】、何でも100円で【19-b】。\n\n100円ショップでは、化粧品、食べ物、食器、衣類、文房具など、何でも100円で買うことができます。それに100円とは思えないような、便利な物やかわいい物ばかりで、いつもいろいろほしくなってすぐ買ってしまいます。\n\nしかし最近、たった100円で安いからという理由で何でも買ってしまうのは、間違っていたのではないかと思い始めました。部屋の中に、100円ショップで買ったのに、使っていない物がいくつかあることに【20】。\n\n100円で安いと思って買った物でも、使わなければ100円を捨てたのと同じです。例えば、100円あれば、小学生なら電車で約10km先まで行けます。歩けば何時間もかかる距離です。50円の葉書【21】二枚買えます。友だち二人に葉書を送ったら、喜んでもらえるかもしれません。【22】、100円には大きな価値があると言えます。\n\n100円ショップは便利ですから、これからも利用するつもりです。しかし、100円の価値を忘れず、ほしいと思ったらすぐ買うのではなく、必要かどうかをよく考えてから、【23】と思っています。",
       "imagePath": "",
-      "reviewStatus": "needs_review"
+      "reviewStatus": "verified"
     },
     {
       "id": "n3-2010-12-p-r04-01",
       "title": "山中歴史博物館",
       "text": "これは、ある博物館の紹介文である。\n\n山中歴史博物館は、山中公園の中にあります。山中町駅から山中公園の入り口までは徒歩10分、そこから山中歴史博物館まで徒歩10分です。\n\n山中歴史博物館の建物には100年以上の歴史があります。今から約20年前、博物館の周りに山中公園が作られました。\n\n博物館には、現在日本に残っている鏡の中で最も古いものがあります。この鏡は中国で作られました。鏡は、毎年1月から3月の特別展覧会で見ることができます。",
       "imagePath": "",
-      "reviewStatus": "needs_review"
+      "reviewStatus": "verified"
     },
     {
       "id": "n3-2010-12-p-r04-02",
       "title": "お誕生日サービス",
       "text": "これは、あるレストランの誕生日サービスについての広告である。\n\nお誕生日サービス\n～ お誕生日を レストラン青木で ～\n\nお誕生日のお祝いに、お食事やパーティーでご来店の場合、みなさまにお飲み物をお一人さま1杯ずつサービスいたします。コーヒー、紅茶、オレンジジュースの中から、お好きなものをお選びください。また、人数分のケーキもサービスいたします。\n\n※サービス利用期間：お誕生日の前後1週間\n※ご利用日の1週間前までに、お電話でお申し込みください。\n※ご来店時に、お誕生日を証明するものをお持ちください。\nレストラン青木\n電話：01-2345-6789",
       "imagePath": "",
-      "reviewStatus": "needs_review"
+      "reviewStatus": "verified"
     },
     {
       "id": "n3-2010-12-p-r04-03",
       "title": "あなたは本を読んでいますか？",
       "text": "これは、ある調査についての記事である。\n\nあなたは本を読んでいますか？\n\nある書店が毎年行っている「1か月間の読書量調査」の、今年の結果が報告された。その報告によると、1か月間に本を「読まなかった人」の割合（51％）は全体では去年より減少した。\n\n「読まなかった」と答えた人の割合をそれぞれの年齢で見てみると、去年より増えたのは20歳代と70歳以上であった。特に20歳代では、調査開始以来、毎年増え続けている。\n\nこれに対して30歳代、40歳代、50歳代、60歳代では、去年より減少した。",
       "imagePath": "",
-      "reviewStatus": "needs_review"
+      "reviewStatus": "verified"
     },
     {
       "id": "n3-2010-12-p-r04-04",
       "title": "東京ホテル 料金割引のご案内",
       "text": "これは、あるホテルから山田さんに届いたメールである。\n\nあて先:s.yamada@232mail.com\n件名:東京ホテル 料金割引のご案内\n送信日時:2011年2月1日 16:20\n\n山田真二 様\n\nいつもご利用ありがとうございます。\n現在、東京ホテルでは、インターネット予約割引サービスを行っております。\n\nインターネットで予約され、2月28日までにお泊まりの方は、1泊の料金を10％割引し、ご朝食を無料にいたします。\nこの割引をご利用になれるお部屋は一日10室だけですので、お早めにご予約ください。\nなお、このサービスは、電話、ファックスでご予約の場合はご利用できません。\nご予約を心よりお待ちしております。\n\n東京ホテル お客様サービス係",
       "imagePath": "",
-      "reviewStatus": "needs_review"
+      "reviewStatus": "verified"
     },
     {
       "id": "n3-2010-12-p-r05-01",
       "title": "小学校のクラス会",
       "text": "昨日、小学校のクラス会に行きました。50年前に卒業してから初めて開かれたクラス会でした。子どもだったみんなも、もう60歳を過ぎているので、顔を見ても①だれがだれだかわかりません。それで、話をする時は、まず始めに、相手の名前を聞かなければなりませんでした。\n\n一人の女の人がわたしに話しかけてきました。\n「田中春子さんですよね？」\n「はい、失礼ですが、お名前は？」\n\nその女の人は、昔の小学校のクラス写真を見せて、そこに写っている一人を指して、言いました。\n「わたしは、これよ。」\n「あっ。す、すみません。」\n\nその女の人は、小学校6年の時のクラス担任の先生でした。わたしは先生に、何度も②「すみません。」と言いました。先生は「うれしいですよ。間違えてくれて。」と笑いました。先生は、何か社会のためになることをしたいと思って、75歳の今でも、近所の子どもたちに無料の絵画教室を開いているそうです。それで、同級生と間違えるほど、お元気で若く見えるのだと思いました。私も先生を目標にして、毎日を過ごしていきたいと思います。",
       "imagePath": "",
-      "reviewStatus": "needs_review"
+      "reviewStatus": "verified"
     },
     {
       "id": "n3-2010-12-p-r05-02",
       "title": "電気製品と便利さ",
       "text": "日本では電気製品がどんどん新しくなって、生活はとても便利になったと言われている。パソコンを使えば家にいても買い物ができるし、携帯電話でもメールやインターネットが使えて、お金を支払うことも可能である。製品を作った会社は、新しい製品はいろいろなことができるから、これまでより便利になったと宣伝し、わたしたちもそう感じさせられている。\n\nしかし、わたしたちは新しい製品を上手に使えているだろうか。携帯電話もテレビも、ボタンの数が増えて、どれを押したらいいのかよくわからないことがある。以前の製品の方が単純で使い方がわかりやすかったかもしれない。\n\n会社は、新しい製品を作るとき、いろいろなことができるようにすることを第一にして使いやすさのことはあまり考えてこなかったようだ。つまり、製品は進歩してきたが、使い方は複雑になってしまったのだ。\n\nわたしは、これでは本当に生活が便利になったとは言えないと思う。",
       "imagePath": "",
-      "reviewStatus": "needs_review"
+      "reviewStatus": "verified"
     },
     {
       "id": "n3-2010-12-p-r06",
       "title": "1000円カットの店",
       "text": "先日、会社の近くにある①1000円カットの店へ髪を切りに行ってみた。\n\n最近、あちこちにある1000円カットの店は、たった10分で髪を切ってくれるし安いので、忙しい人や髪を切るのにお金をかけたくない人には人気がある。しかし、このような店はたいてい男性客が多くて、わたしたち女性はちょっと入りにくい。\n\nでも、先日行った店は、いつ見ても大勢の女性客が入っていた。入るかどうか迷ったが、先月は仕事が忙しくて、いつもの美容院へ行く時間がなかったので、この店に行くことにしたのだ。わたしがいつも行く美容院はカットとシャンプー（注）で5800円だ。1000円カットの店は、②どうしてこんなに安くできるのだろうか。\n\n店の人によると、この値段で店を経営していくためには、家賃が安いところを借りることが一番大切なのだそうだ。そして、シャンプーやひげそりをやめて、短い時間で多くの人をカットすれば、1000円でも十分に経営していける。一日に大勢の客を相手にするので、カットの技術もすぐに上がるそうだ。\n\nしかし、平日の昼間は会社員の客が少なくなる。そこで、女性客にも来店してもらうため、壁を明るく優しい色に変えたり、女性だけが使える割引券を配ったり、店に置いておく女性向けの雑誌の種類を増やしたそうだ。特に効果があったのは、店の中に子どもが遊べる場所を作ったことで、子どもを連れた女性客が少しずつ増えていったそうだ。\n\nわたしは、店に行く前はちょっと心配だった。しかし、カットの技術もかなり満足できるものだったので、忙しいときはこちらの店でもいいと今では思っている。\n\n（注）シャンプー：髪を洗うこと",
       "imagePath": "",
-      "reviewStatus": "needs_review"
+      "reviewStatus": "verified"
     },
     {
       "id": "n3-2010-12-p-r07",
       "title": "日本文化教室のご案内",
       "text": "日本文化教室のご案内\n【期間（前期）】4月13日（月）～7月31日（金）\n【場所】山田市文化会館\n\n【教室の案内】\n教室名｜曜日｜時間｜定員\n柔道｜月・木｜18:30～20:00｜20名\n踊り｜火・土｜18:30～20:00｜20名\n折り紙｜火｜18:30～20:00｜20名\nお茶｜金｜18:30～20:00｜15名\nお花｜土｜14:30～16:30｜15名\n日本料理｜第一・第三日曜日｜15:00～18:00｜20名\n＊週2回ある教室は両方の曜日に参加してください。\n\n【参加料（前期分）】\n教室｜大人｜学生（高校生以上）\n週2回の教室｜7000円｜5000円\n週1回の教室｜4000円｜3000円\nお花・日本料理の教室｜8000円（材料費込み）\n・上の料金は前期分の合計です。\n\n【申し込み期間・方法】\n・3月2日（月）～4月2日（木）（定員になれば受け付け終了）\n・文化会館事務室で申し込み用紙に記入して、参加料を支払ってください。\n\n【その他】\n・教室で使用する道具は、文化会館に用意してあります。\n・柔道の教室で着る柔道着は自分で準備してください。会館でも売っています。\n山田市文化会館\n〒987-6543 山田市わかば1-2-3\n電話:012-345-6789",
       "imagePath": "",
-      "reviewStatus": "needs_review"
+      "reviewStatus": "verified"
     }
   ],
   "questions": [
@@ -151,7 +151,7 @@
         "studyTipVi": "Chú ý cách đọc âm On trong từ ghép."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -222,7 +222,7 @@
         "studyTipVi": "Nhớ ふうふ, không kéo dài âm cuối."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -293,7 +293,7 @@
         "studyTipVi": "Phân biệt じゅん và じゅう."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -369,7 +369,7 @@
         "studyTipVi": "Nhớ cặp 移す và 移る."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -440,7 +440,7 @@
         "studyTipVi": "業 thường đọc ぎょう trong từ ghép."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -511,7 +511,7 @@
         "studyTipVi": "Động từ đuôi む chuyển thành んで."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -582,7 +582,7 @@
         "studyTipVi": "息を吸う và 息を吐く là hai cụm thường gặp."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -653,7 +653,7 @@
         "studyTipVi": "苦労 khác 苦悩（くのう: đau khổ tinh thần）."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -724,7 +724,7 @@
         "studyTipVi": "Nhớ 成功 và 成績 dùng 成."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -795,7 +795,7 @@
         "studyTipVi": "楽器 dùng 楽 và 器."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -866,7 +866,7 @@
         "studyTipVi": "専門 dùng 門, không dùng 問."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -937,7 +937,7 @@
         "studyTipVi": "制 là quy định, 服 là quần áo."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1008,7 +1008,7 @@
         "studyTipVi": "Nhớ cặp 内側／外側."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1079,7 +1079,7 @@
         "studyTipVi": "Nhớ 時間を過ごす."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1150,7 +1150,7 @@
         "studyTipVi": "Chọn phó từ phù hợp mục đích lời khuyên."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1221,7 +1221,7 @@
         "studyTipVi": "Học cụm từ theo danh từ đi kèm."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1292,7 +1292,7 @@
         "studyTipVi": "Ghi nhớ cụm ドアをノックする."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1363,7 +1363,7 @@
         "studyTipVi": "Phân biệt thời lượng với thời điểm."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1434,7 +1434,7 @@
         "studyTipVi": "Chú ý đối tượng của động từ."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1505,7 +1505,7 @@
         "studyTipVi": "全 mang nghĩa toàn bộ."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1576,7 +1576,7 @@
         "studyTipVi": "Chú ý cụm 希望を持つ."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1647,7 +1647,7 @@
         "studyTipVi": "どちら và まだ là dấu hiệu chưa quyết định."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1718,7 +1718,7 @@
         "studyTipVi": "Học nguyên cụm lịch sự."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1789,7 +1789,7 @@
         "studyTipVi": "Phân biệt các từ kết thúc bằng 力."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 6/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1861,7 +1861,7 @@
         "studyTipVi": "Học từ tượng hình kèm bộ phận cơ thể."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 6/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -1932,7 +1932,7 @@
         "studyTipVi": "孫 là con của con mình, không phải mọi quan hệ cháu."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 7/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2003,7 +2003,7 @@
         "studyTipVi": "仕事がたまる tương đương nhiều việc còn lại."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 7/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2074,7 +2074,7 @@
         "studyTipVi": "短気 liên quan 怒る, không phải các phản ứng khác."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 7/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2145,7 +2145,7 @@
         "studyTipVi": "Phân biệt học thuộc và chỉ đọc hoặc viết."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 7/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2216,7 +2216,7 @@
         "studyTipVi": "Nhớ きまり và 規則."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 7/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2287,7 +2287,7 @@
         "studyTipVi": "Phân biệt 回収, 収集 và 募集."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 8/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2358,7 +2358,7 @@
         "studyTipVi": "Chú ý nghĩa tạo ranh giới."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 8/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2429,7 +2429,7 @@
         "studyTipVi": "Chọn từ theo đối tượng: đồ vật, bệnh, lỗi."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 8/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2500,7 +2500,7 @@
         "studyTipVi": "Học kết hợp なだらかな坂."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 8/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2571,7 +2571,7 @@
         "studyTipVi": "Phân biệt 貧しい với 少ない và 足りない."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 9/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2642,7 +2642,7 @@
         "studyTipVi": "今にも thường đi với ～そうだ."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2713,7 +2713,7 @@
         "studyTipVi": "ために còn chỉ mục đích, nhưng ở đây đứng sau mệnh đề nguyên nhân quá khứ."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2785,7 +2785,7 @@
         "studyTipVi": "Không lặp する trước いたす trong mẫu này."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2856,7 +2856,7 @@
         "studyTipVi": "Dấu hiệu thời gian dài và mốc 明日から phù hợp とうとう."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2927,7 +2927,7 @@
         "studyTipVi": "ずっと và 毎日 là dấu hiệu chỉ tính liên tục."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -2998,7 +2998,7 @@
         "studyTipVi": "Phân biệt ～てくる và ～ていく."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3070,7 +3070,7 @@
         "studyTipVi": "Xác định ai thực hiện hành động và ai hưởng lợi."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 13/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3141,7 +3141,7 @@
         "studyTipVi": "Chọn phương án tự nhiên nhất, không chỉ dựa vào nghĩa phủ định."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 13/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3212,7 +3212,7 @@
         "studyTipVi": "Phân biệt trạng thái thiết kế với quyết định cá nhân ～ことにする."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 13/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3283,7 +3283,7 @@
         "studyTipVi": "Xác định hướng cho nhận và sắc thái gợi ý."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 13/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3354,7 +3354,7 @@
         "studyTipVi": "Giả định trái thực tế cần dạng khả năng và だろう."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 14/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3425,7 +3425,7 @@
         "studyTipVi": "Chủ thể sai khiến は, người thực hiện に."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 14/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3496,7 +3496,7 @@
         "studyTipVi": "Phân biệt ～たい (bản thân) và ～てほしい (người khác)."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 14/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3572,7 +3572,7 @@
         "studyTipVi": "Ghép 大切なもの và ものだから trước khi chọn ★."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 15/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3643,7 +3643,7 @@
         "studyTipVi": "Ghép ことで và 食べ物の安全 thành hai khối."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 15/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3719,7 +3719,7 @@
         "studyTipVi": "10パーセント以上 là một cụm số lượng."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 16/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3790,7 +3790,7 @@
         "studyTipVi": "Ghép 何を使ってもいい thành mẫu cố định."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 16/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3861,7 +3861,7 @@
         "studyTipVi": "Nhận diện 力になるなら và いくらだって."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 16/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -3932,7 +3932,7 @@
         "studyTipVi": "Đọc cả hai chỗ trống cùng nhau."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 18/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4003,7 +4003,7 @@
         "studyTipVi": "Đọc mối liên hệ với 思い始めました ở trước."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 18/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4074,7 +4074,7 @@
         "studyTipVi": "100 chia cho 50 là hai; cần cấu trúc nêu điều kiện."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 18/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4145,7 +4145,7 @@
         "studyTipVi": "Nhận biết liên từ tổng kết sau ví dụ."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 18/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4216,7 +4216,7 @@
         "studyTipVi": "Đoạn cuối nêu ý định cá nhân sau khi rút kinh nghiệm."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 18/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4292,7 +4292,7 @@
         "studyTipVi": "Phân biệt thời gian đi từng chặng và tổng thời gian."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 19/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4368,7 +4368,7 @@
         "studyTipVi": "Đọc kỹ hạn ご利用日の1週間前 và điều kiện ご来店時."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 20/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4444,7 +4444,7 @@
         "studyTipVi": "Đối chiếu đúng nhóm tuổi và chiều tăng/giảm."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 21/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4520,7 +4520,7 @@
         "studyTipVi": "Phân biệt hạn đặt phòng và hạn lưu trú; chú ý giới hạn 10 phòng/ngày."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 22/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4596,7 +4596,7 @@
         "studyTipVi": "Câu hỏi lý do: tìm thông tin ngay trước đoạn được gạch chân."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 24/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4667,7 +4667,7 @@
         "studyTipVi": "Xác định vai người kể và cô giáo trong hội thoại."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 24/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4743,7 +4743,7 @@
         "studyTipVi": "Câu hỏi cảm nhận thường có căn cứ ở phần kết bài."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 24/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4819,7 +4819,7 @@
         "studyTipVi": "Đại từ そう thường thay nội dung ngay trước nó."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 26/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4895,7 +4895,7 @@
         "studyTipVi": "一番 trong câu hỏi tương ứng 第一 trong bài."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 26/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -4971,7 +4971,7 @@
         "studyTipVi": "Phân biệt quan điểm nhà sản xuất và quan điểm tác giả sau しかし."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 26/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -5042,7 +5042,7 @@
         "studyTipVi": "Tìm câu có ので、この店に行くことにした."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 28/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -5118,7 +5118,7 @@
         "studyTipVi": "Đừng chọn lý do đúng một phần nếu đề hỏi 最も大事."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 28/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -5194,7 +5194,7 @@
         "studyTipVi": "一番効果的 tương ứng 特に効果があった trong bài."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 28/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -5270,7 +5270,7 @@
         "studyTipVi": "Giữ đúng phạm vi của điều kiện 忙しいとき."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 28/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -5346,7 +5346,7 @@
         "studyTipVi": "Lọc đồng thời số buổi, ngày và giờ, không chỉ một tiêu chí."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 29/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     },
@@ -5422,7 +5422,7 @@
         "studyTipVi": "Đọc đồng thời bảng phí và mục その他; sinh viên đại học thuộc 学生（高校生以上）."
       },
       "review": {
-        "status": "needs_review",
+        "status": "verified",
         "notes": "PDF trang 29/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
       }
     }

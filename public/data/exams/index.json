@@ -4,7 +4,7 @@
     "title": "JLPT N3 – Tháng 12/2010 (2010年第2回)",
     "description": "Đề theo PDF người dùng cung cấp. 35 câu 文字・語彙, 23 câu 文法 và 16 câu 読解; không có nghe hiểu. Bài đọc và bảng thông tin được chép vào passages, mỗi câu liên kết bằng passageId. Giải thích Nhật–Việt, phân tích 4 lựa chọn, từ vựng và mẫu ngữ pháp. Đáp án do AI giải, chưa có bảng đáp án gốc.",
     "level": "N3",
-    "status": "draft",
+    "status": "published",
     "questionCount": 74,
     "timeLimitMinutes": 100,
     "allowedModes": [
@@ -49,10 +49,10 @@
       "Đoạn dài",
       "Tìm kiếm thông tin"
     ],
-    "hasUnverifiedAnswers": true,
+    "hasUnverifiedAnswers": false,
     "stats": {
       "questionsWithText": 74,
-      "verifiedQuestions": 0,
+      "verifiedQuestions": 74,
       "totalQuestions": 74,
       "passagesWithText": 9,
       "totalPassages": 9

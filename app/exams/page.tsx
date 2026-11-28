@@ -66,9 +66,6 @@ export default function ExamsPage() {
   // Filtered and sorted exams
   const filteredExams = useMemo(() => {
     return exams.filter((exam) => {
-      // Non-admin users cannot access draft exams (Requirement 2)
-      if (!isAdmin && exam.status === "draft") return false;
-
       // Status filter
       if (selectedStatus !== "all" && exam.status !== selectedStatus) return false;
 
@@ -94,7 +91,7 @@ export default function ExamsPage() {
       if (selectedSort === "time-desc") return b.timeLimitMinutes - a.timeLimitMinutes;
       return 0;
     });
-  }, [exams, searchQuery, selectedSection, selectedStatus, selectedSort, isAdmin]);
+  }, [exams, searchQuery, selectedSection, selectedStatus, selectedSort]);
 
   // Determine user status for an exam
   const getExamUserStatus = (examId: string) => {
@@ -180,22 +177,20 @@ export default function ExamsPage() {
           </div>
 
           <div className="flex items-center gap-1.5 bg-slate-100/80 p-1 rounded-xl text-xs overflow-x-auto no-scrollbar">
-            {isAdmin && (
-              <button
-                onClick={() => setSelectedStatus("all")}
-                className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
-                  selectedStatus === "all"
-                    ? "bg-white text-slate-900 shadow-xs"
-                    : "text-slate-500 hover:text-slate-800"
-                }`}
-              >
-                Tất cả ({exams.length})
-              </button>
-            )}
+            <button
+              onClick={() => setSelectedStatus("all")}
+              className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
+                selectedStatus === "all"
+                  ? "bg-white text-slate-900 shadow-xs"
+                  : "text-slate-500 hover:text-slate-800"
+              }`}
+            >
+              Tất cả ({exams.length})
+            </button>
             <button
               onClick={() => setSelectedStatus("published")}
               className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
-                selectedStatus === "published" || (!isAdmin && selectedStatus === "all")
+                selectedStatus === "published"
                   ? "bg-white text-[#1B5E20] shadow-xs"
                   : "text-slate-500 hover:text-slate-800"
               }`}
@@ -203,61 +198,20 @@ export default function ExamsPage() {
               Chính thức ({exams.filter((e) => e.status === "published").length})
             </button>
             {exams.some((e) => e.status === "draft") && (
-              isAdmin ? (
-                <button
-                  onClick={() => setSelectedStatus("draft")}
-                  className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
-                    selectedStatus === "draft"
-                      ? "bg-amber-500 text-white shadow-xs"
-                      : "text-slate-500 hover:text-slate-800"
-                  }`}
-                >
-                  Bản nháp Admin ({exams.filter((e) => e.status === "draft").length})
-                </button>
-              ) : (
-                <button
-                  onClick={() => setShowAdminUnlock(!showAdminUnlock)}
-                  className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold text-amber-800 bg-amber-50 hover:bg-amber-100 border border-amber-200 transition-all"
-                  title="Chỉ Quản trị viên mới được truy cập các đề bản nháp"
-                >
-                  <Lock className="w-3 h-3 text-amber-700" />
-                  <span>Bản nháp Admin ({exams.filter((e) => e.status === "draft").length})</span>
-                </button>
-              )
+              <button
+                onClick={() => setSelectedStatus("draft")}
+                className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
+                  selectedStatus === "draft"
+                    ? "bg-amber-500 text-white shadow-xs"
+                    : "text-slate-500 hover:text-slate-800"
+                }`}
+              >
+                Bản nháp ({exams.filter((e) => e.status === "draft").length})
+              </button>
             )}
           </div>
         </div>
 
-        {/* Inline Admin Unlock Box when non-admin clicks Draft tab */}
-        {showAdminUnlock && !isAdmin && (
-          <form
-            onSubmit={handleUnlockAdmin}
-            className="p-3.5 rounded-2xl bg-amber-50/90 border border-amber-300 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 text-xs"
-          >
-            <div className="flex items-center gap-2 text-amber-950">
-              <ShieldCheck className="w-4 h-4 text-amber-700 shrink-0" />
-              <span>
-                <strong>Khu vực Quản trị viên:</strong> Các đề thi <code className="font-mono">draft</code> chỉ dành cho Admin soát đề. Nhập mã Admin (mặc định: <code className="font-mono font-bold">admin123</code>):
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <input
-                type="password"
-                value={adminSecretInput}
-                onChange={(e) => setAdminSecretInput(e.target.value)}
-                placeholder="Mã Admin..."
-                className="px-3 py-1.5 rounded-xl border border-amber-300 bg-white text-slate-800 text-xs focus:outline-none focus:border-amber-600"
-              />
-              <button
-                type="submit"
-                className="px-3.5 py-1.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs shrink-0 transition-colors"
-              >
-                Mở khóa
-              </button>
-            </div>
-            {adminError && <span className="text-rose-600 font-semibold">{adminError}</span>}
-          </form>
-        )}
       </div>
 
       {/* Exam Grid */}
