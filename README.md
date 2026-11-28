@@ -280,9 +280,9 @@ Trang đầu hiển thị lộ trình bài học nối tiếp: ban đầu chỉ 
 
 Kiểm tra JSON trước khi gửi/nhập bằng `node scripts/validate-onomatopoeia.mjs duong-dan-file.json`. Lệnh này chỉ kiểm tra, không ghi đè kho dữ liệu. Khi nhận JSON mới, kiểm tra nội dung, ghép phần/từ theo ID (giữ ID cũ để bảo toàn tiến độ), rồi cập nhật `public/data/learning/onomatopoeia/index.json`. Audio, nếu có, đặt riêng trong `public/audio/onomatopoeia/`.
 
-Trang `/learn/onomatopoeia` dùng `public/data/learning/onomatopoeia/index.json`, nhập từ [Phá Đảo Tiếng Nhật](https://phadaotiengnhat.com/tuvung/tuongthanhtuonghinh/). Bản khách công khai hiện cung cấp đầy đủ 24/185 mục; 161 mục bị khóa được bỏ qua, không tạo nghĩa hoặc hội thoại giả. Không sao chép hình ảnh hay audio của nguồn; nút nghe sử dụng giọng tiếng Nhật trên thiết bị.
+Trang `/learn/onomatopoeia` dùng `public/data/learning/onomatopoeia/index.json`, biên soạn từ giáo trình **絵でわかる ぎおんご・ぎたいご** (阿久津 智, アルク) với đầy đủ 41 bài học, 258 mục từ vựng có giải nghĩa chi tiết, hội thoại ngữ cảnh song ngữ kèm furigana ruby, cùng 152 câu trắc nghiệm, 306 bài luyện nghe chép chính tả và 118 bài tập điền từ. Không sao chép hình ảnh hay audio bản quyền của nguồn; tính năng phát âm sử dụng Web Speech Synthesis tiếng Nhật trên thiết bị.
 
-Cập nhật dữ liệu bằng `node scripts/import-onomatopoeia.mjs`, hoặc truyền đường dẫn bản JSON khách đã tải làm đối số. Script kiểm tra dữ liệu trước khi ghi và lưu URL nguồn, thời điểm nhập, số mục bị khóa. Tiến độ đánh dấu đã thuộc lưu riêng tại `jlptn3:v1:onomatopoeia-learned` trong localStorage. Tìm kiếm hỗ trợ tiếng Việt không dấu và đối chiếu Hiragana/Katakana.
+Cập nhật hoặc kiểm tra dữ liệu bằng `node scripts/validate-onomatopoeia.mjs <file.json>`. Script kiểm tra schema, cấu trúc câu hỏi, âm đọc và các cặp hội thoại trước khi áp dụng. Tiến độ học và đánh dấu từ đã thuộc được lưu tại `jlptn3:v1:onomatopoeia-completed-lessons` và `jlptn3:v1:onomatopoeia-learned` trong localStorage. Tìm kiếm hỗ trợ tiếng Việt không dấu và đối chiếu Hiragana/Katakana.
 
 | Loại dữ liệu | Nơi lưu |
 | --- | --- |
