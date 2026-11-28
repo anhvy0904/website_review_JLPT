@@ -1,5 +1,65 @@
 [
   {
+    "id": "n3-2010-12",
+    "title": "JLPT N3 – Tháng 12/2010 (2010年第2回)",
+    "description": "Đề theo PDF người dùng cung cấp. 35 câu 文字・語彙, 23 câu 文法 và 16 câu 読解; không có nghe hiểu. Bài đọc và bảng thông tin được chép vào passages, mỗi câu liên kết bằng passageId. Giải thích Nhật–Việt, phân tích 4 lựa chọn, từ vựng và mẫu ngữ pháp. Đáp án do AI giải, chưa có bảng đáp án gốc.",
+    "level": "N3",
+    "status": "draft",
+    "questionCount": 74,
+    "timeLimitMinutes": 100,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ],
+    "sectionCounts": {
+      "vocabulary": 35,
+      "grammar": 23,
+      "reading": 16
+    },
+    "subtypes": [
+      "kanji_reading",
+      "orthography",
+      "contextual_expression",
+      "paraphrase",
+      "usage",
+      "grammar_choice",
+      "sentence_composition",
+      "text_grammar",
+      "short_reading",
+      "medium_reading",
+      "long_reading",
+      "information_search"
+    ],
+    "tags": [
+      "Từ vựng N3",
+      "Chữ Hán – cách đọc",
+      "Chữ Hán – cách viết",
+      "Từ vựng theo ngữ cảnh",
+      "Từ tượng hình",
+      "Từ gần nghĩa",
+      "Cách sử dụng từ",
+      "Ngữ pháp N3",
+      "Chọn ngữ pháp",
+      "Kính ngữ – khiêm nhường ngữ",
+      "Sắp xếp câu ★",
+      "Ngữ pháp đoạn văn",
+      "Đọc hiểu N3",
+      "Đoạn ngắn",
+      "Đoạn trung bình",
+      "Đoạn dài",
+      "Tìm kiếm thông tin"
+    ],
+    "hasUnverifiedAnswers": true,
+    "stats": {
+      "questionsWithText": 74,
+      "verifiedQuestions": 0,
+      "totalQuestions": 74,
+      "passagesWithText": 9,
+      "totalPassages": 9
+    },
+    "lastUpdated": "2026-11-28"
+  },
+  {
     "id": "n3-2021-12",
     "title": "JLPT N3 — Tháng 12/2021 (không nghe)",
     "description": "Bản nhập dữ liệu học JLPT N3: từ vựng, ngữ pháp và đọc hiểu. Không có nghe hiểu; cần kiểm duyệt trước khi xuất bản.",

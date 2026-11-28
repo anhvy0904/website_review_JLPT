@@ -1,0 +1,5431 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "n3-2010-12",
+  "title": "JLPT N3 – Tháng 12/2010 (2010年第2回)",
+  "description": "Đề theo PDF người dùng cung cấp. 35 câu 文字・語彙, 23 câu 文法 và 16 câu 読解; không có nghe hiểu. Bài đọc và bảng thông tin được chép vào passages, mỗi câu liên kết bằng passageId. Giải thích Nhật–Việt, phân tích 4 lựa chọn, từ vựng và mẫu ngữ pháp. Đáp án do AI giải, chưa có bảng đáp án gốc.",
+  "level": "N3",
+  "status": "draft",
+  "source": {
+    "fileName": "N3・2010年12月 (Ánh sensei).pdf",
+    "type": "past_exam",
+    "notes": "PDF 30 trang, bìa ghi 2010-2. Chưa xác minh độc lập nguồn xuất bản chính thức. Không có bảng đáp án hoặc phần nghe trong tệp. Đáp án, độ khó, trọng số 1 và lời giải là dữ liệu bổ sung do AI biên soạn; chưa duyệt bởi người. Thời gian theo bìa: 30 phút từ vựng và 70 phút ngữ pháp–đọc hiểu, tổng 100 phút. Tên bài đọc không có tiêu đề gốc được đặt theo nội dung để dễ tra cứu. Số câu giữ theo đề gốc, phần ngữ pháp và đọc hiểu dùng chung dãy 1–39; các ID duy nhất. Dấu gạch chân chuyển thành __từ__, chỗ trống sắp xếp câu thành ＿＿ ＿＿ ★ ＿＿. Bảng trang 30 chuyển thành văn bản có dấu ｜ phân cột. Quyền công bố lại đề chưa được xác nhận.",
+    "reviewedByHuman": false
+  },
+  "settings": {
+    "timeLimitMinutes": 100,
+    "allowedModes": [
+      "practice",
+      "exam"
+    ]
+  },
+  "passages": [
+    {
+      "id": "n3-2010-12-p-g03",
+      "title": "100円は安い？",
+      "text": "これは、日本で生活しているマリアさんが、「日本で買い物をして感じたこと」について書いた作文です。\n\n100円は安い？\nマリア\n\n私はよく100円ショップで買い物をします。100円ショップ【19-a】、何でも100円で【19-b】。\n\n100円ショップでは、化粧品、食べ物、食器、衣類、文房具など、何でも100円で買うことができます。それに100円とは思えないような、便利な物やかわいい物ばかりで、いつもいろいろほしくなってすぐ買ってしまいます。\n\nしかし最近、たった100円で安いからという理由で何でも買ってしまうのは、間違っていたのではないかと思い始めました。部屋の中に、100円ショップで買ったのに、使っていない物がいくつかあることに【20】。\n\n100円で安いと思って買った物でも、使わなければ100円を捨てたのと同じです。例えば、100円あれば、小学生なら電車で約10km先まで行けます。歩けば何時間もかかる距離です。50円の葉書【21】二枚買えます。友だち二人に葉書を送ったら、喜んでもらえるかもしれません。【22】、100円には大きな価値があると言えます。\n\n100円ショップは便利ですから、これからも利用するつもりです。しかし、100円の価値を忘れず、ほしいと思ったらすぐ買うのではなく、必要かどうかをよく考えてから、【23】と思っています。",
+      "imagePath": "",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "n3-2010-12-p-r04-01",
+      "title": "山中歴史博物館",
+      "text": "これは、ある博物館の紹介文である。\n\n山中歴史博物館は、山中公園の中にあります。山中町駅から山中公園の入り口までは徒歩10分、そこから山中歴史博物館まで徒歩10分です。\n\n山中歴史博物館の建物には100年以上の歴史があります。今から約20年前、博物館の周りに山中公園が作られました。\n\n博物館には、現在日本に残っている鏡の中で最も古いものがあります。この鏡は中国で作られました。鏡は、毎年1月から3月の特別展覧会で見ることができます。",
+      "imagePath": "",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "n3-2010-12-p-r04-02",
+      "title": "お誕生日サービス",
+      "text": "これは、あるレストランの誕生日サービスについての広告である。\n\nお誕生日サービス\n～ お誕生日を レストラン青木で ～\n\nお誕生日のお祝いに、お食事やパーティーでご来店の場合、みなさまにお飲み物をお一人さま1杯ずつサービスいたします。コーヒー、紅茶、オレンジジュースの中から、お好きなものをお選びください。また、人数分のケーキもサービスいたします。\n\n※サービス利用期間：お誕生日の前後1週間\n※ご利用日の1週間前までに、お電話でお申し込みください。\n※ご来店時に、お誕生日を証明するものをお持ちください。\nレストラン青木\n電話：01-2345-6789",
+      "imagePath": "",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "n3-2010-12-p-r04-03",
+      "title": "あなたは本を読んでいますか？",
+      "text": "これは、ある調査についての記事である。\n\nあなたは本を読んでいますか？\n\nある書店が毎年行っている「1か月間の読書量調査」の、今年の結果が報告された。その報告によると、1か月間に本を「読まなかった人」の割合（51％）は全体では去年より減少した。\n\n「読まなかった」と答えた人の割合をそれぞれの年齢で見てみると、去年より増えたのは20歳代と70歳以上であった。特に20歳代では、調査開始以来、毎年増え続けている。\n\nこれに対して30歳代、40歳代、50歳代、60歳代では、去年より減少した。",
+      "imagePath": "",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "n3-2010-12-p-r04-04",
+      "title": "東京ホテル 料金割引のご案内",
+      "text": "これは、あるホテルから山田さんに届いたメールである。\n\nあて先:s.yamada@232mail.com\n件名:東京ホテル 料金割引のご案内\n送信日時:2011年2月1日 16:20\n\n山田真二 様\n\nいつもご利用ありがとうございます。\n現在、東京ホテルでは、インターネット予約割引サービスを行っております。\n\nインターネットで予約され、2月28日までにお泊まりの方は、1泊の料金を10％割引し、ご朝食を無料にいたします。\nこの割引をご利用になれるお部屋は一日10室だけですので、お早めにご予約ください。\nなお、このサービスは、電話、ファックスでご予約の場合はご利用できません。\nご予約を心よりお待ちしております。\n\n東京ホテル お客様サービス係",
+      "imagePath": "",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "n3-2010-12-p-r05-01",
+      "title": "小学校のクラス会",
+      "text": "昨日、小学校のクラス会に行きました。50年前に卒業してから初めて開かれたクラス会でした。子どもだったみんなも、もう60歳を過ぎているので、顔を見ても①だれがだれだかわかりません。それで、話をする時は、まず始めに、相手の名前を聞かなければなりませんでした。\n\n一人の女の人がわたしに話しかけてきました。\n「田中春子さんですよね？」\n「はい、失礼ですが、お名前は？」\n\nその女の人は、昔の小学校のクラス写真を見せて、そこに写っている一人を指して、言いました。\n「わたしは、これよ。」\n「あっ。す、すみません。」\n\nその女の人は、小学校6年の時のクラス担任の先生でした。わたしは先生に、何度も②「すみません。」と言いました。先生は「うれしいですよ。間違えてくれて。」と笑いました。先生は、何か社会のためになることをしたいと思って、75歳の今でも、近所の子どもたちに無料の絵画教室を開いているそうです。それで、同級生と間違えるほど、お元気で若く見えるのだと思いました。私も先生を目標にして、毎日を過ごしていきたいと思います。",
+      "imagePath": "",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "n3-2010-12-p-r05-02",
+      "title": "電気製品と便利さ",
+      "text": "日本では電気製品がどんどん新しくなって、生活はとても便利になったと言われている。パソコンを使えば家にいても買い物ができるし、携帯電話でもメールやインターネットが使えて、お金を支払うことも可能である。製品を作った会社は、新しい製品はいろいろなことができるから、これまでより便利になったと宣伝し、わたしたちもそう感じさせられている。\n\nしかし、わたしたちは新しい製品を上手に使えているだろうか。携帯電話もテレビも、ボタンの数が増えて、どれを押したらいいのかよくわからないことがある。以前の製品の方が単純で使い方がわかりやすかったかもしれない。\n\n会社は、新しい製品を作るとき、いろいろなことができるようにすることを第一にして使いやすさのことはあまり考えてこなかったようだ。つまり、製品は進歩してきたが、使い方は複雑になってしまったのだ。\n\nわたしは、これでは本当に生活が便利になったとは言えないと思う。",
+      "imagePath": "",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "n3-2010-12-p-r06",
+      "title": "1000円カットの店",
+      "text": "先日、会社の近くにある①1000円カットの店へ髪を切りに行ってみた。\n\n最近、あちこちにある1000円カットの店は、たった10分で髪を切ってくれるし安いので、忙しい人や髪を切るのにお金をかけたくない人には人気がある。しかし、このような店はたいてい男性客が多くて、わたしたち女性はちょっと入りにくい。\n\nでも、先日行った店は、いつ見ても大勢の女性客が入っていた。入るかどうか迷ったが、先月は仕事が忙しくて、いつもの美容院へ行く時間がなかったので、この店に行くことにしたのだ。わたしがいつも行く美容院はカットとシャンプー（注）で5800円だ。1000円カットの店は、②どうしてこんなに安くできるのだろうか。\n\n店の人によると、この値段で店を経営していくためには、家賃が安いところを借りることが一番大切なのだそうだ。そして、シャンプーやひげそりをやめて、短い時間で多くの人をカットすれば、1000円でも十分に経営していける。一日に大勢の客を相手にするので、カットの技術もすぐに上がるそうだ。\n\nしかし、平日の昼間は会社員の客が少なくなる。そこで、女性客にも来店してもらうため、壁を明るく優しい色に変えたり、女性だけが使える割引券を配ったり、店に置いておく女性向けの雑誌の種類を増やしたそうだ。特に効果があったのは、店の中に子どもが遊べる場所を作ったことで、子どもを連れた女性客が少しずつ増えていったそうだ。\n\nわたしは、店に行く前はちょっと心配だった。しかし、カットの技術もかなり満足できるものだったので、忙しいときはこちらの店でもいいと今では思っている。\n\n（注）シャンプー：髪を洗うこと",
+      "imagePath": "",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "id": "n3-2010-12-p-r07",
+      "title": "日本文化教室のご案内",
+      "text": "日本文化教室のご案内\n【期間（前期）】4月13日（月）～7月31日（金）\n【場所】山田市文化会館\n\n【教室の案内】\n教室名｜曜日｜時間｜定員\n柔道｜月・木｜18:30～20:00｜20名\n踊り｜火・土｜18:30～20:00｜20名\n折り紙｜火｜18:30～20:00｜20名\nお茶｜金｜18:30～20:00｜15名\nお花｜土｜14:30～16:30｜15名\n日本料理｜第一・第三日曜日｜15:00～18:00｜20名\n＊週2回ある教室は両方の曜日に参加してください。\n\n【参加料（前期分）】\n教室｜大人｜学生（高校生以上）\n週2回の教室｜7000円｜5000円\n週1回の教室｜4000円｜3000円\nお花・日本料理の教室｜8000円（材料費込み）\n・上の料金は前期分の合計です。\n\n【申し込み期間・方法】\n・3月2日（月）～4月2日（木）（定員になれば受け付け終了）\n・文化会館事務室で申し込み用紙に記入して、参加料を支払ってください。\n\n【その他】\n・教室で使用する道具は、文化会館に用意してあります。\n・柔道の教室で着る柔道着は自分で準備してください。会館でも売っています。\n山田市文化会館\n〒987-6543 山田市わかば1-2-3\n電話:012-345-6789",
+      "imagePath": "",
+      "reviewStatus": "needs_review"
+    }
+  ],
+  "questions": [
+    {
+      "id": "n3-2010-12-voc-001",
+      "number": 1,
+      "section": "vocabulary",
+      "mondai": "Mondai 1",
+      "subtype": "kanji_reading",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "この飛行機には、もう__空席__がありません。",
+      "options": [
+        {
+          "id": "1",
+          "text": "そらせき"
+        },
+        {
+          "id": "2",
+          "text": "そらぜき"
+        },
+        {
+          "id": "3",
+          "text": "くうせき"
+        },
+        {
+          "id": "4",
+          "text": "くうぜき"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách đọc"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: くうせき.",
+        "correctReasonVi": "空 đọc âm On là くう, 席 là せき; 空席 chỉ chỗ còn trống.",
+        "optionReasonsVi": {
+          "1": "SAI: 空 không đọc そら trong từ ghép này",
+          "2": "SAI: Sai cả cách đọc 空 và 席",
+          "3": "ĐÚNG: Đúng âm くうせき",
+          "4": "SAI: 席 không biến âm thành ぜき trong từ này"
+        },
+        "translationVi": "Máy bay này không còn ghế trống nữa.",
+        "vocabulary": [
+          {
+            "word": "空席",
+            "hiragana": "くうせき",
+            "meaningVi": "ghế trống"
+          },
+          {
+            "word": "飛行機",
+            "hiragana": "ひこうき",
+            "meaningVi": "máy bay"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nがありません",
+            "meaningVi": "Không có N",
+            "exampleJa": "空席がありません。",
+            "exampleVi": "Không có ghế trống."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Chú ý cách đọc âm On trong từ ghép."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-002",
+      "number": 2,
+      "section": "vocabulary",
+      "mondai": "Mondai 1",
+      "subtype": "kanji_reading",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "夏休みに__夫婦__で旅行をした。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ふふ"
+        },
+        {
+          "id": "2",
+          "text": "ふふう"
+        },
+        {
+          "id": "3",
+          "text": "ふうふ"
+        },
+        {
+          "id": "4",
+          "text": "ふうふう"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách đọc"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: ふうふ.",
+        "correctReasonVi": "夫婦 đọc ふうふ; âm dài nằm ở ふう đầu.",
+        "optionReasonsVi": {
+          "1": "SAI: Thiếu âm dài ở 夫",
+          "2": "SAI: Đặt âm dài nhầm vào 婦",
+          "3": "ĐÚNG: Đúng cách đọc",
+          "4": "SAI: Thêm âm dài không có ở 婦"
+        },
+        "translationVi": "Vợ chồng tôi đã đi du lịch vào kỳ nghỉ hè.",
+        "vocabulary": [
+          {
+            "word": "夫婦",
+            "hiragana": "ふうふ",
+            "meaningVi": "vợ chồng"
+          },
+          {
+            "word": "夏休み",
+            "hiragana": "なつやすみ",
+            "meaningVi": "kỳ nghỉ hè"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nで",
+            "meaningVi": "Chỉ nhóm người cùng thực hiện hành động",
+            "exampleJa": "家族で旅行した。",
+            "exampleVi": "Cả gia đình đã đi du lịch."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Nhớ ふうふ, không kéo dài âm cuối."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-003",
+      "number": 3,
+      "section": "vocabulary",
+      "mondai": "Mondai 1",
+      "subtype": "kanji_reading",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "30分待って、わたしの__順番__が来ました。",
+      "options": [
+        {
+          "id": "1",
+          "text": "しゅうばん"
+        },
+        {
+          "id": "2",
+          "text": "じゅうばん"
+        },
+        {
+          "id": "3",
+          "text": "しゅんばん"
+        },
+        {
+          "id": "4",
+          "text": "じゅんばん"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách đọc"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: じゅんばん.",
+        "correctReasonVi": "順 có âm じゅん, 番 là ばん.",
+        "optionReasonsVi": {
+          "1": "SAI: 順 không đọc しゅう",
+          "2": "SAI: Sai phần cuối của âm 順",
+          "3": "SAI: Thiếu âm đục じゅ",
+          "4": "ĐÚNG: Đúng âm じゅんばん"
+        },
+        "translationVi": "Sau khi chờ 30 phút, đã đến lượt tôi.",
+        "vocabulary": [
+          {
+            "word": "順番",
+            "hiragana": "じゅんばん",
+            "meaningVi": "thứ tự, lượt"
+          },
+          {
+            "word": "待つ",
+            "hiragana": "まつ",
+            "meaningVi": "chờ"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vて",
+            "meaningVi": "Nối các hành động theo trình tự",
+            "exampleJa": "少し待って、入りました。",
+            "exampleVi": "Tôi chờ một chút rồi vào."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Phân biệt じゅん và じゅう."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-004",
+      "number": 4,
+      "section": "vocabulary",
+      "mondai": "Mondai 1",
+      "subtype": "kanji_reading",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "去年、この会社は海外に工場を__移した__。",
+      "options": [
+        {
+          "id": "1",
+          "text": "もどした"
+        },
+        {
+          "id": "2",
+          "text": "うつした"
+        },
+        {
+          "id": "3",
+          "text": "わたした"
+        },
+        {
+          "id": "4",
+          "text": "かえした"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách đọc"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: うつした.",
+        "correctReasonVi": "移した là quá khứ của 移す, nghĩa là chuyển địa điểm.",
+        "optionReasonsVi": {
+          "1": "SAI: 戻した: đưa trở lại",
+          "2": "ĐÚNG: Đúng cách đọc của 移した",
+          "3": "SAI: 渡した: trao, giao",
+          "4": "SAI: 返した: trả lại"
+        },
+        "translationVi": "Năm ngoái công ty này đã chuyển nhà máy ra nước ngoài.",
+        "vocabulary": [
+          {
+            "word": "移す",
+            "hiragana": "うつす",
+            "meaningVi": "chuyển, dời"
+          },
+          {
+            "word": "海外",
+            "hiragana": "かいがい",
+            "meaningVi": "nước ngoài"
+          },
+          {
+            "word": "工場",
+            "hiragana": "こうじょう",
+            "meaningVi": "nhà máy"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "NにNを移す",
+            "meaningVi": "Chuyển N đến nơi nào đó",
+            "exampleJa": "事務所を東京に移した。",
+            "exampleVi": "Đã chuyển văn phòng đến Tokyo."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Nhớ cặp 移す và 移る."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-005",
+      "number": 5,
+      "section": "vocabulary",
+      "mondai": "Mondai 1",
+      "subtype": "kanji_reading",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "__失業__していた友達が、新しい仕事を見つけた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "しぎょ"
+        },
+        {
+          "id": "2",
+          "text": "しぎょう"
+        },
+        {
+          "id": "3",
+          "text": "しつぎょ"
+        },
+        {
+          "id": "4",
+          "text": "しつぎょう"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách đọc"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: しつぎょう.",
+        "correctReasonVi": "失 là しつ, 業 là ぎょう.",
+        "optionReasonsVi": {
+          "1": "SAI: Thiếu つ và âm dài",
+          "2": "SAI: Thiếu つ",
+          "3": "SAI: Thiếu âm dài cuối",
+          "4": "ĐÚNG: Đúng âm しつぎょう"
+        },
+        "translationVi": "Người bạn từng thất nghiệp đã tìm được việc làm mới.",
+        "vocabulary": [
+          {
+            "word": "失業",
+            "hiragana": "しつぎょう",
+            "meaningVi": "thất nghiệp"
+          },
+          {
+            "word": "見つける",
+            "hiragana": "みつける",
+            "meaningVi": "tìm thấy"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vていた",
+            "meaningVi": "Trạng thái kéo dài trong quá khứ",
+            "exampleJa": "以前は働いていた。",
+            "exampleVi": "Trước đây từng đi làm."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "業 thường đọc ぎょう trong từ ghép."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-006",
+      "number": 6,
+      "section": "vocabulary",
+      "mondai": "Mondai 1",
+      "subtype": "kanji_reading",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "前田さんは足を__組んで__座っていた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "くんで"
+        },
+        {
+          "id": "2",
+          "text": "ふんで"
+        },
+        {
+          "id": "3",
+          "text": "つかんで"
+        },
+        {
+          "id": "4",
+          "text": "たたんで"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách đọc"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: くんで.",
+        "correctReasonVi": "組んで là thể て của 組む, 足を組む là vắt chéo chân.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng thể て của 組む",
+          "2": "SAI: 踏んで: giẫm lên",
+          "3": "SAI: つかんで: nắm lấy",
+          "4": "SAI: たたんで: gấp lại"
+        },
+        "translationVi": "Anh Maeda đang ngồi vắt chéo chân.",
+        "vocabulary": [
+          {
+            "word": "組む",
+            "hiragana": "くむ",
+            "meaningVi": "kết hợp, bắt chéo"
+          },
+          {
+            "word": "座る",
+            "hiragana": "すわる",
+            "meaningVi": "ngồi"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vて座る",
+            "meaningVi": "Ngồi trong tư thế được mô tả",
+            "exampleJa": "足を伸ばして座る。",
+            "exampleVi": "Ngồi duỗi chân."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Động từ đuôi む chuyển thành んで."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-007",
+      "number": 7,
+      "section": "vocabulary",
+      "mondai": "Mondai 1",
+      "subtype": "kanji_reading",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "大きく__息__を吸ってください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "いいぎ"
+        },
+        {
+          "id": "2",
+          "text": "いぎ"
+        },
+        {
+          "id": "3",
+          "text": "いいき"
+        },
+        {
+          "id": "4",
+          "text": "いき"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách đọc"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: いき.",
+        "correctReasonVi": "息 khi đứng độc lập đọc いき.",
+        "optionReasonsVi": {
+          "1": "SAI: Thừa âm い và sai âm cuối",
+          "2": "SAI: Sai âm cuối",
+          "3": "SAI: Thừa âm い",
+          "4": "ĐÚNG: Đúng cách đọc"
+        },
+        "translationVi": "Hãy hít một hơi thật sâu.",
+        "vocabulary": [
+          {
+            "word": "息",
+            "hiragana": "いき",
+            "meaningVi": "hơi thở"
+          },
+          {
+            "word": "吸う",
+            "hiragana": "すう",
+            "meaningVi": "hít, hút"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vてください",
+            "meaningVi": "Hãy làm V",
+            "exampleJa": "息を吐いてください。",
+            "exampleVi": "Hãy thở ra."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "息を吸う và 息を吐く là hai cụm thường gặp."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-008",
+      "number": 8,
+      "section": "vocabulary",
+      "mondai": "Mondai 1",
+      "subtype": "kanji_reading",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "おばは__苦労__して三人の子どもを育てた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "くろう"
+        },
+        {
+          "id": "2",
+          "text": "くのう"
+        },
+        {
+          "id": "3",
+          "text": "ぐろう"
+        },
+        {
+          "id": "4",
+          "text": "ぐのう"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách đọc"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: くろう.",
+        "correctReasonVi": "苦 đọc く, 労 đọc ろう.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng âm くろう",
+          "2": "SAI: 労 không đọc のう",
+          "3": "SAI: 苦 không đọc ぐ",
+          "4": "SAI: Sai cả hai âm"
+        },
+        "translationVi": "Dì tôi đã vất vả nuôi ba người con.",
+        "vocabulary": [
+          {
+            "word": "苦労",
+            "hiragana": "くろう",
+            "meaningVi": "vất vả"
+          },
+          {
+            "word": "育てる",
+            "hiragana": "そだてる",
+            "meaningVi": "nuôi dưỡng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vて",
+            "meaningVi": "Chỉ cách thức hoặc hoàn cảnh hành động",
+            "exampleJa": "苦労して育てた。",
+            "exampleVi": "Đã vất vả nuôi dưỡng."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "苦労 khác 苦悩（くのう: đau khổ tinh thần）."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 3/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-009",
+      "number": 9,
+      "section": "vocabulary",
+      "mondai": "Mondai 2",
+      "subtype": "orthography",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "試験の__せいせき__がよかったので、うれしい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "性積"
+        },
+        {
+          "id": "2",
+          "text": "性績"
+        },
+        {
+          "id": "3",
+          "text": "成積"
+        },
+        {
+          "id": "4",
+          "text": "成績"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách viết"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 成績.",
+        "correctReasonVi": "成績 là cách viết đúng cho kết quả học tập.",
+        "optionReasonsVi": {
+          "1": "SAI: 性 chỉ tính chất, 積 chỉ tích lũy",
+          "2": "SAI: 性 không phải 成",
+          "3": "SAI: 積 không phải 績",
+          "4": "ĐÚNG: Đúng từ chỉ thành tích"
+        },
+        "translationVi": "Tôi vui vì kết quả kỳ thi tốt.",
+        "vocabulary": [
+          {
+            "word": "成績",
+            "hiragana": "せいせき",
+            "meaningVi": "thành tích, điểm số"
+          },
+          {
+            "word": "試験",
+            "hiragana": "しけん",
+            "meaningVi": "kỳ thi"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "～ので",
+            "meaningVi": "Vì, do",
+            "exampleJa": "成績がよかったので、安心した。",
+            "exampleVi": "Vì điểm tốt nên tôi yên tâm."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Nhớ 成功 và 成績 dùng 成."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-010",
+      "number": 10,
+      "section": "vocabulary",
+      "mondai": "Mondai 2",
+      "subtype": "orthography",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "佐藤さんは、いろいろな__がっき__が弾けます。",
+      "options": [
+        {
+          "id": "1",
+          "text": "楽器"
+        },
+        {
+          "id": "2",
+          "text": "音器"
+        },
+        {
+          "id": "3",
+          "text": "楽具"
+        },
+        {
+          "id": "4",
+          "text": "音具"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách viết"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: 楽器.",
+        "correctReasonVi": "楽器 là từ chuẩn chỉ nhạc cụ.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng cách viết",
+          "2": "SAI: 音器 không phải cách viết thông dụng của がっき",
+          "3": "SAI: 楽具 không phải từ cần tìm",
+          "4": "SAI: 音具 không phải cách viết がっき"
+        },
+        "translationVi": "Anh Sato có thể chơi nhiều loại nhạc cụ.",
+        "vocabulary": [
+          {
+            "word": "楽器",
+            "hiragana": "がっき",
+            "meaningVi": "nhạc cụ"
+          },
+          {
+            "word": "弾く",
+            "hiragana": "ひく",
+            "meaningVi": "chơi nhạc cụ dây hoặc phím"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "V可能形",
+            "meaningVi": "Có thể làm V",
+            "exampleJa": "ピアノが弾けます。",
+            "exampleVi": "Có thể chơi piano."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "楽器 dùng 楽 và 器."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-011",
+      "number": 11,
+      "section": "vocabulary",
+      "mondai": "Mondai 2",
+      "subtype": "orthography",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "__せんもんか__が指導してくれた。",
+      "options": [
+        {
+          "id": "1",
+          "text": "専問家"
+        },
+        {
+          "id": "2",
+          "text": "専門家"
+        },
+        {
+          "id": "3",
+          "text": "選問家"
+        },
+        {
+          "id": "4",
+          "text": "選門家"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách viết"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 専門家.",
+        "correctReasonVi": "専門 là chuyên môn, 家 chỉ người có chuyên môn.",
+        "optionReasonsVi": {
+          "1": "SAI: 問 không phải 門",
+          "2": "ĐÚNG: Đúng cách viết",
+          "3": "SAI: 選 và 問 đều sai",
+          "4": "SAI: 選 không phải 専"
+        },
+        "translationVi": "Chuyên gia đã hướng dẫn tôi.",
+        "vocabulary": [
+          {
+            "word": "専門家",
+            "hiragana": "せんもんか",
+            "meaningVi": "chuyên gia"
+          },
+          {
+            "word": "指導",
+            "hiragana": "しどう",
+            "meaningVi": "hướng dẫn"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vてくれる",
+            "meaningVi": "Ai đó làm V cho mình",
+            "exampleJa": "先生が教えてくれた。",
+            "exampleVi": "Thầy đã dạy tôi."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "専門 dùng 門, không dùng 問."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-012",
+      "number": 12,
+      "section": "vocabulary",
+      "mondai": "Mondai 2",
+      "subtype": "orthography",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "この高校の生徒は__せいふく__を着なければなりません。",
+      "options": [
+        {
+          "id": "1",
+          "text": "製報"
+        },
+        {
+          "id": "2",
+          "text": "制服"
+        },
+        {
+          "id": "3",
+          "text": "製服"
+        },
+        {
+          "id": "4",
+          "text": "制報"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách viết"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 制服.",
+        "correctReasonVi": "制服 là trang phục được quy định.",
+        "optionReasonsVi": {
+          "1": "SAI: 製 và 報 sai",
+          "2": "ĐÚNG: Đúng cách viết",
+          "3": "SAI: 製 không phải 制",
+          "4": "SAI: 報 không phải 服"
+        },
+        "translationVi": "Học sinh trường cấp ba này phải mặc đồng phục.",
+        "vocabulary": [
+          {
+            "word": "制服",
+            "hiragana": "せいふく",
+            "meaningVi": "đồng phục"
+          },
+          {
+            "word": "生徒",
+            "hiragana": "せいと",
+            "meaningVi": "học sinh"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vなければならない",
+            "meaningVi": "Phải làm V",
+            "exampleJa": "制服を着なければならない。",
+            "exampleVi": "Phải mặc đồng phục."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "制 là quy định, 服 là quần áo."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-013",
+      "number": 13,
+      "section": "vocabulary",
+      "mondai": "Mondai 2",
+      "subtype": "orthography",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "コートの__うちがわ__にポケットがついています。",
+      "options": [
+        {
+          "id": "1",
+          "text": "中側"
+        },
+        {
+          "id": "2",
+          "text": "内測"
+        },
+        {
+          "id": "3",
+          "text": "内側"
+        },
+        {
+          "id": "4",
+          "text": "中測"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách viết"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: 内側.",
+        "correctReasonVi": "内側 là phía bên trong; 側 chỉ phía, bên.",
+        "optionReasonsVi": {
+          "1": "SAI: 中 không phải chữ cần dùng",
+          "2": "SAI: 測 là đo lường",
+          "3": "ĐÚNG: Đúng cách viết",
+          "4": "SAI: Sai cả hai chữ"
+        },
+        "translationVi": "Bên trong áo khoác có túi.",
+        "vocabulary": [
+          {
+            "word": "内側",
+            "hiragana": "うちがわ",
+            "meaningVi": "phía trong"
+          },
+          {
+            "word": "ポケット",
+            "hiragana": "ぽけっと",
+            "meaningVi": "túi"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vている",
+            "meaningVi": "Trạng thái hiện hữu",
+            "exampleJa": "ボタンがついている。",
+            "exampleVi": "Có gắn cúc áo."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Nhớ cặp 内側／外側."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-014",
+      "number": 14,
+      "section": "vocabulary",
+      "mondai": "Mondai 2",
+      "subtype": "orthography",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "休みの日は家で__すごしました__。",
+      "options": [
+        {
+          "id": "1",
+          "text": "過ごしました"
+        },
+        {
+          "id": "2",
+          "text": "速ごしました"
+        },
+        {
+          "id": "3",
+          "text": "適ごしました"
+        },
+        {
+          "id": "4",
+          "text": "追ごしました"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Chữ Hán – cách viết"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: 過ごしました.",
+        "correctReasonVi": "過ごす dùng để nói cách trải qua thời gian.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng cách viết",
+          "2": "SAI: 速 chỉ nhanh",
+          "3": "SAI: 適 chỉ thích hợp",
+          "4": "SAI: 追 chỉ đuổi theo"
+        },
+        "translationVi": "Ngày nghỉ tôi đã ở nhà.",
+        "vocabulary": [
+          {
+            "word": "過ごす",
+            "hiragana": "すごす",
+            "meaningVi": "trải qua, dành thời gian"
+          },
+          {
+            "word": "休み",
+            "hiragana": "やすみ",
+            "meaningVi": "ngày nghỉ"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nで過ごす",
+            "meaningVi": "Dành thời gian ở N",
+            "exampleJa": "休日を家で過ごす。",
+            "exampleVi": "Dành ngày nghỉ ở nhà."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Nhớ 時間を過ごす."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 4/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-015",
+      "number": 15,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "かぜをひいたときは（　）薬を飲んだほうがいいですよ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "急に"
+        },
+        {
+          "id": "2",
+          "text": "あわてて"
+        },
+        {
+          "id": "3",
+          "text": "早めに"
+        },
+        {
+          "id": "4",
+          "text": "さかんに"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: 早めに.",
+        "correctReasonVi": "早めに diễn tả làm sớm để xử lý tình trạng.",
+        "optionReasonsVi": {
+          "1": "SAI: 急に: đột nhiên",
+          "2": "SAI: あわてて: cuống cuồng",
+          "3": "ĐÚNG: Đúng, uống sớm là lời khuyên",
+          "4": "SAI: さかんに: sôi nổi, tích cực"
+        },
+        "translationVi": "Khi bị cảm, bạn nên uống thuốc sớm.",
+        "vocabulary": [
+          {
+            "word": "早めに",
+            "hiragana": "はやめに",
+            "meaningVi": "sớm hơn, sớm một chút"
+          },
+          {
+            "word": "薬",
+            "hiragana": "くすり",
+            "meaningVi": "thuốc"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vたほうがいい",
+            "meaningVi": "Nên làm V",
+            "exampleJa": "早く寝たほうがいい。",
+            "exampleVi": "Nên ngủ sớm."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Chọn phó từ phù hợp mục đích lời khuyên."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-016",
+      "number": 16,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "せっけんの（　）が手についているよ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "どろ"
+        },
+        {
+          "id": "2",
+          "text": "しみ"
+        },
+        {
+          "id": "3",
+          "text": "きず"
+        },
+        {
+          "id": "4",
+          "text": "あわ"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: あわ.",
+        "correctReasonVi": "せっけんのあわ là bọt xà phòng.",
+        "optionReasonsVi": {
+          "1": "SAI: どろ: bùn",
+          "2": "SAI: しみ: vết ố",
+          "3": "SAI: きず: vết thương",
+          "4": "ĐÚNG: Đúng, bọt xà phòng"
+        },
+        "translationVi": "Bọt xà phòng đang dính trên tay bạn kìa.",
+        "vocabulary": [
+          {
+            "word": "あわ",
+            "hiragana": "あわ",
+            "meaningVi": "bọt"
+          },
+          {
+            "word": "せっけん",
+            "hiragana": "せっけん",
+            "meaningVi": "xà phòng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vている",
+            "meaningVi": "Trạng thái còn lại",
+            "exampleJa": "手に泥がついている。",
+            "exampleVi": "Tay đang dính bùn."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Học cụm từ theo danh từ đi kèm."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-017",
+      "number": 17,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "部屋に入るときはドアを（　）してください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ノック"
+        },
+        {
+          "id": "2",
+          "text": "カット"
+        },
+        {
+          "id": "3",
+          "text": "バック"
+        },
+        {
+          "id": "4",
+          "text": "セット"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: ノック.",
+        "correctReasonVi": "ドアをノックする là gõ cửa.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng kết hợp với ドア",
+          "2": "SAI: カット: cắt",
+          "3": "SAI: バック: lùi",
+          "4": "SAI: セット: đặt, lắp"
+        },
+        "translationVi": "Khi vào phòng, hãy gõ cửa.",
+        "vocabulary": [
+          {
+            "word": "ノック",
+            "hiragana": "のっく",
+            "meaningVi": "gõ cửa"
+          },
+          {
+            "word": "部屋",
+            "hiragana": "へや",
+            "meaningVi": "phòng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vるとき",
+            "meaningVi": "Khi làm V",
+            "exampleJa": "部屋に入るとき、ノックする。",
+            "exampleVi": "Gõ cửa khi vào phòng."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Ghi nhớ cụm ドアをノックする."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-018",
+      "number": 18,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "レポートを書くのに（　）しか、かからなかった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "半日"
+        },
+        {
+          "id": "2",
+          "text": "翌週"
+        },
+        {
+          "id": "3",
+          "text": "月末"
+        },
+        {
+          "id": "4",
+          "text": "年中"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: 半日.",
+        "correctReasonVi": "かかる cần lượng thời gian; 半日 là khoảng thời gian phù hợp.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, chỉ thời lượng",
+          "2": "SAI: 翌週 chỉ mốc tuần tiếp theo",
+          "3": "SAI: 月末 là cuối tháng",
+          "4": "SAI: 年中 là quanh năm, không hợp lượng thời gian trong câu"
+        },
+        "translationVi": "Viết báo cáo chỉ mất nửa ngày.",
+        "vocabulary": [
+          {
+            "word": "半日",
+            "hiragana": "はんにち",
+            "meaningVi": "nửa ngày"
+          },
+          {
+            "word": "翌週",
+            "hiragana": "よくしゅう",
+            "meaningVi": "tuần sau"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "～しか～ない",
+            "meaningVi": "Chỉ, không hơn",
+            "exampleJa": "一時間しかかからなかった。",
+            "exampleVi": "Chỉ mất một giờ."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Phân biệt thời lượng với thời điểm."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-019",
+      "number": 19,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "このお皿は割れやすいので、運ぶときはていねいに（　）ください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "応用して"
+        },
+        {
+          "id": "2",
+          "text": "愛用して"
+        },
+        {
+          "id": "3",
+          "text": "扱って"
+        },
+        {
+          "id": "4",
+          "text": "拾って"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: 扱って.",
+        "correctReasonVi": "ていねいに扱う là thao tác cẩn thận với vật dễ vỡ.",
+        "optionReasonsVi": {
+          "1": "SAI: 応用する: ứng dụng",
+          "2": "SAI: 愛用する: thường dùng vì yêu thích",
+          "3": "ĐÚNG: Đúng cách kết hợp",
+          "4": "SAI: 拾う: nhặt lên"
+        },
+        "translationVi": "Chiếc đĩa này dễ vỡ nên hãy cầm và xử lý cẩn thận khi vận chuyển.",
+        "vocabulary": [
+          {
+            "word": "扱う",
+            "hiragana": "あつかう",
+            "meaningVi": "xử lý, đối xử"
+          },
+          {
+            "word": "割れる",
+            "hiragana": "われる",
+            "meaningVi": "vỡ"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vます bỏ ます＋やすい",
+            "meaningVi": "Dễ làm V",
+            "exampleJa": "この皿は割れやすい。",
+            "exampleVi": "Đĩa này dễ vỡ."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Chú ý đối tượng của động từ."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-020",
+      "number": 20,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "この町は（　）人口の約40パーセントが大学生である。",
+      "options": [
+        {
+          "id": "1",
+          "text": "毎"
+        },
+        {
+          "id": "2",
+          "text": "両"
+        },
+        {
+          "id": "3",
+          "text": "各"
+        },
+        {
+          "id": "4",
+          "text": "全"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 全.",
+        "correctReasonVi": "全人口 là toàn bộ dân số làm mẫu số tính tỷ lệ.",
+        "optionReasonsVi": {
+          "1": "SAI: 毎: mỗi kỳ, không ghép như vậy",
+          "2": "SAI: 両: cả hai",
+          "3": "SAI: 各: mỗi, từng",
+          "4": "ĐÚNG: Đúng, toàn bộ"
+        },
+        "translationVi": "Khoảng 40% tổng dân số thị trấn này là sinh viên đại học.",
+        "vocabulary": [
+          {
+            "word": "全人口",
+            "hiragana": "ぜんじんこう",
+            "meaningVi": "tổng dân số"
+          },
+          {
+            "word": "約",
+            "hiragana": "やく",
+            "meaningVi": "khoảng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nの約～パーセント",
+            "meaningVi": "Khoảng bao nhiêu phần trăm của N",
+            "exampleJa": "人口の約半分。",
+            "exampleVi": "Khoảng một nửa dân số."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "全 mang nghĩa toàn bộ."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-021",
+      "number": 21,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "鈴木さんは海外で働きたいという（　）を持っているそうだ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "用意"
+        },
+        {
+          "id": "2",
+          "text": "希望"
+        },
+        {
+          "id": "3",
+          "text": "決心"
+        },
+        {
+          "id": "4",
+          "text": "想像"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 希望.",
+        "correctReasonVi": "希望を持つ phù hợp với mong muốn làm việc ở nước ngoài.",
+        "optionReasonsVi": {
+          "1": "SAI: 用意: chuẩn bị",
+          "2": "ĐÚNG: Đúng, nguyện vọng",
+          "3": "SAI: 決心 thường dùng 決心する và nhấn mạnh quyết định",
+          "4": "SAI: 想像: tưởng tượng"
+        },
+        "translationVi": "Nghe nói anh Suzuki có mong muốn làm việc ở nước ngoài.",
+        "vocabulary": [
+          {
+            "word": "希望",
+            "hiragana": "きぼう",
+            "meaningVi": "hy vọng, nguyện vọng"
+          },
+          {
+            "word": "海外",
+            "hiragana": "かいがい",
+            "meaningVi": "nước ngoài"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "～というN",
+            "meaningVi": "N có nội dung là…",
+            "exampleJa": "留学したいという希望。",
+            "exampleVi": "Nguyện vọng muốn du học."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Chú ý cụm 希望を持つ."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-022",
+      "number": 22,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "どちらのエアコンを買おうか、まだ（　）います。",
+      "options": [
+        {
+          "id": "1",
+          "text": "まよって"
+        },
+        {
+          "id": "2",
+          "text": "いのって"
+        },
+        {
+          "id": "3",
+          "text": "ねがって"
+        },
+        {
+          "id": "4",
+          "text": "うたがって"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: まよって.",
+        "correctReasonVi": "迷う diễn tả chưa quyết định giữa các lựa chọn.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, đang phân vân",
+          "2": "SAI: 祈る: cầu nguyện",
+          "3": "SAI: 願う: mong ước",
+          "4": "SAI: 疑う: nghi ngờ"
+        },
+        "translationVi": "Tôi vẫn đang phân vân nên mua chiếc điều hòa nào.",
+        "vocabulary": [
+          {
+            "word": "迷う",
+            "hiragana": "まよう",
+            "meaningVi": "phân vân, lạc đường"
+          },
+          {
+            "word": "エアコン",
+            "hiragana": "えあこん",
+            "meaningVi": "điều hòa"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "V意向形＋か",
+            "meaningVi": "Phân vân nên làm gì",
+            "exampleJa": "何を買おうか迷う。",
+            "exampleVi": "Phân vân nên mua gì."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "どちら và まだ là dấu hiệu chưa quyết định."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-023",
+      "number": 23,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "社長は電話中ですので、こちらで（　）お待ちください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "いつか"
+        },
+        {
+          "id": "2",
+          "text": "しばらく"
+        },
+        {
+          "id": "3",
+          "text": "いつのまにか"
+        },
+        {
+          "id": "4",
+          "text": "ひさしぶりに"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: しばらく.",
+        "correctReasonVi": "しばらくお待ちください là lời yêu cầu chờ lịch sự.",
+        "optionReasonsVi": {
+          "1": "SAI: いつか: một ngày nào đó",
+          "2": "ĐÚNG: Đúng, chờ một lát",
+          "3": "SAI: いつのまにか: lúc nào không hay",
+          "4": "SAI: ひさしぶりに: sau một thời gian dài"
+        },
+        "translationVi": "Giám đốc đang nghe điện thoại, xin quý khách chờ ở đây một lát.",
+        "vocabulary": [
+          {
+            "word": "しばらく",
+            "hiragana": "しばらく",
+            "meaningVi": "một lát, một thời gian"
+          },
+          {
+            "word": "電話中",
+            "hiragana": "でんわちゅう",
+            "meaningVi": "đang gọi điện"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "お＋Vます bỏ ます＋ください",
+            "meaningVi": "Xin vui lòng làm V",
+            "exampleJa": "お待ちください。",
+            "exampleVi": "Xin vui lòng chờ."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Học nguyên cụm lịch sự."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 5/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-024",
+      "number": 24,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "最近（　）がなくて、とても疲れやすい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "努力"
+        },
+        {
+          "id": "2",
+          "text": "体力"
+        },
+        {
+          "id": "3",
+          "text": "協力"
+        },
+        {
+          "id": "4",
+          "text": "実力"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 体力.",
+        "correctReasonVi": "体力 là sức lực của cơ thể, liên quan trực tiếp đến dễ mệt.",
+        "optionReasonsVi": {
+          "1": "SAI: 努力: nỗ lực",
+          "2": "ĐÚNG: Đúng, thể lực",
+          "3": "SAI: 協力: hợp tác",
+          "4": "SAI: 実力: năng lực thực tế"
+        },
+        "translationVi": "Gần đây tôi thiếu thể lực nên rất dễ mệt.",
+        "vocabulary": [
+          {
+            "word": "体力",
+            "hiragana": "たいりょく",
+            "meaningVi": "thể lực"
+          },
+          {
+            "word": "疲れる",
+            "hiragana": "つかれる",
+            "meaningVi": "mệt"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nがなくて",
+            "meaningVi": "Vì thiếu N",
+            "exampleJa": "時間がなくて困る。",
+            "exampleVi": "Khó xử vì không có thời gian."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Phân biệt các từ kết thúc bằng 力."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 6/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-025",
+      "number": 25,
+      "section": "vocabulary",
+      "mondai": "Mondai 3",
+      "subtype": "contextual_expression",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "緊張すると、胸が（　）する。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ちかちか"
+        },
+        {
+          "id": "2",
+          "text": "ぐらぐら"
+        },
+        {
+          "id": "3",
+          "text": "どきどき"
+        },
+        {
+          "id": "4",
+          "text": "うろうろ"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ vựng theo ngữ cảnh",
+        "Từ tượng hình"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: どきどき.",
+        "correctReasonVi": "胸がどきどきする diễn tả tim đập nhanh khi hồi hộp.",
+        "optionReasonsVi": {
+          "1": "SAI: ちかちか: chớp sáng, nhức mắt",
+          "2": "SAI: ぐらぐら: lung lay",
+          "3": "ĐÚNG: Đúng, tim đập mạnh",
+          "4": "SAI: うろうろ: đi loanh quanh"
+        },
+        "translationVi": "Khi căng thẳng, tim tôi đập thình thịch.",
+        "vocabulary": [
+          {
+            "word": "どきどき",
+            "hiragana": "どきどき",
+            "meaningVi": "tim đập thình thịch"
+          },
+          {
+            "word": "緊張",
+            "hiragana": "きんちょう",
+            "meaningVi": "căng thẳng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vると",
+            "meaningVi": "Khi V thì xảy ra kết quả",
+            "exampleJa": "緊張すると汗が出る。",
+            "exampleVi": "Khi căng thẳng thì ra mồ hôi."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Học từ tượng hình kèm bộ phận cơ thể."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 6/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-026",
+      "number": 26,
+      "section": "vocabulary",
+      "mondai": "Mondai 4",
+      "subtype": "paraphrase",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "わたしの__まご__は銀行につとめている。",
+      "options": [
+        {
+          "id": "1",
+          "text": "父の弟"
+        },
+        {
+          "id": "2",
+          "text": "母の姉"
+        },
+        {
+          "id": "3",
+          "text": "兄の子ども"
+        },
+        {
+          "id": "4",
+          "text": "娘の息子"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ gần nghĩa"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 娘の息子.",
+        "correctReasonVi": "Con của con gái là cháu ngoại, thuộc nghĩa 孫.",
+        "optionReasonsVi": {
+          "1": "SAI: Chú, em trai của bố",
+          "2": "SAI: Bác gái, chị của mẹ",
+          "3": "SAI: Cháu gọi bằng cô/chú, không phải 孫 của người nói",
+          "4": "ĐÚNG: Đúng, con trai của con gái"
+        },
+        "translationVi": "Cháu của tôi làm việc tại ngân hàng.",
+        "vocabulary": [
+          {
+            "word": "孫",
+            "hiragana": "まご",
+            "meaningVi": "cháu nội, cháu ngoại"
+          },
+          {
+            "word": "勤める",
+            "hiragana": "つとめる",
+            "meaningVi": "làm việc tại"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nに勤める",
+            "meaningVi": "Làm việc tại N",
+            "exampleJa": "会社に勤めている。",
+            "exampleVi": "Đang làm việc tại công ty."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "孫 là con của con mình, không phải mọi quan hệ cháu."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 7/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-027",
+      "number": 27,
+      "section": "vocabulary",
+      "mondai": "Mondai 4",
+      "subtype": "paraphrase",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "__たまっている__仕事を、今週中に終わらせたい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "さっき始めた"
+        },
+        {
+          "id": "2",
+          "text": "とても急いでいる"
+        },
+        {
+          "id": "3",
+          "text": "たくさん残っている"
+        },
+        {
+          "id": "4",
+          "text": "ほかの人に頼まれた"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ gần nghĩa"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: たくさん残っている.",
+        "correctReasonVi": "仕事がたまる nghĩa là nhiều việc chưa làm được tích lại.",
+        "optionReasonsVi": {
+          "1": "SAI: Vừa bắt đầu",
+          "2": "SAI: Đang rất vội",
+          "3": "ĐÚNG: Đúng, còn tồn lại nhiều",
+          "4": "SAI: Được người khác nhờ"
+        },
+        "translationVi": "Tôi muốn hoàn thành công việc đang tồn đọng trong tuần này.",
+        "vocabulary": [
+          {
+            "word": "たまる",
+            "hiragana": "たまる",
+            "meaningVi": "tích tụ, tồn đọng"
+          },
+          {
+            "word": "今週中",
+            "hiragana": "こんしゅうちゅう",
+            "meaningVi": "trong tuần này"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vたい",
+            "meaningVi": "Muốn làm V",
+            "exampleJa": "仕事を終わらせたい。",
+            "exampleVi": "Muốn hoàn thành công việc."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "仕事がたまる tương đương nhiều việc còn lại."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 7/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-028",
+      "number": 28,
+      "section": "vocabulary",
+      "mondai": "Mondai 4",
+      "subtype": "paraphrase",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "山田さんは__短気__だ。",
+      "options": [
+        {
+          "id": "1",
+          "text": "すぐ驚く"
+        },
+        {
+          "id": "2",
+          "text": "すぐ笑う"
+        },
+        {
+          "id": "3",
+          "text": "すぐ怒る"
+        },
+        {
+          "id": "4",
+          "text": "すぐ泣く"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ gần nghĩa"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: すぐ怒る.",
+        "correctReasonVi": "短気 chỉ tính dễ nổi nóng.",
+        "optionReasonsVi": {
+          "1": "SAI: Dễ ngạc nhiên",
+          "2": "SAI: Dễ cười",
+          "3": "ĐÚNG: Đúng, dễ nổi giận",
+          "4": "SAI: Dễ khóc"
+        },
+        "translationVi": "Anh Yamada nóng tính.",
+        "vocabulary": [
+          {
+            "word": "短気",
+            "hiragana": "たんき",
+            "meaningVi": "nóng tính"
+          },
+          {
+            "word": "怒る",
+            "hiragana": "おこる",
+            "meaningVi": "tức giận"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nだ",
+            "meaningVi": "Khẳng định tính chất hoặc danh từ",
+            "exampleJa": "彼は短気だ。",
+            "exampleVi": "Anh ấy nóng tính."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "短気 liên quan 怒る, không phải các phản ứng khác."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 7/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-029",
+      "number": 29,
+      "section": "vocabulary",
+      "mondai": "Mondai 4",
+      "subtype": "paraphrase",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "単語をたくさん__暗記した__。",
+      "options": [
+        {
+          "id": "1",
+          "text": "読んだ"
+        },
+        {
+          "id": "2",
+          "text": "書いた"
+        },
+        {
+          "id": "3",
+          "text": "忘れた"
+        },
+        {
+          "id": "4",
+          "text": "覚えた"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ gần nghĩa"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 覚えた.",
+        "correctReasonVi": "暗記する là ghi nhớ thuộc lòng.",
+        "optionReasonsVi": {
+          "1": "SAI: Đọc",
+          "2": "SAI: Viết",
+          "3": "SAI: Quên, trái nghĩa",
+          "4": "ĐÚNG: Đúng, ghi nhớ"
+        },
+        "translationVi": "Tôi đã học thuộc nhiều từ vựng.",
+        "vocabulary": [
+          {
+            "word": "暗記",
+            "hiragana": "あんき",
+            "meaningVi": "học thuộc"
+          },
+          {
+            "word": "覚える",
+            "hiragana": "おぼえる",
+            "meaningVi": "ghi nhớ"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nを暗記する",
+            "meaningVi": "Học thuộc N",
+            "exampleJa": "単語を暗記する。",
+            "exampleVi": "Học thuộc từ vựng."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Phân biệt học thuộc và chỉ đọc hoặc viết."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 7/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-030",
+      "number": 30,
+      "section": "vocabulary",
+      "mondai": "Mondai 4",
+      "subtype": "paraphrase",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "この会社にはいろいろな__きまり__がある。",
+      "options": [
+        {
+          "id": "1",
+          "text": "計画"
+        },
+        {
+          "id": "2",
+          "text": "規則"
+        },
+        {
+          "id": "3",
+          "text": "連絡"
+        },
+        {
+          "id": "4",
+          "text": "秘密"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Từ vựng N3",
+        "Từ gần nghĩa"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 規則.",
+        "correctReasonVi": "きまり là điều đã được quy định, gần nghĩa 規則.",
+        "optionReasonsVi": {
+          "1": "SAI: 計画: kế hoạch",
+          "2": "ĐÚNG: Đúng, quy tắc",
+          "3": "SAI: 連絡: liên lạc",
+          "4": "SAI: 秘密: bí mật"
+        },
+        "translationVi": "Công ty này có nhiều quy định.",
+        "vocabulary": [
+          {
+            "word": "きまり",
+            "hiragana": "きまり",
+            "meaningVi": "quy định"
+          },
+          {
+            "word": "規則",
+            "hiragana": "きそく",
+            "meaningVi": "quy tắc"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nには～がある",
+            "meaningVi": "Ở N có…",
+            "exampleJa": "学校には規則がある。",
+            "exampleVi": "Trường có quy định."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Nhớ きまり và 規則."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 7/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-031",
+      "number": 31,
+      "section": "vocabulary",
+      "mondai": "Mondai 5",
+      "subtype": "usage",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "次の言葉の使い方として最もよいものを選びなさい。\n__回収__",
+      "options": [
+        {
+          "id": "1",
+          "text": "わたしの趣味は、めずらしい切手を回収することです。"
+        },
+        {
+          "id": "2",
+          "text": "アンケート用紙はセミナーが終わったら回収します。"
+        },
+        {
+          "id": "3",
+          "text": "問題を解決するために、多くの人から意見を回収した。"
+        },
+        {
+          "id": "4",
+          "text": "マラソン大会の参加者をインターネットで回収しています。"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 3,
+      "tags": [
+        "Từ vựng N3",
+        "Cách sử dụng từ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: アンケート用紙はセミナーが終わったら回収します。.",
+        "correctReasonVi": "回収 dùng khi thu lại vật đã phát hoặc vật cần thu hồi.",
+        "optionReasonsVi": {
+          "1": "SAI: Sưu tầm tem dùng 集める／収集する",
+          "2": "ĐÚNG: Đúng, thu lại phiếu",
+          "3": "SAI: Thu thập ý kiến thường dùng 集める",
+          "4": "SAI: Tuyển người tham gia dùng 募集する"
+        },
+        "translationVi": "Thu hồi, thu lại. Câu đúng: Sau khi hội thảo kết thúc sẽ thu lại phiếu khảo sát.",
+        "vocabulary": [
+          {
+            "word": "回収",
+            "hiragana": "かいしゅう",
+            "meaningVi": "thu hồi"
+          },
+          {
+            "word": "アンケート用紙",
+            "hiragana": "あんけーとようし",
+            "meaningVi": "phiếu khảo sát"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vたら",
+            "meaningVi": "Sau khi V",
+            "exampleJa": "授業が終わったら提出する。",
+            "exampleVi": "Nộp sau khi buổi học kết thúc."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Phân biệt 回収, 収集 và 募集."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 8/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-032",
+      "number": 32,
+      "section": "vocabulary",
+      "mondai": "Mondai 5",
+      "subtype": "usage",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "次の言葉の使い方として最もよいものを選びなさい。\n__区切る__",
+      "options": [
+        {
+          "id": "1",
+          "text": "先生へのプレゼント代を二人で区切って払った。"
+        },
+        {
+          "id": "2",
+          "text": "大きな部屋を二つに区切って使った。"
+        },
+        {
+          "id": "3",
+          "text": "私の家では、みんなで家事を区切っています。"
+        },
+        {
+          "id": "4",
+          "text": "荷物が多いので、二つのかばんに区切って運んだ。"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 3,
+      "tags": [
+        "Từ vựng N3",
+        "Cách sử dụng từ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 大きな部屋を二つに区切って使った。.",
+        "correctReasonVi": "区切る phù hợp với việc phân chia không gian thành các phần.",
+        "optionReasonsVi": {
+          "1": "SAI: Chia tiền dùng 分ける／割り勘にする",
+          "2": "ĐÚNG: Đúng, chia không gian",
+          "3": "SAI: Phân công việc nhà dùng 分担する",
+          "4": "SAI: Chia đồ vào túi dùng 分ける"
+        },
+        "translationVi": "Chia thành các phần có ranh giới. Câu đúng: Chia phòng lớn làm hai để sử dụng.",
+        "vocabulary": [
+          {
+            "word": "区切る",
+            "hiragana": "くぎる",
+            "meaningVi": "phân chia có ranh giới"
+          },
+          {
+            "word": "部屋",
+            "hiragana": "へや",
+            "meaningVi": "phòng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nを～に区切る",
+            "meaningVi": "Chia N thành các phần",
+            "exampleJa": "部屋を二つに区切る。",
+            "exampleVi": "Chia phòng làm hai."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Chú ý nghĩa tạo ranh giới."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 8/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-033",
+      "number": 33,
+      "section": "vocabulary",
+      "mondai": "Mondai 5",
+      "subtype": "usage",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "次の言葉の使い方として最もよいものを選びなさい。\n__修理__",
+      "options": [
+        {
+          "id": "1",
+          "text": "時計が動かなくなったので、修理した。"
+        },
+        {
+          "id": "2",
+          "text": "虫歯を修理するのに2か月かかった。"
+        },
+        {
+          "id": "3",
+          "text": "先生に間違いを修理された。"
+        },
+        {
+          "id": "4",
+          "text": "少し休んで気分を修理しませんか。"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 3,
+      "tags": [
+        "Từ vựng N3",
+        "Cách sử dụng từ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: 時計が動かなくなったので、修理した。.",
+        "correctReasonVi": "修理する dùng cho thiết bị hoặc đồ vật hỏng.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, sửa đồng hồ",
+          "2": "SAI: Sâu răng dùng 治療する",
+          "3": "SAI: Sửa lỗi dùng 訂正する／直す",
+          "4": "SAI: Tâm trạng dùng 気分転換する hoặc 気分を変える"
+        },
+        "translationVi": "Sửa chữa. Câu đúng: Đồng hồ không chạy nữa nên tôi đã sửa.",
+        "vocabulary": [
+          {
+            "word": "修理",
+            "hiragana": "しゅうり",
+            "meaningVi": "sửa chữa"
+          },
+          {
+            "word": "時計",
+            "hiragana": "とけい",
+            "meaningVi": "đồng hồ"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vなくなる",
+            "meaningVi": "Không còn làm V nữa",
+            "exampleJa": "時計が動かなくなった。",
+            "exampleVi": "Đồng hồ không chạy nữa."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Chọn từ theo đối tượng: đồ vật, bệnh, lỗi."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 8/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-034",
+      "number": 34,
+      "section": "vocabulary",
+      "mondai": "Mondai 5",
+      "subtype": "usage",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "次の言葉の使い方として最もよいものを選びなさい。\n__なだらか__",
+      "options": [
+        {
+          "id": "1",
+          "text": "ここからはなだらかな坂道が続いている。"
+        },
+        {
+          "id": "2",
+          "text": "今日はなだらかな話し合いができてよかったですね。"
+        },
+        {
+          "id": "3",
+          "text": "やせたらズボンがなだらかに履けるようになった。"
+        },
+        {
+          "id": "4",
+          "text": "来週からは天気がなだらかになるそうです。"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 3,
+      "tags": [
+        "Từ vựng N3",
+        "Cách sử dụng từ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: ここからはなだらかな坂道が続いている。.",
+        "correctReasonVi": "なだらか thường miêu tả độ dốc nhẹ, không gồ ghề.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, độ dốc nhẹ",
+          "2": "SAI: Cuộc thảo luận suôn sẻ dùng 円滑な",
+          "3": "SAI: Mặc quần dễ dùng 楽に／すんなり",
+          "4": "SAI: Thời tiết ôn hòa dùng 穏やか"
+        },
+        "translationVi": "Thoai thoải, dốc nhẹ. Câu đúng: Từ đây con đường dốc thoai thoải kéo dài.",
+        "vocabulary": [
+          {
+            "word": "なだらか",
+            "hiragana": "なだらか",
+            "meaningVi": "thoai thoải"
+          },
+          {
+            "word": "坂道",
+            "hiragana": "さかみち",
+            "meaningVi": "đường dốc"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Tính từ な＋N",
+            "meaningVi": "Bổ nghĩa danh từ",
+            "exampleJa": "なだらかな坂。",
+            "exampleVi": "Con dốc thoai thoải."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Học kết hợp なだらかな坂."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 8/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-voc-035",
+      "number": 35,
+      "section": "vocabulary",
+      "mondai": "Mondai 5",
+      "subtype": "usage",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "次の言葉の使い方として最もよいものを選びなさい。\n__まずしい__",
+      "options": [
+        {
+          "id": "1",
+          "text": "人数がまずしいので、アルバイトを募集します。"
+        },
+        {
+          "id": "2",
+          "text": "去年は雨がまずしかったので、野菜が育ちませんでした。"
+        },
+        {
+          "id": "3",
+          "text": "学生の頃はまずしかったので、毎日アルバイトをしていました。"
+        },
+        {
+          "id": "4",
+          "text": "時間がまずしいので、宿題が終わらないかもしれません。"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 3,
+      "tags": [
+        "Từ vựng N3",
+        "Cách sử dụng từ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: 学生の頃はまずしかったので、毎日アルバイトをしていました。.",
+        "correctReasonVi": "貧しい mô tả hoàn cảnh kinh tế thiếu thốn, hoặc sự nghèo nàn về nội dung.",
+        "optionReasonsVi": {
+          "1": "SAI: Thiếu nhân lực dùng 人数が少ない／足りない",
+          "2": "SAI: Ít mưa dùng 雨が少ない",
+          "3": "ĐÚNG: Đúng, nghèo về kinh tế",
+          "4": "SAI: Thiếu thời gian dùng 時間が足りない"
+        },
+        "translationVi": "Nghèo khó. Câu đúng: Thời sinh viên tôi nghèo nên ngày nào cũng làm thêm.",
+        "vocabulary": [
+          {
+            "word": "貧しい",
+            "hiragana": "まずしい",
+            "meaningVi": "nghèo"
+          },
+          {
+            "word": "アルバイト",
+            "hiragana": "あるばいと",
+            "meaningVi": "việc làm thêm"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "～ので",
+            "meaningVi": "Vì, do",
+            "exampleJa": "貧しかったので働いた。",
+            "exampleVi": "Vì nghèo nên đã đi làm."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Phân biệt 貧しい với 少ない và 足りない."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 9/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-001",
+      "number": 1,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "今日は風が強くて、庭の木が今にも（　）。",
+      "options": [
+        {
+          "id": "1",
+          "text": "折れています"
+        },
+        {
+          "id": "2",
+          "text": "折れそうです"
+        },
+        {
+          "id": "3",
+          "text": "折れたと思います"
+        },
+        {
+          "id": "4",
+          "text": "折れたんです"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 折れそうです.",
+        "correctReasonVi": "今にも diễn tả sự việc sắp xảy ra; 折れそうです là phán đoán dựa vào dấu hiệu quan sát.",
+        "optionReasonsVi": {
+          "1": "SAI: Đã gãy, trạng thái hiện tại",
+          "2": "ĐÚNG: Đúng, sắp gãy",
+          "3": "SAI: Phỏng đoán đã gãy, không hợp 今にも",
+          "4": "SAI: Giải thích việc đã gãy"
+        },
+        "translationVi": "Hôm nay gió mạnh, cây trong vườn có vẻ sắp gãy đến nơi.",
+        "vocabulary": [
+          {
+            "word": "折れる",
+            "hiragana": "おれる",
+            "meaningVi": "gãy"
+          },
+          {
+            "word": "今にも",
+            "hiragana": "いまにも",
+            "meaningVi": "sắp, bất cứ lúc nào"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vます bỏ ます＋そうだ",
+            "meaningVi": "Có vẻ sắp làm V",
+            "exampleJa": "雨が降りそうです。",
+            "exampleVi": "Trời có vẻ sắp mưa."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "今にも thường đi với ～そうだ."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-002",
+      "number": 2,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "このテレビドラマは人気が出なかった（　）、全20回の放送予定だったものが、10回で終わってしまった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "たびに"
+        },
+        {
+          "id": "2",
+          "text": "ために"
+        },
+        {
+          "id": "3",
+          "text": "なかに"
+        },
+        {
+          "id": "4",
+          "text": "ように"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: ために.",
+        "correctReasonVi": "ために nêu nguyên nhân dẫn đến kết quả không mong muốn.",
+        "optionReasonsVi": {
+          "1": "SAI: たびに: mỗi lần, không diễn tả nguyên nhân",
+          "2": "ĐÚNG: Đúng, vì không nổi tiếng",
+          "3": "SAI: なかに: bên trong",
+          "4": "SAI: ように: để, sao cho, không nêu nguyên nhân ở đây"
+        },
+        "translationVi": "Vì bộ phim truyền hình này không được yêu thích nên dù dự kiến phát 20 tập, cuối cùng chỉ phát 10 tập.",
+        "vocabulary": [
+          {
+            "word": "人気",
+            "hiragana": "にんき",
+            "meaningVi": "sự yêu thích"
+          },
+          {
+            "word": "放送",
+            "hiragana": "ほうそう",
+            "meaningVi": "phát sóng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "V普通形＋ために",
+            "meaningVi": "Vì V, do V",
+            "exampleJa": "大雨が降ったために、試合が中止になった。",
+            "exampleVi": "Vì mưa lớn nên trận đấu bị hủy."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "ために còn chỉ mục đích, nhưng ở đây đứng sau mệnh đề nguyên nhân quá khứ."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-003",
+      "number": 3,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "9月の会社説明会の日程を（　）いたします。",
+      "options": [
+        {
+          "id": "1",
+          "text": "知らせ"
+        },
+        {
+          "id": "2",
+          "text": "知らせて"
+        },
+        {
+          "id": "3",
+          "text": "お知らせ"
+        },
+        {
+          "id": "4",
+          "text": "お知らせして"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp",
+        "Kính ngữ – khiêm nhường ngữ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: お知らせ.",
+        "correctReasonVi": "お知らせいたします là dạng khiêm nhường, theo mẫu お＋gốc ます＋いたします.",
+        "optionReasonsVi": {
+          "1": "SAI: Thiếu お trong mẫu này",
+          "2": "SAI: 知らせていたします không đúng mẫu",
+          "3": "ĐÚNG: Đúng, お知らせいたします",
+          "4": "SAI: Thừa して trước いたします"
+        },
+        "translationVi": "Xin thông báo lịch buổi giới thiệu công ty vào tháng 9.",
+        "vocabulary": [
+          {
+            "word": "日程",
+            "hiragana": "にってい",
+            "meaningVi": "lịch trình"
+          },
+          {
+            "word": "知らせる",
+            "hiragana": "しらせる",
+            "meaningVi": "thông báo"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "お＋Vます bỏ ます＋いたす",
+            "meaningVi": "Khiêm nhường ngữ khi thực hiện hành động",
+            "exampleJa": "お届けいたします。",
+            "exampleVi": "Tôi xin chuyển đến."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Không lặp する trước いたす trong mẫu này."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-004",
+      "number": 4,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "子どもだ子どもだと思っていた息子も、明日から（　）大学生になります。",
+      "options": [
+        {
+          "id": "1",
+          "text": "まだ"
+        },
+        {
+          "id": "2",
+          "text": "いつか"
+        },
+        {
+          "id": "3",
+          "text": "しだいに"
+        },
+        {
+          "id": "4",
+          "text": "とうとう"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: とうとう.",
+        "correctReasonVi": "とうとう diễn tả kết quả đã đến sau một quá trình dài.",
+        "optionReasonsVi": {
+          "1": "SAI: まだ: vẫn, chưa",
+          "2": "SAI: いつか: một ngày nào đó, không hợp 明日から",
+          "3": "SAI: しだいに: dần dần",
+          "4": "ĐÚNG: Đúng, cuối cùng"
+        },
+        "translationVi": "Cậu con trai mà tôi cứ nghĩ còn bé, cuối cùng từ ngày mai cũng trở thành sinh viên đại học.",
+        "vocabulary": [
+          {
+            "word": "息子",
+            "hiragana": "むすこ",
+            "meaningVi": "con trai"
+          },
+          {
+            "word": "とうとう",
+            "hiragana": "とうとう",
+            "meaningVi": "cuối cùng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nになる",
+            "meaningVi": "Trở thành N",
+            "exampleJa": "来年、大学生になります。",
+            "exampleVi": "Năm sau tôi trở thành sinh viên."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Dấu hiệu thời gian dài và mốc 明日から phù hợp とうとう."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-005",
+      "number": 5,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "A「沖縄旅行、どうだった？こっちはずっと雨だったんだけど。」\nB「あ、そう？沖縄は、旅行の（　）ずっと天気がよくて、毎日海で遊べたよ。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "あいだじゅう"
+        },
+        {
+          "id": "2",
+          "text": "うちには"
+        },
+        {
+          "id": "3",
+          "text": "なかで"
+        },
+        {
+          "id": "4",
+          "text": "ころまでに"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: あいだじゅう.",
+        "correctReasonVi": "旅行のあいだじゅう nghĩa là suốt thời gian du lịch, phù hợp với ずっと và 毎日.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, suốt chuyến đi",
+          "2": "SAI: うちには không tự nhiên trong cấu trúc này",
+          "3": "SAI: なかで: trong phạm vi, không nhấn mạnh suốt thời gian",
+          "4": "SAI: ころまでに: trước khoảng thời điểm nào đó"
+        },
+        "translationVi": "A: Chuyến du lịch Okinawa thế nào? Ở đây mưa suốt. B: Vậy à? Ở Okinawa thời tiết đẹp suốt chuyến đi, ngày nào cũng chơi ở biển được.",
+        "vocabulary": [
+          {
+            "word": "沖縄",
+            "hiragana": "おきなわ",
+            "meaningVi": "Okinawa"
+          },
+          {
+            "word": "間中",
+            "hiragana": "あいだじゅう",
+            "meaningVi": "suốt khoảng thời gian"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nの間中",
+            "meaningVi": "Suốt thời gian N",
+            "exampleJa": "休みの間中、雨だった。",
+            "exampleVi": "Mưa suốt kỳ nghỉ."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "ずっと và 毎日 là dấu hiệu chỉ tính liên tục."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-006",
+      "number": 6,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "弟と妹がいると集中できないから、今日は二人が（　）うちに、宿題をやってしまおう。",
+      "options": [
+        {
+          "id": "1",
+          "text": "帰ってこない"
+        },
+        {
+          "id": "2",
+          "text": "帰っていかない"
+        },
+        {
+          "id": "3",
+          "text": "帰ってこなかった"
+        },
+        {
+          "id": "4",
+          "text": "帰っていかなかった"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: 帰ってこない.",
+        "correctReasonVi": "帰ってこないうちに nghĩa là tranh thủ lúc họ chưa về; くる hướng về phía người nói.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, trước khi về",
+          "2": "SAI: いく hướng ra xa người nói",
+          "3": "SAI: Dạng quá khứ không phù hợp sự việc chưa xảy ra",
+          "4": "SAI: Sai cả hướng và thời"
+        },
+        "translationVi": "Vì có em trai và em gái ở nhà thì tôi không tập trung được, hôm nay hãy làm xong bài tập trước khi hai đứa về.",
+        "vocabulary": [
+          {
+            "word": "集中",
+            "hiragana": "しゅうちゅう",
+            "meaningVi": "tập trung"
+          },
+          {
+            "word": "帰ってくる",
+            "hiragana": "かえってくる",
+            "meaningVi": "trở về"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vない＋うちに",
+            "meaningVi": "Tranh thủ khi chưa V",
+            "exampleJa": "暗くならないうちに帰ろう。",
+            "exampleVi": "Hãy về trước khi trời tối."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Phân biệt ～てくる và ～ていく."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 12/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-007",
+      "number": 7,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "学生「先生、日本語で作文を書いたのですが、わたしの作文を（　）。」\n先生「ええ、いいですよ。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "見たいでしょうか"
+        },
+        {
+          "id": "2",
+          "text": "見てもよろしいでしょうか"
+        },
+        {
+          "id": "3",
+          "text": "見たらいかがですか"
+        },
+        {
+          "id": "4",
+          "text": "見ていただけませんか"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp",
+        "Kính ngữ – khiêm nhường ngữ"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 見ていただけませんか.",
+        "correctReasonVi": "～ていただけませんか là lời nhờ người trên làm việc cho mình một cách lịch sự.",
+        "optionReasonsVi": {
+          "1": "SAI: Hỏi mong muốn của người nghe, không phải lời nhờ",
+          "2": "SAI: Xin phép bản thân được xem",
+          "3": "SAI: Đưa lời khuyên người nghe nên xem",
+          "4": "ĐÚNG: Đúng, nhờ giáo viên xem giúp"
+        },
+        "translationVi": "Sinh viên: Thưa thầy/cô, em đã viết bài văn bằng tiếng Nhật, thầy/cô có thể xem giúp em được không? Giáo viên: Được chứ.",
+        "vocabulary": [
+          {
+            "word": "作文",
+            "hiragana": "さくぶん",
+            "meaningVi": "bài văn"
+          },
+          {
+            "word": "見る",
+            "hiragana": "みる",
+            "meaningVi": "xem"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vていただけませんか",
+            "meaningVi": "Có thể làm V giúp tôi được không?",
+            "exampleJa": "教えていただけませんか。",
+            "exampleVi": "Thầy/cô có thể chỉ giúp em không?"
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Xác định ai thực hiện hành động và ai hưởng lợi."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 13/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-008",
+      "number": 8,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "山下「ねえ、わたし、この問題全然わかんないんだけど、田中さん、解けた？」\n田中「わたしに（　）じゃない。わたしが数学苦手なの知ってるでしょ。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "解けない"
+        },
+        {
+          "id": "2",
+          "text": "解けないに違いない"
+        },
+        {
+          "id": "3",
+          "text": "解けるはずがない"
+        },
+        {
+          "id": "4",
+          "text": "解くことができない"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: 解けるはずがない.",
+        "correctReasonVi": "解けるはずがないじゃない nhấn mạnh không thể nào giải được, dựa vào việc kém toán.",
+        "optionReasonsVi": {
+          "1": "SAI: 解けないじゃない có thể gặp trong khẩu ngữ nhưng kém phù hợp hơn ý khẳng định bất khả thi và cấu trúc わたしに",
+          "2": "SAI: に違いない là suy đoán chắc chắn, không hợp lời tự nhận ở đây",
+          "3": "ĐÚNG: Đúng, không thể nào giải được",
+          "4": "SAI: できないじゃない không tự nhiên bằng mẫu はずがない trong ngữ cảnh này"
+        },
+        "translationVi": "Yamashita: Này, tớ chẳng hiểu bài này chút nào, Tanaka giải được chưa? Tanaka: Tớ làm sao giải được. Cậu biết tớ kém toán mà.",
+        "vocabulary": [
+          {
+            "word": "解ける",
+            "hiragana": "とける",
+            "meaningVi": "giải được"
+          },
+          {
+            "word": "苦手",
+            "hiragana": "にがて",
+            "meaningVi": "không giỏi"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "V普通形＋はずがない",
+            "meaningVi": "Không thể nào V",
+            "exampleJa": "彼が知らないはずがない。",
+            "exampleVi": "Không thể nào anh ấy không biết."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Chọn phương án tự nhiên nhất, không chỉ dựa vào nghĩa phủ định."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 13/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-009",
+      "number": 9,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "（ABCこども新聞の宣伝）\n「私たちが作ったABCこども新聞は、すべての漢字に振り仮名をつけてあるので、小学1年生からでも読める（　）。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "ことによります"
+        },
+        {
+          "id": "2",
+          "text": "ことにあります"
+        },
+        {
+          "id": "3",
+          "text": "ようになっています"
+        },
+        {
+          "id": "4",
+          "text": "ようになさっています"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: ようになっています.",
+        "correctReasonVi": "読めるようになっています diễn tả thiết kế hoặc cơ chế cho phép đọc được.",
+        "optionReasonsVi": {
+          "1": "SAI: ことによります: tùy thuộc, không hợp",
+          "2": "SAI: ことにあります không tạo cấu trúc này",
+          "3": "ĐÚNG: Đúng, được thiết kế để đọc được",
+          "4": "SAI: なさる là kính ngữ của する, sai chủ thể và cách diễn đạt"
+        },
+        "translationVi": "Quảng cáo báo thiếu nhi ABC: Báo của chúng tôi có furigana cho mọi chữ Hán nên được thiết kế để ngay cả học sinh lớp một cũng đọc được.",
+        "vocabulary": [
+          {
+            "word": "振り仮名",
+            "hiragana": "ふりがな",
+            "meaningVi": "chữ kana chú âm"
+          },
+          {
+            "word": "宣伝",
+            "hiragana": "せんでん",
+            "meaningVi": "quảng cáo"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "V可能形＋ようになっている",
+            "meaningVi": "Được thiết kế để có thể V",
+            "exampleJa": "子どもでも使えるようになっている。",
+            "exampleVi": "Được thiết kế để trẻ em cũng dùng được."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Phân biệt trạng thái thiết kế với quyết định cá nhân ～ことにする."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 13/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-010",
+      "number": 10,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "上田「来週、兄の誕生日なんだけど、プレゼントに何を買おうかな。」\n山本「ネクタイでも買って（　）？上田さんからのプレゼント、お兄さん、喜ぶと思うよ。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "もらってもいい"
+        },
+        {
+          "id": "2",
+          "text": "もらったらどう"
+        },
+        {
+          "id": "3",
+          "text": "あげてもいい"
+        },
+        {
+          "id": "4",
+          "text": "あげたらどう"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: あげたらどう.",
+        "correctReasonVi": "買ってあげたらどう là lời gợi ý mua tặng người khác.",
+        "optionReasonsVi": {
+          "1": "SAI: もらう: nhận hành động từ người khác, sai hướng",
+          "2": "SAI: Gợi ý nhờ người khác mua cho mình, sai hướng",
+          "3": "SAI: あげてもいい: được phép tặng, không phải gợi ý phù hợp nhất",
+          "4": "ĐÚNG: Đúng, hay là mua tặng"
+        },
+        "translationVi": "Ueda: Tuần sau là sinh nhật anh trai, không biết mua quà gì nhỉ. Yamamoto: Hay mua tặng anh ấy một chiếc cà vạt? Tớ nghĩ anh ấy sẽ vui khi nhận quà của cậu.",
+        "vocabulary": [
+          {
+            "word": "誕生日",
+            "hiragana": "たんじょうび",
+            "meaningVi": "sinh nhật"
+          },
+          {
+            "word": "喜ぶ",
+            "hiragana": "よろこぶ",
+            "meaningVi": "vui mừng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vてあげたらどう",
+            "meaningVi": "Hay là làm V cho người khác?",
+            "exampleJa": "手伝ってあげたらどう？",
+            "exampleVi": "Hay là giúp người ấy?"
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Xác định hướng cho nhận và sắc thái gợi ý."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 13/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-011",
+      "number": 11,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "妻「この前の試合、あなたがけがしなかったら、優勝できたかもねえ。」\n夫「うーん。けがをしなかったら、4位くらいには（　）、それでもやっぱり優勝はできなかったと思うよ。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "なれたらしいし"
+        },
+        {
+          "id": "2",
+          "text": "なりたかったらしいし"
+        },
+        {
+          "id": "3",
+          "text": "なれただろうけど"
+        },
+        {
+          "id": "4",
+          "text": "なりたかったんだろうけど"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: なれただろうけど.",
+        "correctReasonVi": "なれただろうけど là giả định khả năng trong quá khứ, nối tương phản với kết quả không vô địch.",
+        "optionReasonsVi": {
+          "1": "SAI: らしい: nghe nói, không hợp tự đánh giá",
+          "2": "SAI: なりたかった: muốn trở thành, sai ý khả năng",
+          "3": "ĐÚNG: Đúng, có lẽ đã đạt được nhưng…",
+          "4": "SAI: Diễn tả mong muốn thay vì khả năng"
+        },
+        "translationVi": "Vợ: Trận trước, nếu anh không bị thương thì có lẽ đã vô địch nhỉ. Chồng: Nếu không bị thương, có lẽ anh đã đạt khoảng hạng tư, nhưng dù vậy chắc vẫn không thể vô địch.",
+        "vocabulary": [
+          {
+            "word": "優勝",
+            "hiragana": "ゆうしょう",
+            "meaningVi": "vô địch"
+          },
+          {
+            "word": "けが",
+            "hiragana": "けが",
+            "meaningVi": "chấn thương"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vたら、Vただろう",
+            "meaningVi": "Nếu… thì có lẽ đã…",
+            "exampleJa": "練習したら、勝てただろう。",
+            "exampleVi": "Nếu luyện tập thì có lẽ đã thắng."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Giả định trái thực tế cần dạng khả năng và だろう."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 14/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-012",
+      "number": 12,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "先輩「さっきの会議で話に出た営業の仕事を、たぶん山川部長は、君に（　）？」\n後輩「えっ、そうなんでしょうか。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "やらせるつもりじゃない"
+        },
+        {
+          "id": "2",
+          "text": "やられるつもりじゃない"
+        },
+        {
+          "id": "3",
+          "text": "やらされるんじゃない"
+        },
+        {
+          "id": "4",
+          "text": "やれるんじゃない"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: やらせるつもりじゃない.",
+        "correctReasonVi": "部長 là người sai khiến, 君に là người được giao; やらせる là thể sai khiến của やる.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, định cho cậu làm",
+          "2": "SAI: やられる: bị động, sai vai",
+          "3": "SAI: やらされる: bị bắt làm, chủ thể phải là người bị sai khiến",
+          "4": "SAI: やれる: có thể làm, không chỉ việc giao cho cậu"
+        },
+        "translationVi": "Tiền bối: Có lẽ trưởng phòng Yamakawa định giao cho cậu công việc kinh doanh được nhắc trong cuộc họp vừa rồi, phải không? Hậu bối: Thật vậy sao?",
+        "vocabulary": [
+          {
+            "word": "営業",
+            "hiragana": "えいぎょう",
+            "meaningVi": "kinh doanh"
+          },
+          {
+            "word": "部長",
+            "hiragana": "ぶちょう",
+            "meaningVi": "trưởng phòng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "V使役形＋つもり",
+            "meaningVi": "Định cho hoặc bắt ai làm V",
+            "exampleJa": "彼に説明させるつもりだ。",
+            "exampleVi": "Định để anh ấy giải thích."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Chủ thể sai khiến は, người thực hiện に."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 14/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-013",
+      "number": 13,
+      "section": "grammar",
+      "mondai": "Mondai 1",
+      "subtype": "grammar_choice",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "わたしの気持ちは、きっとあなたにはわからないだろうし、あなたに（　）。",
+      "options": [
+        {
+          "id": "1",
+          "text": "わかりたくもない"
+        },
+        {
+          "id": "2",
+          "text": "わかってほしくもない"
+        },
+        {
+          "id": "3",
+          "text": "わかりたくはないだろう"
+        },
+        {
+          "id": "4",
+          "text": "わかってほしくはないだろう"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Ngữ pháp N3",
+        "Chọn ngữ pháp"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: わかってほしくもない.",
+        "correctReasonVi": "あなたにわかってほしくもない diễn tả người nói không muốn người nghe hiểu, も nhấn mạnh phủ định.",
+        "optionReasonsVi": {
+          "1": "SAI: わかりたい là mong muốn của chủ thể tự hiểu",
+          "2": "ĐÚNG: Đúng, không muốn bạn hiểu",
+          "3": "SAI: だろう dự đoán mong muốn của người khác, sai cấu trúc",
+          "4": "SAI: だろう làm lệch sắc thái khẳng định mong muốn của mình"
+        },
+        "translationVi": "Chắc hẳn bạn không thể hiểu được cảm xúc của tôi, và tôi cũng chẳng muốn bạn hiểu.",
+        "vocabulary": [
+          {
+            "word": "気持ち",
+            "hiragana": "きもち",
+            "meaningVi": "cảm xúc"
+          },
+          {
+            "word": "わかる",
+            "hiragana": "わかる",
+            "meaningVi": "hiểu"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "NにVてほしい",
+            "meaningVi": "Muốn N làm V",
+            "exampleJa": "あなたに来てほしい。",
+            "exampleVi": "Tôi muốn bạn đến."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Phân biệt ～たい (bản thân) và ～てほしい (người khác)."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 14/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-014",
+      "number": 14,
+      "section": "grammar",
+      "mondai": "Mondai 2",
+      "subtype": "sentence_composition",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "（たんすの片付けをしながら）\n娘「お母さん、この着物なあに？」\n母親「それはね、お母さんが大学生のときにおばあちゃんに買って ＿＿ ＿＿ ★ ＿＿ 大事にしまっておいたのよ。」",
+      "options": [
+        {
+          "id": "1",
+          "text": "もらった"
+        },
+        {
+          "id": "2",
+          "text": "ものだ"
+        },
+        {
+          "id": "3",
+          "text": "から"
+        },
+        {
+          "id": "4",
+          "text": "大切な"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 3,
+      "tags": [
+        "Ngữ pháp N3",
+        "Sắp xếp câu ★"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: ものだ.",
+        "correctReasonVi": "Thứ tự 1→4→2→3: 買ってもらった大切なものだから. Vị trí ★ là ものだ.",
+        "optionReasonsVi": {
+          "1": "SAI: Đứng đầu để tạo 買ってもらった",
+          "2": "ĐÚNG: Đúng, đứng thứ ba",
+          "3": "SAI: Đứng cuối tạo だから",
+          "4": "SAI: Đứng thứ hai bổ nghĩa もの"
+        },
+        "translationVi": "Con gái: Mẹ ơi, bộ kimono này là gì vậy? Mẹ: Đó là món đồ quý mà bà đã mua cho mẹ khi mẹ còn là sinh viên, nên mẹ cất giữ cẩn thận.",
+        "vocabulary": [
+          {
+            "word": "着物",
+            "hiragana": "きもの",
+            "meaningVi": "kimono"
+          },
+          {
+            "word": "大切",
+            "hiragana": "たいせつ",
+            "meaningVi": "quý giá"
+          },
+          {
+            "word": "しまう",
+            "hiragana": "しまう",
+            "meaningVi": "cất"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vてもらう",
+            "meaningVi": "Được ai đó làm V cho mình",
+            "exampleJa": "母に買ってもらった。",
+            "exampleVi": "Được mẹ mua cho."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Ghép 大切なもの và ものだから trước khi chọn ★."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 15/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-015",
+      "number": 15,
+      "section": "grammar",
+      "mondai": "Mondai 2",
+      "subtype": "sentence_composition",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "子どもが生まれた ＿＿ ＿＿ ★ ＿＿ 安全を気にするようになった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "食べ物"
+        },
+        {
+          "id": "2",
+          "text": "で"
+        },
+        {
+          "id": "3",
+          "text": "こと"
+        },
+        {
+          "id": "4",
+          "text": "の"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 3,
+      "tags": [
+        "Ngữ pháp N3",
+        "Sắp xếp câu ★"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: 食べ物.",
+        "correctReasonVi": "Thứ tự 3→2→1→4: 生まれたことで食べ物の安全. ★ là 食べ物.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, đứng thứ ba",
+          "2": "SAI: Đứng thứ hai sau こと",
+          "3": "SAI: Đứng đầu để danh từ hóa mệnh đề",
+          "4": "SAI: Đứng cuối nối 食べ物 và 安全"
+        },
+        "translationVi": "Sau khi có con, tôi bắt đầu quan tâm đến độ an toàn của thực phẩm.",
+        "vocabulary": [
+          {
+            "word": "食べ物",
+            "hiragana": "たべもの",
+            "meaningVi": "thực phẩm"
+          },
+          {
+            "word": "安全",
+            "hiragana": "あんぜん",
+            "meaningVi": "an toàn"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vた＋ことで",
+            "meaningVi": "Do việc V, từ việc V",
+            "exampleJa": "引っ越したことで生活が変わった。",
+            "exampleVi": "Việc chuyển nhà làm cuộc sống thay đổi."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Ghép ことで và 食べ物の安全 thành hai khối."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 15/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-016",
+      "number": 16,
+      "section": "grammar",
+      "mondai": "Mondai 2",
+      "subtype": "sentence_composition",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "今年の花火大会の観客数は去年 ＿＿ ＿＿ ★ ＿＿ 17万人だった。",
+      "options": [
+        {
+          "id": "1",
+          "text": "10パーセント"
+        },
+        {
+          "id": "2",
+          "text": "と比べて"
+        },
+        {
+          "id": "3",
+          "text": "多い"
+        },
+        {
+          "id": "4",
+          "text": "以上"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 3,
+      "tags": [
+        "Ngữ pháp N3",
+        "Sắp xếp câu ★"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 以上.",
+        "correctReasonVi": "Thứ tự 2→1→4→3: 去年と比べて10パーセント以上多い17万人. ★ là 以上.",
+        "optionReasonsVi": {
+          "1": "SAI: Đứng thứ hai chỉ tỷ lệ",
+          "2": "SAI: Đứng đầu sau 去年",
+          "3": "SAI: Đứng cuối bổ nghĩa 17万人",
+          "4": "ĐÚNG: Đúng, đứng thứ ba"
+        },
+        "translationVi": "Số khán giả lễ hội pháo hoa năm nay là 170.000 người, nhiều hơn năm ngoái ít nhất 10%.",
+        "vocabulary": [
+          {
+            "word": "観客数",
+            "hiragana": "かんきゃくすう",
+            "meaningVi": "số khán giả"
+          },
+          {
+            "word": "比べる",
+            "hiragana": "くらべる",
+            "meaningVi": "so sánh"
+          },
+          {
+            "word": "以上",
+            "hiragana": "いじょう",
+            "meaningVi": "từ mức đó trở lên"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nと比べて",
+            "meaningVi": "So với N",
+            "exampleJa": "去年と比べて売上が増えた。",
+            "exampleVi": "Doanh thu tăng so với năm ngoái."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "10パーセント以上 là một cụm số lượng."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 16/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-017",
+      "number": 17,
+      "section": "grammar",
+      "mondai": "Mondai 2",
+      "subtype": "sentence_composition",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "もしわからないことがあったら、参考書、インターネット ＿＿ ＿＿ ★ ＿＿ いいですから、調べておいてください。",
+      "options": [
+        {
+          "id": "1",
+          "text": "何を"
+        },
+        {
+          "id": "2",
+          "text": "使って"
+        },
+        {
+          "id": "3",
+          "text": "など"
+        },
+        {
+          "id": "4",
+          "text": "も"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 3,
+      "tags": [
+        "Ngữ pháp N3",
+        "Sắp xếp câu ★"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 使って.",
+        "correctReasonVi": "Thứ tự 3→1→2→4: インターネットなど何を使ってもいい. ★ là 使って.",
+        "optionReasonsVi": {
+          "1": "SAI: Đứng thứ hai",
+          "2": "ĐÚNG: Đúng, đứng thứ ba",
+          "3": "SAI: Đứng đầu để kết thúc liệt kê",
+          "4": "SAI: Đứng cuối tạo ～てもいい"
+        },
+        "translationVi": "Nếu có điều không hiểu, dùng bất cứ thứ gì như sách tham khảo hay Internet cũng được, nên hãy tra cứu trước.",
+        "vocabulary": [
+          {
+            "word": "参考書",
+            "hiragana": "さんこうしょ",
+            "meaningVi": "sách tham khảo"
+          },
+          {
+            "word": "調べる",
+            "hiragana": "しらべる",
+            "meaningVi": "tra cứu"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "疑問詞＋Vてもいい",
+            "meaningVi": "Dùng/làm bất cứ… cũng được",
+            "exampleJa": "何を使ってもいいです。",
+            "exampleVi": "Dùng bất cứ thứ gì cũng được."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Ghép 何を使ってもいい thành mẫu cố định."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 16/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-018",
+      "number": 18,
+      "section": "grammar",
+      "mondai": "Mondai 2",
+      "subtype": "sentence_composition",
+      "weight": 1,
+      "passageId": null,
+      "questionText": "わたしの応援が力 ＿＿ ＿＿ ★ ＿＿ 応援します。",
+      "options": [
+        {
+          "id": "1",
+          "text": "なら"
+        },
+        {
+          "id": "2",
+          "text": "だって"
+        },
+        {
+          "id": "3",
+          "text": "いくら"
+        },
+        {
+          "id": "4",
+          "text": "になる"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 3,
+      "tags": [
+        "Ngữ pháp N3",
+        "Sắp xếp câu ★"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: いくら.",
+        "correctReasonVi": "Thứ tự 4→1→3→2: 力になるならいくらだって応援します. ★ là いくら.",
+        "optionReasonsVi": {
+          "1": "SAI: Đứng thứ hai tạo điều kiện なら",
+          "2": "SAI: Đứng cuối sau いくら",
+          "3": "ĐÚNG: Đúng, đứng thứ ba",
+          "4": "SAI: Đứng đầu tạo 力になる"
+        },
+        "translationVi": "Nếu sự cổ vũ của tôi có thể tiếp thêm sức mạnh thì tôi sẽ cổ vũ bao nhiêu cũng được.",
+        "vocabulary": [
+          {
+            "word": "応援",
+            "hiragana": "おうえん",
+            "meaningVi": "cổ vũ"
+          },
+          {
+            "word": "力",
+            "hiragana": "ちから",
+            "meaningVi": "sức mạnh"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "いくらだって",
+            "meaningVi": "Bao nhiêu cũng được",
+            "exampleJa": "いくらだって手伝います。",
+            "exampleVi": "Tôi sẽ giúp bao nhiêu cũng được."
+          }
+        ],
+        "readingEvidenceJa": "",
+        "studyTipVi": "Nhận diện 力になるなら và いくらだって."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 16/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-019",
+      "number": 19,
+      "section": "grammar",
+      "mondai": "Mondai 3",
+      "subtype": "text_grammar",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-g03",
+      "questionText": "文章中の【19-a】【19-b】に入るものを選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "a や / b 売られているお店です"
+        },
+        {
+          "id": "2",
+          "text": "a のように / b 売られています"
+        },
+        {
+          "id": "3",
+          "text": "a なども / b 売っています"
+        },
+        {
+          "id": "4",
+          "text": "a というのは / b 売っているお店です"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 3,
+      "tags": [
+        "Ngữ pháp N3",
+        "Ngữ pháp đoạn văn"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: a というのは / b 売っているお店です.",
+        "correctReasonVi": "100円ショップというのは、何でも100円で売っているお店です là câu định nghĩa hoàn chỉnh.",
+        "optionReasonsVi": {
+          "1": "SAI: や dùng liệt kê, không tạo chủ đề định nghĩa",
+          "2": "SAI: のように: giống như, sai quan hệ định nghĩa",
+          "3": "SAI: なども không phù hợp với chủ đề cần giải thích",
+          "4": "ĐÚNG: Đúng, というのは nêu đối tượng định nghĩa"
+        },
+        "translationVi": "Chọn cặp từ điền vào 19-a và 19-b. Cửa hàng 100 yên là cửa hàng bán mọi thứ với giá 100 yên.",
+        "vocabulary": [
+          {
+            "word": "売る",
+            "hiragana": "うる",
+            "meaningVi": "bán"
+          },
+          {
+            "word": "お店",
+            "hiragana": "おみせ",
+            "meaningVi": "cửa hàng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nというのは～こと／ものだ",
+            "meaningVi": "N có nghĩa là…",
+            "exampleJa": "図書館というのは本を借りられる場所です。",
+            "exampleVi": "Thư viện là nơi có thể mượn sách."
+          }
+        ],
+        "readingEvidenceJa": "100円ショップ【19-a】、何でも100円で【19-b】。",
+        "studyTipVi": "Đọc cả hai chỗ trống cùng nhau."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 18/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-020",
+      "number": 20,
+      "section": "grammar",
+      "mondai": "Mondai 3",
+      "subtype": "text_grammar",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-g03",
+      "questionText": "文章中の【20】に入るものを選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "気がつくはずです"
+        },
+        {
+          "id": "2",
+          "text": "気がついたのです"
+        },
+        {
+          "id": "3",
+          "text": "気がついたことでした"
+        },
+        {
+          "id": "4",
+          "text": "気がつくところでした"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 3,
+      "tags": [
+        "Ngữ pháp N3",
+        "Ngữ pháp đoạn văn"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 気がついたのです.",
+        "correctReasonVi": "気がついたのです giải thích nguyên nhân khiến tác giả thay đổi suy nghĩ.",
+        "optionReasonsVi": {
+          "1": "SAI: はずです: dự đoán đáng lẽ sẽ nhận ra",
+          "2": "ĐÚNG: Đúng, đã nhận ra và đang giải thích",
+          "3": "SAI: ことでした không tự nhiên trong câu",
+          "4": "SAI: ところでした: sắp nhận ra, không phải đã nhận ra"
+        },
+        "translationVi": "Tôi nhận ra trong phòng có một số đồ đã mua ở cửa hàng 100 yên nhưng chưa dùng.",
+        "vocabulary": [
+          {
+            "word": "気がつく",
+            "hiragana": "きがつく",
+            "meaningVi": "nhận ra"
+          },
+          {
+            "word": "使う",
+            "hiragana": "つかう",
+            "meaningVi": "sử dụng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vた＋のです",
+            "meaningVi": "Giải thích sự việc hoặc lý do",
+            "exampleJa": "間違いに気がついたのです。",
+            "exampleVi": "Tôi đã nhận ra sai sót."
+          }
+        ],
+        "readingEvidenceJa": "使っていない物がいくつかあることに【20】。",
+        "studyTipVi": "Đọc mối liên hệ với 思い始めました ở trước."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 18/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-021",
+      "number": 21,
+      "section": "grammar",
+      "mondai": "Mondai 3",
+      "subtype": "text_grammar",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-g03",
+      "questionText": "文章中の【21】に入るものを選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "なら"
+        },
+        {
+          "id": "2",
+          "text": "と"
+        },
+        {
+          "id": "3",
+          "text": "のほかに"
+        },
+        {
+          "id": "4",
+          "text": "について"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 3,
+      "tags": [
+        "Ngữ pháp N3",
+        "Ngữ pháp đoạn văn"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: なら.",
+        "correctReasonVi": "50円の葉書なら二枚買えます nêu điều kiện để mua hai tấm với 100 yên.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, nêu trường hợp",
+          "2": "SAI: と không có vế song song và không hợp cấu trúc",
+          "3": "SAI: のほかに: ngoài ra, không hợp số tiền",
+          "4": "SAI: について: về, không chỉ điều kiện"
+        },
+        "translationVi": "Nếu là bưu thiếp giá 50 yên thì có thể mua hai tấm.",
+        "vocabulary": [
+          {
+            "word": "葉書",
+            "hiragana": "はがき",
+            "meaningVi": "bưu thiếp"
+          },
+          {
+            "word": "二枚",
+            "hiragana": "にまい",
+            "meaningVi": "hai tấm"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nなら",
+            "meaningVi": "Nếu là N",
+            "exampleJa": "50円の切手なら二枚買える。",
+            "exampleVi": "Nếu tem 50 yên thì mua được hai chiếc."
+          }
+        ],
+        "readingEvidenceJa": "50円の葉書【21】二枚買えます。",
+        "studyTipVi": "100 chia cho 50 là hai; cần cấu trúc nêu điều kiện."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 18/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-022",
+      "number": 22,
+      "section": "grammar",
+      "mondai": "Mondai 3",
+      "subtype": "text_grammar",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-g03",
+      "questionText": "文章中の【22】に入るものを選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "また"
+        },
+        {
+          "id": "2",
+          "text": "それに"
+        },
+        {
+          "id": "3",
+          "text": "つまり"
+        },
+        {
+          "id": "4",
+          "text": "ところで"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 3,
+      "tags": [
+        "Ngữ pháp N3",
+        "Ngữ pháp đoạn văn"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: つまり.",
+        "correctReasonVi": "Sau các ví dụ về đi tàu và gửi bưu thiếp, つまり tổng kết giá trị của 100 yên.",
+        "optionReasonsVi": {
+          "1": "SAI: また: thêm thông tin",
+          "2": "SAI: それに: bổ sung lý do",
+          "3": "ĐÚNG: Đúng, tổng kết các ví dụ",
+          "4": "SAI: ところで: chuyển đề tài"
+        },
+        "translationVi": "Nói cách khác, có thể nói 100 yên có giá trị lớn.",
+        "vocabulary": [
+          {
+            "word": "価値",
+            "hiragana": "かち",
+            "meaningVi": "giá trị"
+          },
+          {
+            "word": "つまり",
+            "hiragana": "つまり",
+            "meaningVi": "tóm lại, nói cách khác"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "つまり",
+            "meaningVi": "Tóm lại, nói cách khác",
+            "exampleJa": "つまり、時間が足りないのです。",
+            "exampleVi": "Tóm lại là không đủ thời gian."
+          }
+        ],
+        "readingEvidenceJa": "【22】、100円には大きな価値があると言えます。",
+        "studyTipVi": "Nhận biết liên từ tổng kết sau ví dụ."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 18/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-gra-023",
+      "number": 23,
+      "section": "grammar",
+      "mondai": "Mondai 3",
+      "subtype": "text_grammar",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-g03",
+      "questionText": "文章中の【23】に入るものを選びなさい。",
+      "options": [
+        {
+          "id": "1",
+          "text": "買わせたい"
+        },
+        {
+          "id": "2",
+          "text": "買ってくれる"
+        },
+        {
+          "id": "3",
+          "text": "買っていい"
+        },
+        {
+          "id": "4",
+          "text": "買うようにしたい"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 3,
+      "tags": [
+        "Ngữ pháp N3",
+        "Ngữ pháp đoạn văn"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 買うようにしたい.",
+        "correctReasonVi": "買うようにしたい thể hiện mong muốn thay đổi thói quen mua sắm của bản thân.",
+        "optionReasonsVi": {
+          "1": "SAI: 買わせたい: muốn khiến người khác mua",
+          "2": "SAI: 買ってくれる: người khác mua cho mình",
+          "3": "SAI: 買っていい: được phép mua, không diễn tả ý định hình thành thói quen",
+          "4": "ĐÚNG: Đúng, muốn tập thói quen mua có cân nhắc"
+        },
+        "translationVi": "Từ nay tôi muốn tập thói quen chỉ mua sau khi cân nhắc kỹ xem có cần thiết hay không.",
+        "vocabulary": [
+          {
+            "word": "必要",
+            "hiragana": "ひつよう",
+            "meaningVi": "cần thiết"
+          },
+          {
+            "word": "考える",
+            "hiragana": "かんがえる",
+            "meaningVi": "suy nghĩ"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vる＋ようにしたい",
+            "meaningVi": "Muốn cố gắng tạo thói quen V",
+            "exampleJa": "毎日運動するようにしたい。",
+            "exampleVi": "Tôi muốn tập thói quen vận động mỗi ngày."
+          }
+        ],
+        "readingEvidenceJa": "必要かどうかをよく考えてから、【23】と思っています。",
+        "studyTipVi": "Đoạn cuối nêu ý định cá nhân sau khi rút kinh nghiệm."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 18/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-024",
+      "number": 24,
+      "section": "reading",
+      "mondai": "Mondai 4",
+      "subtype": "short_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r04-01",
+      "questionText": "この紹介文から、山中歴史博物館についてどんなことがわかるか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "山中町駅から歩いて10分のところにある。"
+        },
+        {
+          "id": "2",
+          "text": "建物は100年以上前に建てられたものである。"
+        },
+        {
+          "id": "3",
+          "text": "周りには、博物館の建物より歴史の長い公園がある。"
+        },
+        {
+          "id": "4",
+          "text": "珍しい鏡が置いてあって、いつでも見ることができる。"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 2,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn ngắn"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 建物は100年以上前に建てられたものである。.",
+        "correctReasonVi": "Bài đọc nói tòa nhà có lịch sử hơn 100 năm, tương ứng được xây hơn 100 năm trước.",
+        "optionReasonsVi": {
+          "1": "SAI: Từ ga đến cổng công viên 10 phút, thêm 10 phút tới bảo tàng",
+          "2": "ĐÚNG: Đúng, tòa nhà có lịch sử hơn 100 năm",
+          "3": "SAI: Công viên mới được xây khoảng 20 năm trước",
+          "4": "SAI: Gương chỉ được xem tại triển lãm đặc biệt từ tháng 1 đến tháng 3"
+        },
+        "translationVi": "Qua bài giới thiệu, có thể biết điều gì về Bảo tàng Lịch sử Yamanaka?",
+        "vocabulary": [
+          {
+            "word": "博物館",
+            "hiragana": "はくぶつかん",
+            "meaningVi": "bảo tàng"
+          },
+          {
+            "word": "徒歩",
+            "hiragana": "とほ",
+            "meaningVi": "đi bộ"
+          },
+          {
+            "word": "展覧会",
+            "hiragana": "てんらんかい",
+            "meaningVi": "triển lãm"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "N以上",
+            "meaningVi": "Từ N trở lên",
+            "exampleJa": "100年以上の歴史がある。",
+            "exampleVi": "Có lịch sử hơn 100 năm."
+          }
+        ],
+        "readingEvidenceJa": "山中歴史博物館の建物には100年以上の歴史があります。",
+        "studyTipVi": "Phân biệt thời gian đi từng chặng và tổng thời gian."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 19/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-025",
+      "number": 25,
+      "section": "reading",
+      "mondai": "Mondai 4",
+      "subtype": "short_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r04-02",
+      "questionText": "この広告から、誕生日サービスについて、どんなことがわかるか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "3種類の飲み物とケーキの中から、どれか一つが無料でもらえる。"
+        },
+        {
+          "id": "2",
+          "text": "サービスが受けられるのは、誕生日当日だけである。"
+        },
+        {
+          "id": "3",
+          "text": "誕生日の1週間前までに電話で申し込まなければならない。"
+        },
+        {
+          "id": "4",
+          "text": "誕生日を証明するものを店で見せなければならない。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn ngắn"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 誕生日を証明するものを店で見せなければならない。.",
+        "correctReasonVi": "Khách cần mang giấy tờ hoặc vật chứng minh ngày sinh khi đến nhà hàng.",
+        "optionReasonsVi": {
+          "1": "SAI: Mỗi người được một đồ uống và có bánh cho tất cả, không phải chọn giữa bánh và đồ uống",
+          "2": "SAI: Thời gian áp dụng là một tuần trước và sau sinh nhật",
+          "3": "SAI: Hạn đăng ký tính từ ngày sử dụng, không phải ngày sinh nhật",
+          "4": "ĐÚNG: Đúng, cần chứng minh ngày sinh khi đến"
+        },
+        "translationVi": "Qua quảng cáo này, có thể biết điều gì về dịch vụ sinh nhật?",
+        "vocabulary": [
+          {
+            "word": "誕生日",
+            "hiragana": "たんじょうび",
+            "meaningVi": "sinh nhật"
+          },
+          {
+            "word": "証明",
+            "hiragana": "しょうめい",
+            "meaningVi": "chứng minh"
+          },
+          {
+            "word": "申し込む",
+            "hiragana": "もうしこむ",
+            "meaningVi": "đăng ký"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vなければならない",
+            "meaningVi": "Phải làm V",
+            "exampleJa": "証明書を見せなければならない。",
+            "exampleVi": "Phải xuất trình giấy chứng nhận."
+          }
+        ],
+        "readingEvidenceJa": "※ご来店時に、お誕生日を証明するものをお持ちください。",
+        "studyTipVi": "Đọc kỹ hạn ご利用日の1週間前 và điều kiện ご来店時."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 20/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-026",
+      "number": 26,
+      "section": "reading",
+      "mondai": "Mondai 4",
+      "subtype": "short_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r04-03",
+      "questionText": "この記事から、わかることは何か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "1か月間に本を「読まなかった人」の割合は全体として昨年より増加した。"
+        },
+        {
+          "id": "2",
+          "text": "「読まなかった人」の割合が去年より増えたのは、70歳以上だけである。"
+        },
+        {
+          "id": "3",
+          "text": "20歳代の「読まなかった人」の割合は、調査が始まってから増えていない。"
+        },
+        {
+          "id": "4",
+          "text": "50歳代では1か月間に本を「読まなかった人」の割合は、去年より減少した。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 2,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn ngắn"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 50歳代では1か月間に本を「読まなかった人」の割合は、去年より減少した。.",
+        "correctReasonVi": "Tỷ lệ không đọc sách ở nhóm tuổi 30, 40, 50 và 60 đều giảm so với năm trước.",
+        "optionReasonsVi": {
+          "1": "SAI: Tỷ lệ toàn bộ giảm, không tăng",
+          "2": "SAI: Nhóm 20 tuổi cũng tăng",
+          "3": "SAI: Nhóm 20 tuổi tăng liên tục kể từ khi bắt đầu khảo sát",
+          "4": "ĐÚNG: Đúng, nhóm 50 tuổi giảm"
+        },
+        "translationVi": "Có thể biết điều gì từ bài báo này?",
+        "vocabulary": [
+          {
+            "word": "割合",
+            "hiragana": "わりあい",
+            "meaningVi": "tỷ lệ"
+          },
+          {
+            "word": "減少",
+            "hiragana": "げんしょう",
+            "meaningVi": "giảm"
+          },
+          {
+            "word": "調査",
+            "hiragana": "ちょうさ",
+            "meaningVi": "khảo sát"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "～に対して",
+            "meaningVi": "Trái lại, đối lập với…",
+            "exampleJa": "若者が増えたのに対して、高齢者は減った。",
+            "exampleVi": "Trái với số người trẻ tăng, số người cao tuổi giảm."
+          }
+        ],
+        "readingEvidenceJa": "これに対して30歳代、40歳代、50歳代、60歳代では、去年より減少した。",
+        "studyTipVi": "Đối chiếu đúng nhóm tuổi và chiều tăng/giảm."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 21/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-027",
+      "number": 27,
+      "section": "reading",
+      "mondai": "Mondai 4",
+      "subtype": "short_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r04-04",
+      "questionText": "このメールから、東京ホテルのサービスについて、どんなことがわかるか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "インターネットで予約すると、1泊料金と朝食が10％割引になる場合がある。"
+        },
+        {
+          "id": "2",
+          "text": "インターネットで2月中に予約すると、朝食が10％割引になる場合がある。"
+        },
+        {
+          "id": "3",
+          "text": "インターネットで予約すると、2月中に泊まると、1泊料金が10％割引され、朝食が無料になる場合がある。"
+        },
+        {
+          "id": "4",
+          "text": "インターネット、電話、ファックスのどれで予約しても、2月中は朝食だけ無料になる場合がある。"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 2,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn ngắn"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: インターネットで予約すると、2月中に泊まると、1泊料金が10％割引され、朝食が無料になる場合がある。.",
+        "correctReasonVi": "Ưu đãi áp dụng cho đặt qua Internet và lưu trú trước hoặc vào 28/2, giảm 10% tiền phòng và miễn phí bữa sáng; số phòng có giới hạn.",
+        "optionReasonsVi": {
+          "1": "SAI: Bữa sáng miễn phí chứ không chỉ giảm 10%",
+          "2": "SAI: Điều kiện là lưu trú đến 28/2, không chỉ đặt trong tháng 2, bữa sáng miễn phí",
+          "3": "ĐÚNG: Đúng, nêu đủ điều kiện và quyền lợi",
+          "4": "SAI: Đặt bằng điện thoại hoặc fax không áp dụng"
+        },
+        "translationVi": "Qua email này, có thể biết điều gì về dịch vụ của khách sạn Tokyo?",
+        "vocabulary": [
+          {
+            "word": "割引",
+            "hiragana": "わりびき",
+            "meaningVi": "giảm giá"
+          },
+          {
+            "word": "予約",
+            "hiragana": "よやく",
+            "meaningVi": "đặt trước"
+          },
+          {
+            "word": "無料",
+            "hiragana": "むりょう",
+            "meaningVi": "miễn phí"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "～までに",
+            "meaningVi": "Chậm nhất đến thời điểm…",
+            "exampleJa": "28日までに泊まる。",
+            "exampleVi": "Lưu trú chậm nhất ngày 28."
+          }
+        ],
+        "readingEvidenceJa": "インターネットで予約され、2月28日までにお泊まりの方は、1泊の料金を10％割引し、ご朝食を無料にいたします。",
+        "studyTipVi": "Phân biệt hạn đặt phòng và hạn lưu trú; chú ý giới hạn 10 phòng/ngày."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 22/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-028",
+      "number": 28,
+      "section": "reading",
+      "mondai": "Mondai 5",
+      "subtype": "medium_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r05-01",
+      "questionText": "①__だれがだれだかわかりません__とあるが、それはどうしてか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "初めて会った人たちで、名前も知らなかったから"
+        },
+        {
+          "id": "2",
+          "text": "クラスメートにだれがいたか、忘れてしまっていたから"
+        },
+        {
+          "id": "3",
+          "text": "50年の間に、顔や感じが変わってしまっていたから"
+        },
+        {
+          "id": "4",
+          "text": "小学校の時と今では、名前が変わってしまっていたから"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn trung bình"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: 50年の間に、顔や感じが変わってしまっていたから.",
+        "correctReasonVi": "Đã 50 năm từ khi tốt nghiệp, các bạn đều trên 60 tuổi, ngoại hình thay đổi đến mức không nhận ra.",
+        "optionReasonsVi": {
+          "1": "SAI: Họ từng là bạn cùng lớp, không phải lần đầu gặp",
+          "2": "SAI: Bài không nói quên ai từng học cùng lớp",
+          "3": "ĐÚNG: Đúng, ngoại hình thay đổi sau 50 năm",
+          "4": "SAI: Không có thông tin về đổi tên"
+        },
+        "translationVi": "Tại sao tác giả nói ở ① rằng không nhận ra ai là ai?",
+        "vocabulary": [
+          {
+            "word": "卒業",
+            "hiragana": "そつぎょう",
+            "meaningVi": "tốt nghiệp"
+          },
+          {
+            "word": "クラス会",
+            "hiragana": "くらすかい",
+            "meaningVi": "họp lớp"
+          },
+          {
+            "word": "相手",
+            "hiragana": "あいて",
+            "meaningVi": "người đối diện"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vても",
+            "meaningVi": "Dù làm V",
+            "exampleJa": "顔を見てもわからない。",
+            "exampleVi": "Dù nhìn mặt cũng không nhận ra."
+          }
+        ],
+        "readingEvidenceJa": "50年前に卒業してから初めて開かれたクラス会でした。子どもだったみんなも、もう60歳を過ぎているので、顔を見ても①だれがだれだかわかりません。",
+        "studyTipVi": "Câu hỏi lý do: tìm thông tin ngay trước đoạn được gạch chân."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 24/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-029",
+      "number": 29,
+      "section": "reading",
+      "mondai": "Mondai 5",
+      "subtype": "medium_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r05-01",
+      "questionText": "どうして何度も②__「すみません。」__と言ったのか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "先生だとわからなくて、名前を聞いてしまったから"
+        },
+        {
+          "id": "2",
+          "text": "先生の名前を、田中春子だと間違えてしまったから"
+        },
+        {
+          "id": "3",
+          "text": "同級生を、クラス担任の先生だと思ってしまったから"
+        },
+        {
+          "id": "4",
+          "text": "田中春子さんを、先生と間違えてしまったから"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn trung bình"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: 先生だとわからなくて、名前を聞いてしまったから.",
+        "correctReasonVi": "Tác giả không nhận ra cô giáo chủ nhiệm và tưởng cô là bạn cùng lớp, nên đã hỏi tên cô.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, không nhận ra cô giáo và đã hỏi tên",
+          "2": "SAI: 田中春子 là chính người kể, không phải tên cô giáo",
+          "3": "SAI: Ngược với sự việc, tác giả nhầm cô giáo thành bạn cùng lớp",
+          "4": "SAI: Không phải tác giả nhầm Tanaka Haruko với cô giáo"
+        },
+        "translationVi": "Tại sao tác giả nhiều lần nói xin lỗi ở ②?",
+        "vocabulary": [
+          {
+            "word": "担任",
+            "hiragana": "たんにん",
+            "meaningVi": "giáo viên chủ nhiệm"
+          },
+          {
+            "word": "間違える",
+            "hiragana": "まちがえる",
+            "meaningVi": "nhầm lẫn"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vてしまう",
+            "meaningVi": "Lỡ làm V, hoàn tất V",
+            "exampleJa": "名前を聞いてしまった。",
+            "exampleVi": "Tôi lỡ hỏi tên."
+          }
+        ],
+        "readingEvidenceJa": "その女の人は、小学校6年の時のクラス担任の先生でした。",
+        "studyTipVi": "Xác định vai người kể và cô giáo trong hội thoại."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 24/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-030",
+      "number": 30,
+      "section": "reading",
+      "mondai": "Mondai 5",
+      "subtype": "medium_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r05-01",
+      "questionText": "この文章を書いた人が、クラス会に出席して感じたことは何か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "同級生がわたしの名前を忘れていて、残念だ。"
+        },
+        {
+          "id": "2",
+          "text": "同級生のように、元気で若く見えるようになりたい。"
+        },
+        {
+          "id": "3",
+          "text": "先生は年をとっているのに、まだ働いていて大変だ。"
+        },
+        {
+          "id": "4",
+          "text": "先生のように、いつまでも元気で頑張りたい。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn trung bình"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 先生のように、いつまでも元気で頑張りたい。.",
+        "correctReasonVi": "Tác giả ngưỡng mộ cô giáo 75 tuổi vẫn đóng góp xã hội và muốn lấy cô làm mục tiêu sống.",
+        "optionReasonsVi": {
+          "1": "SAI: Không nói thất vọng vì bị quên tên",
+          "2": "SAI: Người tác giả lấy làm gương là cô giáo, không phải bạn cùng lớp",
+          "3": "SAI: Tác giả ngưỡng mộ, không nhấn mạnh sự vất vả",
+          "4": "ĐÚNG: Đúng, muốn luôn khỏe mạnh và cố gắng như cô giáo"
+        },
+        "translationVi": "Tác giả cảm thấy điều gì sau khi tham dự buổi họp lớp?",
+        "vocabulary": [
+          {
+            "word": "同級生",
+            "hiragana": "どうきゅうせい",
+            "meaningVi": "bạn cùng lớp"
+          },
+          {
+            "word": "目標",
+            "hiragana": "もくひょう",
+            "meaningVi": "mục tiêu"
+          },
+          {
+            "word": "元気",
+            "hiragana": "げんき",
+            "meaningVi": "khỏe mạnh"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nを目標にする",
+            "meaningVi": "Lấy N làm mục tiêu",
+            "exampleJa": "先生を目標にする。",
+            "exampleVi": "Lấy thầy/cô làm mục tiêu."
+          }
+        ],
+        "readingEvidenceJa": "私も先生を目標にして、毎日を過ごしていきたいと思います。",
+        "studyTipVi": "Câu hỏi cảm nhận thường có căn cứ ở phần kết bài."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 24/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-031",
+      "number": 31,
+      "section": "reading",
+      "mondai": "Mondai 5",
+      "subtype": "medium_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r05-02",
+      "questionText": "__そう感じさせられている__とあるが、「そう」とはどのようなことか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "新しい電気製品が次々に作られている。"
+        },
+        {
+          "id": "2",
+          "text": "新しい電気製品は以前のものより便利になった。"
+        },
+        {
+          "id": "3",
+          "text": "携帯電話を作る会社がどんどん増えている。"
+        },
+        {
+          "id": "4",
+          "text": "携帯電話でお金が支払えるようになった。"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn trung bình"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 新しい電気製品は以前のものより便利になった。.",
+        "correctReasonVi": "そう thay cho thông điệp quảng cáo rằng sản phẩm mới tiện lợi hơn trước.",
+        "optionReasonsVi": {
+          "1": "SAI: Chỉ việc sản phẩm liên tục ra đời, không phải nội dung được cảm nhận",
+          "2": "ĐÚNG: Đúng, tiện lợi hơn sản phẩm trước",
+          "3": "SAI: Không đề cập số công ty sản xuất điện thoại tăng",
+          "4": "SAI: Chỉ là một ví dụ về chức năng, không phải toàn bộ ý được thay thế"
+        },
+        "translationVi": "Trong câu nói chúng ta bị khiến cảm thấy như vậy, 「そう」 chỉ điều gì?",
+        "vocabulary": [
+          {
+            "word": "電気製品",
+            "hiragana": "でんきせいひん",
+            "meaningVi": "thiết bị điện"
+          },
+          {
+            "word": "宣伝",
+            "hiragana": "せんでん",
+            "meaningVi": "quảng cáo"
+          },
+          {
+            "word": "以前",
+            "hiragana": "いぜん",
+            "meaningVi": "trước đây"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "V使役受身形",
+            "meaningVi": "Bị khiến làm hoặc cảm thấy V",
+            "exampleJa": "そう考えさせられた。",
+            "exampleVi": "Tôi bị khiến suy nghĩ như vậy."
+          }
+        ],
+        "readingEvidenceJa": "これまでより便利になったと宣伝し、わたしたちもそう感じさせられている。",
+        "studyTipVi": "Đại từ そう thường thay nội dung ngay trước nó."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 26/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-032",
+      "number": 32,
+      "section": "reading",
+      "mondai": "Mondai 5",
+      "subtype": "medium_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r05-02",
+      "questionText": "この文章では新製品を作る場合、会社が一番に考えていることは何だと言っているか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "ボタンの数が少ない製品にすること"
+        },
+        {
+          "id": "2",
+          "text": "使い方がわかりやすい製品にすること"
+        },
+        {
+          "id": "3",
+          "text": "いろいろなことができる製品を作ること"
+        },
+        {
+          "id": "4",
+          "text": "みんなが使いやすい製品を数多く作ること"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn trung bình"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: いろいろなことができる製品を作ること.",
+        "correctReasonVi": "Nhà sản xuất ưu tiên khả năng thực hiện nhiều chức năng, chưa chú trọng tính dễ dùng.",
+        "optionReasonsVi": {
+          "1": "SAI: Số nút thực tế tăng, không giảm",
+          "2": "SAI: Đây là yếu tố chưa được chú trọng",
+          "3": "ĐÚNG: Đúng, sản phẩm có nhiều chức năng",
+          "4": "SAI: Bài không nói ưu tiên số lượng sản phẩm dễ dùng"
+        },
+        "translationVi": "Theo bài viết, khi tạo sản phẩm mới, công ty ưu tiên điều gì nhất?",
+        "vocabulary": [
+          {
+            "word": "新製品",
+            "hiragana": "しんせいひん",
+            "meaningVi": "sản phẩm mới"
+          },
+          {
+            "word": "第一",
+            "hiragana": "だいいち",
+            "meaningVi": "hàng đầu"
+          },
+          {
+            "word": "使いやすさ",
+            "hiragana": "つかいやすさ",
+            "meaningVi": "mức độ dễ sử dụng"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nを第一にする",
+            "meaningVi": "Ưu tiên N hàng đầu",
+            "exampleJa": "安全を第一にする。",
+            "exampleVi": "Đặt an toàn lên hàng đầu."
+          }
+        ],
+        "readingEvidenceJa": "会社は、新しい製品を作るとき、いろいろなことができるようにすることを第一にして使いやすさのことはあまり考えてこなかったようだ。",
+        "studyTipVi": "一番 trong câu hỏi tương ứng 第一 trong bài."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 26/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-033",
+      "number": 33,
+      "section": "reading",
+      "mondai": "Mondai 5",
+      "subtype": "medium_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r05-02",
+      "questionText": "電気製品について、この文章を書いた人が感じていることは何か。",
+      "options": [
+        {
+          "id": "1",
+          "text": "新しい製品が次々とできて、生活が便利になった。"
+        },
+        {
+          "id": "2",
+          "text": "以前の製品の方が、いろいろなことができてよかった。"
+        },
+        {
+          "id": "3",
+          "text": "新しい製品を作るときは、使いやすさを考えることが大切である。"
+        },
+        {
+          "id": "4",
+          "text": "今までできなかったことができる製品を作ることが大切である。"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn trung bình"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: 新しい製品を作るときは、使いやすさを考えることが大切である。.",
+        "correctReasonVi": "Tác giả cho rằng nhiều chức năng không đồng nghĩa tiện lợi nếu cách dùng phức tạp, nên cần coi trọng tính dễ sử dụng.",
+        "optionReasonsVi": {
+          "1": "SAI: Đây là nhận định mà tác giả phản biện",
+          "2": "SAI: Sản phẩm cũ đơn giản hơn, không phải nhiều chức năng hơn",
+          "3": "ĐÚNG: Đúng, phù hợp lập luận của tác giả",
+          "4": "SAI: Đây là ưu tiên của công ty mà tác giả phê bình"
+        },
+        "translationVi": "Tác giả bài viết nghĩ gì về thiết bị điện?",
+        "vocabulary": [
+          {
+            "word": "単純",
+            "hiragana": "たんじゅん",
+            "meaningVi": "đơn giản"
+          },
+          {
+            "word": "複雑",
+            "hiragana": "ふくざつ",
+            "meaningVi": "phức tạp"
+          },
+          {
+            "word": "進歩",
+            "hiragana": "しんぽ",
+            "meaningVi": "tiến bộ"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "～とは言えない",
+            "meaningVi": "Không thể nói rằng…",
+            "exampleJa": "便利だとは言えない。",
+            "exampleVi": "Không thể nói là tiện lợi."
+          }
+        ],
+        "readingEvidenceJa": "わたしは、これでは本当に生活が便利になったとは言えないと思う。",
+        "studyTipVi": "Phân biệt quan điểm nhà sản xuất và quan điểm tác giả sau しかし."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 26/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-034",
+      "number": 34,
+      "section": "reading",
+      "mondai": "Mondai 6",
+      "subtype": "long_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r06",
+      "questionText": "①__1000円カットの店へ髪を切りに行ってみた__のはなぜか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "男性に人気がある店だったから"
+        },
+        {
+          "id": "2",
+          "text": "忙しくて時間がなかったから"
+        },
+        {
+          "id": "3",
+          "text": "家の近くにある店だったから"
+        },
+        {
+          "id": "4",
+          "text": "いつもの美容院は高いから"
+        }
+      ],
+      "correctOptionId": "2",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn dài"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 2: 忙しくて時間がなかったから.",
+        "correctReasonVi": "Tác giả bận công việc nên không có thời gian đến tiệm làm tóc thường dùng.",
+        "optionReasonsVi": {
+          "1": "SAI: Cửa hàng thường có nhiều khách nam nhưng không phải lý do quyết định",
+          "2": "ĐÚNG: Đúng, bận và thiếu thời gian",
+          "3": "SAI: Cửa hàng gần công ty, không phải gần nhà",
+          "4": "SAI: Giá tiệm thường được nêu để so sánh, không phải lý do trực tiếp"
+        },
+        "translationVi": "Vì sao tác giả thử đến cửa hàng cắt tóc giá 1.000 yên ở ①?",
+        "vocabulary": [
+          {
+            "word": "美容院",
+            "hiragana": "びよういん",
+            "meaningVi": "tiệm làm tóc"
+          },
+          {
+            "word": "迷う",
+            "hiragana": "まよう",
+            "meaningVi": "phân vân"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vる＋時間がない",
+            "meaningVi": "Không có thời gian làm V",
+            "exampleJa": "買い物に行く時間がない。",
+            "exampleVi": "Không có thời gian đi mua sắm."
+          }
+        ],
+        "readingEvidenceJa": "先月は仕事が忙しくて、いつもの美容院へ行く時間がなかったので、この店に行くことにしたのだ。",
+        "studyTipVi": "Tìm câu có ので、この店に行くことにした."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 28/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-035",
+      "number": 35,
+      "section": "reading",
+      "mondai": "Mondai 6",
+      "subtype": "long_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r06",
+      "questionText": "②__どうしてこんなに安くできるのだろうか__とあるが、この店の人は、値段を安くするために最も大事なことは何だと言っているか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "安く借りられる場所に店を開くこと"
+        },
+        {
+          "id": "2",
+          "text": "客の髪を洗わないようにすること"
+        },
+        {
+          "id": "3",
+          "text": "短時間で多くの客の髪を切ること"
+        },
+        {
+          "id": "4",
+          "text": "女性のためのサービスを増やすこと"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn dài"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: 安く借りられる場所に店を開くこと.",
+        "correctReasonVi": "Nhân viên nói việc thuê địa điểm có giá thuê thấp là quan trọng nhất.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, tương ứng 家賃が安いところを借りる",
+          "2": "SAI: Bỏ gội đầu cũng giảm chi phí nhưng không được nói là quan trọng nhất",
+          "3": "SAI: Cắt cho nhiều người trong thời gian ngắn là biện pháp bổ sung",
+          "4": "SAI: Nhằm tăng khách nữ, không phải yếu tố chính để giá rẻ"
+        },
+        "translationVi": "Ở ② tác giả hỏi vì sao có thể rẻ như vậy. Theo nhân viên cửa hàng, điều quan trọng nhất để giảm giá là gì?",
+        "vocabulary": [
+          {
+            "word": "家賃",
+            "hiragana": "やちん",
+            "meaningVi": "tiền thuê nhà"
+          },
+          {
+            "word": "経営",
+            "hiragana": "けいえい",
+            "meaningVi": "kinh doanh"
+          },
+          {
+            "word": "借りる",
+            "hiragana": "かりる",
+            "meaningVi": "thuê"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vることが一番大切だ",
+            "meaningVi": "Việc V là quan trọng nhất",
+            "exampleJa": "続けることが一番大切だ。",
+            "exampleVi": "Việc duy trì là quan trọng nhất."
+          }
+        ],
+        "readingEvidenceJa": "家賃が安いところを借りることが一番大切なのだそうだ。",
+        "studyTipVi": "Đừng chọn lý do đúng một phần nếu đề hỏi 最も大事."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 28/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-036",
+      "number": 36,
+      "section": "reading",
+      "mondai": "Mondai 6",
+      "subtype": "long_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r06",
+      "questionText": "この店の人は、1000円カットの店で、女性客を増やすために一番効果的だったのは、何だと言っているか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "壁の色を明るく優しい色に変えたこと"
+        },
+        {
+          "id": "2",
+          "text": "女性だけが使える割引券を配ったこと"
+        },
+        {
+          "id": "3",
+          "text": "女性向けの雑誌の種類を増やしたこと"
+        },
+        {
+          "id": "4",
+          "text": "子どもを遊ばせておく場所を作ったこと"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn dài"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 子どもを遊ばせておく場所を作ったこと.",
+        "correctReasonVi": "Bài nói biện pháp đặc biệt có hiệu quả là tạo chỗ cho trẻ em chơi, giúp thu hút phụ nữ đi cùng con.",
+        "optionReasonsVi": {
+          "1": "SAI: Có thực hiện nhưng không được nói hiệu quả nhất",
+          "2": "SAI: Có thực hiện nhưng không phải biện pháp nổi bật nhất",
+          "3": "SAI: Có thực hiện nhưng không phải biện pháp nổi bật nhất",
+          "4": "ĐÚNG: Đúng, tạo chỗ cho trẻ em chơi"
+        },
+        "translationVi": "Theo nhân viên, biện pháp hiệu quả nhất để tăng khách nữ ở tiệm cắt tóc 1.000 yên là gì?",
+        "vocabulary": [
+          {
+            "word": "効果",
+            "hiragana": "こうか",
+            "meaningVi": "hiệu quả"
+          },
+          {
+            "word": "割引券",
+            "hiragana": "わりびきけん",
+            "meaningVi": "phiếu giảm giá"
+          },
+          {
+            "word": "女性客",
+            "hiragana": "じょせいきゃく",
+            "meaningVi": "khách nữ"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "V使役形＋ておく",
+            "meaningVi": "Để ai làm V sẵn/trong một khoảng thời gian",
+            "exampleJa": "子どもを遊ばせておく。",
+            "exampleVi": "Để trẻ chơi ở đó."
+          }
+        ],
+        "readingEvidenceJa": "特に効果があったのは、店の中に子どもが遊べる場所を作ったことで、子どもを連れた女性客が少しずつ増えていったそうだ。",
+        "studyTipVi": "一番効果的 tương ứng 特に効果があった trong bài."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 28/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-037",
+      "number": 37,
+      "section": "reading",
+      "mondai": "Mondai 6",
+      "subtype": "long_reading",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r06",
+      "questionText": "この文章を書いた人は今、どう考えているか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "1000円カットの店は値段が安いので、あまり上手でなくてもしかたない。"
+        },
+        {
+          "id": "2",
+          "text": "1000円カットの店がどんなに工夫をしても、女性はあまり行かないだろう。"
+        },
+        {
+          "id": "3",
+          "text": "時間がない時は、先日行った1000円カットの店を今後も利用してもいい。"
+        },
+        {
+          "id": "4",
+          "text": "十分満足できたので、今後は先日行った1000円カットの店を利用したい。"
+        }
+      ],
+      "correctOptionId": "3",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Đoạn dài"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 3: 時間がない時は、先日行った1000円カットの店を今後も利用してもいい。.",
+        "correctReasonVi": "Tác giả hài lòng với kỹ thuật cắt tóc và nghĩ có thể dùng tiệm này khi bận.",
+        "optionReasonsVi": {
+          "1": "SAI: Tác giả khá hài lòng với kỹ thuật, không chấp nhận cắt kém",
+          "2": "SAI: Khách nữ đã tăng nhờ cải tiến",
+          "3": "ĐÚNG: Đúng, giữ điều kiện khi thiếu thời gian",
+          "4": "SAI: Bỏ mất điều kiện khi bận, biến ý định thành sử dụng thường xuyên"
+        },
+        "translationVi": "Hiện tại tác giả nghĩ như thế nào?",
+        "vocabulary": [
+          {
+            "word": "満足",
+            "hiragana": "まんぞく",
+            "meaningVi": "hài lòng"
+          },
+          {
+            "word": "技術",
+            "hiragana": "ぎじゅつ",
+            "meaningVi": "kỹ thuật"
+          },
+          {
+            "word": "今後",
+            "hiragana": "こんご",
+            "meaningVi": "từ nay về sau"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "～でもいい",
+            "meaningVi": "Cũng được, có thể chấp nhận",
+            "exampleJa": "忙しいときはここでもいい。",
+            "exampleVi": "Khi bận thì ở đây cũng được."
+          }
+        ],
+        "readingEvidenceJa": "忙しいときはこちらの店でもいいと今では思っている。",
+        "studyTipVi": "Giữ đúng phạm vi của điều kiện 忙しいとき."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 28/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-038",
+      "number": 38,
+      "section": "reading",
+      "mondai": "Mondai 7",
+      "subtype": "information_search",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r07",
+      "questionText": "田中さんの高校生の娘は、この会館で踊りを習うことにした。田中さんは、毎回車で娘を会館に送って行くので、週に1回だけ、娘と同じ曜日・時間に何か別のものを習いたいと思っている。田中さんはどの教室だったら参加できるか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "折り紙"
+        },
+        {
+          "id": "2",
+          "text": "お茶"
+        },
+        {
+          "id": "3",
+          "text": "お花"
+        },
+        {
+          "id": "4",
+          "text": "日本料理"
+        }
+      ],
+      "correctOptionId": "1",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Tìm kiếm thông tin"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 1: 折り紙.",
+        "correctReasonVi": "Lớp múa học thứ Ba và thứ Bảy lúc 18:30–20:00. Lớp gấp giấy học thứ Ba cùng giờ và chỉ một lần/tuần.",
+        "optionReasonsVi": {
+          "1": "ĐÚNG: Đúng, thứ Ba 18:30–20:00",
+          "2": "SAI: Trà đạo thứ Sáu",
+          "3": "SAI: Cắm hoa thứ Bảy nhưng 14:30–16:30",
+          "4": "SAI: Nấu ăn vào Chủ nhật thứ nhất và thứ ba, khác ngày và giờ"
+        },
+        "translationVi": "Con gái học cấp ba của ông/bà Tanaka đăng ký học múa. Vì lần nào cũng đưa con đến hội quán bằng ô tô, ông/bà muốn học một môn khác đúng cùng ngày và giờ với con, chỉ một buổi mỗi tuần. Có thể tham gia lớp nào?",
+        "vocabulary": [
+          {
+            "word": "踊り",
+            "hiragana": "おどり",
+            "meaningVi": "múa"
+          },
+          {
+            "word": "折り紙",
+            "hiragana": "おりがみ",
+            "meaningVi": "gấp giấy"
+          },
+          {
+            "word": "曜日",
+            "hiragana": "ようび",
+            "meaningVi": "thứ trong tuần"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Nと同じ～",
+            "meaningVi": "Cùng… với N",
+            "exampleJa": "娘と同じ時間に習う。",
+            "exampleVi": "Học cùng giờ với con gái."
+          }
+        ],
+        "readingEvidenceJa": "踊り：火・土、18:30～20:00。折り紙：火、18:30～20:00。",
+        "studyTipVi": "Lọc đồng thời số buổi, ngày và giờ, không chỉ một tiêu chí."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 29/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    },
+    {
+      "id": "n3-2010-12-rea-039",
+      "number": 39,
+      "section": "reading",
+      "mondai": "Mondai 7",
+      "subtype": "information_search",
+      "weight": 1,
+      "passageId": "n3-2010-12-p-r07",
+      "questionText": "山田大学の留学生のリーさんは、この会館で柔道の教室に参加したいと思っているが、柔道着を持っていない。リーさんは、参加料と柔道着をどうしたらいいか。",
+      "options": [
+        {
+          "id": "1",
+          "text": "参加料7000円を払い、柔道着は文化会館で借りる。"
+        },
+        {
+          "id": "2",
+          "text": "参加料5000円を払い、柔道着は文化会館で借りる。"
+        },
+        {
+          "id": "3",
+          "text": "参加料7000円を払い、柔道着は自分で買う。"
+        },
+        {
+          "id": "4",
+          "text": "参加料5000円を払い、柔道着は自分で買う。"
+        }
+      ],
+      "correctOptionId": "4",
+      "difficulty": 3,
+      "tags": [
+        "Đọc hiểu N3",
+        "Tìm kiếm thông tin"
+      ],
+      "explanation": {
+        "summaryVi": "Đáp án 4: 参加料5000円を払い、柔道着は自分で買う。.",
+        "correctReasonVi": "Judo học hai buổi/tuần; phí sinh viên là 5.000 yên. Võ phục phải tự chuẩn bị và hội quán cũng có bán.",
+        "optionReasonsVi": {
+          "1": "SAI: Sai mức phí sinh viên và quy định võ phục",
+          "2": "SAI: Đúng phí nhưng võ phục không được cho mượn theo thông báo",
+          "3": "SAI: Đúng việc tự mua nhưng sai phí",
+          "4": "ĐÚNG: Đúng cả mức phí và yêu cầu tự chuẩn bị võ phục"
+        },
+        "translationVi": "Du học sinh Lee của Đại học Yamada muốn tham gia lớp judo nhưng không có võ phục. Lee cần làm gì về học phí và võ phục?",
+        "vocabulary": [
+          {
+            "word": "柔道着",
+            "hiragana": "じゅうどうぎ",
+            "meaningVi": "võ phục judo"
+          },
+          {
+            "word": "参加料",
+            "hiragana": "さんかりょう",
+            "meaningVi": "phí tham gia"
+          },
+          {
+            "word": "留学生",
+            "hiragana": "りゅうがくせい",
+            "meaningVi": "du học sinh"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "pattern": "Vてください",
+            "meaningVi": "Hãy làm V",
+            "exampleJa": "自分で準備してください。",
+            "exampleVi": "Hãy tự chuẩn bị."
+          }
+        ],
+        "readingEvidenceJa": "週2回の教室：学生（高校生以上）5000円。柔道の教室で着る柔道着は自分で準備してください。会館でも売っています。",
+        "studyTipVi": "Đọc đồng thời bảng phí và mục その他; sinh viên đại học thuộc 学生（高校生以上）."
+      },
+      "review": {
+        "status": "needs_review",
+        "notes": "PDF trang 29/30. Câu hỏi và lựa chọn lấy từ PDF; đáp án và giải thích do AI phân tích, chưa có đáp án gốc và chưa được người kiểm duyệt."
+      }
+    }
+  ],
+  "questionCount": 74
+}
